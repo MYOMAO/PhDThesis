@@ -132,7 +132,7 @@ Historically, many efforts to understand QCD in extreme conditions have been mad
 
 \subsection{QCD at Finite Temperature}
 
-In QCD, under extremely high energy density, the degree of freedom of the system increases via particle production. Many-body dynamics become relevant. In the limit of large number of quarks and gluons, after a sufficiently long period of time, the system reach thermal equilibrium via strong interaction \cite{MLBThermal,ADSCFTThermal,QCDThermal}. Therefore, a description based on thermodynamics can be formulated to study such systems \cite{QCDThemDyn}. We call this thermalized and strongly interacting many-body system of quarks and gluons to be QCD matter.
+In QCD, under extremely high energy density, the degree of freedom of the system increases via particle production. Many-body dynamics become relevant. In the limit of large number of quarks and gluons, after a sufficiently long period of time, the system reach thermal equilibrium via the strong interaction \cite{MLBThermal,ADSCFTThermal,QCDThermal}. Therefore, a description based on thermodynamics can be formulated to study such systems \cite{QCDThemDyn}. We call this thermalized and strongly interacting many-body system of quarks and gluons to be QCD matter.
 
 Therefore, an additional variable temperature ($\mathbf{T}$) can be introduced to study such QCD systems. There are some interesting QCD phenomenologies involving temperature as listed in the following subsections.
 
@@ -214,7 +214,7 @@ Currently, physicists are actively looking for evidences of Chiral Magnetic Effe
 
 \subsection{Temperature Dependence of QCD Static Potential}. 
 
-If we consider two quarks in the limit of finite mass and are essentially at rest in the lab frame, we can define a QCD static potential between these two quarks due to the strong interaction. In vacuum, such a potential is called ``Cornell Potential'' \cite{Cornell}. The potential as a function of the distance between two quarks is shown as follows:
+If we consider two color charged quarks in the limit of infinite mass and are essentially at rest in the lab frame, we can define a QCD static potential between these two quarks due to the strong interaction. In vacuum, such a potential is called ``Cornell Potential'' \cite{Cornell}. The potential as a function of the distance between two quarks is shown as follows:
 
 \begin{equation}
 V(r) = -\frac{\alpha_{eff}}{r} + \sigma r
@@ -228,10 +228,18 @@ Now if we consider at finite temperature T with a thermalized system  between th
 V(r) = -\frac{\alpha_{eff}}{r} e^{-m_D r} + \frac{\sigma}{m_D} (1 - e^{-m_D r})
 \end{equation}
 
-Here, $m_D \sim g_s T$ is the Debye mass due to Debye color screening effect \cite{CSEff}, which essentially modifies the gluon propagator by inserting a finite mass term: $-i \frac{g^{\mu\nu}}{q^2} \rightarrow -i \frac{g^{\mu\nu}}{q^2 - m_D^2}$. In fact, Equation (2) reduces to the Cornell potential when T = 0. The QCD static potential is shown below in Figure~\ref{QCDPotential}
+Here, $m_D \sim g_s T$ is the Debye mass due to Debye color screening effect \cite{CSEff}, which essentially modifies the gluon propagator by inserting a finite mass term: $-i \frac{g^{\mu\nu}}{q^2} \rightarrow -i \frac{g^{\mu\nu}}{q^2 - m_D^2}$. In fact, Equation (2) reduces to the Cornell potential when T = 0. The QCD static potential is shown below in Figure~\ref{QCDPotential} \cite{TDepCornell}
 
 
-Many interesting physics implications can be deduced from QCD at finite temperature.
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter1/QCDPotential.png}
+\caption{The QCD potential $V(r)$ from at zero and at finite temperatures as a function of distance $r$ is shown above. Here, the critical temperature $T_c $ = 192 MeV. We can see that the QCD saturates at a finite value at finite temperature. }
+\label{QCDPotential}
+\end{center}
+\end{figure} 
+
+Many interesting physics implications can be derived from QCD at finite temperature.
 
 
 \subsection{Hadron Mass Spectrum and Hagedorn Temperature}
@@ -246,20 +254,38 @@ Here, $\rho(m)$ dm stands for the number of excited hadron with mass between $m$
 
 \subsection{Color Deconfinement}
 
-As mentioned in the sections above, we see that, at finite temperature, the QCD static potential is screened and color degree of freedom become relevant in the system. As the temperature of the system increase, the quarks and gluon inside color-neutral hadrons will have more available space to move around and start to deconfine \cite{DeconfineTemp}. At some critical temperature $T_c$, quarks and gluons will form a new type color deconfined QCD matter, which is called Quark-Gluon Plasma (QGP). The typical temperature of QGP is in the order of a few hundred MeV or about $10^{12}$ K, which is about a million times hotter than the core of the Sun.
+As mentioned in the sections above, we see that, at finite temperature, the QCD static potential is screened and color degree of freedom become relevant in the system. As the temperature of the system increase, the quarks and gluon inside color-neutral hadrons will have more available space to move around and start to deconfine \cite{DeconfineTemp}. At some critical temperature $T_c$, quarks and gluons will form a new type color deconfined QCD matter, which is called Quark-Gluon Plasma (QGP). The typical temperature of QGP is in the order of a few hundred MeV or about $10^{12}$ K, which is about hundreds of thousands times hotter than the core of the Sun.
 
 \subsection{QCD at High Parton Density}
 
-In the other direction, while keeping zero temperature, by increasing density of the color fields of the system, another form of QCD matter will also emerge \cite{CondensedQCD}.. Due to confinement, a single quark or gluon cannot exit in vacuum. Therefore, the simplest form of QCD system will be a meson, which consist of one quark and one antiquark. The next more complex system will be baryon, for instances, nucleons, which consistent of three quarks. We can then use nucleons to form atomic nuclei and even neutron stars. As the number of nucleons in the system increases, the nucleon density also increases, which increase the color field density. Below, we will discuss the consequence of increasing color field density by increasing the color field lines and decreasing the volume of the system. In general, we can study QCD at High Parton Density by probing small$-x$ physics \cite{SmallX}  
+In the other direction, while keeping zero temperature, by increasing density of the color fields of the system, another form of QCD matter will also emerge \cite{CondensedQCD}. Due to confinement, a single quark or gluon cannot exit in vacuum. Therefore, the simplest form of QCD system will be a meson, which consist of one quark and one antiquark. The next more complex system will be baryon, for instances, nucleons, which consistent of three quarks. We can then use nucleons to form atomic nuclei and even neutron stars. As the number of nucleons in the system increases, the nucleon density also increases, which increase the color field density. Below, we will discuss the consequence of increasing color field density by increasing the color field lines and decreasing the volume of the system. In general, we can study QCD at High Parton Density by probing small$-x$ physics \cite{SmallX}  
 
 
 \subsection{Color Glass Condensate}
 
-One way to increase the color field density is by decreasing its volume. The radius of a hadron will shrink due to the Lorentz contraction effect as it moves with respect to the spectator. However, since the number of color charges inside the does not change, the color field density will increase. At very high energy, the hadrons will turn into ``gluon walls'' \cite{GluonWalls} and form a dense color field of matter \cite{DenseColorField} named Color Glass Condensate is formed \cite{CGCPaper}.
+One way to increase the color field density is by decreasing its volume. The radius of a hadron will shrink due to the Lorentz contraction effect as it moves with respect to the spectator. However, since the number of color charges inside the does not change, the color field density will increase. According to the parton distribution function (pdf), at small $x$, the gluon pdf will dominate. Hence, at very high energy, which is equivalent to small $x$, the hadrons will turn into ``gluon walls'' \cite{GluonWalls} and form a dense color field of matter \cite{DenseColorField} named Color Glass Condensate (CGC) is formed \cite{CGCPaper}. %Figure \ref{CGC} below shows the a simplified version of schematics to visualize CGC of a hadron
+
+\subsection{Gluon Saturation}
+
+However, it is believe that color density of a hadron will not increase indefinitely due to gluon splitting process: $g \rightarrow gg$. At very small $x$, recombination of gluons: $gg \rightarrow g$ also occurs. These two processes compete and eventually balance. They result in a equilibrium color density or, equivalently, a saturation scale $Q_s^2$ \cite{GSIntro}. We call this phenomenon as gluon saturation. Gluon saturation can be described by QCD evolution equations \cite{DGLAP1,DGLAP2,DGLAP3,BFKL,JIMWLKBK}. Figure \ref{GSScalePlot} below shows schematically the different state of a hadron in the double-log scale plot of energy landscape $\ln x$ and the virtuality $\ln Q^2$ \cite{GluonSatuPlot}
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter1/GSScalePlot.png}
+\caption{The double-log scale of energy landscape $\ln x$ and the virtuality $\ln Q^2$ diagram picturing the different regimes of the hadron wave function, the saturation line separates the dilute (DGLAP) regime from the dense (saturation) regime is shown above.}
+\label{GSScalePlot}
+\end{center}
+\end{figure} 
+
+At the EIC, experiments will also be capable of precisely investigating gluon saturation effects through dihadron correlations analysis \cite{}.
+
 
 \subsection{Nuclear Shadowing}
 
 At high energy, or equivalently, small $x$, according to the QCD evolution equation, the gluons inside the nucleon of the nuclei will ``create shadows" on each other \cite{IntroShadow}, The high density effects results in the modification of the nuclear structure function and the gluon nucleon parton distribution \cite{DenseQCD}. Therefore, in high energy hadron-nucleus collision, we expect to see the decrease of cross section per participant nucleons at small-$x$ region compared other $x$ region \cite{ExShadow}. We call this effect as ``nuclear shadowing (of gluons)'' \cite{NuclearShadowing}. 
+
+
+
 \section{QCD Matter}
 
 \subsection{QCD Phase Diagram}
@@ -315,11 +341,13 @@ Nuclear matter is considered as part of the hadron resonance gas in the QCD phas
 
 At very high temperature, quarks and gluons inside the color neutral hadron resonance gas will deconfine and form a new type of matter called quark-gluon plasma (QGP). In cosmology, it is believed that QGP exists in the early universe just several microseconds after the Big Bang during the quark epoch after electroweak phase transition and before nucleosynthesis \cite{QGPCosmology}. 
 
-The temperature of QGP is in order of hundreds of MeV, which is a about a million times hotter than the core of the Sun. Moreover, according to extensive experimental and theoretical studies, QGP demonstrates strongly coupled ideal liquid behavior, which directly contracts to the prediction from asymptotic freedom which predict such matter should behavior like a gas of weakly interacting quarks and gluons. Therefore, the inner workings and proper degrees of freedom of QGP must be somewhere in between weakly coupled quarks and gluons and color neutral hadrons because it still demonstrate significant color freedom due to deconfinement. However, the microscopic structure of QGP is still unknown. Currently, both experimental and theoretical efforts have been conducted to actively investigate the internal structure of QGP.
+
+
+The temperature of QGP is in order of hundreds of MeV, which is about hundreds of thousands times hotter than the core of the Sun. Moreover, according to extensive experimental and theoretical studies, QGP demonstrates strongly coupled ideal liquid behavior, which directly contracts to the prediction from asymptotic freedom which predict such matter should behavior like a gas of weakly interacting quarks and gluons. Therefore, the inner workings and proper degrees of freedom of QGP must be somewhere in between weakly coupled quarks and gluons and color neutral hadrons because it still demonstrate significant color freedom due to deconfinement. However, the microscopic structure of QGP is still unknown. Currently, both experimental and theoretical efforts have been conducted to actively investigate the internal structure of QGP.
 
 Based on its ideal liquid feature, QGP could be described by relativistic viscous hydrodynamics. In fact, the quantum limit predicted by the Anti-de-Sitter Space Conform Field Theory (AdS/CFT). It is about a factor of larger than water.
 
-The accurate equation of state of QGP is currently unknown. According to MIT Bag Model, the energy density $\epsilon$ and pressure $p$ of a plasma of free quarks and gluons as a function of temperature $T$ is as follows \cite{MITBag}:
+The accurate equation of state of QGP is currently unknown. However, it is safe to assume that the strong interaction dominates in the QGP phase because its large coupling results in large cross section compared to the electroweak interaction cross section. Therefore, one can consider only strong interaction between quarks and gluons in the QGP. According to MIT Bag Model, the energy density $\epsilon$ and pressure $p$ of a plasma of free quarks and gluons as a function of temperature $T$ is as follows \cite{MITBag}:
 
 \begin{equation}
 \epsilon = \frac{37 \pi^2}{30} T^4 + \mathcal{B}
@@ -334,8 +362,22 @@ Here, $\mathcal{B}$ is the Bag Constant, which can be understood as the pressure
 If we represent $p$ in terms of $\epsilon$, we get
 
 \begin{equation}
-p = \frac{1}{3} (\epsilon - 4B)
+p = \frac{1}{3} (\epsilon - 4\mathcal{B})
 \end{equation}
+
+Figure \ref{QGPEOS} below shows the equation of state of QGP of three flavor quarks of different model at $\mu_B = 0$ \cite{QGPEOSRef}. 
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.60\textwidth]{Figures/Chapter1/QGPEOS.png}
+\caption{Predictions the normalized pressure to the stefan Boltzmann pressure $P_{SB} = \sigma T^4$ as a function of temperature $T$ for three-flavor QGP obtained from lattice QCD, the MIT bag model and perturbative QCD including their uncertainties bands are shown.}
+\label{QGPEOS}
+\end{center}
+\end{figure} 
+
+We can clearly see that a gradual rise of the pressure from near 0 to 1 as the temperature increases, indicating an smooth increase the total degree of freedom of the system due to the color deconfinement. 
+
 
 \subsection{Color Superconductor}
 
@@ -343,7 +385,11 @@ Under extremely high net baryon density, there is another hypothetical state of 
 
 \subsection{Phase Transition}
 
-As we increase the temperature, hadron resonance gas will undergo a phase transition into QGP. The chiral symmetry is restored from the phase transition of hadron resonance gas to QGP. However, the order of the phase transition from resonance hadron to QGP is still unknown. According to lattice QCD calculations, near zero baryon chemical potential ($\mu_B = 0$), the phase transition is a smooth cross over. However, at finite baryon chemical, it is believe that the phase is a first order phase transition according to different model calculations \cite{QCDFirstOrder}. The hint of first order phase transition can be found in the softening equation of state in the cross over region \cite{EOSPhase}. However, currently, the order of phase transition from hadron resonance gas to QGP at high baryon chemical potential is still an open question. %However, there is no direct physical observable to determine the order of the phase transition in experiments \cite{Observables}.
+As we increase the temperature, hadron resonance gas will undergo a phase transition into QGP. The chiral symmetry is restored from the phase transition of hadron resonance gas to QGP. However, the order of the phase transition from resonance hadron to QGP is still unknown. According to lattice QCD calculations, near zero baryon chemical potential ($\mu_B = 0$), the phase transition is a smooth cross over. According to lattice QCD calculations, at $\mu_B = 0$, the degree of freedom transition drastically increases near the critical temperature $T_c$. 
+
+ 
+
+ However, at finite baryon chemical, it is believe that the phase is a first order phase transition according to different model calculations \cite{QCDFirstOrder}. The hint of first order phase transition can be found in the softening equation of state in the cross over region \cite{EOSPhase}. However, currently, the order of phase transition from hadron resonance gas to QGP at high baryon chemical potential is still an open question. %However, there is no direct physical observable to determine the order of the phase transition in experiments \cite{Observables}.
 
 \subsection{Critical Point}
 
@@ -351,27 +397,346 @@ If the theoretical predictions are correct, according to thermodynamics, there m
 
 \section{High Energy Nuclear Physics}
 
+Nuclear Physics is a study of atomic nuclei and their structures and interactions, which a typical energy scale ranging from MeV to GeV. High Energy Nuclear Physics is a subfield of Nuclear Physics at an energy scale on the order of GeV using heavy nuclei (A > 56). Its main goal is to under the physics of QCD matter from various approaches such as collider experiments, astrophysical observations, lattice QCD computation, and theoretical modeling. In this thesis, I will focus on the research of QGP physics from the experimental approach using high energy heavy-ion colliders.
+
 \subsection{Laboratories}
 
-In laboratories, physicist collider heavy nuclei at high energy to study QCD under extremely hot and dense condition.
+In laboratories, high energy nuclear physicists accelerate and collide heavy ions (A > 56) at center of mass high energy per nucleon at grater than 1 GeV to create extremely hot and dense condition and study QGP. Historically, many colliders, such as the Alternating Gradient Synchrotron (AGS) at Brookhaven National Laboratory (BNL), in Upton, Long Island, New York and Super Proton Synchrotron (SPS) at European Center for Nuclear Research (CERN) in Meyrin, Switzerland, and GSI at Helmholtz Centre for Heavy Ion Research with both proton-proton and relativistic heavy-ion collision capabilities, have been built and established high energy nuclear physics research programs. Today, two active colliders, the RHIC at BNL and LHC at CERN, are running at different energy with various nuclei species at a wide range of impact parameters. In the future, another one collider Facility for Antiproton and Ion Research (FAIR) running at a relatively low energy and high baryon chemical potential is being constructed at Darmstadt, Germany to map the location of critical point in the QCD Phase Diagram. 
 
-\subsection{Heavy-Ion Accelerators}
+In addition to collider facilities, QGP might also be studied from astrophysical observations. For instance, strange stars, a quark star made of strange quark matter, may be form from stable strangelet according to Bodmer--Witten conjecture \cite{SQMReview} or exist in the core of neutron stars under extreme pressure and temperature. It is believe there are several potential strange stars candidates according to telescope observations and gamma ray burst analysis \cite{SS1,SS2,SS3}.
 
-\subsection{Heavy-ion Physics Detectors}
+%\subsection{Heavy-Ion Accelerators}
+
+\subsection{Relativistic Heavy Ion Collider (RHIC)}
+
+Located at BNL in Upton, Long Island, New York, United States of America, RHIC is one of the major high energy accelerator facilities and currently the highest energy collider in America. It is a circular collider with a circumference of 3.843 kilometers and can provide proton energy up to 500 GeV and gold energy up to 200 GeV \cite{RHICReport}. It was built in 2000 in order to search for a strongly interacting hot and dense state of matter created under ultra-relativistic heavy-ion collisions, currently known as QGP, with hints from the measurement at AGS. Moreover, RHIC provides physicists with a wide range of energies and a variety of ion species from proton to deuteron and cooper to uranium create different sizes of system at different temperature and baryon chemicals. In addition, taking the advantage from its highly polarization beam with high luminosity, it has a great machine capabilities for cold QCD physics. Figure \ref{RHIC} below shows a sky view of RHIC at BNL:
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.85\textwidth]{Figures/Chapter1/RHIC.jpg}
+\caption{The overview of RHIC at BNL from the sky view is shown above. The actual locations of other accelerator facilities at BNL, including Linac, Booster, EBIS, NSRL, AGS, and the experiments at RHIC,STAR and PHENIX, are also labelled.}
+\label{RHIC}
+\end{center}
+\end{figure} 
+
+Here is how RHIC accelerates charged particles to the energy scale of GeV per nucleon. For instance, if we consider the acceleration of a typical ion source gold (${}^{197}_{79}Au$) ion, we first use a cesium sputter ion source operated in the pulsed beam mode point to the gold metal and produce the $Au^-$ ion \cite{FirstAuSource}. Then, the $Au^{-}$ will undergo a series of electron stripping process to reach the $Au^{79+}$ ion \cite{RHICStrpDetail}. First, 13 electrons are stripped by the carbon foil in the Terminal Stripping (S1) after the acceleration of tandem Van der Gaaf generator to turn $Au^{-}$ to $Au^{12+}$. Then, the $Au^{12+}$ ion will go through the Object Foil (S2) at the second stripping stage and becomes $Au^{31+}$. Next, the $Au^{31+}$ will go through the third stripping station BTA foil (S3) made of aluminum and vitreous carbon between the Booster Synchrotron and AGS and becomes $Au^{77+}$. Finally, two more electrons of the gold ion $Au^{77+}$ are removed at the fourth stripping station ATF foil (S4) made of thin tungsten, located between the AGS and RHIC. The fully stripped gold ion $Au^{79+}$ inject to the blue and yellow rings at RHIC. For polarized protons, $H^-$ pass a single stripping stage called located in the Booster Synchrotron. The stripping station is called Linac-to-Booster (LTB) stripper made of carbon foils with special geometry and converts polarized $H^-$ to $H^+$. Figure \ref{AccAu} schematically shows the accelerating process of gold ions at RHIC \cite{AuStripRef}
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter1/AccAu.png}
+\caption{The acceleration of gold ions for RHIC is shown above.}
+\label{AccAu}
+\end{center}
+\end{figure} 
+
+At RHIC, we will accelerate the $Au^{79+}$ ions in the superconducting Radio Frequency (RF) cavity under perpendicular electric and magnetic fields and increase their energies to about 100 GeV/c per nucleon. Then, we collider them via bunch crossing at interaction points of the experiments to perform relativistic heavy-ion collisions to study high energy nuclear physics. The RHIC collider usually operates in the first six months of a calendar year. At RHIC, the energy can also be lower where the ion beam collides with ions at a lower energy in the laboratory frame. STAR beam energy scan even fixed target mode.
+
+\subsection{Large Hadron Collider (LHC)} 
+
+Located at the border between Switzerland and France, LHC is one of the major high energy accelerator facilities in Europe and currently the highest energy collider in the world. It is a circular collider with a circumference of 26.7 kilometers and can provide proton energy up to 14.0 TeV and lead ion energy up to 5.02 TeV \cite{LHCReport}. It was built in 2008 with the main purpose to discover the Higgs Boson, perform precision measurements on SM, and search for Physics beyond SM. Due to its high energy and ion capabilities, high energy nuclear physicists also use the existing general purpose detectors for high energy particle experiment at the LHC to conduct research on relativistic heavy-ion physics. LHC ion physics runs usually starts at the end of the year and lasts for about a month. The photo taken from the sky to picture LHC is shown in Figure \ref{LHC}:
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.85\textwidth]{Figures/Chapter1/LHC.png}
+\caption{The overview of LHC at CERN from the sky view is shown above. The actual locations of the experiments at the LHC, ATLAS, CMS, ALICE and LHCb, as well as the French-Swiss border, are also labelled.}
+\label{LHC}
+\end{center}
+\end{figure} 
+
+The ion source CERN usually uses is lead ${}^{208}_{82} Pb$, which is stable and approximately spherical. In the 2017 ion run, it also used the xenon ${}^{131}_{52} Xe$. Currently, there is also a discussion of potential future lighter ions such as oxygen ${}^{32}_{16} O$ \cite{OORun}. Similar to RHIC, the lead ion at the LHC also undergoes a series of stripping processes using stripping foils in to order to become partially ionized $Pb^{81+}$ \cite{LHCStrip}. Also, the lead ions pass a series of energy boosting before reaching to the desired energy at the LHC. Lead ions starts from a source of vaporized lead and enter Linac 3 before being collected and accelerated in the Low Energy Ion Ring (LEIR) at the energy from 4.2 MeV to 72 MeV. Then, the lead ion will inject to Proton Synchrotron (PS) to boost its energy. Then, the they are sent to the Super Proton Synchrotron (SPS). Finally, the lead ion are injected to the LHC and increase their energy to TeV scale two LHC rings with the RF cavity with 400 MeV and an electric field strength of 5 MV/m \cite{LHCReport}. The energetic lead ions beams from two LHC rings will collide heads on with a small crossing angle at the interaction points of the LHC experiments. The CERN accelerator complex is shown schematically in \ref{CERNAccComplex} 
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.65\textwidth]{Figures/Chapter1/CERNAccComplex.jpg}
+\caption{The schematic overview of CERN accelerator complex with the accelerators labelled is shown above. Proton and lead ion are accelerated using these facilities to boost to the energy scale of TeV.}
+\label{CERNAccComplex}
+\end{center}
+\end{figure} 
+
+After Run III, LHC will upgrade to High Luminosity (HL) LHC and allow physicists to collect huge datasets, which is crucial for the precision measurements to study QGP in the heavy-ion physics program.
+
+\subsection{High Energy Physics Coordinates}
+
+As mentioned in the previous section, the collision system of heavy-ion is in general highly relativistic. Therefore, Lorentz transformation will be relevant in our studies. In Cartesian coordinates $x^\mu = (t,x,y,z)$, under Lorentz transformation, if we boost the system by a speed $\beta$ in the $+z$ direction. The Lorentz gamma factor will be given by $\gamma = \frac{1}{\sqrt{1 - \beta^2}}$. The four vector $x^\mu \rightarrow x'^\mu$ transforms as follows
+
+\begin{align}
+   \begin{bmatrix} 
+           t' \\
+           x' \\
+           y' \\
+           z' \\
+         \end{bmatrix} =
+             \begin{bmatrix} 
+             \gamma  & 0  & 0 & - \gamma \beta \\ 
+            0 & 1 & 0 & 0 \\ 
+             0 & 0 & 1 & 0 \\
+             - \gamma  \beta & 0 & 0 &  \gamma \\
+	\end{bmatrix} 
+	  \begin{bmatrix} 
+           t \\
+           x \\
+           y \\
+           z \\
+	\end{bmatrix}
+\end{align}
+
+The equation above is called the Lorentz Transformation. It is an orthogonal transformation preserving the Minkowski metric tensor $diag(1,-1,-1,-1)$ using particle physicists conventions.
+
+
+
+Experimentally, nowadays, heavy-ion detectors usually have $2\pi$ angular coverage in the transverse direction with some finite longitudinal acceptance along the beam line. They look cylindrically symmetric. Hence, it is convenient and wise to choose a cylindrical coordinate system and use kinematic variables with Lorentz invariance, including boosting and rotation. In standard cylindrical coordinates in the position space, Lorentz four-vectors is used $(t,x,y,z) \rightarrow (t, r, \phi, z)$. 
+
+
+The relativistic coordinate system for our analysis are shown below in Figure \ref{HICoordinates}. 
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.40\textwidth]{Figures/Chapter1/PosCylindrical.png}
+\includegraphics[width=0.40\textwidth]{Figures/Chapter1/STDiagram.png}
+\caption{The cylindrical coordinate system in the position space (left) and the space time diagram (right) for relativistic heavy-ion physics analysis are shown above.}
+\label{HICoordinates}
+\end{center}
+\end{figure} 
+
+
+Thus, for the momentum space, we can use $p^\mu = (E,p_x, p_y, p_z) \rightarrow  (E,p_T, \phi, p_z)$ 
+
+\begin{equation}
+p_T = \sqrt{p_x^2 + p_y^2}
+\end{equation}
+
+\begin{equation}
+\phi = \arctan(\frac{p_y}{p_x})
+\end{equation}
+
+We also define rapidity $y$, a relativistic version of velocity that can be convenient add to the boost.
+
+\begin{equation}
+y = \frac{1}{2} \ln \frac{E+p_z}{E-p_z}
+\end{equation}
+
+
+Experimentally, we also use pseudo-rapidity $\eta$, which is more directly connected to the detector measurement assuming ultra-relativistic limit kinematics ($E \rightarrow p$). The definition of pseudo-rapidity $\eta$ is shown as follows:
+
+\begin{equation}
+\eta =  - \ln \tan(\frac{\theta}{2})
+\end{equation}
+
+Here $\theta$ is the angle labelled in the left of Figure \ref{HICoordinates}. Particularly, $y = 0$ and $\eta = 0$ when $p_z = 0$. In addition, boosting in the longitudinal z-direction, we found that the rapidity simply 
+
+For general collider experiments, two particles are moving toward each other with four-momenta $p_1^\mu$ and $p_2^\mu$ and interact with each other. It is also very convenient to use the Mandelstam variables $s, t, u$ in our studies. They are defined as follows
+
+\begin{equation}
+s \equiv (p_1 + p_2)^2
+\end{equation}
+
+\begin{equation}
+t \equiv (p_1 - p_2)^2
+\end{equation}
+
+\begin{equation}
+u \equiv (p_1 - p_3)^2
+\end{equation}
+
+
+Here the center of mass frame, since we know the tree vector $\vec{p_1} = -\vec{p_2} = \vec{p}$ energy is the Mandelstam variable $s \equiv (p_1 + p_2)^2$ where $p_1$ and $p_2$ are the four-momenta of the incident beam particles. Therefore, we can see that $p_1^\mu = (E, \vec{p})$ and $p_2^\mu = (E, -\vec{p})$. Hence, $s \equiv (p_1 + p_2)^2$ = $4E^2$ = $E_{CM}^2$. Hence, the center of mass energy of the collision system could be represented by the Mandelstam variable $\sqrt{s}$: $E_{CM} = \sqrt{s}$.
+
+
+%\subsection{Heavy-ion Physics Detectors}
 
 \subsection{Stages of Heavy-Ion Collisions}
 
-\subsection{Coordinates}
+In high energy heavy-ion collisions, both Electroweak and QCD processes occur in each event and contribute to the total cross section. We classify the events with elastic and inelastic reaction processes. For elastic processes, two nuclei scatter mainly electromagnetically with each via photon exchange without breaking themselves up or losing energy. For inelastic scattering, we classify diffractive and non-diffractive disassociation processes. In diffractive dissociation processes, the two nuclei may be slightly excited and lose a relatively small fraction of energy, producing relatively small number of particles. On the other hand, in non-diffractive dissociation processes, the nuclei lose a substantial fraction of their energies and produce a large number of particles \cite{CYWong}. 
+
+Therefore, in events with significant contribution from non-diffractive dissociation, the interaction between two nuclei is indeed a multi-stage process including both perturbative and non-pertubative QCD processes. We can define stages of heavy collisions and understand the details of each stage. It consists of five stages: initial state of two high Lorentz contracted nuclei before the collision, the very early pre-equilibrium stage where hard scattering between partons inside nuclei starts, the rapid expansion of the fireball begins when the thermally and chemically equilibrated QGP, the hadronization stage after QGP expands and cools down, and the freeze-out stage when the inelastic scattering process ceases.
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.75\textwidth]{Figures/Chapter1/Heavy-Ion-Process.png}
+\caption{An event of a typical heavy-ion collisions event with different stages as time evolves is shown above.}
+\label{CERNAccComplex}
+\end{center}
+\end{figure} 
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter1/HICSTEvolve.png}
+\caption{The space-time evolution of heavy-ion collisions is shown above. It consists of four stages: initial state before the collision, the creation of quark-gluon plasma right after of the collision, hadronization after quark-gluon plasma expands and cools down, and the freeze-out stage when the inelastic scattering process ceases.}
+\label{CERNAccComplex}
+\end{center}
+\end{figure} 
+
+Theoretically, many phenomenological models such as Ultra-Relativistic Quantum Molecular Dynamics (UrQMD) and A Multi-Phase Transport Model (AMPT) are developed to describe relativistic heavy-ion collisions. 
+
+
+\subsection{Global Event Observables}
+
+Globally, we can define some physics quantities to describe heavy-ion collisions to generally characterize each event. Heavy-ion Physicists defined the impact parameter, centrality, number of participants, We will discuss all of them below.
+
+\textbf{Impact Parameter:} Prior to heavy-ion collisions, similar to other collider experiments, each event are prepared with the same unpolarized incoming particles with the same center of mass energy. Therefore, the incoming state $\ket{i}$ is used for each event. However, different from $e^+ e^-$ and $pp$ collision, in heavy-ion physics, we introduce another parameter called the impact parameter denoted $b$ to the transverse distance between center of two nuclei to classify the events. Therefore, the incoming state can be rewritten as  $\ket{i (b)}$. Figure \ref{IPHIColl} shows the definition of impact parameter in heavy-ion collision \cite{IPHICText}.
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter1/IPHIColl.png}
+\caption{The definition of impact parameter $b$ in heavy-ion collision and the of overlapping interaction region and the break up remnants of the two nuclei, which is called spectator, moving in the z-direction are shown above. We can also see that heavy-ion collisions have an almond shape interaction region, which results in the azimuthal anisotropic emission of final state particles.}
+\label{IPHIColl}
+\end{center}
+\end{figure} 
+
+
+\textbf{Number of Participating Nucleons:} Right at the end of heavy-ion collisions after two nuclei pass through with each other, we can define the number of participating nucleon denoted $N_{part}$. The smaller the impact parameter, the more overlap volume between two nuclei, leading to a larger number of number of participating nucleon in the collision. The nuclear interaction system size is determined by the number of participating nucleons. However, due to event-by-event fluctuation of nuclei geometry caused by the nucleon dynamics inside nuclei \cite{GuntherV3}, it is more proper to say that the average number of participating nucleon is related to the impact parameter.
+
+\textbf{Number of Binary Nucleon-Nucleon Collisions:} In addition to $N_{part}$, we can also define another quantity that characterize details interaction of the events at the rather hard scale. The number of binary nucleon-nucleon collisions, denoted $N_{coll}$, is also related to the impact parameter. At higher energy, nucleons inside nuclei become a relevant degree of freedom to the cross section. We could treat the collisions of two nuclei as the superposition of the collisions between nucleons inside the nuclei. Since binary nucleon-nucleon collision has a rather small cross section, it dominates the total nucleon-nucleon cross section according to binomial principle. Glauber model is developed to study the relationship between $b$, $N_{part}$, and $N_{coll}$ in nuclei collisions and will be discussed in the following subsection.
+
+
+\textbf{Centrality:} Experimentally, it is difficult to directly measure the impact parameter of each collision. Therefore, we define another physical quantity called centrality to characterize the impact parameter. The centrality ($C$) is defined fraction of the total nuclear interaction cross section: $C = \int^b_0 \frac{d\sigma}{dx} dx$ . Centrality is expressed in terms of percentage \cite{CentDef}. It is proportional to the quantity: $\frac{\pi b^2}{4\pi R_A^2}$ where $R_A$ is the radius of a nuclei defined above in Figure \ref{IPHIColl}. When the impact parameter between two nuclei is 0, the centrality is at 0\%. When the  impact parameter between two nuclei is 2$R_A$, the centrality is 100\%. There is a relationship between the centrality and the average number of participant nucleons. Heavy-ion experimental measurements are in general presented in terms of centrality or average number of participating nucleon. Experimentally, we look at the number of tracks and activities of calorimeters at the very forward direction (Zero Degree Calorimeters) to estimate the centrality \cite{ALICEZDC,CMSZDC,ATLASZDC}. 
+
+
+\textbf{Virtuality:} Similar to deep inelastic scattering, we can also define the virtuality $Q^2$, which is the momentum transfer between the two nucleons in nucleon-nucleon collisions. To generate nucleon-nucleon collision event, we used $\hat p_T$, defined as the transverse momentum of the hard subprocess, which is a quantity related to $Q^2$, developed by the high energy theory group of Lund University.
+
+
+
+\textbf{Event Multiplicity:} We can also define the event multiplicity by counting the number of final state charged particles to quantify the activity of the event. Event multiplicity can be denoted as $N_{trk}$, number of tracks in the event, which is proportional to the number of charged particle denoted as $N_{ch}$. Figure \ref{CentDefPlot} shows the correlation between the number of participating nucleons in a heavy-ion collision, their cross section and the impact parameter, defining the centrality classes \cite{CentPlot}.
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter1/CentDefPlot.png}
+\caption{The plot showing relationship among number of charged particle, $N_{ch}$, related to the number of participating nucleon $N_{part}$, the differential cross section $\frac{d\sigma}{dN_{ch}}$, and the centrality, according to the Glauber Model calculations, is shown above.}
+\label{CentDefPlot}
+\end{center}
+\end{figure} 
+
+
+The initial global parameters such as the collisions energy, impact parameter, and polarization can be treated the knobs for high energy nuclear physicists to play with in order to study relativistic heavy-ion collisions and create the strongly interacting system at different sizes with different chemical potentials and temperatures in the QCP phase diagram. Figure \ref{STAREvtDisplay} shows an event display of thousands of tracks from a central Au + Au collision event at 200 GeV recorded by the Time Projection Chamber (TPC) of the STAR experiment at RHIC.
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.50\textwidth]{Figures/Chapter1/STAREvtDisplay.png}
+\caption{Two gold ions collide head-on in the STAR detector. The event with reconstructed tracks of final state particles are display by STAR TPC shown above.}
+\label{STAREvtDisplay}
+\end{center}
+\end{figure} 
+
+
 
 \subsection{Glauber Model}
 
-\section{The Quest for the Quark-Gluon Plasma}
+The Glauber Model, named after Physicist Roy Glauber \cite{Glauber}, is originally developed to address high energy scattering problem with composite particles in the optical limit where optical theorem is applicable \cite{Optical1,Optical2}. It is a model describing two composite objects collider inelastically with each other and relate the cross section to the cross section of collision between two point objects. The Glauber Model can be applied to study nucleon-nucleus (N-A) and nucleus-nucleus (A-B) collisions with nucleon-nucleon (N-N) collisions and determine relationship between the global observables mentioned in the previous subsection.    
+
+ If we consider a spherically symmetric nucleus, the nuclear charge density can be parameterize $\rho(r)$ by the Fermi distribution with three parameters below
+
+\begin{equation}
+\rho(r) = \rho_0 \frac{1 + w(r/R)^2}{1 + \exp({\frac{r-R}{a}})}
+\end{equation}
+
+According to the Glauber Model \cite{Glauber}, the N-N inelastic cross section is denoted as $\sigma_{in}^{NN}$ and the effective thickness function of a nucleon is defined as a function of impact parameter in the transverse direction: $T(\vec{b})$. It is defined as follow
+
+\begin{equation}
+T(\vec{b}) =  \int \rho(\vec{b},z) dz 
+\end{equation}
+
+It is normalized to unity: $\int^{R_A}_0 T(\vec{b}) d^2b = 1$. $T(\vec{b})$ essentially depends on density of the nucleus $r(b)$. If the nucleus has a uniform cylinder and the collide on its circular face along its height, then $T(\vec{b})$ will be a constant. Therefore, the probability that a nucleon collides with a nucleon inside the nucleus is given by $\sigma_{in} T(\vec{b})$. Therefore, the probability of $n$ nucleon collision is given by
+
+\begin{equation}
+P_n = {A \choose n} \sigma_{in}^{NN} T(\vec{b})^{n} [1 - \sigma_{in} T(\vec{b})]^{A-n}
+\end{equation}
+
+Hence, if we consider a constant fraction of $\mu$ ($0 \le \mu \le 1$) of particle produced after each collisions, we can calculation the average multiplicity $\langle N(\mu) \rangle$:
+
+\begin{equation}
+\langle N(\mu) \rangle = \Sigma_n P_n \Sigma^{n-1}_0 \mu^m =  \Sigma_{n-1} P_n \frac{1 - \mu^n}{1 - \mu} = \frac{1}{1-\mu} \{ 1 - [1 - (1-\mu) \sigma_{in} T(\vec{b})]^A \}
+\end{equation}
+
+It turns out that we have the following relationship between $N_{part}$ and $N_{coll}$ with $\langle  N(\mu) \rangle$  \cite{Glauber}
+
+\begin{equation}
+N_{part} = \langle N(\mu = 0) \rangle 
+\end{equation}
+
+\begin{equation}
+N_{coll} = \frac{1}{2} \langle N(\mu = 1) \rangle = A T(\vec{b}) \sigma_{in}^{NN}
+\end{equation}
+
+In a more generalized case: A-B collisions, Figure \ref{GlauberRef} shows sides view and beam-line view of heavy-ion collision of projectile B on target A
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.65\textwidth]{Figures/Chapter1/GlauDefColl.png}
+\caption{The A-B collision with the definition of the impact parameter vector $\vec{b}$ and the distance of nucleon to the center of projectile B $\vec{s}$ are shown above. The distance of the nucleon in B to center of the target A is $\vec{s}-\vec{b}$ according to vector subtraction rule. Here we assume both nuclei A and B are perfect spheres.}
+\label{GlauberRef}
+\end{center}
+\end{figure} 
+
+Using similar ideas \cite{CentPlot}, we could first calculate the effective thickness function $T_{AB}$ as follows:
+
+
+\begin{equation}
+T_{AB}(\vec{b}) = \int T_A(\vec{s}) T_B(\vec{b} - \vec{s}) d^2s 
+\end{equation}
+
+
+
+Now replacing T($\vec{b}$) in N-A by $T_{AB}(\vec{b})$ in A-B, we can obtain
+
+\begin{equation}
+\langle N(\mu) \rangle = \frac{A}{1-\mu} \int_0^b T_A(\vec{s}) \{1 - [1 - (1 - \mu) T_{B}(\vec{b}-\vec{s}) \sigma_{in}^{NN}]\}^A d^2s  +  \frac{B}{1-\mu} \int_0^b T_B(\vec{s}) \{1 - [1 - (1 - \mu) T_{A}(\vec{b}-\vec{s}) \sigma_{in}^{NN}]\}^B d^2s
+\end{equation}
+
+
+To obtain $N_{part}$, evaluate at $\mu = 0$, we get 
+
+\begin{equation}
+N_{part} =  A \int_0^b T_A(\vec{s}) \{1 - [1 - T_{B}(\vec{b}-\vec{s}) \sigma_{in}^{NN}]^A\}d^2s +  B \int_0^b T_B(\vec{s}) \{1 - [1 - T_{A}(\vec{b}-\vec{s}) \sigma_{in}^{NN}]^B\} d^2s
+\end{equation}
+
+To obtain $N_{coll}$, evaluate at $\mu = 1$, we get
+
+\begin{equation}
+N_{coll} = AB T_{AB}(\vec{b}) \sigma_{in}^{NN}
+\end{equation}
+
+In a very special case, assume the nucleon are simply perfect rigid sphere with the same radius and head-on collide with each other (impact parameter is $b=0$). That is $T_{A} \sigma_{in}^{NN} = T_{B} \sigma_{in}^{NN} = T_{AB} \sigma_{in}^{NN} = 1$, we get 
+
+
+\begin{equation}
+N_{part} = A + B
+\end{equation}
+
+\begin{equation}
+N_{coll} = AB
+\end{equation}
+
+The results above of $N_{part}$ and $N_{coll}$ agree to our expectation. 
+
+Experimentally, compare the Glauber Model with simulations of the $N_{part}$ and $N_{coll}$ as a function of impact parameter $b$. Figure \ref{NPartandNColl} from the \cite{CentPlot}
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.50\textwidth]{Figures/Chapter1/NPartandNColl.png}
+\caption{Two gold ions collide head-on in the STAR detector. The event with reconstructed tracks of final state particles are display by STAR TPC shown above.}
+\label{NPartandNColl}
+\end{center}
+\end{figure} 
+
+
+
+Therefore, we can apply the Glauber model to determine $N_{part}$ and $N_{coll}$ for a given centrality range, which will be used in our analysis to obtain the corrected yield. It is believed that the production of light hadrons, such as pions and kaons, scale as $N_{part}$ \cite{NPartScaling} while heavy flavor hadrons, such as B and D mesons, are scale as $N_{coll}$ \cite{NCollScaling}.
+
+\section{Characterization of Quark-Gluon Plasma}
+
+Equipped with the knowledge of heavy-ion collisions, we are ready to use them to create and study QGP in laboratories. The following subsections will describe the characterization of QGP from its predicted signature to open questions today, which leads to my thesis research.
 
 \subsection{Signatures}
 
 \subsection{Discovery}
 
-\subsection{Properties}
+\subsection{Macroscopic Properties}
 
 %Nuclear Physics is a study of the interaction of nucleons and structure of atomic nuclei. 
 \subsection{Microscopic Structure}
