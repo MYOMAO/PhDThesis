@@ -714,34 +714,94 @@ N_{coll} = AB
 
 The results above of $N_{part}$ and $N_{coll}$ agree to our expectation. 
 
-Experimentally, compare the Glauber Model with simulations of the $N_{part}$ and $N_{coll}$ as a function of impact parameter $b$. Figure \ref{NPartandNColl} from the \cite{CentPlot}
+The comparison of the Glauber Model with simulations of the $N_{part}$ and $N_{coll}$ as a function of impact parameter $b$. Figure \ref{NPartandNColl} from the \cite{CentPlot}
 
 \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=0.50\textwidth]{Figures/Chapter1/NPartandNColl.png}
-\caption{Two gold ions collide head-on in the STAR detector. The event with reconstructed tracks of final state particles are display by STAR TPC shown above.}
+\caption{The $N_{part}$ and $N_{coll}$ as a function impact parameter calculated from the Glauber Model with optical approximation (lines) and from MC simulations (circles) are shown above. We can see they have almost perfect agreement with each other.}
 \label{NPartandNColl}
 \end{center}
 \end{figure} 
 
 
-
-Therefore, we can apply the Glauber model to determine $N_{part}$ and $N_{coll}$ for a given centrality range, which will be used in our analysis to obtain the corrected yield. It is believed that the production of light hadrons, such as pions and kaons, scale as $N_{part}$ \cite{NPartScaling} while heavy flavor hadrons, such as B and D mesons, are scale as $N_{coll}$ \cite{NCollScaling}.
+Therefore, we can apply the Glauber model to determine $N_{part}$ and $N_{coll}$ for a given centrality range of AA collision ($T_{AB} \rightarrow T_{AA}$), which will be used in our analysis to obtain the corrected yield. It is believed that the production of light hadrons, such as pions and kaons, are scaled as $N_{part}$ \cite{NPartScaling} while electroweak bosons, such as W and Z boson, are scaled as $N_{coll}$ \cite{NCollScaling}.
 
 \section{Characterization of Quark-Gluon Plasma}
 
-Equipped with the knowledge of heavy-ion collisions, we are ready to use them to create and study QGP in laboratories. The following subsections will describe the characterization of QGP from its predicted signature to open questions today, which leads to my thesis research.
+Equipped with the knowledge and collider technologies of heavy-ion collisions, we are ready to apply them to conduct scientific research on QGP in laboratories. The following subsections will describe the characterization of QGP from its predicted signature to open questions today, which leads to my thesis research.
 
 \subsection{Signatures}
+
+QGP has been theorized long before its discovery as a color deconfined phase of QCD plasma \cite{} and will demonstrate some specific benchmarks in experiments to prove the creation of QGP \cite{}. Here, four typical signatures of QGP will be discussed: $J/\psi$ suppression, jet quenching, elliptic flow, strangeness enhancement.  
+
+\textbf{$J/\psi$ and $\Upsilon$ suppression:} $J/\psi$ meson, as a heavy quarkonium, with quark content of $c\bar c$, consists of a charm quark and an anti-charm quark, whose mass is heavier than the $\Lambda_{QCD}$. Therefore, we could approximately treat the interaction between charm and the anti-charm quark a static the Cornell potential V(r) in the non-relativistic quantum mechanical hamiltonian system \cite{QuarkoniaV}: 
+
+\begin{equation}
+\hat H = \hat T + \hat V
+\end{equation}
+
+\begin{equation}
+\hat H \ket{\psi} = i \frac{\partial}{\partial t}  \ket{\psi} 
+\end{equation}
+
+and solve Schrodinger equation the to describe $J/\psi$ mesons in vacuum \cite{}. As we have seen in Section 1.3.4, with the QGP medium, at a finite temperature $T$, the potential is modified due to color screen effect. As the distance between two charm quarks $V(r) \rightarrow \frac{\sigma}{m_D}$, which does not diverge, as $r \rightarrow \infty$. Therefore, the $c \bar c$ system could be unbounded if they have sufficient energy. In the field theory picture, this could be understood as the melting of the color string between charm and anti-charm quark \cite{}. Hence, with the influence of QGP at $T > 0$, the production cross section of $J/\psi$ will decrease compared to the vacuum at $T=0$. Experimentally, we define an observable to quantify the modification of particle production in AA collision compared to the reference pp collisions normalized by the number of binary nucleon-nucleon collisions $N_{coll}$, which is defined in the previous subsection.. We called this observable as nuclear modification factor denoted $R_{AA}$. $R_{AA} < 1$ means suppression. $R_{AA} =1$ means no modification. $R_{AA} > 1$ means enhancement. Hence, in experiments, we should observe the $R_{AA} < 1$ a suppression of $J/\psi$ production. Figure \ref{JPsiSupp} shows the measurement of fully reconstructed $J/\psi$ at RHIC and LHC \cite{STARJpsi}
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.47\textwidth]{Figures/Chapter1/STARPt.png}
+\includegraphics[width=0.487\textwidth]{Figures/Chapter1/STARNPart.png}
+\caption{The nuclear modifications factor $R_{AA}$ of fully reconstructed $J/\psi$ as a function of $p_{T}$ (left) and $N_{part}$ (right) measured by the STAR experiment (red data points) at RHIC and CMS (blue diamond data points) the ALICE (blue circle data points) experiment at the LHC are shown above. We can see that the $J/\psi$ $R_{AA}$ is below 1 for both $p_T$ and $N_{part}$. There is no significant $p_T$ dependence of $J/\psi$ $R_{AA}$. The $J/\psi$ $R_{AA}$ decreases as $N_{part}$ increases, consistent to the increasing creation probability of QGP with larger $N_{part}$.}
+\label{JPsiSupp}
+\end{center}
+\end{figure} 
+
+In fact, we could see that $R_{AA} < 1$ for every data point, which indicates a clear suppression of $J/\psi$ production at both RHIC and the LHC. However, we should note that the larger $J/\psi$ $R_{AA}$ observed at the LHC compared to RHIC could be explained by regeneration mechanism \cite{JPsiRegen}. The observation of $J/\psi$ suppression is one of the earliest evidence of the discovery of QGP.
+
+Similarly, we expect to see this in $\Upsilon$, which is made of $b \bar b$. Indeed, they expect to have sequential suppression since we have 3 $\Upsilon$ states: $\Upsilon(1S)$,  $\Upsilon(2S)$, and $\Upsilon(3S)$  could be observed in experiments. Because the energy of the $b \bar b$ system or equivalently the rest mass: $m_{\Upsilon(3S)} > m_{\Upsilon(2S)} > m_{\Upsilon(3S)}$, a sequential suppression: $R_{AA}^{\Upsilon(1S)} > R_{AA}^{\Upsilon(2S)} > R_{AA}^{\Upsilon(3S)}$ should be observed if QGP is created. Figure \ref{JPsiSupp} shows the measurement of fully reconstructed $\Upsilon$ states at RHIC and LHC \cite{CMSUpsilon}
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.47\textwidth]{Figures/Chapter1/STARPt.png}
+\includegraphics[width=0.487\textwidth]{Figures/Chapter1/STARNPart.png}
+\caption{The nuclear modifications factor $R_{AA}$ of fully reconstructed $J/\psi$ as a function of $p_{T}$ (left) and $N_{part}$ (right) measured by the STAR experiment (red data points) at RHIC and CMS (blue diamond data points) the ALICE (blue circle data points) experiment at the LHC are shown above. We can see that the $J/\psi$ $R_{AA}$ is below 1 for both $p_T$ and $N_{part}$. There is no significant $p_T$ dependence of $J/\psi$ $R_{AA}$. The $J/\psi$ $R_{AA}$ decreases as $N_{part}$ increases, consistent to the increasing creation probability of QGP with larger $N_{part}$.}
+\label{JPsiSupp}
+\end{center}
+\end{figure} 
+
+
+\textbf{Jet Quenching:}
+
+\textbf{Elliptic Flow:}
+
+\textbf{strangeness Flow:}
+
+
+J/psi suppression, jet quenching, elliptic flow, strangeness enhancement 
 
 \subsection{Discovery}
 
 \subsection{Macroscopic Properties}
 
+Strongly Coupled - color deconfined  
+
+Ideal Liquid - Isentropic Expansion - Viscous Hydro
+
+Color Opacity
+
 %Nuclear Physics is a study of the interaction of nucleons and structure of atomic nuclei. 
 \subsection{Microscopic Structure}
 
+Constituents 
+
+Microscopic Kinetics - Transport properties
+ 
+
+
 \subsection{Open Questions}
+
+Relevant Degree of Freedom - Inner workings 
 
 
 \section{Hard Probes}

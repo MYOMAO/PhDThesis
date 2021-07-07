@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 JUL 2021 23:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  7 JUL 2021 00:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -586,54 +586,85 @@ cmsy/m/n/12 g\OML/cmm/m/it/12 d[]s
  []
 
 [52 <./Figures/Chapter1/GlauDefColl.png>]
+<Figures/Chapter1/NPartandNColl.png, id=236, 417.05812pt x 374.90062pt>
+File: Figures/Chapter1/NPartandNColl.png Graphic file (type png)
 
-LaTeX Warning: Citation `NPartScaling' on page 53 undefined on input line 720.
+<use Figures/Chapter1/NPartandNColl.png>
+Package pdftex.def Info: Figures/Chapter1/NPartandNColl.png used on input line 
+721.
+(pdftex.def)             Requested size: 216.81pt x 194.89795pt.
+ [53 <./Figures/Chapter1/NPartandNColl.png>] [54] <Figures/Chapter1/STARPt.png,
+ id=244, 733.74126pt x 551.05875pt>
+File: Figures/Chapter1/STARPt.png Graphic file (type png)
+
+<use Figures/Chapter1/STARPt.png>
+Package pdftex.def Info: Figures/Chapter1/STARPt.png used on input line 753.
+(pdftex.def)             Requested size: 203.80193pt x 153.05934pt.
+
+<Figures/Chapter1/STARNPart.png, id=245, 602.25pt x 432.61626pt>
+File: Figures/Chapter1/STARNPart.png Graphic file (type png)
+
+<use Figures/Chapter1/STARNPart.png>
+Package pdftex.def Info: Figures/Chapter1/STARNPart.png used on input line 754.
+
+(pdftex.def)             Requested size: 211.17271pt x 151.6952pt.
 
 
-LaTeX Warning: Citation `NCollScaling' on page 53 undefined on input line 720.
+LaTeX Warning: Citation `JPsiRegen' on page 55 undefined on input line 760.
 
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53]
-[54]
+LaTeX Warning: Citation `CMSUpsilon' on page 55 undefined on input line 762.
+
+[55 <./Figures/Chapter1/STARPt.png> <./Figures/Chapter1/STARNPart.png>]
+File: Figures/Chapter1/STARPt.png Graphic file (type png)
+
+<use Figures/Chapter1/STARPt.png>
+Package pdftex.def Info: Figures/Chapter1/STARPt.png used on input line 766.
+(pdftex.def)             Requested size: 203.80193pt x 153.05934pt.
+File: Figures/Chapter1/STARNPart.png Graphic file (type png)
+ <use Figures/Chapter1/STARNPart.png>
+Package pdftex.def Info: Figures/Chapter1/STARNPart.png used on input line 767.
+
+(pdftex.def)             Requested size: 211.17271pt x 151.6952pt.
+ [56])
+[57]
 \openout2 = `chap2.aux'.
 
- (./chap2.tex
-Chapter 2.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [55
+ (./chap2.tex [58
 
 
 
 ]
+Chapter 2.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59]
 Overfull \vbox (63.9571pt too high) has occurred while \output is active []
 
 
-[56]
+[60]
 \openout2 = `chap3.aux'.
 
  (./chap3.tex
 Chapter 3.
-) [57
+) [61
 
 
 
 ]
 \openout2 = `chap4.aux'.
 
- (./chap4.tex [58
+ (./chap4.tex [62
 
 
 
 ]
 Chapter 4.
-) [59]
+) [63]
 \openout2 = `chap5.aux'.
 
- (./chap5.tex [60
+ (./chap5.tex [64
 
 
 
@@ -642,48 +673,48 @@ Chapter 5.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
+ [65]
 Overfull \vbox (1736.85637pt too high) has occurred while \output is active []
 
 
-[62]
+[66]
 \openout2 = `chap6.aux'.
 
  (./chap6.tex
 Chapter 6.
-) [63
+) [67
 
 
 
 ]
 \openout2 = `chap7.aux'.
 
- (./chap7.tex [64
+ (./chap7.tex [68
 
 
 
 ]
 Chapter 7.
-) [65]
+) [69]
 \openout2 = `appa.aux'.
 
- (./appa.tex [66
+ (./appa.tex [70
 
 
 
 ]
 Appendix A.
-[67])
+[71])
 \openout2 = `appb.aux'.
 
- (./appb.tex [68
+ (./appb.tex [72
 
 
 
 
 ]
 Appendix B.
-[69] [70])
+[73] [74])
 \openout2 = `nomenclature.aux'.
 
  (./nomenclature.tex
@@ -692,26 +723,31 @@ Appendix B.
 
 
 Writing nomenclature file main.nlo
-(./main.nls [71
+(./main.nls [75
 
 
 
 
-] [72
+] [76
 
-])) (./main.nls [73] [74
+])) (./main.nls [77] [78
 
-]) [75]
+]) [79]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex [76
+ (./biblio.tex [80
 
 
 
-] [77]
-[78] [79] [80] [81] [82] [83]
+] [81]
+[82] [83] [84] [85] [86] [87]
+Underfull \hbox (badness 1728) in paragraph at lines 104--105
+[]\T1/cmr/m/n/12 B. B. Back, ``Stud-ies of mul-ti-plic-ity in rel-a-tivis-tic h
+eavy-ion col-li-sions'',
+ []
+
 No file main.bbl.
-) [84] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+) [88] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
 (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./chap7.aux)
 (./appa.aux) (./appb.aux) (./nomenclature.aux) (./biblio.aux))
 
@@ -723,10 +759,10 @@ LaTeX Warning: There were multiply-defined labels.
  )
 (\end occurred when \ifx on line 55 was incomplete) 
 Here is how much of TeX's memory you used:
- 3188 strings out of 493089
- 43550 string characters out of 6134842
- 103565 words of memory out of 5000000
- 6435 multiletter control sequences out of 15000+600000
+ 3209 strings out of 493089
+ 44081 string characters out of 6134842
+ 103605 words of memory out of 5000000
+ 6453 multiletter control sequences out of 15000+600000
  17210 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,14n,23p,1571b,268s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -751,10 +787,10 @@ cm-super/sfbx1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm
 uper/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-sup
 er/sfrm1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super
 /sfrm1728.pfb>
-Output written on main.pdf (84 pages, 4044592 bytes).
+Output written on main.pdf (88 pages, 4213496 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 246 compressed objects within 3 object streams
+ 423 PDF objects out of 1000 (max. 8388607)
+ 255 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 156 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 
