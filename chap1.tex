@@ -1,3 +1,4 @@
+
 %% This is an example first chapter.  You should put chapter/appendix that you
 %% write into a separate file, and add a line \include{yourfilename} to
 %% main.tex, where `yourfilename.tex' is the name of the chapter/appendix file.
@@ -277,7 +278,7 @@ However, it is believe that color density of a hadron will not increase indefini
 \end{center}
 \end{figure} 
 
-At the EIC, experiments will also be capable of precisely investigating gluon saturation effects through dihadron correlations analysis \cite{}.
+At the EIC, experiments will also be capable of precisely investigating gluon saturation effects through dihadron correlations analysis \cite{EICGSDIH}.
 
 
 \subsection{Nuclear Shadowing}
@@ -524,7 +525,7 @@ Experimentally, we also use pseudo-rapidity $\eta$, which is more directly conne
 \eta =  - \ln \tan(\frac{\theta}{2})
 \end{equation}
 
-Here $\theta$ is the angle labelled in the left of Figure \ref{HICoordinates}. Particularly, $y = 0$ and $\eta = 0$ when $p_z = 0$. In addition, boosting in the longitudinal z-direction, we found that the rapidity simply 
+Here $\theta$ is the angle labelled in the left of Figure \ref{HICoordinates}. Particularly, $y = 0$ and $\eta = 0$ when $p_z = 0$. In addition, boosting by a speed $\beta$ in the longitudinal z-direction, we found that the rapidity simply shift by a const number $y' = y + \tanh \beta$. We should note that the cylindrical coordinates ($p_T$,$\phi$, $p_z$) are perfectly orthogonal while ($p_T$,$\phi$, $y$) or ($p_T$,$\phi$, $\eta$) are not.
 
 For general collider experiments, two particles are moving toward each other with four-momenta $p_1^\mu$ and $p_2^\mu$ and interact with each other. It is also very convenient to use the Mandelstam variables $s, t, u$ in our studies. They are defined as follows
 
@@ -587,7 +588,7 @@ Globally, we can define some physics quantities to describe heavy-ion collisions
 \end{figure} 
 
 
-\textbf{Number of Participating Nucleons:} Right at the end of heavy-ion collisions after two nuclei pass through with each other, we can define the number of participating nucleon denoted $N_{part}$. The smaller the impact parameter, the more overlap volume between two nuclei, leading to a larger number of number of participating nucleon in the collision. The nuclear interaction system size is determined by the number of participating nucleons. However, due to event-by-event fluctuation of nuclei geometry caused by the nucleon dynamics inside nuclei \cite{GuntherV3}, it is more proper to say that the average number of participating nucleon is related to the impact parameter.
+\textbf{Number of Participating Nucleons:} Right at the end of heavy-ion collisions after two nuclei pass through with each other, we can define the number of participating nucleon denoted $N_{part}$. The smaller the impact parameter, the more overlap volume between two nuclei, leading to a larger number of number of participating nucleon in the collision. The nuclear interaction system size is determined by the number of participating nucleons. However, due to event-by-event nuclei geometry fluctuations caused by the motion of nucleons inside nuclei \cite{GuntherV3}, it is more proper to say that the average number of participating nucleon is related to the impact parameter.
 
 \textbf{Number of Binary Nucleon-Nucleon Collisions:} In addition to $N_{part}$, we can also define another quantity that characterize details interaction of the events at the rather hard scale. The number of binary nucleon-nucleon collisions, denoted $N_{coll}$, is also related to the impact parameter. At higher energy, nucleons inside nuclei become a relevant degree of freedom to the cross section. We could treat the collisions of two nuclei as the superposition of the collisions between nucleons inside the nuclei. Since binary nucleon-nucleon collision has a rather small cross section, it dominates the total nucleon-nucleon cross section according to binomial principle. Glauber model is developed to study the relationship between $b$, $N_{part}$, and $N_{coll}$ in nuclei collisions and will be discussed in the following subsection.
 
@@ -733,9 +734,9 @@ Equipped with the knowledge and collider technologies of heavy-ion collisions, w
 
 \subsection{Signatures}
 
-QGP has been theorized long before its discovery as a color deconfined phase of QCD plasma \cite{} and will demonstrate some specific benchmarks in experiments to prove the creation of QGP \cite{}. Here, four typical signatures of QGP will be discussed: $J/\psi$ suppression, jet quenching, elliptic flow, strangeness enhancement.  
+QGP has been hypothesize long before its discovery as a color deconfined phase of quark matter named ``quark gluon plasma'' \cite{LeonQGP} and will demonstrate some specific benchmarks in experiments to prove the creation of QGP \cite{QGPSignature}. Here, four classic signatures of QGP will be discussed: $J/\psi$ suppression, jet quenching, elliptic flow, strangeness enhancement.  
 
-\textbf{$J/\psi$ and $\Upsilon$ suppression:} $J/\psi$ meson, as a heavy quarkonium, with quark content of $c\bar c$, consists of a charm quark and an anti-charm quark, whose mass is heavier than the $\Lambda_{QCD}$. Therefore, we could approximately treat the interaction between charm and the anti-charm quark a static the Cornell potential V(r) in the non-relativistic quantum mechanical hamiltonian system \cite{QuarkoniaV}: 
+\textbf{$J/\psi$ and $\Upsilon$ suppression:} $J/\psi$ meson, as a type of heavy quarkonia, is bound state of $c\bar c$, made of charm quark and an anti-charm quark, whose mass is heavier than the $\Lambda_{QCD}$. Therefore, we could approximately treat the interaction between charm and the anti-charm quark a static the Cornell potential V(r) in the non-relativistic quantum mechanical hamiltonian system \cite{QuarkoniaV}: 
 
 \begin{equation}
 \hat H = \hat T + \hat V
@@ -745,48 +746,311 @@ QGP has been theorized long before its discovery as a color deconfined phase of 
 \hat H \ket{\psi} = i \frac{\partial}{\partial t}  \ket{\psi} 
 \end{equation}
 
-and solve Schrodinger equation the to describe $J/\psi$ mesons in vacuum \cite{}. As we have seen in Section 1.3.4, with the QGP medium, at a finite temperature $T$, the potential is modified due to color screen effect. As the distance between two charm quarks $V(r) \rightarrow \frac{\sigma}{m_D}$, which does not diverge, as $r \rightarrow \infty$. Therefore, the $c \bar c$ system could be unbounded if they have sufficient energy. In the field theory picture, this could be understood as the melting of the color string between charm and anti-charm quark \cite{}. Hence, with the influence of QGP at $T > 0$, the production cross section of $J/\psi$ will decrease compared to the vacuum at $T=0$. Experimentally, we define an observable to quantify the modification of particle production in AA collision compared to the reference pp collisions normalized by the number of binary nucleon-nucleon collisions $N_{coll}$, which is defined in the previous subsection.. We called this observable as nuclear modification factor denoted $R_{AA}$. $R_{AA} < 1$ means suppression. $R_{AA} =1$ means no modification. $R_{AA} > 1$ means enhancement. Hence, in experiments, we should observe the $R_{AA} < 1$ a suppression of $J/\psi$ production. Figure \ref{JPsiSupp} shows the measurement of fully reconstructed $J/\psi$ at RHIC and LHC \cite{STARJpsi}
+and solve Schrodinger equation the to describe $J/\psi$ mesons in vacuum \cite{}. As we have seen in Section 1.3.4, with the QGP medium, at a finite temperature $T$, the potential is modified due to color screen effect. As the distance between two charm quarks $V(r) \rightarrow \frac{\sigma}{m_D}$, which does not diverge, as $r \rightarrow \infty$. Therefore, the $c \bar c$ system could be unbounded if they have sufficient energy. In the field theory picture, this could be understood as the color string breaking between charm and anti-charm quark \cite{CSBQQ}, also known as quarkonia melting \cite{QQMelt}. Hence, with the influence of QGP at $T > 0$, the production cross section of $J/\psi$ will decrease compared to the vacuum at $T=0$. Experimentally, we define an observable to quantify the modification of particle production cross section in AA collision compared to the reference pp collisions normalized by the number of binary nucleon-nucleon collisions $N_{coll}$, which is defined in the previous subsection. We called this observable as nuclear modification factor denoted $R_{AA}$. Mathematically, $R_{AA}$ is defined as follows:
+
+\begin{equation}
+R_{AA} =\frac{1}{N_{coll}} \frac{\frac{d^2N_{AA}}{dp_T dy}}{\frac{d^2N_{pp}}{dp_T dy}} = \frac{1}{T_{AA}} \frac{\frac{d^2N_{AA}}{dp_T dy}}{\frac{d^2\sigma_{pp}}{dp_T dy}}
+\end{equation}
+
+Therefore, $R_{AA} < 1$ means suppression. $R_{AA} =1$ means no modification. $R_{AA} > 1$ means enhancement. Hence, in experiments, we should observe the $R_{AA} < 1$ a suppression of $J/\psi$ production. Figure \ref{JPsiSupp} shows the measurement of fully reconstructed $J/\psi$ at RHIC and LHC \cite{STARJpsi}
 
 
 \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=0.47\textwidth]{Figures/Chapter1/STARPt.png}
 \includegraphics[width=0.487\textwidth]{Figures/Chapter1/STARNPart.png}
-\caption{The nuclear modifications factor $R_{AA}$ of fully reconstructed $J/\psi$ as a function of $p_{T}$ (left) and $N_{part}$ (right) measured by the STAR experiment (red data points) at RHIC and CMS (blue diamond data points) the ALICE (blue circle data points) experiment at the LHC are shown above. We can see that the $J/\psi$ $R_{AA}$ is below 1 for both $p_T$ and $N_{part}$. There is no significant $p_T$ dependence of $J/\psi$ $R_{AA}$. The $J/\psi$ $R_{AA}$ decreases as $N_{part}$ increases, consistent to the increasing creation probability of QGP with larger $N_{part}$.}
+\caption{The nuclear modifications factor $R_{AA}$ of fully reconstructed $J/\psi$ as a function of $p_{T}$ (left) and $N_{part}$ (right) measured by the STAR experiment (red data points) at RHIC and CMS (blue diamond data points) and the ALICE (blue circle data points) experiment at the LHC are shown above. We can see that the $J/\psi$ $R_{AA}$ is below 1 for both $p_T$ and $N_{part}$. There is no significant $p_T$ dependence of $J/\psi$ $R_{AA}$. The $J/\psi$ $R_{AA}$ decreases as $N_{part}$ increases, consistent to the increasing creation probability of QGP with larger $N_{part}$.}
 \label{JPsiSupp}
 \end{center}
 \end{figure} 
 
-In fact, we could see that $R_{AA} < 1$ for every data point, which indicates a clear suppression of $J/\psi$ production at both RHIC and the LHC. However, we should note that the larger $J/\psi$ $R_{AA}$ observed at the LHC compared to RHIC could be explained by regeneration mechanism \cite{JPsiRegen}. The observation of $J/\psi$ suppression is one of the earliest evidence of the discovery of QGP.
+In fact, we could see that $R_{AA} < 1$ for every data point, which indicates a clear suppression of $J/\psi$ production from experiments at both RHIC and the LHC. However, we should note that the larger $J/\psi$ $R_{AA}$ observed at the LHC compared to RHIC could be explained by regeneration mechanism \cite{JPsiRegen}. The observation of $J/\psi$ suppression is one of the earliest evidence of the discovery of QGP.
 
-Similarly, we expect to see this in $\Upsilon$, which is made of $b \bar b$. Indeed, they expect to have sequential suppression since we have 3 $\Upsilon$ states: $\Upsilon(1S)$,  $\Upsilon(2S)$, and $\Upsilon(3S)$  could be observed in experiments. Because the energy of the $b \bar b$ system or equivalently the rest mass: $m_{\Upsilon(3S)} > m_{\Upsilon(2S)} > m_{\Upsilon(3S)}$, a sequential suppression: $R_{AA}^{\Upsilon(1S)} > R_{AA}^{\Upsilon(2S)} > R_{AA}^{\Upsilon(3S)}$ should be observed if QGP is created. Figure \ref{JPsiSupp} shows the measurement of fully reconstructed $\Upsilon$ states at RHIC and LHC \cite{CMSUpsilon}
+Similarly, we expect to see this in $\Upsilon$, which is made of $b \bar b$. Indeed, they expect to have sequential suppression since we have 3 $\Upsilon$ states: $\Upsilon(1S)$,  $\Upsilon(2S)$, and $\Upsilon(3S)$  could be observed in experiments. Because the energy of the $b \bar b$ system or equivalently the rest mass: $m_{\Upsilon(3S)} > m_{\Upsilon(2S)} > m_{\Upsilon(3S)}$, a sequential suppression: $R_{AA}^{\Upsilon(1S)} > R_{AA}^{\Upsilon(2S)} > R_{AA}^{\Upsilon(3S)}$ should be observed if QGP is created. Figure \ref{UpsilonSupp} shows the measurement of fully reconstructed $\Upsilon$ states at RHIC and LHC \cite{STARUpsilonRef,CMSUpsilonRef}
 
 \begin{figure}[hbtp]
 \begin{center}
-\includegraphics[width=0.47\textwidth]{Figures/Chapter1/STARPt.png}
-\includegraphics[width=0.487\textwidth]{Figures/Chapter1/STARNPart.png}
-\caption{The nuclear modifications factor $R_{AA}$ of fully reconstructed $J/\psi$ as a function of $p_{T}$ (left) and $N_{part}$ (right) measured by the STAR experiment (red data points) at RHIC and CMS (blue diamond data points) the ALICE (blue circle data points) experiment at the LHC are shown above. We can see that the $J/\psi$ $R_{AA}$ is below 1 for both $p_T$ and $N_{part}$. There is no significant $p_T$ dependence of $J/\psi$ $R_{AA}$. The $J/\psi$ $R_{AA}$ decreases as $N_{part}$ increases, consistent to the increasing creation probability of QGP with larger $N_{part}$.}
-\label{JPsiSupp}
+\includegraphics[width=0.42\textwidth]{Figures/Chapter1/STARUpsilon.png}
+\includegraphics[width=0.55\textwidth]{Figures/Chapter1/CMSUpsilon.png}
+\caption{The nuclear modifications factor $R_{AA}$ of fully reconstructed $\Upsilon$ as a function of $N_{part}$ measured by the STAR experiment (left) at RHIC and CMS experiment (right) at the LHC are shown above. We can see that $R_{AA}$  of the three $\Upsilon$ states is below 1 for both $N_{part} > 3$. The $J/\psi$ $R_{AA}$ decreases as $N_{part}$ increases, consistent to the increasing creation probability of QGP with larger $N_{part}$. In addition, a sequential suppression of $\Upsilon$ $R_{AA}$ is observed by the CMS experiment: $R_{AA}^{\Upsilon(1S)} > R_{AA}^{\Upsilon(2S)} > R_{AA}^{\Upsilon(3S)}$, which agrees with the expectation QGP color screening effect.}
+\label{UpsilonSupp}
 \end{center}
 \end{figure} 
 
 
-\textbf{Jet Quenching:}
-
-\textbf{Elliptic Flow:}
-
-\textbf{strangeness Flow:}
+\textbf{Jet Quenching:} Experimentally, due to color confinement, it is impossible to directly detect and track the energetic parton. Therefore, physicists define jet as a spray of collimated hadrons within a narrow cone initiated from the color charged parton. In nuclear and particle physics, jets are used to study the dynamics of partons before hadronization \cite{HERAJET} and understand the properties of QGP \cite{}. A schematic view of a di-jet production from di-qurark event in electron-positron collider $e^+e^-\rightarrow q \bar q$ is shown below in Figure \ref{dijet}
 
 
-J/psi suppression, jet quenching, elliptic flow, strangeness enhancement 
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.50\textwidth]{Figures/Chapter1/DijetEvt.png}
+\caption{The schematic view of a di-jet event from the ALEPH (a particle detector at the Large Electron-Positron collider) Experiment at the Large Electron-Positron Collider (LEP) is shown above. We can see two sprays of back to back particles within narrow cone, representing a di-jet event.}
+\label{dijet}
+\end{center}
+\end{figure} 
+
+
+Since we know QGP a color deconfined phase of matter, an energetic parton carrying color charge traveling through the QGP medium is expected to lose a substantial a mount its energy to the medium. This is similar the effect that an electron beam losing energy in the electron-ion plasma via electromagnetic interaction \cite{}. We call this effect as jet quenching. Figure \ref{JetELoss} shows jet quenching in QGP in AA collisions compared to pp collisions
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter1/JetELoss.png}
+\caption{The schematic picture explaining jet quenching is shown above. Hard scatterings in pp collisions produce back-to-back "jets" of particles, but in AuAu collisions, the presence QGP modifies the jets' properties.}
+\label{JetELoss}
+\end{center}
+\end{figure} 
+
+
+Experimentally, compared to pp collision where QGP is not expected to be created, the jet spectra is modified by the QGP medium. The angular distributions would be broaden due to interaction with the medium and the $p_T$ spectra will be shifted to the left due to energy loss. This can be quantified by jet nuclear modification factor $R_{AA}$ similar to the $R_AA$ for quarkonium suppression mentioned in the previously. Figure \ref{JetRAA} Shows the hadron angular correlation with the STAR experiment at RHIC and jet $R_{AA}$ as a function of $p_T$ with the ALICE experiments at LHC \cite{STARJetRef,ALICEJetRef}:
+  
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter1/HadronAngularSTAR.png}
+\includegraphics[width=0.50\textwidth]{Figures/Chapter1/JetRAAALICE.png}
+\caption{Comparison of two-particle azimuthal distributions for central dAu collisions to those seen in pp and central AuAu collisions measured with the STAR experiment jet $R_{AA}$ as a function $p_T$ measured by the ALICE experiment at LHC (right). From the STAR result, in central AuAu collisions, the back-to-back peak has disappeared due to the transfer of jet energy to the slow expanding medium constituents. The jet $R_{AA}$ from ALICE measurement is clearly below 1, suggesting jet losing a significant fragment of its energy in AA collision compared to pp.}
+\label{JetRAA}
+\end{center}
+\end{figure} 
+
+The jet $R_{AA}$ are all below 1 at RHIC and LHC, which suggest jet quenching in AA collisions, supporting existence of QGP.
+
+\textbf{Elliptic Flow:} The reaction region in heavy-ion collisions, where the two nuclei overlap with each other, has an almond shape, which is azimuthally asymmetric. If a color deconfined matter QGP is created, particles emitted from the almond shape fire ball are expected to be anisotropic due to differences of the pressure gradient of the QGP in the and their path length through QGP in the x and y direction. Experimentally, physicists Dr. Arthur Poskanzer who sadly just passed away in June 30 2021, and Dr. Sergey Voloshin developed the event plane method to analyze the azimuthal anisotropy of particle emission in heavy-ion collisions \cite{EllipticFlow}. The reaction plane is defined as the plane of the impact parameter and the x-axis. Figure \ref{EventPlane} schematically shows the definition of reaction plane in heavy-ion collisions.
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.40\textwidth]{Figures/Chapter1/ReactionPlane.jpg}
+\caption{The figure above shows the ellipsoid of the overlapping nuclear reaction region of two nuclei in heavy-ion collisions. The reaction plane, which is the x-z plane shown as above, is constructed by the beam direction and the impact parameter vector. The emissions of particles are azimuthally anisotropic in the x-y plane.}
+\label{EventPlane}
+\end{center}
+\end{figure} 
+
+The particle spectra in heavy-ion collisions can be factorized as 
+
+\begin{equation}
+E \frac{d^3N}{d^3p} = E \frac{1}{2 \pi p_T}\frac{d^3N}{dp_T dy d\phi} = E \frac{1}{2 \pi p_T} \frac{d^2N_1}{dp_T dy} \frac{dN_2}{d\phi}
+\end{equation}
+
+Since the particle emission is azimuthally anisotropic, we can expand the $F(p_T,\phi,y) = \frac{dN_2}{d\phi}$ into a Fourier series \cite{EllipticFlow}:
+
+
+\begin{equation}
+F(p_T,\phi,y) = \frac{x_0(p_T,y)}{2\pi}  + \sum_{n=1}^{\infty}[x_n(p_T,y)\cos(n\phi)+y_n(p_T,y)\sin(n\phi)] 
+\end{equation}
+
+According to trigonometry, we get
+
+\begin{equation}
+F(p_T,\phi,y)  = \frac{x_0(p_T,y)}{2\pi} + \sum_{n=1}^{\infty}2v_n(p_T,y)\cos[n(\phi - \Psi_{n})]
+\end{equation}
+
+Here, $v_n = \frac{1}{2} \sqrt{x_n^2 + y_n^2}$ and $\Psi_{n} =\frac{1}{n} \arctan(\frac{y_n}{x_n})$. 
+
+To find the Fourier coefficients $v_n$, we can apply the Fourier tricks to find $x_n$ and $y_n$.
+
+
+Theoretically, because the function $\frac{dN_2(\phi)}{d\phi}$ is continuously analytical, we can use integral to find the Fourier coefficients [18] 
+\begin{equation}
+x_n =2\int_{0}^{2\pi} \frac{dN_2(\phi)}{d\phi}\cos(n\phi)d\phi 
+\end{equation}
+\begin{equation}
+y_n =2\int_{0}^{2\pi} \frac{dN_2(\phi)}{d\phi}\sin(n\phi)d\phi 
+\end{equation}
+
+Experimentally, because our data take on discrete values, we can convert the integral into a sum 
+\begin{equation}
+x_n =\frac{2}{N}\sum_{n=1}^{N} \cos(n\phi)d\phi = 2\langle \cos n\phi \rangle
+\end{equation}
+\begin{equation}
+y_n =\frac{2}{N}\sum_{n=1}^{N} \sin(n\phi)d\phi = 2\langle \sin n\phi \rangle
+\end{equation}
+
+Here, we sum up all tracks in the experiment to get the $x_n$ and $y_n$. Then, we will be able to find 
+
+\begin{equation}
+v_n = \frac{1}{2} \sqrt{x_n^2 + y_n^2} = \sqrt{(\langle \cos n\phi \rangle)^2+(\langle \sin n\phi \rangle)^2}. 
+\end{equation}
+
+
+
+
+In heavy-ion physics, the first order Fourier coefficient $v_1$ is called the directed flow. 
+
+\begin{equation}
+v_1 =  \sqrt{(\langle \cos \phi \rangle)^2+(\langle \sin \phi \rangle)^2}. 
+\end{equation}
+
+It can be connected to the initial tilting source of the colliding nuclei \cite{V1Tilted} and can be used to study Chiral Magnetic Effect \cite{V1CME}. 
+
+The second order Fourier coefficient $v_2$ is called elliptic flow. 
+
+\begin{equation}
+v_2 =  \sqrt{(\langle \cos 2\phi \rangle)^2+(\langle \sin 2\phi \rangle)^2} =  \sqrt{(\langle \cos^2 \phi \rangle - \langle \sin^2 \phi \rangle)^2 + (2  \langle \sin \phi \rangle \langle \cos \phi \rangle)^2}. 
+\end{equation}
+
+Assuming in initial stage before the collision, the sum of the momentum of two colliding nuclei $\vec p_1$ and $\vec p_2$ is exactly 0 without any fluctuation. That is
+
+\begin{equation}
+\vec{p_1} + \vec{p_2} = 0
+\end{equation}
+
+According to momentum conservation, for the final state particles, we have 
+
+\begin{equation}
+\sum_i^N p_x^i = 0
+\end{equation}
+
+\begin{equation}
+\sum_i^N p_y^i = 0
+\end{equation}
+
+Therefore, we have
+
+\begin{equation}
+\langle p_T \cos \phi \rangle = \langle p_x \rangle = \frac{1}{N} \sum_i^N p_x^i   = 0
+\end{equation}
+
+\begin{equation}
+\langle p_T \sin \phi \rangle = \langle p_y \rangle =  \frac{1}{N} \sum_i^N p_y^i  = 0
+\end{equation}
+ 
+But since the $p_T$ and $\phi$ are completely orthogonal, the random variable $p_T$ is uncorrected to $\phi$. Therefore, we have 
+ 
+\begin{equation}
+\langle p_T \cos \phi \rangle =  \langle p_T \rangle \langle  \cos \phi \rangle = 0
+\end{equation}
+
+\begin{equation}
+\langle p_T \sin \phi \rangle =  \langle p_T \rangle \langle  \sin \phi \rangle = 0
+\end{equation}
+
+Finally, we know that $p_T > 0$, thus   
+ 
+\begin{equation}
+\langle p_T \rangle > 0
+\end{equation}  
+ 
+Hence,  
+
+
+\begin{equation}
+\langle \cos \phi \rangle =  0
+\end{equation} 
+
+
+\begin{equation}
+\langle \sin \phi \rangle =  0
+\end{equation}
+
+Therefore, we have 
+
+\begin{equation}
+v_2 = \sqrt{(\langle \cos^2 \phi \rangle - \langle \sin^2 \phi \rangle)^2 + (2  \langle \sin \phi \rangle \langle \cos \phi \rangle)^2} = \langle \cos^2 \phi \rangle - \langle \sin^2 \phi \rangle. 
+\end{equation}
+
+In terms of momentum $p_x$ and $p_y$, we can rewrite $v_2$ as 
+
+\begin{equation}
+v_2 =  \langle \cos^2 \phi \rangle - \langle \sin^2 \phi \rangle = \langle\frac{p_x^2}{p_T^2} \rangle - \langle \frac{p_y^2}{p_T^2} \rangle = \langle \frac{p_x^2 - p_y^2}{p_T^2} \rangle = \langle \frac{p_x^2 - p_y^2}{p_x^2 + p_y^2} \rangle. 
+\end{equation}
+
+Classically, we know that the momentum is proportional to the pressure gradient. Schematically, we could write
+
+\begin{equation}
+p_x \simeq \frac{m\tau}{\rho}\frac{\partial P}{\partial x} \simeq \frac{m\tau}{\rho}\frac{P}{L_x}
+\end{equation}
+
+Where $m$ is the mass of the particle, $\tau$ is the life time of the QGP, $\rho$ is the density of the QGP, and $L_x$ is the minor axis of the ellipse in the x direction according to the geometry of Figure \ref{EventPlane}.
+
+Likewise, we have the same relation for $p_y$
+
+\begin{equation}
+p_y \simeq \frac{m\tau}{\rho}\frac{\partial P}{\partial y} \simeq \frac{m\tau}{\rho}\frac{ P}{L_y}
+\end{equation} 
+
+Here,  $L_y$ is the major axis of the ellipse in the y direction according to the geometry of Figure \ref{EventPlane}. Apparently, $L_y > L_x$. 
+
+Hence, we can write $v_2$ as 
+\begin{equation}
+v_2 =  \langle \frac{p_x^2 - p_y^2}{p_x^2 + p_y^2} \rangle = \frac{\frac{1}{L_x^2} - \frac{1}{L_y^2}}{\frac{1}{L_x^2} + \frac{1}{L_y^2}} =  \frac{L_y^2 - L_x^2}{L_x^2 + L_y^2}  > 0
+\end{equation}
+
+In heavy ion collision, we define the eccentricity $\epsilon_s$ of an ellipse is defined as \cite{V2Eccent}
+
+\begin{equation}
+\epsilon_s \equiv \frac{L_y^2 - L_x^2}{L_x^2 + L_y^2}
+\end{equation}
+
+Hence, we have
+
+\begin{equation}
+v_2 \simeq \epsilon_s
+\end{equation}
+
+Therefore, we can see that $v_2$ is essentially proportional to the eccentricity simply based on ellipse geometry of reaction region. Historically, $v_2$ has extensively studied experimentally and theoretically. It turns out the elliptic flow $v_2$ could be calculated using relativistic viscous hydrodynamics, which we will describe in the next section. If QGP is created, we expect $v_2$ of the light flavor hadrons created direction from the QGP to be positive as we derive above. Figure \ref{V2} show the $v_2$ as a function of $p_T$ of charged light flavor hadrons in heavy-ion collisions at mid-rapidity measured by RHIC and LHC experiment \cite{V2STAR,V2ALICE}
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter1/STARV2Plot.eps}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter1/ALICEV2Plot.png}
+\caption{The elliptic flow of charged particles $v_2$ as a function of $p_T$ in AuAu collision measured by the STAR experiments at RHIC (left) and in PbPb collisions by the ALICE experiments at LHC (right) are shown above. Clearly, $v_2 > 0$ is observed in both experiments.}
+\label{V2}
+\end{center}
+\end{figure}   
+
+We can clearly see positive $v_2$ of charged particles at both RHIC and LHC, which also supports the creation of QGP in high energy heavy-ion collisions.  
+ 
+\textbf{Strangeness Enhancement:} As described in Section 1.4.6, the temperature of QGP is well above 100 MeV, which is much larger than the strange quark mass (about 95 MeV). Therefore, since $T_{QGP} > m_s$, in thermally and chemically equilibrated QGP, strange quarks could be produced thermally via the pair production process $u \bar u, d \bar d \rightarrow s\bar s$ $gg \rightarrow s \bar s$, creating the chemical abundance equilibrium \cite{SSEnhance}. Therefore, the strangeness content in the QGP is enhanced, which could be experimentally observed from enhancement of strange particle yields in AA collisions compared to pp collisions. A direct experimental observable is the ratio of strange hadron yield to pions in AA and pp collisions. Figure \ref{PhiRAA} shows measurements on strange meson and baryons to pion ratios in AA and pp at RHIC and LHC 
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter1/STARPhiOverPi.png}
+\includegraphics[width=0.30\textwidth]{Figures/Chapter1/ALICEStrange.png}
+\caption{The yield ratio of $\phi/\pi$ as a function $N_{part}$ in p + p, p + Au, and Au + Au from the STAR experiment at RHIC (left) and strange hadrons $K^0_s, \Lambda^+, \Xi^0, \Omega^-$ as a function of $dN_ch/d\eta$ from the ALICE experiment at LHC are shown above. We can see a clear trend of the increase of the strange hadron to pion ratio as the event multiplicity increases. In addition, we also see that the $\phi/\pi$ ratio increases as $\sqrt s_{NN}$ increases, which suggests the strangeness content enhances as the temperature of the system increase.}
+\label{PhiRAA}
+\end{center}
+\end{figure}   
+
+We can see that $\phi/\pi$ ratio increases as $N_{part}$ and $\sqrt s_{NN}$ increases, which indicates strangeness enhancement in AA collisions compare to pp collisions. This again can be served as an evidence for the formation of QGP in heavy-ion collisions at RHIC and LHC. 
+
+%J/psi suppression, jet quenching, elliptic flow, strangeness enhancement 
 
 \subsection{Discovery}
+
+Knowing signatures of QGP, physicists build experiments in heavy-ion colliders to search for QGP. Historically, in a special seminar at CERN February 2000, the discovery of QGP was announce \cite{SPSQGP}. Figure \ref{QGPDisSPS} shows the announcement
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.43\textwidth]{Figures/Chapter1/QGPDisSPS.png}
+\caption{The announcement of discover of QGP in a special seminar at CERN on February 10 2000 is shown above.}
+\label{QGPDisSPS}
+\end{center}
+\end{figure}  
+
+
+In the U.S., after the runs of RHIC, experiments have collected enough luminosity of the dataset to perform measurements. In QM, clear signatures of QGP from the measurements of with STAR, PHENIX, BRAHMS, and PHOBOS experiments have been present to the public and all support the creation of QGP. Figure \ref{QM2002} show the results presented in QM 2002.
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.42\textwidth]{Figures/Chapter1/STARUpsilon.png}
+\includegraphics[width=0.55\textwidth]{Figures/Chapter1/CMSUpsilon.png}
+\caption{The nuclear modifications factor $R_{AA}$ of fully reconstructed $\Upsilon$ as a function of $N_{part}$ measured by the STAR experiment (left) at RHIC and CMS experiment (right) at the LHC are shown above. We can see that $R_{AA}$  of the three $\Upsilon$ states is below 1 for both $N_{part} > 3$. The $J/\psi$ $R_{AA}$ decreases as $N_{part}$ increases, consistent to the increasing creation probability of QGP with larger $N_{part}$. In addition, a sequential suppression of $\Upsilon$ $R_{AA}$ is observed by the CMS experiment: $R_{AA}^{\Upsilon(1S)} > R_{AA}^{\Upsilon(2S)} > R_{AA}^{\Upsilon(3S)}$, which agrees with the expectation QGP color screening effect.}
+\label{QM2002}
+\end{center}
+\end{figure}  
+
 
 \subsection{Macroscopic Properties}
 
 Strongly Coupled - color deconfined  
 
 Ideal Liquid - Isentropic Expansion - Viscous Hydro
+
+Bjorken
+
+Ulrich
+
+Hydro
 
 Color Opacity
 
@@ -795,11 +1059,13 @@ Color Opacity
 
 Constituents 
 
-Microscopic Kinetics - Transport properties
+Microscopic Kinetics -- Transport properties
  
 
 
 \subsection{Open Questions}
+
+ Today, it has been more than 20 yeas after the discovery of QGP. However, there are still many open questions. 
 
 Relevant Degree of Freedom - Inner workings 
 
