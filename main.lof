@@ -42,8 +42,10 @@
 \contentsline {figure}{\numberline {1-41}{\ignorespaces The schematic plots of heavy quark production and hadronization in vacuum (left) and QGP (right) are shown above.}}{77}
 \contentsline {figure}{\numberline {1-42}{\ignorespaces The charm quark transverse momentum distribution at $\frac {d\sigma }{dp_T}$ at $|y| < 1$ from FONLL calculations is shown above.}}{78}
 \contentsline {figure}{\numberline {1-43}{\ignorespaces Single-inclusive hadron production process, where fragmentation function are involved, in (a) electron-positron annihilation, (b) deep-inelastic lepton-nucleon scattering, (c) proton-proton scattering are shown above.}}{78}
-\contentsline {figure}{\numberline {1-44}{\ignorespaces Single-inclusive hadron production process, where fragmentation function are involved, in (a) electron-positron annihilation, (b) deep-inelastic lepton-nucleon scattering, (c) proton-proton scattering are shown above.}}{81}
-\contentsline {figure}{\numberline {1-45}{\ignorespaces Single-inclusive hadron production process, where fragmentation function are involved, in (a) electron-positron annihilation, (b) deep-inelastic lepton-nucleon scattering, (c) proton-proton scattering are shown above.}}{81}
+\contentsline {figure}{\numberline {1-44}{\ignorespaces $R$, the corrected yield ratio of $B^0_s/B^+$, as a function the $pp$ collision energy $\sqrt s$ (top), the $f_s/f_d$ ratio as a function $p_T$ (middle), and the $f_s/f_d$ ratio as a function $\eta _B$ (bottom), from the LHCb experiment are shown above.}}{82}
+\contentsline {figure}{\numberline {1-45}{\ignorespaces The charm quark fragmentation fraction to different charm hadrons species in $e^+e^-$, $ep$, and $pp$ collisions are presented above. From the ALICE experiment, we can clearly see that the fragmentation fraction of $D^0$ has drop by about 40\% while the $\Lambda _c^+$ has enhanced by about a factor of 4. Therefore, the hadronization universality is clear broken at the LHC energy in the charm sector.}}{83}
+\contentsline {figure}{\numberline {1-46}{\ignorespaces The schematic demonstration of the pQCD picture: collisional energy loss (left) and radiative energy loss (right) of heavy quarks in the QGP medium are shown above.}}{85}
+\contentsline {figure}{\numberline {1-47}{\ignorespaces The schematic demonstration of ADS/CFT picture: the energy loss of a quark in the QGP medium holographically due ADS/CFT drag force.}}{85}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -52,5 +54,5 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B-1}{\ignorespaces Armadillo slaying lawyer.}}{99}
-\contentsline {figure}{\numberline {B-2}{\ignorespaces Armadillo eradicating national debt.}}{100}
+\contentsline {figure}{\numberline {B-1}{\ignorespaces Armadillo slaying lawyer.}}{101}
+\contentsline {figure}{\numberline {B-2}{\ignorespaces Armadillo eradicating national debt.}}{102}

@@ -107,7 +107,7 @@ Another feature of QCD as a non-abelian gauge theory is color confinement. The s
 
 \subsection{Hadronization}
 
-The formation process hadrons from partons is called haronization. Because in experiments we only measure final state hadrons, in order to study the interactions and dynamics of quarks and gluons during partonic stage from hadron spectra, we also need to understand hadronization mechanisms. However, hadronization is in general non-perturbative and cannot yet be described by first principle QCD calculations. Therefore, physics make phenomenological models such as the Statistical Hadronization Model \cite{SHM}, Lund String Model \cite{LSM}, Quark Coalescence Model \cite{QCM} to study hadronization. Figure  \ref{HadMech} shows the schematics of hadronization of a beauty quark via fragmentation and coalescence process.
+The formation process hadrons from partons is called haronization. Because in experiments we only measure final state hadrons, in order to study the interactions and dynamics of quarks and gluons during partonic stage from hadron spectra, we also need to understand hadronization mechanisms. However, hadronization is in general non-perturbative and cannot yet be described by first principle QCD calculations. Therefore, physicists make phenomenological models such as the Statistical Hadronization Model \cite{SHM}, Lund String Model \cite{LSM}, Quark Coalescence Model \cite{QCM} to study hadronization. Figure  \ref{HadMech} shows the schematics of hadronization of a beauty quark via fragmentation and coalescence process.
 
 \begin{figure}[hbtp]
 \begin{center}
@@ -1150,7 +1150,7 @@ Experimentally, from the final stage decay products, we can fully reconstruct op
 
 My graduate research focuses on answering the second question through the data analysis of fully reconstructed heavy flavor hadrons with the CMS experiment to understand transport properties and probe the microscopic structure of QGP. In this section, we will focus on discussing open heavy flavor physics where the only one heavy quark $Q$ is in hadron. Open heavy flavor hadrons have $\pm 1$ heavy flavor number. Quarkonia states $Q\bar Q$ are considered as hidden heavy flavor with a zero net heavy flavor quantum number. Their properties are different from open heavy flavor hadrons. We will not be discussed them in the follow subsections. 
 
-\subsection{Heavy Quark Physics in Vacuum}
+\subsection{Heavy Flavor Physics in Vacuum}
 
 To use heavy quark to probe the QGP created in heavy-ion collisions, we first need to understand heavy quark physics in vacuum from pp collisions. In the process $pp \rightarrow Q \bar Q$, QCD factorization theorem could be applied to study the using perturbative QCD (pQCD). Fixed-to-Next-to-the-Leading (FONLL) is pQCD model calculating the spectra of charm and beauty quarks, schematically denoted as: $\frac{d^2\sigma^Q}{p_T dp_T dy}$, in $pp \rightarrow Q  \bar Q$ at different energies \cite{FONLLRef}. Figure \ref{FONLL} shows the FONLL calculations of charm and beauty quarks spectra produced at the LHC energy for pp collisions at $\sqrt s = 5.02$ TeV.
 
@@ -1302,12 +1302,14 @@ Hence, we have
 
 This means that the open heavy flavor hadron spectra $\frac{d^2\sigma^{H_Q}}{p_T dp_T dy}$ is essentially proportional to the heavy quark spectra $\frac{d^2\sigma^{Q}}{p_T dp_T dy}$ with heavy quark fragmentation fraction $f(Q \rightarrow H_Q)$ the as the coefficient of proportionality. Experimentally, charm and beauty fragmentation fractions have been measured at LEP, HERA, and the LHC and documented in PDG \cite{AlphaTheoEx}. The fragmentation fraction is often treated roughly a constant independent to $p_T$, $y$, and $\sqrt s$ and is assumed to be universal in $e^+e^-$, $ep$, and $pp$ collisions systems \cite{AlphaTheoEx}. 
 
-In terms of being a constant, according LHCb $pp$ results \cite{LHCbFF}, it appears that the fragmentation fraction has $p_T$ and $\sqrt s$ dependence while no significant $\eta_B$ (or $y$) dependence is observed. Figure \ref{BeautyFFLHCb} shows the $f_s/(f_d + f_u)$.
+In terms of being a constant, according LHCb $pp$ results \cite{LHCbFF}, it appears that the fragmentation fraction has significant $\sqrt s$ and $p_T$ dependence while no significant $y_B$ (or $\eta_B$) dependence is observed. Figure \ref{BeautyFFLHCb} shows the beauty quark fragmentation fraction: $f_u = f(b \rightarrow B^+)$, $f_d = f(b \rightarrow B^0)$, and $f_s = f(b \rightarrow B_s^0)$
 
  \begin{figure}[hbtp]
 \begin{center}
-\includegraphics[width=0.33\textwidth]{Figures/Chapter1/LHCbFFs.png}
-\caption{Single-inclusive hadron production process, where fragmentation function are involved, in (a) electron-positron annihilation, (b) deep-inelastic lepton-nucleon scattering, (c) proton-proton scattering are shown above.}
+\includegraphics[width=0.60\textwidth]{Figures/Chapter1/LHCbFFs.png}
+\includegraphics[width=0.60\textwidth]{Figures/Chapter1/LHCbFFpT.png}
+\includegraphics[width=0.60\textwidth]{Figures/Chapter1/LHCbFFy.png}
+\caption{ $R$, the corrected yield ratio of $B^0_s/B^+$, as a function the $pp$ collision energy $\sqrt s$ (top), the $f_s/f_d$ ratio as a function $p_T$ (middle), and the $f_s/f_d$ ratio as a function $\eta_B$ (bottom), from the LHCb experiment are shown above.}
 \label{BeautyFFLHCb}
 \end{center}
 \end{figure}   
@@ -1317,8 +1319,8 @@ In terms of universality, according to Strangeness Quark Matter Conference (SQM)
 
  \begin{figure}[hbtp]
 \begin{center}
-\includegraphics[width=1.0\textwidth]{Figures/Chapter1/FFProcess.png}
-\caption{Single-inclusive hadron production process, where fragmentation function are involved, in (a) electron-positron annihilation, (b) deep-inelastic lepton-nucleon scattering, (c) proton-proton scattering are shown above.}
+\includegraphics[width=0.52\textwidth]{Figures/Chapter1/ALICECharmFF.png}
+\caption{The charm quark fragmentation fraction to different charm hadrons species in $e^+e^-$, $ep$, and $pp$ collisions are presented above. From the ALICE experiment, we can clearly see that the fragmentation fraction of $D^0$ has drop by about 40\% while the $\Lambda_c^+$ has enhanced by about a factor of 4. Therefore, the hadronization universality is clear broken at the LHC energy in the charm sector.}
 \label{CharmFFALICE}
 \end{center}
 \end{figure}   
@@ -1362,23 +1364,44 @@ More detailed studies has been carried out to examine heavy quark coupling stren
 
 \subsection{Heavy Quark Energy Loss}
 
-In the limit of high $p_T$ or equivalently short wavelength, inelastic cross section starts to dominate. Heavy quarks lose a substantial amount of energy as they travel fast through the QGP medium. In a simplified schematization, there are two different pictures that describe the energy loss mechanism of heavy quark in the QGP medium. In the pQCD picture, the coupling of the constituents of the QGP is assumed to be weak. Therefore, the QGP is made of weakly coupled quasiparticles. Heavy quarks scatter off the constituents incoherently when propagating through the QGP medium. There are two energy loss mechanisms: collisional energy loss and radiative energy loss [1]. Figure \ref{} shows schematically heavy quark energy loss mechanism in the QGP medium
+In the limit of high $p_T$ or equivalently short wavelength, inelastic cross section starts to dominate \cite{}. Heavy quarks lose a substantial amount of energy as they travel fast through the QGP medium \cite{HQELossFirst}. In a simplified schematization, there are two different pictures that describe the energy loss mechanism of heavy quark in the QGP medium. In the pQCD picture, the coupling of the constituents of the QGP is assumed to be weak. Therefore, the QGP is made of weakly coupled quasiparticles. Heavy quarks scatter off the constituents incoherently when propagating through the QGP medium. There are two energy loss mechanisms: collisional energy loss and radiative energy loss \cite{}. The collisional energy loss is given by $-\frac{dE}{dx} = \kappa_{coll}T^2$ and the radiative energy loss is given by  $-\frac{dE}{dx} = \kappa_{rad}T^3x$ \cite{HQCollELoss,HQRadELoss}. Figure \ref{HQELosspQCD} shows schematically heavy quark energy loss mechanism in the QGP medium
 
 
 
+ \begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.35\textwidth]{Figures/Chapter1/Collisional.png}
+\includegraphics[width=0.35\textwidth]{Figures/Chapter1/Radiative.png}
+\caption{The schematic demonstration of the pQCD picture: collisional energy loss (left) and radiative energy loss (right) of heavy quarks in the QGP medium are shown above.}
+\label{HQELosspQCD}
+\end{center}
+\end{figure}   
 
-The other picture, AdS/CFT, takes the strong coupling limit. In this picture, QGP behave like liquid and heavy quarks scatter off the constituents coherently in the QGP medium. The AdS/CFT model applies holographic drag force [3] to calculate the energy loss of heavy quark [4] in the QGP medium
+The other picture, AdS/CFT, takes the strong coupling limit. In this picture, QGP behave like liquid and heavy quarks scatter off the constituents coherently in the QGP medium. The AdS/CFT model applies holographic drag force \cite{ADSCFTDrag} to calculate the energy loss of heavy quark \cite{HQHoloELoss} in the QGP medium
+
+ \begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter1/ADSCFT.png}
+\caption{The schematic demonstration of ADS/CFT picture: the energy loss of a quark in the QGP medium holographically due ADS/CFT drag force.}
+\label{ADCCFT}
+\end{center}
+\end{figure}  
 
 Dead cone effect, flavor dependence of energy loss. soft gluon radiation dominates
 
 
-These studies will help us determine  the fundamental jet transport coefficient
+The studies of heavy quark energy loss mechanism in QGP will help us determine  the fundamental jet transport coefficient $\hat q$ that characterizes the scattering power of the medium \cite{HQReview}. which connects to the mean free path and the momentum diffusion coefficient of heavy quarks \cite{qhatStudy}. The determination of $\hat q$ will help us decipher the inner workings of the QGP.
 
 \subsection{Heavy Quark Hadronization}
 
-After heavy quarks traverse through the medium, it will hadronize into heavy flavor hadrons, which could be fully reconstructed from their final state decay products. In general, hadronization is non-perturbative \cite{}. Therefore, currently, there is not yet first principle calculation that can describe hadronization.
+After heavy quarks traverse through the medium, it will hadronize into heavy flavor hadrons, which could be fully reconstructed from their final state decay products in experiments. As described in section 1.2.7, in general, hadronization is non-perturbative. Considering heavy quark dynamics and apply hadronization models, physicists develop theoretical models to describe heavy quark hadrochemistry. Below, I will present two model candidates to study beauty quark hadronization:
 
 
+\textbf{TAMU Model}
+
+\textbf{Cao, Sun, Ko}
+
+Nevertheless, due to the disagreement between hadronization models, which imposes significant limitation for the heavy-ion community to interpret the heavy flavor data. Therefore, experimentalists precisely measure heavy flavor observables and provide constrains for theoretical models.
 
 \subsection{Experimental Observables}
 

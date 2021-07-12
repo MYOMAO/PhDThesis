@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 JUL 2021 19:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 JUL 2021 00:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -304,23 +304,12 @@ Overfull \hbox (4.4827pt too wide) in paragraph at lines 44--44
 
 Underfull \vbox (badness 2875) has occurred while \output is active []
 
- [18]
-Overfull \hbox (4.4827pt too wide) in paragraph at lines 45--45
- \T1/cmr/m/n/12 tion are in-volved, in (a) electron-positron an-ni-hi-la-tion, 
-(b) deep-inelastic 
- []
-
-
-Overfull \hbox (4.4827pt too wide) in paragraph at lines 46--46
- \T1/cmr/m/n/12 tion are in-volved, in (a) electron-positron an-ni-hi-la-tion, 
-(b) deep-inelastic 
- []
-
-)
+ [18])
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [19] [20
+
+[19] [20
 
 ] (./main.lot)
 \tf@lot=\write5
@@ -858,41 +847,75 @@ Package pdftex.def Info: Figures/Chapter1/FFProcess.png used on input line 1169
 .
 (pdftex.def)             Requested size: 433.62pt x 96.99568pt.
  [78 <./Figures/Chapter1/FFProcess.png>]
-[79] [80] <Figures/Chapter1/LHCbFFs.png, id=413, 845.1575pt x 597.23125pt>
+[79] [80] <Figures/Chapter1/LHCbFFs.png, id=413, 912.40875pt x 608.2725pt>
 File: Figures/Chapter1/LHCbFFs.png Graphic file (type png)
 
 <use Figures/Chapter1/LHCbFFs.png>
 Package pdftex.def Info: Figures/Chapter1/LHCbFFs.png used on input line 1309.
-(pdftex.def)             Requested size: 143.09538pt x 101.11787pt.
+(pdftex.def)             Requested size: 260.17464pt x 173.443pt.
 
+<Figures/Chapter1/LHCbFFpT.png, id=414, 988.69376pt x 700.6175pt>
+File: Figures/Chapter1/LHCbFFpT.png Graphic file (type png)
 
-LaTeX Warning: Citation `GMISQM' on page 81 undefined on input line 1316.
+<use Figures/Chapter1/LHCbFFpT.png>
+Package pdftex.def Info: Figures/Chapter1/LHCbFFpT.png used on input line 1310.
 
+(pdftex.def)             Requested size: 260.17464pt x 184.3585pt.
 
-Overfull \hbox (0.55865pt too wide) in paragraph at lines 1316--1317
+<Figures/Chapter1/LHCbFFy.png, id=415, 975.645pt x 679.53876pt>
+File: Figures/Chapter1/LHCbFFy.png Graphic file (type png)
+
+<use Figures/Chapter1/LHCbFFy.png>
+Package pdftex.def Info: Figures/Chapter1/LHCbFFy.png used on input line 1311.
+(pdftex.def)             Requested size: 260.17464pt x 181.20712pt.
+
+Overfull \hbox (0.55865pt too wide) in paragraph at lines 1318--1319
 []\T1/cmr/m/n/12 In terms of uni-ver-sal-ity, ac-cord-ing to Strangeness Quark 
 Mat-ter Con-fer-ence (SQM)
  []
 
-File: Figures/Chapter1/FFProcess.png Graphic file (type png)
-<use Figures/Chapter1/FFProcess.png>
-Package pdftex.def Info: Figures/Chapter1/FFProcess.png used on input line 1320
+<Figures/Chapter1/ALICECharmFF.png, id=416, 588.1975pt x 569.12625pt>
+File: Figures/Chapter1/ALICECharmFF.png Graphic file (type png)
+
+<use Figures/Chapter1/ALICECharmFF.png>
+Package pdftex.def Info: Figures/Chapter1/ALICECharmFF.png used on input line 1
+322.
+(pdftex.def)             Requested size: 225.48424pt x 218.17204pt.
+ [81] [82 <./Figures/Chapter1/LHCbFFs.png> <./Figures/Chapter1/LHCbFFpT.png> <.
+/Figures/Chapter1/LHCbFFy.png>] [83 <./Figures/Chapter1/ALICECharmFF.png>]
+<Figures/Chapter1/Collisional.png, id=430, 450.9347pt x 362.10281pt>
+File: Figures/Chapter1/Collisional.png Graphic file (type png)
+
+<use Figures/Chapter1/Collisional.png>
+Package pdftex.def Info: Figures/Chapter1/Collisional.png used on input line 13
+73.
+(pdftex.def)             Requested size: 151.76964pt x 121.87013pt.
+
+<Figures/Chapter1/Radiative.png, id=431, 426.09187pt x 451.6875pt>
+File: Figures/Chapter1/Radiative.png Graphic file (type png)
+
+<use Figures/Chapter1/Radiative.png>
+Package pdftex.def Info: Figures/Chapter1/Radiative.png used on input line 1374
 .
-(pdftex.def)             Requested size: 433.62pt x 96.99568pt.
- [81 <./Figures/Chapter1/LHCbFFs.png>]
-[82]
+(pdftex.def)             Requested size: 151.76964pt x 160.8912pt.
 
-LaTeX Warning: Reference `' on page 83 undefined on input line 1365.
+<Figures/Chapter1/ADSCFT.png, id=432, 319.9152pt x 217.2918pt>
+File: Figures/Chapter1/ADSCFT.png Graphic file (type png)
 
-[83]) [84]
+<use Figures/Chapter1/ADSCFT.png>
+Package pdftex.def Info: Figures/Chapter1/ADSCFT.png used on input line 1384.
+(pdftex.def)             Requested size: 195.12767pt x 132.53452pt.
+ [84] [85 <./Figures/Chapter1/Collisional.png> <./Figures/Chapter1/Radiative.pn
+g> <./Figures/Chapter1/ADSCFT.png>]) [86]
 \openout2 = `chap2.aux'.
 
- (./chap2.tex
+
+(./chap2.tex
 Chapter 2.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [85
+ [87
 
 
 
@@ -900,28 +923,28 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (63.9571pt too high) has occurred while \output is active []
 
 
-[86]
+[88]
 \openout2 = `chap3.aux'.
 
  (./chap3.tex
 Chapter 3.
-) [87
+) [89
 
 
 
 ]
 \openout2 = `chap4.aux'.
 
- (./chap4.tex [88
+ (./chap4.tex [90
 
 
 
 ]
 Chapter 4.
-) [89]
+) [91]
 \openout2 = `chap5.aux'.
 
- (./chap5.tex [90
+ (./chap5.tex [92
 
 
 
@@ -930,48 +953,48 @@ Chapter 5.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [91]
+ [93]
 Overfull \vbox (1736.85637pt too high) has occurred while \output is active []
 
 
-[92]
+[94]
 \openout2 = `chap6.aux'.
 
  (./chap6.tex
 Chapter 6.
-) [93
+) [95
 
 
 
 ]
 \openout2 = `chap7.aux'.
 
- (./chap7.tex [94
+ (./chap7.tex [96
 
 
 
 ]
 Chapter 7.
-) [95]
+) [97]
 \openout2 = `appa.aux'.
 
- (./appa.tex [96
+ (./appa.tex [98
 
 
 
 ]
 Appendix A.
-[97])
+[99])
 \openout2 = `appb.aux'.
 
- (./appb.tex [98
+ (./appb.tex [100
 
 
 
 
 ]
 Appendix B.
-[99] [100])
+[101] [102])
 \openout2 = `nomenclature.aux'.
 
  (./nomenclature.tex
@@ -980,38 +1003,38 @@ Appendix B.
 
 
 Writing nomenclature file main.nlo
-(./main.nls [101
+(./main.nls [103
 
 
 
 
-] [102
+] [104
 
-])) (./main.nls [103] [104
+])) (./main.nls [105] [106
 
-]) [105]
+]) [107]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex [106
+ (./biblio.tex [108
 
 
 
 ]
-[107] [108] [109] [110] [111] [112] [113]
+[109] [110] [111] [112] [113] [114] [115]
 Underfull \hbox (badness 1728) in paragraph at lines 106--107
 []\T1/cmr/m/n/12 B. B. Back, ``Stud-ies of mul-ti-plic-ity in rel-a-tivis-tic h
 eavy-ion col-li-sions'',
  []
 
-[114] [115] [116] [117]
+[116] [117] [118] [119]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 166.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [118]
+) [120] [121]
 No file main.bbl.
-) [119] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+) [122] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
 (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./chap7.aux)
 (./appa.aux) (./appb.aux) (./nomenclature.aux) (./biblio.aux))
 
@@ -1023,10 +1046,10 @@ LaTeX Warning: There were multiply-defined labels.
  )
 (\end occurred when \ifx on line 56 was incomplete) 
 Here is how much of TeX's memory you used:
- 3498 strings out of 493089
- 49986 string characters out of 6134842
- 106225 words of memory out of 5000000
- 6708 multiletter control sequences out of 15000+600000
+ 3535 strings out of 493089
+ 50987 string characters out of 6134842
+ 106288 words of memory out of 5000000
+ 6739 multiletter control sequences out of 15000+600000
  17523 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,14n,23p,1571b,268s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1052,10 +1075,10 @@ uper/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-sup
 er/sfrm1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super
 /sfrm1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/s
 ftt1200.pfb>
-Output written on main.pdf (119 pages, 6748828 bytes).
+Output written on main.pdf (122 pages, 7006100 bytes).
 PDF statistics:
- 611 PDF objects out of 1000 (max. 8388607)
- 349 compressed objects within 4 object streams
+ 633 PDF objects out of 1000 (max. 8388607)
+ 356 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 286 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 316 words of extra memory for PDF output out of 10000 (max. 10000000)
 
