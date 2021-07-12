@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 JUL 2021 22:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 JUL 2021 19:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -72,6 +72,10 @@ LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/braket/braket.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -141,7 +145,7 @@ LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count99
 \c@MaxMatrixCols=\count100
-\dotsspace@=\muskip10
+\dotsspace@=\muskip11
 \c@parentequation=\count101
 \dspbrk@lvl=\count102
 \tag@help=\toks16
@@ -173,18 +177,18 @@ LaTeX Warning: Label `CERNAccComplex' multiply defined.
 (./chap7.aux) (./appa.aux) (./appb.aux) (./nomenclature.aux) (./biblio.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -291,276 +295,295 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17])
+ [17]
+Overfull \hbox (4.4827pt too wide) in paragraph at lines 44--44
+ \T1/cmr/m/n/12 tion are in-volved, in (a) electron-positron an-ni-hi-la-tion, 
+(b) deep-inelastic 
+ []
+
+
+Underfull \vbox (badness 2875) has occurred while \output is active []
+
+ [18]
+Overfull \hbox (4.4827pt too wide) in paragraph at lines 45--45
+ \T1/cmr/m/n/12 tion are in-volved, in (a) electron-positron an-ni-hi-la-tion, 
+(b) deep-inelastic 
+ []
+
+
+Overfull \hbox (4.4827pt too wide) in paragraph at lines 46--46
+ \T1/cmr/m/n/12 tion are in-volved, in (a) electron-positron an-ni-hi-la-tion, 
+(b) deep-inelastic 
+ []
+
+)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
+ [19] [20
 
-[18] (./main.lot)
+] (./main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
-) [19
-
-]
+) [21]
 \openout2 = `chap1.aux'.
 
- (./chap1.tex [20
+ (./chap1.tex [22
 
 
 
 ]
 Chapter 1.
-<Figures/Chapter1/SMParticles.png, id=85, 642.4pt x 482.80376pt>
+<Figures/Chapter1/SMParticles.png, id=91, 642.4pt x 482.80376pt>
 File: Figures/Chapter1/SMParticles.png Graphic file (type png)
 
 <use Figures/Chapter1/SMParticles.png>
-Package pdftex.def Info: Figures/Chapter1/SMParticles.png used on input line 17
+Package pdftex.def Info: Figures/Chapter1/SMParticles.png used on input line 18
 .
 (pdftex.def)             Requested size: 216.81pt x 162.94292pt.
- [21] [22 <./Figures/Chapter1/SMParticles.png>] <Figures/Chapter1/QCDCoupling.p
-ng, id=94, 592.2125pt x 599.23875pt>
+ [23] [24 <./Figures/Chapter1/SMParticles.png>] <Figures/Chapter1/QCDCoupling.p
+ng, id=100, 592.2125pt x 599.23875pt>
 File: Figures/Chapter1/QCDCoupling.png Graphic file (type png)
 
 <use Figures/Chapter1/QCDCoupling.png>
-Package pdftex.def Info: Figures/Chapter1/QCDCoupling.png used on input line 64
+Package pdftex.def Info: Figures/Chapter1/QCDCoupling.png used on input line 65
 .
 (pdftex.def)             Requested size: 216.81pt x 219.38324pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
+ [25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24 <./Figures/Chapter1/QCDCoupling.png>]
-<Figures/Chapter1/QCDFactorizationTheorem.png, id=103, 1069.9975pt x 682.55pt>
+ [26 <./Figures/Chapter1/QCDCoupling.png>]
+<Figures/Chapter1/QCDFactorizationTheorem.png, id=110, 1069.9975pt x 682.55pt>
 File: Figures/Chapter1/QCDFactorizationTheorem.png Graphic file (type png)
 
 <use Figures/Chapter1/QCDFactorizationTheorem.png>
 Package pdftex.def Info: Figures/Chapter1/QCDFactorizationTheorem.png used on i
-nput line 92.
+nput line 93.
 (pdftex.def)             Requested size: 325.215pt x 207.45361pt.
- [25 <./Figures/Chapter1/QCDFactorizationTheorem.png>]
-<Figures/Chapter1/FragCartoon.png, id=110, 384.4764pt x 195.6108pt>
+ [27 <./Figures/Chapter1/QCDFactorizationTheorem.png>]
+<Figures/Chapter1/FragCartoon.png, id=116, 384.4764pt x 195.6108pt>
 File: Figures/Chapter1/FragCartoon.png Graphic file (type png)
 
 <use Figures/Chapter1/FragCartoon.png>
 Package pdftex.def Info: Figures/Chapter1/FragCartoon.png used on input line 11
-3.
+4.
 (pdftex.def)             Requested size: 208.13574pt x 105.89389pt.
 
-<Figures/Chapter1/CoalCartoon.png, id=111, 362.3136pt x 166.7028pt>
+<Figures/Chapter1/CoalCartoon.png, id=117, 362.3136pt x 166.7028pt>
 File: Figures/Chapter1/CoalCartoon.png Graphic file (type png)
 
 <use Figures/Chapter1/CoalCartoon.png>
 Package pdftex.def Info: Figures/Chapter1/CoalCartoon.png used on input line 11
-4.
+5.
 (pdftex.def)             Requested size: 208.13574pt x 95.76433pt.
 
 Underfull \vbox (badness 3482) has occurred while \output is active []
 
- [26]
-<Figures/Chapter1/ManyBodyQCD.png, id=115, 794.97pt x 511.9125pt>
+ [28]
+<Figures/Chapter1/ManyBodyQCD.png, id=121, 794.97pt x 511.9125pt>
 File: Figures/Chapter1/ManyBodyQCD.png Graphic file (type png)
 
 <use Figures/Chapter1/ManyBodyQCD.png>
 Package pdftex.def Info: Figures/Chapter1/ManyBodyQCD.png used on input line 12
-7.
+8.
 (pdftex.def)             Requested size: 303.53267pt x 195.4583pt.
- [27 <./Figures/Chapter1/FragCartoon.png> <./Figures/Chapter1/CoalCartoon.png> 
+ [29 <./Figures/Chapter1/FragCartoon.png> <./Figures/Chapter1/CoalCartoon.png> 
 <./Figures/Chapter1/ManyBodyQCD.png>]
-<Figures/Chapter1/ChiralTriangle.png, id=122, 392.46625pt x 235.88126pt>
+<Figures/Chapter1/ChiralTriangle.png, id=128, 392.46625pt x 235.88126pt>
 File: Figures/Chapter1/ChiralTriangle.png Graphic file (type png)
 
 <use Figures/Chapter1/ChiralTriangle.png>
 Package pdftex.def Info: Figures/Chapter1/ChiralTriangle.png used on input line
- 155.
+ 156.
 (pdftex.def)             Requested size: 195.12767pt x 117.27806pt.
- [28] [29 <./Figures/Chapter1/ChiralTriangle.png>]
-<Figures/Chapter1/ChiralScheme.png, id=131, 853.1875pt x 319.1925pt>
+ [30] [31 <./Figures/Chapter1/ChiralTriangle.png>]
+<Figures/Chapter1/ChiralScheme.png, id=138, 853.1875pt x 319.1925pt>
 File: Figures/Chapter1/ChiralScheme.png Graphic file (type png)
 
 <use Figures/Chapter1/ChiralScheme.png>
 Package pdftex.def Info: Figures/Chapter1/ChiralScheme.png used on input line 2
-04.
+05.
 (pdftex.def)             Requested size: 303.53267pt x 113.56007pt.
- [30 <./Figures/Chapter1/ChiralScheme.png>] <Figures/Chapter1/QCDPotential.png,
- id=136, 629.35126pt x 449.68pt>
+ [32 <./Figures/Chapter1/ChiralScheme.png>] <Figures/Chapter1/QCDPotential.png,
+ id=143, 629.35126pt x 449.68pt>
 File: Figures/Chapter1/QCDPotential.png Graphic file (type png)
 
 <use Figures/Chapter1/QCDPotential.png>
 Package pdftex.def Info: Figures/Chapter1/QCDPotential.png used on input line 2
-36.
+37.
 (pdftex.def)             Requested size: 195.12767pt x 139.41994pt.
- [31 <./Figures/Chapter1/QCDPotential.png>] [32] <Figures/Chapter1/GSScalePlot.
-png, id=145, 450.68375pt x 442.65375pt>
+ [33 <./Figures/Chapter1/QCDPotential.png>] [34] <Figures/Chapter1/GSScalePlot.
+png, id=151, 450.68375pt x 442.65375pt>
 File: Figures/Chapter1/GSScalePlot.png Graphic file (type png)
 
 <use Figures/Chapter1/GSScalePlot.png>
 Package pdftex.def Info: Figures/Chapter1/GSScalePlot.png used on input line 27
-4.
+5.
 (pdftex.def)             Requested size: 195.12767pt x 191.65448pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
-<Figures/Chapter1/WaterPhaseDiagram.png, id=149, 482.8589pt x 362.93835pt>
+ [35]
+<Figures/Chapter1/WaterPhaseDiagram.png, id=155, 482.8589pt x 362.93835pt>
 File: Figures/Chapter1/WaterPhaseDiagram.png Graphic file (type png)
 
 <use Figures/Chapter1/WaterPhaseDiagram.png>
 Package pdftex.def Info: Figures/Chapter1/WaterPhaseDiagram.png used on input l
-ine 297.
+ine 298.
 (pdftex.def)             Requested size: 195.12767pt x 146.66801pt.
- [34 <./Figures/Chapter1/GSScalePlot.png (PNG copy)>]
-<Figures/Chapter1/QCDPhaseDiagram.png, id=153, 460.72125pt x 421.575pt>
+ [36 <./Figures/Chapter1/GSScalePlot.png (PNG copy)>]
+<Figures/Chapter1/QCDPhaseDiagram.png, id=159, 460.72125pt x 421.575pt>
 File: Figures/Chapter1/QCDPhaseDiagram.png Graphic file (type png)
 
 <use Figures/Chapter1/QCDPhaseDiagram.png>
 Package pdftex.def Info: Figures/Chapter1/QCDPhaseDiagram.png used on input lin
-e 308.
+e 309.
 (pdftex.def)             Requested size: 195.12767pt x 178.54623pt.
- [35 <./Figures/Chapter1/WaterPhaseDiagram.png> <./Figures/Chapter1/QCDPhaseDia
+ [37 <./Figures/Chapter1/WaterPhaseDiagram.png> <./Figures/Chapter1/QCDPhaseDia
 gram.png (PNG copy)>]
-<Figures/Chapter1/NuclearForce.png, id=158, 501.875pt x 395.4775pt>
+<Figures/Chapter1/NuclearForce.png, id=165, 501.875pt x 395.4775pt>
 File: Figures/Chapter1/NuclearForce.png Graphic file (type png)
 
 <use Figures/Chapter1/NuclearForce.png>
 Package pdftex.def Info: Figures/Chapter1/NuclearForce.png used on input line 3
-20.
+21.
 (pdftex.def)             Requested size: 195.12767pt x 153.76491pt.
 
-<Figures/Chapter1/EOSHadronGas.png, id=159, 501.875pt x 334.24875pt>
+<Figures/Chapter1/EOSHadronGas.png, id=166, 501.875pt x 334.24875pt>
 File: Figures/Chapter1/EOSHadronGas.png Graphic file (type png)
 
 <use Figures/Chapter1/EOSHadronGas.png>
 Package pdftex.def Info: Figures/Chapter1/EOSHadronGas.png used on input line 3
-30.
+31.
 (pdftex.def)             Requested size: 195.12767pt x 129.95866pt.
- [36 <./Figures/Chapter1/NuclearForce.png>] [37 <./Figures/Chapter1/EOSHadronGa
+ [38 <./Figures/Chapter1/NuclearForce.png>] [39 <./Figures/Chapter1/EOSHadronGa
 s.png (PNG copy)>]
-<Figures/Chapter1/QGPEOS.png, id=168, 516.93124pt x 337.26pt>
+<Figures/Chapter1/QGPEOS.png, id=174, 516.93124pt x 337.26pt>
 File: Figures/Chapter1/QGPEOS.png Graphic file (type png)
 
 <use Figures/Chapter1/QGPEOS.png>
-Package pdftex.def Info: Figures/Chapter1/QGPEOS.png used on input line 373.
+Package pdftex.def Info: Figures/Chapter1/QGPEOS.png used on input line 374.
 (pdftex.def)             Requested size: 260.17464pt x 169.75143pt.
- [38]
+ [40]
 
-LaTeX Warning: Citation `STARBES' on page 39 undefined on input line 396.
+LaTeX Warning: Citation `STARBES' on page 41 undefined on input line 397.
 
-[39 <./Figures/Chapter1/QGPEOS.png>] [40]
-<Figures/Chapter1/RHIC.jpg, id=179, 803.0pt x 321.2pt>
+[41 <./Figures/Chapter1/QGPEOS.png>] [42]
+<Figures/Chapter1/RHIC.jpg, id=185, 803.0pt x 321.2pt>
 File: Figures/Chapter1/RHIC.jpg Graphic file (type jpg)
 
 <use Figures/Chapter1/RHIC.jpg>
-Package pdftex.def Info: Figures/Chapter1/RHIC.jpg used on input line 417.
+Package pdftex.def Info: Figures/Chapter1/RHIC.jpg used on input line 418.
 (pdftex.def)             Requested size: 368.57964pt x 147.43521pt.
- [41]
-<Figures/Chapter1/AccAu.png, id=183, 491.8375pt x 376.40625pt>
+ [43]
+<Figures/Chapter1/AccAu.png, id=190, 491.8375pt x 376.40625pt>
 File: Figures/Chapter1/AccAu.png Graphic file (type png)
 
 <use Figures/Chapter1/AccAu.png>
-Package pdftex.def Info: Figures/Chapter1/AccAu.png used on input line 427.
+Package pdftex.def Info: Figures/Chapter1/AccAu.png used on input line 428.
 (pdftex.def)             Requested size: 195.12767pt x 149.33072pt.
-
-Underfull \vbox (badness 4479) has occurred while \output is active []
-
- [42 <./Figures/Chapter1/RHIC.jpg>]
-<Figures/Chapter1/LHC.png, id=187, 551.661pt x 264.99pt>
+ [44 <./Figures/Chapter1/RHIC.jpg>]
+<Figures/Chapter1/LHC.png, id=194, 551.661pt x 264.99pt>
 File: Figures/Chapter1/LHC.png Graphic file (type png)
 
 <use Figures/Chapter1/LHC.png>
-Package pdftex.def Info: Figures/Chapter1/LHC.png used on input line 441.
+Package pdftex.def Info: Figures/Chapter1/LHC.png used on input line 442.
 (pdftex.def)             Requested size: 368.57964pt x 177.04503pt.
- [43 <./Figures/Chapter1/AccAu.png (PNG copy)>]
-<Figures/Chapter1/CERNAccComplex.jpg, id=192, 702.625pt x 431.6125pt>
+ [45 <./Figures/Chapter1/AccAu.png (PNG copy)>]
+<Figures/Chapter1/CERNAccComplex.jpg, id=198, 702.625pt x 431.6125pt>
 File: Figures/Chapter1/CERNAccComplex.jpg Graphic file (type jpg)
 
 <use Figures/Chapter1/CERNAccComplex.jpg>
 Package pdftex.def Info: Figures/Chapter1/CERNAccComplex.jpg used on input line
- 452.
+ 453.
 (pdftex.def)             Requested size: 281.85034pt x 173.14246pt.
- [44 <./Figures/Chapter1/LHC.png>]
-Underfull \vbox (badness 1655) has occurred while \output is active []
-
- [45 <./Figures/Chapter1/CERNAccComplex.jpg>]
-<Figures/Chapter1/PosCylindrical.png, id=199, 198.7425pt x 192.72pt>
+ [46 <./Figures/Chapter1/LHC.png>]
+[47 <./Figures/Chapter1/CERNAccComplex.jpg>]
+<Figures/Chapter1/PosCylindrical.png, id=205, 198.7425pt x 192.72pt>
 File: Figures/Chapter1/PosCylindrical.png Graphic file (type png)
 
 <use Figures/Chapter1/PosCylindrical.png>
 Package pdftex.def Info: Figures/Chapter1/PosCylindrical.png used on input line
- 496.
+ 497.
 (pdftex.def)             Requested size: 173.44534pt x 168.19435pt.
 
-<Figures/Chapter1/STDiagram.png, id=200, 803.0pt x 803.0pt>
+<Figures/Chapter1/STDiagram.png, id=206, 803.0pt x 803.0pt>
 File: Figures/Chapter1/STDiagram.png Graphic file (type png)
 
 <use Figures/Chapter1/STDiagram.png>
-Package pdftex.def Info: Figures/Chapter1/STDiagram.png used on input line 497.
+Package pdftex.def Info: Figures/Chapter1/STDiagram.png used on input line 498.
 
 (pdftex.def)             Requested size: 173.44534pt x 173.43806pt.
- [46 <./Figures/Chapter1/PosCylindrical.png> <./Figures/Chapter1/STDiagram.png>
-] [47]
-<Figures/Chapter1/Heavy-Ion-Process.png, id=209, 691.58376pt x 242.9075pt>
+
+Underfull \vbox (badness 2165) has occurred while \output is active []
+
+ [48 <./Figures/Chapter1/PosCylindrical.png> <./Figures/Chapter1/STDiagram.png>
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49]
+<Figures/Chapter1/Heavy-Ion-Process.png, id=216, 691.58376pt x 242.9075pt>
 File: Figures/Chapter1/Heavy-Ion-Process.png Graphic file (type png)
 
 <use Figures/Chapter1/Heavy-Ion-Process.png>
 Package pdftex.def Info: Figures/Chapter1/Heavy-Ion-Process.png used on input l
-ine 558.
+ine 559.
 (pdftex.def)             Requested size: 325.215pt x 114.22954pt.
 
-<Figures/Chapter1/HICSTEvolve.png, id=210, 321.2pt x 321.2pt>
+<Figures/Chapter1/HICSTEvolve.png, id=217, 321.2pt x 321.2pt>
 File: Figures/Chapter1/HICSTEvolve.png Graphic file (type png)
 
 <use Figures/Chapter1/HICSTEvolve.png>
 Package pdftex.def Info: Figures/Chapter1/HICSTEvolve.png used on input line 56
-6.
+7.
 (pdftex.def)             Requested size: 195.12767pt x 195.13283pt.
- [48 <./Figures/Chapter1/Heavy-Ion-Process.png (PNG copy)>]
-<Figures/Chapter1/IPHIColl.png, id=214, 650.43pt x 519.9425pt>
+ [50 <./Figures/Chapter1/Heavy-Ion-Process.png (PNG copy)>]
+<Figures/Chapter1/IPHIColl.png, id=222, 650.43pt x 519.9425pt>
 File: Figures/Chapter1/IPHIColl.png Graphic file (type png)
 
 <use Figures/Chapter1/IPHIColl.png>
-Package pdftex.def Info: Figures/Chapter1/IPHIColl.png used on input line 583.
+Package pdftex.def Info: Figures/Chapter1/IPHIColl.png used on input line 584.
 (pdftex.def)             Requested size: 195.12767pt x 155.97601pt.
-
-Underfull \vbox (badness 4024) has occurred while \output is active []
-
- [49 <./Figures/Chapter1/HICSTEvolve.png>]
-Underfull \vbox (badness 5802) has occurred while \output is active []
-
- [50 <./Figures/Chapter1/IPHIColl.png>]
-<Figures/Chapter1/CentDefPlot.png, id=225, 796.9775pt x 892.33376pt>
+ [51 <./Figures/Chapter1/HICSTEvolve.png>]
+[52 <./Figures/Chapter1/IPHIColl.png>]
+<Figures/Chapter1/CentDefPlot.png, id=231, 796.9775pt x 892.33376pt>
 File: Figures/Chapter1/CentDefPlot.png Graphic file (type png)
 
 <use Figures/Chapter1/CentDefPlot.png>
 Package pdftex.def Info: Figures/Chapter1/CentDefPlot.png used on input line 60
-7.
+8.
 (pdftex.def)             Requested size: 195.12767pt x 218.4671pt.
-
-<Figures/Chapter1/STAREvtDisplay.png, id=226, 1230.5975pt x 949.5475pt>
+ [53]
+<Figures/Chapter1/STAREvtDisplay.png, id=235, 1230.5975pt x 949.5475pt>
 File: Figures/Chapter1/STAREvtDisplay.png Graphic file (type png)
 
 <use Figures/Chapter1/STAREvtDisplay.png>
 Package pdftex.def Info: Figures/Chapter1/STAREvtDisplay.png used on input line
- 619.
+ 620.
 (pdftex.def)             Requested size: 216.81pt x 167.28894pt.
- [51] [52 <./Figures/Chapter1/CentDefPlot.png> <./Figures/Chapter1/STAREvtDispl
-ay.png>]
+ [54 <./Figures/Chapter1/CentDefPlot.png>]
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 646.
+(amsmath)                 on input line 647.
 
-[53] <Figures/Chapter1/GlauDefColl.png, id=237, 951.555pt x 475.7775pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55 <./Figures/Chapter1/STAREvtDisplay.png>]
+<Figures/Chapter1/GlauDefColl.png, id=244, 951.555pt x 475.7775pt>
 File: Figures/Chapter1/GlauDefColl.png Graphic file (type png)
 
 <use Figures/Chapter1/GlauDefColl.png>
 Package pdftex.def Info: Figures/Chapter1/GlauDefColl.png used on input line 67
-0.
+1.
 (pdftex.def)             Requested size: 281.85034pt x 140.92665pt.
 
-Overfull \hbox (124.35332pt too wide) detected at line 689
+Overfull \hbox (124.35332pt too wide) detected at line 690
 \OMS/cmsy/m/n/12 h\OML/cmm/m/it/12 N\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^V\OT1/c
 mr/m/n/12 )\OMS/cmsy/m/n/12 i \OT1/cmr/m/n/12 = [] [][] \OML/cmm/m/it/12 T[]\OT
 1/cmr/m/n/12 ([])\OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1 \OMS/cmsy/m/n/12 ^^@ \OT1/
@@ -575,8 +598,8 @@ T[]\OT1/cmr/m/n/12 ([])\OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1 \OMS/cmsy/m/n/12 ^^@
 \OMS/cmsy/m/n/12 g[]\OML/cmm/m/it/12 d[]s
  []
 
-
-Overfull \hbox (9.47856pt too wide) detected at line 696
+[56 <./Figures/Chapter1/GlauDefColl.png>]
+Overfull \hbox (9.47856pt too wide) detected at line 697
 \OML/cmm/m/it/12 N[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 A [][] T[]\OT1/cmr/m/n/
 12 ([])\OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1 \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12
  [1 \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 ([] \OMS/cmsy/m/n/
@@ -588,108 +611,110 @@ sy/m/n/12 ^^@ []\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ^^[[]\OT1/cmr/m/n/12 ][]\OMS/
 cmsy/m/n/12 g\OML/cmm/m/it/12 d[]s
  []
 
-
-Underfull \vbox (badness 1320) has occurred while \output is active []
-
- [54 <./Figures/Chapter1/GlauDefColl.png>]
-<Figures/Chapter1/NPartandNColl.png, id=242, 417.05812pt x 374.90062pt>
+<Figures/Chapter1/NPartandNColl.png, id=249, 417.05812pt x 374.90062pt>
 File: Figures/Chapter1/NPartandNColl.png Graphic file (type png)
 
 <use Figures/Chapter1/NPartandNColl.png>
 Package pdftex.def Info: Figures/Chapter1/NPartandNColl.png used on input line 
-721.
+722.
 (pdftex.def)             Requested size: 216.81pt x 194.89795pt.
- [55] [56 <./Figures/Chapter1/NPartandNColl.png>] <Figures/Chapter1/STARPt.png,
- id=251, 733.74126pt x 551.05875pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
+[58 <./Figures/Chapter1/NPartandNColl.png>]
+<Figures/Chapter1/STARPt.png, id=257, 733.74126pt x 551.05875pt>
 File: Figures/Chapter1/STARPt.png Graphic file (type png)
 
 <use Figures/Chapter1/STARPt.png>
-Package pdftex.def Info: Figures/Chapter1/STARPt.png used on input line 759.
+Package pdftex.def Info: Figures/Chapter1/STARPt.png used on input line 762.
 (pdftex.def)             Requested size: 203.80193pt x 153.05934pt.
 
-<Figures/Chapter1/STARNPart.png, id=252, 602.25pt x 432.61626pt>
+<Figures/Chapter1/STARNPart.png, id=258, 602.25pt x 432.61626pt>
 File: Figures/Chapter1/STARNPart.png Graphic file (type png)
 
 <use Figures/Chapter1/STARNPart.png>
-Package pdftex.def Info: Figures/Chapter1/STARNPart.png used on input line 760.
+Package pdftex.def Info: Figures/Chapter1/STARNPart.png used on input line 763.
 
 (pdftex.def)             Requested size: 211.17271pt x 151.6952pt.
 
-<Figures/Chapter1/STARUpsilon.png, id=253, 602.25pt x 432.61626pt>
+Underfull \vbox (badness 2126) has occurred while \output is active []
+
+ [59]
+<Figures/Chapter1/STARUpsilon.png, id=262, 602.25pt x 432.61626pt>
 File: Figures/Chapter1/STARUpsilon.png Graphic file (type png)
 
 <use Figures/Chapter1/STARUpsilon.png>
 Package pdftex.def Info: Figures/Chapter1/STARUpsilon.png used on input line 77
-2.
-(pdftex.def)             Requested size: 182.1196pt x 130.82227pt.
+5.
+(pdftex.def)             Requested size: 225.48424pt x 161.97325pt.
 
-<Figures/Chapter1/CMSUpsilon.png, id=254, 410.2828pt x 379.4175pt>
+<Figures/Chapter1/CMSUpsilon.png, id=263, 410.2828pt x 379.4175pt>
 File: Figures/Chapter1/CMSUpsilon.png Graphic file (type png)
 
 <use Figures/Chapter1/CMSUpsilon.png>
-Package pdftex.def Info: Figures/Chapter1/CMSUpsilon.png used on input line 773
+Package pdftex.def Info: Figures/Chapter1/CMSUpsilon.png used on input line 776
 .
-(pdftex.def)             Requested size: 238.49231pt x 220.54861pt.
+(pdftex.def)             Requested size: 173.44534pt x 160.39635pt.
 
-Underfull \vbox (badness 4634) has occurred while \output is active []
-
- [57]
-[58 <./Figures/Chapter1/STARPt.png> <./Figures/Chapter1/STARNPart.png> <./Figur
-es/Chapter1/STARUpsilon.png> <./Figures/Chapter1/CMSUpsilon.png>]
-<Figures/Chapter1/DijetEvt.png, id=265, 763.85374pt x 663.47874pt>
+<Figures/Chapter1/DijetEvt.png, id=264, 763.85374pt x 663.47874pt>
 File: Figures/Chapter1/DijetEvt.png Graphic file (type png)
 
 <use Figures/Chapter1/DijetEvt.png>
-Package pdftex.def Info: Figures/Chapter1/DijetEvt.png used on input line 785.
+Package pdftex.def Info: Figures/Chapter1/DijetEvt.png used on input line 790.
 (pdftex.def)             Requested size: 216.81pt x 188.31386pt.
-
-<Figures/Chapter1/JetELoss.png, id=266, 204.01219pt x 134.00063pt>
+ [60 <./Figures/Chapter1/STARPt.png> <./Figures/Chapter1/STARNPart.png>]
+<Figures/Chapter1/JetELoss.png, id=270, 204.01219pt x 134.00063pt>
 File: Figures/Chapter1/JetELoss.png Graphic file (type png)
 
 <use Figures/Chapter1/JetELoss.png>
-Package pdftex.def Info: Figures/Chapter1/JetELoss.png used on input line 796.
+Package pdftex.def Info: Figures/Chapter1/JetELoss.png used on input line 801.
 (pdftex.def)             Requested size: 195.12767pt x 128.17088pt.
- [59 <./Figures/Chapter1/DijetEvt.png>]
+
 <Figures/Chapter1/HadronAngularSTAR.png, id=271, 395.22656pt x 276.28218pt>
 File: Figures/Chapter1/HadronAngularSTAR.png Graphic file (type png)
 
 <use Figures/Chapter1/HadronAngularSTAR.png>
 Package pdftex.def Info: Figures/Chapter1/HadronAngularSTAR.png used on input l
-ine 807.
-(pdftex.def)             Requested size: 195.12767pt x 136.40387pt.
+ine 812.
+(pdftex.def)             Requested size: 238.49231pt x 166.71912pt.
 
 <Figures/Chapter1/JetRAAALICE.png, id=272, 569.12625pt x 587.19376pt>
 File: Figures/Chapter1/JetRAAALICE.png Graphic file (type png)
 
 <use Figures/Chapter1/JetRAAALICE.png>
-Package pdftex.def Info: Figures/Chapter1/JetRAAALICE.png used on input line 80
-8.
-(pdftex.def)             Requested size: 216.81pt x 223.69145pt.
-
-<Figures/Chapter1/ReactionPlane.jpg, id=273, 385.44pt x 278.4804pt>
+Package pdftex.def Info: Figures/Chapter1/JetRAAALICE.png used on input line 81
+3.
+(pdftex.def)             Requested size: 173.44534pt x 178.95496pt.
+ [61 <./Figures/Chapter1/STARUpsilon.png> <./Figures/Chapter1/CMSUpsilon.png>] 
+[62 <./Figures/Chapter1/DijetEvt.png> <./Figures/Chapter1/JetELoss.png (PNG cop
+y)>]
+<Figures/Chapter1/ReactionPlane.jpg, id=283, 385.44pt x 278.4804pt>
 File: Figures/Chapter1/ReactionPlane.jpg Graphic file (type jpg)
 
 <use Figures/Chapter1/ReactionPlane.jpg>
 Package pdftex.def Info: Figures/Chapter1/ReactionPlane.jpg used on input line 
-820.
+827.
 (pdftex.def)             Requested size: 173.44534pt x 125.31076pt.
 
-Overfull \hbox (16.35733pt too wide) in paragraph at lines 832--833
+Overfull \hbox (16.35733pt too wide) in paragraph at lines 839--840
 []\T1/cmr/m/n/12 Since the par-ti-cle emis-sion is az-imuthally anisotropic, we
  can ex-pand the $\OML/cmm/m/it/12 F\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 p[]; ^^^;
  y\OT1/cmr/m/n/12 ) =
  []
 
 
-Underfull \vbox (badness 7540) has occurred while \output is active []
+Underfull \vbox (badness 2469) has occurred while \output is active []
 
- [60 <./Figures/Chapter1/JetELoss.png (PNG copy)>] [61 <./Figures/Chapter1/Hadr
-onAngularSTAR.png> <./Figures/Chapter1/JetRAAALICE.png> <./Figures/Chapter1/Rea
-ctionPlane.jpg>] [62]
-Underfull \vbox (badness 1888) has occurred while \output is active []
+ [63 <./Figures/Chapter1/HadronAngularSTAR.png> <./Figures/Chapter1/JetRAAALICE
+.png>]
+Underfull \vbox (badness 2772) has occurred while \output is active []
 
- [63]
-[64]
+ [64 <./Figures/Chapter1/ReactionPlane.jpg>] [65]
+Underfull \vbox (badness 2245) has occurred while \output is active []
+
+ [66]
+[67]
 Package epstopdf Info: Source file: <Figures/Chapter1/STARV2Plot.eps>
 (epstopdf)                    date: 2021-07-08 17:00:44
 (epstopdf)                    size: 197874 bytes
@@ -699,103 +724,204 @@ to.pdf>
 (epstopdf)                    size: 7870 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Chapter1/STARV2Plo
 t-eps-converted-to.pdf Figures/Chapter1/STARV2Plot.eps>
-(epstopdf)             \includegraphics on input line 992.
+(epstopdf)             \includegraphics on input line 999.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Chapter1/STARV2Plot-eps-converted-to.pdf, id=292, 233.87375pt x 164.61
+<Figures/Chapter1/STARV2Plot-eps-converted-to.pdf, id=302, 233.87375pt x 164.61
 5pt>
 File: Figures/Chapter1/STARV2Plot-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/Chapter1/STARV2Plot-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/Chapter1/STARV2Plot-eps-converted-to.pdf used 
-on input line 992.
+on input line 999.
 (pdftex.def)             Requested size: 195.12767pt x 137.34879pt.
 
-<Figures/Chapter1/ALICEV2Plot.png, id=293, 392.21532pt x 285.31593pt>
+<Figures/Chapter1/ALICEV2Plot.png, id=303, 392.21532pt x 285.31593pt>
 File: Figures/Chapter1/ALICEV2Plot.png Graphic file (type png)
 
 <use Figures/Chapter1/ALICEV2Plot.png>
-Package pdftex.def Info: Figures/Chapter1/ALICEV2Plot.png used on input line 99
-3.
+Package pdftex.def Info: Figures/Chapter1/ALICEV2Plot.png used on input line 10
+00.
 (pdftex.def)             Requested size: 195.12767pt x 141.94798pt.
-
-
-LaTeX Warning: Citation `SSEnhance' on page 65 undefined on input line 1001.
-
-[65] <Figures/Chapter1/STARPhiOverPi.png, id=297, 882.29625pt x 580.1675pt>
+ [68 <./Figures/Chapter1/STARV2Plot-eps-converted-to.pdf> <./Figures/Chapter1/A
+LICEV2Plot.png>]
+<Figures/Chapter1/STARPhiOverPi.png, id=314, 882.29625pt x 580.1675pt>
 File: Figures/Chapter1/STARPhiOverPi.png Graphic file (type png)
 
 <use Figures/Chapter1/STARPhiOverPi.png>
 Package pdftex.def Info: Figures/Chapter1/STARPhiOverPi.png used on input line 
-1005.
+1014.
 (pdftex.def)             Requested size: 195.12767pt x 128.31003pt.
 
-<Figures/Chapter1/ALICEStrange.png, id=298, 597.23125pt x 845.1575pt>
+<Figures/Chapter1/ALICEStrange.png, id=315, 597.23125pt x 845.1575pt>
 File: Figures/Chapter1/ALICEStrange.png Graphic file (type png)
 
 <use Figures/Chapter1/ALICEStrange.png>
 Package pdftex.def Info: Figures/Chapter1/ALICEStrange.png used on input line 1
-006.
+015.
 (pdftex.def)             Requested size: 130.08731pt x 184.09108pt.
 
-<Figures/Chapter1/QGPDisSPS.png, id=299, 493.845pt x 720.6925pt>
+<Figures/Chapter1/QGPDisSPS.png, id=316, 493.845pt x 720.6925pt>
 File: Figures/Chapter1/QGPDisSPS.png Graphic file (type png)
 
 <use Figures/Chapter1/QGPDisSPS.png>
-Package pdftex.def Info: Figures/Chapter1/QGPDisSPS.png used on input line 1022
+Package pdftex.def Info: Figures/Chapter1/QGPDisSPS.png used on input line 1031
 .
-(pdftex.def)             Requested size: 186.45341pt x 272.0955pt.
- [66 <./Figures/Chapter1/STARV2Plot-eps-converted-to.pdf> <./Figures/Chapter1/A
-LICEV2Plot.png>] [67 <./Figures/Chapter1/STARPhiOverPi.png> <./Figures/Chapter1
-/ALICEStrange.png> <./Figures/Chapter1/QGPDisSPS.png>]
-File: Figures/Chapter1/STARUpsilon.png Graphic file (type png)
- <use Figures/Chapter1/STARUpsilon.png>
-Package pdftex.def Info: Figures/Chapter1/STARUpsilon.png used on input line 10
-34.
-(pdftex.def)             Requested size: 182.1196pt x 130.82227pt.
-File: Figures/Chapter1/CMSUpsilon.png Graphic file (type png)
+(pdftex.def)             Requested size: 390.25534pt x 569.5168pt.
+ [69 <./Figures/Chapter1/STARPhiOverPi.png> <./Figures/Chapter1/ALICEStrange.pn
+g>] [70 <./Figures/Chapter1/QGPDisSPS.png>] [71] <Figures/Chapter1/Rutherford.j
+pg, id=329, 129.8451pt x 128.8815pt>
+File: Figures/Chapter1/Rutherford.jpg Graphic file (type jpg)
 
-<use Figures/Chapter1/CMSUpsilon.png>
-Package pdftex.def Info: Figures/Chapter1/CMSUpsilon.png used on input line 103
-5.
-(pdftex.def)             Requested size: 238.49231pt x 220.54861pt.
- [68]) [69]
+<use Figures/Chapter1/Rutherford.jpg>
+Package pdftex.def Info: Figures/Chapter1/Rutherford.jpg used on input line 107
+8.
+(pdftex.def)             Requested size: 195.12767pt x 193.67967pt.
+
+<Figures/Chapter1/DIS.jpg, id=330, 609.27625pt x 702.625pt>
+File: Figures/Chapter1/DIS.jpg Graphic file (type jpg)
+
+<use Figures/Chapter1/DIS.jpg>
+Package pdftex.def Info: Figures/Chapter1/DIS.jpg used on input line 1079.
+(pdftex.def)             Requested size: 195.12767pt x 225.02684pt.
+ [72]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73 <./Figures/Chapter1/Rutherford.jpg> <./Figures/Chapter1/DIS.jpg>]
+<Figures/Chapter1/CMSJET.png, id=338, 1445.4pt x 814.04124pt>
+File: Figures/Chapter1/CMSJET.png Graphic file (type png)
+
+<use Figures/Chapter1/CMSJET.png>
+Package pdftex.def Info: Figures/Chapter1/CMSJET.png used on input line 1093.
+(pdftex.def)             Requested size: 260.17464pt x 146.52109pt.
+
+<Figures/Chapter1/GammaRAA.jpg, id=339, 184.14397pt x 180.81953pt>
+File: Figures/Chapter1/GammaRAA.jpg Graphic file (type jpg)
+
+<use Figures/Chapter1/GammaRAA.jpg>
+Package pdftex.def Info: Figures/Chapter1/GammaRAA.jpg used on input line 1105.
+
+(pdftex.def)             Requested size: 195.12767pt x 191.60709pt.
+
+<Figures/Chapter1/ZRAA.pdf, id=340, 569.12625pt x 546.04pt>
+File: Figures/Chapter1/ZRAA.pdf Graphic file (type pdf)
+
+<use Figures/Chapter1/ZRAA.pdf>
+Package pdftex.def Info: Figures/Chapter1/ZRAA.pdf used on input line 1106.
+(pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
+ [74 <./Figures/Chapter1/CMSJET.png>]
+<Figures/Chapter1/ZTagJet.png, id=344, 401.5pt x 274.02374pt>
+File: Figures/Chapter1/ZTagJet.png Graphic file (type png)
+
+<use Figures/Chapter1/ZTagJet.png>
+Package pdftex.def Info: Figures/Chapter1/ZTagJet.png used on input line 1117.
+(pdftex.def)             Requested size: 195.12767pt x 133.1773pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [75 <./Figures/Chapter1/GammaRAA.jpg> <./Figures/Chapter1/ZRAA.pdf, page is ro
+tated 90 degrees> <./Figures/Chapter1/ZTagJet.png>]
+<Figures/Chapter1/HQDiagram.jpg, id=391, 411.5375pt x 282.05376pt>
+File: Figures/Chapter1/HQDiagram.jpg Graphic file (type jpg)
+
+<use Figures/Chapter1/HQDiagram.jpg>
+Package pdftex.def Info: Figures/Chapter1/HQDiagram.jpg used on input line 1129
+.
+(pdftex.def)             Requested size: 195.12767pt x 133.7316pt.
+
+<Figures/Chapter1/HQVacuum.png, id=392, 845.1575pt x 558.085pt>
+File: Figures/Chapter1/HQVacuum.png Graphic file (type png)
+
+<use Figures/Chapter1/HQVacuum.png>
+Package pdftex.def Info: Figures/Chapter1/HQVacuum.png used on input line 1141.
+
+(pdftex.def)             Requested size: 199.4681pt x 131.71202pt.
+
+<Figures/Chapter1/HQQGP.png, id=393, 601.4972pt x 451.6875pt>
+File: Figures/Chapter1/HQQGP.png Graphic file (type png)
+
+<use Figures/Chapter1/HQQGP.png>
+Package pdftex.def Info: Figures/Chapter1/HQQGP.png used on input line 1142.
+(pdftex.def)             Requested size: 208.13574pt x 156.29413pt.
+ [76 <./Figures/Chapter1/HQDiagram.jpg>]
+File: Figures/Chapter1/HQDiagram.jpg Graphic file (type jpg)
+
+<use Figures/Chapter1/HQDiagram.jpg>
+Package pdftex.def Info: Figures/Chapter1/HQDiagram.jpg used on input line 1159
+.
+(pdftex.def)             Requested size: 195.12767pt x 133.7316pt.
+ [77 <./Figures/Chapter1/HQVacuum.png> <./Figures/Chapter1/HQQGP.png>]
+<Figures/Chapter1/FFProcess.png, id=402, 1220.56pt x 273.02pt>
+File: Figures/Chapter1/FFProcess.png Graphic file (type png)
+
+<use Figures/Chapter1/FFProcess.png>
+Package pdftex.def Info: Figures/Chapter1/FFProcess.png used on input line 1169
+.
+(pdftex.def)             Requested size: 433.62pt x 96.99568pt.
+ [78 <./Figures/Chapter1/FFProcess.png>]
+[79] [80] <Figures/Chapter1/LHCbFFs.png, id=413, 845.1575pt x 597.23125pt>
+File: Figures/Chapter1/LHCbFFs.png Graphic file (type png)
+
+<use Figures/Chapter1/LHCbFFs.png>
+Package pdftex.def Info: Figures/Chapter1/LHCbFFs.png used on input line 1309.
+(pdftex.def)             Requested size: 143.09538pt x 101.11787pt.
+
+
+LaTeX Warning: Citation `GMISQM' on page 81 undefined on input line 1316.
+
+
+Overfull \hbox (0.55865pt too wide) in paragraph at lines 1316--1317
+[]\T1/cmr/m/n/12 In terms of uni-ver-sal-ity, ac-cord-ing to Strangeness Quark 
+Mat-ter Con-fer-ence (SQM)
+ []
+
+File: Figures/Chapter1/FFProcess.png Graphic file (type png)
+<use Figures/Chapter1/FFProcess.png>
+Package pdftex.def Info: Figures/Chapter1/FFProcess.png used on input line 1320
+.
+(pdftex.def)             Requested size: 433.62pt x 96.99568pt.
+ [81 <./Figures/Chapter1/LHCbFFs.png>]
+[82]
+
+LaTeX Warning: Reference `' on page 83 undefined on input line 1365.
+
+[83]) [84]
 \openout2 = `chap2.aux'.
 
- (./chap2.tex [70
-
-
-
-]
+ (./chap2.tex
 Chapter 2.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71]
+ [85
+
+
+
+]
 Overfull \vbox (63.9571pt too high) has occurred while \output is active []
 
 
-[72]
+[86]
 \openout2 = `chap3.aux'.
 
  (./chap3.tex
 Chapter 3.
-) [73
+) [87
 
 
 
 ]
 \openout2 = `chap4.aux'.
 
- (./chap4.tex [74
+ (./chap4.tex [88
 
 
 
 ]
 Chapter 4.
-) [75]
+) [89]
 \openout2 = `chap5.aux'.
 
- (./chap5.tex [76
+ (./chap5.tex [90
 
 
 
@@ -804,48 +930,48 @@ Chapter 5.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77]
+ [91]
 Overfull \vbox (1736.85637pt too high) has occurred while \output is active []
 
 
-[78]
+[92]
 \openout2 = `chap6.aux'.
 
  (./chap6.tex
 Chapter 6.
-) [79
+) [93
 
 
 
 ]
 \openout2 = `chap7.aux'.
 
- (./chap7.tex [80
+ (./chap7.tex [94
 
 
 
 ]
 Chapter 7.
-) [81]
+) [95]
 \openout2 = `appa.aux'.
 
- (./appa.tex [82
+ (./appa.tex [96
 
 
 
 ]
 Appendix A.
-[83])
+[97])
 \openout2 = `appb.aux'.
 
- (./appb.tex [84
+ (./appb.tex [98
 
 
 
 
 ]
 Appendix B.
-[85] [86])
+[99] [100])
 \openout2 = `nomenclature.aux'.
 
  (./nomenclature.tex
@@ -854,32 +980,38 @@ Appendix B.
 
 
 Writing nomenclature file main.nlo
-(./main.nls [87
+(./main.nls [101
 
 
 
 
-] [88
+] [102
 
-])) (./main.nls [89] [90
+])) (./main.nls [103] [104
 
-]) [91]
+]) [105]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex [92
+ (./biblio.tex [106
 
 
 
-] [93]
-[94] [95] [96] [97] [98] [99]
-Underfull \hbox (badness 1728) in paragraph at lines 105--106
+]
+[107] [108] [109] [110] [111] [112] [113]
+Underfull \hbox (badness 1728) in paragraph at lines 106--107
 []\T1/cmr/m/n/12 B. B. Back, ``Stud-ies of mul-ti-plic-ity in rel-a-tivis-tic h
 eavy-ion col-li-sions'',
  []
 
-[100] [101]
+[114] [115] [116] [117]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 166.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [118]
 No file main.bbl.
-) [102] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+) [119] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
 (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./chap7.aux)
 (./appa.aux) (./appb.aux) (./nomenclature.aux) (./biblio.aux))
 
@@ -889,13 +1021,13 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
  )
-(\end occurred when \ifx on line 55 was incomplete) 
+(\end occurred when \ifx on line 56 was incomplete) 
 Here is how much of TeX's memory you used:
- 3300 strings out of 493089
- 46407 string characters out of 6134842
- 106819 words of memory out of 5000000
- 6531 multiletter control sequences out of 15000+600000
- 17210 words of font info for 46 fonts, out of 8000000 for 9000
+ 3498 strings out of 493089
+ 49986 string characters out of 6134842
+ 106225 words of memory out of 5000000
+ 6708 multiletter control sequences out of 15000+600000
+ 17523 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,14n,23p,1571b,268s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/tex
@@ -918,11 +1050,12 @@ cm-super/sfbx1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm
 -super/sfbx2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-s
 uper/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-sup
 er/sfrm1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super
-/sfrm1728.pfb>
-Output written on main.pdf (102 pages, 4935106 bytes).
+/sfrm1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/s
+ftt1200.pfb>
+Output written on main.pdf (119 pages, 6748828 bytes).
 PDF statistics:
- 494 PDF objects out of 1000 (max. 8388607)
- 290 compressed objects within 3 object streams
+ 611 PDF objects out of 1000 (max. 8388607)
+ 349 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 231 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 286 words of extra memory for PDF output out of 10000 (max. 10000000)
 
