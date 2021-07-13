@@ -1156,8 +1156,9 @@ To use heavy quark to probe the QGP created in heavy-ion collisions, we first ne
 
  \begin{figure}[hbtp]
 \begin{center}
-\includegraphics[width=0.45\textwidth]{Figures/Chapter1/HQDiagram.jpg}
-\caption{The charm quark transverse momentum distribution at $\frac{d\sigma}{dp_T}$ at $|y| < 1$ from FONLL calculations is shown above.}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter1/Charm.png}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter1/Beauty.png}
+\caption{The charm quark (left) and beauty quark (right) transverse momentum $p_T$ distribution at $\frac{d\sigma}{dp_T}$ at $|y| < 1$ from FONLL calculations are shown above.}
 \label{FONLL}
 \end{center}
 \end{figure}   
@@ -1331,7 +1332,7 @@ Further investigations of these results are currently ongoing. However, we will 
 
 In the limit of low $p_T$ or equivalently long wavelength, for heavy quarks inside the QGP medium, their elastic collision cross section dominates. In elastic $Q q \rightarrow Q q$ process in the thermally equilibrated QGP medium, heavy quarks has the relatively small momentum transfers of the order of the temperature compared to the heavy quark mass: $m_Q > |k| \simeq T$. Considering the mean free time of HQ in the QGP medium is about $\tau \sim 0.44 fm/c$ \cite{HQTau}. Therefore, the number of scattering of heavy quarks in the QGP medium is about $n \sim \frac{\tau_{QGP}}{\tau_{HQ}} \simeq 23 \sim O(10)$.
 
-Now, we can consider a simple binomial process to model the diffusion of heavy quark in the QGP medium. Therefore, assuming the momentum of the heavy quark at $t = 0$ is $p$, after the time $\tau_{HQ}$, one scattering happens. The momentum of the heavy quark at $t = \tau_{HQ}$ either $p + k$ or $p - k$. Each has $1/2$ probability. Next, after another $\tau_{HQ}$, another scattering happens. The momentum of the heavy quark at $t = \tau_{HQ}$ either $p + 2k$, $p$ or $p - 2k$ with $1/4$, $1/2$, and $1/2$ probability respectfully. Therefore, the standard deviation of binomial process $\sigma_p = \frac{\sqrt{n}}{2} k$. If we take $n = 25$, $\sigma_p = 2.5k \simeq 2.5 T_{QGP} =$ 0.4 GeV. Experimentally, we consider a heavy quark with momentum about $p  > $ 1GeV/c $> \sigma_p$. 
+Now, we can consider a simple binomial process to model the diffusion of heavy quark in the QGP medium. Therefore, assuming the momentum of the heavy quark at $t = 0$ is $p$, after the time $\tau_{HQ}$, one scattering happens. The momentum of the heavy quark at $t = \tau_{HQ}$ either $p + k$ or $p - k$. Each has $1/2$ probability. Next, after another $\tau_{HQ}$, another scattering happens. The momentum of the heavy quark at $t = \tau_{HQ}$ either $p + 2k$, $p$ or $p - 2k$ with $1/4$, $1/2$, and $1/2$ probability respectfully. Therefore, the standard deviation of binomial process $\sigma_p = \frac{\sqrt{n}}{2} k$. If we take $n = 25$, $\sigma_p = 2.5k \simeq 2.5 T_{QGP} =$ 0.4 GeV. Experimentally, we consider a heavy quark with momentum about $p  > $ 1.5 GeV/c $>> \sigma_p$. 
 
 
 
@@ -1351,20 +1352,24 @@ F^Q( t = 0,p_T) \propto \frac{d\sigma_{FONLL}}{p_Tdp_T}
 \end{equation}
 
 
-The transport parameters $A_i(\vec{p})$ is related to the thermal relaxation rate and $B_{ij}(\vec{p})$ is related to the momentum diffusion of heavy quark \cite{HQReview}. The special diffusion coefficient $D_s$ is related to the transport parameter as follows:
+The transport parameters $A_i(\vec{p})$ is related to the thermal relaxation rate and $B_{ij}(\vec{p})$ is related to the momentum diffusion of heavy quark \cite{HQReview}. The heavy quark special diffusion coefficient $D_s$ is related to the transport parameter as follows:
 
 \begin{equation}
 D_s = \frac{T} {m_Q A(p=0)}
 \end{equation}
 
-$D_s$ characters the fundamental property of the QGP medium via the relationship 
+$D_s$ characters the fundamental property of the QGP $\frac{\eta}{s}$ via the relationship 
+
+\begin{equation}
+2 \pi T D_s \simeq \frac{\eta}{s}
+\end{equation}
 
 More detailed studies has been carried out to examine heavy quark coupling strength and quantify the information heavy quarks carry as they traverse through the QGP medium \cite{HQJamie}.
 
 
 \subsection{Heavy Quark Energy Loss}
 
-In the limit of high $p_T$ or equivalently short wavelength, inelastic cross section starts to dominate \cite{}. Heavy quarks lose a substantial amount of energy as they travel fast through the QGP medium \cite{HQELossFirst}. In a simplified schematization, there are two different pictures that describe the energy loss mechanism of heavy quark in the QGP medium. In the pQCD picture, the coupling of the constituents of the QGP is assumed to be weak. Therefore, the QGP is made of weakly coupled quasiparticles. Heavy quarks scatter off the constituents incoherently when propagating through the QGP medium. There are two energy loss mechanisms: collisional energy loss and radiative energy loss \cite{}. The collisional energy loss is given by $-\frac{dE}{dx} = \kappa_{coll}T^2$ and the radiative energy loss is given by  $-\frac{dE}{dx} = \kappa_{rad}T^3x$ \cite{HQCollELoss,HQRadELoss}. Figure \ref{HQELosspQCD} shows schematically heavy quark energy loss mechanism in the QGP medium
+In the limit of high $p_T$ or equivalently short wavelength, inelastic cross section starts to dominate \cite{}. Heavy quarks lose a substantial amount of energy as they travel fast through the QGP medium \cite{HQELossFirst}. In a simplified schematization, there are two different pictures that describe the energy loss mechanism of heavy quark in the QGP medium. In the pQCD picture, the coupling of the constituents of the QGP is assumed to be weak. Therefore, the QGP is made of weakly coupled quasiparticles. Heavy quarks scatter off the constituents incoherently when propagating through the QGP medium. There are two energy loss mechanisms: collisional energy loss and radiative energy loss \cite{HQRaff}. The collisional energy loss is given by $-\frac{dE}{dx} = \kappa_{coll}T^2$ and the radiative energy loss is given by  $-\frac{dE}{dx} = \kappa_{rad}T^3x$ \cite{HQCollELoss,HQRadELoss}. Figure \ref{HQELosspQCD} shows schematically heavy quark energy loss mechanism in the QGP medium
 
 
 
@@ -1387,30 +1392,145 @@ The other picture, AdS/CFT, takes the strong coupling limit. In this picture, QG
 \end{center}
 \end{figure}  
 
-Dead cone effect, flavor dependence of energy loss. soft gluon radiation dominates
+In pQCD picture, in the limit of $p_T \rightarrow \infty$, similar to electron Bremsstrahlung via QED radiation in the matter \cite{Brems}, for a heavy quark traveling through the QGP medium, its radiative energy loss via soft gluon radiation will dominate. The soft gluon radiation spectrum by a parton in the QGP medium is given by \cite{DEADCONE}
 
+\begin{equation}
+dP = \frac{\alpha_S C_{F}}{\pi} \frac{d\omega}{\omega}\frac{k_{\perp}^2 dk_{\perp}^2}{(k_{\perp}^2  + \omega^2\theta_0^2)^2}
+\end{equation}
 
-The studies of heavy quark energy loss mechanism in QGP will help us determine  the fundamental jet transport coefficient $\hat q$ that characterizes the scattering power of the medium \cite{HQReview}. which connects to the mean free path and the momentum diffusion coefficient of heavy quarks \cite{qhatStudy}. The determination of $\hat q$ will help us decipher the inner workings of the QGP.
+Where 
+
+\begin{equation}
+\theta_0 \equiv \frac{m}{E}
+\end{equation}
+
+Here, $\omega$ is the energy of the gluon and $k_{\perp}$ is the transverse momentum of the gluon, $C_F$ is color factor (Casimir) which is $3$ for gluons with one color and one anti-color charges and $4/3$ for quarks with one color charge. From Eq 1.84 above, a suppression of radiation at a small angle $0 - \theta_0$ is observed. This is effect is known as the dead cone phenomenon \cite{DEADCONE}. We also know that from from Eq 1.85, that as $m$ increases, the dead cone angle $\theta_0 = \frac{m}{E}$ will decrease. Figure \ref{DeadConePic} schematically shows a charm quark radiate gluon in the medium with a dead cone in the small angle:
+
+ \begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.85\textwidth]{Figures/Chapter1/CharmDeadCone.png}
+\caption{The schematic demonstration of a charm quark radiate and suppression in small angle due to the dead cone effect in the QGP medium is shown above.}
+\label{DeadConePic}
+\end{center}
+\end{figure}  
+
+Since we have the follow mass hierarchy for quarks and gluons:
+
+\begin{equation}
+m_g < m_q < m_c < m_b
+\end{equation}
+
+We should expect the energy loss to follow
+
+\begin{equation}
+\Delta E_g > \Delta E_q > \Delta E_c >  \Delta E_b
+\end{equation}
+
+We call the inequality above to be the flavor dependence of energy loss, which is an important feature of heavy quark energy loss mechanism in the QGP medium. The studies of heavy quark energy loss mechanism in QGP will help us determine the fundamental jet transport coefficient $\hat q$ that characterizes the scattering power of the medium \cite{HQReview}. which relates to the mean free path and the momentum diffusion coefficient of heavy quarks \cite{qhatStudy}. The determination of $\hat q$ will be crucial for us decipher the inner workings of the QGP \cite{JetTransProbe}.
 
 \subsection{Heavy Quark Hadronization}
 
-After heavy quarks traverse through the medium, it will hadronize into heavy flavor hadrons, which could be fully reconstructed from their final state decay products in experiments. As described in section 1.2.7, in general, hadronization is non-perturbative. Considering heavy quark dynamics and apply hadronization models, physicists develop theoretical models to describe heavy quark hadrochemistry. Below, I will present two model candidates to study beauty quark hadronization:
+After heavy quarks traverse through the medium, it will hadronize into heavy flavor hadrons, which could be fully reconstructed from their final state decay products in experiments. As described in section 1.2.7, in general, hadronization is non-perturbative. Considering heavy quark dynamics and apply hadronization models, physicists develop theoretical models to describe heavy quark hadrochemistry. Below, I will present two model candidates, the Texas A\&M University (TAMU) Model \cite{TAMUModel} and the Model developed from Cao et. al. \cite{CaoSunKo}, to describe beauty quark production and hadronization in vacuum:
 
 
 \textbf{TAMU Model}
 
-\textbf{Cao, Sun, Ko}
+The TAMU Model uses a thermodynamic T-matrix formulism in terms of ``ladder diagrams'' to compute the heavy quark in-medium scattering amplitude and determine the non-perturbative transport parameters $A_i$ and $B_{ij}$ in the Planck-Fokker equation shown in Eq 1.81 \cite{TAMUModel}. Figure \ref{LadderDiagram} shows schematically the ``ladder diagram'' describing the dynamic evolution of a heavy quark in the QGP medium 
 
-Nevertheless, due to the disagreement between hadronization models, which imposes significant limitation for the heavy-ion community to interpret the heavy flavor data. Therefore, experimentalists precisely measure heavy flavor observables and provide constrains for theoretical models.
+ \begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=1.0\textwidth]{Figures/Chapter1/LadderDiagram.png}
+\caption{The ladder diagram used by the TAMU model to describe heavy quark diffusion in the QGP medium is shown schematically above.}
+\label{LadderDiagram}
+\end{center}
+\end{figure}  
+
+The input of T-matrix uses a lattice QCD potential \cite{LQCDTAMU} corrected with relativistic effects to model the non-perturbative interaction between heavy quarka and partons in the medium and make it consistent with HF spectroscopy in vacuum to determine the thermal relaxation rate coefficient $A_i(p,T)$. Only elastic collisional energy loss is included in the calculation. Resonance recombination model of heavy quark with a light quark nearby is applied to describe heavy quark hadronization \cite{RRM1}. Finally, effective hadronic scattering amplitudes is used to heavy flavor hadronic rescattering with other hadrons before kinetic freezout stage. The background parton composition and kinematics are modeled by the standard hydrodynamic simulations of the bulk medium in nuclear collisions
+
+\textbf{Cao, Sun, Ko Model}
+
+The Cao, Sun, Ko Model use an advanced Langevin-hydrodynamics approach \cite{CaoLH1,CaoLH2} incorporating both elastic and inelastic energy loss of heavy quarks inside the dynamical QGP medium. The equation below schematically shows relativistic Langevin equation to simulate heavy quark dynamics in the QGP medium
+
+
+\begin{equation}
+\Delta \vec{p} = - \gamma \frac{T^2}{M} \vec{p} \Delta t + \vec{\xi}(t) 
+\end{equation}
+
+And
+
+\begin{equation}
+\Delta \vec{x} = - \frac{\vec{p}}{E} \Delta t
+\end{equation}
+
+The noise is modeled by the Gaussian diffusion function 
+
+\begin{equation}
+P(\vec{\xi}) \propto \exp[\frac{\vec{\xi}^2}{2D_p \Delta t}]
+\end{equation}
+
+The dimensionless $\gamma$ factor is defined as
+
+\begin{equation}
+\gamma = \frac{M}{\tau_{HQ} T^2}
+\end{equation}
+
+
+A comprehensive coalescence model with strict energy-momentum conservation and PYTHIA fragmentation simulation \cite{PYTHIAFrag} with the default Peter fragmentation function, where the coalescence probability is determined from resonant scattering rate of heavy quarks in the QGP according to the resonant recombination model \cite{RRM1,RRM2}, are applied to model heavy quark hadronization.
+
+In addition to TAMU Model and Cao, Sun, Ko Models, there are many other theoretical models that describe heavy quark hadrochemistry in heavy-ion collisions. Nevertheless, due to the large discrepancies between hadronization models, which significant limits the heavy-ion community to interpret the heavy flavor data. Therefore, experimentalists precisely measure heavy flavor observables and provide constrains for theoretical models.
 
 \subsection{Experimental Observables}
 
-v2
+Therefore, physicists propose many experimental observables to study open heavy flavor physics and test theoretical models in heavy ion collisions. Traditionally, heavy flavor hadron $v_2$, $R_{AA}$, and yield ratio are extensively studied. 
 
-RAA
+\textbf{Heavy Quark Diffusion: $v_2$}
 
-Ratios
+In the QGP medium, heavy quark diffused by the color force and multiple scatter with medium constituents, which could generate sizable azimuthal anisotropy $v_2$ \cite{HQReview}. Experimentally, we scale the $v_2$ and the hadron kinetic energy $K_T = \sqrt{m^2 + p_T^2} - m^2$ of heavy quarks with $n_q$ according to the Number of Constituent Quark (NCQ) Scaling in quark coalescence model \cite{NCDScaling}. Figure \ref{HQV2} shows the comparison of the $v_2/n_q$ as a function of $K_T/n_q$ of $D^0$ ($c\bar u$) meson with light flavor hadrons with STAR experiments at RHIC \cite{STARD0v2} and the CMS experiment at LHC \cite{CMSD0v2}.
 
-In this thesis, we will focus on the the measurement of experimental observable $B^0_s/B^+$ ratio from fully reconstructed $B^0_s$ and $B^+$ mesons (and their antiparticles) via channels of $B^0_s \rightarrow J/\psi \phi \mu^+ \mu^- K^+ K^-$ and $B^0_s \rightarrow J/\psi K^+ \mu^+ \mu^- K^+$ in pp and PbPb collisions to study the hadronization mechanism of 
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.50\textwidth]{Figures/Chapter1/STARv2.png}
+\includegraphics[width=0.485\textwidth]{Figures/Chapter1/CMSv2.png}
+\caption{The NCQ scaled $D^0$ $v2/n_q$ vs $K_T/n_q$ and the comparison light hardons measured by the STAR experiment at RHIC (left) and the CMS experiment at LHC (right) are shown above.}
+\label{HQV2}
+\end{center}
+\end{figure}   
+
+We could see a reasonably good NCQ scaling behavior of $D^0$ meson with other light flavor hadrons, which suggests sizable collectivity of charm quarks in the QGP medium.
+
+\textbf{Heavy Quark Energy Loss Mechanism: $R_{AA}$}
+
+As we mentioned previously, the nuclear modification factor $R_{AA}$ of heavy flavor hadrons as a function of $p_T$ could quantify the energy loss of quarks via the shift of the $p_T$ spectra to the left in $AA$ collisions compared to $pp$ collisions. Figure \ref{HQRAA} $R_{AA}$ heavy and flavor hadrons measured with experiments at RHIC and LHC.
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.47\textwidth]{Figures/Chapter1/STARRAA.eps}
+\includegraphics[width=0.47\textwidth]{Figures/Chapter1/CMSRAA.png}
+\caption{The $D^0$ $R_{AA}$ vs $p_T$ with the STAR experiment in 0 - 10\%, 10 - 40\%, and 40 - 80\% centrality at RHIC and the $D^0$, $B^+$, non-prompt $J/\psi$ and charged hadrons $R_{AA}$ vs $p_T$ at at 0 - 100\% centrality with the CMS experiment at LHC are shown above.}
+\label{HQRAA}
+\end{center}
+\end{figure}   
+
+We could see that $R_{AA}$ of $D^0$ and $B^+$ are both below 1, which suggest charm and beauty quarks lose a significant fraction of energy to the QGP medium. As $p_T$ increases, the $R_{AA}$ of light and heavy flavor hadrons converge to the same value and approach 1, which Lorentz $\gamma$ factor come into play where the mass of the hadron become irrelevant. In addition, the CMS results above indirectly agree with the expectation of the flavor dependence of energy loss: $R_{AA}^{h} < R_{AA}^{D} < R_{AA}^{B} < 1$. With both $R_{AA}$ and $v_2$, we can constrain theoretical models and understand the interaction mechanism of heavy quarks with the QGP medium.
+
+\textbf{Heavy Quark Hadronization: $H_s/H^0$ and $\Lambda_{Q}/H^{0}$}
+
+According to the theoretical reviews of heavy quarks hadrochemistry in heavy-ion collisions \cite{StrangetoLight,BaryontoMeson}, the strange-to-non-strange meson ($H_s/H^0$) and baryon-to-meson ($\Lambda_{Q}/H^{0}$) ratios are excellent observables to test hadronization models. Figure \ref{HadroPlotCharm} shows the fully reconstructed $\Lambda_C^+/D^0$ ratio measured by the STAR and CMS experiments
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.52\textwidth]{Figures/Chapter1/STARLambdaCD0.png}
+\includegraphics[width=0.47\textwidth]{Figures/Chapter1/ALICELambdaCD0}
+\caption{The fully reconstructed $\Lambda_C^+/D^0$ ratio in pp and heavy-ion collisions measured by the STAR experiment at RHIC (left) and the CMS experiment at LHC (right) are shown above.}
+\label{HadroPlotCharm}
+\end{center}
+\end{figure}   
+
+We can see that in general, $\Lambda_C^+/D^0$ ratio in heavy-ion collisions lies above its ratio in $pp$ collisions. Moreover, there are many different theoretical predictions agree reasonably well with the experiments due to the large uncertainties. More precise $\Lambda_C^+/D^0$ measurements will be desired in order to constrain theoretical models.
+
+In addition to $v_2$, $R_{AA}$, and $\Lambda_{Q}/H^{0}$, some modern observables with more differentiation such as the hadron-hadron correlation and heavy flavor jet substructure measurements have been recently carried out \cite{DDbar,DJet}. 
+
+In this thesis, we will focus on the measurement of experimental observable $B^0_s/B^+$ ratio from fully reconstructed $B^0_s$ and $B^+$ mesons (and their anti-particles) via decay channels of $B^0_s \rightarrow J/\psi \phi \rightarrow \mu^+ \mu^- K^+ K^-$ and $B^0_s \rightarrow J/\psi K^+ \rightarrow \mu^+ \mu^- K^+$ in pp and PbPb collisions with the CMS experiment at the LHC to study the beauty production and hadronization mechanism in vacuum and QGP. 
 
 

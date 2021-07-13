@@ -40,12 +40,17 @@
 \contentsline {figure}{\numberline {1-39}{\ignorespaces The schematic plot of a Z + jet event with the creation of QGP and the invariant mass of fully reconstructed Z boson via the decay channel $Z \rightarrow \mu ^+ \mu ^-$ in the front cover of Physics Review Letter (Volume 119, Issue 8) is shown above. We could see that the Z boson is essentially unmodified by the QGP medium.}}{75}
 \contentsline {figure}{\numberline {1-40}{\ignorespaces The four lowest order tree level Feynman diagrams of heavy quark pair production are shown above.}}{76}
 \contentsline {figure}{\numberline {1-41}{\ignorespaces The schematic plots of heavy quark production and hadronization in vacuum (left) and QGP (right) are shown above.}}{77}
-\contentsline {figure}{\numberline {1-42}{\ignorespaces The charm quark transverse momentum distribution at $\frac {d\sigma }{dp_T}$ at $|y| < 1$ from FONLL calculations is shown above.}}{78}
+\contentsline {figure}{\numberline {1-42}{\ignorespaces The charm quark (left) and beauty quark (right) transverse momentum $p_T$ distribution at $\frac {d\sigma }{dp_T}$ at $|y| < 1$ from FONLL calculations are shown above.}}{78}
 \contentsline {figure}{\numberline {1-43}{\ignorespaces Single-inclusive hadron production process, where fragmentation function are involved, in (a) electron-positron annihilation, (b) deep-inelastic lepton-nucleon scattering, (c) proton-proton scattering are shown above.}}{78}
 \contentsline {figure}{\numberline {1-44}{\ignorespaces $R$, the corrected yield ratio of $B^0_s/B^+$, as a function the $pp$ collision energy $\sqrt s$ (top), the $f_s/f_d$ ratio as a function $p_T$ (middle), and the $f_s/f_d$ ratio as a function $\eta _B$ (bottom), from the LHCb experiment are shown above.}}{82}
 \contentsline {figure}{\numberline {1-45}{\ignorespaces The charm quark fragmentation fraction to different charm hadrons species in $e^+e^-$, $ep$, and $pp$ collisions are presented above. From the ALICE experiment, we can clearly see that the fragmentation fraction of $D^0$ has drop by about 40\% while the $\Lambda _c^+$ has enhanced by about a factor of 4. Therefore, the hadronization universality is clear broken at the LHC energy in the charm sector.}}{83}
 \contentsline {figure}{\numberline {1-46}{\ignorespaces The schematic demonstration of the pQCD picture: collisional energy loss (left) and radiative energy loss (right) of heavy quarks in the QGP medium are shown above.}}{85}
 \contentsline {figure}{\numberline {1-47}{\ignorespaces The schematic demonstration of ADS/CFT picture: the energy loss of a quark in the QGP medium holographically due ADS/CFT drag force.}}{85}
+\contentsline {figure}{\numberline {1-48}{\ignorespaces The schematic demonstration of a charm quark radiate and suppression in small angle due to the dead cone effect in the QGP medium is shown above.}}{86}
+\contentsline {figure}{\numberline {1-49}{\ignorespaces The ladder diagram used by the TAMU model to describe heavy quark diffusion in the QGP medium is shown schematically above.}}{87}
+\contentsline {figure}{\numberline {1-50}{\ignorespaces The NCQ scaled $D^0$ $v2/n_q$ vs $K_T/n_q$ and the comparison light hardons measured by the STAR experiment at RHIC (left) and the CMS experiment at LHC (right) are shown above.}}{90}
+\contentsline {figure}{\numberline {1-51}{\ignorespaces The $D^0$ $R_{AA}$ vs $p_T$ with the STAR experiment in 0 - 10\%, 10 - 40\%, and 40 - 80\% centrality at RHIC and the $D^0$, $B^+$, non-prompt $J/\psi $ and charged hadrons $R_{AA}$ vs $p_T$ at at 0 - 100\% centrality with the CMS experiment at LHC are shown above.}}{90}
+\contentsline {figure}{\numberline {1-52}{\ignorespaces The fully reconstructed $\Lambda _C^+/D^0$ ratio in pp and heavy-ion collisions measured by the STAR experiment at RHIC (left) and the CMS experiment at LHC (right) are shown above.}}{91}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -54,5 +59,5 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B-1}{\ignorespaces Armadillo slaying lawyer.}}{101}
-\contentsline {figure}{\numberline {B-2}{\ignorespaces Armadillo eradicating national debt.}}{102}
+\contentsline {figure}{\numberline {B-1}{\ignorespaces Armadillo slaying lawyer.}}{107}
+\contentsline {figure}{\numberline {B-2}{\ignorespaces Armadillo eradicating national debt.}}{108}
