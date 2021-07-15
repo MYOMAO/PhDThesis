@@ -8,28 +8,176 @@
 
 \section{Overview}
 
-The Compact Muon Solenoid (CMS) Detector is a general purpose high energy physics detector located at the Hall at the LHC at Swiss side at CERN. The CMS Collaboration consist of physicists from sharing data collected, distributed, and stored by the CMS experiment around in countries in the world.
+The Compact Muon Solenoid (CMS) Detector is a general purpose high-energy physics detector located 100 meters underground on the French side of the LHC \cite{CMSDetector}. Overall, the complete detector is 21 m long, 15 m wide and 15 m high with a weight of 14 kiloton, heavier than the Eiffel Tower in Paris. It functions as a giant, high-speed camera, taking 3D ``photograph'' of particle collisions from all directions up to 40 million times each second. Figure \ref{CMSRealPic} shows the photo taken for the CMS detector at the underground collision hall.
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.80\textwidth]{Figures/Chapter2/CMSRealPic.jpg}
+\caption{The front view of the CMS detector at the underground collision hall is shown above.}
+\label{CMSRealPic}
+\end{center}
+\end{figure} 
+
+The CMS detector is made of sub-detectors including silicon strip and pixel trackers, the preshower made of silicon strips, the crystal electromagnetic calorimeter (ECAL), the superconducting solenoid with 3.8 T of magnetic field strength, the inner hadronic calorimeter (HCAL), the steel returning yoke to enhance the magnetic field strength, the outer hadronic calorimeter, the muon chambers, and the forward hadronic calorimeter \cite{CMSDetector}. Figure \ref{CMSDecPic} shows schematic view of the CMS detector
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.80\textwidth]{Figures/Chapter2/CMSDecPic.jpg}
+\caption{The schematic view of the CMS detector with brief descriptions of all its components is shown above. Image from \cite{HiggsCMS}}
+\label{CMSDecPic}
+\end{center}
+\end{figure} 
+
+The CMS detector is built, operated, and maintained by the CMS Collaboration. The CMS Collaboration consists of over 4000 members including scientists, engineers, technicians, students, and administrative assistants from 200 institutes and universities in 40 countries around the world. Physicists take data from the CMS detector and share data with each other with online system. The data are store in tapes and kept at different institutions. Members of the CMS experiment collaborate with each other on detector studies and data analysis to produce important scientific results and have published in more than 1000 papers in internationally recognized journals.
+
+In the following sections, I will describe in more details the CMS experiment including the trigger system for data acquisition, the tracking system to track charged particles, the muon system for muon detection, identification, and reconstruction, and the calorimeter system to measure the energy of the particles.
 
 \section{Triggers}
 
-\subsection{L1 Hardware Trigger}
+The CMS experiment develops triggers to acquire experimental data \cite{CMSTrigger}. Its main purpose is to select events of potential physics interests from approximately one billion events per second the particles collisions at the LHC. The CMS trigger system consists of two levels of triggers: hardware level 1 (L1) trigger and the software high level trigger (HLT). Different triggers encoded in the L1 and HLT are designed and fire to collect datasets for specific physics studies.
+
+\subsection{L1 Trigger}
+
+In the CMS experiment, an event is defined as a snapshot of one collision at the LHC. In the L1 trigger, physicists develop algorithms according to detector electronics response to decide if an event is accepted or rejected within the L1 trigger latency time. Figure \ref{L1Overview} shows the schematic overview of L1 trigger making its decision online to select events based on the information from the calorimeter and muon systems.
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.50\textwidth]{Figures/Chapter2/L1Overview.png}
+\caption{The figure above demonstrates how the CMS L1 hardware trigger function schematically.}
+\label{L1Overview}
+\end{center}
+\end{figure} 
+
+In the interest of heavy-ion studies, physicists develop a set of dedicated triggers algorithms in the L1 trigger to build datasets. The minimum biased (MB) trigger is designed to collect minimum bias data for elliptic flow, $D^0$ meson, and charged particle multiplicity analyses while the single muon trigger is designed to select events muons for heavy flavor and electroweak physics analyses. We will describe the MB trigger since we will need to use it to determine the number of MB events in our analysis.
+
+\subsection{MB Trigger}
+
+By definition, an MB event corresponds to a non-single diffractive inelastic interaction \cite{MBTrigger}. A totally inclusive trigger, or called zero bias (ZB) trigger, corresponds to a randomly reading out from the detector whenever a collision is possible. MB trigger is algorithm to determine interesting MB events based on the response from forward HCAL located at $3 < |\eta| < 5$. It is put a fixed analog to digital converter (ADC) threshold in the HCAL response to reject background noise and collect MB events from ZB trigger. There is also an essentially linear relation between the maximum ADC with the actual energy response of the forward HCAL. Figure \ref{HFADC} shows the ADC distribution and HF energy as a function of ADC in 2018 PbPb run.
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter2/AllADC.png}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter2/HFvsADC.png}
+\caption{In the CMS 2018 PbPb Run 326791, the ZB data (red), Empty Bunches (blue), and MB data (green) ADC distributions (left), and the HF energy according to the charge collected as a function of ADC (right) are shown above. We can see that the HF energy  is about (0.5 - 1) conversion factor to the ADC.}
+\label{HFADC}
+\end{center}
+\end{figure} 
+
+The MB trigger consist ``MB OR'', which requires the ADC threshold on either one of the forward HCAL (HF) out of both forward ECAL in both positive and negative sides, and ``MB AND'',  which requires the ADC threshold on both of HFs out of both forward ECAL in both positive and negative sides. Figure \ref{2018PbPbMB} shows the L1 MB trigger analysis of Run 326791 in the 2018 CMS PbPb data taking 
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter2/MaxADC.png}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter2/MBTrgEffADC.png}
+\caption{In the CMS 2018 PbPb Run 326791, the ZB data (red), Empty Bunches (blue), and MB data (green) maximum ADC distributions (left) and the efficiencies of MB OR (blue) and MB AND (red) as a function ADC threshold (right) are shown above.}
+\label{2018PbPbMB}
+\end{center}
+\end{figure} 
+
+In the 2018 CMS PbPb data taking, to reject the noisy background, the max ADC of each event is required to be greater than 15 with MB AND along with the HLT trigger of at least one pixel track are applied to select MB events, as seen above from Figure \ref{2018PbPbMB} in the max ADC distribution of MB evens in green. A total number of about 2.4 billion MB events corresponding to a luminosity about 1.7 $nb^{-1}$ have been collected by CMS during the 2018 LHC PbPb run from November to December 2018. Figure \ref{MBStat} shows the MB events and corresponding luminosity as a function day throughout the 2018 CMS PbPb data taking period
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.55\textwidth]{Figures/Chapter2/MBStat.pdf}
+\caption{The figure above shows the total number of 20 PbPb MB events from and corresponding luminosity how the as a function Run ID from November 15 to December 2 2018.}
+\label{MBStat}
+\end{center}
+\end{figure} 
+
+
+\subsection{Centrality Efficiency with MB Trigger}
+
+In addition to overall efficiency vs the ADC with the MB trigger, we also study the centrality efficiency with different ADC thresholds. Figure \ref{EffCent} shows the centrality as a function of efficiency using MB OR and MB AND with different thresholds
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.55\textwidth]{Figures/Chapter2/EffCent.png}
+\caption{The efficiency vs centrality with ADC > 16 for MB OR (blue) and MB AND (green) are shown above.}
+\label{EffCent}
+\end{center}
+\end{figure} 
+
+Because other physics trigger are mainly based on the MB datasets, in the physics analyses using 2018 CMS PbPb datasets, it is recommended to remove the ultra-peripheral centrality range from 80 - 100\%, which is not fully efficient (efficiency $<$ 100\%). Therefore, the most of the CMS heavy-ion physics results using the 2018 PbPb dataset will be presented in the centrality range of 0 - 80\%.
 
 \subsection{HLT Trigger}
 
+The HLT software trigger is an array of commercially available computers running high-level physics algorithms \cite{CMSTrigger}. Unlike the online L1 hardware trigger which runs on-the-go during the data taking process, HLT is an offline software trigger that runs after the data are acquired. In the HLT trigger, more sophisticated analyses are performed to determine if the event is accepted or rejected for a specific dataset. The event data are stored locally on disk and eventually transferred to downstream systems, the CMS Tier-0 computing center, for offline HLT processing and permanent storage \cite{CMSTrigger}. There are many trigger paths in the HLT such as the high multiplicity trigger to specifically collect events with many tracks, the D meson trigger to select high $p_T$ D mesons, and the dimoun trigger to enrich Drell-Yen events, are designed and encoded in the HLT trigger. In the following, we will describe the dimuon trigger in details because the dimuon dataset will be used to fully reconstruct B mesons in this thesis. 
+
+\subsection{DiMuon Trigger}
+
+The dimuon trigger, as it is named, is a trigger based on the information of two muons tracks. HLT is able to quickly reconstruct the invariant mass of two oppositely charged muons $m_{\mu\mu}$. Figure \ref{DimuonInvMass} shows the $m_{\mu\mu}$ reconstructed by the CMS HLT with 2018 pp dataset.
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.55\textwidth]{Figures/Chapter2/DimuonInvMass.png}
+\caption{The dimuon invariant spectrum $m_{\mu\mu}$ reconstructed by CMS HLT trigger in the 2018 pp dataset is shown above. We can identify the neutral vector boson resonances shown above.}
+\label{DimuonInvMass}
+\end{center}
+\end{figure} 
+
+
+In the 2018 PbPb run, the dimuon trigger requires the presence of two muon candidates, with no explicit momentum threshold and with the HLT reconstructed dimuon invariant mass of 1.0 GeV/c$^2$ $< m_{\mu\mu} <$ 5.0 GeV/c$^2$, near the $J/\psi$ PDG mass $m_{J/\psi} =$ 3.0969 GeV/c$^2$ \cite{AlphaTheoEx}, in coincidence with lead bunches crossing at the interaction point. Moreover, One of the trigger-level muons is reconstructed using information both from the muon detectors and the inner tracker with requirement of more than or equal to 10 hits (named as L3 muon), while for the other only information from the muon detectors is required (named as L2 muon) \cite{BAnaDimuonTrigger}.
+
 \section{Tracking System}
 
-\subsection{Silicon Pixel Detector}
+\subsection{Silicon Detectors}
 
-\subsection{Silicon Strip Detector}
+The CMS tracking system applies solid state semiconductor technologies. It consists of the 3 layers of silicon pixel tracker and 10 layers of silicon strip detector including 4 inner barrel layers and 6 outer barrel layers \cite{CMSSilicon}. Figure \ref{CMSTracker} shows the CMS tracking system schematically
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.80\textwidth]{Figures/Chapter2/CMSTrackingSchemtic.png}
+
+\caption{The schematic view of the CMS tracking system is shown above.}
+\label{CMSTracker}
+\end{center}
+\end{figure} 
+
+
+In nuclear and particle physics, a tracker is a detector that measure the trajectory of charged particles via ionization. In general, it does not destroy or change the energy of the particle. With the external magnetic field, the tracker can measure the momentum, the charge, and the mass of the particle by the studying the electric charges collected from electron avalanche or electron-hole pair. The CMS tracking systems provides physicists with excellent tracking capabilities. The silicon tracker is operated at a reserve bias mode with a depletion voltage of about 600V. High energy charged particles passing through the silicon tracker has an energy loss of $dE/dx \simeq 0.5 keV/\mu m$ \cite{AlphaTheoEx}. Therefore, for a 320 $\mu m$ thick silicon sensor, the charged particle will lose about 160 keV. The electron-hole pair in silicon is about 3 eV per pair. Therefore, the charged particle will produce roughly on the order of $10^4$ electrons. The hit resolution in $r\phi$ direction of the silicon strip is about 10 -- 40 $\mu m$ \cite{CMSTrackComp}.
+
+However, in the CMS silicon tracker, due to the small number of electrons produced in the silicon sensor, the energy loss $dE/dx$ vs momentum $p$ of charged particle is not good enough to separate and identify electron, pion, kaons and protons. Therefore, we generally do not perform particle identification (PID) for hadrons with CMS detector in physics analyses.  
+
 
 \subsection{Tracking Algorithm}
 
+With the hardware silicon tracker, the CMS collaboration also developed the state-of-the-art tracking algorithm to reconstruct the paths and primary vertices of the collisions from the electronic readout signals. CMS tracking algorithm employs the Combinatorial Track Finder (CTF), an adaptation of the combinatorial Kalman filter \cite{CMSTrack1,CMSTrack2,CMSTrack3}, which in turn is an extension of the Kalman filter \cite{Kalman} to allow pattern recognition and track fitting to occur in the same framework. The collection of reconstructed tracks is produced by multiple passes (iterations) of the CTF track reconstruction sequence, in a process called iterative tracking \cite{CMSTrackComp}. The CMS tracking workflow and its performance are shown in Figure \ref{TrackWorkFlow} and Figure \ref{CMSTrackPer}
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.90\textwidth]{Figures/Chapter2/TrackWF.pdf}
+\caption{The schematic block diagram of CMS tracking workflow is shown above.}
+\label{TrackWorkFlow}
+\end{center}
+\end{figure} 
+
+
+%Figure \ref{CMSTrackPer} shows the general performance of CMS tracking algorithm
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter2/TrackPTEff.pdf}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter2/TrackPTFake.pdf}
+\caption{The CMS tracking efficiency (left) and fake rate (right) as a function of $p_T$ from simulations of $t \bar t$ events at 13 TeV with different pileup conditions are shown above.}
+\label{CMSTrackPer}
+\end{center}
+\end{figure} 
+
+Finally, with the collection of tracks, assuming all the tracks are promptly produced at a given interaction point, we can determine the primary vertex by selecting the tracks, performing track clustering, and fitting for the position of each vertex using its associated tracks \cite{CMSTrackComp}. The deterministic annealing algorithm \cite{DAAlgo} is track clustering algorithm that CMS is currently using. The track and vertex information of each event will be stored in datasets for physics analyses.
+
 \section{Muon System}
 
+The CMS muon system is made of resistive plates chamber \cite{} locating at the outer of the CMS detector. The CMS muon system has excellent capabilities of detecting, identifying, and reconstructing muons. 
 \section{Calorimeter System}
 
 \subsection{ECAL}
 
 \subsection{HCAL}
 
-\subsection{Forward HCAL}
+\subsection{HF}
+
+\section{Relevant Detector Components}
+
+
+
