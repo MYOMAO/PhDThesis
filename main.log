@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 JUL 2021 19:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 JUL 2021 00:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1127,74 +1127,116 @@ Package pdftex.def Info: Figures/Chapter2/CMSParticleFlow.png used on input lin
 e 175.
 (pdftex.def)             Requested size: 390.25534pt x 257.99277pt.
  [105 <./Figures/Chapter2/TrackPTEff.pdf, page is rotated 90 degrees> <./Figure
-s/Chapter2/TrackPTFake.pdf, page is rotated 90 degrees>]
+s/Chapter2/TrackPTFake.pdf, page is rotated 90 degrees>] [106 <./Figures/Chapte
+r2/CMSParticleFlow.png>] [107]
+<Figures/Chapter2/CMSForwardRegion.png, id=850, 633.36626pt x 293.095pt>
+File: Figures/Chapter2/CMSForwardRegion.png Graphic file (type png)
 
-LaTeX Warning: Reference `CMSDecPic.jpg' on page 106 undefined on input line 18
-5.
+<use Figures/Chapter2/CMSForwardRegion.png>
+Package pdftex.def Info: Figures/Chapter2/CMSForwardRegion.png used on input li
+ne 203.
+(pdftex.def)             Requested size: 251.50038pt x 116.38171pt.
 
-[106 <./Figures/Chapter2/CMSParticleFlow.png>]) [107]
+<Figures/Chapter2/HFReal.jpg, id=851, 722.7pt x 483.8075pt>
+File: Figures/Chapter2/HFReal.jpg Graphic file (type jpg)
+
+<use Figures/Chapter2/HFReal.jpg>
+Package pdftex.def Info: Figures/Chapter2/HFReal.jpg used on input line 204.
+(pdftex.def)             Requested size: 164.77771pt x 110.3063pt.
+
+
+LaTeX Warning: Citation `HFCentRef' on page 108 undefined on input line 210.
+
+<Figures/Chapter2/HFCent.png, id=852, 569.12625pt x 534.99875pt>
+File: Figures/Chapter2/HFCent.png Graphic file (type png)
+
+<use Figures/Chapter2/HFCent.png>
+Package pdftex.def Info: Figures/Chapter2/HFCent.png used on input line 216.
+(pdftex.def)             Requested size: 303.53267pt x 285.34393pt.
+
+<Figures/Chapter2/CASTOR.png, id=853, 424.58624pt x 318.43968pt>
+File: Figures/Chapter2/CASTOR.png Graphic file (type png)
+
+<use Figures/Chapter2/CASTOR.png>
+Package pdftex.def Info: Figures/Chapter2/CASTOR.png used on input line 228.
+(pdftex.def)             Requested size: 190.79385pt x 143.0973pt.
+
+<Figures/Chapter2/CMSZDC.png, id=854, 534.99875pt x 369.38pt>
+File: Figures/Chapter2/CMSZDC.png Graphic file (type png)
+
+<use Figures/Chapter2/CMSZDC.png>
+Package pdftex.def Info: Figures/Chapter2/CMSZDC.png used on input line 229.
+(pdftex.def)             Requested size: 216.81pt x 149.6939pt.
+ [108 <./Figures/Chapter2/CMSForwardRegion.png> <./Figures/Chapter2/HFReal.jpg>
+] [109 <./Figures/Chapter2/HFCent.png (PNG copy)> <./Figures/Chapter2/CASTOR.pn
+g> <./Figures/Chapter2/CMSZDC.png>]) [110]
 \openout2 = `chap3.aux'.
 
- (./chap3.tex [108
+
+(./chap3.tex
+Chapter 3.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [111
 
 
 
 ]
-Chapter 3.
-) [109]
+[112]
 \openout2 = `chap4.aux'.
 
- (./chap4.tex [110
-
-
-
-]
+ (./chap4.tex
 Chapter 4.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [111]
+ [113
+
+
+
+]
 Overfull \vbox (1736.85637pt too high) has occurred while \output is active []
 
 
-[112]
+[114]
 \openout2 = `chap5.aux'.
 
  (./chap5.tex
 Chapter 5.
-) [113
+) [115
 
 
 
 ]
 \openout2 = `chap6.aux'.
 
- (./chap6.tex [114
+ (./chap6.tex [116
 
 
 
 ]
 Chapter 6.
-) [115]
+) [117]
 \openout2 = `appa.aux'.
 
- (./appa.tex [116
+ (./appa.tex [118
 
 
 
 ]
 Appendix A.
-[117])
+[119])
 \openout2 = `appb.aux'.
 
- (./appb.tex [118
+ (./appb.tex [120
 
 
 
 
 ]
 Appendix B.
-[119] [120])
+[121] [122])
 \openout2 = `nomenclature.aux'.
 
  (./nomenclature.tex
@@ -1203,39 +1245,44 @@ Appendix B.
 
 
 Writing nomenclature file main.nlo
-(./main.nls [121
+(./main.nls [123
 
 
 
 
-] [122
+] [124
 
-])) (./main.nls [123] [124
+])) (./main.nls [125] [126
 
-]) [125]
+]) [127]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex [126
+ (./biblio.tex [128
 
 
 
 ]
-[127] [128] [129] [130] [131] [132] [133]
+[129] [130] [131] [132] [133] [134] [135]
 Underfull \hbox (badness 1728) in paragraph at lines 106--107
 []\T1/cmr/m/n/12 B. B. Back, ``Stud-ies of mul-ti-plic-ity in rel-a-tivis-tic h
 eavy-ion col-li-sions'',
  []
 
-[134] [135] [136] [137]
+[136] [137] [138] [139]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 166.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [138] [139]
-[140] [141] [142]
+) [140] [141]
+[142] [143] [144]
+Underfull \hbox (badness 6188) in paragraph at lines 236--237
+[]\T1/cmr/m/n/12 A. Penzo and Y. Onel, ``The CMS-HF quartz fiber calorime-ters'
+',
+ []
+
 No file main.bbl.
-) [143] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+) [145] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
 (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./appa.aux)
 (./appb.aux) (./nomenclature.aux) (./biblio.aux))
 
@@ -1247,10 +1294,10 @@ LaTeX Warning: There were multiply-defined labels.
  )
 (\end occurred when \ifx on line 56 was incomplete) 
 Here is how much of TeX's memory you used:
- 3706 strings out of 493089
- 55441 string characters out of 6134842
- 107384 words of memory out of 5000000
- 6891 multiletter control sequences out of 15000+600000
+ 3738 strings out of 493089
+ 56237 string characters out of 6134842
+ 107443 words of memory out of 5000000
+ 6918 multiletter control sequences out of 15000+600000
  17523 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,14n,23p,1571b,268s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1276,10 +1323,10 @@ uper/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-sup
 er/sfrm1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super
 /sfrm1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/s
 ftt1200.pfb>
-Output written on main.pdf (143 pages, 9754591 bytes).
+Output written on main.pdf (145 pages, 11411595 bytes).
 PDF statistics:
- 1037 PDF objects out of 1200 (max. 8388607)
- 558 compressed objects within 6 object streams
+ 1052 PDF objects out of 1200 (max. 8388607)
+ 564 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 441 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 466 words of extra memory for PDF output out of 10000 (max. 10000000)
 

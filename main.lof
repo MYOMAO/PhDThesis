@@ -64,11 +64,14 @@
 \contentsline {figure}{\numberline {2-10}{\ignorespaces The schematic block diagram of CMS tracking workflow is shown above.}}{104}
 \contentsline {figure}{\numberline {2-11}{\ignorespaces The CMS tracking efficiency (left) and fake rate (right) as a function of $p_T$ from simulations of $t \mathaccentV {bar}016t$ events at 13 TeV with different pileup conditions are shown above.}}{105}
 \contentsline {figure}{\numberline {2-12}{\ignorespaces The particle flow of long life particles, such as electrons, muons, photons, charged hadrons: $\pi ,K,p$, and neutral hadrons: neutrons, in the CMS detector are shown above.}}{106}
+\contentsline {figure}{\numberline {2-13}{\ignorespaces The schematic view of the CMS forward region including HF, CASTOR, and ZDC (left) and the physical view of the HF (right) are shown above.}}{108}
+\contentsline {figure}{\numberline {2-14}{\ignorespaces The distribution of sum of HF energy using Minimum Biased Trigger and Jet Trigger with the classification of centrality binning is shown above. As we can see, the energy of the HF increase as the collision events become more central, which is within our expectation.}}{109}
+\contentsline {figure}{\numberline {2-15}{\ignorespaces The picture of the CASTOR (left) at the CMS underground collision hall and ZDC (right) at 140 m away from the CMS beam interacting point are shown above.}}{109}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B-1}{\ignorespaces Armadillo slaying lawyer.}}{119}
-\contentsline {figure}{\numberline {B-2}{\ignorespaces Armadillo eradicating national debt.}}{120}
+\contentsline {figure}{\numberline {B-1}{\ignorespaces Armadillo slaying lawyer.}}{121}
+\contentsline {figure}{\numberline {B-2}{\ignorespaces Armadillo eradicating national debt.}}{122}

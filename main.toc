@@ -68,84 +68,87 @@
 \contentsline {section}{\numberline {2.5}Calorimeter System}{106}
 \contentsline {subsection}{\numberline {2.5.1}ECAL}{107}
 \contentsline {subsection}{\numberline {2.5.2}HCAL}{107}
-\contentsline {subsection}{\numberline {2.5.3}HF}{107}
-\contentsline {section}{\numberline {2.6}Relevant Detector Components}{107}
-\contentsline {chapter}{\numberline {3}Technical Objects}{109}
-\contentsline {section}{\numberline {3.1}Hits}{109}
-\contentsline {section}{\numberline {3.2}Clusters}{109}
-\contentsline {section}{\numberline {3.3}Tracks}{109}
-\contentsline {section}{\numberline {3.4}Vertices}{109}
-\contentsline {section}{\numberline {3.5}Muons}{109}
-\contentsline {chapter}{\numberline {4}Data Analysis}{111}
-\contentsline {section}{\numberline {4.1}Analysis Strategies}{112}
-\contentsline {subsection}{\numberline {4.1.1}Physics Goals}{112}
-\contentsline {subsection}{\numberline {4.1.2}General Workflow}{112}
-\contentsline {subsection}{\numberline {4.1.3}Technical Challenges}{112}
-\contentsline {section}{\numberline {4.2}Global Event Observables}{112}
-\contentsline {subsection}{\numberline {4.2.1}Total Number of Events}{112}
-\contentsline {subsection}{\numberline {4.2.2}Centrality Definition}{112}
-\contentsline {subsection}{\numberline {4.2.3}Number of Participants Nucleons}{112}
-\contentsline {subsection}{\numberline {4.2.4}Number of Binary Collisions}{112}
-\contentsline {subsection}{\numberline {4.2.5}Event Multiplicity}{112}
-\contentsline {section}{\numberline {4.3}Monte Carlo Simulations}{112}
-\contentsline {subsection}{\numberline {4.3.1}PYTHIA}{112}
-\contentsline {subsection}{\numberline {4.3.2}Hydjet Embedding}{112}
-\contentsline {subsection}{\numberline {4.3.3}EvtGen Package}{112}
-\contentsline {subsection}{\numberline {4.3.4}Reweighting}{112}
-\contentsline {section}{\numberline {4.4}B meson Reconstruction}{112}
-\contentsline {subsection}{\numberline {4.4.1}Decay Channels}{112}
-\contentsline {subsection}{\numberline {4.4.2}Event Selections}{112}
-\contentsline {subsection}{\numberline {4.4.3}Track and Muon Selections}{112}
-\contentsline {subsection}{\numberline {4.4.4}Results}{112}
-\contentsline {section}{\numberline {4.5}Cut Optimization}{112}
-\contentsline {subsection}{\numberline {4.5.1}Topological Variables}{112}
-\contentsline {subsection}{\numberline {4.5.2}Multivariate Analysis}{112}
-\contentsline {subsection}{\numberline {4.5.3}Machine Learning Techniques}{112}
-\contentsline {subsection}{\numberline {4.5.4}Training Performance}{112}
-\contentsline {subsection}{\numberline {4.5.5}Working Point Determination}{112}
-\contentsline {section}{\numberline {4.6}Signal Extraction}{112}
-\contentsline {subsection}{\numberline {4.6.1}B-meson Invariant Mass Distributions}{112}
-\contentsline {subsection}{\numberline {4.6.2}Fitting Models}{112}
-\contentsline {subsection}{\numberline {4.6.3}Raw Yield Extraction}{112}
-\contentsline {subsection}{\numberline {4.6.4}Signal Significance Estimation}{112}
-\contentsline {section}{\numberline {4.7}Acceptance and Efficiency Correction}{112}
-\contentsline {subsection}{\numberline {4.7.1}Analysis Challenges}{112}
-\contentsline {subsection}{\numberline {4.7.2}Fiducial Measurement}{112}
-\contentsline {subsection}{\numberline {4.7.3}Fine 2D Efficiency Map}{112}
-\contentsline {subsection}{\numberline {4.7.4}Data-Drive Efficiency Correction}{112}
-\contentsline {subsection}{\numberline {4.7.5}Tag \& Probe Techniques}{112}
-\contentsline {subsection}{\numberline {4.7.6}Nominal Results}{112}
-\contentsline {section}{\numberline {4.8}Cross Section Results}{112}
-\contentsline {section}{\numberline {4.9}Validation Tests}{112}
-\contentsline {subsection}{\numberline {4.9.1}Mass Scraping Test}{112}
-\contentsline {subsection}{\numberline {4.9.2}Raw Yield Closure}{112}
-\contentsline {subsection}{\numberline {4.9.3}Efficiency Closure}{112}
-\contentsline {subsection}{\numberline {4.9.4}sPlot Closure}{112}
-\contentsline {section}{\numberline {4.10}Statistical Uncertainties Determination}{112}
-\contentsline {subsection}{\numberline {4.10.1}Data Bootstrapping}{112}
-\contentsline {subsection}{\numberline {4.10.2}Statistical Uncertainties Interpretation}{112}
-\contentsline {section}{\numberline {4.11}Systematic Uncertainties Estimation}{112}
-\contentsline {subsection}{\numberline {4.11.1}Global Observables}{112}
-\contentsline {subsection}{\numberline {4.11.2}Branching Ratios}{112}
-\contentsline {subsection}{\numberline {4.11.3}Tracking Efficiency}{112}
-\contentsline {subsection}{\numberline {4.11.4}Muon Efficiency}{112}
-\contentsline {subsection}{\numberline {4.11.5}Selection Efficiency}{112}
-\contentsline {subsection}{\numberline {4.11.6}Signal Extraction}{112}
-\contentsline {subsection}{\numberline {4.11.7}Summary}{112}
-\contentsline {section}{\numberline {4.12}Final Results}{112}
-\contentsline {subsection}{\numberline {4.12.1}$B^0_s$ and $B^{+}$ Cross Section}{112}
-\contentsline {subsection}{\numberline {4.12.2}$B^0_s/B^{+}$ Ratio}{112}
-\contentsline {subsection}{\numberline {4.12.3}$B^0_s$ and $B^{+}$ Nuclear Modification Factor}{112}
-\contentsline {chapter}{\numberline {5}Conclusions}{113}
-\contentsline {section}{\numberline {5.1}Comparison with Other Experiments and Theoretical Models}{113}
-\contentsline {section}{\numberline {5.2}Physics Messages Discussion}{113}
-\contentsline {section}{\numberline {5.3}Conclusions}{113}
-\contentsline {section}{\numberline {5.4}Future Outlooks}{113}
-\contentsline {chapter}{\numberline {6}Other Studies}{115}
-\contentsline {section}{\numberline {6.1}sPHENIX Heavy Flavor Physics Simulations}{115}
-\contentsline {section}{\numberline {6.2}sPHENIX Electromagnetic Calorimeter Studies}{115}
-\contentsline {section}{\numberline {6.3}EIC Electromagnetic Calorimeter R\&D}{115}
-\contentsline {chapter}{\numberline {A}Tables}{117}
-\contentsline {chapter}{\numberline {B}Figures}{119}
-\contentsline {chapter}{List of Symbols}{123}
-\contentsline {chapter}{Abbreviations}{125}
+\contentsline {subsection}{\numberline {2.5.3}HF}{108}
+\contentsline {section}{\numberline {2.6}Relevant Detector Components}{110}
+\contentsline {chapter}{\numberline {3}Reconstructed Objects}{111}
+\contentsline {section}{\numberline {3.1}Event}{112}
+\contentsline {section}{\numberline {3.2}Hit}{112}
+\contentsline {section}{\numberline {3.3}Cluster}{112}
+\contentsline {section}{\numberline {3.4}Track}{112}
+\contentsline {section}{\numberline {3.5}Muon}{112}
+\contentsline {section}{\numberline {3.6}Vertex}{112}
+\contentsline {subsection}{\numberline {3.6.1}Primary Vertex}{112}
+\contentsline {subsection}{\numberline {3.6.2}Secondary Vertex}{112}
+\contentsline {chapter}{\numberline {4}Data Analysis}{113}
+\contentsline {section}{\numberline {4.1}Analysis Strategies}{114}
+\contentsline {subsection}{\numberline {4.1.1}Physics Goals}{114}
+\contentsline {subsection}{\numberline {4.1.2}General Workflow}{114}
+\contentsline {subsection}{\numberline {4.1.3}Technical Challenges}{114}
+\contentsline {section}{\numberline {4.2}Global Event Observables}{114}
+\contentsline {subsection}{\numberline {4.2.1}Total Number of Events}{114}
+\contentsline {subsection}{\numberline {4.2.2}Centrality Definition}{114}
+\contentsline {subsection}{\numberline {4.2.3}Number of Participants Nucleons}{114}
+\contentsline {subsection}{\numberline {4.2.4}Number of Binary Collisions}{114}
+\contentsline {subsection}{\numberline {4.2.5}Event Multiplicity}{114}
+\contentsline {section}{\numberline {4.3}Monte Carlo Simulations}{114}
+\contentsline {subsection}{\numberline {4.3.1}PYTHIA}{114}
+\contentsline {subsection}{\numberline {4.3.2}Hydjet Embedding}{114}
+\contentsline {subsection}{\numberline {4.3.3}EvtGen Package}{114}
+\contentsline {subsection}{\numberline {4.3.4}Reweighting}{114}
+\contentsline {section}{\numberline {4.4}B meson Reconstruction}{114}
+\contentsline {subsection}{\numberline {4.4.1}Decay Channels}{114}
+\contentsline {subsection}{\numberline {4.4.2}Event Selections}{114}
+\contentsline {subsection}{\numberline {4.4.3}Track and Muon Selections}{114}
+\contentsline {subsection}{\numberline {4.4.4}Results}{114}
+\contentsline {section}{\numberline {4.5}Cut Optimization}{114}
+\contentsline {subsection}{\numberline {4.5.1}Topological Variables}{114}
+\contentsline {subsection}{\numberline {4.5.2}Multivariate Analysis}{114}
+\contentsline {subsection}{\numberline {4.5.3}Machine Learning Techniques}{114}
+\contentsline {subsection}{\numberline {4.5.4}Training Performance}{114}
+\contentsline {subsection}{\numberline {4.5.5}Working Point Determination}{114}
+\contentsline {section}{\numberline {4.6}Signal Extraction}{114}
+\contentsline {subsection}{\numberline {4.6.1}B-meson Invariant Mass Distributions}{114}
+\contentsline {subsection}{\numberline {4.6.2}Fitting Models}{114}
+\contentsline {subsection}{\numberline {4.6.3}Raw Yield Extraction}{114}
+\contentsline {subsection}{\numberline {4.6.4}Signal Significance Estimation}{114}
+\contentsline {section}{\numberline {4.7}Acceptance and Efficiency Correction}{114}
+\contentsline {subsection}{\numberline {4.7.1}Analysis Challenges}{114}
+\contentsline {subsection}{\numberline {4.7.2}Fiducial Measurement}{114}
+\contentsline {subsection}{\numberline {4.7.3}Fine 2D Efficiency Map}{114}
+\contentsline {subsection}{\numberline {4.7.4}Data-Drive Efficiency Correction}{114}
+\contentsline {subsection}{\numberline {4.7.5}Tag \& Probe Techniques}{114}
+\contentsline {subsection}{\numberline {4.7.6}Nominal Results}{114}
+\contentsline {section}{\numberline {4.8}Cross Section Results}{114}
+\contentsline {section}{\numberline {4.9}Validation Tests}{114}
+\contentsline {subsection}{\numberline {4.9.1}Mass Scraping Test}{114}
+\contentsline {subsection}{\numberline {4.9.2}Raw Yield Closure}{114}
+\contentsline {subsection}{\numberline {4.9.3}Efficiency Closure}{114}
+\contentsline {subsection}{\numberline {4.9.4}sPlot Closure}{114}
+\contentsline {section}{\numberline {4.10}Statistical Uncertainties Determination}{114}
+\contentsline {subsection}{\numberline {4.10.1}Data Bootstrapping}{114}
+\contentsline {subsection}{\numberline {4.10.2}Statistical Uncertainties Interpretation}{114}
+\contentsline {section}{\numberline {4.11}Systematic Uncertainties Estimation}{114}
+\contentsline {subsection}{\numberline {4.11.1}Global Observables}{114}
+\contentsline {subsection}{\numberline {4.11.2}Branching Ratios}{114}
+\contentsline {subsection}{\numberline {4.11.3}Tracking Efficiency}{114}
+\contentsline {subsection}{\numberline {4.11.4}Muon Efficiency}{114}
+\contentsline {subsection}{\numberline {4.11.5}Selection Efficiency}{114}
+\contentsline {subsection}{\numberline {4.11.6}Signal Extraction}{114}
+\contentsline {subsection}{\numberline {4.11.7}Summary}{114}
+\contentsline {section}{\numberline {4.12}Final Results}{114}
+\contentsline {subsection}{\numberline {4.12.1}$B^0_s$ and $B^{+}$ Cross Section}{114}
+\contentsline {subsection}{\numberline {4.12.2}$B^0_s/B^{+}$ Ratio}{114}
+\contentsline {subsection}{\numberline {4.12.3}$B^0_s$ and $B^{+}$ Nuclear Modification Factor}{114}
+\contentsline {chapter}{\numberline {5}Conclusions}{115}
+\contentsline {section}{\numberline {5.1}Comparison with Other Experiments and Theoretical Models}{115}
+\contentsline {section}{\numberline {5.2}Physics Messages Discussion}{115}
+\contentsline {section}{\numberline {5.3}Conclusions}{115}
+\contentsline {section}{\numberline {5.4}Future Outlooks}{115}
+\contentsline {chapter}{\numberline {6}Other Studies}{117}
+\contentsline {section}{\numberline {6.1}sPHENIX Heavy Flavor Physics Simulations}{117}
+\contentsline {section}{\numberline {6.2}sPHENIX Electromagnetic Calorimeter Studies}{117}
+\contentsline {section}{\numberline {6.3}EIC Electromagnetic Calorimeter R\&D}{117}
+\contentsline {chapter}{\numberline {A}Tables}{119}
+\contentsline {chapter}{\numberline {B}Figures}{121}
+\contentsline {chapter}{List of Symbols}{125}
+\contentsline {chapter}{Abbreviations}{127}

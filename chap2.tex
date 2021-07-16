@@ -182,21 +182,62 @@ The muon in the tracker uses a similar tracking algorithms as other charged part
 
 \section{Calorimeter System}
 
-In nuclear and particle physics, a calorimeter is a detector that completely stops particles and measure the total energy deposited. According to the particles, calorimeter can be divided into electromagnetic calorimeter (ECAL or EMCAL) to measure the energy of electron and photons and hadronic calorimeter to measure the energy of charge and neutron hadrons. The CMS calorimeters system includes both ECAL and HCAL. It is located in between the tracker and the muon chambers as shown in Figure \ref{CMSDecPic.jpg}. 
+In nuclear and particle physics, a calorimeter is a detector that completely stops particles and measure the total energy deposited. According to the particles, calorimeter can be divided into electromagnetic calorimeter (ECAL or EMCAL) to measure the energy of electron and photons and hadronic calorimeter to measure the energy of charge and neutron hadrons. The CMS calorimeters system includes both ECAL and HCAL. It is located in between the tracker and the muon chambers as shown in Figure \ref{CMSDecPic}. 
 
 According to measurement of charged particle shower energy, calorimeter can typically be classified as sampling calorimeter and homogenous calorimeter. The sampling calorimeter has two components: absorber and scintillator. Absorber is generally made of metals and produces the shower. The scintillator collects a fraction of the total energy from the shower (visible energy) and then corrects the visible energy back to the total energy based on the light collection efficiency. On the other hand, the homogenous calorimeter collects all the energy deposited. Its material producing the particle shower also measures the energy deposition. 
 
 \subsection{ECAL}
 
-The CMS ECAL is made of lead tungstate (PbWO$_4$) crystal and is a homogeneous type calorimeter. It has an acceptance coverage of $|\eta| < 2.5$ and an excellent energy resolution of $\frac{\Delta E}{E} = \frac{2.83\%}{\sqrt {E}} \oplus \frac{12.0\%}{E}  \oplus 0.26\% $ where $E$ is in the unit of GeV \cite{ECALReso} to precisely measure the energy of electrons and photons. It is capable of identifying electrons and detecting photons, which is crucial for heavy flavor physics studies and photon-jet analysis. 
+The CMS ECAL is made of lead tungstate (PbWO$_4$) crystal and is a homogeneous type calorimeter. High energy electrons and photons interact with the CMS ECAL and undergo bremsstrahlung to produce electron, positron and photons and deposit energy to the ECAL. It has an acceptance coverage of $|\eta| < 1.48$ with a high granularity of $\Delta \eta \times \Delta \phi = 0.0175 \times 0.0175$ in the barrel region and 1.5 $< |\eta| <$ 3.0 in the endcap region. In addition, the ECAL has an excellent energy resolution of $\frac{\Delta E}{E} = \frac{2.83\%}{\sqrt {E}} \oplus \frac{12.0\%}{E}  \oplus 0.26\%$ where $E$ is in the unit of GeV \cite{ECALReso} to precisely measure the energy of electrons and photons. It is capable of identifying electrons and detecting photons, which is crucial for heavy flavor physics studies and photon-jet analysis. 
 
 \subsection{HCAL}
 
-The CMS HCAL is made steel or brass and is a sampling type calorimeter. 
+The CMS HCAL is a sampling type calorimeter made of 926 tons of steel or brass. Over a million World War II brass shell casements are from the Russian Navy. Hadrons interact with the HCAL brass and steel nuclei and produce hadronic showers. A fraction of the shower energy is sampled by the tiles of plastic wavelength shifting scintillators and transferred readout boxes. Generally, all particles except muons and neutrinos will not be able to penetrate the HCAL. The CMS HCAL system consists of the inner HCAL with barrel (HB) and Endcap (HE), the outter HECAL (HO), and the forward HCAL (HF). The acceptance coverages of HB are $|\eta| < $1.39, $|\eta| < $1.26, 1.31 $< |\eta| < $3.0, and 2.85 $< |\eta| < $5.19 respectfully. The HO and HB have a granularity of $\Delta \eta \times \Delta \phi = 0.087 \times 0.087$. The overall energy resolution of HCAL is $\frac{\Delta E}{E} \approx \frac{100\%}{\sqrt {E}}$ \cite{HCALReport}, which is excellent for jet physics studies.
 
 \subsection{HF}
 
+The forward HCAL is a special component of the CMS HCAL system. It is segmented into 36 $\times$ 13 towers in the $\eta - \phi$ plane. Figure \ref{HFPic} s schematic plot of HF shows schematic and physical views of the CMS HF detector \cite{HFInfo}
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.58\textwidth]{Figures/Chapter2/CMSForwardRegion.png}
+\includegraphics[width=0.38\textwidth]{Figures/Chapter2/HFReal.jpg}
+\caption{The schematic view of the CMS forward region including HF, CASTOR, and ZDC (left) and the physical view of the HF (right) are shown above.}
+\label{HFPic}
+\end{center}
+\end{figure} 
+
+As mentioned above, we have developed the L1 MB trigger based on HF response to select MB events. In addition, in CMS, centrality is defined based on the activities in the HF \cite{HFCentRef}. The more activity in the HF, the more remnants of colliding nuclei, the more central the collision event. Figure \ref{HFCent} shows the determination of centrality range from the HF response 
+
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.70\textwidth]{Figures/Chapter2/HFCent.png}
+\caption{The distribution of sum of HF energy using Minimum Biased Trigger and Jet Trigger with the classification of centrality binning is shown above. As we can see, the energy of the HF increase as the collision events become more central, which  is within our expectation.}
+\label{HFCent}
+\end{center}
+\end{figure} 
+
+
+
+In addition to HF, CASTOR (-6.6 < $\eta$ < -5.2) and ZDC ($|\eta|$ > 8.1) are also calorimeters which are located at the very forward region \cite{CASZDCRef} as shown above on Figure \ref{HFPic}. They can help select MB events and trigger ultra-peripheral collision (UPC) events. Figure \ref{CASTORZDC} shows the pictures of CASTOR and the ZDC in the very forward direction of the CMS detector
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.44\textwidth]{Figures/Chapter2/CASTOR.png}
+\includegraphics[width=0.50\textwidth]{Figures/Chapter2/CMSZDC.png}
+\caption{The picture of the CASTOR (left) at the CMS underground collision hall and ZDC (right) at 140 m away from the CMS beam interacting point are shown above.}
+\label{CASTORZDC}
+\end{center}
+\end{figure} 
+
+
 \section{Relevant Detector Components}
+
+In the data analysis of this thesis, the most relevant CMS sub-detectors are the silicon pixel and strip trackers and the muon chamber. We also use HF information to select high quality events. The datasets we used in the analysis are dimuon triggered datasets. We also use the MB trigger samples to estimate the total number of MB events in order to determine the cross section in our analysis. In the next chapter, we will describe in details the physics objects obtained from the detectors and used in our analysis to fully reconstruct B mesons and measure theirs cross sections.
+
+
 
 
 
