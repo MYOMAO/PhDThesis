@@ -123,7 +123,7 @@ In the 2018 PbPb run, the dimuon trigger requires the presence of two muon candi
 
 \subsection{Silicon Detectors}
 
-The CMS tracking system applies solid state semiconductor technologies. It consists of the 3 layers of silicon pixel tracker and 10 layers of silicon strip detector including 4 inner barrel layers and 6 outer barrel layers \cite{CMSSilicon}. Figure \ref{CMSTracker} shows the CMS tracking system schematically
+The CMS tracking system applies solid state semiconductor technologies. It consists of the 3 layers of silicon pixel tracker and 10 layers of silicon strip detector including 4 inner barrel layers and 6 outer barrel layers \cite{CMSSilicon}. It have a $\phi = 2\pi$ and $|\eta| < 2.4$ acceptance coverage. Figure \ref{CMSTracker} shows the CMS tracking system schematically
 
 \begin{figure}[hbtp]
 \begin{center}
@@ -168,12 +168,31 @@ Finally, with the collection of tracks, assuming all the tracks are promptly pro
 
 \section{Muon System}
 
-The CMS muon system is made of resistive plates chamber \cite{} locating at the outer of the CMS detector. The CMS muon system has excellent capabilities of detecting, identifying, and reconstructing muons. 
+Named as ``Compact \textbf{Muon} Solenoid'', the study on muon is one of the most important physics tasks of the CMS experiment. The CMS muon system has 1400 muon chambers including 250 drift tubes and 540 cathode strip chambers to track the positions of the muons and provide a trigger and 610 resistive plate chambers form a redundant trigger system with an acceptance coverage of $|\eta| < 2.4$ . Due to the small energy loss of muon in ECAL and HCAL \cite{AlphaTheoEx}, the muon produced from the collisions usually penetrates through the trackers and calorimeters. Therefore, the muon system is located at the outer of the CMS detector. Figure \ref{ParticleFlow} shows the particles produced at the interaction points and pass through the CMS detector
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.90\textwidth]{Figures/Chapter2/CMSParticleFlow.png}
+\caption{The particle flow of long life particles, such as electrons, muons, photons, charged hadrons: $\pi,K,p$, and neutral hadrons: neutrons, in the CMS detector are shown above.}
+\label{ParticleFlow}
+\end{center}
+\end{figure} 
+
+The muon in the tracker uses a similar tracking algorithms as other charged particles \cite{CMSTrackComp}. Muon tracking performance is excellent. For isolated muons with 1 < $p_T$ < 100 GeV/c, the tracking efficiency is $>$ 99\% over the full $\eta$-range of tracker acceptance and does not significantly depend on $p_T$ while the fake rate is negligible \cite{CMSTrackComp}. We can require hits on the outer most muon chambers to identify muons because other charge particles will be stopped by the calorimeter and should not be able to enter the muon system as shown on Figure \ref{ParticleFlow}. Therefore, the CMS muon system has excellent capabilities of detecting, identifying, and reconstructing muons, which is crucial for heavy flavor physics studies. 
+
 \section{Calorimeter System}
+
+In nuclear and particle physics, a calorimeter is a detector that completely stops particles and measure the total energy deposited. According to the particles, calorimeter can be divided into electromagnetic calorimeter (ECAL or EMCAL) to measure the energy of electron and photons and hadronic calorimeter to measure the energy of charge and neutron hadrons. The CMS calorimeters system includes both ECAL and HCAL. It is located in between the tracker and the muon chambers as shown in Figure \ref{CMSDecPic.jpg}. 
+
+According to measurement of charged particle shower energy, calorimeter can typically be classified as sampling calorimeter and homogenous calorimeter. The sampling calorimeter has two components: absorber and scintillator. Absorber is generally made of metals and produces the shower. The scintillator collects a fraction of the total energy from the shower (visible energy) and then corrects the visible energy back to the total energy based on the light collection efficiency. On the other hand, the homogenous calorimeter collects all the energy deposited. Its material producing the particle shower also measures the energy deposition. 
 
 \subsection{ECAL}
 
+The CMS ECAL is made of lead tungstate (PbWO$_4$) crystal and is a homogeneous type calorimeter. It has an acceptance coverage of $|\eta| < 2.5$ and an excellent energy resolution of $\frac{\Delta E}{E} = \frac{2.83\%}{\sqrt {E}} \oplus \frac{12.0\%}{E}  \oplus 0.26\% $ where $E$ is in the unit of GeV \cite{ECALReso} to precisely measure the energy of electrons and photons. It is capable of identifying electrons and detecting photons, which is crucial for heavy flavor physics studies and photon-jet analysis. 
+
 \subsection{HCAL}
+
+The CMS HCAL is made steel or brass and is a sampling type calorimeter. 
 
 \subsection{HF}
 
