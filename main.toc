@@ -71,7 +71,7 @@
 \contentsline {subsection}{\numberline {2.5.3}HF}{108}
 \contentsline {section}{\numberline {2.6}Relevant Detector Components}{110}
 \contentsline {chapter}{\numberline {3}Reconstructed Objects}{111}
-\contentsline {section}{\numberline {3.1}Event}{112}
+\contentsline {section}{\numberline {3.1}Event}{111}
 \contentsline {section}{\numberline {3.2}Hit}{112}
 \contentsline {section}{\numberline {3.3}Cluster}{112}
 \contentsline {section}{\numberline {3.4}Track}{112}
