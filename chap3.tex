@@ -10,19 +10,94 @@ The state-of-the-art CMS detector take a snapshot of each event and saves the de
 
 \section{Event}
 
-As mentioned previously, an event is defined as a snapshot of one collision at the LHC. Many particles are created in an event. Theoretically, to obtain the complete information of an event, we only need to know the position and momentum of each particle. Experimentally, we detect final state particles 
+As mentioned previously, an event is defined as a snapshot of one collision at the LHC. Many particles are produced in the collisions and then decay before they are detected in an event. Theoretically, to obtain the complete information of an event, we only need to know the position and momentum of each particle. Experimentally, we detect final state particles and record their kinematics. In high energy physics experiments, the particles reaching the detectors are $e^{\pm}$, $\mu^{\pm}$, $\pi^{\pm}$, $K^{\pm}$, $p$, $n$, $K^0_L$, $\gamma$. All other particles already decayed into these particles before they can be detected. In order to study them, they need to be reconstructed. Historically, this is used to be done by fast camera with high resolution. The Figure \ref{OmegaNick} shows a famous $\Omega^-$ baryon (Strangeness -3: $sss$) event reconstructed from one of picture taken in the bubble chamber \cite{OmegaNick}.
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.70\textwidth]{Figures/Chapter3/Omega.jpg}
+\caption{The bubble chamber picture of the an $\Omega^-$ baryon reconstructed from an event: $K^- p \rightarrow K^0 K^+ \Omega^- \rightarrow \Xi^0 \pi^- \rightarrow \Lambda^0 \gamma \gamma \rightarrow \pi^- p$ taken from the group led by Nicholas Samios at BNL is shown above.}
+\label{OmegaNick}
+\end{center}
+\end{figure} 
+
+
+Nowadays, the technologies have advanced. With the development of computing, detector hardware and readout electronics, high energy physics experiments are able to collect many events with higher precision of measurements. For instance, the CMS experiment has an event trigger rate of 100kHz, which corresponds to a rate of 100000 events per second with 100 GB/s information \cite{CMSDAQ}. Experimental data have become more digital and abstract instead of pictorial and intuitive. All events information is stored at a file format instead of a photograph. Physicists use computer to read the experimental data and develop software to perform analysis of each event, extract the physics information from the analysis, and interpret the physics results. 
+
+In the following subsections, for simplicity, I will explain the reconstructed objects of events with only one charged particle. 
 
 \section{Hit}
 
+All reconstructed objects start from hits as the energy deposition of particle passing through the detectors. Here I will explain the concept of hits based on CMS silicon pixel tracker. Figure \ref{CMSPixChip}, the schematic view of a chip with silicon pixels in the CMS tracker
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.50\textwidth]{Figures/Chapter3/CMSPixChip.png}
+\caption{The schematic plot of a CMS silicon chip with pixel sensor is shown above.}
+\label{CMSPixChip}
+\end{center}
+\end{figure} 
+
+When a charged particle pass through a layer of the CMS silicon pixel detector, we can look at the charges collected by each pixel on that layer due to the ionization of electron-hole pairs by the high energy charged particle. Ideally, if a particle enter the tracker at a normal angle, only one pixel is fired. However, in reality, its neighboring pixels may also have some response. When the particle enter the tracker with a small angle  particularly when the part. Figure \ref{HitDemo} schematically demonstrates the firing pixel when a particle passing the layer
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter3/Hit1.png}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter3/Hit2.png}
+\caption{The schematic views of a charged particle (blue line) entering the silicon pixel layer (black) at a normal angle (left) and a small tilting angle (right) with the pixels fired (red) are shown above. The left cluster has 1 hit and the right cluster has 4 hits.}
+\label{HitDemo}
+\end{center}
+\end{figure} 
+
+Here we call each firing pixel as a hit, which is demonstrated above in Figure \ref{HitDemo} in red. In CMS pixel tracker, the probability of a pixel firing when a charged particle passing through is greater than 99\% \cite{CMSTrackComp}, which means that it is very unlikely a hit is missing when a particle pass through the pixel. 
+
+
+
 \section{Cluster}
+
+Therefore, there should be at least one hit for each layer when a single particle pass through. We call the collection of the adjacent pixel hits in a layer due to one particle as a cluster \cite{CMSTrackComp}. The number of electric charges $Q$ is associated to each hit. We can design an algorithm determine the center of a cluster according to the charges of each hit. A simple algorithm is to calculate the center of gravity of the cluster taking the weighted averaging of the charge and the position of each hit. In this case, for a cluster with a single hit, its position is simply the center of the pixel. For clusters with many hits, we develop a dedicated algorithm to estimate its position \cite{CMSTrackComp}. The position of a cluster is a measurement of the particle trajectory. 
+
+However, in an event with many particles, the occupancy of each layer will be busy and the clusters will become complicated. The CMS collaboration develop  In CMS terminology, the conversion of electronic signal of pixels to clusters is called DIGI.
+
 
 \section{Track}
 
+In a uniform external magnetic field, the trajectory of a charged particle will be a helix in 3 dimensions. Geometrically, five parameters are needed to parametrize a helix. Therefore, we need at least 5 clusters to determine the parameters. Figure \ref{} shows the helix path of a charged particle in a uniform magnetic field
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter3/Hit1.png}
+\caption{The schematic views of a charged particle (blue line) entering the silicon pixel layer (black) at a normal angle (left) and a small tilting angle (right) with the pixels fired (red) are shown above. The left cluster has 1 hit and the right cluster has 4 hits.}
+\label{HitDemo}
+\end{center}
+\end{figure} 
+
+In the CMS silicon tracker with 4 pixel and 10 strip layers, a charge particle passing through all 14 layers should leave 14 clusters, which has more cluster is required to determine the helix. A dedicated seeding algorithm is designed to select the clusters and perform best fitting \cite{CMSTrackComp}. 
+ 
+
+
+
+
+
 \section{Muon}
+
+
+
 
 \section{Vertex}
 
 \subsection{Primary Vertex}
 
 \subsection{Secondary Vertex}
+
+\section{Experimental Results}
+
+
+Nevertheless, here I just take a simple case that only one charged particle is present in an event. In reality, LHC collision events in general have high pile with high multiplicity \cite{}. Figure \ref{} shows the number of reconstructed vertices in $pp$ collisions from MC and data. 
+
+
+Therefore, when there are so many particles coming from many vertices in each event, the CMS Collaboration have designed more complicated algorithms to reconstruct events with physics objects mentioned above \cite{}.
+
+
 
