@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  17 JUL 2021 14:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  17 JUL 2021 20:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -304,18 +304,18 @@ Overfull \hbox (4.4827pt too wide) in paragraph at lines 44--44
 [18] [19]
 Underfull \vbox (badness 4036) has occurred while \output is active []
 
- [20])
+ [20]
+[21])
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
-
-[21] [22
-
-] (./main.lot)
+ [22] (./main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
-) [23]
+) [23
+
+]
 \openout2 = `chap1.aux'.
 
  (./chap1.tex [24
@@ -1209,67 +1209,98 @@ Package pdftex.def Info: Figures/Chapter3/Hit2.png used on input line 46.
 (pdftex.def)             Requested size: 208.13574pt x 121.21574pt.
  [113 <./Figures/Chapter3/CMSPixChip.png> <./Figures/Chapter3/Hit1.png> <./Figu
 res/Chapter3/Hit2.png>]
+Underfull \vbox (badness 1331) has occurred while \output is active []
 
-LaTeX Warning: Reference `' on page 114 undefined on input line 86.
+ [114]
+<Figures/Chapter3/Helix.png, id=886, 654.445pt x 705.63625pt>
+File: Figures/Chapter3/Helix.png Graphic file (type png)
+
+<use Figures/Chapter3/Helix.png>
+Package pdftex.def Info: Figures/Chapter3/Helix.png used on input line 84.
+(pdftex.def)             Requested size: 151.76964pt x 163.63881pt.
+
+<Figures/Chapter3/FitToCircle.png, id=887, 858.20625pt x 476.78125pt>
+File: Figures/Chapter3/FitToCircle.png Graphic file (type png)
+
+<use Figures/Chapter3/FitToCircle.png>
+Package pdftex.def Info: Figures/Chapter3/FitToCircle.png used on input line 85
+.
+(pdftex.def)             Requested size: 238.49231pt x 132.49387pt.
+ [115 <./Figures/Chapter3/Helix.png> <./Figures/Chapter3/FitToCircle.png>]
+
+LaTeX Warning: Reference `FitLayer' on page 116 undefined on input line 111.
+
+
+LaTeX Warning: Reference `' on page 116 undefined on input line 111.
+
+[116]
+
+LaTeX Warning: Reference `CMSpTReso' on page 117 undefined on input line 155.
+
+
+LaTeX Warning: Citation `Track' on page 117 undefined on input line 173.
+
+
+LaTeX Warning: Reference `' on page 117 undefined on input line 194.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [114])
-[115]
+ [117])
+[118]
 \openout2 = `chap4.aux'.
 
- (./chap4.tex [116
-
-
-
-]
+ (./chap4.tex
 Chapter 4.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [117]
+ [119
+
+
+
+]
 Overfull \vbox (1771.60448pt too high) has occurred while \output is active []
 
 
-[118]
+[120]
 \openout2 = `chap5.aux'.
 
  (./chap5.tex
 Chapter 5.
-) [119
+) [121
 
 
 
 ]
 \openout2 = `chap6.aux'.
 
- (./chap6.tex [120
+ (./chap6.tex [122
 
 
 
 ]
 Chapter 6.
-) [121]
+) [123]
 \openout2 = `appa.aux'.
 
- (./appa.tex [122
+ (./appa.tex [124
 
 
 
 ]
 Appendix A.
-[123])
+[125])
 \openout2 = `appb.aux'.
 
- (./appb.tex [124
+ (./appb.tex [126
 
 
 
 
 ]
 Appendix B.
-[125] [126])
+[127] [128])
 \openout2 = `nomenclature.aux'.
 
  (./nomenclature.tex
@@ -1278,44 +1309,44 @@ Appendix B.
 
 
 Writing nomenclature file main.nlo
-(./main.nls [127
+(./main.nls [129
 
 
 
 
-] [128
+] [130
 
-])) (./main.nls [129] [130
+])) (./main.nls [131] [132
 
-]) [131]
+]) [133]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex [132
+ (./biblio.tex [134
 
 
 
 ]
-[133] [134] [135] [136] [137] [138] [139]
+[135] [136] [137] [138] [139] [140] [141]
 Underfull \hbox (badness 1728) in paragraph at lines 106--107
 []\T1/cmr/m/n/12 B. B. Back, ``Stud-ies of mul-ti-plic-ity in rel-a-tivis-tic h
 eavy-ion col-li-sions'',
  []
 
-[140] [141] [142] [143]
+[142] [143] [144] [145]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 166.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [144] [145]
-[146] [147] [148]
+) [146] [147]
+[148] [149] [150]
 Underfull \hbox (badness 6188) in paragraph at lines 236--237
 []\T1/cmr/m/n/12 A. Penzo and Y. Onel, ``The CMS-HF quartz fiber calorime-ters'
 ',
  []
 
 No file main.bbl.
-) [149] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+) [151] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
 (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./appa.aux)
 (./appb.aux) (./nomenclature.aux) (./biblio.aux))
 
@@ -1327,10 +1358,10 @@ LaTeX Warning: There were multiply-defined labels.
  )
 (\end occurred when \ifx on line 56 was incomplete) 
 Here is how much of TeX's memory you used:
- 3763 strings out of 493089
- 56837 string characters out of 6134842
- 107602 words of memory out of 5000000
- 6939 multiletter control sequences out of 15000+600000
+ 3777 strings out of 493089
+ 57172 string characters out of 6134842
+ 107732 words of memory out of 5000000
+ 6951 multiletter control sequences out of 15000+600000
  17523 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,14n,23p,1571b,268s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1356,10 +1387,10 @@ uper/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-sup
 er/sfrm1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super
 /sfrm1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/s
 ftt1200.pfb>
-Output written on main.pdf (149 pages, 12016119 bytes).
+Output written on main.pdf (151 pages, 12128162 bytes).
 PDF statistics:
- 1070 PDF objects out of 1200 (max. 8388607)
- 572 compressed objects within 6 object streams
+ 1081 PDF objects out of 1200 (max. 8388607)
+ 577 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 486 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 496 words of extra memory for PDF output out of 10000 (max. 10000000)
 

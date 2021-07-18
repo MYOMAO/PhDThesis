@@ -6,7 +6,7 @@
 %% prompt when you run the file main.tex through LaTeX.
 \chapter{Reconstructed Objects}
 
-The state-of-the-art CMS detector take a snapshot of each event and saves the detailed information of the collisions into datasets. In the datasets, we can access to event information with fully reconstructed objects including hits, tracks, muons, and vertex, which will be crucial for our data analysis to study B meson physics in heavy-ion collisions. Below, we will describe how these objects with physical meaning are reconstructed from electronic signal in the CMS detector.
+The state-of-the-art CMS detector take a snapshot of each event and saves the detailed information of the collisions into datasets. In the datasets, we can access to event information with fully reconstructed objects including hits, tracks, muons, and vertex, which will be crucial for our data analysis to study B meson physics in heavy-ion collisions. Below, we will describe, in principle, how these objects with physical meaning are reconstructed from electronic signal in the CMS detector.
 
 \section{Event}
 
@@ -60,23 +60,120 @@ Therefore, there should be at least one hit for each layer when a single particl
 However, in an event with many particles, the occupancy of each layer will be busy and the clusters will become complicated. The CMS collaboration develop  In CMS terminology, the conversion of electronic signal of pixels to clusters is called DIGI.
 
 
-\section{Track}
+\section{Tracklet}
 
-In a uniform external magnetic field, the trajectory of a charged particle will be a helix in 3 dimensions. Geometrically, five parameters are needed to parametrize a helix. Therefore, we need at least 5 clusters to determine the parameters. Figure \ref{} shows the helix path of a charged particle in a uniform magnetic field
+In a uniform external magnetic field, the trajectory of a charged particle will be a helix in 3 dimensions. Geometrically, five parameters are needed to parametrize a helix. A parametric curve of a helix moving in the Cartesian coordinates moving in the z direction is written as follows
+
+\begin{equation}
+x(t) = R \cos(\omega t) + a
+\end{equation}
+
+\begin{equation}
+y(t) = R \sin(\omega t) + b
+\end{equation}
+
+\begin{equation}
+z(t) = v t + c
+\end{equation}
+
+Therefore, we need at least 3 clusters to determine the all 5 parameters. 3 clusters can determine the radius $R$ and the center of the circle (a,b) and also can determine the straight line in the z-direction. Figure \ref{HelixAndFit} shows the helix path of a charged particle in a uniform magnetic field and the fit to determine the center and the radius of the helix.
 
 
 \begin{figure}[hbtp]
 \begin{center}
-\includegraphics[width=0.48\textwidth]{Figures/Chapter3/Hit1.png}
-\caption{The schematic views of a charged particle (blue line) entering the silicon pixel layer (black) at a normal angle (left) and a small tilting angle (right) with the pixels fired (red) are shown above. The left cluster has 1 hit and the right cluster has 4 hits.}
-\label{HitDemo}
+\includegraphics[width=0.35\textwidth]{Figures/Chapter3/Helix.png}
+\includegraphics[width=0.55\textwidth]{Figures/Chapter3/FitToCircle.png}
+\caption{The helix motion of a charged particle under a constant and uniform magnetic field $\vec{B}$ pointing in the +z direction (left) and the fit to 3 points to determine the center and the radius of a circle (right) are shown above.}
+\label{HelixAndFit}
 \end{center}
 \end{figure} 
 
-In the CMS silicon tracker with 4 pixel and 10 strip layers, a charge particle passing through all 14 layers should leave 14 clusters, which has more cluster is required to determine the helix. A dedicated seeding algorithm is designed to select the clusters and perform best fitting \cite{CMSTrackComp}. 
+Moreover, we can determine transverse momentum of the charged particle according to the $R$ fitted from fit to the center of 3 clusters.
+
+\begin{equation}
+p_T  = qRB
+\end{equation}
+
+In general, the charges of the particles produced in the collision and pass through the tracker are $q = e$. Hence, $p_T = eRB$. For $p_T$ in the unit of GeV, $R$ in the unit of meter (m), and $B$ in the unit of tesla (T), we have 
+
+\begin{equation}
+p_T  \simeq 0.3 RB
+\end{equation}
+
+Therefore, as seen above from Figure \ref{HelixAndFit}, the transverse momentum resolution is driven by the determination of $R$ assuming we have a perfect measurement on the magnetic field $B$.
+
+Insert FIg
+
+\begin{equation}
+\frac{\sigma_{p_T}}{p_T} = \frac{\sigma_R}{R} 
+\end{equation}
+
+According to Figure \ref{FitLayer}, at high $p_T$, essentially in parallel, for a 3 cluster fit. In addition, we know that the layers in the CMS pixel detector has equal spacing $\Delta r$. Hence, taking the inner 3 layers of pixel detectors, we have the  following Figure \ref{}
+
+Insert FIg
+
+
+Hence, we can see that $L/2 = \Delta r$, which assume fixed with no uncertainties. Hence, we have
+
+\begin{equation}
+\frac{L}{2} = R \sin \frac{\theta}{2}
+\end{equation}
+
+Again, at high $p_T$, the angle $\theta$ will be very small since the radius of the circle $R >> \Delta r$, $\sin\theta \simeq \theta$ and $\cos\theta \simeq 1 - \frac{\theta^2}{2}$. Hence, we can use small angle approximation
+
+\begin{equation}
+L = 2 R \sin \frac{\theta}{2} \simeq R \theta
+\end{equation}
+
+Therefore,
+
+\begin{equation}
+p_T  \simeq 0.3 RB = 0.3 \frac{BL}{\theta}
+\end{equation}
+
+
+Hence, geometrically, we have
+
+
+\begin{equation}
+s = R - R \cos \frac{\theta}{2} = R (1 -  \cos \frac{\theta}{2}) =  R (1 -  \cos \frac{\theta}{2})  \simeq  \frac{L}{\theta} \{1 - [1 - \frac{1}{2} (\frac{\theta}{2})^2] \} =  \frac{L\theta}{8} = \frac{0.3BL^2}{8p_T}
+\end{equation}
+
+Thus, the uncertainties on both sides go as 
+
+\begin{equation}
+\sigma_s =  \frac{0.3BL^2}{8p_T^2} \sigma_{p_T}
+\end{equation}
+
+Hence, the transverse momentum resolution $\frac{\sigma_{p_T}}{p_T}$ is given by 
+
+
+\begin{equation}
+\frac{\sigma_{p_T}}{p_T} = \frac{8\sigma_s}{0.3BL^2} p_T
+\end{equation}
+
+Here, $\sigma_s$ is effective the position resolution of the silicon pixel detector. We can see that the transverse momentum resolution gets worse as $p_T$ increases in the high $p_T$ region. Figure \ref{CMSpTReso} shows the $\frac{\sigma_{p_T}}{p_T}$ as a function $p_T$
+
+We can see that a good agreement with linear growth of $\frac{\sigma_{p_T}}{p_T}$ for $p_T > 20$ GeV/c in the high $p_T$ region.
+
+
+
+
+
+
+
+Hence, we can see that
+
+
+Because the CMS silicon tracker has 4 pixel and 10 strip layers, a charge particle passing through all 14 layers should leave 14 clusters, which is much more than required to determine the helix. A dedicated seeding algorithm is designed to select the clusters and perform best fitting \cite{CMSTrackComp}. In addition, an iterative process to improve the fit and reduce fake track are implemented. Then, perform fits on these After the process of 3 clusters seed fitting done, we get an object called ``tracklet''.   
  
 
+\section{Track}
 
+With trackets from the seeds, we can reconstruct the tracks by the extending the tracklets \cite{Track}
+
+
+After these process, we have reconstructed the objected from all the tracklets named a track
 
 
 
