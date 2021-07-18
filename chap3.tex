@@ -102,15 +102,18 @@ p_T  \simeq 0.3 RB
 
 Therefore, as seen above from Figure \ref{HelixAndFit}, the transverse momentum resolution is driven by the determination of $R$ assuming we have a perfect measurement on the magnetic field $B$.
 
-Insert FIg
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter3/PixLayTrk.png}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter3/FitOnHits.png}
+\caption{A track (blue) initiated from the primary vertex (orange) passing through 3 layers of pixel detectors (black) with 3 clusters (red) is shown on the left and the circular fit to the 3 clusters with the definition of $R$, $L$, and $\theta$ is shown on the right.}
+\label{HelixAndFit}
+\end{center}
+\end{figure} 
 
-\begin{equation}
-\frac{\sigma_{p_T}}{p_T} = \frac{\sigma_R}{R} 
-\end{equation}
 
-According to Figure \ref{FitLayer}, at high $p_T$, essentially in parallel, for a 3 cluster fit. In addition, we know that the layers in the CMS pixel detector has equal spacing $\Delta r$. Hence, taking the inner 3 layers of pixel detectors, we have the  following Figure \ref{}
 
-Insert FIg
+According to Figure \ref{HelixAndFit} on the right, at high $p_T$, essentially in parallel, for a 3 cluster fit. In addition, we know that the layers in the pixel track has equal spacing $\Delta r$ between layers. For CMS pixel tracker, its inner most 3 layers has equal distance $\Delta r_{12} = \Delta_{23} =$ 2.9 cm \cite{CMSPIXInfo}. 
 
 
 Hence, we can see that $L/2 = \Delta r$, which assume fixed with no uncertainties. Hence, we have
@@ -154,18 +157,24 @@ Hence, the transverse momentum resolution $\frac{\sigma_{p_T}}{p_T}$ is given by
 
 Here, $\sigma_s$ is effective the position resolution of the silicon pixel detector. We can see that the transverse momentum resolution gets worse as $p_T$ increases in the high $p_T$ region. Figure \ref{CMSpTReso} shows the $\frac{\sigma_{p_T}}{p_T}$ as a function $p_T$
 
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.60\textwidth]{Figures/Chapter3/CMSpTReso.png}
+\caption{The transverse momentum resolution $\frac{\sigma_{p_T}}{p_T}$ of a track as a function of transverse momentum $p_T$ is shown above.}
+\label{CMSpTReso}
+\end{center}
+\end{figure} 
+
 We can see that a good agreement with linear growth of $\frac{\sigma_{p_T}}{p_T}$ for $p_T > 20$ GeV/c in the high $p_T$ region.
 
+Longitudinally, $p_z$ can be determined by the $p_T$ and the angle $\Delta \theta$ in the transverse direction 
 
+\begin{equation}
+p_z = \frac{\Delta z}{\frac{R\Delta \theta}{p_T}} = 0.3B \frac{\Delta z}{\Delta \theta}
+\end{equation}
 
-
-
-
-
-Hence, we can see that
-
-
-Because the CMS silicon tracker has 4 pixel and 10 strip layers, a charge particle passing through all 14 layers should leave 14 clusters, which is much more than required to determine the helix. A dedicated seeding algorithm is designed to select the clusters and perform best fitting \cite{CMSTrackComp}. In addition, an iterative process to improve the fit and reduce fake track are implemented. Then, perform fits on these After the process of 3 clusters seed fitting done, we get an object called ``tracklet''.   
+Because the CMS silicon tracker has 3 pixel and 10 strip layers, a charge particle passing through all 13 layers should leave 13 clusters, which is much more than required to determine the helix. A dedicated seeding algorithm is designed to select the clusters and perform best fitting \cite{CMSTrackComp}. In addition, an iterative process to improve the fit and reduce fake track is implemented. Then, we can perform fits on these seeds. The fits to these seeds are called ``tracklets''.   
  
 
 \section{Track}

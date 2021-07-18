@@ -72,10 +72,12 @@
 \contentsline {figure}{\numberline {3-2}{\ignorespaces The schematic plot of a CMS silicon chip with pixel sensor is shown above.}}{113}
 \contentsline {figure}{\numberline {3-3}{\ignorespaces The schematic views of a charged particle (blue line) entering the silicon pixel layer (black) at a normal angle (left) and a small tilting angle (right) with the pixels fired (red) are shown above. The left cluster has 1 hit and the right cluster has 4 hits.}}{113}
 \contentsline {figure}{\numberline {3-4}{\ignorespaces The helix motion of a charged particle under a constant and uniform magnetic field $\mathaccentV {vec}17E{B}$ pointing in the +z direction (left) and the fit to 3 points to determine the center and the radius of a circle (right) are shown above.}}{115}
+\contentsline {figure}{\numberline {3-5}{\ignorespaces A track (blue) initiated from the primary vertex (orange) passing through 3 layers of pixel detectors (black) with 3 clusters (red) is shown on the left and the circular fit to the 3 clusters with the definition of $R$, $L$, and $\theta $ is shown on the right.}}{116}
+\contentsline {figure}{\numberline {3-6}{\ignorespaces The transverse momentum resolution $\frac {\sigma _{p_T}}{p_T}$ of a track as a function of transverse momentum $p_T$ is shown above.}}{118}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B-1}{\ignorespaces Armadillo slaying lawyer.}}{127}
-\contentsline {figure}{\numberline {B-2}{\ignorespaces Armadillo eradicating national debt.}}{128}
+\contentsline {figure}{\numberline {B-1}{\ignorespaces Armadillo slaying lawyer.}}{129}
+\contentsline {figure}{\numberline {B-2}{\ignorespaces Armadillo eradicating national debt.}}{130}
