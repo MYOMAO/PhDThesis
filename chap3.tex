@@ -182,7 +182,7 @@ At this point, we have obtain the trajectory with the complete kinematic informa
 \subsection{CMS Tracking Algorithm}
 
 
-Because the CMS silicon tracker has 3 pixel and 10 strip layers, a charge particle passing through all 13 layers should leave 13 clusters, which is much more than required to determine the helix. Moreover, in real collision events at the LHC, many tracks are produced at multiple vertices. Figure \ref{CMSEvtInfo} shows the number of vertices and the number of tracks in $pp$ collisions at $\sqrt{s_{NN}} = $ 5.02 TeV
+Because the CMS silicon tracker has 3 pixel and 10 strip layers, a charge particle passing through all 13 layers should leave 13 clusters, which is much more than required to determine the helix. Moreover, in reality, collision events at the LHC, many tracks are produced at multiple vertices. In collider physics, we call use the concept of pileup events (PU), which is defined as events with more than one vertices. Figure \ref{CMSEvtInfo} shows the number of vertices and the number of tracks in $pp$ collisions at $\sqrt{s_{NN}} = $ 5.02 TeV
 
 \begin{figure}[hbtp]
 \begin{center}
@@ -276,26 +276,99 @@ We should note that a modified version of Kalman filter named Gaussian Sum Filte
 
 \section{Muon}
 
-The muon in the tracker uses a essentially the same tracking algorithms as other charged particles \cite{CMSTrackComp}. Tracking performance of muon is excellent. For isolated muons with 1 < $p_T$ < 100 GeV/c, the tracking efficiency is $>$ 99\% over the full $\eta$-range of tracker acceptance and does not significantly depend on $p_T$ while the fake rate is negligible \cite{CMSTrackComp}. We can require hits on the outer most muon chambers to identify muons because other charge particles will be stopped by the calorimeter and should not be able to enter the muon system as shown on Figure \ref{ParticleFlow}. Therefore, the CMS muon system has excellent capabilities of detecting, identifying, and reconstructing muons, which is crucial for heavy flavor physics studies. 
+The muon in the tracker uses an essentially the same tracking algorithms as other charged particles \cite{CMSTrackComp}. Tracking performance of muon is excellent. For isolated muons with 1 < $p_T$ < 100 GeV/c, the tracking efficiency is $>$ 99\% over the full $\eta$-range of tracker acceptance and does not significantly depend on $p_T$ while the fake rate is negligible \cite{CMSTrackComp}. We can require hits on the outer most muon chambers to identify muons because other charge particles will be stopped by the calorimeter and should not be able to enter the muon system as shown on Figure \ref{ParticleFlow}. The muon reconstruction workflow with the muon chambers are shown below in Figure \ref{MuonReco}
 
-In CMS terminology, there are three types of muons: global muons, soft muons, and standalone muons. They are defined as follows:
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.65\textwidth]{Figures/Chapter3/MuonReco.png}
+\caption{The schematic block diagram of muon reconstruction in the CMS muon system is shown above.}
+\label{MuonReco}
+\end{center}
+\end{figure} 
+
+In addition, since mouns also deposit some energy to the ECAL and HCAL, we can also access calorimeter information for the muons. Therefore, the CMS muon system has excellent capabilities of detecting, identifying, and reconstructing muons, which is crucial for heavy flavor physics studies. 
+
+In CMS terminology, there are many types of muons based on their selection requirement in reconstruction. They are classified as follows:
 
 
 \begin{itemize}
-\item \textbf{Global Muons:}
-\item \textbf{Soft Muons:}
-\item \textbf{Standalone Muons:}
+\item \textbf{Standalone Muons:} the muon segments reconstructed from muon chambers only.
+\item \textbf{Tracker Muons:} the muon segments reconstructed from tracker only but also valid with the information from calorimeter and muon systems
+\item \textbf{Global Muons:} the muons reconstructed from the fits on the hits of both trackering and muon systems
+\item \textbf{RPC Muons:} the muons reconstructed with both inner tracker and the resistive plate detector only 
+\item \textbf{Calorimeter-based Muons (Calo Muons):} the muons reconstructed with both inner tracker and calorimeters  
 \end{itemize}
 
+The relationship between stand alone muons, tracker muons, global muons, and calo muons are shown below in Figure \ref{MuonRel}
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.75\textwidth]{Figures/Chapter3/MuonRel}
+\caption{The relationship between different reconstructed muon in CMS is shown above}
+\label{MuonRel}
+\end{center}
+\end{figure} 
+
+For physics analysis, addition selections on muons including trigger, identification, and acceptance will be applied. We will further discussed them in the analysis chapter.
 
 \section{Vertex}
 
-With the final track collection for each event, assuming all the tracks are promptly produced at a given interaction point, we can determine the primary vertex by selecting the tracks, performing track clustering, and fitting for the position of each vertex using its associated tracks \cite{CMSTrackComp}. The deterministic annealing algorithm \cite{DAAlgo} is track clustering algorithm that CMS is currently using. The track and vertex information of each event will be stored in datasets for physics analyses.
+In particle physics, the term vertex is similar to a vertex in Feynman diagram where old incoming particles are destroyed and new outgoing particles are created via an interaction at a space-time point. This has already shown in Figure \ref{OmegaNick} of the $\Omega^-$ baryon event where we can clearly see the vertices of $\Omega^-$ baryon creation and decay in the reconstructed plot on the right. 
 
 \subsection{Primary Vertex}
 
+By definition, in collider experiments, the primary vertex is assume where the hadron interact. Therefore, all particles produced in the collisions in that event originate from the primary vertices. With the final track collection for each event, assuming all the tracks are promptly produced at a given interaction point, we can determine the primary vertices by selecting the tracks, performing track clustering, and fitting for the position of each vertex using its associated tracks \cite{CMSTrackComp}. The selection criteria for the track to perform primary vertex are as follows:
+
+\begin{itemize}
+\item $|d_0^{BS}|/ \Delta d_0 < 5$
+\item $N_{pixel} > 2$
+\item $N_{strip} > 5$
+\item $\chi^2/dof < 20$
+\end{itemize}
+
+
+
+The selection above make sure the tracks used have high quality and are indeed come from primary vertices. The deterministic annealing algorithm \cite{DAAlgo} is track clustering algorithm that CMS is currently using. An iterative process of minimize the annealing function of longitudinal distance between the tracks and the vertices gradual temperature reduction until dropping to the critical temperature is carried out to determine the number of vertices and their z coordinates \cite{CMSTrackComp}. A track can be used for more than one vertices during tracking clustering. Figure \ref{CMSEvtDisplay} is a $pp$ collision event display of the CMS detector with reconstructed tracks and primary vertices 
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.85\textwidth]{Figures/Chapter3/CMSEvtDisplay.png}
+\caption{A $pp$ collision event display of the CMS detector with reconstructed tracks (green curves) and primary vertices (yellow dots) is shown above.}
+\label{CMSEvtDisplay}
+\end{center}
+\end{figure} 
+
+\iffalse
+Figure \ref{DAAlgoPlot} shows schematically the deterministic annealing algorithm
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.75\textwidth]{Figures/Chapter3/MuonRel}
+\caption{The relationship between different reconstructed muon in CMS is shown above}
+\label{DAAlgoPlot}
+\end{center}
+\end{figure} 
+\fi
+
+After that, we have determined the vertex candidates with z coordinates. Then,  for the vertices candidates with at least two tracks, adaptive vertex fitter \cite{AVT} is applied to compute the best estimate of vertex parameters, including its x, y and z position, covariance matrix, and parameters characterizing the fitting performance such as the $\chi^2$, $n_{dof}$, vertex fitting probability, and the weights of the tracks used in the vertex. At this point we have obtain the complete information of an event with a final collection of tracks with best reconstructed vertices. The track and primary vertex information of each event will be saved in datasets for further physics analyses.
+
 \subsection{Secondary Vertex}
 
+Another object we should mention, particularly in the context of this thesis, is secondary vertex. Again, as seen from Figure \ref{OmegaNick}, there are many vertices in the $\Omega^-$ baryon event in its decay chain. We can the displaced vertex from the primary vertex due to the decay of a short-life particle produced at high energy as the secondary vertex. Figure \ref{D0Vtx} below is schematic plot of the decay topology of a prompt $D^0$ decay via the channel: $D^0 \rightarrow K^- \pi^+$ showing the primary vertex and secondary vertex  
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter3/D0Seconary.png}
+\caption{The decay of $D^0 \rightarrow K^- \pi^+$ with the definition of secondary vertex is shown above}
+\label{D0Vtx}
+\end{center}
+\end{figure} 
+
+The decay length is defined as the distance between primary and secondary vertex. In LHC collisions, since the energy is very high, the particle produced from the primary vertex generally has a large momentum, which correspond to a large Lorentz gamma factor $\gamma \beta \simeq$ 5. For B mesons produced at the LHC, we estimate their length a $\gamma \beta c \tau \simeq 3$ mm due to its long lifetime $c \tau = 500$ $\mu$m \cite{AlphaTheoEx}. Therefore, the B meson secondary vertex is well seperated from the primary vertex and could even even viewed by eye. The relatively long B meson decay lengths make them ideal candidates to be fully reconstructed and study thanks to the excellent vertexing and tracking capabilities of the CMS detector.
+
+Finally, we can also call the secondary vertex for a particle as the reconstructed mother particle's vertex. For instance, $B^0_s \rightarrow J/\psi \phi \rightarrow \mu^+\mu^- K^+K^-$. We can identify 3 secondary vertices. We call them $B^0_s$, $J/\psi$, and $\phi$ vertices. 
 
 \iffalse
 

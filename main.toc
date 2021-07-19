@@ -1,157 +1,157 @@
-\contentsline {chapter}{\numberline {1}Introduction}{25}
-\contentsline {section}{\numberline {1.1}The Standard Model of Particle Physics}{25}
-\contentsline {section}{\numberline {1.2}Quantum Chromodynamics}{26}
-\contentsline {subsection}{\numberline {1.2.1}QCD Lagrangian}{26}
-\contentsline {subsection}{\numberline {1.2.2}Asymptotic Freedom}{27}
-\contentsline {subsection}{\numberline {1.2.3}Perturbative QCD}{28}
-\contentsline {subsection}{\numberline {1.2.4}Non-perturbative QCD}{29}
-\contentsline {subsection}{\numberline {1.2.5}QCD Factorization Theorem}{29}
-\contentsline {subsection}{\numberline {1.2.6}Color Confinement}{30}
-\contentsline {subsection}{\numberline {1.2.7}Hadronization}{30}
-\contentsline {section}{\numberline {1.3}QCD In Extreme Conditions}{31}
-\contentsline {subsection}{\numberline {1.3.1}QCD at Finite Temperature}{31}
-\contentsline {subsection}{\numberline {1.3.2}Melting of QCD Vacuum}{32}
-\contentsline {subsection}{\numberline {1.3.3}Chiral Symmetry Restoration}{32}
-\contentsline {subsection}{\numberline {1.3.4}Temperature Dependence of QCD Static Potential}{34}
-\contentsline {subsection}{\numberline {1.3.5}Hadron Mass Spectrum and Hagedorn Temperature}{35}
-\contentsline {subsection}{\numberline {1.3.6}Color Deconfinement}{36}
-\contentsline {subsection}{\numberline {1.3.7}QCD at High Parton Density}{36}
-\contentsline {subsection}{\numberline {1.3.8}Color Glass Condensate}{37}
-\contentsline {subsection}{\numberline {1.3.9}Gluon Saturation}{37}
-\contentsline {subsection}{\numberline {1.3.10}Nuclear Shadowing}{38}
-\contentsline {section}{\numberline {1.4}QCD Matter}{38}
-\contentsline {subsection}{\numberline {1.4.1}QCD Phase Diagram}{38}
-\contentsline {subsection}{\numberline {1.4.2}Hadron Resonance Gas}{40}
-\contentsline {subsection}{\numberline {1.4.3}Quark-Gluon Plasma}{41}
-\contentsline {subsection}{\numberline {1.4.4}Color Superconductor}{42}
-\contentsline {subsection}{\numberline {1.4.5}Phase Transition}{43}
-\contentsline {subsection}{\numberline {1.4.6}Critical Point}{44}
-\contentsline {section}{\numberline {1.5}High Energy Nuclear Physics}{44}
-\contentsline {subsection}{\numberline {1.5.1}Laboratories}{44}
-\contentsline {subsection}{\numberline {1.5.2}Relativistic Heavy Ion Collider (RHIC)}{45}
-\contentsline {subsection}{\numberline {1.5.3}Large Hadron Collider (LHC)}{47}
-\contentsline {subsection}{\numberline {1.5.4}High Energy Physics Coordinates}{49}
-\contentsline {subsection}{\numberline {1.5.5}Stages of Heavy-Ion Collisions}{52}
-\contentsline {subsection}{\numberline {1.5.6}Global Event Observables}{53}
-\contentsline {subsection}{\numberline {1.5.7}Glauber Model}{56}
-\contentsline {section}{\numberline {1.6}Characterization of Quark-Gluon Plasma}{60}
-\contentsline {subsection}{\numberline {1.6.1}Signatures}{60}
-\contentsline {subsection}{\numberline {1.6.2}$J/\psi $ and $\Upsilon $ suppression}{60}
-\contentsline {subsection}{\numberline {1.6.3}Jet Quenching}{62}
-\contentsline {subsection}{\numberline {1.6.4}Elliptic Flow}{65}
-\contentsline {subsection}{\numberline {1.6.5}Strangeness Enhancement}{70}
-\contentsline {subsection}{\numberline {1.6.6}Discovery}{71}
-\contentsline {subsection}{\numberline {1.6.7}Macroscopic Properties}{73}
-\contentsline {subsection}{\numberline {1.6.8}Open Questions}{74}
-\contentsline {section}{\numberline {1.7}Hard Probes}{74}
-\contentsline {subsection}{\numberline {1.7.1}Jets}{76}
-\contentsline {subsection}{\numberline {1.7.2}Electroweak Bosons}{76}
-\contentsline {subsection}{\numberline {1.7.3}Heavy Quarks}{78}
-\contentsline {section}{\numberline {1.8}Open Heavy Flavor Physics}{79}
-\contentsline {subsection}{\numberline {1.8.1}Heavy Flavor Physics in Vacuum}{79}
-\contentsline {subsection}{\numberline {1.8.2}Heavy Quark Diffusion}{83}
-\contentsline {subsection}{\numberline {1.8.3}Heavy Quark Energy Loss}{86}
-\contentsline {subsection}{\numberline {1.8.4}Heavy Quark Hadronization}{89}
-\contentsline {subsection}{\numberline {1.8.5}Experimental Observables}{91}
-\contentsline {chapter}{\numberline {2}The CMS Detector}{95}
-\contentsline {section}{\numberline {2.1}Overview}{95}
-\contentsline {section}{\numberline {2.2}Triggers}{97}
-\contentsline {subsection}{\numberline {2.2.1}L1 Trigger}{97}
-\contentsline {subsection}{\numberline {2.2.2}MB Trigger}{98}
-\contentsline {subsection}{\numberline {2.2.3}Centrality Efficiency with MB Trigger}{100}
-\contentsline {subsection}{\numberline {2.2.4}HLT Trigger}{100}
-\contentsline {subsection}{\numberline {2.2.5}DiMuon Trigger}{101}
-\contentsline {section}{\numberline {2.3}Tracking System}{102}
-\contentsline {subsection}{\numberline {2.3.1}Silicon Detectors}{102}
-\contentsline {section}{\numberline {2.4}Muon System}{104}
-\contentsline {section}{\numberline {2.5}Calorimeter System}{105}
-\contentsline {subsection}{\numberline {2.5.1}ECAL}{107}
-\contentsline {subsection}{\numberline {2.5.2}HCAL}{107}
-\contentsline {subsection}{\numberline {2.5.3}HF}{108}
-\contentsline {section}{\numberline {2.6}Relevant Detector Components}{108}
-\contentsline {chapter}{\numberline {3}Reconstructed Objects}{111}
-\contentsline {section}{\numberline {3.1}Event}{111}
-\contentsline {section}{\numberline {3.2}Hit}{113}
-\contentsline {section}{\numberline {3.3}Cluster}{114}
-\contentsline {section}{\numberline {3.4}Track}{115}
-\contentsline {subsection}{\numberline {3.4.1}Overview of Basic Principles}{115}
-\contentsline {subsection}{\numberline {3.4.2}CMS Tracking Algorithm}{118}
-\contentsline {section}{\numberline {3.5}Muon}{124}
-\contentsline {section}{\numberline {3.6}Vertex}{125}
-\contentsline {subsection}{\numberline {3.6.1}Primary Vertex}{125}
-\contentsline {subsection}{\numberline {3.6.2}Secondary Vertex}{125}
-\contentsline {chapter}{\numberline {4}Data Analysis}{127}
-\contentsline {section}{\numberline {4.1}Tools}{127}
-\contentsline {section}{\numberline {4.2}Analysis Strategies}{128}
-\contentsline {subsection}{\numberline {4.2.1}Physics Goals}{128}
-\contentsline {subsection}{\numberline {4.2.2}General Workflow}{128}
-\contentsline {subsection}{\numberline {4.2.3}Technical Challenges}{128}
-\contentsline {section}{\numberline {4.3}Global Event Observables}{128}
-\contentsline {subsection}{\numberline {4.3.1}Datasets}{128}
-\contentsline {subsection}{\numberline {4.3.2}Total Number of Events}{128}
-\contentsline {subsection}{\numberline {4.3.3}Centrality Definition}{128}
-\contentsline {subsection}{\numberline {4.3.4}Number of Participants Nucleons}{128}
-\contentsline {subsection}{\numberline {4.3.5}Number of Binary Collisions}{128}
-\contentsline {subsection}{\numberline {4.3.6}Event Multiplicity}{128}
-\contentsline {section}{\numberline {4.4}Monte Carlo Simulations}{128}
-\contentsline {subsection}{\numberline {4.4.1}PYTHIA}{128}
-\contentsline {subsection}{\numberline {4.4.2}Hydjet Embedding}{128}
-\contentsline {subsection}{\numberline {4.4.3}EvtGen Package}{128}
-\contentsline {subsection}{\numberline {4.4.4}Reweighting}{128}
-\contentsline {section}{\numberline {4.5}B meson Reconstruction}{128}
-\contentsline {subsection}{\numberline {4.5.1}Decay Channels}{128}
-\contentsline {subsection}{\numberline {4.5.2}Event Selections}{128}
-\contentsline {subsection}{\numberline {4.5.3}Track and Muon Selections}{128}
-\contentsline {subsection}{\numberline {4.5.4}Results}{128}
-\contentsline {section}{\numberline {4.6}Cut Optimization}{128}
-\contentsline {subsection}{\numberline {4.6.1}Topological Variables}{128}
-\contentsline {subsection}{\numberline {4.6.2}Multivariate Analysis}{128}
-\contentsline {subsection}{\numberline {4.6.3}Machine Learning Techniques}{128}
-\contentsline {subsection}{\numberline {4.6.4}Training Performance}{128}
-\contentsline {subsection}{\numberline {4.6.5}Working Point Determination}{128}
-\contentsline {section}{\numberline {4.7}Signal Extraction}{128}
-\contentsline {subsection}{\numberline {4.7.1}B-meson Invariant Mass Distributions}{128}
-\contentsline {subsection}{\numberline {4.7.2}Fitting Models}{128}
-\contentsline {subsection}{\numberline {4.7.3}Raw Yield Extraction}{128}
-\contentsline {subsection}{\numberline {4.7.4}Signal Significance Estimation}{128}
-\contentsline {section}{\numberline {4.8}Acceptance and Efficiency Correction}{128}
-\contentsline {subsection}{\numberline {4.8.1}Analysis Challenges}{128}
-\contentsline {subsection}{\numberline {4.8.2}Fiducial Measurement}{128}
-\contentsline {subsection}{\numberline {4.8.3}Fine 2D Efficiency Map}{128}
-\contentsline {subsection}{\numberline {4.8.4}Data-Drive Efficiency Correction}{128}
-\contentsline {subsection}{\numberline {4.8.5}Tag \& Probe Techniques}{128}
-\contentsline {subsection}{\numberline {4.8.6}Nominal Results}{128}
-\contentsline {section}{\numberline {4.9}Cross Section Results}{128}
-\contentsline {section}{\numberline {4.10}Validation Tests}{128}
-\contentsline {subsection}{\numberline {4.10.1}Mass Scraping Test}{128}
-\contentsline {subsection}{\numberline {4.10.2}Raw Yield Closure}{128}
-\contentsline {subsection}{\numberline {4.10.3}Efficiency Closure}{128}
-\contentsline {subsection}{\numberline {4.10.4}sPlot Closure}{128}
-\contentsline {section}{\numberline {4.11}Statistical Uncertainties Determination}{128}
-\contentsline {subsection}{\numberline {4.11.1}Data Bootstrapping}{128}
-\contentsline {subsection}{\numberline {4.11.2}Statistical Uncertainties Interpretation}{128}
-\contentsline {section}{\numberline {4.12}Systematic Uncertainties Estimation}{128}
-\contentsline {subsection}{\numberline {4.12.1}Global Observables}{128}
-\contentsline {subsection}{\numberline {4.12.2}Branching Ratios}{128}
-\contentsline {subsection}{\numberline {4.12.3}Tracking Efficiency}{128}
-\contentsline {subsection}{\numberline {4.12.4}Muon Efficiency}{128}
-\contentsline {subsection}{\numberline {4.12.5}Selection Efficiency}{128}
-\contentsline {subsection}{\numberline {4.12.6}Signal Extraction}{128}
-\contentsline {subsection}{\numberline {4.12.7}Summary}{128}
-\contentsline {section}{\numberline {4.13}Final Results}{128}
-\contentsline {subsection}{\numberline {4.13.1}$B^0_s$ and $B^{+}$ Cross Section}{128}
-\contentsline {subsection}{\numberline {4.13.2}$B^0_s/B^{+}$ Ratio}{128}
-\contentsline {subsection}{\numberline {4.13.3}$B^0_s$ and $B^{+}$ Nuclear Modification Factor}{128}
-\contentsline {chapter}{\numberline {5}Conclusions}{129}
-\contentsline {section}{\numberline {5.1}Comparison with Other Experiments and Theoretical Models}{129}
-\contentsline {section}{\numberline {5.2}Physics Messages Discussion}{129}
-\contentsline {section}{\numberline {5.3}Conclusions}{129}
-\contentsline {section}{\numberline {5.4}Future Outlooks}{129}
-\contentsline {chapter}{\numberline {6}Other Studies}{131}
-\contentsline {section}{\numberline {6.1}sPHENIX Heavy Flavor Physics Simulations}{131}
-\contentsline {section}{\numberline {6.2}sPHENIX Electromagnetic Calorimeter Studies}{131}
-\contentsline {section}{\numberline {6.3}EIC Electromagnetic Calorimeter R\&D}{131}
-\contentsline {chapter}{\numberline {A}Tables}{133}
-\contentsline {chapter}{\numberline {B}Figures}{135}
-\contentsline {chapter}{List of Symbols}{139}
-\contentsline {chapter}{Abbreviations}{141}
+\contentsline {chapter}{\numberline {1}Introduction}{27}
+\contentsline {section}{\numberline {1.1}The Standard Model of Particle Physics}{27}
+\contentsline {section}{\numberline {1.2}Quantum Chromodynamics}{28}
+\contentsline {subsection}{\numberline {1.2.1}QCD Lagrangian}{28}
+\contentsline {subsection}{\numberline {1.2.2}Asymptotic Freedom}{29}
+\contentsline {subsection}{\numberline {1.2.3}Perturbative QCD}{30}
+\contentsline {subsection}{\numberline {1.2.4}Non-perturbative QCD}{31}
+\contentsline {subsection}{\numberline {1.2.5}QCD Factorization Theorem}{31}
+\contentsline {subsection}{\numberline {1.2.6}Color Confinement}{32}
+\contentsline {subsection}{\numberline {1.2.7}Hadronization}{32}
+\contentsline {section}{\numberline {1.3}QCD In Extreme Conditions}{33}
+\contentsline {subsection}{\numberline {1.3.1}QCD at Finite Temperature}{33}
+\contentsline {subsection}{\numberline {1.3.2}Melting of QCD Vacuum}{34}
+\contentsline {subsection}{\numberline {1.3.3}Chiral Symmetry Restoration}{34}
+\contentsline {subsection}{\numberline {1.3.4}Temperature Dependence of QCD Static Potential}{36}
+\contentsline {subsection}{\numberline {1.3.5}Hadron Mass Spectrum and Hagedorn Temperature}{37}
+\contentsline {subsection}{\numberline {1.3.6}Color Deconfinement}{38}
+\contentsline {subsection}{\numberline {1.3.7}QCD at High Parton Density}{38}
+\contentsline {subsection}{\numberline {1.3.8}Color Glass Condensate}{39}
+\contentsline {subsection}{\numberline {1.3.9}Gluon Saturation}{39}
+\contentsline {subsection}{\numberline {1.3.10}Nuclear Shadowing}{40}
+\contentsline {section}{\numberline {1.4}QCD Matter}{40}
+\contentsline {subsection}{\numberline {1.4.1}QCD Phase Diagram}{40}
+\contentsline {subsection}{\numberline {1.4.2}Hadron Resonance Gas}{42}
+\contentsline {subsection}{\numberline {1.4.3}Quark-Gluon Plasma}{43}
+\contentsline {subsection}{\numberline {1.4.4}Color Superconductor}{44}
+\contentsline {subsection}{\numberline {1.4.5}Phase Transition}{45}
+\contentsline {subsection}{\numberline {1.4.6}Critical Point}{46}
+\contentsline {section}{\numberline {1.5}High Energy Nuclear Physics}{46}
+\contentsline {subsection}{\numberline {1.5.1}Laboratories}{46}
+\contentsline {subsection}{\numberline {1.5.2}Relativistic Heavy Ion Collider (RHIC)}{47}
+\contentsline {subsection}{\numberline {1.5.3}Large Hadron Collider (LHC)}{49}
+\contentsline {subsection}{\numberline {1.5.4}High Energy Physics Coordinates}{51}
+\contentsline {subsection}{\numberline {1.5.5}Stages of Heavy-Ion Collisions}{54}
+\contentsline {subsection}{\numberline {1.5.6}Global Event Observables}{55}
+\contentsline {subsection}{\numberline {1.5.7}Glauber Model}{58}
+\contentsline {section}{\numberline {1.6}Characterization of Quark-Gluon Plasma}{62}
+\contentsline {subsection}{\numberline {1.6.1}Signatures}{62}
+\contentsline {subsection}{\numberline {1.6.2}$J/\psi $ and $\Upsilon $ suppression}{62}
+\contentsline {subsection}{\numberline {1.6.3}Jet Quenching}{64}
+\contentsline {subsection}{\numberline {1.6.4}Elliptic Flow}{67}
+\contentsline {subsection}{\numberline {1.6.5}Strangeness Enhancement}{72}
+\contentsline {subsection}{\numberline {1.6.6}Discovery}{73}
+\contentsline {subsection}{\numberline {1.6.7}Macroscopic Properties}{75}
+\contentsline {subsection}{\numberline {1.6.8}Open Questions}{76}
+\contentsline {section}{\numberline {1.7}Hard Probes}{76}
+\contentsline {subsection}{\numberline {1.7.1}Jets}{78}
+\contentsline {subsection}{\numberline {1.7.2}Electroweak Bosons}{78}
+\contentsline {subsection}{\numberline {1.7.3}Heavy Quarks}{80}
+\contentsline {section}{\numberline {1.8}Open Heavy Flavor Physics}{81}
+\contentsline {subsection}{\numberline {1.8.1}Heavy Flavor Physics in Vacuum}{81}
+\contentsline {subsection}{\numberline {1.8.2}Heavy Quark Diffusion}{85}
+\contentsline {subsection}{\numberline {1.8.3}Heavy Quark Energy Loss}{88}
+\contentsline {subsection}{\numberline {1.8.4}Heavy Quark Hadronization}{91}
+\contentsline {subsection}{\numberline {1.8.5}Experimental Observables}{93}
+\contentsline {chapter}{\numberline {2}The CMS Detector}{97}
+\contentsline {section}{\numberline {2.1}Overview}{97}
+\contentsline {section}{\numberline {2.2}Triggers}{99}
+\contentsline {subsection}{\numberline {2.2.1}L1 Trigger}{99}
+\contentsline {subsection}{\numberline {2.2.2}MB Trigger}{100}
+\contentsline {subsection}{\numberline {2.2.3}Centrality Efficiency with MB Trigger}{102}
+\contentsline {subsection}{\numberline {2.2.4}HLT Trigger}{102}
+\contentsline {subsection}{\numberline {2.2.5}DiMuon Trigger}{103}
+\contentsline {section}{\numberline {2.3}Tracking System}{104}
+\contentsline {subsection}{\numberline {2.3.1}Silicon Detectors}{104}
+\contentsline {section}{\numberline {2.4}Muon System}{106}
+\contentsline {section}{\numberline {2.5}Calorimeter System}{107}
+\contentsline {subsection}{\numberline {2.5.1}ECAL}{109}
+\contentsline {subsection}{\numberline {2.5.2}HCAL}{109}
+\contentsline {subsection}{\numberline {2.5.3}HF}{110}
+\contentsline {section}{\numberline {2.6}Relevant Detector Components}{110}
+\contentsline {chapter}{\numberline {3}Reconstructed Objects}{113}
+\contentsline {section}{\numberline {3.1}Event}{113}
+\contentsline {section}{\numberline {3.2}Hit}{115}
+\contentsline {section}{\numberline {3.3}Cluster}{116}
+\contentsline {section}{\numberline {3.4}Track}{117}
+\contentsline {subsection}{\numberline {3.4.1}Overview of Basic Principles}{117}
+\contentsline {subsection}{\numberline {3.4.2}CMS Tracking Algorithm}{120}
+\contentsline {section}{\numberline {3.5}Muon}{126}
+\contentsline {section}{\numberline {3.6}Vertex}{128}
+\contentsline {subsection}{\numberline {3.6.1}Primary Vertex}{129}
+\contentsline {subsection}{\numberline {3.6.2}Secondary Vertex}{130}
+\contentsline {chapter}{\numberline {4}Data Analysis}{133}
+\contentsline {section}{\numberline {4.1}Analysis Tools}{133}
+\contentsline {section}{\numberline {4.2}Analysis Strategies}{134}
+\contentsline {subsection}{\numberline {4.2.1}Physics Goals}{134}
+\contentsline {subsection}{\numberline {4.2.2}General Workflow}{134}
+\contentsline {subsection}{\numberline {4.2.3}Technical Challenges}{134}
+\contentsline {section}{\numberline {4.3}Global Event Observables}{134}
+\contentsline {subsection}{\numberline {4.3.1}Datasets}{134}
+\contentsline {subsection}{\numberline {4.3.2}Total Number of Events}{134}
+\contentsline {subsection}{\numberline {4.3.3}Centrality Definition}{134}
+\contentsline {subsection}{\numberline {4.3.4}Number of Participants Nucleons}{134}
+\contentsline {subsection}{\numberline {4.3.5}Number of Binary Collisions}{134}
+\contentsline {subsection}{\numberline {4.3.6}Event Multiplicity}{134}
+\contentsline {section}{\numberline {4.4}Monte Carlo Simulations}{134}
+\contentsline {subsection}{\numberline {4.4.1}PYTHIA}{134}
+\contentsline {subsection}{\numberline {4.4.2}Hydjet Embedding}{134}
+\contentsline {subsection}{\numberline {4.4.3}EvtGen Package}{134}
+\contentsline {subsection}{\numberline {4.4.4}Reweighting}{134}
+\contentsline {section}{\numberline {4.5}B meson Reconstruction}{134}
+\contentsline {subsection}{\numberline {4.5.1}Decay Channels}{134}
+\contentsline {subsection}{\numberline {4.5.2}Event Selections}{134}
+\contentsline {subsection}{\numberline {4.5.3}Track and Muon Selections}{134}
+\contentsline {subsection}{\numberline {4.5.4}Results}{134}
+\contentsline {section}{\numberline {4.6}Cut Optimization}{134}
+\contentsline {subsection}{\numberline {4.6.1}Topological Variables}{134}
+\contentsline {subsection}{\numberline {4.6.2}Multivariate Analysis}{134}
+\contentsline {subsection}{\numberline {4.6.3}Machine Learning Techniques}{134}
+\contentsline {subsection}{\numberline {4.6.4}Training Performance}{134}
+\contentsline {subsection}{\numberline {4.6.5}Working Point Determination}{134}
+\contentsline {section}{\numberline {4.7}Signal Extraction}{134}
+\contentsline {subsection}{\numberline {4.7.1}B-meson Invariant Mass Distributions}{134}
+\contentsline {subsection}{\numberline {4.7.2}Fitting Models}{134}
+\contentsline {subsection}{\numberline {4.7.3}Raw Yield Extraction}{134}
+\contentsline {subsection}{\numberline {4.7.4}Signal Significance Estimation}{134}
+\contentsline {section}{\numberline {4.8}Acceptance and Efficiency Correction}{134}
+\contentsline {subsection}{\numberline {4.8.1}Analysis Challenges}{134}
+\contentsline {subsection}{\numberline {4.8.2}Fiducial Measurement}{134}
+\contentsline {subsection}{\numberline {4.8.3}Fine 2D Efficiency Map}{134}
+\contentsline {subsection}{\numberline {4.8.4}Data-Drive Efficiency Correction}{134}
+\contentsline {subsection}{\numberline {4.8.5}Tag \& Probe Techniques}{134}
+\contentsline {subsection}{\numberline {4.8.6}Nominal Results}{134}
+\contentsline {section}{\numberline {4.9}Cross Section Results}{134}
+\contentsline {section}{\numberline {4.10}Validation Tests}{134}
+\contentsline {subsection}{\numberline {4.10.1}Mass Scraping Test}{134}
+\contentsline {subsection}{\numberline {4.10.2}Raw Yield Closure}{134}
+\contentsline {subsection}{\numberline {4.10.3}Efficiency Closure}{134}
+\contentsline {subsection}{\numberline {4.10.4}sPlot Closure}{134}
+\contentsline {section}{\numberline {4.11}Statistical Uncertainties Determination}{134}
+\contentsline {subsection}{\numberline {4.11.1}Data Bootstrapping}{134}
+\contentsline {subsection}{\numberline {4.11.2}Statistical Uncertainties Interpretation}{134}
+\contentsline {section}{\numberline {4.12}Systematic Uncertainties Estimation}{134}
+\contentsline {subsection}{\numberline {4.12.1}Global Observables}{134}
+\contentsline {subsection}{\numberline {4.12.2}Branching Ratios}{134}
+\contentsline {subsection}{\numberline {4.12.3}Tracking Efficiency}{134}
+\contentsline {subsection}{\numberline {4.12.4}Muon Efficiency}{134}
+\contentsline {subsection}{\numberline {4.12.5}Selection Efficiency}{134}
+\contentsline {subsection}{\numberline {4.12.6}Signal Extraction}{134}
+\contentsline {subsection}{\numberline {4.12.7}Summary}{134}
+\contentsline {section}{\numberline {4.13}Final Results}{134}
+\contentsline {subsection}{\numberline {4.13.1}$B^0_s$ and $B^{+}$ Cross Section}{134}
+\contentsline {subsection}{\numberline {4.13.2}$B^0_s/B^{+}$ Ratio}{134}
+\contentsline {subsection}{\numberline {4.13.3}$B^0_s$ and $B^{+}$ Nuclear Modification Factor}{134}
+\contentsline {chapter}{\numberline {5}Conclusions}{135}
+\contentsline {section}{\numberline {5.1}Comparison with Other Experiments and Theoretical Models}{135}
+\contentsline {section}{\numberline {5.2}Physics Messages Discussion}{135}
+\contentsline {section}{\numberline {5.3}Conclusions}{135}
+\contentsline {section}{\numberline {5.4}Future Outlooks}{135}
+\contentsline {chapter}{\numberline {6}Other Studies}{137}
+\contentsline {section}{\numberline {6.1}sPHENIX Heavy Flavor Physics Simulations}{137}
+\contentsline {section}{\numberline {6.2}sPHENIX Electromagnetic Calorimeter Studies}{137}
+\contentsline {section}{\numberline {6.3}EIC Electromagnetic Calorimeter R\&D}{137}
+\contentsline {chapter}{\numberline {A}Tables}{139}
+\contentsline {chapter}{\numberline {B}Figures}{141}
+\contentsline {chapter}{List of Symbols}{145}
+\contentsline {chapter}{Abbreviations}{147}
