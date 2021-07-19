@@ -128,17 +128,26 @@ The CMS tracking system applies solid state semiconductor technologies. It consi
 \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=0.80\textwidth]{Figures/Chapter2/CMSTrackingSchemtic.png}
-
 \caption{The schematic view of the CMS tracking system is shown above.}
 \label{CMSTracker}
 \end{center}
 \end{figure} 
 
 
-In nuclear and particle physics, a tracker is a detector that measure the trajectory of charged particles via ionization. In general, it does not destroy or change the energy of the particle. With the external magnetic field, the tracker can measure the momentum, the charge, and the mass of the particle by the studying the electric charges collected from electron avalanche or electron-hole pair. The CMS tracking systems provides physicists with excellent tracking capabilities. The silicon tracker is operated at a reserve bias mode with a depletion voltage of about 600V. High energy charged particles passing through the silicon tracker has an energy loss of $dE/dx \simeq 0.5 keV/\mu m$ \cite{AlphaTheoEx}. Therefore, for a 320 $\mu m$ thick silicon sensor, the charged particle will lose about 160 keV. The electron-hole pair in silicon is about 3 eV per pair. Therefore, the charged particle will produce roughly on the order of $10^4$ electrons. The hit resolution in $r\phi$ direction of the silicon strip is about 10 -- 40 $\mu m$ \cite{CMSTrackComp}.
+In nuclear and particle physics, a tracker is a detector that measures the trajectories of charged particles via ionization. In general, it does not destroy or significantly change the energy of the particle. With the external magnetic field, the tracker can measure the momentum, the charge, and the mass of the particle by the studying the electric charges collected from electron avalanche or electron-hole pair. The CMS tracking systems provides physicists with excellent tracking capabilities. The CMS silicon tracker is solid state detector employing semiconductor technologies. The silicon tracker is operated at a reserve bias mode with a depletion voltage of about 600V. High energy charged particles passing through the silicon tracker has an energy loss of $dE/dx \simeq 0.5 keV/\mu m$ \cite{AlphaTheoEx}. Therefore, for a 320 $\mu m$ thick silicon sensor, the charged particle will lose about 160 keV. The electron-hole pair in silicon is about 3 eV per pair. Therefore, the charged particle will produce roughly on the order of $10^4$ electrons. The hit resolution in $r\phi$ direction of the silicon strip is about 10 -- 40 $\mu m$ \cite{CMSTrackComp}. Figure \ref{SiliconDetector} shows schematically how a high energy charged particle ionized a electron-hole pair in the depletion region of a silicon P-N junction diode operated at a reverse biased mode
 
-However, in the CMS silicon tracker, due to the small number of electrons produced in the silicon sensor, the energy loss $dE/dx$ vs momentum $p$ of charged particle is not good enough to separate and identify electron, pion, kaons and protons. Therefore, we generally do not perform particle identification (PID) for hadrons with CMS detector in physics analyses.  
 
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.75\textwidth]{Figures/Chapter2/SiliconDetector.png}
+\caption{The schematic plot explaining how a silicon tracker detector charged particles is shown above.}
+\label{SiliconDetector}
+\end{center}
+\end{figure} 
+
+However, in the CMS silicon tracker, due to the small number of electrons produced in the silicon sensor, the energy loss $dE/dx$ vs momentum $p$ of charged particle is does not good enough resolution to separate and identify electron, pion, kaons and protons. Therefore, we generally do not perform particle identification (PID) for hadrons with CMS detector in physics analyses.  
+
+\iffalse
 
 \subsection{Tracking Algorithm}
 
@@ -166,6 +175,8 @@ With the hardware silicon tracker, the CMS collaboration also developed the stat
 
 Finally, with the collection of tracks, assuming all the tracks are promptly produced at a given interaction point, we can determine the primary vertex by selecting the tracks, performing track clustering, and fitting for the position of each vertex using its associated tracks \cite{CMSTrackComp}. The deterministic annealing algorithm \cite{DAAlgo} is track clustering algorithm that CMS is currently using. The track and vertex information of each event will be stored in datasets for physics analyses.
 
+\fi
+
 \section{Muon System}
 
 Named as ``Compact \textbf{Muon} Solenoid'', the study on muon is one of the most important physics tasks of the CMS experiment. The CMS muon system has 1400 muon chambers including 250 drift tubes and 540 cathode strip chambers to track the positions of the muons and provide a trigger and 610 resistive plate chambers form a redundant trigger system with an acceptance coverage of $|\eta| < 2.4$ . Due to the small energy loss of muon in ECAL and HCAL \cite{AlphaTheoEx}, the muon produced from the collisions usually penetrates through the trackers and calorimeters. Therefore, the muon system is located at the outer of the CMS detector. Figure \ref{ParticleFlow} shows the particles produced at the interaction points and pass through the CMS detector
@@ -178,7 +189,24 @@ Named as ``Compact \textbf{Muon} Solenoid'', the study on muon is one of the mos
 \end{center}
 \end{figure} 
 
-The muon in the tracker uses a similar tracking algorithms as other charged particles \cite{CMSTrackComp}. Muon tracking performance is excellent. For isolated muons with 1 < $p_T$ < 100 GeV/c, the tracking efficiency is $>$ 99\% over the full $\eta$-range of tracker acceptance and does not significantly depend on $p_T$ while the fake rate is negligible \cite{CMSTrackComp}. We can require hits on the outer most muon chambers to identify muons because other charge particles will be stopped by the calorimeter and should not be able to enter the muon system as shown on Figure \ref{ParticleFlow}. Therefore, the CMS muon system has excellent capabilities of detecting, identifying, and reconstructing muons, which is crucial for heavy flavor physics studies. 
+%\textbf{How MUON CHAMBER WORKS}
+
+The muon system employ gaseous detector technology. Physical modules of drift tubes, cathode strip proportional planes, and resistive plates are called ``chambers''. When a muon pass through the chambers, it will ionize electrons of the gas atom. Under a strong electric field, the avalanche electrons will be drifted to the anode and the gas ion will be drifted to the cathode. Electronic signal will be generated as this occurs. Figure \ref{Muonsystem} shows schematically how electron avalanches works in a gaseous detector to detect charged particles as well as the design of CMS drift tube to detect muons.
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.85\textwidth]{Figures/Chapter2/EAva.png}
+\includegraphics[width=0.85\textwidth]{Figures/Chapter2/CMSDT.png}
+\caption{A visualization of Townsend Avalanche (top) and schematic plot of the CMS drift tube detecting a muon (bottom) are shown above.}
+\label{Muonsystem}
+\end{center}
+\end{figure} 
+
+
+%The muon in the tracker uses a similar tracking algorithms as other charged particles \cite{CMSTrackComp}. Muon tracking performance is excellent. For isolated muons with 1 < $p_T$ < 100 GeV/c, the tracking efficiency is $>$ 99\% over the full $\eta$-range of tracker acceptance and does not significantly depend on $p_T$ while the fake rate is negligible \cite{CMSTrackComp}. We can require hits on the outer most muon chambers to identify muons because other charge particles will be stopped by the calorimeter and should not be able to enter the muon system as shown on Figure \ref{ParticleFlow}. Therefore, the CMS muon system has excellent capabilities of detecting, identifying, and reconstructing muons, which is crucial for heavy flavor physics studies. 
+
+Therefore, with both the tracking system and the muon chambers, the CMS detectors has excellent capabilities of detecting, identifying, and reconstructing muons, which is crucial for heavy flavor physics studies.
 
 \section{Calorimeter System}
 

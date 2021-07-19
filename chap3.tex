@@ -21,7 +21,7 @@ As mentioned previously, an event is defined as a snapshot of one collision at t
 \end{figure} 
 
 
-Nowadays, the technologies have advanced. With the development of computing, detector hardware and readout electronics, high energy physics experiments are able to collect many events with higher precision of measurements. For instance, the CMS experiment has an event trigger rate of 100kHz, which corresponds to a rate of 100000 events per second with 100 GB/s information \cite{CMSDAQ}. Experimental data have become more digital and abstract instead of pictorial and intuitive. All events information is stored at a file format instead of a photograph. Physicists use computer to read the experimental data and develop software to perform analysis of each event, extract the physics information from the analysis, and interpret the physics results. 
+Nowadays, the high speed electronics and semiconductor technologies have advanced. With the development of computing, detector hardware and readout electronics, high energy physics experiments are able to collect many events with higher precision of measurements. For instance, the CMS experiment has an event trigger rate of 100kHz, which corresponds to a rate of 100000 events per second with 100 GB/s information \cite{CMSDAQ}. Experimental data have become more digital and abstract instead of pictorial and intuitive. All events information is stored at a file format instead of a photograph. Physicists use computer to read the experimental data and develop software to perform analysis of each event, extract the physics information from the analysis, and interpret the physics results. 
 
 In the following subsections, for simplicity, I will explain the reconstructed objects of events with only one charged particle. 
 
@@ -55,12 +55,15 @@ Here we call each firing pixel as a hit, which is demonstrated above in Figure \
 
 \section{Cluster}
 
-Therefore, there should be at least one hit for each layer when a single particle pass through. We call the collection of the adjacent pixel hits in a layer due to one particle as a cluster \cite{CMSTrackComp}. The number of electric charges $Q$ is associated to each hit. We can design an algorithm determine the center of a cluster according to the charges of each hit. A simple algorithm is to calculate the center of gravity of the cluster taking the weighted averaging of the charge and the position of each hit. In this case, for a cluster with a single hit, its position is simply the center of the pixel. For clusters with many hits, we develop a dedicated algorithm to estimate its position \cite{CMSTrackComp}. The position of a cluster is a measurement of the particle trajectory. 
+
+Therefore, there should be at least one hit for each layer when a single particle pass through. We call the collection of the adjacent pixel hits in a layer due to one particle as a cluster \cite{CMSTrackComp}. Local hits reconstruction algorithm is implemented to obtain clusters. The number of electric charges $Q$ is associated to each hit. We can design an algorithm determine the center of a cluster according to the charges of each hit. A simple algorithm is to calculate the center of gravity of the cluster taking the weighted averaging of the charge and the position of each hit. In this case, for a cluster with a single hit, its position is simply the center of the pixel. For clusters with many hits, we develop a dedicated algorithm to estimate its position \cite{CMSTrackComp}. The position of a cluster is a measurement of the particle trajectory. 
 
 However, in an event with many particles, the occupancy of each layer will be busy and the clusters will become complicated. The CMS collaboration develop  In CMS terminology, the conversion of electronic signal of pixels to clusters is called DIGI.
 
 
-\section{Tracklet}
+\section{Track}
+
+\subsection{Overview of Basic Principles}
 
 In a uniform external magnetic field, the trajectory of a charged particle will be a helix in 3 dimensions. Geometrically, five parameters are needed to parametrize a helix. A parametric curve of a helix moving in the Cartesian coordinates moving in the z direction is written as follows
 
@@ -106,7 +109,7 @@ Therefore, as seen above from Figure \ref{HelixAndFit}, the transverse momentum 
 \begin{center}
 \includegraphics[width=0.45\textwidth]{Figures/Chapter3/PixLayTrk.png}
 \includegraphics[width=0.45\textwidth]{Figures/Chapter3/FitOnHits.png}
-\caption{A track (blue) initiated from the primary vertex (orange) passing through 3 layers of pixel detectors (black) with 3 clusters (red) is shown on the left and the circular fit to the 3 clusters with the definition of $R$, $L$, and $\theta$ is shown on the right.}
+\caption{A track (blue) initiated from the beam spot (orange) passing through 3 layers of pixel detectors (black) with 3 clusters (red) is shown on the left and the circular fit to the 3 clusters with the definition of $R$, $L$, and $\theta$ is shown on the right.}
 \label{HelixAndFit}
 \end{center}
 \end{figure} 
@@ -174,28 +177,127 @@ Longitudinally, $p_z$ can be determined by the $p_T$ and the angle $\Delta \thet
 p_z = \frac{\Delta z}{\frac{R\Delta \theta}{p_T}} = 0.3B \frac{\Delta z}{\Delta \theta}
 \end{equation}
 
-Because the CMS silicon tracker has 3 pixel and 10 strip layers, a charge particle passing through all 13 layers should leave 13 clusters, which is much more than required to determine the helix. A dedicated seeding algorithm is designed to select the clusters and perform best fitting \cite{CMSTrackComp}. In addition, an iterative process to improve the fit and reduce fake track is implemented. Then, we can perform fits on these seeds. The fits to these seeds are called ``tracklets''.   
- 
+At this point, we have obtain the trajectory with the complete kinematic information about a particle except its mass which will require particle identification in order to determine.
 
-\section{Track}
-
-With trackets from the seeds, we can reconstruct the tracks by the extending the tracklets \cite{Track}
+\subsection{CMS Tracking Algorithm}
 
 
-After these process, we have reconstructed the objected from all the tracklets named a track
+Because the CMS silicon tracker has 3 pixel and 10 strip layers, a charge particle passing through all 13 layers should leave 13 clusters, which is much more than required to determine the helix. Moreover, in real collision events at the LHC, many tracks are produced at multiple vertices. Figure \ref{CMSEvtInfo} shows the number of vertices and the number of tracks in $pp$ collisions at $\sqrt{s_{NN}} = $ 5.02 TeV
 
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter3/Vertex.png}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter3/Multiplicity.png}
+\caption{The Data (blue) and MC (red) of the number of primary vertex distribution (left) and event multiplicity (right) are shown above. We can see that an event could be more than 1 vertices with more than 100 tracks, which make it very challenging to perform tracking.}
+\label{CMSEvtInfo}
+\end{center}
+\end{figure} 
+
+Hence, the CMS collaboration has developed the state-of-the-art tracking algorithm to reconstruct the paths and primary vertices of the collisions from the electronic readout signals. CMS tracking algorithm employs the Combinatorial Track Finder (CTF), an adaptation of the combinatorial Kalman filter \cite{CMSTrack1,CMSTrack2,CMSTrack3}, which in turn is an extension of the Kalman filter \cite{Kalman} to allow pattern recognition and track fitting to occur in the same framework. The collection of reconstructed tracks is produced by multiple passes (iterations) of the CTF track reconstruction sequence, in a process called iterative tracking \cite{CMSTrackComp}. The CMS tracking workflow and its performance are shown in Figure \ref{TrackWorkFlow} and Figure \ref{CMSTrackPer}
+
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.90\textwidth]{Figures/Chapter3/TrackWF.pdf}
+\caption{The schematic block diagram of CMS tracking workflow is shown above.}
+\label{TrackWorkFlow}
+\end{center}
+\end{figure} 
+
+
+
+\textbf{Track Seeding:} After obtain the clusters and reconstruct the hits, the tracking is in the track seeding stage. A dedicated seeding algorithm is designed to select the clusters, either a triplet or a pair, from the pixel layers and other combinations of pixel and strip layers before fitting \cite{CMSTrackComp}. After these steps, preliminary fits to the seeds named trajectory seeds are created.
+
+
+\textbf{Track Finding:} Then, it moves on to the track finding stage. A six-step iteration process, which includes navigation, hit search, hit grouping, and trajectory update, is implemented with the application of CFT algorithms based on Kalman Filter to build track candidates. A schematic overview of the track finding process is shown below Figure \ref{CMSTrackFDWF}
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.900\textwidth]{Figures/Chapter3/TrackFDWF.pdf}
+\caption{The four steps of CMS track finding workflow (left) and the schematic demonstration of each step (right) are shown above.}
+\label{CMSTrackFDWF}
+\end{center}
+\end{figure} 
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter3/Step1.png}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter3/Step2.png}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter3/Step3.png}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter3/Step4.png}
+\caption{The four schematic plots demonstrating each of the four steps for track finding are shown respectfully above.}
+\label{CMSTrackFDWF}
+\end{center}
+\end{figure} 
+
+\textbf{Track Fitting:} Next, the tracking is in the stage of track fitting. Kalman filter \cite{Kalman} is applied to improve fitting performance. It starts from the innermost location with typically four hits \cite{CMSTrack1,CMSTrack2,CMSTrack3}. When extrapolating the trajectory from one hit to the next, the filtering and smoothing procedure is carried out with a Rugga-Katta propagator to obtain the best precision. $\chi^2 < $ 20 is required of each fit in order to improve its precision and reject fake tracks. Figure \ref{KalmanFitting} schematically shows how the Kalman filter fit along with Rugga-Katta propagator is applied in the iterative fitting algorithm for CMS tracking
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.80\textwidth]{Figures/Chapter3/KalmanFitting.png}
+\caption{The schematic demonstration Kalman filter along with Rugga-Katta propagator to improve the tracks fitting is shown above.}
+\label{KalmanFitting}
+\end{center}
+\end{figure} 
+
+
+\textbf{Track Selection:} Subsequently, the tracking is in the stage of track selection. At this point, we have already obtained a preliminary track collection of one event. To improve the track quality and reject fake tracks, further selection based on the track properties will be applied. The following selection criteria are applied to select high quality tracks \cite{CMSTrackComp}
+
+\begin{itemize}
+\item Minimum number of layers in which the track has at least one associated hit
+\item Minimum number of layers in which the track has an associated 3-D hit
+\item Maximum number of layers that has no associate hits
+\item $\chi^2/dof < \alpha_0 N_{layers}$ 
+\item $|d_0^{BS}|/ \sigma_{d_0(p_T)} < (\alpha_1 N_{layers})^\beta$ 
+\item $|z_0^{PV}|/ \sigma_{z_0(p_T,\eta)}  < (\alpha_2 N_{layers})^\beta$ 
+\item $|d_0^{BS}|/\delta d_0 < (\alpha_3 N_{layers})^\beta$ 
+\item $|z_0^{PV}|/\delta z_0 < (\alpha_4 N_{layers})^\beta$ 
+\end{itemize}
+
+Here, $\alpha_n$ and $\beta$ are configurable constant depend on the selection efficiency and purity requirements. $d_0^{BS}$ is the closest transverse distance of the track to the beam spot and $\delta d_0$ is its associated error. $z_0^{PV}$ is the distance along the beam-line from the closest pixel vertex and $\delta z_0^{PV}$ is its associated error. Hence, $|d_0^{BS}|/ \sigma_{d_0(p_T)}$ and $|z_0^{PV}|/ \sigma_{z_0(p_T,\eta)}$ are expressed in terms of significance. $\sigma_{d_0(p_T)}$ and $\sigma_{z_0(p_T,\eta)}$ are essentially the associated errors of $d_0^{BS}$ and $z_0^{PV}$ parametrized by track $p_T$ and $\eta$.
+
+
+\textbf{Final Track Collection:}  Finally, after we apply the selections, we have obtained a final track collection for one event. Figure \ref{CMSTrackPer} shows the general performance of CMS tracking algorithm
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter2/TrackPTEff.pdf}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter2/TrackPTFake.pdf}
+\caption{The CMS tracking efficiency (left) and fake rate (right) as a function of $p_T$ from simulations of $t \bar t$ events at 13 TeV with different pileup conditions are shown above.}
+\label{CMSTrackPer}
+\end{center}
+\end{figure} 
+
+We should note that a modified version of Kalman filter named Gaussian Sum Filter \cite{GSF} is applied to improve the tracking performance of electrons \cite{CMSTrackComp}.
 
 
 \section{Muon}
 
+The muon in the tracker uses a essentially the same tracking algorithms as other charged particles \cite{CMSTrackComp}. Tracking performance of muon is excellent. For isolated muons with 1 < $p_T$ < 100 GeV/c, the tracking efficiency is $>$ 99\% over the full $\eta$-range of tracker acceptance and does not significantly depend on $p_T$ while the fake rate is negligible \cite{CMSTrackComp}. We can require hits on the outer most muon chambers to identify muons because other charge particles will be stopped by the calorimeter and should not be able to enter the muon system as shown on Figure \ref{ParticleFlow}. Therefore, the CMS muon system has excellent capabilities of detecting, identifying, and reconstructing muons, which is crucial for heavy flavor physics studies. 
 
+In CMS terminology, there are three types of muons: global muons, soft muons, and standalone muons. They are defined as follows:
+
+
+\begin{itemize}
+\item \textbf{Global Muons:}
+\item \textbf{Soft Muons:}
+\item \textbf{Standalone Muons:}
+\end{itemize}
 
 
 \section{Vertex}
 
+With the final track collection for each event, assuming all the tracks are promptly produced at a given interaction point, we can determine the primary vertex by selecting the tracks, performing track clustering, and fitting for the position of each vertex using its associated tracks \cite{CMSTrackComp}. The deterministic annealing algorithm \cite{DAAlgo} is track clustering algorithm that CMS is currently using. The track and vertex information of each event will be stored in datasets for physics analyses.
+
 \subsection{Primary Vertex}
 
 \subsection{Secondary Vertex}
+
+
+\iffalse
 
 \section{Experimental Results}
 
@@ -205,5 +307,5 @@ Nevertheless, here I just take a simple case that only one charged particle is p
 
 Therefore, when there are so many particles coming from many vertices in each event, the CMS Collaboration have designed more complicated algorithms to reconstruct events with physics objects mentioned above \cite{}.
 
-
+\fi
 
