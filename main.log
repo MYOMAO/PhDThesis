@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 JUL 2021 23:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 JUL 2021 20:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -317,17 +317,21 @@ Overfull \hbox (1.47537pt too wide) in paragraph at lines 84--84
  muon in CMS is shown 
  []
 
-)
+
+Underfull \vbox (badness 5817) has occurred while \output is active []
+
+ [22]
+[23])
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [22] [23] [24
-
-] (./main.lot)
+ [24] (./main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
-) [25]
+) [25
+
+]
 \openout2 = `chap1.aux'.
 
  (./chap1.tex [26
@@ -336,7 +340,7 @@ Overfull \hbox (1.47537pt too wide) in paragraph at lines 84--84
 
 ]
 Chapter 1.
-<Figures/Chapter1/SMParticles.png, id=104, 642.4pt x 482.80376pt>
+<Figures/Chapter1/SMParticles.png, id=105, 642.4pt x 482.80376pt>
 File: Figures/Chapter1/SMParticles.png Graphic file (type png)
 
 <use Figures/Chapter1/SMParticles.png>
@@ -344,7 +348,7 @@ Package pdftex.def Info: Figures/Chapter1/SMParticles.png used on input line 18
 .
 (pdftex.def)             Requested size: 216.81pt x 162.94292pt.
  [27] [28 <./Figures/Chapter1/SMParticles.png>] <Figures/Chapter1/QCDCoupling.p
-ng, id=113, 592.2125pt x 599.23875pt>
+ng, id=114, 592.2125pt x 599.23875pt>
 File: Figures/Chapter1/QCDCoupling.png Graphic file (type png)
 
 <use Figures/Chapter1/QCDCoupling.png>
@@ -358,7 +362,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30 <./Figures/Chapter1/QCDCoupling.png>]
-<Figures/Chapter1/QCDFactorizationTheorem.png, id=122, 1069.9975pt x 682.55pt>
+<Figures/Chapter1/QCDFactorizationTheorem.png, id=123, 1069.9975pt x 682.55pt>
 File: Figures/Chapter1/QCDFactorizationTheorem.png Graphic file (type png)
 
 <use Figures/Chapter1/QCDFactorizationTheorem.png>
@@ -366,7 +370,7 @@ Package pdftex.def Info: Figures/Chapter1/QCDFactorizationTheorem.png used on i
 nput line 93.
 (pdftex.def)             Requested size: 325.215pt x 207.45361pt.
  [31 <./Figures/Chapter1/QCDFactorizationTheorem.png>]
-<Figures/Chapter1/FragCartoon.png, id=129, 384.4764pt x 195.6108pt>
+<Figures/Chapter1/FragCartoon.png, id=130, 384.4764pt x 195.6108pt>
 File: Figures/Chapter1/FragCartoon.png Graphic file (type png)
 
 <use Figures/Chapter1/FragCartoon.png>
@@ -374,7 +378,7 @@ Package pdftex.def Info: Figures/Chapter1/FragCartoon.png used on input line 11
 4.
 (pdftex.def)             Requested size: 208.13574pt x 105.89389pt.
 
-<Figures/Chapter1/CoalCartoon.png, id=130, 362.3136pt x 166.7028pt>
+<Figures/Chapter1/CoalCartoon.png, id=131, 362.3136pt x 166.7028pt>
 File: Figures/Chapter1/CoalCartoon.png Graphic file (type png)
 
 <use Figures/Chapter1/CoalCartoon.png>
@@ -385,7 +389,7 @@ Package pdftex.def Info: Figures/Chapter1/CoalCartoon.png used on input line 11
 Underfull \vbox (badness 3482) has occurred while \output is active []
 
  [32]
-<Figures/Chapter1/ManyBodyQCD.png, id=134, 794.97pt x 511.9125pt>
+<Figures/Chapter1/ManyBodyQCD.png, id=135, 794.97pt x 511.9125pt>
 File: Figures/Chapter1/ManyBodyQCD.png Graphic file (type png)
 
 <use Figures/Chapter1/ManyBodyQCD.png>
@@ -394,7 +398,7 @@ Package pdftex.def Info: Figures/Chapter1/ManyBodyQCD.png used on input line 12
 (pdftex.def)             Requested size: 303.53267pt x 195.4583pt.
  [33 <./Figures/Chapter1/FragCartoon.png> <./Figures/Chapter1/CoalCartoon.png> 
 <./Figures/Chapter1/ManyBodyQCD.png>]
-<Figures/Chapter1/ChiralTriangle.png, id=141, 392.46625pt x 235.88126pt>
+<Figures/Chapter1/ChiralTriangle.png, id=142, 392.46625pt x 235.88126pt>
 File: Figures/Chapter1/ChiralTriangle.png Graphic file (type png)
 
 <use Figures/Chapter1/ChiralTriangle.png>
@@ -402,7 +406,7 @@ Package pdftex.def Info: Figures/Chapter1/ChiralTriangle.png used on input line
  156.
 (pdftex.def)             Requested size: 195.12767pt x 117.27806pt.
  [34] [35 <./Figures/Chapter1/ChiralTriangle.png>]
-<Figures/Chapter1/ChiralScheme.png, id=150, 853.1875pt x 319.1925pt>
+<Figures/Chapter1/ChiralScheme.png, id=151, 853.1875pt x 319.1925pt>
 File: Figures/Chapter1/ChiralScheme.png Graphic file (type png)
 
 <use Figures/Chapter1/ChiralScheme.png>
@@ -410,7 +414,7 @@ Package pdftex.def Info: Figures/Chapter1/ChiralScheme.png used on input line 2
 05.
 (pdftex.def)             Requested size: 303.53267pt x 113.56007pt.
  [36 <./Figures/Chapter1/ChiralScheme.png>] <Figures/Chapter1/QCDPotential.png,
- id=155, 629.35126pt x 449.68pt>
+ id=156, 629.35126pt x 449.68pt>
 File: Figures/Chapter1/QCDPotential.png Graphic file (type png)
 
 <use Figures/Chapter1/QCDPotential.png>
@@ -418,7 +422,7 @@ Package pdftex.def Info: Figures/Chapter1/QCDPotential.png used on input line 2
 37.
 (pdftex.def)             Requested size: 195.12767pt x 139.41994pt.
  [37 <./Figures/Chapter1/QCDPotential.png>] [38] <Figures/Chapter1/GSScalePlot.
-png, id=164, 450.68375pt x 442.65375pt>
+png, id=165, 450.68375pt x 442.65375pt>
 File: Figures/Chapter1/GSScalePlot.png Graphic file (type png)
 
 <use Figures/Chapter1/GSScalePlot.png>
@@ -429,7 +433,7 @@ Package pdftex.def Info: Figures/Chapter1/GSScalePlot.png used on input line 27
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39]
-<Figures/Chapter1/WaterPhaseDiagram.png, id=168, 482.8589pt x 362.93835pt>
+<Figures/Chapter1/WaterPhaseDiagram.png, id=169, 482.8589pt x 362.93835pt>
 File: Figures/Chapter1/WaterPhaseDiagram.png Graphic file (type png)
 
 <use Figures/Chapter1/WaterPhaseDiagram.png>
@@ -437,7 +441,7 @@ Package pdftex.def Info: Figures/Chapter1/WaterPhaseDiagram.png used on input l
 ine 298.
 (pdftex.def)             Requested size: 195.12767pt x 146.66801pt.
  [40 <./Figures/Chapter1/GSScalePlot.png (PNG copy)>]
-<Figures/Chapter1/QCDPhaseDiagram.png, id=172, 460.72125pt x 421.575pt>
+<Figures/Chapter1/QCDPhaseDiagram.png, id=173, 460.72125pt x 421.575pt>
 File: Figures/Chapter1/QCDPhaseDiagram.png Graphic file (type png)
 
 <use Figures/Chapter1/QCDPhaseDiagram.png>
@@ -446,7 +450,7 @@ e 309.
 (pdftex.def)             Requested size: 195.12767pt x 178.54623pt.
  [41 <./Figures/Chapter1/WaterPhaseDiagram.png> <./Figures/Chapter1/QCDPhaseDia
 gram.png (PNG copy)>]
-<Figures/Chapter1/NuclearForce.png, id=177, 501.875pt x 395.4775pt>
+<Figures/Chapter1/NuclearForce.png, id=178, 501.875pt x 395.4775pt>
 File: Figures/Chapter1/NuclearForce.png Graphic file (type png)
 
 <use Figures/Chapter1/NuclearForce.png>
@@ -454,7 +458,7 @@ Package pdftex.def Info: Figures/Chapter1/NuclearForce.png used on input line 3
 21.
 (pdftex.def)             Requested size: 195.12767pt x 153.76491pt.
 
-<Figures/Chapter1/EOSHadronGas.png, id=178, 501.875pt x 334.24875pt>
+<Figures/Chapter1/EOSHadronGas.png, id=179, 501.875pt x 334.24875pt>
 File: Figures/Chapter1/EOSHadronGas.png Graphic file (type png)
 
 <use Figures/Chapter1/EOSHadronGas.png>
@@ -463,7 +467,7 @@ Package pdftex.def Info: Figures/Chapter1/EOSHadronGas.png used on input line 3
 (pdftex.def)             Requested size: 195.12767pt x 129.95866pt.
  [42 <./Figures/Chapter1/NuclearForce.png>] [43 <./Figures/Chapter1/EOSHadronGa
 s.png (PNG copy)>]
-<Figures/Chapter1/QGPEOS.png, id=187, 516.93124pt x 337.26pt>
+<Figures/Chapter1/QGPEOS.png, id=188, 516.93124pt x 337.26pt>
 File: Figures/Chapter1/QGPEOS.png Graphic file (type png)
 
 <use Figures/Chapter1/QGPEOS.png>
@@ -474,49 +478,49 @@ Package pdftex.def Info: Figures/Chapter1/QGPEOS.png used on input line 374.
 LaTeX Warning: Citation `STARBES' on page 45 undefined on input line 397.
 
 [45 <./Figures/Chapter1/QGPEOS.png>] [46]
-<Figures/Chapter1/RHIC.jpg, id=198, 803.0pt x 321.2pt>
+<Figures/Chapter1/RHIC.jpg, id=199, 803.0pt x 321.2pt>
 File: Figures/Chapter1/RHIC.jpg Graphic file (type jpg)
 
 <use Figures/Chapter1/RHIC.jpg>
 Package pdftex.def Info: Figures/Chapter1/RHIC.jpg used on input line 418.
 (pdftex.def)             Requested size: 368.57964pt x 147.43521pt.
  [47]
-<Figures/Chapter1/AccAu.png, id=202, 491.8375pt x 376.40625pt>
+<Figures/Chapter1/AccAu.png, id=203, 491.8375pt x 376.40625pt>
 File: Figures/Chapter1/AccAu.png Graphic file (type png)
 
 <use Figures/Chapter1/AccAu.png>
 Package pdftex.def Info: Figures/Chapter1/AccAu.png used on input line 428.
 (pdftex.def)             Requested size: 195.12767pt x 149.33072pt.
  [48 <./Figures/Chapter1/RHIC.jpg>]
-<Figures/Chapter1/LHC.png, id=206, 551.661pt x 264.99pt>
+<Figures/Chapter1/LHC.png, id=207, 551.661pt x 264.99pt>
 File: Figures/Chapter1/LHC.png Graphic file (type png)
 
 <use Figures/Chapter1/LHC.png>
-Package pdftex.def Info: Figures/Chapter1/LHC.png used on input line 442.
+Package pdftex.def Info: Figures/Chapter1/LHC.png used on input line 444.
 (pdftex.def)             Requested size: 368.57964pt x 177.04503pt.
  [49 <./Figures/Chapter1/AccAu.png (PNG copy)>]
-<Figures/Chapter1/CERNAccComplex.jpg, id=211, 702.625pt x 431.6125pt>
+<Figures/Chapter1/CERNAccComplex.jpg, id=212, 702.625pt x 431.6125pt>
 File: Figures/Chapter1/CERNAccComplex.jpg Graphic file (type jpg)
 
 <use Figures/Chapter1/CERNAccComplex.jpg>
 Package pdftex.def Info: Figures/Chapter1/CERNAccComplex.jpg used on input line
- 453.
+ 455.
 (pdftex.def)             Requested size: 281.85034pt x 173.14246pt.
  [50 <./Figures/Chapter1/LHC.png>]
 [51 <./Figures/Chapter1/CERNAccComplex.jpg>]
-<Figures/Chapter1/PosCylindrical.png, id=219, 198.7425pt x 192.72pt>
+<Figures/Chapter1/PosCylindrical.png, id=220, 198.7425pt x 192.72pt>
 File: Figures/Chapter1/PosCylindrical.png Graphic file (type png)
 
 <use Figures/Chapter1/PosCylindrical.png>
 Package pdftex.def Info: Figures/Chapter1/PosCylindrical.png used on input line
- 497.
+ 499.
 (pdftex.def)             Requested size: 173.44534pt x 168.19435pt.
 
-<Figures/Chapter1/STDiagram.png, id=220, 803.0pt x 803.0pt>
+<Figures/Chapter1/STDiagram.png, id=221, 803.0pt x 803.0pt>
 File: Figures/Chapter1/STDiagram.png Graphic file (type png)
 
 <use Figures/Chapter1/STDiagram.png>
-Package pdftex.def Info: Figures/Chapter1/STDiagram.png used on input line 498.
+Package pdftex.def Info: Figures/Chapter1/STDiagram.png used on input line 500.
 
 (pdftex.def)             Requested size: 173.44534pt x 173.43806pt.
  [52 <./Figures/Chapter1/PosCylindrical.png> <./Figures/Chapter1/STDiagram.png>
@@ -524,64 +528,64 @@ Package pdftex.def Info: Figures/Chapter1/STDiagram.png used on input line 498.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53]
-<Figures/Chapter1/Heavy-Ion-Process.png, id=229, 691.58376pt x 242.9075pt>
+<Figures/Chapter1/Heavy-Ion-Process.png, id=230, 691.58376pt x 242.9075pt>
 File: Figures/Chapter1/Heavy-Ion-Process.png Graphic file (type png)
 
 <use Figures/Chapter1/Heavy-Ion-Process.png>
 Package pdftex.def Info: Figures/Chapter1/Heavy-Ion-Process.png used on input l
-ine 559.
+ine 561.
 (pdftex.def)             Requested size: 325.215pt x 114.22954pt.
 
-<Figures/Chapter1/HICSTEvolve.png, id=230, 321.2pt x 321.2pt>
+<Figures/Chapter1/HICSTEvolve.png, id=231, 321.2pt x 321.2pt>
 File: Figures/Chapter1/HICSTEvolve.png Graphic file (type png)
 
 <use Figures/Chapter1/HICSTEvolve.png>
 Package pdftex.def Info: Figures/Chapter1/HICSTEvolve.png used on input line 56
-7.
+9.
 (pdftex.def)             Requested size: 195.12767pt x 195.13283pt.
  [54 <./Figures/Chapter1/Heavy-Ion-Process.png (PNG copy)>]
-<Figures/Chapter1/IPHIColl.png, id=234, 650.43pt x 519.9425pt>
+<Figures/Chapter1/IPHIColl.png, id=235, 650.43pt x 519.9425pt>
 File: Figures/Chapter1/IPHIColl.png Graphic file (type png)
 
 <use Figures/Chapter1/IPHIColl.png>
-Package pdftex.def Info: Figures/Chapter1/IPHIColl.png used on input line 584.
+Package pdftex.def Info: Figures/Chapter1/IPHIColl.png used on input line 586.
 (pdftex.def)             Requested size: 195.12767pt x 155.97601pt.
  [55 <./Figures/Chapter1/HICSTEvolve.png>]
 [56 <./Figures/Chapter1/IPHIColl.png>]
-<Figures/Chapter1/CentDefPlot.png, id=244, 796.9775pt x 892.33376pt>
+<Figures/Chapter1/CentDefPlot.png, id=245, 796.9775pt x 892.33376pt>
 File: Figures/Chapter1/CentDefPlot.png Graphic file (type png)
 
 <use Figures/Chapter1/CentDefPlot.png>
-Package pdftex.def Info: Figures/Chapter1/CentDefPlot.png used on input line 60
-8.
+Package pdftex.def Info: Figures/Chapter1/CentDefPlot.png used on input line 61
+0.
 (pdftex.def)             Requested size: 195.12767pt x 218.4671pt.
  [57]
-<Figures/Chapter1/STAREvtDisplay.png, id=248, 1230.5975pt x 949.5475pt>
+<Figures/Chapter1/STAREvtDisplay.png, id=249, 1230.5975pt x 949.5475pt>
 File: Figures/Chapter1/STAREvtDisplay.png Graphic file (type png)
 
 <use Figures/Chapter1/STAREvtDisplay.png>
 Package pdftex.def Info: Figures/Chapter1/STAREvtDisplay.png used on input line
- 620.
+ 622.
 (pdftex.def)             Requested size: 216.81pt x 167.28894pt.
  [58 <./Figures/Chapter1/CentDefPlot.png>]
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 647.
+(amsmath)                 on input line 649.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [59 <./Figures/Chapter1/STAREvtDisplay.png>]
-<Figures/Chapter1/GlauDefColl.png, id=256, 951.555pt x 475.7775pt>
+<Figures/Chapter1/GlauDefColl.png, id=257, 951.555pt x 475.7775pt>
 File: Figures/Chapter1/GlauDefColl.png Graphic file (type png)
 
 <use Figures/Chapter1/GlauDefColl.png>
 Package pdftex.def Info: Figures/Chapter1/GlauDefColl.png used on input line 67
-1.
+3.
 (pdftex.def)             Requested size: 281.85034pt x 140.92665pt.
 
-Overfull \hbox (124.35332pt too wide) detected at line 690
+Overfull \hbox (124.35332pt too wide) detected at line 692
 \OMS/cmsy/m/n/12 h\OML/cmm/m/it/12 N\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^V\OT1/c
 mr/m/n/12 )\OMS/cmsy/m/n/12 i \OT1/cmr/m/n/12 = [] [][] \OML/cmm/m/it/12 T[]\OT
 1/cmr/m/n/12 ([])\OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1 \OMS/cmsy/m/n/12 ^^@ \OT1/
@@ -597,7 +601,7 @@ T[]\OT1/cmr/m/n/12 ([])\OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1 \OMS/cmsy/m/n/12 ^^@
  []
 
 [60 <./Figures/Chapter1/GlauDefColl.png>]
-Overfull \hbox (9.47856pt too wide) detected at line 697
+Overfull \hbox (9.47856pt too wide) detected at line 699
 \OML/cmm/m/it/12 N[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 A [][] T[]\OT1/cmr/m/n/
 12 ([])\OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1 \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12
  [1 \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 ([] \OMS/cmsy/m/n/
@@ -609,93 +613,93 @@ sy/m/n/12 ^^@ []\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ^^[[]\OT1/cmr/m/n/12 ][]\OMS/
 cmsy/m/n/12 g\OML/cmm/m/it/12 d[]s
  []
 
-<Figures/Chapter1/NPartandNColl.png, id=261, 417.05812pt x 374.90062pt>
+<Figures/Chapter1/NPartandNColl.png, id=262, 417.05812pt x 374.90062pt>
 File: Figures/Chapter1/NPartandNColl.png Graphic file (type png)
 
 <use Figures/Chapter1/NPartandNColl.png>
 Package pdftex.def Info: Figures/Chapter1/NPartandNColl.png used on input line 
-722.
+724.
 (pdftex.def)             Requested size: 216.81pt x 194.89795pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [61]
 [62 <./Figures/Chapter1/NPartandNColl.png>]
-<Figures/Chapter1/STARPt.png, id=270, 733.74126pt x 551.05875pt>
+<Figures/Chapter1/STARPt.png, id=271, 733.74126pt x 551.05875pt>
 File: Figures/Chapter1/STARPt.png Graphic file (type png)
 
 <use Figures/Chapter1/STARPt.png>
-Package pdftex.def Info: Figures/Chapter1/STARPt.png used on input line 762.
+Package pdftex.def Info: Figures/Chapter1/STARPt.png used on input line 764.
 (pdftex.def)             Requested size: 203.80193pt x 153.05934pt.
 
-<Figures/Chapter1/STARNPart.png, id=271, 602.25pt x 432.61626pt>
+<Figures/Chapter1/STARNPart.png, id=272, 602.25pt x 432.61626pt>
 File: Figures/Chapter1/STARNPart.png Graphic file (type png)
 
 <use Figures/Chapter1/STARNPart.png>
-Package pdftex.def Info: Figures/Chapter1/STARNPart.png used on input line 763.
+Package pdftex.def Info: Figures/Chapter1/STARNPart.png used on input line 765.
 
 (pdftex.def)             Requested size: 211.17271pt x 151.6952pt.
 
 Underfull \vbox (badness 2126) has occurred while \output is active []
 
  [63]
-<Figures/Chapter1/STARUpsilon.png, id=275, 602.25pt x 432.61626pt>
+<Figures/Chapter1/STARUpsilon.png, id=276, 602.25pt x 432.61626pt>
 File: Figures/Chapter1/STARUpsilon.png Graphic file (type png)
 
 <use Figures/Chapter1/STARUpsilon.png>
 Package pdftex.def Info: Figures/Chapter1/STARUpsilon.png used on input line 77
-5.
+7.
 (pdftex.def)             Requested size: 225.48424pt x 161.97325pt.
 
-<Figures/Chapter1/CMSUpsilon.png, id=276, 410.2828pt x 379.4175pt>
+<Figures/Chapter1/CMSUpsilon.png, id=277, 410.2828pt x 379.4175pt>
 File: Figures/Chapter1/CMSUpsilon.png Graphic file (type png)
 
 <use Figures/Chapter1/CMSUpsilon.png>
-Package pdftex.def Info: Figures/Chapter1/CMSUpsilon.png used on input line 776
+Package pdftex.def Info: Figures/Chapter1/CMSUpsilon.png used on input line 778
 .
 (pdftex.def)             Requested size: 173.44534pt x 160.39635pt.
 
-<Figures/Chapter1/DijetEvt.png, id=277, 763.85374pt x 663.47874pt>
+<Figures/Chapter1/DijetEvt.png, id=278, 763.85374pt x 663.47874pt>
 File: Figures/Chapter1/DijetEvt.png Graphic file (type png)
 
 <use Figures/Chapter1/DijetEvt.png>
-Package pdftex.def Info: Figures/Chapter1/DijetEvt.png used on input line 790.
+Package pdftex.def Info: Figures/Chapter1/DijetEvt.png used on input line 792.
 (pdftex.def)             Requested size: 216.81pt x 188.31386pt.
  [64 <./Figures/Chapter1/STARPt.png> <./Figures/Chapter1/STARNPart.png>]
-<Figures/Chapter1/JetELoss.png, id=283, 204.01219pt x 134.00063pt>
+<Figures/Chapter1/JetELoss.png, id=284, 204.01219pt x 134.00063pt>
 File: Figures/Chapter1/JetELoss.png Graphic file (type png)
 
 <use Figures/Chapter1/JetELoss.png>
-Package pdftex.def Info: Figures/Chapter1/JetELoss.png used on input line 801.
+Package pdftex.def Info: Figures/Chapter1/JetELoss.png used on input line 803.
 (pdftex.def)             Requested size: 195.12767pt x 128.17088pt.
 
-<Figures/Chapter1/HadronAngularSTAR.png, id=284, 395.22656pt x 276.28218pt>
+<Figures/Chapter1/HadronAngularSTAR.png, id=285, 395.22656pt x 276.28218pt>
 File: Figures/Chapter1/HadronAngularSTAR.png Graphic file (type png)
 
 <use Figures/Chapter1/HadronAngularSTAR.png>
 Package pdftex.def Info: Figures/Chapter1/HadronAngularSTAR.png used on input l
-ine 812.
+ine 814.
 (pdftex.def)             Requested size: 238.49231pt x 166.71912pt.
 
-<Figures/Chapter1/JetRAAALICE.png, id=285, 569.12625pt x 587.19376pt>
+<Figures/Chapter1/JetRAAALICE.png, id=286, 569.12625pt x 587.19376pt>
 File: Figures/Chapter1/JetRAAALICE.png Graphic file (type png)
 
 <use Figures/Chapter1/JetRAAALICE.png>
 Package pdftex.def Info: Figures/Chapter1/JetRAAALICE.png used on input line 81
-3.
+5.
 (pdftex.def)             Requested size: 173.44534pt x 178.95496pt.
  [65 <./Figures/Chapter1/STARUpsilon.png> <./Figures/Chapter1/CMSUpsilon.png>] 
 [66 <./Figures/Chapter1/DijetEvt.png> <./Figures/Chapter1/JetELoss.png (PNG cop
 y)>]
-<Figures/Chapter1/ReactionPlane.jpg, id=295, 385.44pt x 278.4804pt>
+<Figures/Chapter1/ReactionPlane.jpg, id=296, 385.44pt x 278.4804pt>
 File: Figures/Chapter1/ReactionPlane.jpg Graphic file (type jpg)
 
 <use Figures/Chapter1/ReactionPlane.jpg>
 Package pdftex.def Info: Figures/Chapter1/ReactionPlane.jpg used on input line 
-827.
+829.
 (pdftex.def)             Requested size: 173.44534pt x 125.31076pt.
 
-Overfull \hbox (16.35733pt too wide) in paragraph at lines 839--840
+Overfull \hbox (16.35733pt too wide) in paragraph at lines 841--842
 []\T1/cmr/m/n/12 Since the par-ti-cle emis-sion is az-imuthally anisotropic, we
  can ex-pand the $\OML/cmm/m/it/12 F\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 p[]; ^^^;
  y\OT1/cmr/m/n/12 ) =
@@ -722,144 +726,144 @@ to.pdf>
 (epstopdf)                    size: 7870 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Chapter1/STARV2Plo
 t-eps-converted-to.pdf Figures/Chapter1/STARV2Plot.eps>
-(epstopdf)             \includegraphics on input line 999.
+(epstopdf)             \includegraphics on input line 1001.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Chapter1/STARV2Plot-eps-converted-to.pdf, id=314, 233.87375pt x 164.61
+<Figures/Chapter1/STARV2Plot-eps-converted-to.pdf, id=315, 233.87375pt x 164.61
 5pt>
 File: Figures/Chapter1/STARV2Plot-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/Chapter1/STARV2Plot-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/Chapter1/STARV2Plot-eps-converted-to.pdf used 
-on input line 999.
+on input line 1001.
 (pdftex.def)             Requested size: 195.12767pt x 137.34879pt.
 
-<Figures/Chapter1/ALICEV2Plot.png, id=315, 392.21532pt x 285.31593pt>
+<Figures/Chapter1/ALICEV2Plot.png, id=316, 392.21532pt x 285.31593pt>
 File: Figures/Chapter1/ALICEV2Plot.png Graphic file (type png)
 
 <use Figures/Chapter1/ALICEV2Plot.png>
 Package pdftex.def Info: Figures/Chapter1/ALICEV2Plot.png used on input line 10
-00.
+02.
 (pdftex.def)             Requested size: 195.12767pt x 141.94798pt.
  [72 <./Figures/Chapter1/STARV2Plot-eps-converted-to.pdf> <./Figures/Chapter1/A
 LICEV2Plot.png>]
-<Figures/Chapter1/STARPhiOverPi.png, id=326, 882.29625pt x 580.1675pt>
+<Figures/Chapter1/STARPhiOverPi.png, id=327, 882.29625pt x 580.1675pt>
 File: Figures/Chapter1/STARPhiOverPi.png Graphic file (type png)
 
 <use Figures/Chapter1/STARPhiOverPi.png>
 Package pdftex.def Info: Figures/Chapter1/STARPhiOverPi.png used on input line 
-1014.
+1016.
 (pdftex.def)             Requested size: 195.12767pt x 128.31003pt.
 
-<Figures/Chapter1/ALICEStrange.png, id=327, 597.23125pt x 845.1575pt>
+<Figures/Chapter1/ALICEStrange.png, id=328, 597.23125pt x 845.1575pt>
 File: Figures/Chapter1/ALICEStrange.png Graphic file (type png)
 
 <use Figures/Chapter1/ALICEStrange.png>
 Package pdftex.def Info: Figures/Chapter1/ALICEStrange.png used on input line 1
-015.
+017.
 (pdftex.def)             Requested size: 130.08731pt x 184.09108pt.
 
-<Figures/Chapter1/QGPDisSPS.png, id=328, 370.38374pt x 540.51938pt>
+<Figures/Chapter1/QGPDisSPS.png, id=329, 370.38374pt x 540.51938pt>
 File: Figures/Chapter1/QGPDisSPS.png Graphic file (type png)
 
 <use Figures/Chapter1/QGPDisSPS.png>
-Package pdftex.def Info: Figures/Chapter1/QGPDisSPS.png used on input line 1031
+Package pdftex.def Info: Figures/Chapter1/QGPDisSPS.png used on input line 1033
 .
 (pdftex.def)             Requested size: 390.25534pt x 569.52502pt.
  [73 <./Figures/Chapter1/STARPhiOverPi.png> <./Figures/Chapter1/ALICEStrange.pn
 g>] [74 <./Figures/Chapter1/QGPDisSPS.png>] [75] <Figures/Chapter1/Rutherford.j
-pg, id=342, 129.8451pt x 128.8815pt>
+pg, id=343, 129.8451pt x 128.8815pt>
 File: Figures/Chapter1/Rutherford.jpg Graphic file (type jpg)
 
 <use Figures/Chapter1/Rutherford.jpg>
-Package pdftex.def Info: Figures/Chapter1/Rutherford.jpg used on input line 107
-8.
+Package pdftex.def Info: Figures/Chapter1/Rutherford.jpg used on input line 108
+0.
 (pdftex.def)             Requested size: 195.12767pt x 193.67967pt.
 
-<Figures/Chapter1/DIS.jpg, id=343, 609.27625pt x 702.625pt>
+<Figures/Chapter1/DIS.jpg, id=344, 609.27625pt x 702.625pt>
 File: Figures/Chapter1/DIS.jpg Graphic file (type jpg)
 
 <use Figures/Chapter1/DIS.jpg>
-Package pdftex.def Info: Figures/Chapter1/DIS.jpg used on input line 1079.
+Package pdftex.def Info: Figures/Chapter1/DIS.jpg used on input line 1081.
 (pdftex.def)             Requested size: 195.12767pt x 225.02684pt.
  [76]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [77 <./Figures/Chapter1/Rutherford.jpg> <./Figures/Chapter1/DIS.jpg>]
-<Figures/Chapter1/CMSJET.png, id=350, 1445.4pt x 814.04124pt>
+<Figures/Chapter1/CMSJET.png, id=351, 1445.4pt x 814.04124pt>
 File: Figures/Chapter1/CMSJET.png Graphic file (type png)
 
 <use Figures/Chapter1/CMSJET.png>
-Package pdftex.def Info: Figures/Chapter1/CMSJET.png used on input line 1093.
+Package pdftex.def Info: Figures/Chapter1/CMSJET.png used on input line 1095.
 (pdftex.def)             Requested size: 260.17464pt x 146.52109pt.
 
-<Figures/Chapter1/GammaRAA.jpg, id=351, 184.14397pt x 180.81953pt>
+<Figures/Chapter1/GammaRAA.jpg, id=352, 184.14397pt x 180.81953pt>
 File: Figures/Chapter1/GammaRAA.jpg Graphic file (type jpg)
 
 <use Figures/Chapter1/GammaRAA.jpg>
-Package pdftex.def Info: Figures/Chapter1/GammaRAA.jpg used on input line 1105.
+Package pdftex.def Info: Figures/Chapter1/GammaRAA.jpg used on input line 1107.
 
 (pdftex.def)             Requested size: 195.12767pt x 191.60709pt.
 
-<Figures/Chapter1/ZRAA.pdf, id=352, 569.12625pt x 546.04pt>
+<Figures/Chapter1/ZRAA.pdf, id=353, 569.12625pt x 546.04pt>
 File: Figures/Chapter1/ZRAA.pdf Graphic file (type pdf)
 
 <use Figures/Chapter1/ZRAA.pdf>
-Package pdftex.def Info: Figures/Chapter1/ZRAA.pdf used on input line 1106.
+Package pdftex.def Info: Figures/Chapter1/ZRAA.pdf used on input line 1108.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
  [78 <./Figures/Chapter1/CMSJET.png>]
-<Figures/Chapter1/ZTagJet.png, id=356, 401.5pt x 274.02374pt>
+<Figures/Chapter1/ZTagJet.png, id=357, 401.5pt x 274.02374pt>
 File: Figures/Chapter1/ZTagJet.png Graphic file (type png)
 
 <use Figures/Chapter1/ZTagJet.png>
-Package pdftex.def Info: Figures/Chapter1/ZTagJet.png used on input line 1117.
+Package pdftex.def Info: Figures/Chapter1/ZTagJet.png used on input line 1119.
 (pdftex.def)             Requested size: 195.12767pt x 133.1773pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [79 <./Figures/Chapter1/GammaRAA.jpg> <./Figures/Chapter1/ZRAA.pdf, page is ro
 tated 90 degrees> <./Figures/Chapter1/ZTagJet.png>]
-<Figures/Chapter1/HQDiagram.jpg, id=404, 411.5375pt x 282.05376pt>
+<Figures/Chapter1/HQDiagram.jpg, id=405, 411.5375pt x 282.05376pt>
 File: Figures/Chapter1/HQDiagram.jpg Graphic file (type jpg)
 
 <use Figures/Chapter1/HQDiagram.jpg>
-Package pdftex.def Info: Figures/Chapter1/HQDiagram.jpg used on input line 1129
+Package pdftex.def Info: Figures/Chapter1/HQDiagram.jpg used on input line 1131
 .
 (pdftex.def)             Requested size: 195.12767pt x 133.7316pt.
 
-<Figures/Chapter1/HQVacuum.png, id=405, 845.1575pt x 558.085pt>
+<Figures/Chapter1/HQVacuum.png, id=406, 845.1575pt x 558.085pt>
 File: Figures/Chapter1/HQVacuum.png Graphic file (type png)
 
 <use Figures/Chapter1/HQVacuum.png>
-Package pdftex.def Info: Figures/Chapter1/HQVacuum.png used on input line 1141.
+Package pdftex.def Info: Figures/Chapter1/HQVacuum.png used on input line 1143.
 
 (pdftex.def)             Requested size: 199.4681pt x 131.71202pt.
 
-<Figures/Chapter1/HQQGP.png, id=406, 601.4972pt x 451.6875pt>
+<Figures/Chapter1/HQQGP.png, id=407, 601.4972pt x 451.6875pt>
 File: Figures/Chapter1/HQQGP.png Graphic file (type png)
 
 <use Figures/Chapter1/HQQGP.png>
-Package pdftex.def Info: Figures/Chapter1/HQQGP.png used on input line 1142.
+Package pdftex.def Info: Figures/Chapter1/HQQGP.png used on input line 1144.
 (pdftex.def)             Requested size: 208.13574pt x 156.29413pt.
  [80 <./Figures/Chapter1/HQDiagram.jpg>]
-<Figures/Chapter1/Charm.png, id=410, 598.235pt x 574.145pt>
+<Figures/Chapter1/Charm.png, id=411, 598.235pt x 574.145pt>
 File: Figures/Chapter1/Charm.png Graphic file (type png)
 
 <use Figures/Chapter1/Charm.png>
-Package pdftex.def Info: Figures/Chapter1/Charm.png used on input line 1159.
+Package pdftex.def Info: Figures/Chapter1/Charm.png used on input line 1161.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
-<Figures/Chapter1/Beauty.png, id=411, 598.235pt x 574.145pt>
+<Figures/Chapter1/Beauty.png, id=412, 598.235pt x 574.145pt>
 File: Figures/Chapter1/Beauty.png Graphic file (type png)
 
 <use Figures/Chapter1/Beauty.png>
-Package pdftex.def Info: Figures/Chapter1/Beauty.png used on input line 1160.
+Package pdftex.def Info: Figures/Chapter1/Beauty.png used on input line 1162.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
  [81 <./Figures/Chapter1/HQVacuum.png> <./Figures/Chapter1/HQQGP.png>]
-<Figures/Chapter1/FFProcess.png, id=417, 1220.56pt x 273.02pt>
+<Figures/Chapter1/FFProcess.png, id=418, 1220.56pt x 273.02pt>
 File: Figures/Chapter1/FFProcess.png Graphic file (type png)
 
 <use Figures/Chapter1/FFProcess.png>
-Package pdftex.def Info: Figures/Chapter1/FFProcess.png used on input line 1170
+Package pdftex.def Info: Figures/Chapter1/FFProcess.png used on input line 1172
 .
 (pdftex.def)             Requested size: 433.62pt x 96.99568pt.
  [82 <./Figures/Chapter1/Charm.png> <./Figures/Chapter1/Beauty.png> <./Figures/
@@ -867,97 +871,97 @@ Chapter1/FFProcess.png>]
 Underfull \vbox (badness 2334) has occurred while \output is active []
 
  [83]
-[84] <Figures/Chapter1/LHCbFFs.png, id=427, 912.40875pt x 608.2725pt>
+[84] <Figures/Chapter1/LHCbFFs.png, id=428, 912.40875pt x 608.2725pt>
 File: Figures/Chapter1/LHCbFFs.png Graphic file (type png)
 
 <use Figures/Chapter1/LHCbFFs.png>
-Package pdftex.def Info: Figures/Chapter1/LHCbFFs.png used on input line 1310.
+Package pdftex.def Info: Figures/Chapter1/LHCbFFs.png used on input line 1312.
 (pdftex.def)             Requested size: 260.17464pt x 173.443pt.
 
-<Figures/Chapter1/LHCbFFpT.png, id=428, 988.69376pt x 700.6175pt>
+<Figures/Chapter1/LHCbFFpT.png, id=429, 988.69376pt x 700.6175pt>
 File: Figures/Chapter1/LHCbFFpT.png Graphic file (type png)
 
 <use Figures/Chapter1/LHCbFFpT.png>
-Package pdftex.def Info: Figures/Chapter1/LHCbFFpT.png used on input line 1311.
+Package pdftex.def Info: Figures/Chapter1/LHCbFFpT.png used on input line 1313.
 
 (pdftex.def)             Requested size: 260.17464pt x 184.3585pt.
 
-<Figures/Chapter1/LHCbFFy.png, id=429, 975.645pt x 679.53876pt>
+<Figures/Chapter1/LHCbFFy.png, id=430, 975.645pt x 679.53876pt>
 File: Figures/Chapter1/LHCbFFy.png Graphic file (type png)
 
 <use Figures/Chapter1/LHCbFFy.png>
-Package pdftex.def Info: Figures/Chapter1/LHCbFFy.png used on input line 1312.
+Package pdftex.def Info: Figures/Chapter1/LHCbFFy.png used on input line 1314.
 (pdftex.def)             Requested size: 260.17464pt x 181.20712pt.
 
-Overfull \hbox (0.55865pt too wide) in paragraph at lines 1319--1320
+Overfull \hbox (0.55865pt too wide) in paragraph at lines 1321--1322
 []\T1/cmr/m/n/12 In terms of uni-ver-sal-ity, ac-cord-ing to Strangeness Quark 
 Mat-ter Con-fer-ence (SQM)
  []
 
-<Figures/Chapter1/ALICECharmFF.png, id=430, 588.1975pt x 569.12625pt>
+<Figures/Chapter1/ALICECharmFF.png, id=431, 588.1975pt x 569.12625pt>
 File: Figures/Chapter1/ALICECharmFF.png Graphic file (type png)
 
 <use Figures/Chapter1/ALICECharmFF.png>
 Package pdftex.def Info: Figures/Chapter1/ALICECharmFF.png used on input line 1
-323.
+325.
 (pdftex.def)             Requested size: 225.48424pt x 218.17204pt.
  [85] [86 <./Figures/Chapter1/LHCbFFs.png> <./Figures/Chapter1/LHCbFFpT.png> <.
 /Figures/Chapter1/LHCbFFy.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [87 <./Figures/Chapter1/ALICECharmFF.png>] [88]
-<Figures/Chapter1/Collisional.png, id=448, 450.9347pt x 362.10281pt>
+<Figures/Chapter1/Collisional.png, id=449, 450.9347pt x 362.10281pt>
 File: Figures/Chapter1/Collisional.png Graphic file (type png)
 
 <use Figures/Chapter1/Collisional.png>
 Package pdftex.def Info: Figures/Chapter1/Collisional.png used on input line 13
-78.
+80.
 (pdftex.def)             Requested size: 151.76964pt x 121.87013pt.
 
-<Figures/Chapter1/Radiative.png, id=449, 426.09187pt x 451.6875pt>
+<Figures/Chapter1/Radiative.png, id=450, 426.09187pt x 451.6875pt>
 File: Figures/Chapter1/Radiative.png Graphic file (type png)
 
 <use Figures/Chapter1/Radiative.png>
-Package pdftex.def Info: Figures/Chapter1/Radiative.png used on input line 1379
+Package pdftex.def Info: Figures/Chapter1/Radiative.png used on input line 1381
 .
 (pdftex.def)             Requested size: 151.76964pt x 160.8912pt.
 
-<Figures/Chapter1/ADSCFT.png, id=450, 319.9152pt x 217.2918pt>
+<Figures/Chapter1/ADSCFT.png, id=451, 319.9152pt x 217.2918pt>
 File: Figures/Chapter1/ADSCFT.png Graphic file (type png)
 
 <use Figures/Chapter1/ADSCFT.png>
-Package pdftex.def Info: Figures/Chapter1/ADSCFT.png used on input line 1389.
+Package pdftex.def Info: Figures/Chapter1/ADSCFT.png used on input line 1391.
 (pdftex.def)             Requested size: 195.12767pt x 132.53452pt.
  [89 <./Figures/Chapter1/Collisional.png> <./Figures/Chapter1/Radiative.png> <.
 /Figures/Chapter1/ADSCFT.png>]
-<Figures/Chapter1/CharmDeadCone.png, id=458, 367.6134pt x 101.6598pt>
+<Figures/Chapter1/CharmDeadCone.png, id=459, 367.6134pt x 101.6598pt>
 File: Figures/Chapter1/CharmDeadCone.png Graphic file (type png)
 
 <use Figures/Chapter1/CharmDeadCone.png>
 Package pdftex.def Info: Figures/Chapter1/CharmDeadCone.png used on input line 
-1411.
+1413.
 (pdftex.def)             Requested size: 368.57964pt x 101.931pt.
  [90 <./Figures/Chapter1/CharmDeadCone.png>] <Figures/Chapter1/LadderDiagram.pn
-g, id=463, 390.258pt x 58.2978pt>
+g, id=464, 390.258pt x 58.2978pt>
 File: Figures/Chapter1/LadderDiagram.png Graphic file (type png)
 
 <use Figures/Chapter1/LadderDiagram.png>
 Package pdftex.def Info: Figures/Chapter1/LadderDiagram.png used on input line 
-1442.
+1444.
 (pdftex.def)             Requested size: 433.62pt x 64.77625pt.
  [91 <./Figures/Chapter1/LadderDiagram.png>] [92] <Figures/Chapter1/STARv2.png,
- id=472, 438.13687pt x 288.3272pt>
+ id=473, 438.13687pt x 288.3272pt>
 File: Figures/Chapter1/STARv2.png Graphic file (type png)
 
 <use Figures/Chapter1/STARv2.png>
-Package pdftex.def Info: Figures/Chapter1/STARv2.png used on input line 1493.
+Package pdftex.def Info: Figures/Chapter1/STARv2.png used on input line 1495.
 (pdftex.def)             Requested size: 216.81pt x 142.68059pt.
 
-<Figures/Chapter1/CMSv2.png, id=473, 816.04875pt x 602.25pt>
+<Figures/Chapter1/CMSv2.png, id=474, 816.04875pt x 602.25pt>
 File: Figures/Chapter1/CMSv2.png Graphic file (type png)
 
 <use Figures/Chapter1/CMSv2.png>
-Package pdftex.def Info: Figures/Chapter1/CMSv2.png used on input line 1494.
+Package pdftex.def Info: Figures/Chapter1/CMSv2.png used on input line 1496.
 (pdftex.def)             Requested size: 210.30595pt x 155.20287pt.
 Package epstopdf Info: Source file: <Figures/Chapter1/STARRAA.eps>
 (epstopdf)                    date: 2021-07-12 21:55:20
@@ -968,39 +972,39 @@ pdf>
 (epstopdf)                    size: 14819 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Chapter1/STARRAA-e
 ps-converted-to.pdf Figures/Chapter1/STARRAA.eps>
-(epstopdf)             \includegraphics on input line 1508.
+(epstopdf)             \includegraphics on input line 1510.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Chapter1/STARRAA-eps-converted-to.pdf, id=474, 569.12625pt x 522.95375
+<Figures/Chapter1/STARRAA-eps-converted-to.pdf, id=475, 569.12625pt x 522.95375
 pt>
 File: Figures/Chapter1/STARRAA-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/Chapter1/STARRAA-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/Chapter1/STARRAA-eps-converted-to.pdf used on 
-input line 1508.
+input line 1510.
 (pdftex.def)             Requested size: 203.80193pt x 187.26575pt.
 
-<Figures/Chapter1/CMSRAA.png, id=475, 3162.81625pt x 3034.33624pt>
+<Figures/Chapter1/CMSRAA.png, id=476, 3162.81625pt x 3034.33624pt>
 File: Figures/Chapter1/CMSRAA.png Graphic file (type png)
 
 <use Figures/Chapter1/CMSRAA.png>
-Package pdftex.def Info: Figures/Chapter1/CMSRAA.png used on input line 1509.
+Package pdftex.def Info: Figures/Chapter1/CMSRAA.png used on input line 1511.
 (pdftex.def)             Requested size: 203.80193pt x 195.47937pt.
  [93] [94 <./Figures/Chapter1/STARv2.png> <./Figures/Chapter1/CMSv2.png> <./Fig
 ures/Chapter1/STARRAA-eps-converted-to.pdf> <./Figures/Chapter1/CMSRAA.png>]
-<Figures/Chapter1/STARLambdaCD0.png, id=496, 277.78781pt x 215.30438pt>
+<Figures/Chapter1/STARLambdaCD0.png, id=497, 277.78781pt x 215.30438pt>
 File: Figures/Chapter1/STARLambdaCD0.png Graphic file (type png)
 
 <use Figures/Chapter1/STARLambdaCD0.png>
 Package pdftex.def Info: Figures/Chapter1/STARLambdaCD0.png used on input line 
-1523.
+1525.
 (pdftex.def)             Requested size: 225.48424pt x 174.76682pt.
 
-<Figures/Chapter1/ALICELambdaCD0.png, id=497, 569.12625pt x 499.8675pt>
+<Figures/Chapter1/ALICELambdaCD0.png, id=498, 569.12625pt x 499.8675pt>
 File: Figures/Chapter1/ALICELambdaCD0.png Graphic file (type png)
 
 <use Figures/Chapter1/ALICELambdaCD0.png>
 Package pdftex.def Info: Figures/Chapter1/ALICELambdaCD0.png used on input line
- 1524.
+ 1526.
 (pdftex.def)             Requested size: 203.80193pt x 178.99873pt.
  [95 <./Figures/Chapter1/STARLambdaCD0.png> <./Figures/Chapter1/ALICELambdaCD0.
 png>]) [96]
@@ -1014,7 +1018,7 @@ Overfull \hbox (0.45749pt too wide) in paragraph at lines 11--12
 se high-energy physics
  []
 
-<Figures/Chapter2/CMSRealPic.jpg, id=506, 1927.2pt x 1084.05pt>
+<Figures/Chapter2/CMSRealPic.jpg, id=507, 1927.2pt x 1084.05pt>
 File: Figures/Chapter2/CMSRealPic.jpg Graphic file (type jpg)
 
 <use Figures/Chapter2/CMSRealPic.jpg>
@@ -1022,7 +1026,7 @@ Package pdftex.def Info: Figures/Chapter2/CMSRealPic.jpg used on input line 15.
 
 (pdftex.def)             Requested size: 346.89731pt x 195.12057pt.
 
-<Figures/Chapter2/CMSDecPic.jpg, id=507, 308.352pt x 193.2018pt>
+<Figures/Chapter2/CMSDecPic.jpg, id=508, 308.352pt x 193.2018pt>
 File: Figures/Chapter2/CMSDecPic.jpg Graphic file (type jpg)
 
 <use Figures/Chapter2/CMSDecPic.jpg>
@@ -1033,7 +1037,7 @@ Package pdftex.def Info: Figures/Chapter2/CMSDecPic.jpg used on input line 25.
 
 
 ] [98 <./Figures/Chapter2/CMSRealPic.jpg> <./Figures/Chapter2/CMSDecPic.jpg>]
-<Figures/Chapter2/L1Overview.png, id=515, 301.125pt x 225.84375pt>
+<Figures/Chapter2/L1Overview.png, id=516, 301.125pt x 225.84375pt>
 File: Figures/Chapter2/L1Overview.png Graphic file (type png)
 
 <use Figures/Chapter2/L1Overview.png>
@@ -1041,28 +1045,28 @@ Package pdftex.def Info: Figures/Chapter2/L1Overview.png used on input line 46.
 
 (pdftex.def)             Requested size: 216.81pt x 162.61426pt.
  [99]
-<Figures/Chapter2/AllADC.png, id=519, 598.235pt x 574.145pt>
+<Figures/Chapter2/AllADC.png, id=520, 598.235pt x 574.145pt>
 File: Figures/Chapter2/AllADC.png Graphic file (type png)
 
 <use Figures/Chapter2/AllADC.png>
 Package pdftex.def Info: Figures/Chapter2/AllADC.png used on input line 60.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
-<Figures/Chapter2/HFvsADC.png, id=520, 361.8318pt x 347.3778pt>
+<Figures/Chapter2/HFvsADC.png, id=521, 361.8318pt x 347.3778pt>
 File: Figures/Chapter2/HFvsADC.png Graphic file (type png)
 
 <use Figures/Chapter2/HFvsADC.png>
 Package pdftex.def Info: Figures/Chapter2/HFvsADC.png used on input line 61.
 (pdftex.def)             Requested size: 195.12767pt x 187.33209pt.
 
-<Figures/Chapter2/MaxADC.png, id=521, 598.235pt x 574.145pt>
+<Figures/Chapter2/MaxADC.png, id=522, 598.235pt x 574.145pt>
 File: Figures/Chapter2/MaxADC.png Graphic file (type png)
 
 <use Figures/Chapter2/MaxADC.png>
 Package pdftex.def Info: Figures/Chapter2/MaxADC.png used on input line 71.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
-<Figures/Chapter2/MBTrgEffADC.png, id=522, 598.235pt x 574.145pt>
+<Figures/Chapter2/MBTrgEffADC.png, id=523, 598.235pt x 574.145pt>
 File: Figures/Chapter2/MBTrgEffADC.png Graphic file (type png)
 
 <use Figures/Chapter2/MBTrgEffADC.png>
@@ -1072,21 +1076,21 @@ Package pdftex.def Info: Figures/Chapter2/MBTrgEffADC.png used on input line 72
  [100 <./Figures/Chapter2/L1Overview.png>] [101 <./Figures/Chapter2/AllADC.png>
  <./Figures/Chapter2/HFvsADC.png> <./Figures/Chapter2/MaxADC.png> <./Figures/Ch
 apter2/MBTrgEffADC.png>]
-<Figures/Chapter2/MBStat.pdf, id=531, 569.12625pt x 355.3275pt>
+<Figures/Chapter2/MBStat.pdf, id=532, 569.12625pt x 355.3275pt>
 File: Figures/Chapter2/MBStat.pdf Graphic file (type pdf)
 
 <use Figures/Chapter2/MBStat.pdf>
 Package pdftex.def Info: Figures/Chapter2/MBStat.pdf used on input line 82.
 (pdftex.def)             Requested size: 238.49231pt x 148.90036pt.
 
-<Figures/Chapter2/EffCent.png, id=532, 598.235pt x 574.145pt>
+<Figures/Chapter2/EffCent.png, id=533, 598.235pt x 574.145pt>
 File: Figures/Chapter2/EffCent.png Graphic file (type png)
 
 <use Figures/Chapter2/EffCent.png>
 Package pdftex.def Info: Figures/Chapter2/EffCent.png used on input line 95.
 (pdftex.def)             Requested size: 238.49231pt x 228.89174pt.
  [102 <./Figures/Chapter2/MBStat.pdf, page is rotated 90 degrees>]
-<Figures/Chapter2/DimuonInvMass.png, id=579, 901.3675pt x 576.1525pt>
+<Figures/Chapter2/DimuonInvMass.png, id=580, 901.3675pt x 576.1525pt>
 File: Figures/Chapter2/DimuonInvMass.png Graphic file (type png)
 
 <use Figures/Chapter2/DimuonInvMass.png>
@@ -1094,7 +1098,7 @@ Package pdftex.def Info: Figures/Chapter2/DimuonInvMass.png used on input line
 113.
 (pdftex.def)             Requested size: 238.49231pt x 152.4423pt.
  [103 <./Figures/Chapter2/EffCent.png>] <Figures/Chapter2/CMSTrackingSchemtic.p
-ng, id=584, 1172.38pt x 544.0325pt>
+ng, id=585, 1172.38pt x 544.0325pt>
 File: Figures/Chapter2/CMSTrackingSchemtic.png Graphic file (type png)
 
 <use Figures/Chapter2/CMSTrackingSchemtic.png>
@@ -1102,7 +1106,7 @@ Package pdftex.def Info: Figures/Chapter2/CMSTrackingSchemtic.png used on input
  line 130.
 (pdftex.def)             Requested size: 346.89731pt x 160.96967pt.
  [104 <./Figures/Chapter2/DimuonInvMass.png>]
-<Figures/Chapter2/SiliconDetector.png, id=588, 1112.155pt x 517.935pt>
+<Figures/Chapter2/SiliconDetector.png, id=589, 1112.155pt x 517.935pt>
 File: Figures/Chapter2/SiliconDetector.png Graphic file (type png)
 
 <use Figures/Chapter2/SiliconDetector.png>
@@ -1110,7 +1114,7 @@ Package pdftex.def Info: Figures/Chapter2/SiliconDetector.png used on input lin
 e 142.
 (pdftex.def)             Requested size: 325.215pt x 151.45387pt.
  [105 <./Figures/Chapter2/CMSTrackingSchemtic.png>]
-<Figures/Chapter2/CMSParticleFlow.png, id=592, 1445.4pt x 955.57pt>
+<Figures/Chapter2/CMSParticleFlow.png, id=593, 1445.4pt x 955.57pt>
 File: Figures/Chapter2/CMSParticleFlow.png Graphic file (type png)
 
 <use Figures/Chapter2/CMSParticleFlow.png>
@@ -1118,14 +1122,14 @@ Package pdftex.def Info: Figures/Chapter2/CMSParticleFlow.png used on input lin
 e 186.
 (pdftex.def)             Requested size: 390.25534pt x 257.99277pt.
 
-<Figures/Chapter2/EAva.png, id=593, 1027.84pt x 671.50874pt>
+<Figures/Chapter2/EAva.png, id=594, 1027.84pt x 671.50874pt>
 File: Figures/Chapter2/EAva.png Graphic file (type png)
 
 <use Figures/Chapter2/EAva.png>
 Package pdftex.def Info: Figures/Chapter2/EAva.png used on input line 199.
 (pdftex.def)             Requested size: 368.57964pt x 240.8003pt.
 
-<Figures/Chapter2/CMSDT.png, id=594, 328.1058pt x 179.2296pt>
+<Figures/Chapter2/CMSDT.png, id=595, 328.1058pt x 179.2296pt>
 File: Figures/Chapter2/CMSDT.png Graphic file (type png)
 
 <use Figures/Chapter2/CMSDT.png>
@@ -1134,7 +1138,7 @@ Package pdftex.def Info: Figures/Chapter2/CMSDT.png used on input line 200.
  [106 <./Figures/Chapter2/SiliconDetector.png>] [107 <./Figures/Chapter2/CMSPar
 ticleFlow.png>] [108 <./Figures/Chapter2/EAva.png> <./Figures/Chapter2/CMSDT.pn
 g>] [109]
-<Figures/Chapter2/CMSForwardRegion.png, id=611, 633.36626pt x 293.095pt>
+<Figures/Chapter2/CMSForwardRegion.png, id=612, 633.36626pt x 293.095pt>
 File: Figures/Chapter2/CMSForwardRegion.png Graphic file (type png)
 
 <use Figures/Chapter2/CMSForwardRegion.png>
@@ -1142,28 +1146,28 @@ Package pdftex.def Info: Figures/Chapter2/CMSForwardRegion.png used on input li
 ne 231.
 (pdftex.def)             Requested size: 251.50038pt x 116.38171pt.
 
-<Figures/Chapter2/HFReal.jpg, id=612, 722.7pt x 483.8075pt>
+<Figures/Chapter2/HFReal.jpg, id=613, 722.7pt x 483.8075pt>
 File: Figures/Chapter2/HFReal.jpg Graphic file (type jpg)
 
 <use Figures/Chapter2/HFReal.jpg>
 Package pdftex.def Info: Figures/Chapter2/HFReal.jpg used on input line 232.
 (pdftex.def)             Requested size: 164.77771pt x 110.3063pt.
 
-<Figures/Chapter2/HFCent.png, id=613, 569.12625pt x 534.99875pt>
+<Figures/Chapter2/HFCent.png, id=614, 569.12625pt x 534.99875pt>
 File: Figures/Chapter2/HFCent.png Graphic file (type png)
 
 <use Figures/Chapter2/HFCent.png>
 Package pdftex.def Info: Figures/Chapter2/HFCent.png used on input line 244.
 (pdftex.def)             Requested size: 303.53267pt x 285.34393pt.
 
-<Figures/Chapter2/CASTOR.png, id=614, 424.58624pt x 318.43968pt>
+<Figures/Chapter2/CASTOR.png, id=615, 424.58624pt x 318.43968pt>
 File: Figures/Chapter2/CASTOR.png Graphic file (type png)
 
 <use Figures/Chapter2/CASTOR.png>
 Package pdftex.def Info: Figures/Chapter2/CASTOR.png used on input line 256.
 (pdftex.def)             Requested size: 190.79385pt x 143.0973pt.
 
-<Figures/Chapter2/CMSZDC.png, id=615, 534.99875pt x 369.38pt>
+<Figures/Chapter2/CMSZDC.png, id=616, 534.99875pt x 369.38pt>
 File: Figures/Chapter2/CMSZDC.png Graphic file (type png)
 
 <use Figures/Chapter2/CMSZDC.png>
@@ -1180,7 +1184,7 @@ Chapter 3.
 
 LaTeX Warning: Citation `OmegaNick' on page 113 undefined on input line 13.
 
-<Figures/Chapter3/Omega.jpg, id=627, 903.375pt x 617.30624pt>
+<Figures/Chapter3/Omega.jpg, id=628, 903.375pt x 617.30624pt>
 File: Figures/Chapter3/Omega.jpg Graphic file (type jpg)
 
 <use Figures/Chapter3/Omega.jpg>
@@ -1194,7 +1198,7 @@ Package pdftex.def Info: Figures/Chapter3/Omega.jpg used on input line 17.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [114 <./Figures/Chapter3/Omega.jpg>]
-<Figures/Chapter3/CMSPixChip.png, id=634, 813.0375pt x 509.905pt>
+<Figures/Chapter3/CMSPixChip.png, id=635, 813.0375pt x 509.905pt>
 File: Figures/Chapter3/CMSPixChip.png Graphic file (type png)
 
 <use Figures/Chapter3/CMSPixChip.png>
@@ -1202,14 +1206,14 @@ Package pdftex.def Info: Figures/Chapter3/CMSPixChip.png used on input line 35.
 
 (pdftex.def)             Requested size: 216.81pt x 135.97224pt.
 
-<Figures/Chapter3/Hit1.png, id=635, 392.96812pt x 228.855pt>
+<Figures/Chapter3/Hit1.png, id=636, 392.96812pt x 228.855pt>
 File: Figures/Chapter3/Hit1.png Graphic file (type png)
 
 <use Figures/Chapter3/Hit1.png>
 Package pdftex.def Info: Figures/Chapter3/Hit1.png used on input line 45.
 (pdftex.def)             Requested size: 208.13574pt x 121.21574pt.
 
-<Figures/Chapter3/Hit2.png, id=636, 392.96812pt x 228.855pt>
+<Figures/Chapter3/Hit2.png, id=637, 392.96812pt x 228.855pt>
 File: Figures/Chapter3/Hit2.png Graphic file (type png)
 
 <use Figures/Chapter3/Hit2.png>
@@ -1222,14 +1226,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [116 <./Figures/Chapter3/Hit1.png> <./Figures/Chapter3/Hit2.png>]
-<Figures/Chapter3/Helix.png, id=646, 654.445pt x 705.63625pt>
+<Figures/Chapter3/Helix.png, id=647, 654.445pt x 705.63625pt>
 File: Figures/Chapter3/Helix.png Graphic file (type png)
 
 <use Figures/Chapter3/Helix.png>
 Package pdftex.def Info: Figures/Chapter3/Helix.png used on input line 87.
 (pdftex.def)             Requested size: 151.76964pt x 163.63881pt.
 
-<Figures/Chapter3/FitToCircle.png, id=647, 858.20625pt x 476.78125pt>
+<Figures/Chapter3/FitToCircle.png, id=648, 858.20625pt x 476.78125pt>
 File: Figures/Chapter3/FitToCircle.png Graphic file (type png)
 
 <use Figures/Chapter3/FitToCircle.png>
@@ -1240,7 +1244,7 @@ Package pdftex.def Info: Figures/Chapter3/FitToCircle.png used on input line 88
 Underfull \vbox (badness 1661) has occurred while \output is active []
 
  [117]
-<Figures/Chapter3/PixLayTrk.png, id=651, 598.235pt x 574.145pt>
+<Figures/Chapter3/PixLayTrk.png, id=652, 598.235pt x 574.145pt>
 File: Figures/Chapter3/PixLayTrk.png Graphic file (type png)
 
 <use Figures/Chapter3/PixLayTrk.png>
@@ -1248,7 +1252,7 @@ Package pdftex.def Info: Figures/Chapter3/PixLayTrk.png used on input line 110.
 
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
-<Figures/Chapter3/FitOnHits.png, id=652, 598.235pt x 574.145pt>
+<Figures/Chapter3/FitOnHits.png, id=653, 598.235pt x 574.145pt>
 File: Figures/Chapter3/FitOnHits.png Graphic file (type png)
 
 <use Figures/Chapter3/FitOnHits.png>
@@ -1259,7 +1263,7 @@ Package pdftex.def Info: Figures/Chapter3/FitOnHits.png used on input line 111.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [118 <./Figures/Chapter3/Helix.png> <./Figures/Chapter3/FitToCircle.png>]
-<Figures/Chapter3/CMSpTReso.png, id=658, 620.3175pt x 610.28pt>
+<Figures/Chapter3/CMSpTReso.png, id=659, 620.3175pt x 610.28pt>
 File: Figures/Chapter3/CMSpTReso.png Graphic file (type png)
 
 <use Figures/Chapter3/CMSpTReso.png>
@@ -1268,14 +1272,14 @@ Package pdftex.def Info: Figures/Chapter3/CMSpTReso.png used on input line 166.
 (pdftex.def)             Requested size: 260.17464pt x 255.96199pt.
  [119 <./Figures/Chapter3/PixLayTrk.png> <./Figures/Chapter3/FitOnHits.png>] [1
 20 <./Figures/Chapter3/CMSpTReso.png>]
-<Figures/Chapter3/Vertex.png, id=666, 598.235pt x 574.145pt>
+<Figures/Chapter3/Vertex.png, id=667, 598.235pt x 574.145pt>
 File: Figures/Chapter3/Vertex.png Graphic file (type png)
 
 <use Figures/Chapter3/Vertex.png>
 Package pdftex.def Info: Figures/Chapter3/Vertex.png used on input line 189.
 (pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
 
-<Figures/Chapter3/Multiplicity.png, id=667, 598.235pt x 574.145pt>
+<Figures/Chapter3/Multiplicity.png, id=668, 598.235pt x 574.145pt>
 File: Figures/Chapter3/Multiplicity.png Graphic file (type png)
 
 <use Figures/Chapter3/Multiplicity.png>
@@ -1283,7 +1287,7 @@ Package pdftex.def Info: Figures/Chapter3/Multiplicity.png used on input line 1
 90.
 (pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
 
-<Figures/Chapter3/TrackWF.pdf, id=668, 722.7pt x 542.025pt>
+<Figures/Chapter3/TrackWF.pdf, id=669, 722.7pt x 542.025pt>
 File: Figures/Chapter3/TrackWF.pdf Graphic file (type pdf)
 
 <use Figures/Chapter3/TrackWF.pdf>
@@ -1291,7 +1295,7 @@ Package pdftex.def Info: Figures/Chapter3/TrackWF.pdf used on input line 202.
 (pdftex.def)             Requested size: 390.25534pt x 292.68913pt.
  [121 <./Figures/Chapter3/Vertex.png> <./Figures/Chapter3/Multiplicity.png>] [1
 22 <./Figures/Chapter3/TrackWF.pdf>]
-<Figures/Chapter3/TrackFDWF.pdf, id=839, 722.7pt x 542.025pt>
+<Figures/Chapter3/TrackFDWF.pdf, id=840, 722.7pt x 542.025pt>
 File: Figures/Chapter3/TrackFDWF.pdf Graphic file (type pdf)
 
 <use Figures/Chapter3/TrackFDWF.pdf>
@@ -1299,28 +1303,28 @@ Package pdftex.def Info: Figures/Chapter3/TrackFDWF.pdf used on input line 217.
 
 (pdftex.def)             Requested size: 390.25534pt x 292.68913pt.
 
-<Figures/Chapter3/Step1.png, id=840, 598.235pt x 574.145pt>
+<Figures/Chapter3/Step1.png, id=841, 598.235pt x 574.145pt>
 File: Figures/Chapter3/Step1.png Graphic file (type png)
 
 <use Figures/Chapter3/Step1.png>
 Package pdftex.def Info: Figures/Chapter3/Step1.png used on input line 226.
 (pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
 
-<Figures/Chapter3/Step2.png, id=841, 598.235pt x 574.145pt>
+<Figures/Chapter3/Step2.png, id=842, 598.235pt x 574.145pt>
 File: Figures/Chapter3/Step2.png Graphic file (type png)
 
 <use Figures/Chapter3/Step2.png>
 Package pdftex.def Info: Figures/Chapter3/Step2.png used on input line 227.
 (pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
 
-<Figures/Chapter3/Step3.png, id=842, 598.235pt x 574.145pt>
+<Figures/Chapter3/Step3.png, id=843, 598.235pt x 574.145pt>
 File: Figures/Chapter3/Step3.png Graphic file (type png)
 
 <use Figures/Chapter3/Step3.png>
 Package pdftex.def Info: Figures/Chapter3/Step3.png used on input line 228.
 (pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
 
-<Figures/Chapter3/Step4.png, id=843, 598.235pt x 574.145pt>
+<Figures/Chapter3/Step4.png, id=844, 598.235pt x 574.145pt>
 File: Figures/Chapter3/Step4.png Graphic file (type png)
 
 <use Figures/Chapter3/Step4.png>
@@ -1329,7 +1333,7 @@ Package pdftex.def Info: Figures/Chapter3/Step4.png used on input line 229.
  [123 <./Figures/Chapter3/TrackFDWF.pdf>]
 [124 <./Figures/Chapter3/Step1.png> <./Figures/Chapter3/Step2.png> <./Figures/C
 hapter3/Step3.png> <./Figures/Chapter3/Step4.png>]
-<Figures/Chapter3/KalmanFitting.png, id=967, 620.3175pt x 348.30125pt>
+<Figures/Chapter3/KalmanFitting.png, id=968, 620.3175pt x 348.30125pt>
 File: Figures/Chapter3/KalmanFitting.png Graphic file (type png)
 
 <use Figures/Chapter3/KalmanFitting.png>
@@ -1339,7 +1343,7 @@ Package pdftex.def Info: Figures/Chapter3/KalmanFitting.png used on input line
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 250.
  [125 <./Figures/Chapter3/KalmanFitting.png>] <Figures/Chapter2/TrackPTEff.pdf,
- id=972, 569.12625pt x 546.04pt>
+ id=973, 569.12625pt x 546.04pt>
 File: Figures/Chapter2/TrackPTEff.pdf Graphic file (type pdf)
 
 <use Figures/Chapter2/TrackPTEff.pdf>
@@ -1347,7 +1351,7 @@ Package pdftex.def Info: Figures/Chapter2/TrackPTEff.pdf used on input line 267
 .
 (pdftex.def)             Requested size: 208.13574pt x 199.69037pt.
 
-<Figures/Chapter2/TrackPTFake.pdf, id=973, 569.12625pt x 546.04pt>
+<Figures/Chapter2/TrackPTFake.pdf, id=974, 569.12625pt x 546.04pt>
 File: Figures/Chapter2/TrackPTFake.pdf Graphic file (type pdf)
 
 <use Figures/Chapter2/TrackPTFake.pdf>
@@ -1356,21 +1360,21 @@ Package pdftex.def Info: Figures/Chapter2/TrackPTFake.pdf used on input line 26
 (pdftex.def)             Requested size: 208.13574pt x 199.69037pt.
  [126 <./Figures/Chapter2/TrackPTEff.pdf, page is rotated 90 degrees> <./Figure
 s/Chapter2/TrackPTFake.pdf, page is rotated 90 degrees>]
-<Figures/Chapter3/MuonReco.png, id=1064, 473.77pt x 379.4175pt>
+<Figures/Chapter3/MuonReco.png, id=1065, 473.77pt x 379.4175pt>
 File: Figures/Chapter3/MuonReco.png Graphic file (type png)
 
 <use Figures/Chapter3/MuonReco.png>
 Package pdftex.def Info: Figures/Chapter3/MuonReco.png used on input line 284.
 (pdftex.def)             Requested size: 281.85034pt x 225.72437pt.
  [127 <./Figures/Chapter3/MuonReco.png>]
-<Figures/Chapter3/MuonRel.png, id=1070, 717.68124pt x 316.18124pt>
+<Figures/Chapter3/MuonRel.png, id=1071, 717.68124pt x 316.18124pt>
 File: Figures/Chapter3/MuonRel.png Graphic file (type png)
 
 <use Figures/Chapter3/MuonRel.png>
 Package pdftex.def Info: Figures/Chapter3/MuonRel.png used on input line 307.
 (pdftex.def)             Requested size: 325.215pt x 143.27892pt.
  [128 <./Figures/Chapter3/MuonRel.png (PNG copy)>] <Figures/Chapter3/CMSEvtDisp
-lay.png, id=1074, 722.7pt x 364.86313pt>
+lay.png, id=1075, 722.7pt x 364.86313pt>
 File: Figures/Chapter3/CMSEvtDisplay.png Graphic file (type png)
 
 <use Figures/Chapter3/CMSEvtDisplay.png>
@@ -1378,7 +1382,7 @@ Package pdftex.def Info: Figures/Chapter3/CMSEvtDisplay.png used on input line
 336.
 (pdftex.def)             Requested size: 368.57964pt x 186.0833pt.
  [129]
-<Figures/Chapter3/D0Seconary.png, id=1078, 608.2725pt x 549.05125pt>
+<Figures/Chapter3/D0Seconary.png, id=1079, 608.2725pt x 549.05125pt>
 File: Figures/Chapter3/D0Seconary.png Graphic file (type png)
 
 <use Figures/Chapter3/D0Seconary.png>
@@ -1395,51 +1399,228 @@ ary.png>]
 
 ]
 Chapter 4.
-)
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [133]
-Overfull \vbox (1538.60448pt too high) has occurred while \output is active []
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./Figures/Chapter4/BsBPWorkFlow.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Figures/Chapter4/BsBPWorkFlow.pdf, id=1094, 722.7pt x 542.025pt>
+File: Figures/Chapter4/BsBPWorkFlow.pdf Graphic file (type pdf)
+
+<use Figures/Chapter4/BsBPWorkFlow.pdf>
+Package pdftex.def Info: Figures/Chapter4/BsBPWorkFlow.pdf used on input line 2
+6.
+(pdftex.def)             Requested size: 281.85034pt x 211.38889pt.
 
 
-[134]
+pdfTeX warning: /usr/texbin/pdflatex (file ./Figures/Chapter4/BsBPRECO.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Figures/Chapter4/BsBPRECO.pdf, id=1095, 722.7pt x 542.025pt>
+File: Figures/Chapter4/BsBPRECO.pdf Graphic file (type pdf)
+
+<use Figures/Chapter4/BsBPRECO.pdf>
+Package pdftex.def Info: Figures/Chapter4/BsBPRECO.pdf used on input line 36.
+(pdftex.def)             Requested size: 372.91345pt x 279.68771pt.
+ [134] [135 <./Figures/Chapter4/BsBPWorkFlow.pdf> <./Figures/Chapter4/BsBPRECO.
+pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./Figures/Chapter4/BsBPRECO.pdf): PD
+F inclusion: multiple pdfs with page group included in a single page
+>]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 72.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [136] [137]
+<Figures/Chapter4/JPsiGenpT.png, id=1204, 1200.485pt x 574.145pt>
+File: Figures/Chapter4/JPsiGenpT.png Graphic file (type png)
+
+<use Figures/Chapter4/JPsiGenpT.png>
+Package pdftex.def Info: Figures/Chapter4/JPsiGenpT.png used on input line 103.
+
+(pdftex.def)             Requested size: 390.25534pt x 186.63872pt.
+
+<Figures/Chapter4/BPlusGenpT.png, id=1205, 1200.485pt x 574.145pt>
+File: Figures/Chapter4/BPlusGenpT.png Graphic file (type png)
+
+<use Figures/Chapter4/BPlusGenpT.png>
+Package pdftex.def Info: Figures/Chapter4/BPlusGenpT.png used on input line 104
+.
+(pdftex.def)             Requested size: 390.25534pt x 186.63872pt.
+
+<Figures/Chapter4/BsGenpT.png, id=1206, 1200.485pt x 574.145pt>
+File: Figures/Chapter4/BsGenpT.png Graphic file (type png)
+
+<use Figures/Chapter4/BsGenpT.png>
+Package pdftex.def Info: Figures/Chapter4/BsGenpT.png used on input line 105.
+(pdftex.def)             Requested size: 390.25534pt x 186.63872pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/Chapter4/BsBptDataMC.png, id=1207, 1200.485pt x 574.145pt>
+File: Figures/Chapter4/BsBptDataMC.png Graphic file (type png)
+
+<use Figures/Chapter4/BsBptDataMC.png>
+Package pdftex.def Info: Figures/Chapter4/BsBptDataMC.png used on input line 12
+0.
+(pdftex.def)             Requested size: 420.61192pt x 201.16402pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/Chapter4/BPBptDataMC1.pdf, id=1208, 569.12625pt x 546.04pt>
+File: Figures/Chapter4/BPBptDataMC1.pdf Graphic file (type pdf)
+
+<use Figures/Chapter4/BPBptDataMC1.pdf>
+Package pdftex.def Info: Figures/Chapter4/BPBptDataMC1.pdf used on input line 1
+30.
+(pdftex.def)             Requested size: 208.13574pt x 199.69037pt.
+
+<Figures/Chapter4/BPBptDataMC2.pdf, id=1209, 569.12625pt x 546.04pt>
+File: Figures/Chapter4/BPBptDataMC2.pdf Graphic file (type pdf)
+
+<use Figures/Chapter4/BPBptDataMC2.pdf>
+Package pdftex.def Info: Figures/Chapter4/BPBptDataMC2.pdf used on input line 1
+31.
+(pdftex.def)             Requested size: 208.13574pt x 199.69037pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[138]
+<Figures/Chapter4/CentralityWeight.pdf, id=1214, 569.12625pt x 181.67876pt>
+File: Figures/Chapter4/CentralityWeight.pdf Graphic file (type pdf)
+
+<use Figures/Chapter4/CentralityWeight.pdf>
+Package pdftex.def Info: Figures/Chapter4/CentralityWeight.pdf used on input li
+ne 144.
+(pdftex.def)             Requested size: 476.98463pt x 152.27089pt.
+
+Overfull \hbox (43.36464pt too wide) in paragraph at lines 144--145
+ [] 
+ []
+
+<Figures/Chapter4/PVzWeightPbPb.pdf, id=1215, 569.12625pt x 181.67876pt>
+File: Figures/Chapter4/PVzWeightPbPb.pdf Graphic file (type pdf)
+
+<use Figures/Chapter4/PVzWeightPbPb.pdf>
+Package pdftex.def Info: Figures/Chapter4/PVzWeightPbPb.pdf used on input line 
+160.
+(pdftex.def)             Requested size: 476.98463pt x 152.27089pt.
+
+Overfull \hbox (43.36464pt too wide) in paragraph at lines 160--161
+ [] 
+ []
+
+[139] [140 <./Figures/Chapter4/JPsiGenpT.png> <./Figures/Chapter4/BPlusGenpT.pn
+g> <./Figures/Chapter4/BsGenpT.png>] [141 <./Figures/Chapter4/BsBptDataMC.png> 
+<./Figures/Chapter4/BPBptDataMC1.pdf, page is rotated 90 degrees> <./Figures/Ch
+apter4/BPBptDataMC2.pdf, page is rotated 90 degrees>] [142 <./Figures/Chapter4/
+CentralityWeight.pdf, page is rotated 90 degrees> <./Figures/Chapter4/PVzWeight
+PbPb.pdf, page is rotated 90 degrees>]
+Overfull \hbox (63.20721pt too wide) detected at line 276
+\OML/cmm/m/it/12 N[] \OT1/cmr/m/n/12 = []\OMS/cmsy/m/n/12 L[] \OT1/cmr/m/n/12 =
+ [] \OMS/cmsy/m/n/12 ^^B \OT1/cmr/m/n/12 161507974 = 1\OML/cmm/m/it/12 :\OT1/cm
+r/m/n/12 1823737719 \OMS/cmsy/m/n/12 ^^B \OT1/cmr/m/n/12 10[] \OMS/cmsy/m/n/12 
+' []
+ []
+
+
+Underfull \vbox (badness 1371) has occurred while \output is active []
+
+ [143
+
+]
+<Figures/Chapter4/hiHFvsCent.png, id=1405, 598.235pt x 574.145pt>
+File: Figures/Chapter4/hiHFvsCent.png Graphic file (type png)
+
+<use Figures/Chapter4/hiHFvsCent.png>
+Package pdftex.def Info: Figures/Chapter4/hiHFvsCent.png used on input line 308
+.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[144] [145 <./Figures/Chapter4/hiHFvsCent.png>]
+<Figures/Chapter4/BsmesonWorkflow.png, id=1413, 665.8476pt x 444.2196pt>
+File: Figures/Chapter4/BsmesonWorkflow.png Graphic file (type png)
+
+<use Figures/Chapter4/BsmesonWorkflow.png>
+Package pdftex.def Info: Figures/Chapter4/BsmesonWorkflow.png used on input lin
+e 378.
+(pdftex.def)             Requested size: 424.94574pt x 283.49974pt.
+
+<Figures/Chapter4/BPmesonWorkflow.png, id=1414, 711.1368pt x 328.5876pt>
+File: Figures/Chapter4/BPmesonWorkflow.png Graphic file (type png)
+
+<use Figures/Chapter4/BPmesonWorkflow.png>
+Package pdftex.def Info: Figures/Chapter4/BPmesonWorkflow.png used on input lin
+e 386.
+(pdftex.def)             Requested size: 424.94574pt x 196.35185pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `PDG' on page 146 undefined on input line 392.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [146 <./Figures/Chapter4/BsmesonWorkflow.png>]
+Underfull \vbox (badness 5460) has occurred while \output is active []
+
+ [147 <./Figures/Chapter4/BPmesonWorkflow.png>])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [148]
+Overfull \vbox (813.2453pt too high) has occurred while \output is active []
+
+
+[149]
 \openout2 = `chap5.aux'.
 
- (./chap5.tex
-Chapter 5.
-) [135
+ (./chap5.tex [150
 
 
 
 ]
+Chapter 5.
+) [151]
 \openout2 = `chap6.aux'.
 
- (./chap6.tex [136
+ (./chap6.tex [152
 
 
 
 ]
 Chapter 6.
-) [137]
+) [153]
 \openout2 = `appa.aux'.
 
- (./appa.tex [138
+ (./appa.tex [154
 
 
 
 ]
 Appendix A.
-[139])
+[155])
 \openout2 = `appb.aux'.
 
- (./appb.tex [140
+ (./appb.tex [156
 
 
 
 
 ]
 Appendix B.
-[141] [142])
+[157] [158])
 \openout2 = `nomenclature.aux'.
 
  (./nomenclature.tex
@@ -1448,44 +1629,38 @@ Appendix B.
 
 
 Writing nomenclature file main.nlo
-(./main.nls [143
+(./main.nls [159
 
 
 
 
-] [144
+] [160
 
-])) (./main.nls [145] [146
+])) (./main.nls [161] [162
 
-]) [147]
+]) [163]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex [148
+ (./biblio.tex [164
 
 
 
 ]
-[149] [150] [151] [152] [153] [154] [155]
+[165] [166] [167] [168] [169] [170] [171]
 Underfull \hbox (badness 1728) in paragraph at lines 106--107
 []\T1/cmr/m/n/12 B. B. Back, ``Stud-ies of mul-ti-plic-ity in rel-a-tivis-tic h
 eavy-ion col-li-sions'',
  []
 
-[156] [157] [158] [159]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 166.
-
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [160] [161]
-[162] [163] [164]
+[172] [173] [174] [175] [176] [177] [178] [179] [180]
 Underfull \hbox (badness 6188) in paragraph at lines 236--237
 []\T1/cmr/m/n/12 A. Penzo and Y. Onel, ``The CMS-HF quartz fiber calorime-ters'
 ',
  []
 
+[181]
 No file main.bbl.
-) [165] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+) [182] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
 (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./appa.aux)
 (./appb.aux) (./nomenclature.aux) (./biblio.aux))
 
@@ -1497,13 +1672,13 @@ LaTeX Warning: There were multiply-defined labels.
  )
 (\end occurred when \ifx on line 56 was incomplete) 
 Here is how much of TeX's memory you used:
- 3879 strings out of 493089
- 60000 string characters out of 6134842
- 109651 words of memory out of 5000000
- 7034 multiletter control sequences out of 15000+600000
- 17523 words of font info for 47 fonts, out of 8000000 for 9000
+ 3992 strings out of 493089
+ 62716 string characters out of 6134842
+ 110215 words of memory out of 5000000
+ 7113 multiletter control sequences out of 15000+600000
+ 22818 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,14n,23p,1571b,269s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,14n,23p,1571b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/tex
 mf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-
@@ -1514,22 +1689,28 @@ t/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
-lic/cm-super/sfbx1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
-c/cm-super/sfbx1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
-cm-super/sfbx1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm
--super/sfbx2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-s
-uper/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-sup
-er/sfrm1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super
-/sfrm1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/s
-ftt1200.pfb>
-Output written on main.pdf (165 pages, 13917461 bytes).
+type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-
+super/sfbx1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-su
+per/sfbx1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-supe
+r/sfbx1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/
+sfbx2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sf
+cc1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm
+0600.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm12
+00.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.p
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (182 pages, 14613715 bytes).
 PDF statistics:
- 1267 PDF objects out of 1440 (max. 8388607)
- 676 compressed objects within 7 object streams
+ 1629 PDF objects out of 1728 (max. 8388607)
+ 841 compressed objects within 9 object streams
  0 named destinations out of 1000 (max. 500000)
- 586 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 651 words of extra memory for PDF output out of 10000 (max. 10000000)
 

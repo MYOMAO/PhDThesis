@@ -85,9 +85,19 @@
 \contentsline {figure}{\numberline {3-15}{\ignorespaces A $pp$ collision event display of the CMS detector with reconstructed tracks (green curves) and primary vertices (yellow dots) is shown above.}}{130}
 \contentsline {figure}{\numberline {3-16}{\ignorespaces The decay of $D^0 \rightarrow K^- \pi ^+$ with the definition of secondary vertex is shown above}}{131}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4-1}{\ignorespaces The block diagram of the workflow with major steps for both B-meson cross section measurement is shown above.}}{135}
+\contentsline {figure}{\numberline {4-2}{\ignorespaces The strategies to fully reconstruct $B^0_s$ and $B^+$ in the selected exclusive decay modes are shown above.}}{135}
+\contentsline {figure}{\numberline {4-3}{\ignorespaces $J/\psi $ generated $p_{T}$ distribution before (upper left) and after (upper right) $\mathaccentV {hat}05Ep_{T}$ reweighing, $B^+$ generated $p_{T}$ distribution before (middle left) and after (middle right) $\mathaccentV {hat}05Ep_{T}$ reweighing, and $B_s^0$ generated $Gp_{T}$ distribution before (lower left) and after (lower right) $\mathaccentV {hat}05Ep_{T}$ reweighing are shown above.}}{140}
+\contentsline {figure}{\numberline {4-4}{\ignorespaces $B^0_s$ $p_T$ normalized raw yields obtained in PbPb MC and Data are shown above on the top left panel. The data/MC ratio and different fitting functions: Linear (Red), Quadratic(Green), Linear + Inverse (Blue), Linear + Square Root (Purple), and Linear + Log (Cyan) and their $\chi ^2$ are shown above on the top right panel. The bottom plots are the data/MC reweighed yields with different functions from the fit on the top right panel.}}{141}
+\contentsline {figure}{\numberline {4-5}{\ignorespaces The normalized $B^+$ raw yield in MC (green) and Data (red) as a function RECO $B^+$ $p_T$ (left) and the fourth order polynomial fits to their ratio (right) are shown above.}}{141}
+\contentsline {figure}{\numberline {4-6}{\ignorespaces The comparison between $N_{coll}$ and Data vs hiBin (left), centrality distribution of MC (red) and data (blue) in PbPb collisions in the centrality interval 0-100\% without $N_{coll}$ weight (middle), and with $N_{coll}$ weight (right) are shown above.}}{142}
+\contentsline {figure}{\numberline {4-7}{\ignorespaces Primary vertex z position (PV$_{z}$) distribution, fitted with a gaussian function in PbPb MC simulations (left), in PbPb data (middle), PV$_{z}$ reweighed MC to data with ratio of data-to-MC Gaussian Fits (right) are shown above. The PV$_z$ distributions are well described by the Gaussian function and reweighing reduces the MC-data discrepancy.}}{142}
+\contentsline {figure}{\numberline {4-8}{\ignorespaces The nominal (black) and uncertainties band (green) hiHF vs hiBin for CMS 2018 PbPb dataset are shown above.}}{145}
+\contentsline {figure}{\numberline {4-9}{\ignorespaces The schematic block diagram of the full reconstruction workflows for $B^0_s$ via the decay channel of $B_s^0 \rightarrow J/\psi \phi \rightarrow \mu ^+\mu ^- K^+K^-$ in the \textit {Bfinder} is shown above.}}{146}
+\contentsline {figure}{\numberline {4-10}{\ignorespaces The schematic block diagram of the full reconstruction workflows for $B^+$ via the decay channel of $B^+ \rightarrow J/\psi K^+ \rightarrow \mu ^+\mu ^- K^+$ in the \textit {Bfinder} is shown above.}}{147}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B-1}{\ignorespaces Armadillo slaying lawyer.}}{141}
-\contentsline {figure}{\numberline {B-2}{\ignorespaces Armadillo eradicating national debt.}}{142}
+\contentsline {figure}{\numberline {B-1}{\ignorespaces Armadillo slaying lawyer.}}{157}
+\contentsline {figure}{\numberline {B-2}{\ignorespaces Armadillo eradicating national debt.}}{158}
