@@ -18,7 +18,8 @@ The exclusive productions of b hadrons in different collision systems are necess
 
 \subsection{General Workflow}
 
-Figure \ref{BsBPWorkFlow} shows workflow we designed to fully reconstructed $B^0_s$ and $B^+$ mesons from final state particles via the exclusive decay modes. The $B^0_s$ is fully reconstructed from the decay channel of $B^0_s \rightarrow J/\psi \phi \rightarrow \mu^+\mu^- K^+K^-$, which has a fragmentation fraction of $f(b\rightarrow B_s^0) =$ 0.103 and a decay branching fraction $BR(B^0_s \rightarrow J/\psi \phi \rightarrow \mu^+\mu^- K^+K^-) = 1.35 \times 10^{-5}$ $B^+ \rightarrow J/\psi K^+\rightarrow \mu^+\mu^- K^+$ with the CMS detector. 
+Figure \ref{BsBPWorkFlow} shows workflow we designed to fully reconstructed $B^0_s$ and $B^+$ mesons from final state particles via the exclusive decay modes. The $B^0_s$ is fully reconstructed from the decay channel of $B^0_s \rightarrow J/\psi \phi \rightarrow \mu^+\mu^- K^+K^-$, which has a fragmentation fraction of $f(b\rightarrow B_s^0) =$ 0.103 and a decay branching fraction $BR(B^0_s \rightarrow J/\psi \phi \rightarrow \mu^+\mu^- K^+K^-) = 3.17 \times 10^{-5}$ $B^+ \rightarrow J/\psi K^+\rightarrow \mu^+\mu^- K^+$ with the CMS detector. The $B^+$ is fully reconstructed from the decay channel of $B^+ \rightarrow J/\psi \phi \rightarrow \mu^+\mu^- K^+$, which has a fragmentation fraction of $f(b\rightarrow B^+) =$ 0.401 and a decay branching fraction $BR(B^+ \rightarrow J/\psi \phi \rightarrow \mu^+\mu^- K^+K^-) = 6.02 \times 10^{-5}$ $B^+ \rightarrow J/\psi K^+\rightarrow \mu^+\mu^- K^+$ with the CMS detector. 
+
 
 
 \begin{figure}[hbtp]
@@ -29,7 +30,7 @@ Figure \ref{BsBPWorkFlow} shows workflow we designed to fully reconstructed $B^0
 \end{center}
 \end{figure} 
 
-Figure \ref{BsBPRECO} shows pictorially the decay topology of fully reconstructed B meson and our reconstruction strategies are
+Figure \ref{BsBPRECO} shows pictorially the decay topology of fully reconstructed B meson and our reconstruction strategies
 
 \begin{figure}[hbtp]
 \begin{center}
@@ -389,7 +390,7 @@ Now we look into each events of the PbPb dimuon dataset. It turns out that there
 \end{center}
 \end{figure}
 
-Here, we should note that since we do not have hadronic PID for the kaons, we assume the track to be kaons and assume the charged kaon PDG mass to the tracks \cite{PDG} to the tracks.
+Here, we should note that since we do not have hadronic PID for the kaons, we assume the track to be kaons and assume the charged kaon PDG mass to the tracks \cite{AlphaTheoEx} to the tracks. Also, the invariant mass of muon pair is constrained to the nominal $J/\psi$ meson PDG mass ($m_{J/\psi}$ = 3.096916 GeV/c$^2$) \cite{AlphaTheoEx} instead of a distribution of the dimuon mass $m_{\mu\mu}$. 
 
 %\subsection{Decay Channels}
 
@@ -401,40 +402,229 @@ To ensure the quality of inelastic hadronic collisions events for B-meson recons
 \begin{itemize}
 \item At least one reconstructed primary interaction vertex, formed by two or more tracks
 \item The longitudinal distance from the center of the nominal interaction region of less than 15 cm along the beam axis: $|$PV$_{z}$$| < $ 15
-\item Compatible shapes of the clusters in the pixel detector with those expected from particles produced by a PbPb collision
+\item Compatible shapes of the clusters in the pixel detector with those expected from particles produced by a PbPb collision \cite{EvtSel}
 \item At least two towers in each of the HF detectors with energy deposits of more than 4GeV per tower  
 \end{itemize}
 
 \subsection{Track Selections}
 
+In addition to event selection, we also apply track selections to improve the quality of the tracks and reject fake tracks. For $B^+$ we have the following selections
 
+\begin{itemize}
+\item General Tracks passing high purity selection (describe in section 3.4.2)
+\item $|\eta| < 2.4$ and $p_T > 1$ GeV/c
+\item $p_T$ momentum resolution: $\frac{\sigma_{p_T}}{p_T} < 0.1$
+\item At least 10 hits in the pixel + strip tracker layers: $N_{hit} > 10$
+\item (Track $\chi^2/ndf$)/(pixel + strip hits) > 0.18
+\item Vertex probability > 0.05
+\end{itemize}
+
+For $B^0_s$, since we expect it to have a $\phi$ resonance in the decay chain, we require the mass of the reconstructed dikaon candidate $|p_{K^+} + p_{K^-}| = m_{KK}$ to be 0.015 GeV/c$^2$ within the $\phi$ meson PDG mass ($m_\phi$ = 1.019455 GeV/c$^2$): $|m_{KK} - m_\phi| < 0.015$ GeV/c$^2$
 
 \subsection{Muon Selections}
 
-
-\subsection{Performance}
-
-\section{MC-Data Comparison}
-
-Ideally, if the simulation is impeccable, the RECO distribution in the MC should match perfectly with data. Nevertheless, there is always limitation in the MC simulation because the incorrect model of physics processes in the generation side or poor model of detector conditions the in the reconstruction side. The discrepancy should be corrected  
+The muon candidates are selected according to the \textit{hybrid-soft muon} selection, developed for the muon analysis using CMS 2012 7 TeV $pp$ data \cite{SoftMuon}. It is adapted from the soft-muon ID developed in the BPH group, with two modifications: a) the purity selection is removed, and b) the muon is required to be also \textit{global}. This selection will be updated for the one developed in 2018. The \textit{hybrid-soft muon} selection includes the following cuts:
 
 
-\section{Background Studies} 
+\begin{itemize}
+\item Requirement to be Global Muon and Tracker Muon (described in section 3.4.3)
+\item At least one good muons 
+\item Transverse impact parameter $D_{xy}$ < 0.3 cm
+\item Longitudinal impact parameter $D_{z}$ < 20 cm
+\item At least 1 muon hits on pixel tracker layers and 5 hits on both the pixel + strip tracker layers 
+\end{itemize}
+
+In addition, an muon acceptance selection to ensure the muon candidate to have a total efficiency: $\epsilon^\mu > 10\%$. Table \ref{MuonAccCut} shows acceptance cuts, designed by the CMS muon analysis group, are also applied:
+
+\begin{table}[h]
+\begin{center}
+\caption{Summary table of the muon acceptance selection for muon: $|\eta^\mu|$ as a function $p_T^\mu$.}
+\vspace{1em}
+\label{MuonAccCut}
+  \begin{tabular}{ |c | c| c| c|}
+    \hline 
+Centrality &  $\langle N_{part} \rangle$ &$\langle N_{coll} \rangle$  & $\langle T_{AA} \rangle$  \\
+     \hline
+         \hline
+ $|\eta^\mu|$ & 0 -- 1.2   & 1.2 -- 2.1  &  2.1 -- 2.4   \\
+$p_T^\mu$ (GeV/c) &  > 3.5 &  > 5.47 - 1.89 & $\eta$  > 1.5   \\
+     \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+Table \ref{MuonAccCut} comes from the muon analysis in the 2018 PbPb dataset. Figure \ref{MuonAccPlot} shows the muon reconstruction, identification, and trigger efficiency as a function of $p_T^\mu$ and $\eta^{\mu}$ \cite{MuonAccRef}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/MuonAccPbPb.pdf}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/MuonAccPP.pdf}
+\caption{The total efficiency, including reconstruction, identification, and trigger, of a single muon in 2018 PbPb (left) and 2017 pp (right) are shown above. The black curve is the 2015 PbPb and pp 90\% muon efficiency boundary while the green curve is the 2017 pp and 2018 PbPb 90\% muon efficiency boundary. The green boundary is translated to numerical values in Table \ref{MuonAccCut}}
+\label{MuonAccPlot}
+\end{center}
+\end{figure}
+
+We should note that there is a discontinuity of the muon acceptance selection at $|\eta| = 1.2$. Aside from the single muon selections, the following selections are applied to the reconstructed dimuon candidates
 
 
+\begin{itemize}
+\item Two muons have opposite charges 
+\item Two mouns are tracker muons
+\item Dimuon invariant mass about 0.15 GeV/c$^2$ near the $J/\psi$ PDG mass ($m_{J/\psi}$ = 3.096916 GeV/c$^2$): $|m_{\mu\mu} - m_{J/\psi}| < 0.15$ GeV/c$^2$
+\item One muon is L2 muon and the other one is L3 muon (described in section 2.25)
+\item Probability of the two muon tracks to originate from the same decay vertex $>$ 1\%
+\end{itemize}
+
+After applying all these preliminary selections to improve the quality of our dataset for the analysis, we are ready to perform cut optimization to further reject background candidates based on the decay topology of the $B^0_s$ and $B^+$ decay chains.
 
 
 \section{Cut Optimization} 
 
+
+Given the high combinatorial background, particularly in PbPb collision where we have thousands of tracks per event \cite{PbPbMulti}, it is not possible to observe B-meson resonance by simply applying the preselection presented in the previous section. Figure \ref{} shows the invariant mass distribution of fully reconstructed $B^0_s$ and $B^+$ at $10 < p_T < 15$ GeV/c after the event, track, and muon selections.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/MuonAccPbPb.pdf}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/MuonAccPP.pdf}
+\caption{The total efficiency, including reconstruction, identification, and trigger, of a single muon in 2018 PbPb (left) and 2017 pp (right) are shown above. The black curve is the 2015 PbPb and pp 90\% muon efficiency boundary while the green curve is the 2017 pp and 2018 PbPb 90\% muon efficiency boundary. The green boundary is translated to numerical values in Table \ref{MuonAccCut}}
+\label{MuonAccPlot}
+\end{center}
+\end{figure}
+
+
+No B-meson signal is observed in the data. Therefore, aside from the preselections, a multivariate analysis (MVA) approach \cite{MVARef} is thus conducted in order to develop an optimal selection to separate signal B mesons from background and reconstruct a significant resonance in the invariant mass distribution in the data. The fitting performance is further related to both the amount of signal and background presented in the mass spectrum. 
+
+
 \subsection{Topological Variables}
+
+
+By an MVA analysis, one can then find the proper selection criteria which is optimized for this purpose. Several variables related to kaon tracks and B mesons decay topology are applied in order to reduce the combinatorial background that arises from random combination of tracks and muons. The topological variables used in B-meson analyses to be optimized by  are listed as follows:
+
+\textbf{Topological Variables for $B^0_s$:}
+\begin{itemize}
+\item Kaon track $p_T$
+\item Kaon track transverse distance to closest approach (DCA) significance: $DCA_{xy}/\sigma_{DCA_{xy}}$ 
+\item Kaon track longitudinal distance to closest approach (DCA) significance: $DCA_{z}/\sigma_{DCA_{z}}$
+\item Dikaon invariant mass distance to the $\phi$ meson PDG mass: $|m_{KK} - m_{\phi}|$
+\item The $B^0_s$ meson decay length [or the distance between primary vertex (PV) and secondary vertex (SV)] significance: $|\vec{D}(SV,DV)|/|\sigma_{\vec{D}(SV,DV)}|$
+\item The open angle between the B-meson decay length vector and its three momentum: $\alpha: \cos(\alpha) = \frac{\vec{D}(SV,DV) \cdot \vec{p}}{|\vec{D}(SV,DV)||\vec{p}|}$
+\item The cosine angle of the opening angle in the transverse direction:  $\theta_B: \cos(\theta_B) = \frac{\vec{D(SV,DV)_{xy} \cdot \vec{p_T}}}{|\vec{D(SV,DV)_{xy}}||\vec{p_T}|}$
+\item Vertex fitting probability: the $\chi^2$ value of the vertex fitting
+\end{itemize}
+
+For $B^+$, we also apply some addition rectangular selections before cut optimization
+
+\textbf{Topological Variables for $B^+$:}
+\begin{itemize}
+\item Kaon track $p_T$
+\item Kaon track $|\eta|$
+\item Kaon track transverse distance to closest approach (DCA) significance: $DCA_{xy}/\sigma_{DCA_{xy}}$ 
+\item The $B^+$ meson decay length [or the distance between primary vertex (PV) and secondary vertex (SV)] significance: $|\vec{D}(SV,DV)|/|\sigma_{\vec{D}(SV,DV)}|$
+\item The open angle between the B-meson decay length vector and its three momentum: $\alpha: \cos(\alpha) = \frac{\vec{D}(SV,DV) \cdot \vec{p}}{|\vec{D}(SV,DV)||\vec{p}|}$
+\item The cosine angle of the opening angle in the transverse direction:  $\theta_B: \cos(\theta_B) = \frac{\vec{D(SV,DV)_{xy} \cdot \vec{p_T}}}{|\vec{D(SV,DV)_{xy}}||\vec{p_T}|}$
+\item Vertex fitting probability: the $\chi^2$ value of the vertex fitting
+\end{itemize}
+
+Figure \ref{DecayTopo} shows the definition of topological variables of $B^0_s$ and $B^+$ decay chains
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BsDecay.png}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BPDecay.png}
+\caption{The definition of topological variables in the decay of $B^0_s \rightarrow J/\psi \phi \rightarrow \mu^+\mu^- K^+K^-$ (left) and $B^+ \rightarrow J/\psi K^+ \rightarrow \mu^+\mu^- K^+ $ (right) are schematically shown above.}
+\label{DecayTopo}
+\end{center}
+\end{figure}
+
+These topological variables will become the inputs to the multivariate analysis to optimize the signal significance.
 
 \subsection{Multivariate Analysis}
 
+In statistics, many data analysis techniques only focus on one or two variables individually. Multivariate analysis (MVA) analyzes more than two variables simultaneously to improve the data analysis. Figure \ref{MVADemo} shows schematically the advantages of MVA to traditional statistical techniques in data analysis to separate signal from background with two variables. 
+
+
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/Rectangular.pdf}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/MVA.pdf}
+\caption{The performance of traditional rectangular selection with a range of x and y (left) compared to the MVA method of a curve as a function of X and Y (right) are shown above. Here, we have the total signal S = 215 and the background B =  1000.}
+\label{MVADemo}
+\end{center}
+\end{figure}
+
+We can see that in multivariate analysis, an MVA value as a function of two independent variables $x$ and $y$: $MVA = f(x,y)$ is able to select signal out from background with higher purity (larger S/B ratio) than the rectangular selection function $x_1 < x < x_2$ and $y_1 < y < y_2$. Table \ref{MVAvsRec} shows the performance of MVA and traditional rectangular selections
+
+\begin{table}[h]
+\begin{center}
+\caption{The comparison of the traditional rectangular selections to MVA for Figure \ref{MVADemo}.}
+\vspace{1em}
+\label{MVAvsRec}
+  \begin{tabular}{ |c | c| c| c|}
+    \hline 
+Analysis Techniques &  S & B & S/B \\
+     \hline
+Rectangular & 174 & 135 & 1.29  \\
+         \hline
+MVA &   215  & 114  & 1.89  \\
+     \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
 \subsection{Machine Learning Techniques}
+
+Machine learning, as branch of artificial intelligence, is the science that gets the computers to learn what human beings do. It is an automating data analysis method for model building to solve practical problems. Figure \ref{} demonstrates the data analysis problems including classification, regression, and clustering, where machine learning could be applied.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.85\textwidth]{Figures/Chapter4/MLProblems.png}
+\caption{The solutions to classification, regression, and clustering problems with supervised and unsupervised machine learning approaches are shown schematically above.}
+\label{DecayTopo}
+\end{center}
+\end{figure}
+
+In this analysis, our goal is to separate B meson signal out of the background. Therefore, it is a classification problem. We can apply supervised machine learning to train the computer and let them find the optimal selection for B-meson analyses.   
+
+\subsection{Boosted Decision Tree Algorithm}
+
+Nowadays, machining learning has become sophisticated. There are many well developed machining learning algorithms. In order to test their performance, we following 
+
 
 \subsection{Training Performance}
 
 \subsection{Working Point Determination}
+
+\subsection{Performance}
+
+To check the performance of the event, track, and muon selections, we look at the dimuon and dikaon invariant mass distributions to see if $J/\psi$ and $\phi$ resonance are observed. Figure \ref{mesonpeakPbPb} shows the after apply the selections
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.42\textwidth]{Figures/Chapter4/mc_PbPb_1_Bmumumass.pdf}
+\includegraphics[width=0.42\textwidth]{Figures/Chapter4/mc_PbPb_1_Btktkmass.pdf}
+\includegraphics[width=0.42\textwidth]{Figures/Chapter4/data_PbPb_1_Bmumumass.pdf}
+\includegraphics[width=0.42\textwidth]{Figures/Chapter4/data_PbPb_1_Btktkmass.pdf}
+\caption{The $J/\psi$ (left) and $\phi$ (right) meson mass distributions after BDT selections for MC (top) and data (low) in PbPb analysis are shown above.}
+\label{mesonpeakPbPb}
+\end{center}
+\end{figure}
+
+We can see clear $J/\psi$ and $\phi$ peaks after apply the selections in both data and MC, which suggest that our selections are reasonable.
+
+
+\section{B Mesons Candidates MC-Data Comparison}
+
+Ideally, if the simulation is impeccable, the RECO distribution in the MC should match perfectly with data. Nevertheless, there is always limitation in the MC simulation because the incorrect model of physics processes in the generation side or poor model of detector conditions the in the reconstruction side. The discrepancy should be quantified as a source systematic uncertainties. 
+
+
+\section{Background Studies} 
 
 
 \section{Signal Extraction} 
