@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 JUL 2021 01:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 JUL 2021 20:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -185,7 +185,7 @@ LaTeX Warning: Label `CMSTrackFDWF' multiply defined.
 LaTeX Warning: Label `MuonAccPlot' multiply defined.
 
 
-LaTeX Warning: Label `DecayTopo' multiply defined.
+LaTeX Warning: Label `ROCAll' multiply defined.
 
 ) (./chap5.aux) (./chap6.aux) (./appa.aux) (./appb.aux) (./nomenclature.aux)
 (./biblio.aux))
@@ -328,13 +328,21 @@ Overfull \hbox (1.47537pt too wide) in paragraph at lines 84--84
 Underfull \vbox (badness 5817) has occurred while \output is active []
 
  [22]
-[23] [24])
+[23]
+
+LaTeX Warning: Reference `MuonAccCut' on page 137 undefined on input line 99.
+
+[24])
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
  [25] [26
 
-] (./main.lot)
+] (./main.lot
+
+LaTeX Warning: Reference `MVADemo' on page 141 undefined on input line 9.
+
+)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
@@ -1433,43 +1441,43 @@ Package pdftex.def Info: Figures/Chapter4/BsBPRECO.pdf used on input line 37.
 (pdftex.def)             Requested size: 372.91345pt x 279.68771pt.
  [137 <./Figures/Chapter4/BsBPWorkFlow.pdf>] [138 <./Figures/Chapter4/BsBPRECO.
 pdf>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 73.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 74.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [139]
-<Figures/Chapter4/JPsiGenpT.png, id=1211, 1200.485pt x 574.145pt>
+) [139] [140]
+<Figures/Chapter4/JPsiGenpT.png, id=1216, 1200.485pt x 574.145pt>
 File: Figures/Chapter4/JPsiGenpT.png Graphic file (type png)
 
 <use Figures/Chapter4/JPsiGenpT.png>
-Package pdftex.def Info: Figures/Chapter4/JPsiGenpT.png used on input line 104.
+Package pdftex.def Info: Figures/Chapter4/JPsiGenpT.png used on input line 107.
 
 (pdftex.def)             Requested size: 390.25534pt x 186.63872pt.
 
-<Figures/Chapter4/BPlusGenpT.png, id=1212, 1200.485pt x 574.145pt>
+<Figures/Chapter4/BPlusGenpT.png, id=1217, 1200.485pt x 574.145pt>
 File: Figures/Chapter4/BPlusGenpT.png Graphic file (type png)
 
 <use Figures/Chapter4/BPlusGenpT.png>
-Package pdftex.def Info: Figures/Chapter4/BPlusGenpT.png used on input line 105
+Package pdftex.def Info: Figures/Chapter4/BPlusGenpT.png used on input line 108
 .
 (pdftex.def)             Requested size: 390.25534pt x 186.63872pt.
 
-<Figures/Chapter4/BsGenpT.png, id=1213, 1200.485pt x 574.145pt>
+<Figures/Chapter4/BsGenpT.png, id=1218, 1200.485pt x 574.145pt>
 File: Figures/Chapter4/BsGenpT.png Graphic file (type png)
 
 <use Figures/Chapter4/BsGenpT.png>
-Package pdftex.def Info: Figures/Chapter4/BsGenpT.png used on input line 106.
+Package pdftex.def Info: Figures/Chapter4/BsGenpT.png used on input line 109.
 (pdftex.def)             Requested size: 390.25534pt x 186.63872pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[140] <Figures/Chapter4/BsBptDataMC.png, id=1219, 1200.485pt x 574.145pt>
+<Figures/Chapter4/BsBptDataMC.png, id=1219, 1200.485pt x 574.145pt>
 File: Figures/Chapter4/BsBptDataMC.png Graphic file (type png)
 
 <use Figures/Chapter4/BsBptDataMC.png>
 Package pdftex.def Info: Figures/Chapter4/BsBptDataMC.png used on input line 12
-1.
+4.
 (pdftex.def)             Requested size: 420.61192pt x 201.16402pt.
 
 
@@ -1480,7 +1488,7 @@ File: Figures/Chapter4/BPBptDataMC1.pdf Graphic file (type pdf)
 
 <use Figures/Chapter4/BPBptDataMC1.pdf>
 Package pdftex.def Info: Figures/Chapter4/BPBptDataMC1.pdf used on input line 1
-31.
+34.
 (pdftex.def)             Requested size: 208.13574pt x 199.69037pt.
 
 <Figures/Chapter4/BPBptDataMC2.pdf, id=1221, 569.12625pt x 546.04pt>
@@ -1488,7 +1496,7 @@ File: Figures/Chapter4/BPBptDataMC2.pdf Graphic file (type pdf)
 
 <use Figures/Chapter4/BPBptDataMC2.pdf>
 Package pdftex.def Info: Figures/Chapter4/BPBptDataMC2.pdf used on input line 1
-32.
+35.
 (pdftex.def)             Requested size: 208.13574pt x 199.69037pt.
 
 
@@ -1499,10 +1507,10 @@ File: Figures/Chapter4/CentralityWeight.pdf Graphic file (type pdf)
 
 <use Figures/Chapter4/CentralityWeight.pdf>
 Package pdftex.def Info: Figures/Chapter4/CentralityWeight.pdf used on input li
-ne 145.
+ne 148.
 (pdftex.def)             Requested size: 476.98463pt x 152.27089pt.
 
-Overfull \hbox (43.36464pt too wide) in paragraph at lines 145--146
+Overfull \hbox (43.36464pt too wide) in paragraph at lines 148--149
  [] 
  []
 
@@ -1511,10 +1519,10 @@ File: Figures/Chapter4/PVzWeightPbPb.pdf Graphic file (type pdf)
 
 <use Figures/Chapter4/PVzWeightPbPb.pdf>
 Package pdftex.def Info: Figures/Chapter4/PVzWeightPbPb.pdf used on input line 
-161.
+164.
 (pdftex.def)             Requested size: 476.98463pt x 152.27089pt.
 
-Overfull \hbox (43.36464pt too wide) in paragraph at lines 161--162
+Overfull \hbox (43.36464pt too wide) in paragraph at lines 164--165
  [] 
  []
 
@@ -1524,7 +1532,7 @@ g> <./Figures/Chapter4/BsGenpT.png>] [144 <./Figures/Chapter4/BsBptDataMC.png>
 apter4/BPBptDataMC2.pdf, page is rotated 90 degrees>] [145 <./Figures/Chapter4/
 CentralityWeight.pdf, page is rotated 90 degrees> <./Figures/Chapter4/PVzWeight
 PbPb.pdf, page is rotated 90 degrees>]
-Overfull \hbox (63.20721pt too wide) detected at line 277
+Overfull \hbox (63.20721pt too wide) detected at line 280
 \OML/cmm/m/it/12 N[] \OT1/cmr/m/n/12 = []\OMS/cmsy/m/n/12 L[] \OT1/cmr/m/n/12 =
  [] \OMS/cmsy/m/n/12 ^^B \OT1/cmr/m/n/12 161507974 = 1\OML/cmm/m/it/12 :\OT1/cm
 r/m/n/12 1823737719 \OMS/cmsy/m/n/12 ^^B \OT1/cmr/m/n/12 10[] \OMS/cmsy/m/n/12 
@@ -1541,7 +1549,7 @@ Underfull \vbox (badness 1371) has occurred while \output is active []
 File: Figures/Chapter4/hiHFvsCent.png Graphic file (type png)
 
 <use Figures/Chapter4/hiHFvsCent.png>
-Package pdftex.def Info: Figures/Chapter4/hiHFvsCent.png used on input line 309
+Package pdftex.def Info: Figures/Chapter4/hiHFvsCent.png used on input line 312
 .
 (pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
 
@@ -1557,7 +1565,7 @@ File: Figures/Chapter4/BsmesonWorkflow.png Graphic file (type png)
 
 <use Figures/Chapter4/BsmesonWorkflow.png>
 Package pdftex.def Info: Figures/Chapter4/BsmesonWorkflow.png used on input lin
-e 379.
+e 382.
 (pdftex.def)             Requested size: 424.94574pt x 283.49974pt.
 
 <Figures/Chapter4/BPmesonWorkflow.png, id=1424, 711.1368pt x 328.5876pt>
@@ -1565,207 +1573,349 @@ File: Figures/Chapter4/BPmesonWorkflow.png Graphic file (type png)
 
 <use Figures/Chapter4/BPmesonWorkflow.png>
 Package pdftex.def Info: Figures/Chapter4/BPmesonWorkflow.png used on input lin
-e 387.
+e 390.
 (pdftex.def)             Requested size: 424.94574pt x 196.35185pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[149 <./Figures/Chapter4/BsmesonWorkflow.png>] [150 <./Figures/Chapter4/BPmeson
-Workflow.png>]
+Package epstopdf Info: Source file: <Figures/Chapter4/BsSize.eps>
+(epstopdf)                    date: 2021-07-22 18:43:51
+(epstopdf)                    size: 17580 bytes
+(epstopdf)             Output file: <Figures/Chapter4/BsSize-eps-converted-to.p
+df>
+(epstopdf)                    date: 2021-07-22 18:44:11
+(epstopdf)                    size: 22413 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/Chapter4/BsSize-ep
+s-converted-to.pdf Figures/Chapter4/BsSize.eps>
+(epstopdf)             \includegraphics on input line 400.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Chapter4/BsSize-eps-converted-to.pdf, id=1425, 569.12625pt x 546.04pt>
+File: Figures/Chapter4/BsSize-eps-converted-to.pdf Graphic file (type pdf)
+<use Figures/Chapter4/BsSize-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Chapter4/BsSize-eps-converted-to.pdf used on i
+nput line 400.
+(pdftex.def)             Requested size: 208.13574pt x 199.69037pt.
+Package epstopdf Info: Source file: <Figures/Chapter4/BPSize.eps>
+(epstopdf)                    date: 2021-07-22 18:43:50
+(epstopdf)                    size: 10934 bytes
+(epstopdf)             Output file: <Figures/Chapter4/BPSize-eps-converted-to.p
+df>
+(epstopdf)                    date: 2021-07-22 18:44:12
+(epstopdf)                    size: 19638 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/Chapter4/BPSize-ep
+s-converted-to.pdf Figures/Chapter4/BPSize.eps>
+(epstopdf)             \includegraphics on input line 401.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Chapter4/BPSize-eps-converted-to.pdf, id=1426, 569.12625pt x 546.04pt>
+File: Figures/Chapter4/BPSize-eps-converted-to.pdf Graphic file (type pdf)
+<use Figures/Chapter4/BPSize-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Chapter4/BPSize-eps-converted-to.pdf used on i
+nput line 401.
+(pdftex.def)             Requested size: 208.13574pt x 199.69037pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[151] <Figures/Chapter4/MuonAccPbPb.pdf, id=1437, 569.12625pt x 484.81125pt>
+[149 <./Figures/Chapter4/BsmesonWorkflow.png>] [150 <./Figures/Chapter4/BPmeson
+Workflow.png>] [151 <./Figures/Chapter4/BsSize-eps-converted-to.pdf> <./Figures
+/Chapter4/BPSize-eps-converted-to.pdf>]
+<Figures/Chapter4/MuonAccPbPb.pdf, id=1455, 569.12625pt x 484.81125pt>
 File: Figures/Chapter4/MuonAccPbPb.pdf Graphic file (type pdf)
 
 <use Figures/Chapter4/MuonAccPbPb.pdf>
-Package pdftex.def Info: Figures/Chapter4/MuonAccPbPb.pdf used on input line 46
-1.
+Package pdftex.def Info: Figures/Chapter4/MuonAccPbPb.pdf used on input line 47
+8.
 (pdftex.def)             Requested size: 208.13574pt x 177.29861pt.
 
-<Figures/Chapter4/MuonAccPP.pdf, id=1438, 569.12625pt x 484.81125pt>
+<Figures/Chapter4/MuonAccPP.pdf, id=1456, 569.12625pt x 484.81125pt>
 File: Figures/Chapter4/MuonAccPP.pdf Graphic file (type pdf)
 
 <use Figures/Chapter4/MuonAccPP.pdf>
-Package pdftex.def Info: Figures/Chapter4/MuonAccPP.pdf used on input line 462.
-
-(pdftex.def)             Requested size: 208.13574pt x 177.29861pt.
- [152 <./Figures/Chapter4/MuonAccPbPb.pdf, page is rotated 90 degrees> <./Figur
-es/Chapter4/MuonAccPP.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Citation `PbPbMulti' on page 153 undefined on input line 485.
-
-
-LaTeX Warning: Reference `' on page 153 undefined on input line 485.
-
-File: Figures/Chapter4/MuonAccPbPb.pdf Graphic file (type pdf)
-<use Figures/Chapter4/MuonAccPbPb.pdf>
-Package pdftex.def Info: Figures/Chapter4/MuonAccPbPb.pdf used on input line 48
-9.
-(pdftex.def)             Requested size: 208.13574pt x 177.29861pt.
-File: Figures/Chapter4/MuonAccPP.pdf Graphic file (type pdf)
- <use Figures/Chapter4/MuonAccPP.pdf>
-Package pdftex.def Info: Figures/Chapter4/MuonAccPP.pdf used on input line 490.
+Package pdftex.def Info: Figures/Chapter4/MuonAccPP.pdf used on input line 479.
 
 (pdftex.def)             Requested size: 208.13574pt x 177.29861pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[152]
 
-LaTeX Warning: Citation `MVARef' on page 153 undefined on input line 497.
+LaTeX Warning: Reference `' on page 153 undefined on input line 502.
 
-[153]
-Overfull \hbox (35.45032pt too wide) in paragraph at lines 508--509
+[153 <./Figures/Chapter4/MuonAccPbPb.pdf, page is rotated 90 degrees> <./Figure
+s/Chapter4/MuonAccPP.pdf, page is rotated 90 degrees>]
+Package epstopdf Info: Source file: <Figures/Chapter4/BsMassPreCut.eps>
+(epstopdf)                    date: 2021-07-22 18:43:50
+(epstopdf)                    size: 12291 bytes
+(epstopdf)             Output file: <Figures/Chapter4/BsMassPreCut-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2021-07-22 18:44:13
+(epstopdf)                    size: 14472 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/Chapter4/BsMassPre
+Cut-eps-converted-to.pdf Figures/Chapter4/BsMassPreCut.eps>
+(epstopdf)             \includegraphics on input line 506.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Chapter4/BsMassPreCut-eps-converted-to.pdf, id=1550, 569.12625pt x 546
+.04pt>
+File: Figures/Chapter4/BsMassPreCut-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use Figures/Chapter4/BsMassPreCut-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Chapter4/BsMassPreCut-eps-converted-to.pdf use
+d on input line 506.
+(pdftex.def)             Requested size: 208.13574pt x 199.69037pt.
+Package epstopdf Info: Source file: <Figures/Chapter4/BPMassPreCut.eps>
+(epstopdf)                    date: 2021-07-22 18:43:49
+(epstopdf)                    size: 11410 bytes
+(epstopdf)             Output file: <Figures/Chapter4/BPMassPreCut-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2021-07-22 18:44:13
+(epstopdf)                    size: 14120 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/Chapter4/BPMassPre
+Cut-eps-converted-to.pdf Figures/Chapter4/BPMassPreCut.eps>
+(epstopdf)             \includegraphics on input line 507.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Chapter4/BPMassPreCut-eps-converted-to.pdf, id=1551, 569.12625pt x 546
+.04pt>
+File: Figures/Chapter4/BPMassPreCut-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use Figures/Chapter4/BPMassPreCut-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Chapter4/BPMassPreCut-eps-converted-to.pdf use
+d on input line 507.
+(pdftex.def)             Requested size: 208.13574pt x 199.69037pt.
+ [154 <./Figures/Chapter4/BsMassPreCut-eps-converted-to.pdf> <./Figures/Chapter
+4/BPMassPreCut-eps-converted-to.pdf>]
+Overfull \hbox (35.45032pt too wide) in paragraph at lines 525--526
 []\T1/cmr/m/n/12 Kaon track trans-verse dis-tance to clos-est ap-proach (DCA) s
 ig-nif-i-cance: $\OML/cmm/m/it/12 DCA[]=^^[[]$ 
  []
 
 
-Overfull \hbox (35.7386pt too wide) in paragraph at lines 509--510
+Overfull \hbox (35.7386pt too wide) in paragraph at lines 526--527
 []\T1/cmr/m/n/12 Kaon track lon-gi-tu-di-nal dis-tance to clos-est ap-proach (D
 CA) sig-nif-i-cance: $\OML/cmm/m/it/12 DCA[]=^^[[]$ 
  []
 
-[154]
-Overfull \hbox (35.45032pt too wide) in paragraph at lines 523--524
+
+Overfull \hbox (35.45032pt too wide) in paragraph at lines 540--541
 []\T1/cmr/m/n/12 Kaon track trans-verse dis-tance to clos-est ap-proach (DCA) s
 ig-nif-i-cance: $\OML/cmm/m/it/12 DCA[]=^^[[]$ 
  []
 
-<Figures/Chapter4/BsDecay.png, id=1535, 471.26062pt x 302.63063pt>
+<Figures/Chapter4/BsDecay.png, id=1579, 471.26062pt x 302.63063pt>
 File: Figures/Chapter4/BsDecay.png Graphic file (type png)
 
 <use Figures/Chapter4/BsDecay.png>
-Package pdftex.def Info: Figures/Chapter4/BsDecay.png used on input line 534.
-(pdftex.def)             Requested size: 208.13574pt x 133.66121pt.
+Package pdftex.def Info: Figures/Chapter4/BsDecay.png used on input line 551.
+(pdftex.def)             Requested size: 424.94574pt x 272.89146pt.
 
-<Figures/Chapter4/BPDecay.png, id=1536, 466.74374pt x 223.58531pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/Chapter4/BPDecay.png, id=1580, 466.74374pt x 223.58531pt>
 File: Figures/Chapter4/BPDecay.png Graphic file (type png)
 
 <use Figures/Chapter4/BPDecay.png>
-Package pdftex.def Info: Figures/Chapter4/BPDecay.png used on input line 535.
-(pdftex.def)             Requested size: 208.13574pt x 99.70496pt.
- [155 <./Figures/Chapter4/BsDecay.png> <./Figures/Chapter4/BPDecay.png>]
-<Figures/Chapter4/Rectangular.pdf, id=1541, 569.12625pt x 546.04pt>
+Package pdftex.def Info: Figures/Chapter4/BPDecay.png used on input line 560.
+(pdftex.def)             Requested size: 424.94574pt x 203.5721pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[155] <Figures/Chapter4/Rectangular.pdf, id=1584, 569.12625pt x 546.04pt>
 File: Figures/Chapter4/Rectangular.pdf Graphic file (type pdf)
 
 <use Figures/Chapter4/Rectangular.pdf>
-Package pdftex.def Info: Figures/Chapter4/Rectangular.pdf used on input line 55
-2.
+Package pdftex.def Info: Figures/Chapter4/Rectangular.pdf used on input line 57
+7.
 (pdftex.def)             Requested size: 208.13574pt x 199.69037pt.
 
-<Figures/Chapter4/MVA.pdf, id=1542, 569.12625pt x 546.04pt>
+<Figures/Chapter4/MVA.pdf, id=1585, 569.12625pt x 546.04pt>
 File: Figures/Chapter4/MVA.pdf Graphic file (type pdf)
 
 <use Figures/Chapter4/MVA.pdf>
-Package pdftex.def Info: Figures/Chapter4/MVA.pdf used on input line 553.
+Package pdftex.def Info: Figures/Chapter4/MVA.pdf used on input line 578.
 (pdftex.def)             Requested size: 208.13574pt x 199.69037pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[156 <./Figures/Chapter4/BsDecay.png>]
+<Figures/Chapter4/MLProblemsNew.png, id=1589, 1153.30875pt x 453.94594pt>
+File: Figures/Chapter4/MLProblemsNew.png Graphic file (type png)
 
-LaTeX Warning: Reference `' on page 156 undefined on input line 582.
+<use Figures/Chapter4/MLProblemsNew.png>
+Package pdftex.def Info: Figures/Chapter4/MLProblemsNew.png used on input line 
+611.
+(pdftex.def)             Requested size: 368.57964pt x 145.07172pt.
 
-[156 <./Figures/Chapter4/Rectangular.pdf, page is rotated 90 degrees> <./Figure
-s/Chapter4/MVA.pdf, page is rotated 90 degrees>]
-<Figures/Chapter4/MLProblems.png, id=1632, 559.8516pt x 340.1508pt>
-File: Figures/Chapter4/MLProblems.png Graphic file (type png)
 
-<use Figures/Chapter4/MLProblems.png>
-Package pdftex.def Info: Figures/Chapter4/MLProblems.png used on input line 586
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[157 <./Figures/Chapter4/BPDecay.png>] [158 <./Figures/Chapter4/Rectangular.pdf
+, page is rotated 90 degrees> <./Figures/Chapter4/MVA.pdf, page is rotated 90 d
+egrees>]
+
+LaTeX Warning: Citation `BoostingRef' on page 159 undefined on input line 640.
+
+[159 <./Figures/Chapter4/MLProblemsNew.png>]
+<Figures/Chapter4/Boosting.jpg, id=1687, 846.16125pt x 454.69875pt>
+File: Figures/Chapter4/Boosting.jpg Graphic file (type jpg)
+
+<use Figures/Chapter4/Boosting.jpg>
+Package pdftex.def Info: Figures/Chapter4/Boosting.jpg used on input line 645.
+(pdftex.def)             Requested size: 368.57964pt x 198.06294pt.
+
+<Figures/Chapter4/DecisionTree.pdf, id=1688, 722.7pt x 542.025pt>
+File: Figures/Chapter4/DecisionTree.pdf Graphic file (type pdf)
+
+<use Figures/Chapter4/DecisionTree.pdf>
+Package pdftex.def Info: Figures/Chapter4/DecisionTree.pdf used on input line 6
+56.
+(pdftex.def)             Requested size: 368.57964pt x 276.43736pt.
+ [160 <./Figures/Chapter4/Boosting.jpg>] [161 <./Figures/Chapter4/DecisionTree.
+pdf>]
+Package epstopdf Info: Source file: <Figures/Chapter4/BsCorr_10_15.eps>
+(epstopdf)                    date: 2020-03-31 09:07:38
+(epstopdf)                    size: 29612 bytes
+(epstopdf)             Output file: <Figures/Chapter4/BsCorr_10_15-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2021-07-22 18:58:33
+(epstopdf)                    size: 13703 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/Chapter4/BsCorr_10
+_15-eps-converted-to.pdf Figures/Chapter4/BsCorr_10_15.eps>
+(epstopdf)             \includegraphics on input line 688.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Chapter4/BsCorr_10_15-eps-converted-to.pdf, id=1878, 569.12625pt x 546
+.04pt>
+File: Figures/Chapter4/BsCorr_10_15-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use Figures/Chapter4/BsCorr_10_15-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Chapter4/BsCorr_10_15-eps-converted-to.pdf use
+d on input line 688.
+(pdftex.def)             Requested size: 208.13574pt x 199.69037pt.
+
+<Figures/Chapter4/BPCorr_10_15.pdf, id=1879, 569.12625pt x 546.04pt>
+File: Figures/Chapter4/BPCorr_10_15.pdf Graphic file (type pdf)
+
+<use Figures/Chapter4/BPCorr_10_15.pdf>
+Package pdftex.def Info: Figures/Chapter4/BPCorr_10_15.pdf used on input line 6
+89.
+(pdftex.def)             Requested size: 208.13574pt x 199.69037pt.
+
+<Figures/Chapter4/BsROC.png, id=1880, 569.10254pt x 415.5525pt>
+File: Figures/Chapter4/BsROC.png Graphic file (type png)
+
+<use Figures/Chapter4/BsROC.png>
+Package pdftex.def Info: Figures/Chapter4/BsROC.png used on input line 701.
+(pdftex.def)             Requested size: 346.89731pt x 253.30276pt.
+ [162 <./Figures/Chapter4/BsCorr_10_15-eps-converted-to.pdf> <./Figures/Chapter
+4/BPCorr_10_15.pdf>]
+
+LaTeX Warning: Reference `OverTraining' on page 163 undefined on input line 710
 .
-(pdftex.def)             Requested size: 368.57964pt x 223.93967pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<Figures/Chapter4/BsOT.png, id=1917, 569.10254pt x 420.53174pt>
+File: Figures/Chapter4/BsOT.png Graphic file (type png)
 
- [157 <./Figures/Chapter4/MLProblems.png>]
-<Figures/Chapter4/mc_PbPb_1_Bmumumass.pdf, id=1638, 569.12625pt x 546.04pt>
+<use Figures/Chapter4/BsOT.png>
+Package pdftex.def Info: Figures/Chapter4/BsOT.png used on input line 715.
+(pdftex.def)             Requested size: 208.13574pt x 153.79759pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `OverTraining' on page 163 undefined on input line 721
+.
+
+[163 <./Figures/Chapter4/BsROC.png>]
+<Figures/Chapter4/mc_PbPb_1_Bmumumass.pdf, id=1923, 569.12625pt x 546.04pt>
 File: Figures/Chapter4/mc_PbPb_1_Bmumumass.pdf Graphic file (type pdf)
 
 <use Figures/Chapter4/mc_PbPb_1_Bmumumass.pdf>
 Package pdftex.def Info: Figures/Chapter4/mc_PbPb_1_Bmumumass.pdf used on input
- line 610.
+ line 736.
 (pdftex.def)             Requested size: 182.1196pt x 174.73636pt.
 
-<Figures/Chapter4/mc_PbPb_1_Btktkmass.pdf, id=1639, 569.12625pt x 546.04pt>
+<Figures/Chapter4/mc_PbPb_1_Btktkmass.pdf, id=1924, 569.12625pt x 546.04pt>
 File: Figures/Chapter4/mc_PbPb_1_Btktkmass.pdf Graphic file (type pdf)
 
 <use Figures/Chapter4/mc_PbPb_1_Btktkmass.pdf>
 Package pdftex.def Info: Figures/Chapter4/mc_PbPb_1_Btktkmass.pdf used on input
- line 611.
+ line 737.
 (pdftex.def)             Requested size: 182.1196pt x 174.73636pt.
 
-<Figures/Chapter4/data_PbPb_1_Bmumumass.pdf, id=1640, 569.12625pt x 546.04pt>
+<Figures/Chapter4/data_PbPb_1_Bmumumass.pdf, id=1925, 569.12625pt x 546.04pt>
 File: Figures/Chapter4/data_PbPb_1_Bmumumass.pdf Graphic file (type pdf)
 
 <use Figures/Chapter4/data_PbPb_1_Bmumumass.pdf>
 Package pdftex.def Info: Figures/Chapter4/data_PbPb_1_Bmumumass.pdf used on inp
-ut line 612.
+ut line 738.
 (pdftex.def)             Requested size: 182.1196pt x 174.73636pt.
 
-<Figures/Chapter4/data_PbPb_1_Btktkmass.pdf, id=1641, 569.12625pt x 546.04pt>
+<Figures/Chapter4/data_PbPb_1_Btktkmass.pdf, id=1926, 569.12625pt x 546.04pt>
 File: Figures/Chapter4/data_PbPb_1_Btktkmass.pdf Graphic file (type pdf)
 
 <use Figures/Chapter4/data_PbPb_1_Btktkmass.pdf>
 Package pdftex.def Info: Figures/Chapter4/data_PbPb_1_Btktkmass.pdf used on inp
-ut line 613.
+ut line 739.
 (pdftex.def)             Requested size: 182.1196pt x 174.73636pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [158]
+) [164 <./Figures/Chapter4/BsOT.png>]
 Overfull \vbox (1016.0963pt too high) has occurred while \output is active []
 
 
-[159 <./Figures/Chapter4/mc_PbPb_1_Bmumumass.pdf, page is rotated 90 degrees> <
+[165 <./Figures/Chapter4/mc_PbPb_1_Bmumumass.pdf, page is rotated 90 degrees> <
 ./Figures/Chapter4/mc_PbPb_1_Btktkmass.pdf, page is rotated 90 degrees> <./Figu
 res/Chapter4/data_PbPb_1_Bmumumass.pdf, page is rotated 90 degrees> <./Figures/
 Chapter4/data_PbPb_1_Btktkmass.pdf, page is rotated 90 degrees>]
 \openout2 = `chap5.aux'.
 
  (./chap5.tex
-[160
+[166
 
 
 
 ]
 Chapter 5.
-) [161]
+) [167]
 \openout2 = `chap6.aux'.
 
- (./chap6.tex [162
+ (./chap6.tex [168
 
 
 
 ]
 Chapter 6.
-) [163]
+) [169]
 \openout2 = `appa.aux'.
 
- (./appa.tex [164
+ (./appa.tex [170
 
 
 
 ]
 Appendix A.
-[165])
+[171])
 \openout2 = `appb.aux'.
 
- (./appb.tex [166
+ (./appb.tex [172
 
 
 
 
 ]
 Appendix B.
-[167] [168])
+[173] [174])
 \openout2 = `nomenclature.aux'.
 
  (./nomenclature.tex
@@ -1774,38 +1924,38 @@ Appendix B.
 
 
 Writing nomenclature file main.nlo
-(./main.nls [169
+(./main.nls [175
 
 
 
 
-] [170
+] [176
 
-])) (./main.nls [171] [172
+])) (./main.nls [177] [178
 
-]) [173]
+]) [179]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex [174
+ (./biblio.tex [180
 
 
 
 ]
-[175] [176] [177] [178] [179] [180] [181]
+[181] [182] [183] [184] [185] [186] [187]
 Underfull \hbox (badness 1728) in paragraph at lines 106--107
 []\T1/cmr/m/n/12 B. B. Back, ``Stud-ies of mul-ti-plic-ity in rel-a-tivis-tic h
 eavy-ion col-li-sions'',
  []
 
-[182] [183] [184] [185] [186] [187] [188] [189] [190]
+[188] [189] [190] [191] [192] [193] [194] [195] [196]
 Underfull \hbox (badness 6188) in paragraph at lines 236--237
 []\T1/cmr/m/n/12 A. Penzo and Y. Onel, ``The CMS-HF quartz fiber calorime-ters'
 ',
  []
 
-[191]
+[197]
 No file main.bbl.
-) [192] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+) [198] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
 (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./appa.aux)
 (./appb.aux) (./nomenclature.aux) (./biblio.aux))
 
@@ -1817,10 +1967,10 @@ LaTeX Warning: There were multiply-defined labels.
  )
 (\end occurred when \ifx on line 56 was incomplete) 
 Here is how much of TeX's memory you used:
- 4058 strings out of 493089
- 64699 string characters out of 6134842
- 110095 words of memory out of 5000000
- 7168 multiletter control sequences out of 15000+600000
+ 4119 strings out of 493089
+ 66688 string characters out of 6134842
+ 110781 words of memory out of 5000000
+ 7219 multiletter control sequences out of 15000+600000
  22818 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,14n,23p,1571b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1851,11 +2001,14 @@ cc1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm
 .pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.p
 fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (192 pages, 15564349 bytes).
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
+Output written on main.pdf (198 pages, 19519952 bytes).
 PDF statistics:
- 2020 PDF objects out of 2073 (max. 8388607)
- 1007 compressed objects within 11 object streams
+ 2308 PDF objects out of 2487 (max. 8388607)
+ 1179 compressed objects within 12 object streams
  0 named destinations out of 1000 (max. 500000)
- 706 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 756 words of extra memory for PDF output out of 10000 (max. 10000000)
 

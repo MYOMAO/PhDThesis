@@ -95,15 +95,22 @@
 \contentsline {figure}{\numberline {4-8}{\ignorespaces The nominal (black) and uncertainties band (green) hiHF vs hiBin for CMS 2018 PbPb dataset are shown above.}}{148}
 \contentsline {figure}{\numberline {4-9}{\ignorespaces The schematic block diagram of the full reconstruction workflows for $B^0_s$ via the decay channel of $B_s^0 \rightarrow J/\psi \phi \rightarrow \mu ^+\mu ^- K^+K^-$ in the \textit {Bfinder} is shown above.}}{149}
 \contentsline {figure}{\numberline {4-10}{\ignorespaces The schematic block diagram of the full reconstruction workflows for $B^+$ via the decay channel of $B^+ \rightarrow J/\psi K^+ \rightarrow \mu ^+\mu ^- K^+$ in the \textit {Bfinder} is shown above.}}{150}
-\contentsline {figure}{\numberline {4-11}{\ignorespaces The total efficiency, including reconstruction, identification, and trigger, of a single muon in 2018 PbPb (left) and 2017 pp (right) are shown above. The black curve is the 2015 PbPb and pp 90\% muon efficiency boundary while the green curve is the 2017 pp and 2018 PbPb 90\% muon efficiency boundary. The green boundary is translated to numerical values in Table 4.4\hbox {}}}{152}
-\contentsline {figure}{\numberline {4-12}{\ignorespaces The total efficiency, including reconstruction, identification, and trigger, of a single muon in 2018 PbPb (left) and 2017 pp (right) are shown above. The black curve is the 2015 PbPb and pp 90\% muon efficiency boundary while the green curve is the 2017 pp and 2018 PbPb 90\% muon efficiency boundary. The green boundary is translated to numerical values in Table 4.4\hbox {}}}{154}
-\contentsline {figure}{\numberline {4-13}{\ignorespaces The definition of topological variables in the decay of $B^0_s \rightarrow J/\psi \phi \rightarrow \mu ^+\mu ^- K^+K^-$ (left) and $B^+ \rightarrow J/\psi K^+ \rightarrow \mu ^+\mu ^- K^+ $ (right) are schematically shown above.}}{155}
-\contentsline {figure}{\numberline {4-14}{\ignorespaces The performance of traditional rectangular selection with a range of x and y (left) compared to the MVA method of a curve as a function of X and Y (right) are shown above. Here, we have the total signal S = 215 and the background B = 1000.}}{156}
-\contentsline {figure}{\numberline {4-15}{\ignorespaces The solutions to classification, regression, and clustering problems with supervised and unsupervised machine learning approaches are shown schematically above.}}{157}
-\contentsline {figure}{\numberline {4-16}{\ignorespaces The $J/\psi $ (left) and $\phi $ (right) meson mass distributions after BDT selections for MC (top) and data (low) in PbPb analysis are shown above.}}{159}
+\contentsline {figure}{\numberline {4-11}{\ignorespaces The number of reconstructed B-meson candidates per event distribution in the dimuon PbPb data for $B^0_s$ (left) and $B^+$ (right) are shown above. Multiple B-meson candidates are reconstructed in one event.}}{151}
+\contentsline {figure}{\numberline {4-12}{\ignorespaces The total efficiency, including reconstruction, identification, and trigger, of a single muon in 2018 PbPb (left) and 2017 pp (right) are shown above. The black curve is the 2015 PbPb and pp 90\% muon efficiency boundary while the green curve is the 2017 pp and 2018 PbPb 90\% muon efficiency boundary. The green boundary is translated to numerical values in Table 4.4\hbox {}}}{153}
+\contentsline {figure}{\numberline {4-13}{\ignorespaces The invariant mass distributions of fully reconstructed $B^0_s$ (left) and $B^+$ (right) after preselection are shown above.}}{154}
+\contentsline {figure}{\numberline {4-14}{\ignorespaces The definition of topological variables in the decay of $B^0_s \rightarrow J/\psi \phi \rightarrow \mu ^+\mu ^- K^+K^-$ (left) are schematically shown above.}}{156}
+\contentsline {figure}{\numberline {4-15}{\ignorespaces The definition of topological variables in the decay of $B^+ \rightarrow J/\psi K^+ \rightarrow \mu ^+\mu ^- K^+ $ are schematically shown above.}}{157}
+\contentsline {figure}{\numberline {4-16}{\ignorespaces The performance of traditional rectangular selection with a range of x and y (left) compared to the MVA method of a curve as a function of X and Y (right) are shown above. Here, we have the total signal S = 215 and the background B = 1000.}}{158}
+\contentsline {figure}{\numberline {4-17}{\ignorespaces The solutions to classification, regression, and clustering problems with supervised and unsupervised machine learning approaches are shown schematically above.}}{159}
+\contentsline {figure}{\numberline {4-18}{\ignorespaces The schematic illustration of boosting procedures in machine learning is shown above.}}{160}
+\contentsline {figure}{\numberline {4-19}{\ignorespaces The schematic block diagram of a binary decision tree with NTree = 4 to separate signal and background in a training sample.}}{161}
+\contentsline {figure}{\numberline {4-20}{\ignorespaces The correlation matrices of $B^0_s$ (left) and $B^+$ (right) in data at $10 < p_T < 15$ GeV/c are shown above.}}{162}
+\contentsline {figure}{\numberline {4-21}{\ignorespaces The $B^0_s$ ROC curves of CutsSA, CutsGA, BDT, MLP, and MLPBNN2 algorithms are shown above.}}{163}
+\contentsline {figure}{\numberline {4-22}{\ignorespaces The $B^0_s$ ROC curves of CutsSA, CutsGA, BDT, MLP, and MLPBNN2 algorithms are shown above.}}{164}
+\contentsline {figure}{\numberline {4-23}{\ignorespaces The $J/\psi $ (left) and $\phi $ (right) meson mass distributions after BDT selections for MC (top) and data (low) in PbPb analysis are shown above.}}{165}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B-1}{\ignorespaces Armadillo slaying lawyer.}}{167}
-\contentsline {figure}{\numberline {B-2}{\ignorespaces Armadillo eradicating national debt.}}{168}
+\contentsline {figure}{\numberline {B-1}{\ignorespaces Armadillo slaying lawyer.}}{173}
+\contentsline {figure}{\numberline {B-2}{\ignorespaces Armadillo eradicating national debt.}}{174}

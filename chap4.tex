@@ -57,6 +57,7 @@ Here, $S$ stands for signal and $B$ stands for background. These factors will al
 
 \section{Analysis Samples}
 
+
 \subsection{Dimuon Triggered Datasets}
 
 In this part of the thesis, I focus on the studying beauty production and hadronization in QGP. Therefore, this analysis is performed using the 2018 PbPb data at $\sqrt{s_{NN}}$=5.02 TeV, which has an integrated luminosity of 1.7 $nb^{-1}$. 
@@ -91,6 +92,8 @@ For $B^+$, similar requirements for MC generation are applied except a different
 For $B^0_s$ and $B^+$, around fifty thousand events were generated in 5 $\hat{p}_{T}$ bins, with boundaries of $\hat{p}_{T} >$ 0, 5, 15, 30, 50, in both signal only, and embedded samples. The high $\hat{p}_{T}$ selections are used to enrich the high $p_T$ B meson statistics in order to perform efficiency correction. 
 
 We should note that in there are two components in the MC sample. The truth information about the particles generated in the simulation, which is call generated (GEN), and the reconstructed one smeared according to the CMS detector effects, which is called reconstructed (RECO). Due to the nature of MC generation, we will need to reweigh on MC in order to model the data.
+
+In addition to the $B^0_s$ and $B^+$, a sample of inclusive b hadron to $J/\psi$ (non-prompt) MC is also simulated to study the possible background contribution to the B-meson analysis due to 
 
 
 \subsection{$\hat{p}_{T}$ Reweighing}
@@ -390,9 +393,23 @@ Now we look into each events of the PbPb dimuon dataset. It turns out that there
 \end{center}
 \end{figure}
 
-Here, we should note that since we do not have hadronic PID for the kaons, we assume the track to be kaons and assume the charged kaon PDG mass to the tracks \cite{AlphaTheoEx} to the tracks. Also, the invariant mass of muon pair is constrained to the nominal $J/\psi$ meson PDG mass ($m_{J/\psi}$ = 3.096916 GeV/c$^2$) \cite{AlphaTheoEx} instead of a distribution of the dimuon mass $m_{\mu\mu}$. 
+Here, we should note that since we do not have hadronic PID for the kaons, we assume the track to be kaons and assume the charged kaon PDG mass to the tracks \cite{AlphaTheoEx} to the tracks. Also, the invariant mass of muon pair is constrained to the nominal $J/\psi$ meson PDG mass ($m_{J/\psi}$ = 3.096916 GeV/c$^2$) \cite{AlphaTheoEx} instead of a distribution of the dimuon mass $m_{\mu\mu}$. The output file format of \textit{Bfinder} is an Ntuple. Each event will have multiple B-meson candidates \ref{BCand}.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BsSize.eps}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BPSize.eps}
+\caption{The number of reconstructed B-meson candidates per event distribution in the dimuon PbPb data for $B^0_s$ (left) and $B^+$ (right) are shown above. Multiple B-meson candidates are reconstructed in one event.}
+\label{BCand}
+\end{center}
+\end{figure}
+
+
+Their information, including invariant mass, $p_T$, and $y$ as well as their daughter particles kinematics such as $p_T$ and $\eta$, is saved as a form of vector in each event. In this thesis, we use B-meson Ntuples to perform our analysis.
+
 
 %\subsection{Decay Channels}
+
 
 \subsection{Event Selections}
 
@@ -482,13 +499,13 @@ After applying all these preliminary selections to improve the quality of our da
 \section{Cut Optimization} 
 
 
-Given the high combinatorial background, particularly in PbPb collision where we have thousands of tracks per event \cite{PbPbMulti}, it is not possible to observe B-meson resonance by simply applying the preselection presented in the previous section. Figure \ref{} shows the invariant mass distribution of fully reconstructed $B^0_s$ and $B^+$ at $10 < p_T < 15$ GeV/c after the event, track, and muon selections.
+Given the high combinatorial background, particularly in PbPb collision where we have thousands of tracks per event \cite{PbPbMulti}, it is not possible to observe B-meson resonance by simply applying the preselection presented in the previous section. Figure \ref{} shows the invariant mass distribution of fully reconstructed $B^0_s$ and $B^+$ at $7 < p_T < 50$ GeV/c after the event, track, and muon selections.
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/MuonAccPbPb.pdf}
-\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/MuonAccPP.pdf}
-\caption{The total efficiency, including reconstruction, identification, and trigger, of a single muon in 2018 PbPb (left) and 2017 pp (right) are shown above. The black curve is the 2015 PbPb and pp 90\% muon efficiency boundary while the green curve is the 2017 pp and 2018 PbPb 90\% muon efficiency boundary. The green boundary is translated to numerical values in Table \ref{MuonAccCut}}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BsMassPreCut.eps}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BPMassPreCut.eps}
+\caption{The invariant mass distributions of fully reconstructed $B^0_s$ (left) and $B^+$ (right) after preselection are shown above.}
 \label{MuonAccPlot}
 \end{center}
 \end{figure}
@@ -527,14 +544,22 @@ For $B^+$, we also apply some addition rectangular selections before cut optimiz
 \item Vertex fitting probability: the $\chi^2$ value of the vertex fitting
 \end{itemize}
 
-Figure \ref{DecayTopo} shows the definition of topological variables of $B^0_s$ and $B^+$ decay chains
+Figure \ref{DecayTopoBs} and \ref{DecayTopoBP} show the definition of topological variables of $B^0_s$ and $B^+$ decay chains respectfully 
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BsDecay.png}
-\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BPDecay.png}
-\caption{The definition of topological variables in the decay of $B^0_s \rightarrow J/\psi \phi \rightarrow \mu^+\mu^- K^+K^-$ (left) and $B^+ \rightarrow J/\psi K^+ \rightarrow \mu^+\mu^- K^+ $ (right) are schematically shown above.}
-\label{DecayTopo}
+\includegraphics[width= 0.98\textwidth]{Figures/Chapter4/BsDecay.png}
+\caption{The definition of topological variables in the decay of $B^0_s \rightarrow J/\psi \phi \rightarrow \mu^+\mu^- K^+K^-$ (left) are schematically shown above.}
+\label{DecayTopoBs}
+\end{center}
+\end{figure}
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.98\textwidth]{Figures/Chapter4/BPDecay.png}
+\caption{The definition of topological variables in the decay of $B^+ \rightarrow J/\psi K^+ \rightarrow \mu^+\mu^- K^+ $ are schematically shown above.}
+\label{DecayTopoBP}
 \end{center}
 \end{figure}
 
@@ -579,30 +604,131 @@ MVA &   215  & 114  & 1.89  \\
 
 \subsection{Machine Learning Techniques}
 
-Machine learning, as branch of artificial intelligence, is the science that gets the computers to learn what human beings do. It is an automating data analysis method for model building to solve practical problems. Figure \ref{} demonstrates the data analysis problems including classification, regression, and clustering, where machine learning could be applied.
+Machine learning, as branch of artificial intelligence, is the science that gets the computers to learn what human beings do. It is an automating data analysis method for model building to solve practical problems. Figure \ref{MLProblem} demonstrates the data analysis problems including classification, regression, and clustering, where machine learning could be applied.
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width= 0.85\textwidth]{Figures/Chapter4/MLProblems.png}
+\includegraphics[width= 0.85\textwidth]{Figures/Chapter4/MLProblemsNew.png}
 \caption{The solutions to classification, regression, and clustering problems with supervised and unsupervised machine learning approaches are shown schematically above.}
-\label{DecayTopo}
+\label{MLProblem}
 \end{center}
 \end{figure}
 
-In this analysis, our goal is to separate B meson signal out of the background. Therefore, it is a classification problem. We can apply supervised machine learning to train the computer and let them find the optimal selection for B-meson analyses.   
+In this analysis, our goal is to separate B meson signal out of the background. Therefore, it is a classification problem. Therefore, machine learning can be a power tool to solve our problems. We apply supervised machine learning to train the computer and let them find the optimal selections for B-meson analyses.   
+
+
+\subsection{Terminologies}
+
+The following list explains the technical jargons of machine learning techniques along with MVA that may be mentioned later in this thesis:
+
+
+\begin{itemize}
+\item \textbf{Training samples:} the input samples including both background and signal to train the computer. In this thesis, we use the B mesons candidates coming from our chosen B-meson decay channels (GEN Matched) in MC as the signal input and the B mesons candidates from the invariant mass sideband region with a distance of greater than 0.2 GeV/c$^{2}$ to the PDG mass of B mesons as background input to the \textit{TMVA} 
+\item \textbf{Testing samples:} the samples including both background and signal going to be tested with the output from the training. The testing sample should not be the same as the training sample.
+\item \textbf{Correlation matrix:} the linear correlation between the input variables for training 
+\item \textbf{ROC curve:} the curve of signal efficiency as a function of the background rejection (= 1 $-$ background efficiency) for a given MVA value. Here the efficiency is defined as: efficiency = the number of candidates with the given MVA cut/ number of candidates without the MVA cut.
+\item \textbf{Overtraining:} A Kolgomorgov test to compare the shape of the MVA distributions of training and test samples. It returns probabilities for both signal and background between 0 and 1. The closer to 0, the poor the matching, the more the overtraining will be.  
+\end{itemize}
+
+
+
 
 \subsection{Boosted Decision Tree Algorithm}
 
-Nowadays, machining learning has become sophisticated. There are many well developed machining learning algorithms. In order to test their performance, we following 
+Nowadays, machining learning has become sophisticated. There are many well developed machining learning algorithms such as Rectangular Cut (CutsSA) Linear Discriminant (LD), Boosted Decision Tree (BDT), neutral network feed-forward Multilayer Perceptrons with recommended ANN with BFGS training method and bayesian regulator (MLPBNN), and Deep Learning in the market. Here, I will give a brief introduction about BDT algorithm in terms of \textit{Boosted} and \textit{Decision Tree}
+
+\textbf{Boosted:} Boosted here refers to the ``boosting'' factor $\alpha$ in the hypothesis function to let the machine learn and correctly model the actual curve \cite{BoostingRef}. According to supervised machine learning, in order to use the boosting method, we first assign an ensemble of many weak learners (N) to create of a strong learner. The idea of boosting is to keep reweighing the function to enhance the classification and regression and performance by applying an MVA algorithm subsequently to the reweighed version of the training data in a sequential matter. Eventually, the hypothesis will converge a function that can describe the actual data. Figure \ref{Boosting} below shows schematically the boosting scheme 
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.85\textwidth]{Figures/Chapter4/Boosting.jpg}
+\caption{The schematic illustration of boosting procedures in machine learning is shown above.}
+\label{Boosting}
+\end{center}
+\end{figure}
+
+
+\textbf{Decision Tree:} A decision tree, sometime called as a regression tree, is a binary decision support tool using a tree-like model of decisions and list their possible consequences. Starting from a sampling to analyze, it sets up criteria for selections to decide the likelihood of signal and background based on the pure signal and background input samples. Then, it makes binary decisions (Yes/No), in each branch to select subset of samples out of the current sample, can be in sequentially or in parallel. It will then iterate multiple times until the sub samples are considered as signal or background. In TMVA machinery, the number of iteration is called \textit{NTree}. Figure \ref{DecisionTree} is a schematic demonstration of a decision tree with NTree = 4
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.85\textwidth]{Figures/Chapter4/DecisionTree.pdf}
+\caption{The schematic block diagram of a binary decision tree with NTree = 4 to separate signal and background in a training sample.}
+\label{DecisionTree}
+\end{center}
+\end{figure}
+
+In general, the performance of BDT will improve as NTree become larger. However, we should note that normally NTree is required to be smaller than the sample statistics. Otherwise, overtraining may occur and could induces bias in the data analysis.
+
+
+
+\subsection{TMVA Training}
+
+
+To perform machine learning, I use the Toolkit for Multivariate Data Analysis with ROOT (\textit{TMVA}) \cite{TMVA}, a dedicated ROOT base machine learning software framework on C++ programing language, to train the computer to find the optimal MVA value as a function of the topological variables in our B-meson analyses. We propose to optimize B mesons $p_T$ in the binning of [7, 10, 15, 20, 50] GeV/c individually. The following procedures are carried out:
+
+Step 1: identify sufficient signal and background samples to train the computer within \textit{TMVA} machinery. 
+
+Step 2: choose the training algorithms to use. Here, we choose CutsSA, CutsGA, BDT, MLP, and MLPBNN2 algorithms
+
+Step 3: decide the training parameters for the each training algorithm. 
+
+Step 4: run the TMVA machinery and generate the performance plots 
+
+Step 5: choose the best algorithm according to the performance
 
 
 \subsection{Training Performance}
 
+After finishing the TMVA training procedure, we are ready to look at the training performance. First, we the correlation between the input topological variables. Figure \ref{CorrMatrix} shows the correlation matrices of $B^0_s$ and $B^+$ topological variables for B-meson $10 < p_T < 15$ GeV/c.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BsCorr_10_15.eps}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BPCorr_10_15.pdf}
+\caption{The correlation matrices of $B^0_s$ (left) and $B^+$ (right) in data at $10 < p_T < 15$ GeV/c are shown above.}
+\label{CorrMatrix}
+\end{center}
+\end{figure}
+
+We can see that there are no significant correlation among the topological variables except the open angle $\alpha$ and the cosine its transverse projection $ \cos\theta$, which is know. Therefore, the variable sets we input to the \text{TMVA} training are good.  
+
+Next we compare the overall performance among the algorithms. Figure \ref{ROCAll} below shows the ROC curves for $B^0_s$ \textit{TMVA} training at 10 $< p_T < $ 15 GeV/c.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.80\textwidth]{Figures/Chapter4/BsROC.png}
+\caption{The $B^0_s$ ROC curves of CutsSA, CutsGA, BDT, MLP, and MLPBNN2 algorithms are shown above.}
+\label{ROCAll}
+\end{center}
+\end{figure}
+
+We should note that the number of tree for BDT here is NTree = 2000. From Figure \ref{ROCAll}, we can see that BDT has the best performance compared to other algorithms in the given parameter settings. Basically, for a given background rejection, the BDT curve has the highest signal efficiency. It is closer to the upper right corner, which is the perfect algorithm. Therefore, we decide to use BDT algorithm to look for the optimal selections in all $p_T$ bins in both $B^0_s$ and $B^+$ analysis.
+
+
+Finally, before, implementing the BDT algorithm to the analysis, we also check the overtraining and make sure that no significant overtraining is observed. Figure \ref{OverTraining} show the overtraining test for both $B^0_s$ and $B^+$ BDT at 10 $< p_T < $ 15 GeV/c. 
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BsOT.png}
+\caption{The $B^0_s$ ROC curves of CutsSA, CutsGA, BDT, MLP, and MLPBNN2 algorithms are shown above.}
+\label{ROCAll}
+\end{center}
+\end{figure}
+
+According to Figure \ref{OverTraining}, neither signal nor background of $B^0_s$ and $B^+$ BDT is vanishing. Hence, no significant overtraining is observed. The BDT trainings are valid to use in the $B^0_s$ and $B^+$ analysis.
+
+
 \subsection{Working Point Determination}
 
-\subsection{Performance}
+Now with the BDT training results, next step is to choose the BDT selection that can give us the best analysis results. Next step working point chose avoid bias
 
-To check the performance of the event, track, and muon selections, we look at the dimuon and dikaon invariant mass distributions to see if $J/\psi$ and $\phi$ resonance are observed. Figure \ref{mesonpeakPbPb} shows the after apply the selections
+
+\subsection{Selection Performance}
+
+To check the performance BDT selections, we look at the dimuon and dikaon invariant mass distributions to see if $J/\psi$ and $\phi$ resonance are observed. Figure \ref{mesonpeakPbPb} shows the after apply the selections
 
 
 \begin{figure}[h]
