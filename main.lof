@@ -106,11 +106,13 @@
 \contentsline {figure}{\numberline {4-19}{\ignorespaces The schematic block diagram of a binary decision tree with NTree = 4 to separate signal and background in a training sample.}}{161}
 \contentsline {figure}{\numberline {4-20}{\ignorespaces The correlation matrices of $B^0_s$ (left) and $B^+$ (right) in data at $10 < p_T < 15$ GeV/c are shown above.}}{162}
 \contentsline {figure}{\numberline {4-21}{\ignorespaces The $B^0_s$ ROC curves of CutsSA, CutsGA, BDT, MLP, and MLPBNN2 algorithms are shown above.}}{163}
-\contentsline {figure}{\numberline {4-22}{\ignorespaces The $B^0_s$ ROC curves of CutsSA, CutsGA, BDT, MLP, and MLPBNN2 algorithms are shown above.}}{164}
-\contentsline {figure}{\numberline {4-23}{\ignorespaces The $J/\psi $ (left) and $\phi $ (right) meson mass distributions after BDT selections for MC (top) and data (low) in PbPb analysis are shown above.}}{165}
+\contentsline {figure}{\numberline {4-22}{\ignorespaces The Kolmogorov-Smirnov overtraining tests on the signal (blue) and background (red) in $B^0_s$ (left) and $B^+$ (right) at $10 < p_T < 15$GeV/c are shown on the right. It looks like they both pass the tests.}}{164}
+\contentsline {figure}{\numberline {4-23}{\ignorespaces The significance: $Sig = \frac {S}{\sqrt {S+B}}$ as a function of BDT in $B^0_s$ at $10 < p_T < 15$ GeV/c are shown above. We can see that $B^0_s$ BDT peaks near 0.32 while $B^+$ peaks near 0.09.}}{165}
+\contentsline {figure}{\numberline {4-24}{\ignorespaces The $J/\psi $ (left) and $\phi $ (right) meson mass distributions after applying BDT > 0 for MC (top) and data (low) in $B^0_s$ analysis are shown above.}}{166}
+\contentsline {figure}{\numberline {4-25}{\ignorespaces The $B^0_s$ (left) and $B^+$ (right) invariant mass distributions after applying optimal BDT selections from $10 < p_T < 50$ GeV/c in data are shown above.}}{167}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B-1}{\ignorespaces Armadillo slaying lawyer.}}{173}
-\contentsline {figure}{\numberline {B-2}{\ignorespaces Armadillo eradicating national debt.}}{174}
+\contentsline {figure}{\numberline {B-1}{\ignorespaces Armadillo slaying lawyer.}}{175}
+\contentsline {figure}{\numberline {B-2}{\ignorespaces Armadillo eradicating national debt.}}{176}

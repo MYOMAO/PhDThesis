@@ -110,53 +110,53 @@
 \contentsline {subsection}{\numberline {4.6.5}Boosted Decision Tree Algorithm}{159}
 \contentsline {subsection}{\numberline {4.6.6}TMVA Training}{161}
 \contentsline {subsection}{\numberline {4.6.7}Training Performance}{162}
-\contentsline {subsection}{\numberline {4.6.8}Working Point Determination}{164}
-\contentsline {subsection}{\numberline {4.6.9}Selection Performance}{164}
-\contentsline {section}{\numberline {4.7}B Mesons Candidates MC-Data Comparison}{164}
-\contentsline {section}{\numberline {4.8}Background Studies}{165}
-\contentsline {section}{\numberline {4.9}Signal Extraction}{165}
-\contentsline {subsection}{\numberline {4.9.1}B-meson Invariant Mass Distributions}{165}
-\contentsline {subsection}{\numberline {4.9.2}Fitting Models}{165}
-\contentsline {subsection}{\numberline {4.9.3}Raw Yield Extraction}{165}
-\contentsline {subsection}{\numberline {4.9.4}Signal Significance Estimation}{165}
-\contentsline {section}{\numberline {4.10}Acceptance and Efficiency Correction}{165}
-\contentsline {subsection}{\numberline {4.10.1}Analysis Challenges}{165}
-\contentsline {subsection}{\numberline {4.10.2}Fiducial Measurement}{165}
-\contentsline {subsection}{\numberline {4.10.3}Fine 2D Efficiency Map}{165}
-\contentsline {subsection}{\numberline {4.10.4}Data-Drive Efficiency Correction}{165}
-\contentsline {subsection}{\numberline {4.10.5}Tag \& Probe Techniques}{165}
-\contentsline {subsection}{\numberline {4.10.6}Nominal Results}{165}
-\contentsline {section}{\numberline {4.11}Cross Section Results}{165}
-\contentsline {section}{\numberline {4.12}Validation Tests}{165}
-\contentsline {subsection}{\numberline {4.12.1}Mass Scraping Test}{165}
-\contentsline {subsection}{\numberline {4.12.2}Raw Yield Closure}{165}
-\contentsline {subsection}{\numberline {4.12.3}Efficiency Closure}{165}
-\contentsline {subsection}{\numberline {4.12.4}sPlot Closure}{165}
-\contentsline {section}{\numberline {4.13}Statistical Uncertainties Determination}{165}
-\contentsline {subsection}{\numberline {4.13.1}Data Bootstrapping}{165}
-\contentsline {subsection}{\numberline {4.13.2}Statistical Uncertainties Interpretation}{165}
-\contentsline {section}{\numberline {4.14}Systematic Uncertainties Estimation}{165}
-\contentsline {subsection}{\numberline {4.14.1}Global Observables}{165}
-\contentsline {subsection}{\numberline {4.14.2}Branching Ratios}{165}
-\contentsline {subsection}{\numberline {4.14.3}Tracking Efficiency}{165}
-\contentsline {subsection}{\numberline {4.14.4}Muon Efficiency}{165}
-\contentsline {subsection}{\numberline {4.14.5}Selection Efficiency}{165}
-\contentsline {subsection}{\numberline {4.14.6}Signal Extraction}{165}
-\contentsline {subsection}{\numberline {4.14.7}Summary}{165}
-\contentsline {section}{\numberline {4.15}Final Results}{165}
-\contentsline {subsection}{\numberline {4.15.1}$B^0_s$ and $B^{+}$ Cross Section}{165}
-\contentsline {subsection}{\numberline {4.15.2}$B^0_s/B^{+}$ Ratio}{165}
-\contentsline {subsection}{\numberline {4.15.3}$B^0_s$ and $B^{+}$ Nuclear Modification Factor}{165}
-\contentsline {chapter}{\numberline {5}Conclusions}{167}
-\contentsline {section}{\numberline {5.1}Comparison with Other Experiments and Theoretical Models}{167}
-\contentsline {section}{\numberline {5.2}Physics Messages Discussion}{167}
-\contentsline {section}{\numberline {5.3}Conclusions}{167}
-\contentsline {section}{\numberline {5.4}Future Outlooks}{167}
-\contentsline {chapter}{\numberline {6}Other Studies}{169}
-\contentsline {section}{\numberline {6.1}sPHENIX Heavy Flavor Physics Simulations}{169}
-\contentsline {section}{\numberline {6.2}sPHENIX Electromagnetic Calorimeter Studies}{169}
-\contentsline {section}{\numberline {6.3}EIC Electromagnetic Calorimeter R\&D}{169}
-\contentsline {chapter}{\numberline {A}Tables}{171}
-\contentsline {chapter}{\numberline {B}Figures}{173}
-\contentsline {chapter}{List of Symbols}{177}
-\contentsline {chapter}{Abbreviations}{179}
+\contentsline {subsection}{\numberline {4.6.8}Working Point Determination}{163}
+\contentsline {subsection}{\numberline {4.6.9}Optimal Selection Performance}{165}
+\contentsline {section}{\numberline {4.7}B Mesons Candidates MC-Data Comparison}{166}
+\contentsline {section}{\numberline {4.8}Background Studies}{168}
+\contentsline {section}{\numberline {4.9}Signal Extraction}{168}
+\contentsline {subsection}{\numberline {4.9.1}B-meson Invariant Mass Distributions}{168}
+\contentsline {subsection}{\numberline {4.9.2}Fitting Models}{168}
+\contentsline {subsection}{\numberline {4.9.3}Raw Yield Extraction}{168}
+\contentsline {subsection}{\numberline {4.9.4}Signal Significance Estimation}{168}
+\contentsline {section}{\numberline {4.10}Acceptance and Efficiency Correction}{168}
+\contentsline {subsection}{\numberline {4.10.1}Analysis Challenges}{168}
+\contentsline {subsection}{\numberline {4.10.2}Fiducial Measurement}{168}
+\contentsline {subsection}{\numberline {4.10.3}Fine 2D Efficiency Map}{168}
+\contentsline {subsection}{\numberline {4.10.4}Data-Drive Efficiency Correction}{168}
+\contentsline {subsection}{\numberline {4.10.5}Tag \& Probe Techniques}{168}
+\contentsline {subsection}{\numberline {4.10.6}Nominal Results}{168}
+\contentsline {section}{\numberline {4.11}Cross Section Results}{168}
+\contentsline {section}{\numberline {4.12}Validation Tests}{168}
+\contentsline {subsection}{\numberline {4.12.1}Mass Scraping Test}{168}
+\contentsline {subsection}{\numberline {4.12.2}Raw Yield Closure}{168}
+\contentsline {subsection}{\numberline {4.12.3}Efficiency Closure}{168}
+\contentsline {subsection}{\numberline {4.12.4}sPlot Closure}{168}
+\contentsline {section}{\numberline {4.13}Statistical Uncertainties Determination}{168}
+\contentsline {subsection}{\numberline {4.13.1}Data Bootstrapping}{168}
+\contentsline {subsection}{\numberline {4.13.2}Statistical Uncertainties Interpretation}{168}
+\contentsline {section}{\numberline {4.14}Systematic Uncertainties Estimation}{168}
+\contentsline {subsection}{\numberline {4.14.1}Global Observables}{168}
+\contentsline {subsection}{\numberline {4.14.2}Branching Ratios}{168}
+\contentsline {subsection}{\numberline {4.14.3}Tracking Efficiency}{168}
+\contentsline {subsection}{\numberline {4.14.4}Muon Efficiency}{168}
+\contentsline {subsection}{\numberline {4.14.5}Selection Efficiency}{168}
+\contentsline {subsection}{\numberline {4.14.6}Signal Extraction}{168}
+\contentsline {subsection}{\numberline {4.14.7}Summary}{168}
+\contentsline {section}{\numberline {4.15}Final Results}{168}
+\contentsline {subsection}{\numberline {4.15.1}$B^0_s$ and $B^{+}$ Cross Section}{168}
+\contentsline {subsection}{\numberline {4.15.2}$B^0_s/B^{+}$ Ratio}{168}
+\contentsline {subsection}{\numberline {4.15.3}$B^0_s$ and $B^{+}$ Nuclear Modification Factor}{168}
+\contentsline {chapter}{\numberline {5}Conclusions}{169}
+\contentsline {section}{\numberline {5.1}Comparison with Other Experiments and Theoretical Models}{169}
+\contentsline {section}{\numberline {5.2}Physics Messages Discussion}{169}
+\contentsline {section}{\numberline {5.3}Conclusions}{169}
+\contentsline {section}{\numberline {5.4}Future Outlooks}{169}
+\contentsline {chapter}{\numberline {6}Other Studies}{171}
+\contentsline {section}{\numberline {6.1}sPHENIX Heavy Flavor Physics Simulations}{171}
+\contentsline {section}{\numberline {6.2}sPHENIX Electromagnetic Calorimeter Studies}{171}
+\contentsline {section}{\numberline {6.3}EIC Electromagnetic Calorimeter R\&D}{171}
+\contentsline {chapter}{\numberline {A}Tables}{173}
+\contentsline {chapter}{\numberline {B}Figures}{175}
+\contentsline {chapter}{List of Symbols}{179}
+\contentsline {chapter}{Abbreviations}{181}

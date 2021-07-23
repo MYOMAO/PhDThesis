@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 JUL 2021 20:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 JUL 2021 22:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -187,6 +187,12 @@ LaTeX Warning: Label `MuonAccPlot' multiply defined.
 
 LaTeX Warning: Label `ROCAll' multiply defined.
 
+
+LaTeX Warning: Label `MVADemo' multiply defined.
+
+
+LaTeX Warning: Label `MVAvsRec' multiply defined.
+
 ) (./chap5.aux) (./chap6.aux) (./appa.aux) (./appb.aux) (./nomenclature.aux)
 (./biblio.aux))
 \openout1 = `main.aux'.
@@ -328,21 +334,13 @@ Overfull \hbox (1.47537pt too wide) in paragraph at lines 84--84
 Underfull \vbox (badness 5817) has occurred while \output is active []
 
  [22]
-[23]
-
-LaTeX Warning: Reference `MuonAccCut' on page 137 undefined on input line 99.
-
-[24])
+[23] [24])
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
  [25] [26
 
-] (./main.lot
-
-LaTeX Warning: Reference `MVADemo' on page 141 undefined on input line 9.
-
-)
+] (./main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
@@ -1760,25 +1758,27 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 , page is rotated 90 degrees> <./Figures/Chapter4/MVA.pdf, page is rotated 90 d
 egrees>]
 
-LaTeX Warning: Citation `BoostingRef' on page 159 undefined on input line 640.
+LaTeX Warning: Reference `' on page 159 undefined on input line 634.
 
 [159 <./Figures/Chapter4/MLProblemsNew.png>]
+
+LaTeX Warning: Citation `BoostingRef' on page 160 undefined on input line 642.
+
 <Figures/Chapter4/Boosting.jpg, id=1687, 846.16125pt x 454.69875pt>
 File: Figures/Chapter4/Boosting.jpg Graphic file (type jpg)
 
 <use Figures/Chapter4/Boosting.jpg>
-Package pdftex.def Info: Figures/Chapter4/Boosting.jpg used on input line 645.
+Package pdftex.def Info: Figures/Chapter4/Boosting.jpg used on input line 647.
 (pdftex.def)             Requested size: 368.57964pt x 198.06294pt.
-
-<Figures/Chapter4/DecisionTree.pdf, id=1688, 722.7pt x 542.025pt>
+ [160 <./Figures/Chapter4/Boosting.jpg>]
+<Figures/Chapter4/DecisionTree.pdf, id=1692, 722.7pt x 542.025pt>
 File: Figures/Chapter4/DecisionTree.pdf Graphic file (type pdf)
 
 <use Figures/Chapter4/DecisionTree.pdf>
 Package pdftex.def Info: Figures/Chapter4/DecisionTree.pdf used on input line 6
-56.
+58.
 (pdftex.def)             Requested size: 368.57964pt x 276.43736pt.
- [160 <./Figures/Chapter4/Boosting.jpg>] [161 <./Figures/Chapter4/DecisionTree.
-pdf>]
+ [161 <./Figures/Chapter4/DecisionTree.pdf>]
 Package epstopdf Info: Source file: <Figures/Chapter4/BsCorr_10_15.eps>
 (epstopdf)                    date: 2020-03-31 09:07:38
 (epstopdf)                    size: 29612 bytes
@@ -1788,7 +1788,7 @@ d-to.pdf>
 (epstopdf)                    size: 13703 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Chapter4/BsCorr_10
 _15-eps-converted-to.pdf Figures/Chapter4/BsCorr_10_15.eps>
-(epstopdf)             \includegraphics on input line 688.
+(epstopdf)             \includegraphics on input line 690.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/Chapter4/BsCorr_10_15-eps-converted-to.pdf, id=1878, 569.12625pt x 546
@@ -1797,7 +1797,7 @@ File: Figures/Chapter4/BsCorr_10_15-eps-converted-to.pdf Graphic file (type pdf
 )
  <use Figures/Chapter4/BsCorr_10_15-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/Chapter4/BsCorr_10_15-eps-converted-to.pdf use
-d on input line 688.
+d on input line 690.
 (pdftex.def)             Requested size: 208.13574pt x 199.69037pt.
 
 <Figures/Chapter4/BPCorr_10_15.pdf, id=1879, 569.12625pt x 546.04pt>
@@ -1805,117 +1805,183 @@ File: Figures/Chapter4/BPCorr_10_15.pdf Graphic file (type pdf)
 
 <use Figures/Chapter4/BPCorr_10_15.pdf>
 Package pdftex.def Info: Figures/Chapter4/BPCorr_10_15.pdf used on input line 6
-89.
+91.
 (pdftex.def)             Requested size: 208.13574pt x 199.69037pt.
-
-<Figures/Chapter4/BsROC.png, id=1880, 569.10254pt x 415.5525pt>
-File: Figures/Chapter4/BsROC.png Graphic file (type png)
-
-<use Figures/Chapter4/BsROC.png>
-Package pdftex.def Info: Figures/Chapter4/BsROC.png used on input line 701.
-(pdftex.def)             Requested size: 346.89731pt x 253.30276pt.
  [162 <./Figures/Chapter4/BsCorr_10_15-eps-converted-to.pdf> <./Figures/Chapter
 4/BPCorr_10_15.pdf>]
+<Figures/Chapter4/BPOT.pdf, id=1916, 569.12625pt x 420.57127pt>
+File: Figures/Chapter4/BPOT.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `OverTraining' on page 163 undefined on input line 710
+<use Figures/Chapter4/BPOT.pdf>
+Package pdftex.def Info: Figures/Chapter4/BPOT.pdf used on input line 704.
+(pdftex.def)             Requested size: 208.13574pt x 153.80565pt.
+
+
+LaTeX Warning: Reference `OverTraining' on page 163 undefined on input line 713
 .
 
-<Figures/Chapter4/BsOT.png, id=1917, 569.10254pt x 420.53174pt>
-File: Figures/Chapter4/BsOT.png Graphic file (type png)
+Package epstopdf Info: Source file: <Figures/Chapter4/BsOT.eps>
+(epstopdf)                    date: 2020-03-31 09:07:38
+(epstopdf)                    size: 33857 bytes
+(epstopdf)             Output file: <Figures/Chapter4/BsOT-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2021-07-22 22:23:53
+(epstopdf)                    size: 36716 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/Chapter4/BsOT-eps-
+converted-to.pdf Figures/Chapter4/BsOT.eps>
+(epstopdf)             \includegraphics on input line 718.
+Package epstopdf Info: Output file is already uptodate.
 
-<use Figures/Chapter4/BsOT.png>
-Package pdftex.def Info: Figures/Chapter4/BsOT.png used on input line 715.
-(pdftex.def)             Requested size: 208.13574pt x 153.79759pt.
+<Figures/Chapter4/BsOT-eps-converted-to.pdf, id=1917, 569.12625pt x 420.57124pt
+>
+File: Figures/Chapter4/BsOT-eps-converted-to.pdf Graphic file (type pdf)
+ <use Figures/Chapter4/BsOT-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Chapter4/BsOT-eps-converted-to.pdf used on inp
+ut line 718.
+(pdftex.def)             Requested size: 208.13574pt x 153.80563pt.
+File: Figures/Chapter4/BPOT.pdf Graphic file (type pdf)
+
+<use Figures/Chapter4/BPOT.pdf>
+Package pdftex.def Info: Figures/Chapter4/BPOT.pdf used on input line 719.
+(pdftex.def)             Requested size: 208.13574pt x 153.80565pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `OverTraining' on page 163 undefined on input line 721
+LaTeX Warning: Reference `OverTraining' on page 163 undefined on input line 725
 .
 
-[163 <./Figures/Chapter4/BsROC.png>]
-<Figures/Chapter4/mc_PbPb_1_Bmumumass.pdf, id=1923, 569.12625pt x 546.04pt>
+[163 <./Figures/Chapter4/BPOT.pdf>]
+
+LaTeX Warning: Reference `WorkingPoint' on page 164 undefined on input line 748
+.
+
+<Figures/Chapter4/BsSig_10_15.pdf, id=1963, 569.12625pt x 546.04pt>
+File: Figures/Chapter4/BsSig_10_15.pdf Graphic file (type pdf)
+
+<use Figures/Chapter4/BsSig_10_15.pdf>
+Package pdftex.def Info: Figures/Chapter4/BsSig_10_15.pdf used on input line 75
+2.
+(pdftex.def)             Requested size: 208.13574pt x 199.69037pt.
+
+<Figures/Chapter4/BPSig_10_15.pdf, id=1964, 569.12625pt x 420.57127pt>
+File: Figures/Chapter4/BPSig_10_15.pdf Graphic file (type pdf)
+
+<use Figures/Chapter4/BPSig_10_15.pdf>
+Package pdftex.def Info: Figures/Chapter4/BPSig_10_15.pdf used on input line 75
+3.
+(pdftex.def)             Requested size: 208.13574pt x 153.80565pt.
+
+Underfull \vbox (badness 1242) has occurred while \output is active []
+
+ [164 <./Figures/Chapter4/BsOT-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `BsSig' on page 165 undefined on input line 763.
+
+
+LaTeX Warning: Reference `BPSig' on page 165 undefined on input line 763.
+
+<Figures/Chapter4/mc_PbPb_1_Bmumumass.pdf, id=1977, 569.12625pt x 546.04pt>
 File: Figures/Chapter4/mc_PbPb_1_Bmumumass.pdf Graphic file (type pdf)
 
 <use Figures/Chapter4/mc_PbPb_1_Bmumumass.pdf>
 Package pdftex.def Info: Figures/Chapter4/mc_PbPb_1_Bmumumass.pdf used on input
- line 736.
+ line 791.
 (pdftex.def)             Requested size: 182.1196pt x 174.73636pt.
 
-<Figures/Chapter4/mc_PbPb_1_Btktkmass.pdf, id=1924, 569.12625pt x 546.04pt>
+<Figures/Chapter4/mc_PbPb_1_Btktkmass.pdf, id=1978, 569.12625pt x 546.04pt>
 File: Figures/Chapter4/mc_PbPb_1_Btktkmass.pdf Graphic file (type pdf)
 
 <use Figures/Chapter4/mc_PbPb_1_Btktkmass.pdf>
 Package pdftex.def Info: Figures/Chapter4/mc_PbPb_1_Btktkmass.pdf used on input
- line 737.
+ line 792.
 (pdftex.def)             Requested size: 182.1196pt x 174.73636pt.
 
-<Figures/Chapter4/data_PbPb_1_Bmumumass.pdf, id=1925, 569.12625pt x 546.04pt>
+<Figures/Chapter4/data_PbPb_1_Bmumumass.pdf, id=1979, 569.12625pt x 546.04pt>
 File: Figures/Chapter4/data_PbPb_1_Bmumumass.pdf Graphic file (type pdf)
 
 <use Figures/Chapter4/data_PbPb_1_Bmumumass.pdf>
 Package pdftex.def Info: Figures/Chapter4/data_PbPb_1_Bmumumass.pdf used on inp
-ut line 738.
+ut line 793.
 (pdftex.def)             Requested size: 182.1196pt x 174.73636pt.
 
-<Figures/Chapter4/data_PbPb_1_Btktkmass.pdf, id=1926, 569.12625pt x 546.04pt>
+<Figures/Chapter4/data_PbPb_1_Btktkmass.pdf, id=1980, 569.12625pt x 546.04pt>
 File: Figures/Chapter4/data_PbPb_1_Btktkmass.pdf Graphic file (type pdf)
 
 <use Figures/Chapter4/data_PbPb_1_Btktkmass.pdf>
 Package pdftex.def Info: Figures/Chapter4/data_PbPb_1_Btktkmass.pdf used on inp
-ut line 739.
+ut line 794.
 (pdftex.def)             Requested size: 182.1196pt x 174.73636pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [164 <./Figures/Chapter4/BsOT.png>]
-Overfull \vbox (1016.0963pt too high) has occurred while \output is active []
+[165 <./Figures/Chapter4/BsSig_10_15.pdf, page is rotated 90 degrees> <./Figure
+s/Chapter4/BPSig_10_15.pdf>]
+File: Figures/Chapter4/mc_PbPb_1_Bmumumass.pdf Graphic file (type pdf)
+ <use Figures/Chapter4/mc_PbPb_1_Bmumumass.pdf>
+Package pdftex.def Info: Figures/Chapter4/mc_PbPb_1_Bmumumass.pdf used on input
+ line 804.
+(pdftex.def)             Requested size: 182.1196pt x 174.73636pt.
+File: Figures/Chapter4/mc_PbPb_1_Btktkmass.pdf Graphic file (type pdf)
+
+<use Figures/Chapter4/mc_PbPb_1_Btktkmass.pdf>
+Package pdftex.def Info: Figures/Chapter4/mc_PbPb_1_Btktkmass.pdf used on input
+ line 805.
+(pdftex.def)             Requested size: 182.1196pt x 174.73636pt.
 
 
-[165 <./Figures/Chapter4/mc_PbPb_1_Bmumumass.pdf, page is rotated 90 degrees> <
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[166 <./Figures/Chapter4/mc_PbPb_1_Bmumumass.pdf, page is rotated 90 degrees> <
 ./Figures/Chapter4/mc_PbPb_1_Btktkmass.pdf, page is rotated 90 degrees> <./Figu
 res/Chapter4/data_PbPb_1_Bmumumass.pdf, page is rotated 90 degrees> <./Figures/
-Chapter4/data_PbPb_1_Btktkmass.pdf, page is rotated 90 degrees>]
+Chapter4/data_PbPb_1_Btktkmass.pdf, page is rotated 90 degrees>])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [167]
+Overfull \vbox (594.62431pt too high) has occurred while \output is active []
+
+
+[168]
 \openout2 = `chap5.aux'.
 
  (./chap5.tex
-[166
+Chapter 5.
+) [169
 
 
 
 ]
-Chapter 5.
-) [167]
 \openout2 = `chap6.aux'.
 
- (./chap6.tex [168
+ (./chap6.tex [170
 
 
 
 ]
 Chapter 6.
-) [169]
+) [171]
 \openout2 = `appa.aux'.
 
- (./appa.tex [170
+ (./appa.tex [172
 
 
 
 ]
 Appendix A.
-[171])
+[173])
 \openout2 = `appb.aux'.
 
- (./appb.tex [172
+ (./appb.tex [174
 
 
 
 
 ]
 Appendix B.
-[173] [174])
+[175] [176])
 \openout2 = `nomenclature.aux'.
 
  (./nomenclature.tex
@@ -1924,38 +1990,38 @@ Appendix B.
 
 
 Writing nomenclature file main.nlo
-(./main.nls [175
+(./main.nls [177
 
 
 
 
-] [176
+] [178
 
-])) (./main.nls [177] [178
+])) (./main.nls [179] [180
 
-]) [179]
+]) [181]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex [180
+ (./biblio.tex [182
 
 
 
 ]
-[181] [182] [183] [184] [185] [186] [187]
+[183] [184] [185] [186] [187] [188] [189]
 Underfull \hbox (badness 1728) in paragraph at lines 106--107
 []\T1/cmr/m/n/12 B. B. Back, ``Stud-ies of mul-ti-plic-ity in rel-a-tivis-tic h
 eavy-ion col-li-sions'',
  []
 
-[188] [189] [190] [191] [192] [193] [194] [195] [196]
+[190] [191] [192] [193] [194] [195] [196] [197] [198]
 Underfull \hbox (badness 6188) in paragraph at lines 236--237
 []\T1/cmr/m/n/12 A. Penzo and Y. Onel, ``The CMS-HF quartz fiber calorime-ters'
 ',
  []
 
-[197]
+[199] [200]
 No file main.bbl.
-) [198] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+) [201] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
 (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./appa.aux)
 (./appb.aux) (./nomenclature.aux) (./biblio.aux))
 
@@ -1967,10 +2033,10 @@ LaTeX Warning: There were multiply-defined labels.
  )
 (\end occurred when \ifx on line 56 was incomplete) 
 Here is how much of TeX's memory you used:
- 4119 strings out of 493089
- 66688 string characters out of 6134842
- 110781 words of memory out of 5000000
- 7219 multiletter control sequences out of 15000+600000
+ 4134 strings out of 493089
+ 67116 string characters out of 6134842
+ 110943 words of memory out of 5000000
+ 7232 multiletter control sequences out of 15000+600000
  22818 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,14n,23p,1571b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2005,10 +2071,10 @@ fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb
 sr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
-Output written on main.pdf (198 pages, 19519952 bytes).
+Output written on main.pdf (201 pages, 15763262 bytes).
 PDF statistics:
- 2308 PDF objects out of 2487 (max. 8388607)
- 1179 compressed objects within 12 object streams
+ 2450 PDF objects out of 2487 (max. 8388607)
+ 1265 compressed objects within 13 object streams
  0 named destinations out of 1000 (max. 500000)
- 756 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 766 words of extra memory for PDF output out of 10000 (max. 10000000)
 

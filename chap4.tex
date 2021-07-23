@@ -627,11 +627,13 @@ The following list explains the technical jargons of machine learning techniques
 \item \textbf{Testing samples:} the samples including both background and signal going to be tested with the output from the training. The testing sample should not be the same as the training sample.
 \item \textbf{Correlation matrix:} the linear correlation between the input variables for training 
 \item \textbf{ROC curve:} the curve of signal efficiency as a function of the background rejection (= 1 $-$ background efficiency) for a given MVA value. Here the efficiency is defined as: efficiency = the number of candidates with the given MVA cut/ number of candidates without the MVA cut.
-\item \textbf{Overtraining:} A Kolgomorgov test to compare the shape of the MVA distributions of training and test samples. It returns probabilities for both signal and background between 0 and 1. The closer to 0, the poor the matching, the more the overtraining will be.  
+\item \textbf{Overtraining:} A Kolmogorov-Smirnov test \cite{KSTest} to compare the shape of the MVA distributions of training and test samples. It returns probabilities for both signal and background between 0 and 1. The closer to 0, the poor the matching, the more the overtraining will be.  
 \end{itemize}
 
 
+Figure \ref{} shows the definition of signal and background regions in $B^0_s$ and $B^+$ invariant mass plot. 
 
+ 
 
 \subsection{Boosted Decision Tree Algorithm}
 
@@ -659,7 +661,7 @@ Nowadays, machining learning has become sophisticated. There are many well devel
 \end{center}
 \end{figure}
 
-In general, the performance of BDT will improve as NTree become larger. However, we should note that normally NTree is required to be smaller than the sample statistics. Otherwise, overtraining may occur and could induces bias in the data analysis.
+In general, the performance of BDT will improve as NTree become larger. However, we should note that normally NTree is required to be smaller than the sample statistics. Otherwise, overtraining may occur and could induces bias in the data analysis. We should note that the BDT score range from -1 to 1. 
 
 
 
@@ -698,7 +700,8 @@ Next we compare the overall performance among the algorithms. Figure \ref{ROCAll
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width= 0.80\textwidth]{Figures/Chapter4/BsROC.png}
+%\includegraphics[width= 0.80\textwidth]{Figures/Chapter4/BsROC.png}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BPOT.pdf}
 \caption{The $B^0_s$ ROC curves of CutsSA, CutsGA, BDT, MLP, and MLPBNN2 algorithms are shown above.}
 \label{ROCAll}
 \end{center}
@@ -712,8 +715,9 @@ Finally, before, implementing the BDT algorithm to the analysis, we also check t
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BsOT.png}
-\caption{The $B^0_s$ ROC curves of CutsSA, CutsGA, BDT, MLP, and MLPBNN2 algorithms are shown above.}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BsOT.eps}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BPOT.pdf}
+\caption{The Kolmogorov-Smirnov overtraining tests on the signal (blue) and background (red) in $B^0_s$ (left) and $B^+$ (right) at $10 < p_T < 15$GeV/c are shown on the right. It looks like they both pass the tests.}
 \label{ROCAll}
 \end{center}
 \end{figure}
@@ -723,12 +727,63 @@ According to Figure \ref{OverTraining}, neither signal nor background of $B^0_s$
 
 \subsection{Working Point Determination}
 
-Now with the BDT training results, next step is to choose the BDT selection that can give us the best analysis results. Next step working point chose avoid bias
+Now with the BDT training results, next step is to choose the BDT selection that can give us the best analysis results. We decide to use the statistical significance, which is as follows
+
+\begin{equation}
+Sig = \frac{S}{\sqrt{S+B}}
+\end{equation}
+
+as the figure of merit. We estimate $S$ and $B$ for set of BDT cuts and choose BDT score that return to the maximum statistical significance in each $p_T$ bin. We can directly estimate the background $B$ according to the data sideband region width scaled to the signal region band width
+
+\begin{equation}
+B = \frac{w_{S}}{w_{B}} N_{B} \epsilon_{B}
+\end{equation}
+
+To determine the signal $S$, we do not directly look at the data. Instead, we use FONLL cross section \cite{FONLLRef} shown in \ref{FONLL} and the MC to determine the signal $S$ as follows
+
+\begin{equation}
+S = 2 R_{AA}^{2015Ref} L \sigma_{FONLL}^{pp\rightarrow b\bar b} \epsilon_{pre} \epsilon_{S} f(b\rightarrow B) BR
+\end{equation}
+
+According to our calculations, for $B^0_s$ at $10 < p_T < 15$ GeV/c, before the BDT selections, S = 47 and B = 20672. Now, we scan through a series of BDT values from -1 to 1 and compute their corresponding statistical significance. Figure \ref{WorkingPoint} shows the statistical significance as a function of BDT for $B^0_s$ and $B^+$ at $10 < p_T <  15$ GeV/c
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BsSig_10_15.pdf}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BPSig_10_15.pdf}
+\caption{The significance: $Sig = \frac{S}{\sqrt{S+B}}$ as a function of BDT in $B^0_s$ at $10 < p_T <  15$ GeV/c are shown above. We can see that $B^0_s$ BDT peaks near 0.32 while $B^+$ peaks near 0.09.}
+\label{MVADemo}
+\end{center}
+\end{figure}
+
+For $B^0_s$  Our optimal selection returns us with an S = 47 and B = 2, which has a remarkable background-to-signal rejection of $10^3 : 1$.
 
 
-\subsection{Selection Performance}
 
-To check the performance BDT selections, we look at the dimuon and dikaon invariant mass distributions to see if $J/\psi$ and $\phi$ resonance are observed. Figure \ref{mesonpeakPbPb} shows the after apply the selections
+Table \ref{BsSig} and \ref{BPSig} documents the calculated $S$, $B$, and $Sig$ with optimal BDT selections in each $p_T$ bin for $B^0_s$ and $B^+$ respectfully.
+
+\begin{table}[h]
+\begin{center}
+\caption{The comparison of the traditional rectangular selections to MVA for Figure \ref{MVADemo}.}
+\vspace{1em}
+\label{BsSig}
+  \begin{tabular}{ |c | c| c| c|}
+    \hline 
+Analysis Techniques &  S & B & S/B \\
+     \hline
+Rectangular & 174 & 135 & 1.29  \\
+         \hline
+MVA &   215  & 114  & 1.89  \\
+     \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\subsection{Optimal Selection Performance}
+
+To check the performance BDT selections, we look at the dimuon and dikaon invariant mass distributions to see if $J/\psi$ and $\phi$ resonance are observed. Figure \ref{mesonpeak} shows the after apply the selections
 
 
 \begin{figure}[h]
@@ -737,12 +792,21 @@ To check the performance BDT selections, we look at the dimuon and dikaon invari
 \includegraphics[width=0.42\textwidth]{Figures/Chapter4/mc_PbPb_1_Btktkmass.pdf}
 \includegraphics[width=0.42\textwidth]{Figures/Chapter4/data_PbPb_1_Bmumumass.pdf}
 \includegraphics[width=0.42\textwidth]{Figures/Chapter4/data_PbPb_1_Btktkmass.pdf}
-\caption{The $J/\psi$ (left) and $\phi$ (right) meson mass distributions after BDT selections for MC (top) and data (low) in PbPb analysis are shown above.}
-\label{mesonpeakPbPb}
+\caption{The $J/\psi$ (left) and $\phi$ (right) meson mass distributions after applying BDT > 0 for MC (top) and data (low) in $B^0_s$ analysis are shown above.}
+\label{mesonpeak}
 \end{center}
 \end{figure}
 
-We can see clear $J/\psi$ and $\phi$ peaks after apply the selections in both data and MC, which suggest that our selections are reasonable.
+We can see clear $J/\psi$ and $\phi$ peaks after apply the selections in both data and MC, which suggests that our selections are reasonable. Now we can also look at the invariant mass distributions of $B^0_s$ and $B^+$ in Figure \ref{Bpeaks}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.42\textwidth]{Figures/Chapter4/mc_PbPb_1_Bmumumass.pdf}
+\includegraphics[width=0.42\textwidth]{Figures/Chapter4/mc_PbPb_1_Btktkmass.pdf}
+\caption{The $B^0_s$ (left) and $B^+$ (right) invariant mass distributions after applying optimal BDT selections from $10 < p_T < 50$ GeV/c in data are shown above.}
+\label{Bpeaks}
+\end{center}
+\end{figure}
 
 
 \section{B Mesons Candidates MC-Data Comparison}
