@@ -14,7 +14,7 @@ In this thesis, the analysis tools we use is based on Macbook computers, and CMS
 
 \subsection{Physics Goals}
 
-The exclusive productions of b hadrons in different collision systems are necessary to study beauty energy loss and hadronization mechanisms. In this thesis, we propose to fully reconstruct $B^0_s$ and $B^+$ mesons in pp and PbPb collisions at $\sqrt{s_{NN}} = $ 5.02 TeV with the CMS experiment. We aim at measuring precisely their cross section, yield ratios, and nuclear modification factor of fully reconstructed $B^0_s$ and $B^+$ mesons via the decay channels of  to investigate beauty quark production and hadronization in vacuum and QGP. We hope to have a conclusive measurement of $B^0_s/B^+$ ratio to pinpoint the effect of strangeness enhancement in QGP on beauty hadronization and test theoretical model calculations \cite{StrangetoLight} with both fragmentation \cite{} and quark coalescence \cite{} mechanisms. Therefore, we would like to present our experimental measure over a width range of $p_T$ and centrality. We are particularly interested in the very low $p_T$ region where the slow moving beauty quark will pick up the nearby light quarks in the QGP while such mechanism is not expected to occur in the vacuum \cite{}. The $R_{AA}$ down to low $p_T$ will constrain understand beauty quark energy mechanism in the QGP medium. These will studies will be crucial for us to understand beauty quark diffusion coefficient and probe the inner workings of QGP in order to provide insights with the one of the open question in high energy nuclear physics.
+The exclusive productions of b hadrons in different collision systems are necessary to study beauty energy loss and hadronization mechanisms. In this thesis, we propose to fully reconstruct $B^0_s$ ($b\bar s$) and $B^+$ ($\bar b u$) mesons in pp and PbPb collisions at $\sqrt{s_{NN}} = $ 5.02 TeV with the CMS experiment. We aim at measuring precisely their cross section, yield ratios, and nuclear modification factor of fully reconstructed $B^0_s$ and $B^+$ mesons via the decay channels of  to investigate beauty quark production and hadronization in vacuum and QGP. We hope to have a conclusive measurement of $B^0_s/B^+$ ratio to pinpoint the effect of strangeness enhancement in QGP on beauty hadronization and test theoretical model calculations \cite{StrangetoLight} with both fragmentation \cite{} and quark coalescence \cite{} mechanisms. Therefore, we would like to present our experimental measure over a width range of $p_T$ and centrality. We are particularly interested in the very low $p_T$ region where the slow moving beauty quark will pick up the nearby light quarks in the QGP while such mechanism is not expected to occur in the vacuum \cite{}. The $R_{AA}$ down to low $p_T$ will constrain understand beauty quark energy mechanism in the QGP medium. These will studies will be crucial for us to understand beauty quark diffusion coefficient and probe the inner workings of QGP in order to provide insights with the one of the open question in high energy nuclear physics. 
 
 \subsection{General Workflow}
 
@@ -40,6 +40,7 @@ Figure \ref{BsBPRECO} shows pictorially the decay topology of fully reconstructe
 \end{center}
 \end{figure} 
 
+In this thesis, we propose to measure $B^0_s$ and $B^+$ cross section in the $p_T$ bin of [7, 10, 15, 20, 50] GeV/c within centrality [0, 90] and centrality bin of [0, 30, 90] with $p_T$ [10, 50]. The rapidity range of B-meson measurements are confined in $B |y| < 2.4$.
 
 \subsection{Technical Challenges}
 
@@ -393,7 +394,7 @@ Now we look into each events of the PbPb dimuon dataset. It turns out that there
 \end{center}
 \end{figure}
 
-Here, we should note that since we do not have hadronic PID for the kaons, we assume the track to be kaons and assume the charged kaon PDG mass to the tracks \cite{AlphaTheoEx} to the tracks. Also, the invariant mass of muon pair is constrained to the nominal $J/\psi$ meson PDG mass ($m_{J/\psi}$ = 3.096916 GeV/c$^2$) \cite{AlphaTheoEx} instead of a distribution of the dimuon mass $m_{\mu\mu}$. The output file format of \textit{Bfinder} is an Ntuple. Each event will have multiple B-meson candidates \ref{BCand}.
+Here, we should note that since we do not have hadronic PID for the kaons, we assume the track to be kaons and assume the charged kaon PDG mass to the tracks \cite{AlphaTheoEx} to the tracks. Also, the invariant mass of muon pair is constrained to the nominal $J/\psi$ meson PDG mass ($m_{J/\psi}$ = 3.096916 GeV/c$^2$) \cite{AlphaTheoEx} instead of a distribution of the dimuon mass $m_{\mu\mu}$. The output file format of \textit{Bfinder} is an Ntuple. Finally, we do not distinguish particle and anti-particles during the B-meson reconstruction. Therefore, both $B^0_s$ and $\bar{B^0_s}$ as well as $B^+$ and $B^-$ are reconstructed. Here, for simplicity, we only mention the $B^0_s$ and $B^+$ throughout the thesis. Each event will have multiple B-meson candidates \ref{BCand}.
 
 \begin{figure}[h]
 \begin{center}
@@ -493,7 +494,8 @@ We should note that there is a discontinuity of the muon acceptance selection at
 \item Probability of the two muon tracks to originate from the same decay vertex $>$ 1\%
 \end{itemize}
 
-After applying all these preliminary selections to improve the quality of our dataset for the analysis, we are ready to perform cut optimization to further reject background candidates based on the decay topology of the $B^0_s$ and $B^+$ decay chains.
+
+In addition, a B-meson invariant mass window of $4 < m_B < 6$ GeV/c$^2$ is applied since the $B^0_s$ mass is $m_{B^0_s} = $ 5.367 GeV/c$^2$ and the $B^0_s$ mass is $m_{B^+} = $ 5,279 GeV/c$^2$ \cite{AlphaTheoEx}. Anything far away from the mass window should not be considered. After applying all these preliminary selections to improve the quality of our dataset for the analysis, we are ready to perform cut optimization to further reject background candidates based on the decay topology of the $B^0_s$ and $B^+$ decay chains.
 
 
 \section{Cut Optimization} 
@@ -631,15 +633,25 @@ The following list explains the technical jargons of machine learning techniques
 \end{itemize}
 
 
-Figure \ref{} shows the definition of signal and background regions in $B^0_s$ and $B^+$ invariant mass plot. 
+Figure \ref{SigBackRegion} shows the definition of signal and background regions in $B^0_s$ and $B^+$ invariant mass plot. 
 
- 
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BsData.png}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BPData.png}
+\caption{The definitions of signal (red band) and background region (blue band) in the fully reconstructed B-meson invariant distribution for $B^0_s$ (left) and $B^+$ (right) are shown above.}
+\label{Boosting}
+\end{center}
+\end{figure}
+
+The signal region is $|m_B - m_B^{PDG}| < 0.08$ GeV/c and the background region is $0.20 < |m_B - m_B^{PDG}| < 0.30$ GeV/c$^2$ for $B^0_s$ and $0.15 < |m_B - m_B^{PDG}| < 0.25$ GeV/c$^2$  for $B^+$.
+
 
 \subsection{Boosted Decision Tree Algorithm}
 
 Nowadays, machining learning has become sophisticated. There are many well developed machining learning algorithms such as Rectangular Cut (CutsSA) Linear Discriminant (LD), Boosted Decision Tree (BDT), neutral network feed-forward Multilayer Perceptrons with recommended ANN with BFGS training method and bayesian regulator (MLPBNN), and Deep Learning in the market. Here, I will give a brief introduction about BDT algorithm in terms of \textit{Boosted} and \textit{Decision Tree}
 
-\textbf{Boosted:} Boosted here refers to the ``boosting'' factor $\alpha$ in the hypothesis function to let the machine learn and correctly model the actual curve \cite{BoostingRef}. According to supervised machine learning, in order to use the boosting method, we first assign an ensemble of many weak learners (N) to create of a strong learner. The idea of boosting is to keep reweighing the function to enhance the classification and regression and performance by applying an MVA algorithm subsequently to the reweighed version of the training data in a sequential matter. Eventually, the hypothesis will converge a function that can describe the actual data. Figure \ref{Boosting} below shows schematically the boosting scheme 
+\textbf{Boosted:} Boosted here refers to the ``boosting'' factor $\alpha$ in the hypothesis function to let the machine learn and correctly model the actual curve \cite{BoostingRef}. According to supervised machine learning, in order to use the boosting method, we first assign an ensemble of many weak learners to create of a strong learner. The idea of boosting is to keep reweighing the function to enhance the classification and regression and performance by applying an MVA algorithm subsequently to the reweighed version of the training data in a sequential matter. Eventually, the hypothesis will converge a function that can describe the actual data. Figure \ref{Boosting} below shows schematically the boosting scheme 
 
 
 \begin{figure}[h]
@@ -668,7 +680,7 @@ In general, the performance of BDT will improve as NTree become larger. However,
 \subsection{TMVA Training}
 
 
-To perform machine learning, I use the Toolkit for Multivariate Data Analysis with ROOT (\textit{TMVA}) \cite{TMVA}, a dedicated ROOT base machine learning software framework on C++ programing language, to train the computer to find the optimal MVA value as a function of the topological variables in our B-meson analyses. We propose to optimize B mesons $p_T$ in the binning of [7, 10, 15, 20, 50] GeV/c individually. The following procedures are carried out:
+To perform machine learning, I use the Toolkit for Multivariate Data Analysis with ROOT (\textit{TMVA}) \cite{TMVA}, a dedicated ROOT base machine learning software framework on C++ programing language, to train the computer to find the optimal MVA value as a function of the topological variables in our B-meson analyses. We propose to optimize $B^0_s$ in the $p_T$ binning of [7, 10, 15, 20, 50] GeV/c and $B^+$ in the $p_T$ binning of [5, 7, 10, 15, 20, 30, 40, 50, 60] individually. The following procedures are carried out:
 
 Step 1: identify sufficient signal and background samples to train the computer within \textit{TMVA} machinery. 
 
@@ -718,7 +730,7 @@ Finally, before, implementing the BDT algorithm to the analysis, we also check t
 \includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BsOT.eps}
 \includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BPOT.pdf}
 \caption{The Kolmogorov-Smirnov overtraining tests on the signal (blue) and background (red) in $B^0_s$ (left) and $B^+$ (right) at $10 < p_T < 15$GeV/c are shown on the right. It looks like they both pass the tests.}
-\label{ROCAll}
+\label{OverTraining}
 \end{center}
 \end{figure}
 
@@ -752,28 +764,42 @@ According to our calculations, for $B^0_s$ at $10 < p_T < 15$ GeV/c, before the 
 \includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BsSig_10_15.pdf}
 \includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BPSig_10_15.pdf}
 \caption{The significance: $Sig = \frac{S}{\sqrt{S+B}}$ as a function of BDT in $B^0_s$ at $10 < p_T <  15$ GeV/c are shown above. We can see that $B^0_s$ BDT peaks near 0.32 while $B^+$ peaks near 0.09.}
-\label{MVADemo}
+\label{WorkingPoint}
 \end{center}
 \end{figure}
 
-For $B^0_s$  Our optimal selection returns us with an S = 47 and B = 2, which has a remarkable background-to-signal rejection of $10^3 : 1$.
+For $B^0_s$  Our optimal selection returns us with an S = 38 and B = 5, which has a remarkable background-to-signal rejection of more than $10^3 : 1$.
 
 
 
-Table \ref{BsSig} and \ref{BPSig} documents the calculated $S$, $B$, and $Sig$ with optimal BDT selections in each $p_T$ bin for $B^0_s$ and $B^+$ respectfully.
+Table \ref{BsSig} and \ref{BPSig} documents the optimal BDT selections maximizing the statistical significance in each $p_T$ bin for $B^0_s$ and $B^+$ respectfully.
+
+\begin{table}[h]
+\begin{center}
+\caption{The summary of optimal BDT selection maximizing the $B^0_s$ statistical significance.}
+\vspace{1em}
+\label{BsSig}
+  \begin{tabular}{ |c | c| c| c| c|}
+    \hline 
+$B^0_s$ $p_T$ (GeV/c) & 5 -- 10 & 10 -- 15 & 15 -- 20 &  20 -- 50\\
+     \hline
+ BDT Cut Values & $>$ 0.32 & 0.29  & 0.35 & 0.33  \\
+     \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
 
 \begin{table}[h]
 \begin{center}
 \caption{The comparison of the traditional rectangular selections to MVA for Figure \ref{MVADemo}.}
 \vspace{1em}
-\label{BsSig}
-  \begin{tabular}{ |c | c| c| c|}
+\label{BPSig}
+  \begin{tabular}{ |c | c| c| c| c| c| c| c| c|}
     \hline 
-Analysis Techniques &  S & B & S/B \\
+$B^+$ $p_T$ (GeV/c) & 5 -- 7 & 7 -- 10 & 10 -- 15 & 15 -- 20 & 20 -- 30 & 30 -- 40 & 40 -- 50 & 50 -- 60\\
      \hline
-Rectangular & 174 & 135 & 1.29  \\
-         \hline
-MVA &   215  & 114  & 1.89  \\
+ BDT Cut Values & $>$ 0.02  & 0.03  & 0.09 & 0.07  & 0.10 & 0.16 & 0.20 & 0.27  \\
      \hline
     \hline
 \end{tabular}
@@ -801,36 +827,419 @@ We can see clear $J/\psi$ and $\phi$ peaks after apply the selections in both da
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=0.42\textwidth]{Figures/Chapter4/mc_PbPb_1_Bmumumass.pdf}
-\includegraphics[width=0.42\textwidth]{Figures/Chapter4/mc_PbPb_1_Btktkmass.pdf}
+\includegraphics[width=0.42\textwidth]{Figures/Chapter4/BsMassBDTCut.eps}
+\includegraphics[width=0.42\textwidth]{Figures/Chapter4/BPMassBDTCut.eps}
 \caption{The $B^0_s$ (left) and $B^+$ (right) invariant mass distributions after applying optimal BDT selections from $10 < p_T < 50$ GeV/c in data are shown above.}
 \label{Bpeaks}
 \end{center}
 \end{figure}
 
-
-\section{B Mesons Candidates MC-Data Comparison}
-
-Ideally, if the simulation is impeccable, the RECO distribution in the MC should match perfectly with data. Nevertheless, there is always limitation in the MC simulation because the incorrect model of physics processes in the generation side or poor model of detector conditions the in the reconstruction side. The discrepancy should be quantified as a source systematic uncertainties. 
-
+Again, we can see very clear signal after the optimal BDT selections in both $B^0_s$ and $B^+$. Now we are ready to study its background and signal before extracting the raw yield for B-meson cross section measurement.
 
 \section{Background Studies} 
 
+\subsection{Overview}
+
+The production of $J/\psi$ mesons occurs in three ways. The prompt $J/\psi$ produced directly in the proton-proton collision or indirectly via the decay of heavier charmonium states, and non-prompt $J/\psi$ from the decay of a b hadron. Non-prompt $J/\psi$ lead to a measurement of the b-hadron cross section. According to PDG, so far physicists have observed thousands of known decay modes of b hadrons \cite{AlphaTheoEx}. Without hadronic PID, we can envision that there are potential background feed-down sources coming from other B meson decays in the B-meson invariant mass spectrum. For instance, the decay of $B^0 \rightarrow J/\psi K^{*0} (892) \rightarrow \mu^+ \mu^- K\pi$ could contribute to the $B^0_s \rightarrow J/\psi \phi \rightarrow \mu^+ \mu^- K^+ K^-$ due to misidentification of $\pi$ to $K$. We call such background as ``non-prompt (NP) background'', to distinguish them from the combinatorial background due to random combination of decay daughters when reconstructing B mesons. NP background generally form a peaking structure in the region of interests. A dedicated inclusive NP $J/\psi$ from b hadron decay MC is simulated to determine NP background component near our B meson invariant mass region. We then classify each reconstructed B-meson candidate by their GEN-level particle, e.g. whether it is coming from a $B^{0}$, $B^{+}$ or other decays that falls into the B-meson reconstruction work flow, in order to measure their individual contribution to the peaking structure.
+
+
+\subsection{Individual Channel NP Background Studies} 
+
+
+\label{sec:individual_channels}
+There are many small contributions that gives the form to the peaking background structure. We can not identified each of them individually but most of the contributed ones are determined.
+Below is a list of example processes that compose of the majority of the peaking background:
+
+\begin{itemize}
+\item {Case 1: $ X \rightarrow J/\psi  \pi^{-}  K^{+}$, here pion is mis-identified as kaon}
+\item {Case 2: $ B_{s}^{0} \rightarrow J/\psi  K^+ K^- $, in which both Kaons are not coming from the decay of an intermediate $\phi$ meson resonance.}
+\item {Case 3: $ B^{+} \rightarrow J/\psi  K^{+}$, (added extra $K^-$)} 
+\item {Case 4: $ X \rightarrow J/\psi  \pi^{+} \pi^{-}$, pions mis-identified as Kaons. }
+\item {Case 5: $ B_{s}^{0} \rightarrow J/\psi K^{+} K^{-} X $ }
+\item {Case 6: $ B_{s}^{0} \rightarrow J/\psi \phi \pi \pi $}
+\item {Case 7: $B^0 \rightarrow J/\psi  K^{*0} $}
+%\item {8 th case $ \chi_{1c} \rightarrow J/\psi \gamma$ }
+%\item {9 th case $ \psi_{2s} \rightarrow J/\psi  X $}
+\end{itemize}
+
+Figure \ref{BsNPbkgd} shows the contribution of the determined channels with respect to the total background after applying optimal cuts for PbPb for 10 $< p_T <$ 15 GeV/c, 10 $< p_T <$ 20 GeV/c, 20 $< p_T <$ 50 GeV/c, as well as the inclusive 10 $< p_T <$ 50 GeV/c. The peak at the $B_{s}^{0}$ signal region has been investigated and found out that mostly contributed channels are $B^0 \rightarrow J/\psi  K^{*0} (892)$ in grey color and $ B_{s}^{0} \rightarrow J/\psi  K^{+} K^{-}$ in black color. 
+
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.45\linewidth]{Figures/Chapter4/NPBackgroundONLY_0.png}
+\includegraphics[width=0.45\linewidth]{Figures/Chapter4/NPBackgroundONLY_1.png}
+\includegraphics[width=0.45\linewidth]{Figures/Chapter4/NPBackgroundONLY_2.png}
+\includegraphics[width=0.45\linewidth]{Figures/Chapter4/NPBackgroundONLY_3.png}
+\caption{Individual NP background contributions with respect to the total background components for 10 to 15 GeV (top left), 15 to 20 GeV (top right), 20 to 50 GeV (bottom left), and 10 to 50 GeV (bottom right) for PbPb sample. We can see that the non-prompt background from all channels listed above are negligible compared to the inclusive background. Also, the no peak near the $B_s$ resonance is observed when the inclusive background subtract the $B^0 \rightarrow J/\psi  K^{*0} $ and $B_s \rightarrow J/\psi  K^+ K^-$ components.}
+\label{BsNPbkgd}
+\end{figure}
+
+
+Figure \ref{BsNPBS} also includes the signal component in the distribution. We can see that the non-prompt background is insignificant compared to the total inclusive background and the inclusive background is low comparing to the $B_s \rightarrow J/\psi \phi \rightarrow J/\psi K^+ K^-$ signal in our studies.
+ 
+ 
+ 
+ \begin{figure}[ht!]
+\centering
+\includegraphics[width=0.45\linewidth]{Figures/Chapter4/NPBackground_0.png}
+\includegraphics[width=0.45\linewidth]{Figures/Chapter4/NPBackground_1.png}
+\includegraphics[width=0.45\linewidth]{Figures/Chapter4/NPBackground_2.png}
+\includegraphics[width=0.45\linewidth]{Figures/Chapter4/NPBackground_3.png}
+\caption{Individual Non Prompt background contributions with respect to the total background components and the signal channel for 10 to 15 GeV (top left), 15 to 20 GeV (top right), 20 to 50 GeV (bottom left), and 10 to 50 GeV (bottom right) for PbPb sample. We can see that the inclusive background is small compared to the signal we used in our studies.}
+\label{BsNPBS}
+\end{figure}
+ 
+ 
+\subsection{B meson contribution of NP Background to $B^0_s$}
+
+
+From the non-prompt background studies above, we can see that there are many small contributions. Those small components together summed up constructing a large background and we can not identify all of them individually. Under this circumstances, another definition of individual component defined. The new definition of the NP background components are listed below;
+
+\begin{itemize}
+\item {Case 1: $ B^{+} \rightarrow J/\psi X $, all contribution from B+}
+\item {Case 2: $ B_{s}^{0} \rightarrow J/\psi X $ , all contribution from $ B_{s}^{0} $ }
+\item {Case 3: $ B^{0} \rightarrow J/\psi X$, all contribution from $ B^{0}$}
+\item {Case 4: Other contributions}
+\end{itemize}
+
+In Figure \ref{BMesonNPCon} the signal region is dominated by the $B^{0}$, $B^{+}$, and $B_{s}^{0} $ decays while the other channels are contributed on the left side of the mass spectrum. For both pp and PbPb data, the $B^{0}_{s} $ to $J/\psi$ + X  (orange region) makes a big contribution.
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.45\linewidth]{Figures/Chapter4/BmesonBackground_0.png}
+\includegraphics[width=0.45\linewidth]{Figures/Chapter4/BmesonBackground_1.png}
+\includegraphics[width=0.45\linewidth]{Figures/Chapter4/BmesonBackground_2.png}
+\includegraphics[width=0.45\linewidth]{Figures/Chapter4/BmesonBackground_3.png}
+\caption{ $B^{+}$, $B_{s}^{0} $, $ B^{0}$ channels make nearly equal contribution in the signal region for all $p_T$ bins 10 - 15 GeV/c, 15 - 20 GeV/c, 20 - 50 GeV/c, and 10 - 50 GeV/c.}
+\label{BMesonNPCon}
+\end{figure}
+
+ 
+
+The conclusion is that the NP peaking background contribution to the $B^0_s$ is negligible due to the $K^{*0} (892)$ veto cut: $|m_{KK} - m_\phi| < 0.015$ GeV/c$^2$. We estimate that it may only contribute around 4\% uncertainties to the signal yield, which is negligible compared to the statistical uncertainties of the $B^0_s$ signal, which is on the order of 10\%. Hence, there is no need to develop a specific function to model the NP background component for $B^0_s$.
+
+
+\subsection{B meson contribution of NP Background to $B^+$}
+
+We veto the candidates from the inclusive NP $J/\psi$ MC sample that are matched to a genuine $B^+$ signal. The resulting B candidate mass spectrum in the inclusive $p_T$ range (5-100 GeV/c) is shown in Figure \ref{NPBP} for PbPb MC samples. 
+
+It is clear that these sources create a peaking structure in the region of $\rm M_{inv}<$5.20 GeV/c$^2$ as seen in Figure \ref{Bpeaks} after applying the optimal selection. This structure can be nicely fit with an error function as done previously in B proton-proton analyses \cite{CMSBPH}. In addition, there is a minor peak on the right shoulder ($\approx$5.34 GeV/c$^2$) of the nominal signal ($\approx$5.28 GeV/c$^2$), and this can be fit with an Gaussian function. There is additional combinatorial background which is fitted with a linear function. This contribution is absorbed in the total combinatorial background of our nominal channel of the main analysis. This will be described in details in Section 4.6. The shape of the NP background model function is used as template in the fit extraction procedure. 
+
+Further MC studies have been done in order to identify the different channels that give rise to the non-prompt peaking structure in the $B^+$ invariant mass spectrum. Several main processes have been identified as follows:
+
+\begin{itemize}
+\item Case 1: 4-body $B^+$ decays which occur via resonant decay channels e.g. $B^+\rightarrow J/\psi K^{*+}(892)$. In these cases, we distinguish the kaons coming from the $K^{*+}(892)$ decays as coming from a signal $B^+\rightarrow J/\psi~K^+$ decay. 
+\item Case 2: 4-body $B^0$ decays channels e.g. $B^0\rightarrow J/\psi K^{*0}(892)$.
+\item Case 3: $B^+\rightarrow J/\psi\pi^+$ decays in which we have misidentified the $\pi^+$ as a $K^+$.
+\end{itemize}
+
+The different contributions in PbPb are presented in Fig.\ref{BPNPPeak}.
+The contribution from $B^+\rightarrow J/\psi \pi$ clearly form a peaking structure on the right shoulder of the nominal decay channel $B^+$ decay. However, the overall magnitude of this component is tiny compared to the other two sources, and negligible compared to the nominal signal. As a consequence, we can barely see the contribution of this peaking structure in the invariant mass plot of $B^+$ nominal channel.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/fitNP_PbPb.pdf}
+\caption{$B^+$ candidate mass spectrum obtained in inclusive B meson MC production after vetoing the contribution of genuine $B^+$ signal candidates in PbPb.}
+\label{NPBP}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BmassBpPi.pdf}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BmassBpK_tkmatch.pdf}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BmassB0K_tkmatch.pdf}
+\caption{Peaking background contribution from $B^+\rightarrow J/\psi \pi$ and from K resonant decay channels of $B^0$ and $B^+$ in PbPb MC.}
+\label{BPNPPeak}
+\end{center}
+\end{figure}
+
+The conclusion from these studies is that we need to use a function to model the NP background component. Its template shape should be determined according to the $B^+$ NP MC sample and applied to the data with a scale parameter. According to our studies, such function is the error function in the left hand shoulder (low than the $B^+$ PDG mass) and a double Gaussian in the $B^+$ signal region.
 
 \section{Signal Extraction} 
 
-\subsection{B-meson Invariant Mass Distributions}
+Now, equipped with the optimal selection and the NP background studies, we are ready to extract the signal raw yield from the B-meson invariant distribution and measure the cross section. Also, since we see very clear $B^0_s$ signal, we can estimate the $B^0_s$ significance and check if there will be an observation.
 
 \subsection{Fitting Models}
 
+Raw yields are extracted through extended unbinned maximum likelihood fits to the invariant mass of reconstructed $B^0_s$ meson candidates, performed using the \textit{Roofit} package \cite{ROOFIT}. The unbinned fit can reduce the potential bias due to the binning artifact. We develop the probability density function (PDF) to fit to the B-meson invariant mass distributions to extract their signal raw yields. In the PDF, the signal region for both $B^0_s$ and $B^+$ are described by Gaussian functions with the same means but different widths and the combinatorial background is modeled with an exponential decay function. For $B^+$, an additional error function in the left hand shoulder (low than the $B^+$ PDG mass) and a double Gaussian in the $B^+$ signal region to fit NP background according to the template fits to inclusive NP $J/\psi$ MC sample in Section 4.7. 
+
+Hence, the generic event likelihood in data is described by the formula below
+
+\begin{equation}
+{\cal{L}}(m;N_S) = N_S \cdot (\alpha G(m;M,\sigma_1) + (1-\alpha) G(m; M,\sigma_2))+ N_B \cdot E(m;\lambda_m)
+\end{equation}
+
+\begin{equation}
+G(m;M,\sigma) = \frac{1}{\sqrt{2\pi}\sigma} \exp^{-\frac{(m-M)^2}{2\sigma^2}}
+\end{equation}
+
+\begin{equation}
+E(m;\lambda_m) = \exp^{-\lambda_m m}
+\end{equation}
+
+Where $m$ is the candidate mass (input); $M$ and $\sigma_i$ are the signal mass mean and widths (resolution); $G$ and $E$ denote respectively Gaussian and Exponential functions, normalized in the fitting mass window; $N_S$ denotes the signal raw yield (the parameter of interest),  $N_B$ is the background yield, while $\alpha$ and $\lambda_m$ are nuisance parameters (describing the signal fractions and exponential decay slope). %As mentioned already, $\alpha$, $\sigma_1$ and $\sigma_2$ are fixed from the MC fit.
+
+It should note that the main reason for using double Gaussian functions instead of a single Gaussian is that the reconstructed $B^0_s$ signal width varies as a function of B-meson $pT$ due to the $p_T$ dependence of the track $p_T$ resolution. Figure \ref{BsBPWidthPT} shows the $B^0_s$ and $B^+$ invariant mass width as a function of $p_T$ in the MC
+
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.45\linewidth]{Figures/Chapter4/BmesonBackground_0.png}
+\includegraphics[width=0.45\linewidth]{Figures/Chapter4/BmesonBackground_1.png}
+\caption{The signal $B^0_s$ (left) and $B^+$ (right) invariant mass width as a function of $p_T$ are shown above.}
+\label{BsBPWidthPT}
+\end{figure}
+
+
 \subsection{Raw Yield Extraction}
 
+
+To obtain the signal raw yields and their statistical uncertainties from $B^0_s$ and $B^+$ invariant mass distribution, the following fitting procedures are carried out within B-meson invariant mass window $5 < m < 6$ GeV/c$^2$.
+
+\begin{itemize}
+\item First, a fit is performed, with a double gaussian function to the MC invariant mass distribution of the genuine B-meson signals.
+\item For $B^+$, the shape of the non-prompt background component is obtained using the dedicated non-prompt $J/\psi$ MC samples.
+\item The fit is performed to the data with the fixed the shape (widths and relative proportion of the two Gaussians) same with the Gaussians obtained from the MC fit.
+\item For systematic uncertainty check, add a free parameter ($a$), that is commonly multiplied to the widths of the signal Gaussians, serving as a scale factor of the resolution that parametrizes data and MC signal shape difference. However in the nominal fit, this is set to be unity ($a = 1$), which means the widths of the data signal are set to be identical to the ones of the MC signal.
+\item The parameters of the background PDF, the mean of the signal Gaussians are the free parameters of the fit.
+\end{itemize}
+
+% First, the fit is performed to the MC invariant mass distribution to obtain the two double Gaussian width parameters $\sigma_1$ and $\sigma_2$ as well as the relative proportion $\alpha$ describing the signal. Then, the fit is performed to the reconstructed B-meson invariant mass distribution in data, fixing the values of the $\sigma_1$ and $\sigma_2$ and the relative proportion $\alpha$ between the two gaussians to the value obtained from the MC fit. The mean of the Gaussian is treated as a floating parameter. The background components, including the NP peaking background and combinatorial background, are also determined according to the fit.
+
+Figure \ref{BsMassPt} shows the fitting results of $B^0_s$ in the $p_T$ range of [7, 10, 15, 20, 50] GeV/c.  
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/data_PbPb_1_BptNew_710_doubly0_0_90EffInfoTreeFit.pdf}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/data_PbPb_2_BptNew_1015_doubly0_0_90EffInfoTreeFit.pdf}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/data_PbPb_3_BptNew_1520_doubly0_0_90EffInfoTreeFit.pdf}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/data_PbPb_4_BptNew_2050_doubly0_0_90EffInfoTreeFit.pdf}
+\caption{The $B^0_s$ invariant mass distributions as well as the fits to extract the signal raw yield $N_{S}$ in different $p_T$ bins are shown above.}
+\label{BsMassPt}
+\end{center}
+\end{figure}
+
+Figure \ref{BsMassCent} shows the fitting results of $B^0_s$ in the centrality range of [0, 30, 90] in PbPb collisions.  
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/data_PbPb_1_BptNew_1050_doubly0_0_30EffInfoTreeFit.pdf}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/data_PbPb_1_BptNew_1050_doubly0_30_90EffInfoTreeFit.pdf}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/data_PbPb_1_BptNew_1050_doubly0_0_90EffInfoTreeFit.pdf}
+\caption{The $B^0_s$ invariant mass distributions as well as the fits to extract the signal raw yield $N_{S}$ in different centrality bins are shown above.}
+\label{BsMassCent}
+\end{center}
+\end{figure}
+
+Figure \ref{BPMassPt} shows the fitting results of $B^+$ in the $p_T$ range of [7, 10, 15, 20, 50] GeV/c.  
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/data_PbPb_1_Bpt_710_doubly0_0_90_ntKp.pdf}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/data_PbPb_2_Bpt_1015_doubly0_0_90_ntKp.pdf}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/data_PbPb_3_Bpt_1520_doubly0_0_90_ntKp.pdf}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/data_PbPb_4_Bpt_2050_doubly0_0_90_ntKp.pdf}
+\caption{The $B^+$ invariant mass distributions as well as the fits to extract the signal raw yield $N_{S}$ in different $p_T$ bins are shown above.}
+\label{BPMassPt}
+\end{center}
+\end{figure}
+
+Figure \ref{BPMassCent} shows the fitting results of $B^0_s$ in the centrality range of [0, 30, 90] in PbPb collisions.  
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/data_PbPb_1_Bpt_1050_doubly0_0_30_ntKp.pdf}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/data_PbPb_1_Bpt_1050_doubly0_30_90_ntKp.pdf}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/data_PbPb_1_Bpt_1050_doubly0_0_90_ntKp.pdf}
+\caption{The $B^+$ invariant mass distributions as well as the fits to extract the signal raw yield $N_{S}$ in different centrality bins are shown above.}
+\label{BPMassCent}
+\end{center}
+\end{figure}
+
+Table \ref{BsRawYield} and \ref{BPRawYield} below summarize the selected fit parameters and their error extracted from the fits of $B^0_s$ and $B^+$ respectfully
+
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The summary table of $B^0_s$ fits results of Gaussian mean, signal raw yield, and background raw yield as well as their uncertainties.}
+\vspace{1em}
+\label{BsRawYield}
+  \begin{tabular}{ |c|c|c|c|c|}
+    \hline 
+Centrality (\%) & $B^0_s$ $p_T$ (GeV/c) & Gaus Mean (GeV/c$^2$) & Sig Yield ($N_S$) & Bkgd Yield ($N_B$) \\
+     \hline
+0 -- 90 & 7 -- 10 & 5.386 $\pm$ 0.007 & 5.94 $\pm$ 2.43 & 1.06 $\pm$ 1.03 \\
+0 -- 90 & 10 -- 15 & 5.368 $\pm$ 0.003 & 23.41 $\pm$ 5.28 & 35.59 $\pm$ 6.28 \\
+0 -- 90 & 15 -- 20 & 5.369 $\pm$ 0.002 & 26.70 $\pm$ 5.31 & 16.33 $\pm$ 4.20 \\
+0 -- 90 & 20 -- 50 & 5.371 $\pm$ 0.003 & 30.19 $\pm$ 5.73 & 16.82 $\pm$ 4.39 \\
+0 -- 30 & 10 -- 50 & 5.369 $\pm$ 0.002 & 54.64 $\pm$ 7.86 & 60.35 $\pm$ 8.19 \\
+30 -- 90 & 10 -- 50 & 5.370 $\pm$ 0.003 & 29.88 $\pm$ 5.58 & 10.13 $\pm$ 3.37 \\
+0 -- 90 & 10 -- 50 & 5.369 $\pm$ 0.002 & 80.25 $\pm$ 9.43 & 68.74 $\pm$ 8.79 \\
+     \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The summary table of $B^+$ fits results of Gaussian mean, signal raw yield, and background raw yield as well as their uncertainties.}
+\vspace{1em}
+\label{BPRawYield}
+  \begin{tabular}{ |c|c|c|c|c|}
+    \hline 
+Centrality (\%) & $B^+$ $p_T$ (GeV/c) & Gaus Mean (GeV/c$^2$) & Sig Yield ($N_S$) & Bkgd Yield ($N_B$) \\
+     \hline
+0 -- 90 & 7 -- 10 & 5.277 $\pm$ 0.004 & 92.33 $\pm$ 10.88 & 7.90 $\pm$ 2.33 \\
+0 -- 90 & 10 -- 15 & 5.279 $\pm$ 0.001 & 354.6 $\pm$ 20.68 & 39.9 $\pm$ 6.28 \\
+0 -- 90 & 15 -- 20 & 5.279 $\pm$ 0.001 & 26.70 $\pm$ 5.31 & 16.33 $\pm$ 4.20 \\
+0 -- 90 & 20 -- 50 & 5.278 $\pm$ 0.001 & 30.19 $\pm$ 5.73 & 16.82 $\pm$ 4.39 \\
+0 -- 30 & 10 -- 50 & 5.278 $\pm$ 0.001 & 657.7 $\pm$ 27.7 & 53.46 $\pm$ 5.28 \\
+30 -- 90 & 10 -- 50 & 5.281 $\pm$ 0.001 & 327.0 $\pm$ 19.5 & 19.57 $\pm$ 4.69 \\
+0 -- 90 & 10 -- 50 & 5.279 $\pm$ 0.001 & 971.6 $\pm$ 33.9 & 74.16 $\pm$ 6.91 \\
+     \hline
+ \end{tabular}
+\end{center}
+\end{table}
+
+At a glance, we can see that our fits looks good. In addition to the fits, the pull, defined as the ratio of the difference between the data and the fit to the statistical uncertainties of the data, are also shown above in Figure \ref{BsMassPt,BsMassCent,BPMassPt,BPMassCent}. We can see that the pull is basically consistent with 0 with a 2 $\sigma$ fluctuation, which suggests that our fit also looks good. A dedicated closure test on the fits will be conduct later to further validate our fits.
+
 \subsection{Signal Significance Estimation}
+
+The significance (Z) is calculated through a likelihood method, which follows the formula below:
+
+\begin{equation}
+Z=\sqrt{ 2 \log \frac{L_{S+B}}{L_B}}
+\end{equation}
+
+Here, $L_{S+B}$ is the likelihood of each fit and $L_B$ is the likelihood when the number of signal $N_S$ parameter is fixed to 0. Figure \ref{BsSigScan} show the likelihood scan of $B^0_s$ in 4 $p_T$ bins and 3 centrality bins
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/sigscan_0_90_7_10.png}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/sigscan_0_90_10_15.png}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/sigscan_0_90_15_20.png}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/sigscan_0_90_20_50.png}
+\caption{The significance vs signal yield for $p_T$ bins at 7 -- 10, 10 -- 15, 15 -- 20, and 20 -- 50 GeV/c for 0 - 90\% centrality are shown above}
+\label{BsSigScan}
+\end{center}
+\end{figure}
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/sigscan_0_30_10_50.png}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/sigscan_30_90_10_50.png}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/sigscan_0_90_10_50.png}
+\caption{The significance vs signal yield for centrality bins in 0 - 30\%, 30\% - 90\% 0 - 90\% for $p_T$ in 10 - 50 GeV/c are shown above}
+\label{fig:SigScanCent}
+\end{center}
+\end{figure}
+
+
+
+Table \ref{BsSig} summarizes the significance of $B^0_s$ according to our likelihood estimation.
+
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The summary table of $B^0_s$ likelihood significance for each $p_T$ and centrality bin.}
+\vspace{1em}
+\label{BsSig}
+  \begin{tabular}{ |c|c|c|}
+    \hline 
+Centrality (\%) & $B^0_s$ $p_T$ (GeV/c) & Likelihood Significance (Z)  \\
+     \hline
+0 -- 90 & 7 -- 10 & 5.3 \\
+0 -- 90 & 10 -- 15 & 7.9 \\
+0 -- 90 & 15 -- 20 & 10 \\
+0 -- 90 & 20 -- 50 & 10 \\
+0 -- 30 & 10 -- 50 &  14 \\
+30 -- 90 & 10 -- 50 &  11\\
+0 -- 90 & 10 -- 50 & 16 \\
+     \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+We can see that $B^0_s$ have significances of greater than 5$\sigma$ for all its $p_T$ and centrality bins. In fact, this is the first observation of fully reconstructed $B^0_s$ meson in nucleus-nucleus collision with greater than 5$\sigma$ significance. 
+
+\section{B Mesons Candidates MC-Data Comparison}
+
+Ideally, if the simulation is impeccable, the RECO distribution in the MC should match perfectly with data. Nevertheless, there is always limitation in the MC simulation because the incorrect model of physics processes in the generation side or poor model of detector conditions the in the reconstruction side. The discrepancy should be quantified as a source systematic uncertainties. The MC simulation plays a crucial role in the data analysis and could affect our final results significantly. In order to compare the consistency between data and MC, we need to look at the B-meson signal only candidates. In the MC, we can simply apply GEN Match selection to select all B-meson signal candidates. In the data, we need to reject the background and extract the signal. After that, we compare the normalized distributions of the data and MC to compare their shapes. 
+
+To carry out MC-Data comparison studies, the dedicated \textit{Splot} method is used. This is a likelihood-based method by which we reweigh the data using the unbinned fit result. The weights are added to the dataset based on model and yield extraction variables. Each event has two weights: probability of belonging to the signal given its mass, probability of belonging to the background given its mass. The \textit{Splot} class gives us the distributions of our variables for a given species (signal or background). The advantage of using this method is that we use the full dataset for the comparison in contrast to the sideband subtraction method where one should select the investigation range of signal and background. Furthermore, we use likelihood to describe events' behavior in contrast to the potential misidentification of signal events in background region which might occur in sideband subtraction method. 
+
+First, in order to apply Splot, we need to confirm our variables are indeed not correlated to the invariant mass. Therefore, the correlation matrices for BDT variables vs $B^+$ invariant mass (Bmass) for data and MC are shown in Figure~\ref{BPBDTCorr}:
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/BsBDTCorrB.pdf}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/BsBDTCorrB.pdf}
+\caption{The correlation matrices in data (left) and MC (right) of $B^0_s$ are shown above.}
+\label{BsBDTCorr}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/BPBDTCorrB.pdf}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/BPBDTCorrS.pdf}
+\caption{The correlation matrices in data (left) and MC (right) of $B^+$ are shown above.}
+\label{BPBDTCorr}
+\end{center}
+\end{figure}
+
+
+No significant correlation between the BDT variables and the invariant mass is observed in either $B^0_s$ and $B^+$, which also validate their BDT trainings. Therefore, Splot will be applicable to compare data and MC. Here, we focus on BDT values that are directly used in our signal extraction and related to MC distribution validation, rather than the variables themselves used in BDT training. In a wide ranges of BDT, the two distributions show good agreement. We only focus on the region where BDT is greater than the working point and is smaller than the maximum value that candidates have.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/Bs_BDT_5_10.png}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/Bs_BDT_10_15.png}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/Bs_BDT_15_20.png}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/Bs_BDT_20_50.png}
+\caption{Comparison of $B^0_s$ BDT distribution in data (red) and MC (green) using Splot method.}
+\label{BsMCData}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/BDT_pt_5_7_mc_validation_Bu.pdf}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/BDT_pt_7_10_mc_validation_Bu.pdf}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/BDT_pt_10_15_mc_validation_Bu.pdf}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/BDT_pt_15_20_mc_validation_Bu.pdf}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/BDT_pt_20_30_mc_validation_Bu.pdf}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/BDT_pt_30_40_mc_validation_Bu.pdf}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/BDT_pt_40_50_mc_validation_Bu.pdf}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/BDT_pt_50_60_mc_validation_Bu.pdf}
+\caption{Comparison of $B^+$ BDT distribution in data (red) and MC (green) using Splot method.}
+\label{BPMCData}
+\end{center}
+\end{figure}
+
+From Figure \ref{BPMCData}, the $B^+$ BDT variables in for all $p_T$ bins have overall reasonably good agreement between Data and MC. Their ratio is near unity with some fluctuations due to limited statistics. In the systematic section, we will quantify the discrepancy between Data and MC as a source of systematic uncertainties. For $B^0_s$, unlike $B^+$ whose statistics is in general $>$ 100, the total number of signal $B^0_s$ candidate is $<$ 100, which results in large error bar shown in Figure \ref{BsMCData}. Nonetheless, the ratio of Data to MC shape is still near unity within the large uncertainties. Nevertheless, since the events used by $B^0_s$ and $B^+$ are essentially the same and their tracks are very similar, the overall good $B^+$ Data-MC agreement can provide indirect validation to $B^0_s$. The CMS analysis note AN-19-219 \cite{AN-19-219} documents more details on general description of \textit{Splot} method applied to this analysis.  
 
 
 \section{Acceptance and Efficiency Correction} 
 
+Now, we have clearly seen B-meson signals and extract their signal raw yields $N_S$ from their invariant distributions. We are ready to correct the acceptance and selection efficiency of the B mesons. Before we start, we donate acceptance as \textbf{$\alpha$} and selection efficiency as \textbf{$\epsilon$}. Their product, which is \textbf{$\alpha \times \epsilon$}, is call (total) efficiency.
+
 \subsection{Analysis Challenges}
+
+One major challenge of acceptance 
 
 \subsection{Fiducial Measurement}
 
@@ -852,7 +1261,7 @@ Ideally, if the simulation is impeccable, the RECO distribution in the MC should
 
 \subsection{Efficiency Closure}
 
-\subsection{sPlot Closure}
+\subsection{\textit{Splot} Closure}
 
 
 \section{Statistical Uncertainties Determination} 

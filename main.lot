@@ -2,14 +2,18 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces List of PbPb HLT datasets and triggers with the corresponding integrated luminosities used in the analysis.}}{139}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Summary table of the total number of MB events vs centrality}}{147}
-\contentsline {table}{\numberline {4.3}{\ignorespaces Summary table of the total number of MB events vs centrality is shown below. The uncertainties are represented in terms of percentage in the parenthesis.}}{148}
-\contentsline {table}{\numberline {4.4}{\ignorespaces Summary table of the muon acceptance selection for muon: $|\eta ^\mu |$ as a function $p_T^\mu $.}}{152}
-\contentsline {table}{\numberline {4.5}{\ignorespaces The comparison of the traditional rectangular selections to MVA for Figure 4-23\hbox {}.}}{157}
-\contentsline {table}{\numberline {4.6}{\ignorespaces The comparison of the traditional rectangular selections to MVA for Figure 4-23\hbox {}.}}{165}
+\contentsline {table}{\numberline {4.1}{\ignorespaces List of PbPb HLT datasets and triggers with the corresponding integrated luminosities used in the analysis.}}{141}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Summary table of the total number of MB events vs centrality}}{149}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Summary table of the total number of MB events vs centrality is shown below. The uncertainties are represented in terms of percentage in the parenthesis.}}{150}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Summary table of the muon acceptance selection for muon: $|\eta ^\mu |$ as a function $p_T^\mu $.}}{154}
+\contentsline {table}{\numberline {4.5}{\ignorespaces The comparison of the traditional rectangular selections to MVA for Figure 4-16\hbox {}.}}{160}
+\contentsline {table}{\numberline {4.6}{\ignorespaces The summary of optimal BDT selection maximizing the $B^0_s$ statistical significance.}}{168}
+\contentsline {table}{\numberline {4.7}{\ignorespaces The comparison of the traditional rectangular selections to MVA for Figure 4-16\hbox {}.}}{169}
+\contentsline {table}{\numberline {4.8}{\ignorespaces The summary table of $B^0_s$ fits results of Gaussian mean, signal raw yield, and background raw yield as well as their uncertainties.}}{184}
+\contentsline {table}{\numberline {4.9}{\ignorespaces The summary table of $B^+$ fits results of Gaussian mean, signal raw yield, and background raw yield as well as their uncertainties.}}{184}
+\contentsline {table}{\numberline {4.10}{\ignorespaces The summary table of $B^0_s$ likelihood significance for each $p_T$ and centrality bin.}}{187}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Armadillos}}{173}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Armadillos}}{195}
 \addvspace {10\p@ }
