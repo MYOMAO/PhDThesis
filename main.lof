@@ -125,11 +125,15 @@
 \contentsline {figure}{\numberline {4-38}{\ignorespaces The significance vs signal yield for centrality bins in 0 - 30\%, 30\% - 90\% 0 - 90\% for $p_T$ in 10 - 50 GeV/c are shown above}}{186}
 \contentsline {figure}{\numberline {4-39}{\ignorespaces The correlation matrices in data (left) and MC (right) of $B^0_s$ are shown above.}}{188}
 \contentsline {figure}{\numberline {4-40}{\ignorespaces The correlation matrices in data (left) and MC (right) of $B^+$ are shown above.}}{189}
-\contentsline {figure}{\numberline {4-41}{\ignorespaces Comparison of $B^0_s$ BDT distribution in data (red) and MC (green) using Splot method.}}{189}
-\contentsline {figure}{\numberline {4-42}{\ignorespaces Comparison of $B^+$ BDT distribution in data (red) and MC (green) using Splot method.}}{190}
+\contentsline {figure}{\numberline {4-41}{\ignorespaces Comparison of $B^0_s$ BDT distribution in data (red) and MC (green) using Splot method.}}{190}
+\contentsline {figure}{\numberline {4-42}{\ignorespaces Comparison of $B^+$ BDT distribution in data (red) and MC (green) using Splot method.}}{194}
+\contentsline {figure}{\numberline {4-43}{\ignorespaces The workflow to obtain L2 and L3 muons in order to apply tag-\&-probe method.}}{195}
+\contentsline {figure}{\numberline {4-44}{\ignorespaces The $B^0_s$ acceptance (top), selection efficiency (middle), and efficiency (bottom) as a function of $p_T$ (left) and event centrality (right) are shown respectfully above. We should note that there is no significant centrality dependence on the $B^0_s$ acceptance, which makes sense.}}{196}
+\contentsline {figure}{\numberline {4-45}{\ignorespaces The $B^+$ acceptance (top), selection efficiency (middle), and efficiency (bottom) as a function of $p_T$ (left) and event centrality (right) are shown respectfully above. We should note that there is no significant centrality dependence on the $B^+$ acceptance, which makes sense.}}{197}
+\contentsline {figure}{\numberline {4-46}{\ignorespaces The workflow for the efficiency correction including the data driven tag-and-probe approach in B-meson analysis is shown above.}}{198}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B-1}{\ignorespaces Armadillo slaying lawyer.}}{197}
-\contentsline {figure}{\numberline {B-2}{\ignorespaces Armadillo eradicating national debt.}}{198}
+\contentsline {figure}{\numberline {B-1}{\ignorespaces Armadillo slaying lawyer.}}{205}
+\contentsline {figure}{\numberline {B-2}{\ignorespaces Armadillo eradicating national debt.}}{206}

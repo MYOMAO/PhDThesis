@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 JUL 2021 14:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  26 JUL 2021 22:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -185,10 +185,16 @@ LaTeX Warning: Label `CMSTrackFDWF' multiply defined.
 LaTeX Warning: Label `MuonAccPlot' multiply defined.
 
 
-LaTeX Warning: Label `Boosting' multiply defined.
-
-
 LaTeX Warning: Label `BsSig' multiply defined.
+
+
+LaTeX Warning: Label `BPMCData' multiply defined.
+
+
+LaTeX Warning: Label `BPMCData' multiply defined.
+
+
+LaTeX Warning: Label `BsMCData' multiply defined.
 
 ) (./chap5.aux) (./chap6.aux) (./appa.aux) (./appb.aux) (./nomenclature.aux)
 (./biblio.aux))
@@ -367,17 +373,17 @@ File: Figures/Chapter1/SMParticles.png Graphic file (type png)
 Package pdftex.def Info: Figures/Chapter1/SMParticles.png used on input line 18
 .
 (pdftex.def)             Requested size: 216.81pt x 162.94292pt.
- [31] [32 <./Figures/Chapter1/SMParticles.png>] <Figures/Chapter1/QCDCoupling.p
-ng, id=127, 592.2125pt x 599.23875pt>
+ [31]
+Underfull \vbox (badness 2205) has occurred while \output is active []
+
+ [32 <./Figures/Chapter1/SMParticles.png>]
+<Figures/Chapter1/QCDCoupling.png, id=127, 592.2125pt x 599.23875pt>
 File: Figures/Chapter1/QCDCoupling.png Graphic file (type png)
 
 <use Figures/Chapter1/QCDCoupling.png>
 Package pdftex.def Info: Figures/Chapter1/QCDCoupling.png used on input line 65
 .
 (pdftex.def)             Requested size: 216.81pt x 219.38324pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [33]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1768,12 +1774,7 @@ Underfull \vbox (badness 1320) has occurred while \output is active []
 
  [160 <./Figures/Chapter4/Rectangular.pdf, page is rotated 90 degrees> <./Figur
 es/Chapter4/MVA.pdf, page is rotated 90 degrees>] [161 <./Figures/Chapter4/MLPr
-oblemsNew.png>]
-
-LaTeX Warning: Reference `SigBackRegion' on page 162 undefined on input line 63
-6.
-
-<Figures/Chapter4/BsData.png, id=1693, 598.235pt x 574.145pt>
+oblemsNew.png>] <Figures/Chapter4/BsData.png, id=1693, 598.235pt x 574.145pt>
 File: Figures/Chapter4/BsData.png Graphic file (type png)
 
 <use Figures/Chapter4/BsData.png>
@@ -2573,63 +2574,220 @@ igscan_0_90_20_50.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [186 <./Figures/Chapter4/sigscan_0_30_10_50.png> <./Figures/Chapter4/sigscan_3
-0_90_10_50.png> <./Figures/Chapter4/sigscan_0_90_10_50.png>])
+0_90_10_50.png> <./Figures/Chapter4/sigscan_0_90_10_50.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [187]
-Overfull \vbox (612.75784pt too high) has occurred while \output is active []
+Overfull \hbox (18.91791pt too wide) in paragraph at lines 1279--1280
+[]\T1/cmr/m/n/12 The se-lec-tion ef-fi-ciency is de-fined by: \T1/cmr/bx/n/12 s
+e-lec-tion ef-fi-ciency = NSel-Pass/NPassAcc\T1/cmr/m/n/12 . 
+ []
+
+[188 <./Figures/Chapter4/BsBDTCorrB.pdf>]
+<Figures/Chapter4/L2L3MuonWF.pdf, id=3201, 722.7pt x 542.025pt>
+File: Figures/Chapter4/L2L3MuonWF.pdf Graphic file (type pdf)
+
+<use Figures/Chapter4/L2L3MuonWF.pdf>
+Package pdftex.def Info: Figures/Chapter4/L2L3MuonWF.pdf used on input line 129
+0.
+(pdftex.def)             Requested size: 368.57964pt x 276.43736pt.
 
 
-[188 <./Figures/Chapter4/BsBDTCorrB.pdf>] [189 <./Figures/Chapter4/BPBDTCorrB.p
-df> <./Figures/Chapter4/BPBDTCorrS.pdf> <./Figures/Chapter4/Bs_BDT_5_10.png> <.
-/Figures/Chapter4/Bs_BDT_10_15.png> <./Figures/Chapter4/Bs_BDT_15_20.png> <./Fi
-gures/Chapter4/Bs_BDT_20_50.png>] [190 <./Figures/Chapter4/BDT_pt_5_7_mc_valida
-tion_Bu.pdf, page is rotated 90 degrees> <./Figures/Chapter4/BDT_pt_7_10_mc_val
-idation_Bu.pdf, page is rotated 90 degrees> <./Figures/Chapter4/BDT_pt_10_15_mc
-_validation_Bu.pdf, page is rotated 90 degrees> <./Figures/Chapter4/BDT_pt_15_2
-0_mc_validation_Bu.pdf, page is rotated 90 degrees> <./Figures/Chapter4/BDT_pt_
-20_30_mc_validation_Bu.pdf, page is rotated 90 degrees> <./Figures/Chapter4/BDT
-_pt_30_40_mc_validation_Bu.pdf, page is rotated 90 degrees> <./Figures/Chapter4
-/BDT_pt_40_50_mc_validation_Bu.pdf, page is rotated 90 degrees> <./Figures/Chap
-ter4/BDT_pt_50_60_mc_validation_Bu.pdf, page is rotated 90 degrees>]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[189 <./Figures/Chapter4/BPBDTCorrB.pdf> <./Figures/Chapter4/BPBDTCorrS.pdf>]
+
+LaTeX Warning: Reference `BsEffAll' on page 190 undefined on input line 1306.
+
+
+LaTeX Warning: Reference `BPEffAll' on page 190 undefined on input line 1306.
+
+<Figures/Chapter4/BsAcc1DPtHis.png, id=3268, 598.235pt x 574.145pt>
+File: Figures/Chapter4/BsAcc1DPtHis.png Graphic file (type png)
+
+<use Figures/Chapter4/BsAcc1DPtHis.png>
+Package pdftex.def Info: Figures/Chapter4/BsAcc1DPtHis.png used on input line 1
+310.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+<Figures/Chapter4/BsAcc1DCentHis.png, id=3269, 598.235pt x 574.145pt>
+File: Figures/Chapter4/BsAcc1DCentHis.png Graphic file (type png)
+
+<use Figures/Chapter4/BsAcc1DCentHis.png>
+Package pdftex.def Info: Figures/Chapter4/BsAcc1DCentHis.png used on input line
+ 1311.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+<Figures/Chapter4/BsSel1DPtHis.png, id=3270, 598.235pt x 574.145pt>
+File: Figures/Chapter4/BsSel1DPtHis.png Graphic file (type png)
+
+<use Figures/Chapter4/BsSel1DPtHis.png>
+Package pdftex.def Info: Figures/Chapter4/BsSel1DPtHis.png used on input line 1
+312.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+<Figures/Chapter4/BsSel1DCentHis.png, id=3271, 598.235pt x 574.145pt>
+File: Figures/Chapter4/BsSel1DCentHis.png Graphic file (type png)
+
+<use Figures/Chapter4/BsSel1DCentHis.png>
+Package pdftex.def Info: Figures/Chapter4/BsSel1DCentHis.png used on input line
+ 1313.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+<Figures/Chapter4/BsEff1DPtHis.png, id=3272, 598.235pt x 574.145pt>
+File: Figures/Chapter4/BsEff1DPtHis.png Graphic file (type png)
+
+<use Figures/Chapter4/BsEff1DPtHis.png>
+Package pdftex.def Info: Figures/Chapter4/BsEff1DPtHis.png used on input line 1
+314.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+<Figures/Chapter4/BsEff1DCentHis.png, id=3273, 598.235pt x 574.145pt>
+File: Figures/Chapter4/BsEff1DCentHis.png Graphic file (type png)
+
+<use Figures/Chapter4/BsEff1DCentHis.png>
+Package pdftex.def Info: Figures/Chapter4/BsEff1DCentHis.png used on input line
+ 1315.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+
+LaTeX Warning: Float too large for page by 34.16339pt on input line 1319.
+
+[190 <./Figures/Chapter4/Bs_BDT_5_10.png> <./Figures/Chapter4/Bs_BDT_10_15.png>
+ <./Figures/Chapter4/Bs_BDT_15_20.png> <./Figures/Chapter4/Bs_BDT_20_50.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/Chapter4/BPAcc1DPtHis.png, id=3281, 598.235pt x 574.145pt>
+File: Figures/Chapter4/BPAcc1DPtHis.png Graphic file (type png)
+
+<use Figures/Chapter4/BPAcc1DPtHis.png>
+Package pdftex.def Info: Figures/Chapter4/BPAcc1DPtHis.png used on input line 1
+324.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+<Figures/Chapter4/BPAcc1DCentHis.png, id=3282, 598.235pt x 574.145pt>
+File: Figures/Chapter4/BPAcc1DCentHis.png Graphic file (type png)
+
+<use Figures/Chapter4/BPAcc1DCentHis.png>
+Package pdftex.def Info: Figures/Chapter4/BPAcc1DCentHis.png used on input line
+ 1325.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+<Figures/Chapter4/BPSel1DPtHis.png, id=3283, 598.235pt x 574.145pt>
+File: Figures/Chapter4/BPSel1DPtHis.png Graphic file (type png)
+
+<use Figures/Chapter4/BPSel1DPtHis.png>
+Package pdftex.def Info: Figures/Chapter4/BPSel1DPtHis.png used on input line 1
+326.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+<Figures/Chapter4/BPSel1DCentHis.png, id=3284, 598.235pt x 574.145pt>
+File: Figures/Chapter4/BPSel1DCentHis.png Graphic file (type png)
+
+<use Figures/Chapter4/BPSel1DCentHis.png>
+Package pdftex.def Info: Figures/Chapter4/BPSel1DCentHis.png used on input line
+ 1327.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+<Figures/Chapter4/BPEff1DPtHis.png, id=3285, 598.235pt x 574.145pt>
+File: Figures/Chapter4/BPEff1DPtHis.png Graphic file (type png)
+
+<use Figures/Chapter4/BPEff1DPtHis.png>
+Package pdftex.def Info: Figures/Chapter4/BPEff1DPtHis.png used on input line 1
+328.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+<Figures/Chapter4/BPEff1DCentHis.png, id=3286, 598.235pt x 574.145pt>
+File: Figures/Chapter4/BPEff1DCentHis.png Graphic file (type png)
+
+<use Figures/Chapter4/BPEff1DCentHis.png>
+Package pdftex.def Info: Figures/Chapter4/BPEff1DCentHis.png used on input line
+ 1329.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+
+LaTeX Warning: Float too large for page by 34.16339pt on input line 1333.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[191]
+
+LaTeX Warning: Reference `EffWorkFlow' on page 192 undefined on input line 1372
+.
+
+<Figures/Chapter4/EffCorrMethod.pdf, id=3290, 722.7pt x 542.025pt>
+File: Figures/Chapter4/EffCorrMethod.pdf Graphic file (type pdf)
+
+<use Figures/Chapter4/EffCorrMethod.pdf>
+Package pdftex.def Info: Figures/Chapter4/EffCorrMethod.pdf used on input line 
+1377.
+(pdftex.def)             Requested size: 368.57964pt x 276.43736pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [192]
+Overfull \vbox (187.99811pt too high) has occurred while \output is active []
+
+
+[193] [194 <./Figures/Chapter4/BDT_pt_5_7_mc_validation_Bu.pdf, page is rotated
+ 90 degrees> <./Figures/Chapter4/BDT_pt_7_10_mc_validation_Bu.pdf, page is rota
+ted 90 degrees> <./Figures/Chapter4/BDT_pt_10_15_mc_validation_Bu.pdf, page is 
+rotated 90 degrees> <./Figures/Chapter4/BDT_pt_15_20_mc_validation_Bu.pdf, page
+ is rotated 90 degrees> <./Figures/Chapter4/BDT_pt_20_30_mc_validation_Bu.pdf, 
+page is rotated 90 degrees> <./Figures/Chapter4/BDT_pt_30_40_mc_validation_Bu.p
+df, page is rotated 90 degrees> <./Figures/Chapter4/BDT_pt_40_50_mc_validation_
+Bu.pdf, page is rotated 90 degrees> <./Figures/Chapter4/BDT_pt_50_60_mc_validat
+ion_Bu.pdf, page is rotated 90 degrees>] [195 <./Figures/Chapter4/L2L3MuonWF.pd
+f>] [196 <./Figures/Chapter4/BsAcc1DPtHis.png> <./Figures/Chapter4/BsAcc1DCentH
+is.png> <./Figures/Chapter4/BsSel1DPtHis.png> <./Figures/Chapter4/BsSel1DCentHi
+s.png> <./Figures/Chapter4/BsEff1DPtHis.png> <./Figures/Chapter4/BsEff1DCentHis
+.png>] [197 <./Figures/Chapter4/BPAcc1DPtHis.png> <./Figures/Chapter4/BPAcc1DCe
+ntHis.png> <./Figures/Chapter4/BPSel1DPtHis.png> <./Figures/Chapter4/BPSel1DCen
+tHis.png> <./Figures/Chapter4/BPEff1DPtHis.png> <./Figures/Chapter4/BPEff1DCent
+His.png>] [198 <./Figures/Chapter4/EffCorrMethod.pdf>]
 \openout2 = `chap5.aux'.
 
-
-(./chap5.tex
+ (./chap5.tex
 Chapter 5.
-) [191
+) [199
 
 
 
 ]
 \openout2 = `chap6.aux'.
 
- (./chap6.tex [192
+ (./chap6.tex [200
 
 
 
 ]
 Chapter 6.
-) [193]
+) [201]
 \openout2 = `appa.aux'.
 
- (./appa.tex [194
+ (./appa.tex [202
 
 
 
 ]
 Appendix A.
-[195])
+[203])
 \openout2 = `appb.aux'.
 
- (./appb.tex [196
+ (./appb.tex [204
 
 
 
 
 ]
 Appendix B.
-[197] [198])
+[205] [206])
 \openout2 = `nomenclature.aux'.
 
  (./nomenclature.tex
@@ -2638,38 +2796,38 @@ Appendix B.
 
 
 Writing nomenclature file main.nlo
-(./main.nls [199
+(./main.nls [207
 
 
 
 
-] [200
+] [208
 
-])) (./main.nls [201] [202
+])) (./main.nls [209] [210
 
-]) [203]
+]) [211]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex [204
+ (./biblio.tex [212
 
 
 
 ]
-[205] [206] [207] [208] [209] [210] [211]
-Underfull \hbox (badness 1728) in paragraph at lines 106--107
+[213] [214] [215] [216] [217] [218] [219]
+Underfull \hbox (badness 1728) in paragraph at lines 107--108
 []\T1/cmr/m/n/12 B. B. Back, ``Stud-ies of mul-ti-plic-ity in rel-a-tivis-tic h
 eavy-ion col-li-sions'',
  []
 
-[212] [213] [214] [215] [216] [217] [218] [219] [220]
-Underfull \hbox (badness 6188) in paragraph at lines 236--237
+[220] [221] [222] [223] [224] [225] [226] [227] [228]
+Underfull \hbox (badness 6188) in paragraph at lines 237--238
 []\T1/cmr/m/n/12 A. Penzo and Y. Onel, ``The CMS-HF quartz fiber calorime-ters'
 ',
  []
 
-[221] [222]
+[229] [230]
 No file main.bbl.
-) [223] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+) [231] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
 (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./appa.aux)
 (./appb.aux) (./nomenclature.aux) (./biblio.aux))
 
@@ -2681,10 +2839,10 @@ LaTeX Warning: There were multiply-defined labels.
  )
 (\end occurred when \ifx on line 56 was incomplete) 
 Here is how much of TeX's memory you used:
- 4441 strings out of 493089
- 80266 string characters out of 6134842
- 120985 words of memory out of 5000000
- 7481 multiletter control sequences out of 15000+600000
+ 4519 strings out of 493089
+ 82769 string characters out of 6134842
+ 122460 words of memory out of 5000000
+ 7545 multiletter control sequences out of 15000+600000
  23519 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,14n,23p,1571b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2720,10 +2878,10 @@ sr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
-Output written on main.pdf (223 pages, 17904286 bytes).
+Output written on main.pdf (231 pages, 18713450 bytes).
 PDF statistics:
- 3828 PDF objects out of 4296 (max. 8388607)
- 1880 compressed objects within 19 object streams
+ 4324 PDF objects out of 5155 (max. 8388607)
+ 2153 compressed objects within 22 object streams
  0 named destinations out of 1000 (max. 500000)
- 1046 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1116 words of extra memory for PDF output out of 10000 (max. 10000000)
 

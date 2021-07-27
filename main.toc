@@ -123,43 +123,45 @@
 \contentsline {subsection}{\numberline {4.8.3}Signal Significance Estimation}{180}
 \contentsline {section}{\numberline {4.9}B Mesons Candidates MC-Data Comparison}{182}
 \contentsline {section}{\numberline {4.10}Acceptance and Efficiency Correction}{187}
-\contentsline {subsection}{\numberline {4.10.1}Analysis Challenges}{187}
-\contentsline {subsection}{\numberline {4.10.2}Fiducial Measurement}{188}
-\contentsline {subsection}{\numberline {4.10.3}Fine 2D Efficiency Map}{188}
-\contentsline {subsection}{\numberline {4.10.4}Data-Drive Efficiency Correction}{188}
-\contentsline {subsection}{\numberline {4.10.5}Tag \& Probe Techniques}{188}
-\contentsline {subsection}{\numberline {4.10.6}Nominal Results}{188}
-\contentsline {section}{\numberline {4.11}Cross Section Results}{188}
-\contentsline {section}{\numberline {4.12}Validation Tests}{188}
-\contentsline {subsection}{\numberline {4.12.1}Mass Scraping Test}{188}
-\contentsline {subsection}{\numberline {4.12.2}Raw Yield Closure}{188}
-\contentsline {subsection}{\numberline {4.12.3}Efficiency Closure}{188}
-\contentsline {subsection}{\numberline {4.12.4}\textit {Splot} Closure}{188}
-\contentsline {section}{\numberline {4.13}Statistical Uncertainties Determination}{188}
-\contentsline {subsection}{\numberline {4.13.1}Data Bootstrapping}{188}
-\contentsline {subsection}{\numberline {4.13.2}Statistical Uncertainties Interpretation}{188}
-\contentsline {section}{\numberline {4.14}Systematic Uncertainties Estimation}{188}
-\contentsline {subsection}{\numberline {4.14.1}Global Observables}{188}
-\contentsline {subsection}{\numberline {4.14.2}Branching Ratios}{188}
-\contentsline {subsection}{\numberline {4.14.3}Tracking Efficiency}{188}
-\contentsline {subsection}{\numberline {4.14.4}Muon Efficiency}{188}
-\contentsline {subsection}{\numberline {4.14.5}Selection Efficiency}{188}
-\contentsline {subsection}{\numberline {4.14.6}Signal Extraction}{188}
-\contentsline {subsection}{\numberline {4.14.7}Summary}{188}
-\contentsline {section}{\numberline {4.15}Final Results}{188}
-\contentsline {subsection}{\numberline {4.15.1}$B^0_s$ and $B^{+}$ Cross Section}{188}
-\contentsline {subsection}{\numberline {4.15.2}$B^0_s/B^{+}$ Ratio}{188}
-\contentsline {subsection}{\numberline {4.15.3}$B^0_s$ and $B^{+}$ Nuclear Modification Factor}{188}
-\contentsline {chapter}{\numberline {5}Conclusions}{191}
-\contentsline {section}{\numberline {5.1}Comparison with Other Experiments and Theoretical Models}{191}
-\contentsline {section}{\numberline {5.2}Physics Messages Discussion}{191}
-\contentsline {section}{\numberline {5.3}Conclusions}{191}
-\contentsline {section}{\numberline {5.4}Future Outlooks}{191}
-\contentsline {chapter}{\numberline {6}Other Studies}{193}
-\contentsline {section}{\numberline {6.1}sPHENIX Heavy Flavor Physics Simulations}{193}
-\contentsline {section}{\numberline {6.2}sPHENIX Electromagnetic Calorimeter Studies}{193}
-\contentsline {section}{\numberline {6.3}EIC Electromagnetic Calorimeter R\&D}{193}
-\contentsline {chapter}{\numberline {A}Tables}{195}
-\contentsline {chapter}{\numberline {B}Figures}{197}
-\contentsline {chapter}{List of Symbols}{201}
-\contentsline {chapter}{Abbreviations}{203}
+\contentsline {subsection}{\numberline {4.10.1}Overview}{187}
+\contentsline {subsection}{\numberline {4.10.2}Tag \& Probe Techniques}{189}
+\contentsline {subsection}{\numberline {4.10.3}Traditional Efficiency Correction Results}{190}
+\contentsline {subsection}{\numberline {4.10.4}Analysis Challenges}{191}
+\contentsline {subsection}{\numberline {4.10.5}Fiducial Measurement}{192}
+\contentsline {subsection}{\numberline {4.10.6}Fine 2D Efficiency Map}{192}
+\contentsline {subsection}{\numberline {4.10.7}Data-Drive Efficiency Correction}{193}
+\contentsline {subsection}{\numberline {4.10.8}Nominal Results}{193}
+\contentsline {section}{\numberline {4.11}Cross Section Results}{193}
+\contentsline {section}{\numberline {4.12}Validation Tests}{193}
+\contentsline {subsection}{\numberline {4.12.1}Mass Scraping Test}{193}
+\contentsline {subsection}{\numberline {4.12.2}Raw Yield Closure}{193}
+\contentsline {subsection}{\numberline {4.12.3}Efficiency Closure}{193}
+\contentsline {subsection}{\numberline {4.12.4}\textit {Splot} Closure}{193}
+\contentsline {section}{\numberline {4.13}Statistical Uncertainties Determination}{193}
+\contentsline {subsection}{\numberline {4.13.1}Data Bootstrapping}{193}
+\contentsline {subsection}{\numberline {4.13.2}Statistical Uncertainties Interpretation}{193}
+\contentsline {section}{\numberline {4.14}Systematic Uncertainties Estimation}{193}
+\contentsline {subsection}{\numberline {4.14.1}Global Observables}{193}
+\contentsline {subsection}{\numberline {4.14.2}Branching Ratios}{193}
+\contentsline {subsection}{\numberline {4.14.3}Tracking Efficiency}{193}
+\contentsline {subsection}{\numberline {4.14.4}Muon Efficiency}{193}
+\contentsline {subsection}{\numberline {4.14.5}Selection Efficiency}{193}
+\contentsline {subsection}{\numberline {4.14.6}Signal Extraction}{193}
+\contentsline {subsection}{\numberline {4.14.7}Summary}{193}
+\contentsline {section}{\numberline {4.15}Final Results}{193}
+\contentsline {subsection}{\numberline {4.15.1}$B^0_s$ and $B^{+}$ Cross Section}{193}
+\contentsline {subsection}{\numberline {4.15.2}$B^0_s/B^{+}$ Ratio}{193}
+\contentsline {subsection}{\numberline {4.15.3}$B^0_s$ and $B^{+}$ Nuclear Modification Factor}{193}
+\contentsline {chapter}{\numberline {5}Conclusions}{199}
+\contentsline {section}{\numberline {5.1}Comparison with Other Experiments and Theoretical Models}{199}
+\contentsline {section}{\numberline {5.2}Physics Messages Discussion}{199}
+\contentsline {section}{\numberline {5.3}Conclusions}{199}
+\contentsline {section}{\numberline {5.4}Future Outlooks}{199}
+\contentsline {chapter}{\numberline {6}Other Studies}{201}
+\contentsline {section}{\numberline {6.1}sPHENIX Heavy Flavor Physics Simulations}{201}
+\contentsline {section}{\numberline {6.2}sPHENIX Electromagnetic Calorimeter Studies}{201}
+\contentsline {section}{\numberline {6.3}EIC Electromagnetic Calorimeter R\&D}{201}
+\contentsline {chapter}{\numberline {A}Tables}{203}
+\contentsline {chapter}{\numberline {B}Figures}{205}
+\contentsline {chapter}{List of Symbols}{209}
+\contentsline {chapter}{Abbreviations}{211}

@@ -640,7 +640,7 @@ Figure \ref{SigBackRegion} shows the definition of signal and background regions
 \includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BsData.png}
 \includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BPData.png}
 \caption{The definitions of signal (red band) and background region (blue band) in the fully reconstructed B-meson invariant distribution for $B^0_s$ (left) and $B^+$ (right) are shown above.}
-\label{Boosting}
+\label{SigBackRegion}
 \end{center}
 \end{figure}
 
@@ -1235,19 +1235,155 @@ From Figure \ref{BPMCData}, the $B^+$ BDT variables in for all $p_T$ bins have o
 
 \section{Acceptance and Efficiency Correction} 
 
-Now, we have clearly seen B-meson signals and extract their signal raw yields $N_S$ from their invariant distributions. We are ready to correct the acceptance and selection efficiency of the B mesons. Before we start, we donate acceptance as \textbf{$\alpha$} and selection efficiency as \textbf{$\epsilon$}. Their product, which is \textbf{$\alpha \times \epsilon$}, is call (total) efficiency.
+\subsection{Overview}
+
+Now, we have clearly seen B-meson signals and extract their signal raw yields $N_S$ from their invariant distributions. In the next step, we need to correct the acceptance and selection efficiency of the B mesons in order to obtain the cross section. The following procedures define the method we use to determine B mesons acceptance and selection efficiency with B-meson MC samples:
+
+First, We count the total number of GEN-level B meson candidates reweighed by the centrality, PVz, and $\hat p_T$ as \textbf{NBGen} within the given B-meson rapidity region $|y| < 2.4$.
+
+Next, we count the number of generated B meson candidates passing the follow selection 
+
+\textbf{Muon track selections:}
+
+\begin{equation}
+\centering
+\setlength\arraycolsep{20pt}
+\begin{array}{l c r r}
+p_T^{\mu}>3.5 GeV/c & & \text{for}\enspace |\eta^{\mu}|<1.2 & \\
+p_T^{\mu}>(5.47 - 1.89\times |\eta^{\mu}|) GeV/c & &  \text{for}\enspace 1.2\le |\eta^{\mu}|<2.1 &\\
+p_T^{\mu}>1.5 GeV/c & & \text{for}\enspace 2.1\le |\eta^{\mu}|<2.4 &
+\end{array}
+\label{eq:SingleMuonAccCuts}
+\end{equation}
+
+
+\textbf{Kaon track selections:}
+
+\begin{equation}
+\centering
+\setlength\arraycolsep{20pt}
+\begin{array}{l c r r}
+p_T^{K}>0.9 GeV/c \\
+|\eta^{K}| < 2.4
+\end{array}
+\label{eq:KaonTrackCut}
+\end{equation}
+
+to the generated B meson candidates denoted as \textbf{NPassAcc}.
+
+
+Finally, we apply all the selections on the GEN-matched RECO B mesons. We count the reconstructed B meson candidates passing the selections mentioned in Section 4.5 ``Muon and $J/\psi$ candidates selections" and the optimal BDT selections in Table 3 in Section 4.1 and denote the number as \textbf{NSelPass}.
+
+The acceptance is defined by: \textbf{acceptance = NPassAcc/NBGen}.
+
+The selection efficiency is defined by: \textbf{selection efficiency = NSelPass/NPassAcc}.
+
+Here, we denote $\alpha$ \textbf{as the acceptance} and $\epsilon$ \textbf{as the selection efficiency} andtheir product, which is \textbf{$\alpha \times \epsilon$ = NSelPass/NBGen}, is call (total) efficiency. 
+
+\subsection{Tag \& Probe Techniques}
+
+The previous subsection mentioned the efficiency correct for B-mesons using MC simulations only. However, we know that both $B^0_s$ and $B^+$ decay to $J/\psi$. A dedicated analysis techniques called tag \& probe is developed to correct the B-meson efficiency in data-driven way. The tag-\&-probe method uses the \textit{scale factor} defined the ratio of Data/MC for L2 and L3 triggered single muon efficiency tagged from the $J/\psi$ resonance \cite{TnPMethod}. There are three scale factors: identification (id), tracking (trk), and trigger (trg). Figure \ref{L2L3MuonWF} shows workflow for tag-\&-probe in B-meson analysis
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.85\textwidth]{Figures/Chapter4/L2L3MuonWF.pdf}
+\caption{The workflow to obtain L2 and L3 muons in order to apply tag-\&-probe method.}
+\label{L2L3MuonWF}
+\end{center}
+\end{figure}
+
+The total scale factor (SF) of two muons ($SF^{\mu\mu}$) is given by the following formula
+
+\begin{equation}
+SF^{\mu\mu} = id^{\mu_1} \times trk^{\mu_1}  \times trg^{\mu_1}  \times id^{\mu_2}  \times trk^{\mu_2}  \times trg^{\mu_2} 
+\end{equation}
+
+It should note that, as mentioned in Section 2.2.5, the dimuon PbPb triggered datasets consistent of one L2 muon and one L3 muon. In our analysis, the two muons used to reconstruct B-meson are made of either one L2 muon and one L3 muon (L2,L3) or two L3 muons (L3,L3). The muon type L2 and L3 only affects the trg SF. In the (L2,L3) case, we simply correct the scale factor according to their individual scale factor values. However, in the (L3,L3) case, we take treat them as the combination of (L2,L3) and (L3,L2) by considering one of the muon as L2 muon. Then we compute the SF for both cases and take the average of the two SF as the SF for  (L3,L3).  
+
+\subsection{Traditional Efficiency Correction Results}
+
+Traditionally, we simply compute the efficiency as a function of binned $p_T$ and centrality and use it to correct the signal raw yield within the $p_T$ and centrality bins. The $B^0_s$ and $B^+$ acceptance, selection efficiency, and total efficiency as a function of $p_T$ and centrality are shown respectfully below in Figure \ref{BsEffAll} and Figure \ref{BPEffAll}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter4/BsAcc1DPtHis.png}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter4/BsAcc1DCentHis.png}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter4/BsSel1DPtHis.png}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter4/BsSel1DCentHis.png}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter4/BsEff1DPtHis.png}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter4/BsEff1DCentHis.png}
+\caption{The $B^0_s$ acceptance (top), selection efficiency (middle), and efficiency (bottom) as a function of $p_T$ (left) and event centrality (right) are shown respectfully above. We should note that there is no significant centrality dependence on the $B^0_s$ acceptance, which makes sense.}
+\label{BPMCData}
+\end{center}
+\end{figure}
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter4/BPAcc1DPtHis.png}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter4/BPAcc1DCentHis.png}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter4/BPSel1DPtHis.png}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter4/BPSel1DCentHis.png}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter4/BPEff1DPtHis.png}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter4/BPEff1DCentHis.png}
+\caption{The $B^+$ acceptance (top), selection efficiency (middle), and efficiency (bottom) as a function of $p_T$ (left) and event centrality (right) are shown respectfully above. We should note that there is no significant centrality dependence on the $B^+$ acceptance, which makes sense.}
+\label{BPMCData}
+\end{center}
+\end{figure}
+
 
 \subsection{Analysis Challenges}
 
-One major challenge of acceptance 
+Although B-meson $p_T$ and $y$ distributions are reasonably modeled by FONLL in pp collisions, the precise B-meson $p_T$ and $y$ distribution shapes are still unknown in PbPb, which could significantly affect the efficiency determination. In the following, we demonstrate of the generated B-meson kinematics how the unknown shape can affect the efficiency. 
+
+Since we know the efficiency is given by \textbf{$\alpha \times \epsilon$ = NSelPass/NBGen}. NBGen in the simulation could not represent the truth. A weight function $w(x)$ is defined as the ratio between the generated B-meson cross section to the cross section of actual B-meson in PbPb for some kinematic variable $x$ as follows
+
+\begin{equation}
+w(x) = \frac{\sigma^{MC}_B (x)}{\sigma^{PbPb}_B (x)}
+\end{equation}
+
+Therefore, this weight function needs to be applied to both GEN-level $G(x)$ and RECO-level $R(x)$ in order to obtain the correct selection efficiency as a function of B mesons $p_T$. 
+
+
+\begin{equation}
+\epsilon_{corr}(x) =  \frac{\langle R(x) \rangle}{\langle G(x) \rangle}= \frac{\int R(x) w(x)dx}{\int G(x) w(x)dx}
+\end{equation}
+
+Experimentally, the data are discreet. Therefore, the measurement is done in bins. Now considering a bin of [$x_1,x_2$], the expression above is written as 
+
+\begin{equation}
+\epsilon_{corr}(x_1 < x < x_2) =  \frac{\int^{x_2}_{x_1} R(x) w(x)dx}{\int^{x_2}_{x_1} G(x) w(x)dx}
+\end{equation}
+
+
+When $x_1 \rightarrow x_2$, we have
+
+\begin{equation}
+\epsilon_{corr}(x_1 < x < x_2) =  \frac{\int^{x_2}_{x_1} R(x) w(x)dx}{\int^{x_2}_{x_1} G(x) w(x)dx} \sim  \frac{R(x) w(x)  (x_2 - x_1)}{G(x) w(x) (x_2 - x_1)}  = \frac{R(x)}{G(x)} = \epsilon(x)
+\end{equation}
+
+We can see that, for a non-trivial $w(x)$, with very fine bin, the effect of $w(x)$ is gone. Hence, in order to eliminate effect of the uncertainties due to the B-meson kinematics $w(x)$ on efficiency correction, we can bin the efficiency finely.
 
 \subsection{Fiducial Measurement}
 
+
+
 \subsection{Fine 2D Efficiency Map}
+
+After studying the $p_T$ shape effect on efficiency correction and choosing the fiducial region for our measurement, we propose to measure the data-average efficiency factor $\langle\frac{1}{\alpha \times \epsilon} \rangle$. To achieve it in our analysis, we decide to use a finely binned 2D efficiency vs B-meson $p_T$ and $|y|$ map and use them in our analysis to obtain the efficiency correction factor. We propose the following workflow in Figure \ref{EffWorkFlow} to estimate $\langle\frac{1}{\alpha \times \epsilon} \rangle$
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.85\textwidth]{Figures/Chapter4/EffCorrMethod.pdf}
+\caption{The workflow for the efficiency correction including the data driven tag-and-probe approach in B-meson analysis is shown above.}
+\label{BsMCData}
+\end{center}
+\end{figure}
 
 \subsection{Data-Drive Efficiency Correction}
 
-\subsection{Tag \& Probe Techniques}
 
 \subsection{Nominal Results}
 

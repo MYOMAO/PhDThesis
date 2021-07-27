@@ -91,7 +91,7 @@
 \newlabel{MLProblem}{{4-17}{161}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.6.4}Terminologies}{161}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4-18}{\ignorespaces The definitions of signal (red band) and background region (blue band) in the fully reconstructed B-meson invariant distribution for $B^0_s$ (left) and $B^+$ (right) are shown above.}}{162}}
-\newlabel{Boosting}{{4-18}{162}}
+\newlabel{SigBackRegion}{{4-18}{162}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.6.5}Boosted Decision Tree Algorithm}{162}}
 \citation{BoostingRef}
 \@writefile{lof}{\contentsline {figure}{\numberline {4-19}{\ignorespaces The schematic illustration of boosting procedures in machine learning is shown above.}}{163}}
@@ -166,44 +166,57 @@
 \@writefile{lot}{\contentsline {table}{\numberline {4.10}{\ignorespaces The summary table of $B^0_s$ likelihood significance for each $p_T$ and centrality bin.}}{187}}
 \newlabel{BsSig}{{4.10}{187}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.10}Acceptance and Efficiency Correction}{187}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.10.1}Analysis Challenges}{187}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.10.1}Overview}{187}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4-39}{\ignorespaces The correlation matrices in data (left) and MC (right) of $B^0_s$ are shown above.}}{188}}
 \newlabel{BsBDTCorr}{{4-39}{188}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.10.2}Fiducial Measurement}{188}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.10.3}Fine 2D Efficiency Map}{188}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.10.4}Data-Drive Efficiency Correction}{188}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.10.5}Tag \& Probe Techniques}{188}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.10.6}Nominal Results}{188}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.11}Cross Section Results}{188}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.12}Validation Tests}{188}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.12.1}Mass Scraping Test}{188}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.12.2}Raw Yield Closure}{188}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.12.3}Efficiency Closure}{188}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.12.4}\textit  {Splot} Closure}{188}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.13}Statistical Uncertainties Determination}{188}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.13.1}Data Bootstrapping}{188}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.13.2}Statistical Uncertainties Interpretation}{188}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.14}Systematic Uncertainties Estimation}{188}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.14.1}Global Observables}{188}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.14.2}Branching Ratios}{188}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.14.3}Tracking Efficiency}{188}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.14.4}Muon Efficiency}{188}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.14.5}Selection Efficiency}{188}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.14.6}Signal Extraction}{188}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.14.7}Summary}{188}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.15}Final Results}{188}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.15.1}$B^0_s$ and $B^{+}$ Cross Section}{188}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.15.2}$B^0_s/B^{+}$ Ratio}{188}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.15.3}$B^0_s$ and $B^{+}$ Nuclear Modification Factor}{188}}
+\newlabel{eq:SingleMuonAccCuts}{{4.10}{188}}
+\newlabel{eq:KaonTrackCut}{{4.11}{188}}
+\citation{TnPMethod}
 \@writefile{lof}{\contentsline {figure}{\numberline {4-40}{\ignorespaces The correlation matrices in data (left) and MC (right) of $B^+$ are shown above.}}{189}}
 \newlabel{BPBDTCorr}{{4-40}{189}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4-41}{\ignorespaces Comparison of $B^0_s$ BDT distribution in data (red) and MC (green) using Splot method.}}{189}}
-\newlabel{BsMCData}{{4-41}{189}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4-42}{\ignorespaces Comparison of $B^+$ BDT distribution in data (red) and MC (green) using Splot method.}}{190}}
-\newlabel{BPMCData}{{4-42}{190}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.10.2}Tag \& Probe Techniques}{189}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-41}{\ignorespaces Comparison of $B^0_s$ BDT distribution in data (red) and MC (green) using Splot method.}}{190}}
+\newlabel{BsMCData}{{4-41}{190}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.10.3}Traditional Efficiency Correction Results}{190}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.10.4}Analysis Challenges}{191}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.10.5}Fiducial Measurement}{192}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.10.6}Fine 2D Efficiency Map}{192}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.10.7}Data-Drive Efficiency Correction}{193}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.10.8}Nominal Results}{193}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.11}Cross Section Results}{193}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.12}Validation Tests}{193}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.12.1}Mass Scraping Test}{193}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.12.2}Raw Yield Closure}{193}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.12.3}Efficiency Closure}{193}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.12.4}\textit  {Splot} Closure}{193}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.13}Statistical Uncertainties Determination}{193}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.13.1}Data Bootstrapping}{193}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.13.2}Statistical Uncertainties Interpretation}{193}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.14}Systematic Uncertainties Estimation}{193}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.14.1}Global Observables}{193}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.14.2}Branching Ratios}{193}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.14.3}Tracking Efficiency}{193}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.14.4}Muon Efficiency}{193}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.14.5}Selection Efficiency}{193}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.14.6}Signal Extraction}{193}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.14.7}Summary}{193}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.15}Final Results}{193}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.15.1}$B^0_s$ and $B^{+}$ Cross Section}{193}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.15.2}$B^0_s/B^{+}$ Ratio}{193}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.15.3}$B^0_s$ and $B^{+}$ Nuclear Modification Factor}{193}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-42}{\ignorespaces Comparison of $B^+$ BDT distribution in data (red) and MC (green) using Splot method.}}{194}}
+\newlabel{BPMCData}{{4-42}{194}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-43}{\ignorespaces The workflow to obtain L2 and L3 muons in order to apply tag-\&-probe method.}}{195}}
+\newlabel{L2L3MuonWF}{{4-43}{195}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-44}{\ignorespaces The $B^0_s$ acceptance (top), selection efficiency (middle), and efficiency (bottom) as a function of $p_T$ (left) and event centrality (right) are shown respectfully above. We should note that there is no significant centrality dependence on the $B^0_s$ acceptance, which makes sense.}}{196}}
+\newlabel{BPMCData}{{4-44}{196}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-45}{\ignorespaces The $B^+$ acceptance (top), selection efficiency (middle), and efficiency (bottom) as a function of $p_T$ (left) and event centrality (right) are shown respectfully above. We should note that there is no significant centrality dependence on the $B^+$ acceptance, which makes sense.}}{197}}
+\newlabel{BPMCData}{{4-45}{197}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-46}{\ignorespaces The workflow for the efficiency correction including the data driven tag-and-probe approach in B-meson analysis is shown above.}}{198}}
+\newlabel{BsMCData}{{4-46}{198}}
 \@setckpt{chap4}{
-\setcounter{page}{191}
-\setcounter{equation}{9}
+\setcounter{page}{199}
+\setcounter{equation}{16}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
 \setcounter{enumiii}{0}
@@ -217,7 +230,7 @@
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{42}
+\setcounter{figure}{46}
 \setcounter{table}{10}
 \setcounter{savepage}{3}
 \setcounter{parentequation}{0}
