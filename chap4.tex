@@ -1363,31 +1363,148 @@ When $x_1 \rightarrow x_2$, we have
 \epsilon_{corr}(x_1 < x < x_2) =  \frac{\int^{x_2}_{x_1} R(x) w(x)dx}{\int^{x_2}_{x_1} G(x) w(x)dx} \sim  \frac{R(x) w(x)  (x_2 - x_1)}{G(x) w(x) (x_2 - x_1)}  = \frac{R(x)}{G(x)} = \epsilon(x)
 \end{equation}
 
-We can see that, for a non-trivial $w(x)$, with very fine bin, the effect of $w(x)$ is gone. Hence, in order to eliminate effect of the uncertainties due to the B-meson kinematics $w(x)$ on efficiency correction, we can bin the efficiency finely.
+We can see that, for any non-trivial $w(x)$, with very fine bin, the effect of $w(x)$ is gone. When we measure B-meson over a large $p_T$ range, this effect could be significant, particular for $B^0_s$ where the change of efficiency between 7 -- 10 GeV/c and 10 -- 15 GeV/c and the slope of uncertainties on $w(x)$ both are huge. Hence, in order to eliminate effect of the uncertainties due to the B-meson kinematics $w(x)$ on efficiency correction, we can bin the efficiency finely.
 
 \subsection{Fiducial Measurement}
 
+In fact, to better estimate B-meson efficiency, we should use 2D efficiency maps as functions of B-meson $p_T$ and $|y|$. Figure \ref{Bs2DRECO} shows reconstructed $B^0_s$ and $B^+$ distribution in the MC
 
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/hBptByData.png}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/hBptByMC.png}
+\caption{The finely binned 2D candidates distribution vs B $p_T$ and B $|y|$ for data and MC at centrality 0 - 90\% are shown respectfully above.}
+\label{Bs2DRECO}
+\end{center}
+\end{figure}
 
-\subsection{Fine 2D Efficiency Map}
+As we can see, for B-meson $p_T$ below 10 GeV/c, we have very little B mesons reconstructed at the rapidity region of $|y| < 1.5$. This is due to the limited acceptance of muons because the muon tracks at low $p_T$ cannot reach the muon systems. Hence, a fiducial measurement is carried out. We only correct B-meson for $p_T < 10$ GeV/c to the $1.5 < |y| < 2.4$ instead of $|y| < 2.4$. For $p_T > 10$ GeV/c, we still correct them to $|y| < 2.4$. The fiducial B-meson measurements will be carried out throughout this thesis.
 
-After studying the $p_T$ shape effect on efficiency correction and choosing the fiducial region for our measurement, we propose to measure the data-average efficiency factor $\langle\frac{1}{\alpha \times \epsilon} \rangle$. To achieve it in our analysis, we decide to use a finely binned 2D efficiency vs B-meson $p_T$ and $|y|$ map and use them in our analysis to obtain the efficiency correction factor. We propose the following workflow in Figure \ref{EffWorkFlow} to estimate $\langle\frac{1}{\alpha \times \epsilon} \rangle$
+\subsection{Finely Binned 2D Efficiency Map}
+
+After unknown B-meson kinematics effects on efficiency correction and choosing the fiducial region for our measurement, we propose to measure the inverse of the total efficiency: $\frac{1}{\alpha \times \epsilon}$ as a function of $p_T$ and $|y|$ to correct the B-meson raw yield to production yield. We implement the following workflow in Figure \ref{EffWorkFlow} to estimate $\langle \frac{1}{\alpha \times \epsilon} \rangle$
 
 
 \begin{figure}[h]
 \begin{center}
 \includegraphics[width= 0.85\textwidth]{Figures/Chapter4/EffCorrMethod.pdf}
 \caption{The workflow for the efficiency correction including the data driven tag-and-probe approach in B-meson analysis is shown above.}
-\label{BsMCData}
+\label{EffWorkFlow}
 \end{center}
 \end{figure}
 
+The $\frac{1}{\alpha \times \epsilon}$ applied with the tag-\&-probe SFs as functions of $p_T$ and $|y|$ for $B^0_s$ and $B^+$ are shown on Figure \ref{Bs2DMap} and Figure \ref{BP2DMap} respectfully 
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BsEff2D_0_90.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BsEff2D_0_30.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BsEff2D_30_90.png}
+\caption{The finely binned 2D $\frac{1}{\alpha \times \epsilon}$ vs $B^0_s$ $p_T$ and B $|y|$ for 0 - 90\% (top), 0 - 30\% (middle), and 30\% - 90\% (bottom) centrality are shown respectfully above.}
+\label{Bs2DMap}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPEff2D_0_90.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPEff2D_0_30.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPEff2D_30_90.png}
+\caption{The finely binned 2D $\frac{1}{\alpha \times \epsilon}$ vs $B^+$ $p_T$ and B $|y|$ for 0 - 90\% (top), 0 - 30\% (middle), and 30\% - 90\% (bottom) centrality are shown respectfully above.}
+\label{BP2DMap}
+\end{center}
+\end{figure}
+
+
+
 \subsection{Data-Drive Efficiency Correction}
 
+Finally, we propose to correct the efficiency with a data-driven method. We correct the signal B-meson candidate efficiency. This can be done by looping B-meson data signal region candidates on the 2D $\frac{1}{\alpha \times \epsilon}$ map according their kinematics. Then, referring to techniques of the published $J/\psi$ analysis \cite{DataAve}, we compute the average of all signal B-meson candidate efficiency: $\langle\frac{1}{\alpha \times \epsilon} \rangle$ within the $p_T$ and centrality bins. Here, we call $\langle\frac{1}{\alpha \times \epsilon} \rangle$ as the efficiency correction factor. 
 
-\subsection{Nominal Results}
+It should note that we will measure  $\langle\frac{1}{\alpha \times \epsilon \rangle}$ instead of $\frac{1}{\langle\alpha \times \epsilon \rangle}$ is because $\langle\frac{1}{\alpha \times \epsilon} \rangle$ has better closure. A dedicated closure test on this approach will be carried out and the results discussed the Section 4.11. 
 
-\section{Cross Section Results} 
+Also, there are background contaminations even within the signal region. This could be improve by Splot method. However, it turns out that the difference in the efficiency between applying Splot and not applying Splot is very small. We do not consider using the Splot method in this measurement. 
+
+Finally, this method only gives the nominal results. The statistical uncertainties turn out to be correlated with the both the data and MC statistics. A dedicated data bootstrapping approach to estimate the statistical uncertainties of the efficiency correction factor $\frac{1}{\langle\alpha \times \epsilon \rangle}$ will be carried out in Section 4.12.
+
+\subsection{Results}
+
+After applying data-drive method to compute efficiency correction factor, we obtain Figure \ref{BsEffFig} and Figure \ref{BPEffFig} showing $\langle\frac{1}{\alpha \times \epsilon} \rangle$ as a function $p_T$ and centrality for both $B_s^0$ and $B^+$.
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/EffPlotPt.pdf}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/EffPlotCent.pdf}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/EffPlotCentInc.pdf}
+\caption{The $B^0_s$ efficiency correction factor $\langle\frac{1}{\alpha \times \epsilon} \rangle$ vs $p_T$ (left) and 0 -- 30 \% and 30 -- 90\% centrality (middle) and the inclusive 0 -- 90\% centrality (right) are shown above.}
+\label{BsEffFig}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPEffPlotPt.pdf}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPEffPlotCent.pdf}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPEffPlotCentInc.pdf}
+\caption{The  $B^+$ efficiency correction factor $\langle \frac{1}{\alpha \times \epsilon} \rangle$ vs $p_T$ (left) and 0 -- 30 \% and 30 -- 90\% centrality (middle) and the inclusive 0 -- 90\% centrality (right) are shown above.}
+\label{BPEffFig}
+\end{center}
+\end{figure}
+
+
+
+
+Table \ref{BsEffTab} and \ref{BPEffTab} summarize the nominal efficiency of $B^0_s$ and $B^+$ respectfully and their upper and lower asymmetric statistical uncertainties obtained from Section 4.12.
+%\section{Cross Section Results} 
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The summary table of $B^0_s$ efficiency correction factor $\langle\frac{1}{\alpha \times \epsilon \rangle}$ for each $p_T$ and centrality bin.}
+\vspace{1em}
+\label{BsEffTab}
+  \begin{tabular}{ |c|c|c|c|c|}
+    \hline 
+Centrality (\%) & $B^0_s$ $p_T$ (GeV/c) & $\langle\frac{1}{\alpha \times \epsilon \rangle}$ & $\langle\frac{1}{\alpha \times \epsilon \rangle}$ Error Up +) &$\langle\frac{1}{\alpha \times \epsilon \rangle}$ Error Down -) \\
+     \hline
+0 -- 90 & 7 -- 10 & 381.5  &  19.3\% & 20.3\% \\
+0 -- 90 & 10 -- 15 & 75.92 &  12.4\% & 12.3\% \\
+0 -- 90 & 15 -- 20 & 22.35 &   6.41\% & 6.47\% \\
+0 -- 90 & 20 -- 50 & 10.63 & 5.90\% &  6.20\% \\
+0 -- 30 & 10 -- 50 & 45.90 & 14.9\% & 14.6\%  \\
+30 -- 90 & 10 -- 50 & 14.19 & 10.3\% & 9.78\% \\
+0 -- 90 & 10 -- 50 & 34.90 & 17.9\% & 16.3\% \\
+     \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The summary table of $B^+$ efficiency correction factor $\frac{1}{\langle\alpha \times \epsilon \rangle}$ for each $p_T$ and centrality bin.}
+\vspace{1em}
+\label{BPEffTab}
+  \begin{tabular}{ |c|c|c|c|c|}
+    \hline 
+Centrality (\%) & $B^+$ $p_T$ (GeV/c) &$\langle\frac{1}{\alpha \times \epsilon \rangle}$ & $\langle\frac{1}{\alpha \times \epsilon \rangle}$ Error Up +) & $\langle\frac{1}{\alpha \times \epsilon \rangle}$ Error Down -) \\
+     \hline
+0 -- 90 & 7 -- 10 & 105.9  &  15.8\% & 15.1\% \\
+0 -- 90 & 10 -- 15 & 37.55 &  4.10\% & 7.95\% \\
+0 -- 90 & 15 -- 20 & 10.94 &   6.54\% & 6.50\% \\
+0 -- 90 & 20 -- 50 & 5.932 & 6.90\% &  5.26\% \\
+0 -- 30 & 10 -- 50 & 21.67 & 5.81\% & 5.54\%  \\
+30 -- 90 & 10 -- 50 & 12.28 & 6.71\% & 7.06\% \\
+0 -- 90 & 10 -- 50 & 19.23 & 5.06\% & 4.54\% \\
+     \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+At this point, we have all the ingredient to measure the B-meson cross section and study the physics. But before that, some more steps need to be complete. 
 
 \section{Validation Tests} 
 
@@ -1424,9 +1541,11 @@ After studying the $p_T$ shape effect on efficiency correction and choosing the 
 
 \section{Final Results} 
 
+\subsection{Overview}
+
 \subsection{$B^0_s$ and $B^{+}$ Cross Section}
 
 \subsection{$B^0_s/B^{+}$ Ratio}
 
-\subsection{$B^0_s$ and $B^{+}$ Nuclear Modification Factor}
+%\subsection{$B^0_s$ and $B^{+}$ Nuclear Modification Factor}
 

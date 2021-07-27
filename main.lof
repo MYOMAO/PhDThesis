@@ -126,14 +126,19 @@
 \contentsline {figure}{\numberline {4-39}{\ignorespaces The correlation matrices in data (left) and MC (right) of $B^0_s$ are shown above.}}{188}
 \contentsline {figure}{\numberline {4-40}{\ignorespaces The correlation matrices in data (left) and MC (right) of $B^+$ are shown above.}}{189}
 \contentsline {figure}{\numberline {4-41}{\ignorespaces Comparison of $B^0_s$ BDT distribution in data (red) and MC (green) using Splot method.}}{190}
-\contentsline {figure}{\numberline {4-42}{\ignorespaces Comparison of $B^+$ BDT distribution in data (red) and MC (green) using Splot method.}}{194}
-\contentsline {figure}{\numberline {4-43}{\ignorespaces The workflow to obtain L2 and L3 muons in order to apply tag-\&-probe method.}}{195}
-\contentsline {figure}{\numberline {4-44}{\ignorespaces The $B^0_s$ acceptance (top), selection efficiency (middle), and efficiency (bottom) as a function of $p_T$ (left) and event centrality (right) are shown respectfully above. We should note that there is no significant centrality dependence on the $B^0_s$ acceptance, which makes sense.}}{196}
-\contentsline {figure}{\numberline {4-45}{\ignorespaces The $B^+$ acceptance (top), selection efficiency (middle), and efficiency (bottom) as a function of $p_T$ (left) and event centrality (right) are shown respectfully above. We should note that there is no significant centrality dependence on the $B^+$ acceptance, which makes sense.}}{197}
-\contentsline {figure}{\numberline {4-46}{\ignorespaces The workflow for the efficiency correction including the data driven tag-and-probe approach in B-meson analysis is shown above.}}{198}
+\contentsline {figure}{\numberline {4-42}{\ignorespaces Comparison of $B^+$ BDT distribution in data (red) and MC (green) using Splot method.}}{195}
+\contentsline {figure}{\numberline {4-43}{\ignorespaces The workflow to obtain L2 and L3 muons in order to apply tag-\&-probe method.}}{196}
+\contentsline {figure}{\numberline {4-44}{\ignorespaces The $B^0_s$ acceptance (top), selection efficiency (middle), and efficiency (bottom) as a function of $p_T$ (left) and event centrality (right) are shown respectfully above. We should note that there is no significant centrality dependence on the $B^0_s$ acceptance, which makes sense.}}{197}
+\contentsline {figure}{\numberline {4-45}{\ignorespaces The $B^+$ acceptance (top), selection efficiency (middle), and efficiency (bottom) as a function of $p_T$ (left) and event centrality (right) are shown respectfully above. We should note that there is no significant centrality dependence on the $B^+$ acceptance, which makes sense.}}{198}
+\contentsline {figure}{\numberline {4-46}{\ignorespaces The finely binned 2D candidates distribution vs B $p_T$ and B $|y|$ for data and MC at centrality 0 - 90\% are shown respectfully above.}}{199}
+\contentsline {figure}{\numberline {4-47}{\ignorespaces The workflow for the efficiency correction including the data driven tag-and-probe approach in B-meson analysis is shown above.}}{199}
+\contentsline {figure}{\numberline {4-48}{\ignorespaces The finely binned 2D $\frac {1}{\alpha \times \epsilon }$ vs $B^0_s$ $p_T$ and B $|y|$ for 0 - 90\% (top), 0 - 30\% (middle), and 30\% - 90\% (bottom) centrality are shown respectfully above.}}{200}
+\contentsline {figure}{\numberline {4-49}{\ignorespaces The finely binned 2D $\frac {1}{\alpha \times \epsilon }$ vs $B^+$ $p_T$ and B $|y|$ for 0 - 90\% (top), 0 - 30\% (middle), and 30\% - 90\% (bottom) centrality are shown respectfully above.}}{200}
+\contentsline {figure}{\numberline {4-50}{\ignorespaces The $B^0_s$ efficiency correction factor $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $ vs $p_T$ (left) and 0 -- 30 \% and 30 -- 90\% centrality (middle) and the inclusive 0 -- 90\% centrality (right) are shown above.}}{200}
+\contentsline {figure}{\numberline {4-51}{\ignorespaces The $B^+$ efficiency correction factor $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $ vs $p_T$ (left) and 0 -- 30 \% and 30 -- 90\% centrality (middle) and the inclusive 0 -- 90\% centrality (right) are shown above.}}{201}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B-1}{\ignorespaces Armadillo slaying lawyer.}}{205}
-\contentsline {figure}{\numberline {B-2}{\ignorespaces Armadillo eradicating national debt.}}{206}
+\contentsline {figure}{\numberline {B-1}{\ignorespaces Armadillo slaying lawyer.}}{209}
+\contentsline {figure}{\numberline {B-2}{\ignorespaces Armadillo eradicating national debt.}}{210}
