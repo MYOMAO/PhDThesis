@@ -1419,7 +1419,11 @@ The $\frac{1}{\alpha \times \epsilon}$ applied with the tag-\&-probe SFs as func
 
 \subsection{Data-Drive Efficiency Correction}
 
-Finally, we propose to correct the efficiency with a data-driven method. We correct the signal B-meson candidate efficiency. This can be done by looping B-meson data signal region candidates on the 2D $\frac{1}{\alpha \times \epsilon}$ map according their kinematics. Then, referring to techniques of the published $J/\psi$ analysis \cite{DataAve}, we compute the average of all signal B-meson candidate efficiency: $\langle\frac{1}{\alpha \times \epsilon} \rangle$ within the $p_T$ and centrality bins. Here, we call $\langle\frac{1}{\alpha \times \epsilon} \rangle$ as the efficiency correction factor. 
+Finally, we propose to correct the efficiency with a data-driven method. We correct the signal B-meson candidate efficiency. This can be done by looping B-meson data signal region candidates on the 2D $\frac{1}{\alpha \times \epsilon}$ map according their kinematics. Then, referring to techniques of the published $J/\psi$ analysis \cite{DataAve}, we compute the average of all signal B-meson candidate efficiency: $\langle\frac{1}{\alpha \times \epsilon} \rangle$ within the $p_T$ and centrality bins. Here, we call $\langle\frac{1}{\alpha \times \epsilon} \rangle$ as the efficiency correction factor. Mathematically, it is written as
+
+\begin{equation}
+\langle\frac{1}{\alpha \times \epsilon} \rangle = \frac{1}{N} \sum_{i = 1}^{N} \frac{1}{\alpha_i \times \epsilon_i}
+\end{equation}
 
 It should note that we will measure  $\langle\frac{1}{\alpha \times \epsilon \rangle}$ instead of $\frac{1}{\langle\alpha \times \epsilon \rangle}$ is because $\langle\frac{1}{\alpha \times \epsilon} \rangle$ has better closure. A dedicated closure test on this approach will be carried out and the results discussed the Section 4.11. 
 
@@ -1504,20 +1508,360 @@ Centrality (\%) & $B^+$ $p_T$ (GeV/c) &$\langle\frac{1}{\alpha \times \epsilon \
 \end{center}
 \end{table}
 
-At this point, we have all the ingredient to measure the B-meson cross section and study the physics. But before that, some more steps need to be complete. 
+At this point, we have all the ingredients to measure the B-meson cross section and study the physics. 
 
 \section{Validation Tests} 
 
+Before presenting the final results, some more validation tests need to complete to ensure our results are unbiased.
+
 \subsection{Mass Scraping Test}
+
+From Figure \ref{BsBDTCorr}, we see that the BDT variables are essentially uncorrelated to the $B^0_s$ invariant mass. However, uncorrelation is not equivalent to independence. We need to make sure that in the BDT training procedure, no significant invariant mass dependence is introduced. This effect is called the mass scraping effect. Therefore, we propose the following tests to explicitly quantify the $B^0_s$ BDT variables dependence on the $B^0_s$ invariant mass. 
+
+\begin{itemize}
+\item We look at the BDT shape in different $B^0_s$ data invariant mass side band regions (both left and right hand side) that is far away from the $B^0_s$ PDG mass.
+\item Then we take the ratio from other BDT shape with respect to one side band to produce the ratio as a function of the BDT in different mass region
+\item We fit the BDT shapes with a linear function, which is treated as a weight as a function of BDT: $w(BDT)$
+\item We apply the weight $w(BDT)$ to $B^0_s$ candidate and plot their invariant mass distribution with the weight
+\item We fit the $w(BDT)$ weighed invariant mass distribution and extracted the $w(BDT)$ weighed yield $N^{w}_S$
+\item We count the total number of candidates in both $w(BDT)$ unweighed and weighted case $N$ and $N^{w}$
+\item We compute the percent difference $\delta$ from the rescaled $w(BDT)$ $B^0_s$ signal raw yield $\frac{N}{N^{w}} N^{w}_S$ to the unweighed nominal $B^0_s$ signal raw yield $N_S$
+\end{itemize}
+
+\begin{equation}
+\delta = \frac{\frac{N}{N^{w}} N^{w}_S - N_S}{N_S} \times 100\%
+\end{equation}
+
+Table \ref{MassScrapCheck} shows the nominal and linearly weighted rescaled signal raw yield and the percent deviation of the variated signal raw yield from nominal raw yield for each $p_T$ and centrality bin.
+
+\begin{table}[h]
+\begin{center}
+\caption{The summary table of BDT vs mass dependence systematics on the background yield from the fits in different $p_T$ and centrality bins are shown below.}
+\vspace{1em}
+\label{MassScrapCheck}
+  \begin{tabular}{ |c | c | c| c| c|}
+        \hline
+     Centrality &  $p_T$ (GeV/c) & $\frac{N}{N^{w}} N^{w}_S$ & $N_{s}$ & Percent Deviation ($\delta$)  \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 & 6.831  & 6.787 & \textbf{0.64\%} \\ 
+0 - 90\% & 10 - 15 &  27.14 & 27.23 & \textbf{0.33\%}  \\ 
+0 - 90\% & 15 - 20 & 26.69   & 26.78  &   \textbf{0.34\%}\\ 
+0 - 90\% & 20 - 50 &  31.26 &  31.41 &  \textbf{0.48\%}  \\ 
+0 - 30\% & 10 - 50 & 59.25  &  60.19  &  \textbf{1.59\%}  \\ 
+30 - 90\% & 10 - 50 & 29.88 & 30.04 &  \textbf{0.20\%}    \\ 
+0 - 90\% & 10 - 50 & 84.95 & 86.07 &  \textbf{0.14\%}  \\ 
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+ 
+
+We can see the mass scraping effect of $B^0_s$ is less than 2\%, which is negligible. This fully validates that our B-meson BDT variables have little to no dependence on B-meson invariant mass.
 
 \subsection{Raw Yield Closure}
 
+In addition, we test the closure of the unbinned fits to extract signal raw yields and make sure they are good. 5000 MC toy samples are generated according to mean and uncertainties of the B-meson invariant distributions. Then, each sample is fitted with our models and produces a signal raw yield value, error, and pull. The pull of a fit parameter is related to its value $p_i$ and the error $\sigma_{p_i}$ and the mean of the total dataset $\bar p$ as follows:
+
+\begin{equation}
+Pull = \frac{p_i - \bar p}{\sigma_{p_i}}
+\end{equation}
+
+Finally, we plot pull distribution of all 5000 samples and perform the Gaussian fits to the pull distribution to obtain the mean and width. We expect to the Gaussian to have a mean $\mu = 0$ and the width $\sigma = 1$, which is called a unit pull. Figure \ref{BsPtPull,BsCentPull,BPPtPull,BPCentPull} show the pull distributions and the Gaussian fits to them for $B^0_s$ and $B^+$ signal raw yield parameter $N_S$ for each $p_T$ and centrality bin respectfully 
+
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/pull_signal_BptNew_0_90_7_10_0_Bs.png}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/pull_signal_BptNew_0_90_10_15_0_Bs.png}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/pull_signal_BptNew_0_90_15_20_0_Bs.png}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/pull_signal_BptNew_0_90_20_50_0_Bs.png}
+\caption{The $B^0_s$ pull distribution and the Gaussian fits for 0 - 90\% at $p_T$ 7 - 10, 10 - 15, 15 - 20, 20 - 50 GeV/c are shown respectfully above.} 
+\label{BsPtPull} 
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/pull_signal_BptNew_0_30_10_50_0_Bs.png}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/pull_signal_BptNew_30_90_10_50_0_Bs.png}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/pull_signal_BptNew_0_90_10_50_0_Bs.png}
+\caption{The $B^0_s$ pull distribution and the Gaussian fits for 0 - 30\%, 30 - 90\%, and 0 - 90\% event centrality are shown respectfully above.} 
+\label{BsCentPull} 
+\end{center}
+\end{figure}
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/BP_pull_signal_full_0_0_90.png}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/BP_pull_signal_full_1_0_90.png}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/BP_pull_signal_full_2_0_90.png}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/BP_pull_signal_full_3_0_90.png}
+\caption{The $B^+$ pull distribution and the Gaussian fits for 0 - 90\% at $p_T$ 7 - 10, 10 - 15, 15 - 20, 20 - 50 GeV/c are shown respectfully above.} 
+\label{BPPtPull} 
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/BP_pull_signal_full_-1_0_90.png}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/BP_pull_signal_full_-1_0_30.png}
+\includegraphics[width= 0.45\textwidth]{Figures/Chapter4/BP_pull_signal_full_-1_30_90.png}
+\caption{The $B^+$ pull distribution and the Gaussian fits for 0 - 30\%, 30 - 90\%, and 0 - 90\% event centrality are shown respectfully above.} 
+\label{BPCentPull} 
+\end{center}
+\end{figure}
+
+
+
+
+According to the fits results, all pulls appear to be unit pull. This validates the closure of our fits and confirms our signal raw yield $N_S$ has the correct mean and error yield.  
+
 \subsection{Efficiency Closure}
 
-\subsection{\textit{Splot} Closure}
+Next, after validating the fit closure for B-meson signal raw yield extraction, we also need to validate the efficiency correction approach to explicitly show that the efficiency correction factor $\langle\frac{1}{\alpha \times \epsilon \rangle}$ are indeed consistent to the truth efficiency to avoid potential bias. To make the analysis simple, we use $\hat p_T = 5$ the MC sample. Here, we consider both cases. The high statistics case: one whole $\hat p_T = 5$ MC sample. The low statistics case: 2000 spilt data-like $\hat p_T = 5$ MC samples same as the raw yield fit studies. In both cases, we use the same 2D $\frac{1}{\alpha \times \epsilon}$ efficiency correction map without tag-\&-probe weights from the input MC sample. We compare the $\langle \frac{1}{\alpha \times \epsilon}\rangle$ to the expected value, which is the total number of generated $B_s$/total number of reconstructed B mesons and compute the 
 
+
+\begin{equation}
+\% Dev = \frac{\langle \frac{1}{\alpha \times \epsilon} \rangle - GEN/RECO_{truth}}{GEN/RECO_{truth}}
+\end{equation}
+ 
+to quantify the potential bias of the efficiency correction factor $\langle \frac{1}{\alpha \times \epsilon} \rangle$ in the analysis. 
+
+\textbf{High Statistics Limit}
+
+The efficiency closure test results in high statistics limit of $B^0_s$ and $B^+$ are summarized in table \ref{BsHighStat} and \ref{BPHighStat} respectfully below
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The results of $B^0_s$ efficiency factors $\langle \frac{1}{\alpha \times \epsilon} \rangle$ and $\frac{1}{\langle \alpha \times \epsilon \rangle}$ and their percent deviation are shown above.}
+\vspace{1em}
+\label{BsHighStat}
+  \begin{tabular}{| c | c |c |c |c | c |  c| c|}
+    \hline
+     Centrality &  $B^0_s$  $p_T$ (GeV/c) & NRECO & GEN/RECO &  $\langle \frac{1}{\alpha \times \epsilon} \rangle$  & \% Dev & $\frac{1}{\langle \alpha \times \epsilon \rangle}$ &  \% Dev \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 & 12102 & 117.495 & 112.958 & \textbf{-3.4\% }& 80.5755 &  \textbf{-30.6\% }   \\ 
+0 - 90\% & 10 - 15 & 1788 & 43.3865 & 43.1728 & \textbf{-0.493\% }& 27.6409 &  \textbf{-36.3\% }   \\ 
+0 - 90\% & 15 - 20 & 4577 & 13.7835 & 13.639 & \textbf{-1.05\% }& 12.6465 &  \textbf{-8.25\% }   \\ 
+0 - 90\% & 20 - 50 & 35980 & 6.38043 & 6.36748 & \textbf{-0.203\% }& 5.9658 &  \textbf{-6.50\% }   \\ 
+0 - 90\% & 10 - 50 & 9522 & 12.2694 & 12.2668 & \textbf{-0.0212\% }& 6.5642 &  \textbf{-28.3\% }   \\ 
+0 - 30\% & 10 - 50 & 33143 & 7.70383 & 7.70087 & \textbf{-0.0384\% }& 8.79954 &  \textbf{-24.2\% }   \\ 
+30 - 90\% & 10 - 50 & 42453 & 8.72094 & 8.71793 & \textbf{-0.0345\% }& 5.8419 &  \textbf{-24.7\% }   \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The results of $B^+$ efficiency factors $\langle \frac{1}{\alpha \times \epsilon} \rangle$ and $\frac{1}{\langle \alpha \times \epsilon \rangle}$ and their percent deviation are shown above.}
+\vspace{1em}
+\label{BPHighStat}
+  \begin{tabular}{| c | c |c |c |c | c |  c| c|}
+    \hline
+     Centrality &  $B^+$   $p_T$ (GeV/c) & NRECO & GEN/RECO &  $\langle \frac{1}{\alpha \times \epsilon} \rangle$  & \% Dev & $\frac{1}{\langle \alpha \times \epsilon \rangle}$ &  \% Dev \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 & 12102 & 117.495 & 112.958 & \textbf{-3.4\% }& 80.5755 &  \textbf{-30.6\% }   \\ 
+0 - 90\% & 10 - 15 & 1788 & 43.3865 & 43.1728 & \textbf{-0.493\% }& 27.6409 &  \textbf{-36.3\% }   \\ 
+0 - 90\% & 15 - 20 & 4577 & 13.7835 & 13.639 & \textbf{-1.05\% }& 12.6465 &  \textbf{-8.25\% }   \\ 
+0 - 90\% & 20 - 50 & 35980 & 6.38043 & 6.36748 & \textbf{-0.203\% }& 5.9658 &  \textbf{-6.50\% }   \\ 
+0 - 90\% & 10 - 50 & 9522 & 12.2694 & 12.2668 & \textbf{-0.0212\% }& 6.5642 &  \textbf{-28.3\% }   \\ 
+0 - 30\% & 10 - 50 & 33143 & 7.70383 & 7.70087 & \textbf{-0.0384\% }& 8.79954 &  \textbf{-24.2\% }   \\ 
+30 - 90\% & 10 - 50 & 42453 & 8.72094 & 8.71793 & \textbf{-0.0345\% }& 5.8419 &  \textbf{-24.7\% }   \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+In conclusion, we can see that the biases of the $\langle \frac{1}{\alpha \times \epsilon}\rangle$, which are all below 3.5\%, are negligible compared other sources of uncertainties. On the contrary, the efficiency correction factor $\frac{1}{\langle \alpha \times \epsilon \rangle}$ has a large bias. That also explains why we use $\langle \frac{1}{\alpha \times \epsilon}\rangle$ instead of $\frac{1}{\langle \alpha \times \epsilon \rangle}$ in our B-meson data analysis.
+
+
+
+\subsubsection{Low Statistics Limit}
+
+We compute the efficiency correction factor $\langle \frac{1}{\alpha \times \epsilon}\rangle$ on each of the 2000 data-like MC samples. Then, we plot their percent deviation for all $p_T$ and centrality bins and compute their mean values. Our results are shown on Figure \ref{fig:LowStatClosure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BsEffONLY_0_90_0.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BsEffONLY_0_90_1.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BsEffONLY_0_90_2.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BsEffONLY_0_90_3.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BsEffONLY_0_30_-1.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BsEffONLY_30_90_-1.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BsEffONLY_0_90_-1.png} 
+ 
+\caption{The percent deviation distributions of $B^0_s$  $\langle \frac{1}{\alpha \times \epsilon}\rangle$ to RECO/GEN for the data-like randomly sampled MC samples for 0 - 90\% at 7 - 10, 10 - 15, 15 - 20, and 20 - 50 GeV/c as well as 0 - 90\%, 0 - 30\%, and 30 - 90\% event centrality are shown respectfully above.} 
+\label{BsLowStatFig} 
+\end{center}
+\end{figure}
+\clearpage
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPEffONLY_0_90_0.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPEffONLY_0_90_1.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPEffONLY_0_90_2.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPEffONLY_0_90_3.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPEffONLY_0_30_-1.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPEffONLY_30_90_-1.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPEffONLY_0_90_-1.png} 
+\caption{The percent deviation distributions of $B^+$ $\langle \frac{1}{\alpha \times \epsilon}\rangle$ to RECO/GEN for the data-like randomly sampled MC samples for 0 - 90\% at 7 - 10, 10 - 15, 15 - 20, and 20 - 50 GeV/c as well as 0 - 90\%, 0 - 30\%, and 30 - 90\% event centrality are shown respectfully above.} 
+\label{BPLowStatFig} 
+\end{center}
+\end{figure}
+
+
+
+The percent deviation of $B^0_s$ and $B^+$ efficiency correct factor $\langle \frac{1}{\alpha \times \epsilon}\rangle$ are summarize in thed Table \ref{BsEffClosure} and Table \ref{BPEffClosure} respectfully
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The percent deviation of the efficiency factors from the expected value in the statistics similar to the data analysis are shown above.}
+\vspace{1em}
+\label{BsEffClosure}
+  \begin{tabular}{| c | c |c |}
+    \hline
+     Centrality &   $B^0_s$  $p_T$ (GeV/c) &   \% Dev \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &  \textbf{-2.49\% }   \\ 
+0 - 90\% & 10 - 15 &  \textbf{-0.10\% }   \\ 
+0 - 90\% & 15 - 20 &   \textbf{-0.16\% }   \\ 
+0 - 90\% & 20 - 50 &  \textbf{+0.03\% }   \\ 
+0 - 90\% & 10 - 50 &  \textbf{-1.09\% }   \\ 
+0 - 30\% & 10 - 50 &   \textbf{-1.21\% }   \\ 
+30 - 90\% & 10 - 50 & \textbf{-3.03\% }   \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[h]
+\begin{center}
+\caption{The  percent deviation of the efficiency factors from the expected value in the statistics similar to the data analysis are shown above.}
+\vspace{1em}
+\label{BPEffClosure}
+  \begin{tabular}{| c | c |c |}
+    \hline
+     Centrality &   $B^+$  $p_T$ (GeV/c) &   \% Dev \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &  \textbf{-2.49\% }   \\ 
+0 - 90\% & 10 - 15 &  \textbf{-0.10\% }   \\ 
+0 - 90\% & 15 - 20 &   \textbf{-0.16\% }   \\ 
+0 - 90\% & 20 - 50 &  \textbf{+0.03\% }   \\ 
+0 - 90\% & 10 - 50 &  \textbf{-1.09\% }   \\ 
+0 - 30\% & 10 - 50 &   \textbf{-1.21\% }   \\ 
+30 - 90\% & 10 - 50 & \textbf{-3.03\% }   \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+In conclusion, we can see that, even in the limit of low statistics, which is similar to the statistics in our data analysis, the $\langle \frac{1}{\alpha \times \epsilon} \rangle$ correction method still gives us satisfying closure with bias within 3\%. All these show that the efficiency correction factor $\langle \frac{1}{\alpha \times \epsilon} \rangle$ will not introduce significant bias in both $B^0_s$ and $B^+$ analyses.
+
+
+\subsection{\textit{Splot} Closure on Efficiency}
+
+Finally, we will validate the efficiency correction factor $\langle \frac{1}{\alpha \times \epsilon} \rangle$ using all signal region data candidates. We compare our nominal $\langle \frac{1}{\alpha \times \epsilon} \rangle$ with the results with an \textit{Splot} weights $w^S$, which is obtain from the Splot analysis techniques shown in Section 4.9. Figure \ref{BsBPSPlot} shows the \textit{Splot} weight distribution for $B^0_s$ and $B^+$ candidates  
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/Bs_sPLOTEffDistribution.png}
+\includegraphics[width= 0.48\textwidth]{Figures/Chapter4/BP_sPLOTEffDistribution.png}
+\caption{The sPlot weight distributions for $B_s^0$ (left) and $B^+$ (right) candidates are shown above.}
+\label{fig:sPlotEffWeight}
+\end{center}
+\end{figure}
+
+We can see that most of the candidate are either background-like (near 0) and signal-like (near 1). But some candidate are in between. Hence, the \textit{Splot} weighed efficiency correction factor $\langle\frac{1}{\alpha \times \epsilon} \rangle'$ is given by
+
+\begin{equation}
+\langle\frac{1}{\alpha \times \epsilon} \rangle' = \frac{\sum_{i = 1}^{N} \frac{w^S_i}{\alpha_i \times \epsilon_i}}{\sum_{i = 1}^{N}  w^S_i}
+\end{equation}
+
+We can compute the the \textit{Splot} weighed efficiency correction factor $\langle\frac{1}{\alpha \times \epsilon} \rangle'$ and look at its deviation from the nominal efficiency correction factor $\langle\frac{1}{\alpha \times \epsilon} \rangle$. 
+
+
+\begin{equation}
+\% Dev = \frac{\langle \frac{1}{\alpha \times \epsilon} \rangle' - \langle \frac{1}{\alpha \times \epsilon} \rangle}{\langle \frac{1}{\alpha \times \epsilon} \rangle}
+\end{equation}
+
+
+The percent deviation of $B^0_s$ and $B^+$ \textit{Splot} weighed efficiency correct factor $\langle \frac{1}{\alpha \times \epsilon}\rangle'$ to the nominal efficiency correct factor $\langle \frac{1}{\alpha \times \epsilon}\rangle$ are summarize in Table \ref{BsSplotTable} and Table \ref{BPSplotTable} respectfully  
+
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The $B^0_s$ \textit{Splot} weighed efficiency correct factor $\langle \frac{1}{\alpha \times \epsilon}\rangle'$, nominal unweighed $\langle \frac{1}{\alpha \times \epsilon} \rangle$, and their percent deviation for each $p_T$ and centrality bin are summarized below.}
+\vspace{1em}
+\label{BsSplotTable}
+  \begin{tabular}{| c | c |c |c | c|}
+    \hline
+     Centrality & $B^0_s$  $p_T$ (GeV/c) & $\langle \frac{1}{\alpha \times \epsilon} \rangle'$ (Weighted) & $\langle \frac{1}{\alpha \times \epsilon} \rangle$ (Unweighed Nominal)  & Percent Deviation (\% Dev ) \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10   &  386.5  & 381.5 & 1.31\% \\ 
+0 - 90\% & 10 - 15 &   77.34 & 75.92 & 1.88\%  \\ 
+0 - 90\% & 15 - 20 &  22.24  &  22.35 & 0.49\% \\ 
+0 - 90\% & 20 - 50 &   10.71 & 10.63 & 0.75\%  \\ 
+0 - 30\% & 10 - 50 &  46.20  &45.90 & 0.63\%  \\ 
+30 - 90\% & 10 - 50 &  14.27 &14.19 & 0.56\% \\ 
+0 - 90\% & 10 - 50 &   35.15  & 34.90 &  0.72\% \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[h]
+\begin{center}
+\caption{The $B^+$ \textit{Splot} weighed efficiency correct factor $\langle \frac{1}{\alpha \times \epsilon}\rangle'$, nominal unweighed $\langle \frac{1}{\alpha \times \epsilon} \rangle$, and their percent deviation for each $p_T$ and centrality bin are summarized below.}
+\vspace{1em}
+\label{BPSplotTable}
+  \begin{tabular}{| c | c |c |c | c|}
+    \hline
+     Centrality &   $B^+$  $p_T$ (GeV/c) & $\langle \frac{1}{\alpha \times \epsilon} \rangle'$ (Weighted) & $\langle \frac{1}{\alpha \times \epsilon} \rangle$ (Unweighed Nominal)  & Percent Deviation (\% Dev ) \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10   &  104.1  & 105.9 & 1.72\% \\ 
+0 - 90\% & 10 - 15 &   37.51 & 37.55  & 0.11\%  \\ 
+0 - 90\% & 15 - 20 &  10.95  &  10.94 & 0.09\% \\ 
+0 - 90\% & 20 - 50 &   5.932 & 5.932 & 0.01\%  \\ 
+0 - 30\% & 10 - 50 &  21.65  &21.67 & 0.09\%  \\ 
+30 - 90\% & 10 - 50 &  12.15 &12.28 & 1.06\% \\ 
+0 - 90\% & 10 - 50 &   19.17  & 19.23 &  0.31\% \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+
+Since the percent deviation are within 2\%, there is no need to implement \textit{Splot} weight to compute the  efficiency correct factor $\langle \frac{1}{\alpha \times \epsilon}\rangle$. Up to here, our analysis procedure have been fully validated. 
 
 \section{Statistical Uncertainties Determination} 
+
+After showing that there is no explicit bias throughout the entire analysis, next step is to evaluate statistical uncertainties of the analysis. 
 
 \subsection{Data Bootstrapping}
 

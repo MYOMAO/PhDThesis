@@ -132,35 +132,36 @@
 \contentsline {subsection}{\numberline {4.10.7}Data-Drive Efficiency Correction}{193}
 \contentsline {subsection}{\numberline {4.10.8}Results}{193}
 \contentsline {section}{\numberline {4.11}Validation Tests}{194}
-\contentsline {subsection}{\numberline {4.11.1}Mass Scraping Test}{194}
-\contentsline {subsection}{\numberline {4.11.2}Raw Yield Closure}{194}
-\contentsline {subsection}{\numberline {4.11.3}Efficiency Closure}{194}
-\contentsline {subsection}{\numberline {4.11.4}\textit {Splot} Closure}{194}
-\contentsline {section}{\numberline {4.12}Statistical Uncertainties Determination}{194}
-\contentsline {subsection}{\numberline {4.12.1}Data Bootstrapping}{194}
-\contentsline {subsection}{\numberline {4.12.2}Statistical Uncertainties Interpretation}{194}
-\contentsline {section}{\numberline {4.13}Systematic Uncertainties Estimation}{194}
-\contentsline {subsection}{\numberline {4.13.1}Global Observables}{194}
-\contentsline {subsection}{\numberline {4.13.2}Branching Ratios}{194}
-\contentsline {subsection}{\numberline {4.13.3}Tracking Efficiency}{194}
-\contentsline {subsection}{\numberline {4.13.4}Muon Efficiency}{194}
-\contentsline {subsection}{\numberline {4.13.5}Selection Efficiency}{194}
-\contentsline {subsection}{\numberline {4.13.6}Signal Extraction}{194}
-\contentsline {subsection}{\numberline {4.13.7}Summary}{194}
-\contentsline {section}{\numberline {4.14}Final Results}{194}
-\contentsline {subsection}{\numberline {4.14.1}Overview}{194}
-\contentsline {subsection}{\numberline {4.14.2}$B^0_s$ and $B^{+}$ Cross Section}{194}
-\contentsline {subsection}{\numberline {4.14.3}$B^0_s/B^{+}$ Ratio}{194}
-\contentsline {chapter}{\numberline {5}Conclusions}{203}
-\contentsline {section}{\numberline {5.1}Comparison with Other Experiments and Theoretical Models}{203}
-\contentsline {section}{\numberline {5.2}Physics Messages Discussion}{203}
-\contentsline {section}{\numberline {5.3}Conclusions}{203}
-\contentsline {section}{\numberline {5.4}Future Outlooks}{203}
-\contentsline {chapter}{\numberline {6}Other Studies}{205}
-\contentsline {section}{\numberline {6.1}sPHENIX Heavy Flavor Physics Simulations}{205}
-\contentsline {section}{\numberline {6.2}sPHENIX Electromagnetic Calorimeter Studies}{205}
-\contentsline {section}{\numberline {6.3}EIC Electromagnetic Calorimeter R\&D}{205}
-\contentsline {chapter}{\numberline {A}Tables}{207}
-\contentsline {chapter}{\numberline {B}Figures}{209}
-\contentsline {chapter}{List of Symbols}{213}
-\contentsline {chapter}{Abbreviations}{215}
+\contentsline {subsection}{\numberline {4.11.1}Mass Scraping Test}{195}
+\contentsline {subsection}{\numberline {4.11.2}Raw Yield Closure}{196}
+\contentsline {subsection}{\numberline {4.11.3}Efficiency Closure}{197}
+\contentsline {subsubsection}{Low Statistics Limit}{197}
+\contentsline {subsection}{\numberline {4.11.4}\textit {Splot} Closure on Efficiency}{211}
+\contentsline {section}{\numberline {4.12}Statistical Uncertainties Determination}{213}
+\contentsline {subsection}{\numberline {4.12.1}Data Bootstrapping}{214}
+\contentsline {subsection}{\numberline {4.12.2}Statistical Uncertainties Interpretation}{214}
+\contentsline {section}{\numberline {4.13}Systematic Uncertainties Estimation}{214}
+\contentsline {subsection}{\numberline {4.13.1}Global Observables}{214}
+\contentsline {subsection}{\numberline {4.13.2}Branching Ratios}{214}
+\contentsline {subsection}{\numberline {4.13.3}Tracking Efficiency}{214}
+\contentsline {subsection}{\numberline {4.13.4}Muon Efficiency}{214}
+\contentsline {subsection}{\numberline {4.13.5}Selection Efficiency}{214}
+\contentsline {subsection}{\numberline {4.13.6}Signal Extraction}{214}
+\contentsline {subsection}{\numberline {4.13.7}Summary}{214}
+\contentsline {section}{\numberline {4.14}Final Results}{214}
+\contentsline {subsection}{\numberline {4.14.1}Overview}{214}
+\contentsline {subsection}{\numberline {4.14.2}$B^0_s$ and $B^{+}$ Cross Section}{214}
+\contentsline {subsection}{\numberline {4.14.3}$B^0_s/B^{+}$ Ratio}{214}
+\contentsline {chapter}{\numberline {5}Conclusions}{215}
+\contentsline {section}{\numberline {5.1}Comparison with Other Experiments and Theoretical Models}{215}
+\contentsline {section}{\numberline {5.2}Physics Messages Discussion}{215}
+\contentsline {section}{\numberline {5.3}Conclusions}{215}
+\contentsline {section}{\numberline {5.4}Future Outlooks}{215}
+\contentsline {chapter}{\numberline {6}Other Studies}{217}
+\contentsline {section}{\numberline {6.1}sPHENIX Heavy Flavor Physics Simulations}{217}
+\contentsline {section}{\numberline {6.2}sPHENIX Electromagnetic Calorimeter Studies}{217}
+\contentsline {section}{\numberline {6.3}EIC Electromagnetic Calorimeter R\&D}{217}
+\contentsline {chapter}{\numberline {A}Tables}{219}
+\contentsline {chapter}{\numberline {B}Figures}{221}
+\contentsline {chapter}{List of Symbols}{225}
+\contentsline {chapter}{Abbreviations}{227}
