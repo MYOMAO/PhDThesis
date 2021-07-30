@@ -972,7 +972,7 @@ Hence, the generic event likelihood in data is described by the formula below
 \end{equation}
 
 \begin{equation}
-G(m;M,\sigma) = \frac{1}{\sqrt{2\pi}\sigma} \exp^{-\frac{(m-M)^2}{2\sigma^2}}
+G(m;M,\sigma) = \frac{1}{\sqrt{2\pi}\sigma} \exp^{-\frac{(m-M)^2}{2\sigma^2}} 
 \end{equation}
 
 \begin{equation}
@@ -1426,7 +1426,7 @@ The $\frac{1}{\alpha \times \epsilon}$ applied with the tag-\&-probe SFs as func
 \end{center}
 \end{figure}
 
-
+The $p_T$ bin width is 0.5 GeV/c from 5 - 10 GeV/c and 1 GeV/c from 10 - 50 GeV/c. The $|y|$ binning is [0, 1.2, 1.8, 2.1, 2.4].
 
 \subsection{Data-Drive Efficiency Correction}
 
@@ -2030,7 +2030,7 @@ Table \ref{BsStatErr} and Table \ref{BPStatErr} summarize the estimations of sta
 
 \section{Systematic Uncertainties Estimation} 
 
-The final step is to estimate the systematic uncertainties of the B-meson measurements. They mainly come from 3 parts: the common constant scale factors for both $B^0_s$ and $B^{+}$ mesons, the signal raw yield extraction, and the efficiency correction. Based on the formula to obtain the cross section (Equation 4.18 and 4.19), we identify the main sources of systematic uncertainties in term of percentage and the method to estimate each of them in the follow subsections.  
+The final step is to estimate the systematic uncertainties of the B-meson measurements. We know that systematic uncertainties always exist in experiments due to the imperfection of conditions, unknown variation in the experiments, and limitation of the analysis techniques, which cannot be cure even with infinite statistics. They mainly come from 3 parts: the common constant scale factors for both $B^0_s$ and $B^{+}$ mesons, the signal raw yield extraction, and the efficiency correction. Based on the formula to obtain the cross section (Equation 4.18 and 4.19), we identify the main sources of systematic uncertainties in term of percentage and the method to estimate each of them in the follow subsections.  
 
 \subsection{Global Observables}
 
@@ -2203,13 +2203,263 @@ Table \ref{BsMCDataSyst} and Table \ref{BPMCDataSyst} summarize the systematic u
 
 \subsubsection{Finite MC Statistics}
 
-Another source of uncertainties on the selection efficiency is the statistics of the MC samples. Ideally, this uncertainties should be 0 because we can in principle simulate as many MC events as we want. However, in reality, we only generated about 2.5 million MC events, which is finite. Particularly, when we bin the 2D efficiency vs B-meson $p_T$ and $|y|$ map, due to the limited acceptance and fine binning, very low $p_T$ B meson will have very few candidates.
+Another source of uncertainties on the selection efficiency is the statistics of the MC samples. Ideally, this uncertainties should be 0 because we can in principle simulate as many MC events as we want. However, in reality, we only generated about 2.5 million MC events, which is finite. Particularly, when we create the finely binned 2D map of efficiency vs B-meson $p_T$ and $|y|$, due to the limited acceptance and fine binning, very low $p_T$ B meson will have very few candidates.
+
+To quantify the systematic uncertainties due to limited B meson MC events, we the following procedures are carried out
+
+\begin{itemize}
+\item Generate 10000 2D map of efficiency vs B-meson $p_T$ and $|y|$ according to the smear with Gaussian distribution according to the mean and error of the nominal 2D map
+\item Carry out the analysis workflow to obtain the efficiency correct factors for $\langle\frac{1}{\alpha \times \epsilon}\rangle$ all 10000 2D maps using the same B-meson experimental data 
+\item Plot the distribution of the efficiency correct factors for $\langle\frac{1}{\alpha \times \epsilon}\rangle$
+\item Compute the RMS/Mean and quote it as the systematic uncertainties due to finite MC statistics
+\end{itemize}
+
+Figure \ref{BsEffStatSyst} and Figure \ref{BPEffStatSyst} show the $\langle\frac{1}{\alpha \times \epsilon}\rangle$ distributions for $B^0_s$ and $B^+$ respectfully
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.90\textwidth]{Figures/Chapter4/BsStatSyst_0_90_4BinsPT.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BsStatSyst_0_30_1BinsPT.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BsStatSyst_30_90_1BinsPT.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BsStatSyst_0_90_1BinsPT.png}
+\caption{The distribution of $B^0_s$ $\langle \frac{1}{\alpha \times \epsilon} \rangle$ for centrality in 0 - 90\% in the $p_T$ range of 7 - 10, 10 - 15, 15 - 20, and 20 - 50 GeV/c as well as 0 - 90\%, 0 - 30\%, and 30 - 90\% in the $p_T$ range of 10 - 50 GeV/c are shown above. The red dash lines are our nominal value for efficiency correction.}
+\label{BsEffStatSyst}
+\end{center}
+\end{figure}
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.90\textwidth]{Figures/Chapter4/BPStatSyst_0_90_4BinsPT.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPStatSyst_0_30_1BinsPT.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPStatSyst_30_90_1BinsPT.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPStatSyst_0_90_1BinsPT.png}
+\caption{The distribution of $B^+$ $\langle \frac{1}{\alpha \times \epsilon} \rangle$ for centrality in 0 - 90\% in the $p_T$ range of 7 - 10, 10 - 15, 15 - 20, and 20 - 50 GeV/c as well as 0 - 90\%, 0 - 30\%, and 30 - 90\% in the $p_T$ range of 10 - 50 GeV/c are shown above. The red dash lines are our nominal value for efficiency correction.}
+\label{BPEffStatSyst}
+\end{center}
+\end{figure}
+
+
+As expected, the distributions have symmetric Gaussian shapes. Their means of the distributions agree with the nominal value of $\langle\frac{1}{\alpha \times \epsilon}\rangle$ in the analysis, which makes sense and thus validates the procedures. Table \ref{BsMCStatSyst} and Table \ref{BPMCStatSyst} summarize the RMS/Mean results of the distribution for $B^0_s$ and $B^+$ respectfully 
+
+\begin{table}[h]
+\begin{center}
+\caption{The $B^0_s$ systematic uncertainty due to limited MC sample statistics for each $p_T$ and centrality bin is summarized below.}
+\vspace{1em}
+\label{BsMCStatSyst}
+  \begin{tabular}{| c | c |c |}
+    \hline
+     Centrality & $B^0_s$ $p_T$ (GeV/c) & \% Dev \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &   \textbf{26.5\% }     \\ 
+0 - 90\% & 10 - 15 & \textbf{6.28\% }    \\ 
+0 - 90\% & 15 - 20 &  \textbf{3.08\% }     \\ 
+0 - 90\% & 20 - 50 &  \textbf{3.21\% }    \\ 
+0 - 30\% & 10 - 50 &   \textbf{6.59\% }  \\ 
+30 - 90\% & 10 - 50 & \textbf{2.27\% }    \\ 
+0 - 90\% & 10 - 50 &  \textbf{4.37\% }   \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The $B^+$ systematic uncertainty due to MC sample statistics for each $p_T$ and centrality bin is summarized below.}
+\vspace{1em}
+\label{BPMCStatSyst}
+  \begin{tabular}{| c | c |c |}
+    \hline
+     Centrality & $B^+$ $p_T$ (GeV/c) & \% Dev \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &   \textbf{9.22\% }     \\ 
+0 - 90\% & 10 - 15 & \textbf{3.36\% }    \\ 
+0 - 90\% & 15 - 20 &  \textbf{1.92\% }     \\ 
+0 - 90\% & 20 - 50 &  \textbf{1.35\% }    \\ 
+0 - 30\% & 10 - 50 &   \textbf{3.37\% }  \\ 
+30 - 90\% & 10 - 50 & \textbf{2.26\% }    \\ 
+0 - 90\% & 10 - 50 &  \textbf{2.49\% }   \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+The systematic uncertainties due to finite MC simulation events is particularly large at low $p_T$ due to the limited statistics. 
+ 
 
 \subsubsection{Residue $p_T$ Shape Effect}
 
+According to the B-meson measurement in pp collisions from LHCb in Figure \ref{BeautyFFLHCb}, we do not see significantly rapidity dependence of the B-meson. Assuming similar insignificant rapidity depend also holds in PbPb collisions, the rapidity does not contribute to the weigh function $w(x)$. Hence, only $p_T$ shape plays an important role in creating systematic uncertainties to selection efficiency. 
+
+As demonstrated in Section 4.10.4, in the limit of zero bin width, the uncertainties due to the unknown kinematic of B-mesons will be completely eliminated. However, since we have a very fine but still finite $p_T$ binning, there will still be residue effects on systematic uncertainties $p_T$ shape. To quantify the uncertainties, we simply apply the B $p_T$ weights obtained in Section 4.3.4 according to the fits functions obtained in Figure \ref{BsBptWeight} and Figure \ref{BPBptWeight}. 
+
+We apply the B $p_T$ weights to the 2D $\frac{1}{\alpha \times \epsilon}$ map. Then, we compute $\langle\frac{1}{\alpha \times \epsilon}\rangle^{w_{p_T}}$ and take the percent deviation to the nominal efficiency correction factor $\langle\frac{1}{\alpha \times \epsilon}\rangle$. Then, we choose the largest percents deviated from 0 and quote them as the systematic uncertainties due to the B-meson $p_T$ shape. Table \ref{BsPTShape} and Table \ref{BPPTShape} summarize the results 
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The $B^0_s$ systematic uncertainty due to unknown B-meson $p_T$ shape in PbPb collisions for each $p_T$ and centrality bin is summarized below.}
+\vspace{1em}
+\label{BsPTShape}
+  \begin{tabular}{| c | c |c |}
+    \hline
+     Centrality & $B^0_s$ $p_T$ (GeV/c) & \% Dev \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &   \textbf{0.015\% }     \\ 
+0 - 90\% & 10 - 15 & \textbf{0.050\% }    \\ 
+0 - 90\% & 15 - 20 &  \textbf{0.010\% }     \\ 
+0 - 90\% & 20 - 50 &  \textbf{0.022\% }    \\ 
+0 - 30\% & 10 - 50 &   \textbf{0.067\% }  \\ 
+30 - 90\% & 10 - 50 & \textbf{0.015\% }    \\ 
+0 - 90\% & 10 - 50 &  \textbf{0.037\% }   \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The $B^+$ systematic uncertainty due to unknown B-meson $p_T$ shape in PbPb collisions for each $p_T$ and centrality bin is summarized below.}
+\vspace{1em}
+\label{BPPTShape}
+  \begin{tabular}{| c | c |c |}
+    \hline
+     Centrality & $B^+$ $p_T$ (GeV/c) & \% Dev \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &   \textbf{0.166\% }     \\ 
+0 - 90\% & 10 - 15 & \textbf{0.198\% }    \\ 
+0 - 90\% & 15 - 20 &  \textbf{0.009\% }     \\ 
+0 - 90\% & 20 - 50 &  \textbf{0.005\% }    \\ 
+0 - 30\% & 10 - 50 &   \textbf{0.158\% }  \\ 
+30 - 90\% & 10 - 50 & \textbf{0.093\% }    \\ 
+0 - 90\% & 10 - 50 &  \textbf{0.140\% }   \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+We can see that the remaining $p_T$ systematic uncertainties are essentially negligible, which demonstrates the success of $\langle\frac{1}{\alpha \times \epsilon}\rangle$ efficiency correction approach. 
+
+
+
 \subsection{Signal Extraction}
 
+Finally, there is also systematic uncertainties due to signal extraction. To evaluate the uncertainties, we try different models for the signal and background components in the unbinned fit to the B-meson invariant mass distributions. Then, we quote the percent deviation (\% Dev) of variated signal raw yield $N_S^{'}$ from the nominal signal raw yield $N_S$ as the systematic uncertainties.  
+
+\subsubsection{Signal PDF Variation}
+
+For the signal component, we consider several variations listed as follows. First, we consider switching the nominal double Gaussian to triple Gaussian PDF.
+
+\begin{itemize}
+\item Switch double Gaussian to triple Gaussian
+\item Fix the mean of the double Gaussian to be the mean from the MC fits
+\item Increase/decrease the widths nominal double Gaussian function by 10\%: $\sigma_{1,2} \rightarrow (1 + \pm 10\%) \sigma_{1,2}$
+\end{itemize}
+
+Figure \ref{BsSigVar} and Figure \ref{BPSigVar} show examples of signal PDF variation done in $B^0_s$ and $B^+$ invariant mass fits to estimate the systematic uncertainties due to signal extraction
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/data_PbPb_1_BptNew_1050_doubly0_0_90_signal_3gaussEffInfoTreeFit.pdf}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/data_PbPb_1_BptNew_1050_doubly0_0_90_signal_fixedEffInfoTreeFit.pdf}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/data_PbPb_1_BptNew_1050_doubly0_0_90_signal_scal+EffInfoTreeFit.pdf}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/data_PbPb_1_BptNew_1050_doubly0_0_90_signal_scal-EffInfoTreeFit.pdf}
+\caption{Invariant mass fit of $B^0_s$ candidates for $B^0_s$ from 20 - 50 GeV/c and centrality from 0 to 90\% in 5.02 TeV PbPb. The signal pdf from left to right is triple gaussian (with widths and relative proportions fixed from MC), double gaussian with all the parameters fixed (including the mean), increased width (\textit{a}=1.1), and decreased width (\textit{a}=0.9).}
+\label{BsSigVar}
+\end{center}
+\end{figure}
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.32\textwidth]{Plots/Sys/SysPDF/data_PbPb_1_Bpt_950_3gauss_doubly2_ntKp.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Sys/SysPDF/data_PbPb_1_Bpt_950_fixed_doubly2_ntKp.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Sys/SysPDF/data_PbPb_1_Bpt_950_scal+_doubly2_ntKp.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Sys/SysPDF/data_PbPb_1_Bpt_950_scal-_doubly2_ntKp.pdf}
+\caption{Invariant mass fit of $B^+$ candidates for $B^+$ $p_T$ from 20 - 50 GeV/c and centrality from 0 to 90\% in 5.02 TeV PbPb. The signal pdf from left to right is triple gaussian (with widths and relative proportions fixed from MC), double gaussian with all the parameters fixed (including the mean), increased width (\textit{a}=1.1), and decreased width (\textit{a}=0.9).}
+\label{BPSigVar}
+\end{center}
+\end{figure}
+
+Them, we simply take the largest percent variations of the variated signal raw yields compared to the nominal ones and quote them as the systematic uncertainties. Table \ref{BsSigVarTable} and Table \ref{BsSigVarTable} summarize the signal PDF systematic uncertainties 
+
+\begin{table}[h]
+\begin{center}
+\caption{The $B^0_s$ systematic uncertainty due to signal PDF variation in $p_T$ and centrality bin is summarized below.}
+\vspace{1em}
+\label{BsPTShape}
+  \begin{tabular}{| c | c |c | c| c| c| c| }
+    \hline
+     Centrality & $B^0_s$ $p_T$ (GeV/c) & Triple Gaussian &  Fixed Mean & +10\% $\sigma$ & -10\% $\sigma$  \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &   \textbf{0.862\% }  &  0.762\% & 0.066\% &  0.056\% \\ 
+0 - 90\% & 10 - 15 & 0.144\%  & 0.137\%  & 1.83\% &   \textbf{2.34\%}  \\ 
+0 - 90\% & 15 - 20 &  \textbf{0.110\% }  & 0.066\%   &  \textbf{1.02\%} &  1.00\% \\ 
+0 - 90\% & 20 - 50 &  \textbf{0.629\% }   & 0.056\%  &  1.40\%  &   \textbf{1.88\%}\\ 
+0 - 30\% & 10 - 50  & 0.241\%  & 0.192\%  &1.47\% &  \textbf{1.74\%} \\ 
+30 - 90\% & 10 - 50 &  \textbf{2.96\%} &   0.208\%  & 0.840\% &  0.767\%\\ 
+0 - 90\% & 10 - 50 &  1.56\%   & 0.20\%  & 1.33\% &   \textbf{1.65\%} \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The $B^+$ systematic uncertainty due to signal PDF variation in $p_T$ and centrality bin is summarized below.}
+\vspace{1em}
+\label{BsPTShape}
+  \begin{tabular}{| c | c |c | c| c| c| c| }
+    \hline
+     Centrality & $B^+$ $p_T$ (GeV/c) & Triple Gaussian &  Fixed Mean & +10\% $\sigma$ & -10\% $\sigma$  \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &   \textbf{0.004\% }  &  0.235\% & 0.500\% &  0.750\% \\ 
+0 - 90\% & 10 - 15 & 0.144\%  & 0.137\%  & 1.83\% &   \textbf{2.34\%}  \\ 
+0 - 90\% & 15 - 20 &  \textbf{0.110\% }  & 0.066\%   &  \textbf{1.02\%} &  1.00\% \\ 
+0 - 90\% & 20 - 50 &  \textbf{0.629\% }   & 0.056\%  &  1.40\%  &   \textbf{1.88\%}\\ 
+0 - 30\% & 10 - 50  & 0.241\%  & 0.192\%  &1.47\% &  \textbf{1.74\%} \\ 
+30 - 90\% & 10 - 50 &  \textbf{2.96\%} &   0.208\%  & 0.840\% &  0.767\%\\ 
+0 - 90\% & 10 - 50 &  1.56\%   & 0.20\%  & 1.33\% &   \textbf{1.65\%} \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\subsubsection{Background PDF Variation}
+
+
+
+\subsubsection{Total PDF Variation}
+
+To calculate the total PDF variation, we simply add the PDF variation of the signal and background into quadrature: signal extraction uncertainties = PDF variation of signal $\oplus$ background. 
+
 \subsection{Summary}
+
+
+
+
+Hence, in summary, the total uncertainties due to selection efficiency are simply the sum in of uncertainties due to data-MC discrepancy, finite MC events, and the remaining B-meson $p_T$ shape in quadrature: efficiency = data-MC discrepancy $\oplus$ finite MC events $\oplus$ remaining B-meson $p_T$ shape $\oplus$ tracking efficiency. Table \ref{BsSelEff} and Table \ref{BPSelEff} summarize the selection efficiency of $B^0_s$ and $B^+$ respectfully 
+
 
 \section{Final Results} 
 
