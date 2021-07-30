@@ -284,17 +284,17 @@ Hence, the number of MB event for the dimuon PbPb data is $N_{MB} = $11.82 billi
 
 \begin{table}[h]
 \begin{center}
-\caption{Summary table of the total number of MB events vs centrality}
+\caption{Summary table of the total number of MB events and their uncertainties vs centrality}
 \vspace{1em}
 \label{NMBUsedCent}
-  \begin{tabular}{ |c | c| }
+  \begin{tabular}{ |c | c| c| }
     \hline 
-Centrality & $N_{MB}$ (billion) \\
+Centrality & $N_{MB}$ (billion) & Uncertainties  \\
      \hline
          \hline
-0-30\% &  3.941 \\
-30-90\% & 7.882 \\
-0-90\% & 11.82 \\
+0-30\% &  3.941 & 1.26\% \\
+30-90\% & 7.882 & 1.26\% \\
+0-90\% & 11.82 & 1.26\% \\
      \hline
     \hline
 \end{tabular}
@@ -1176,9 +1176,17 @@ We can see that $B^0_s$ have significances of greater than 5$\sigma$ for all its
 
 \section{B Mesons Candidates MC-Data Comparison}
 
+\subsection{overview}
+
 Ideally, if the simulation is impeccable, the RECO distribution in the MC should match perfectly with data. Nevertheless, there is always limitation in the MC simulation because the incorrect model of physics processes in the generation side or poor model of detector conditions the in the reconstruction side. The discrepancy should be quantified as a source systematic uncertainties. The MC simulation plays a crucial role in the data analysis and could affect our final results significantly. In order to compare the consistency between data and MC, we need to look at the B-meson signal only candidates. In the MC, we can simply apply GEN Match selection to select all B-meson signal candidates. In the data, we need to reject the background and extract the signal. After that, we compare the normalized distributions of the data and MC to compare their shapes. 
 
+\subsection{\textbf{Splot} Techniques}
+
 To carry out MC-Data comparison studies, the dedicated \textit{Splot} method is used. This is a likelihood-based method by which we reweigh the data using the unbinned fit result. The weights are added to the dataset based on model and yield extraction variables. Each event has two weights: probability of belonging to the signal given its mass, probability of belonging to the background given its mass. The \textit{Splot} class gives us the distributions of our variables for a given species (signal or background). The advantage of using this method is that we use the full dataset for the comparison in contrast to the sideband subtraction method where one should select the investigation range of signal and background. Furthermore, we use likelihood to describe events' behavior in contrast to the potential misidentification of signal events in background region which might occur in sideband subtraction method. 
+
+ADD DESCRIPTIONS OF SPLOT TECHNIQUE HERE BRO
+
+\subsection{\textbf{Splot} Variable Correlation Studies}
 
 First, in order to apply Splot, we need to confirm our variables are indeed not correlated to the invariant mass. Therefore, the correlation matrices for BDT variables vs $B^+$ invariant mass (Bmass) for data and MC are shown in Figure~\ref{BPBDTCorr}:
 
@@ -1200,6 +1208,9 @@ First, in order to apply Splot, we need to confirm our variables are indeed not 
 \label{BPBDTCorr}
 \end{center}
 \end{figure}
+
+\subsection{\textbf{Splot} Results for Data-MC Comparison}
+
 
 
 No significant correlation between the BDT variables and the invariant mass is observed in either $B^0_s$ and $B^+$, which also validate their BDT trainings. Therefore, Splot will be applicable to compare data and MC. Here, we focus on BDT values that are directly used in our signal extraction and related to MC distribution validation, rather than the variables themselves used in BDT training. In a wide ranges of BDT, the two distributions show good agreement. We only focus on the region where BDT is greater than the working point and is smaller than the maximum value that candidates have.
@@ -1425,7 +1436,7 @@ Finally, we propose to correct the efficiency with a data-driven method. We corr
 \langle\frac{1}{\alpha \times \epsilon} \rangle = \frac{1}{N} \sum_{i = 1}^{N} \frac{1}{\alpha_i \times \epsilon_i}
 \end{equation}
 
-It should note that we will measure  $\langle\frac{1}{\alpha \times \epsilon \rangle}$ instead of $\frac{1}{\langle\alpha \times \epsilon \rangle}$ is because $\langle\frac{1}{\alpha \times \epsilon} \rangle$ has better closure. A dedicated closure test on this approach will be carried out and the results discussed the Section 4.11. 
+It should note that we will measure  $\langle\frac{1}{\alpha \times \epsilon} \rangle$ instead of $\frac{1}{\langle\alpha \times \epsilon \rangle}$ is because $\langle\frac{1}{\alpha \times \epsilon} \rangle$ has better closure. A dedicated closure test on this approach will be carried out and the results discussed the Section 4.11. 
 
 Also, there are background contaminations even within the signal region. This could be improve by Splot method. However, it turns out that the difference in the efficiency between applying Splot and not applying Splot is very small. We do not consider using the Splot method in this measurement. 
 
@@ -1465,12 +1476,12 @@ Table \ref{BsEffTab} and \ref{BPEffTab} summarize the nominal efficiency of $B^0
 
 \begin{table}[h]
 \begin{center}
-\caption{The summary table of $B^0_s$ efficiency correction factor $\langle\frac{1}{\alpha \times \epsilon \rangle}$ for each $p_T$ and centrality bin.}
+\caption{The summary table of $B^0_s$ efficiency correction factor $\langle\frac{1}{\alpha \times \epsilon} \rangle$ for each $p_T$ and centrality bin.}
 \vspace{1em}
 \label{BsEffTab}
   \begin{tabular}{ |c|c|c|c|c|}
     \hline 
-Centrality (\%) & $B^0_s$ $p_T$ (GeV/c) & $\langle\frac{1}{\alpha \times \epsilon \rangle}$ & $\langle\frac{1}{\alpha \times \epsilon \rangle}$ Error Up +) &$\langle\frac{1}{\alpha \times \epsilon \rangle}$ Error Down -) \\
+Centrality (\%) & $B^0_s$ $p_T$ (GeV/c) & $\langle\frac{1}{\alpha \times \epsilon} \rangle$ & $\langle\frac{1}{\alpha \times \epsilon} \rangle$ Error Up +) &$\langle\frac{1}{\alpha \times \epsilon} \rangle$ Error Down -) \\
      \hline
 0 -- 90 & 7 -- 10 & 381.5  &  19.3\% & 20.3\% \\
 0 -- 90 & 10 -- 15 & 75.92 &  12.4\% & 12.3\% \\
@@ -1493,7 +1504,7 @@ Centrality (\%) & $B^0_s$ $p_T$ (GeV/c) & $\langle\frac{1}{\alpha \times \epsilo
 \label{BPEffTab}
   \begin{tabular}{ |c|c|c|c|c|}
     \hline 
-Centrality (\%) & $B^+$ $p_T$ (GeV/c) &$\langle\frac{1}{\alpha \times \epsilon \rangle}$ & $\langle\frac{1}{\alpha \times \epsilon \rangle}$ Error Up +) & $\langle\frac{1}{\alpha \times \epsilon \rangle}$ Error Down -) \\
+Centrality (\%) & $B^+$ $p_T$ (GeV/c) &$\langle\frac{1}{\alpha \times \epsilon} \rangle$ & $\langle\frac{1}{\alpha \times \epsilon} \rangle$ Error Up +) & $\langle\frac{1}{\alpha \times \epsilon} \rangle$ Error Down -) \\
      \hline
 0 -- 90 & 7 -- 10 & 105.9  &  15.8\% & 15.1\% \\
 0 -- 90 & 10 -- 15 & 37.55 &  4.10\% & 7.95\% \\
@@ -1509,6 +1520,38 @@ Centrality (\%) & $B^+$ $p_T$ (GeV/c) &$\langle\frac{1}{\alpha \times \epsilon \
 \end{table}
 
 At this point, we have all the ingredients to measure the B-meson cross section and study the physics. 
+
+\section{Cross Section Measurement} 
+
+The goal is this thesis is to measure the cross section of B-meson in PbPb collisions as functions of B mesons $p_T$ and PbPb collision event centrality. Here, in high energy heavy-ion physics, cross section really means production yield. 
+
+In terms of B mesons $p_T$, the cross section is defined as mathematically as follows:
+
+\begin{equation}
+\frac{1}{T_{AA}}\frac{dN}{d p_T} =  \frac{1}{T_{AA}} \frac{1}{2} \frac{1}{\Delta p_T} \frac{1}{N_{MB} BR } N_S \langle\frac{1}{\alpha \times \epsilon} \rangle
+\end{equation}
+
+In terms of PbPb collision event centrality, the cross section is defined as mathematically as follows:
+
+\begin{equation}
+\frac{1}{T_{AA}} N =  \frac{1}{T_{AA}} \frac{1}{2} \frac{1}{N_{MB} BR} N_S \langle\frac{1}{\alpha \times \epsilon} \rangle
+\end{equation}
+
+The definitions of the variables above are shown below:
+
+\begin{itemize}
+\item $N$: B-meson production yield
+\item $T_{AA}$: Nuclear overlapping function - here is for spherical nucleus ${}^{208}_{82}$Pb  
+\item $N_{MB}$: Number of minimum biased events corresponding to the dimuon PbPb datasets
+\item $\frac{1}{2}$: Divide by 2 for the purpose of normalizing particle and antiparticle 
+\item $BR$: B-meson decay branching ratio
+%\item $f(b\rightarrow B)$: Beauty quark fragmentation fraction to B mesons
+\item $\Delta p_T$: B-meson transverse momentum bin width
+\item $N_S$: Signal raw yield 
+\item $\langle\frac{1}{\alpha \times \epsilon} \rangle$: Data-drive efficiency correction factor
+\end{itemize}
+
+It should be pointed out that we aim at measuring the $p_T$ differential cross section as a function B mesons $p_T$ while as we plan to present the $p_T$ integrated cross section a function of event centrality in this thesis. Before presenting our final results of the cross section measurement, we need to validate our signal raw yield $N_S$ and efficiency correction factor $\langle\frac{1}{\alpha \times \epsilon} \rangle$ measurements and estimate the correct statistical and systematic uncertainties of the B-meson measurements. 
 
 \section{Validation Tests} 
 
@@ -1567,7 +1610,7 @@ In addition, we test the closure of the unbinned fits to extract signal raw yiel
 Pull = \frac{p_i - \bar p}{\sigma_{p_i}}
 \end{equation}
 
-Finally, we plot pull distribution of all 5000 samples and perform the Gaussian fits to the pull distribution to obtain the mean and width. We expect to the Gaussian to have a mean $\mu = 0$ and the width $\sigma = 1$, which is called a unit pull. Figure \ref{BsPtPull,BsCentPull,BPPtPull,BPCentPull} show the pull distributions and the Gaussian fits to them for $B^0_s$ and $B^+$ signal raw yield parameter $N_S$ for each $p_T$ and centrality bin respectfully 
+Finally, we plot pull distribution of all 5000 samples and perform the Gaussian fits to the pull distribution to obtain the mean and width. We expect to the Gaussian to have a mean $\mu = 0$ and the width $\sigma = 1$, which is called a unit pull. Figure \ref{BsPtPull}, \ref{BsCentPull}, \ref{BPPtPul} and \ref{BPCentPull} show the pull distributions and the Gaussian fits to them for $B^0_s$ and $B^+$ signal raw yield parameter $N_S$ for each $p_T$ and centrality bin respectfully 
 
 
 
@@ -1621,7 +1664,7 @@ According to the fits results, all pulls appear to be unit pull. This validates 
 
 \subsection{Efficiency Closure}
 
-Next, after validating the fit closure for B-meson signal raw yield extraction, we also need to validate the efficiency correction approach to explicitly show that the efficiency correction factor $\langle\frac{1}{\alpha \times \epsilon \rangle}$ are indeed consistent to the truth efficiency to avoid potential bias. To make the analysis simple, we use $\hat p_T = 5$ the MC sample. Here, we consider both cases. The high statistics case: one whole $\hat p_T = 5$ MC sample. The low statistics case: 2000 spilt data-like $\hat p_T = 5$ MC samples same as the raw yield fit studies. In both cases, we use the same 2D $\frac{1}{\alpha \times \epsilon}$ efficiency correction map without tag-\&-probe weights from the input MC sample. We compare the $\langle \frac{1}{\alpha \times \epsilon}\rangle$ to the expected value, which is the total number of generated $B_s$/total number of reconstructed B mesons and compute the 
+Next, after validating the fit closure for B-meson signal raw yield extraction, we also need to validate the efficiency correction approach to explicitly show that the efficiency correction factor $\langle\frac{1}{\alpha \times \epsilon} \rangle$ are indeed consistent to the truth efficiency to avoid potential bias. To make the analysis simple, we use $\hat p_T = 5$ the MC sample. Here, we consider both cases. The high statistics case: one whole $\hat p_T = 5$ MC sample. The low statistics case: 2000 spilt data-like $\hat p_T = 5$ MC samples same as the raw yield fit studies. In both cases, we use the same 2D $\frac{1}{\alpha \times \epsilon}$ efficiency correction map without tag-\&-probe weights from the input MC sample. We compare the $\langle \frac{1}{\alpha \times \epsilon}\rangle$ to the expected value, which is the total number of generated $B_s$/total number of reconstructed B mesons and compute the 
 
 
 \begin{equation}
@@ -1815,7 +1858,7 @@ The percent deviation of $B^0_s$ and $B^+$ \textit{Splot} weighed efficiency cor
 \label{BsSplotTable}
   \begin{tabular}{| c | c |c |c | c|}
     \hline
-     Centrality & $B^0_s$  $p_T$ (GeV/c) & $\langle \frac{1}{\alpha \times \epsilon} \rangle'$ (Weighted) & $\langle \frac{1}{\alpha \times \epsilon} \rangle$ (Unweighed Nominal)  & Percent Deviation (\% Dev ) \\
+     Centrality & $B^0_s$  $p_T$ (GeV/c) & $\langle \frac{1}{\alpha \times \epsilon} \rangle'$ (Weighed) & $\langle \frac{1}{\alpha \times \epsilon} \rangle$ (Nominal)  & Percent Deviation (\% Dev ) \\
     \hline
     \hline
 0 - 90\% & 7 - 10   &  386.5  & 381.5 & 1.31\% \\ 
@@ -1838,7 +1881,7 @@ The percent deviation of $B^0_s$ and $B^+$ \textit{Splot} weighed efficiency cor
 \label{BPSplotTable}
   \begin{tabular}{| c | c |c |c | c|}
     \hline
-     Centrality &   $B^+$  $p_T$ (GeV/c) & $\langle \frac{1}{\alpha \times \epsilon} \rangle'$ (Weighted) & $\langle \frac{1}{\alpha \times \epsilon} \rangle$ (Unweighed Nominal)  & Percent Deviation (\% Dev ) \\
+     Centrality &   $B^+$  $p_T$ (GeV/c) & $\langle \frac{1}{\alpha \times \epsilon} \rangle'$ (Weighed) & $\langle \frac{1}{\alpha \times \epsilon} \rangle$ (Nominal)  & Percent Deviation (\% Dev ) \\
     \hline
     \hline
 0 - 90\% & 7 - 10   &  104.1  & 105.9 & 1.72\% \\ 
@@ -1861,23 +1904,308 @@ Since the percent deviation are within 2\%, there is no need to implement \texti
 
 \section{Statistical Uncertainties Determination} 
 
-After showing that there is no explicit bias throughout the entire analysis, next step is to evaluate statistical uncertainties of the analysis. 
+
+
 
 \subsection{Data Bootstrapping}
 
+
+After showing that there is no explicit bias throughout the entire analysis, next step is to evaluate statistical uncertainties of the analysis. To estimate the statistical uncertainties of a measurement, we can simply follow the toy approach. We can repeat the counting experiment with identical conditions and randomly sample the statistics according to the Poisson distribution defined as follows:
+
+\begin{equation}
+P(\mu,x) = \frac{\mu^N e^{-\mu}}{N!}
+\end{equation}
+
+In order to estimate the statistical uncertainties, we develop the following procedures named as ``Data Bootstrapping'', to quantify the statistical uncertainties of the final cross section measurement, which is defined in Section 4.11:
+
+\begin{itemize}
+\item Randomly resample the data after passing the selections for each $p_T$ and centrality bin. Each resampled data has the number of B mesons according to Poisson distribution with the same mean as the signal raw yield in data analysis.
+\item Construct 1000 randomly resampled datasets. Here, we allow repeated events in the resampled dataset.
+\item Carry out the same workflow on each of the resampled datasets as the data analysis and compute the corrected yield, which is defined as the product of the signal raw yield $N_S$ and efficiency correction factor $\langle \frac{1}{\alpha \times \epsilon}\rangle$
+\item Plot the B-meson corrected yield distribution and compute the mean and RMS for each $p_T$ and centrality bin
+\item Quote the RMS/Mean values of the distributions as the percent statistical uncertainties
+\end{itemize}
+
+Figure \ref{BsCorrYieldBoot} and \ref{BPCorrYieldBoot} show the corrected yield distribution of the 1000 $B^0_s$ and $B^+$ resampled datasets respectfully
+
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BsCorrYield_0_90_7-10_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BsCorrYield_0_90_10-15_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BsCorrYield_0_90_15-20_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BsCorrYield_0_90_20-50_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BsCorrYield_0_90_10-50_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BsCorrYield_0_30_10-50_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BsCorrYield_30_90_10-50_Assym.png}  
+\caption{The $B^0_s$ corrected yield distributions of the 1000 data-like randomly resampled datasets for centrality in 0 - 90\% in the $p_T$ range of 7 - 10, 10 - 15, 15 - 20, and 20 - 50 GeV/c as well as 0 - 90\%, 0 - 30\%, and 30 - 90\% in the $p_T$ range of 10 - 50 GeV/c are shown above.} 
+\label{BsCorrYieldBoot} 
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPCorrYield_0_90_7-10_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPCorrYield_0_90_10-15_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPCorrYield_0_90_15-20_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPCorrYield_0_90_20-50_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPCorrYield_0_90_10-50_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPCorrYield_0_30_10-50_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Figures/Chapter4/BPCorrYield_30_90_10-50_Assym.png}  
+\caption{The $B^+$ corrected yield distributions of the 1000 data-like randomly resampled datasets for centrality in 0 - 90\% in the $p_T$ range of 7 - 10, 10 - 15, 15 - 20, and 20 - 50 GeV/c as well as 0 - 90\%, 0 - 30\%, and 30 - 90\% in the $p_T$ range of 10 - 50 GeV/c are shown above.} 
+\label{BPCorrYieldBoot} 
+\end{center}
+\end{figure}
+
+
 \subsection{Statistical Uncertainties Interpretation}
+
+A refinement is needed as we see from Figure \ref{BsCorrYieldBoot} and Figure \ref{BPCorrYieldBoot} that the corrected yield distributions are indeed asymmetric. Hence, asymmetric statistical uncertainties will be introduced in our B-meson cross section measurements. To quantify the asymmetric statistical uncertainties, we do the following
+
+
+\begin{itemize}
+\item Find the location of the bin corresponding to the mean of corrected yield distribution 
+\item Integrate up/down ($+/-$) side by increasing/decreasing the bin number from the mean bin 
+\item Take integral count from the mean bin ratio to the total up/down side counts from the mean so that they reach one $\sigma$, which is $34.14\% \times 2 = 68.28\%$. Mathematically, the method is shown below:
+\begin{equation}
+\frac{\int_{\langle Y \rangle}^{Y^+} f(x) dx }{\int_{\langle Y \rangle}^{\infty} f(x) dx} = 68.28\%
+\end{equation}
+\item Read out the corresponding up/down corrected yield values, for instance $Y^+$ as shown on the equation above
+\item Compute the percent deviations (\% Dev) from the mean values for both up/down corrected yields and quote the deviations as up/down statistical uncertainties 
+\begin{equation}
+\% Dev^\pm =\frac{Y^\pm - \langle Y \rangle}{\langle Y \rangle}
+\end{equation}
+\end{itemize}
+
+Table \ref{BsStatErr} and Table \ref{BPStatErr} summarize the estimations of statistical uncertainties for $B^0_s$ and $B^+$ cross sections in each $p_T$ and centrality bin
+
+\begin{table}[h]
+\begin{center}
+\caption{$B^0_s$ RMS/Mean and their asymmetric up and down statistical uncertainties of the corrected yield distribution are summarized below.}
+\vspace{1em}
+\label{BsStatErr}
+  \begin{tabular}{| c | c |c | c| c|}
+    \hline
+     Centrality &  $B^0_s$ $p_T$ (GeV/c) & RMS/Mean  & Stat. Up (+) & Stat Down (-)  \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 & 46.1\%  &  \textbf{51.3\% }  &  \textbf{48.3\% }   \\ 
+0 - 90\% & 10 - 15 & 24.7\% & \textbf{22.4\% }  & \textbf{25.6\%}  \\ 
+0 - 90\% & 15 - 20 & 21.2\% & \textbf{21.6\% }  & \textbf{20.7\%}   \\ 
+0 - 90\% & 20 - 50 & 20.8\% & \textbf{21.6\% }  &  \textbf{16.3\%}   \\ 
+0 - 30\% & 10 - 50 & 22.0\% &  \textbf{21.2\% }  &  \textbf{22.0\% } \\ 
+30 - 90\% & 10 - 50 & 20.6\% & \textbf{19.5\% }  &  \textbf{19.7\% }  \\ 
+0 - 90\% & 10 - 50 & 18.3\% & \textbf{17.9\% }  & \textbf{16.3\% }  \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{table}[h]
+\begin{center}
+\caption{$B^+$ RMS/Mean and their asymmetric up and down statistical uncertainties of the corrected yield distribution are summarized below.}
+\vspace{1em}
+\label{BPStatErr}
+  \begin{tabular}{| c | c |c | c| c|}
+    \hline
+     Centrality & $B^+$ $p_T$ (GeV/c) & RMS/Mean  & Stat. Up (+) & Stat Down (-)  \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &  16.4\%  &  \textbf{15.8\%}  & \textbf{15.1\%}   \\ 
+0 - 90\% & 10 - 15 &  7.70\%   &  \textbf{7.60\%}  & \textbf{8.77\%}   \\ 
+0 - 90\% & 15 - 20 &   6.72\%   &  \textbf{6.00\%}  & \textbf{6.66\%}   \\ 
+0 - 90\% & 20 - 50 &  6.19\%    &  \textbf{6.64\%}  & \textbf{5.49\%}   \\ 
+0 - 30\% & 10 - 50 &   6.52\% &  \textbf{5.81\%}  & \textbf{5.54\%}   \\ 
+30 - 90\% & 10 - 50 & 8.10\%  &  \textbf{8.22\%}  & \textbf{6.97\%}   \\ 
+0 - 90\% & 10 - 50 & 5.49\%  &  \textbf{5.06\%}  & \textbf{4.54\%}    \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
 
 \section{Systematic Uncertainties Estimation} 
 
+The final step is to estimate the systematic uncertainties of the B-meson measurements. They mainly come from 3 parts: the common constant scale factors for both $B^0_s$ and $B^{+}$ mesons, the signal raw yield extraction, and the efficiency correction. Based on the formula to obtain the cross section (Equation 4.18 and 4.19), we identify the main sources of systematic uncertainties in term of percentage and the method to estimate each of them in the follow subsections.  
+
 \subsection{Global Observables}
+
+The uncertainties of global observables $T_{AA}$ and $N_{MB}$ are summarized at Table \ref{GOvsCent} and Table \ref{NMBUsedCent}. We simply quote the uncertainties from them in our cross section measurements. 
 
 \subsection{Branching Ratios}
 
+According to PDG 2018 \cite{PDG2018}, the relevant decay branching ratio and their uncertainties are listed as follows
+
+\begin{itemize}
+\item $BR(B^0_s \rightarrow J/\psi \phi)$ = $(1.08 \pm 0.08) \times 10^{-3}$
+\item $BR(B^+ \rightarrow J/\psi K^+)$ = $(1.010 \pm 0.029) \times 10^{-3}$
+\item $BR(J/\psi \rightarrow \mu^+ \mu^-)$ = $(5.961 \pm 0.033)\%$
+\item $BR(\phi \rightarrow K^+ K^-)$ = $(49.2 \pm 0.5)\%$
+\end{itemize}
+
+Hence, we can compute total branching ratio of the B mesons decay chain by multiply the partial decays. The uncertainties on the BR will propagate in an uncorrelated manner.   
+
+\begin{itemize}
+\item $BR(B^0_s \rightarrow J/\psi \phi  \rightarrow \mu^+ \mu^- K^+ K^-)$ = $(3.17 \pm 0.24) \times 10^{-5}$
+\item $BR(B^+ \rightarrow J/\psi K^+  \rightarrow \mu^+ \mu^- K^+)$ = $(6.03 \pm 0.18) \times 10^{-5}$ 
+\end{itemize}
+
+Hence, we can compute percent uncertainties of the $B^0_s$ and $B^+$ branching ratios. The systematic uncertainties due to decay branching ratio of $B^0_s$ is $\textbf{7.50\%}$ and $B^+$ is  $\textbf{2.92\%}$.
+
 \subsection{Tracking Efficiency}
+
+The difference in the track reconstruction efficiency in data and simulation is estimated by comparing 3-prong $D^{*}$ decay $D^{*} \rightarrow K \pi\pi$ and 5-prong $D^{*}$ decay $D^{*} \rightarrow K \pi\pi\pi\pi$, \ref{TrackEff}. According to CMS tracking group studies, this results in \textbf{5\%} for each track. Hence, the systematic uncertainties due to tracking efficiency is \textbf{5\%} for $B^+$ since it has only one kaon track and \textbf{10\%} for $B^0_s$ since it has two kaon tracks. These apply to all $p_T$ and centrality bins.
 
 \subsection{Muon Efficiency}
 
+The systematic uncertainties due to muon efficiency can be quantified by taking the up and down cases of the tag-\&-probe scale factors determined by the CMS dilepton group. Figure \ref{MuonEffSystWF} shows the workflow to carry out the systematic uncertainties studies using tag-\&-probe method in this analysis:
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter4/TnPSystScheme.png}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter4/TnPSystCal.png}
+\caption{The schematic block diagrams demonstrating the calculations of the uncertainties on tag-\&-probe scale factors and the asymmetric systematic uncertainties due to muon efficiency on the efficiency correction factor (right) are shown above.} 
+\label{MuonEffSystWF} 
+\end{center}
+\end{figure}
+
+Table \ref{BsTnPSyst} and Table \ref{BPTnPSyst} summarize the systematic uncertainties due to muon efficiency on $B^0_s$ and $B^+$ respectfully
+
+\begin{table}[h]
+\begin{center}
+\caption{The $B^0_s$ systematic uncertainty due to muon efficiency for each $p_T$ and centrality bin is summarized below.}
+\vspace{1em}
+\label{BsTnPSyst}
+  \begin{tabular}{| c | c |c | c|}
+    \hline
+     Centrality & $B^0_s$ $p_T$ (GeV/c) &Uncertainty Up (+) & Uncertainty Down (-)  \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &   \textbf{8.88\% }  &  \textbf{7.49\% }   \\ 
+0 - 90\% & 10 - 15 & \textbf{5.97\% }  & \textbf{5.24\%}  \\ 
+0 - 90\% & 15 - 20 &  \textbf{3.73\% }  & \textbf{3.46\%}   \\ 
+0 - 90\% & 20 - 50 &  \textbf{3.91\% }  &  \textbf{3.60\%}   \\ 
+0 - 30\% & 10 - 50 &   \textbf{5.52\% }  &  \textbf{4.85\% } \\ 
+30 - 90\% & 10 - 50 & \textbf{4.63\% }  &  \textbf{4.19\% }  \\ 
+0 - 90\% & 10 - 50 &  \textbf{5.29\% }  & \textbf{4.70\% }  \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The $B^+$ systematic uncertainty due to muon efficiency for each $p_T$ and centrality bin is summarized below.}
+\vspace{1em}
+\label{BPTnPSyst}
+  \begin{tabular}{| c | c |c | c|}
+    \hline
+     Centrality & $B^+$ $p_T$ (GeV/c) &Uncertainty Up (+) & Uncertainty Down (-)  \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &   \textbf{7.21\% }  &  \textbf{6.28\% }   \\ 
+0 - 90\% & 10 - 15 & \textbf{4.29\% }  & \textbf{3.92\%}  \\ 
+0 - 90\% & 15 - 20 &  \textbf{3.83\% }  & \textbf{3.53\%}   \\ 
+0 - 90\% & 20 - 50 &  \textbf{3.87\% }  &  \textbf{3.56\%}   \\ 
+0 - 30\% & 10 - 50 &   \textbf{4.18\% }  &  \textbf{3.83\% } \\ 
+30 - 90\% & 10 - 50 & \textbf{4.14\% }  &  \textbf{3.80\% }  \\ 
+0 - 90\% & 10 - 50 &  \textbf{4.16\% }  & \textbf{3.81\% }  \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
 \subsection{Selection Efficiency}
+
+Next, we will estimate uncertainties due to the B-meson selection efficiency. The efficiency correction heavily relies on the MC performance. The poor descriptions of detector performance in the MC simulation, the limited MC statistics, and poor underlying physics processes modeling of the MC B-meson spectra will contribute to the uncertainties in efficiency correction. In fact, this is the major systematic uncertainty throughout the analysis.
+
+\subsubsection{Data-MC Discrepancy}
+
+We have previous compared the data and MC distributions BDT scores of $B^0_s$ and $B^+$ mesons. To quantify the systematic uncertainties due to Data-MC discrepancy, we can simply apply the \textit{Splot} weights $w$ obtained using \textit{Splot} techniques in the BDT distributions to obtain a weighed 2D efficiency correction map $\frac{w}{\alpha \times \epsilon}$. Then, we compute the weighed efficiency correction factor $\langle \frac{1}{\alpha \times \epsilon}\rangle_{w}$.Finally, we take the percent deviation (\% Dev) of the BDT \textit{Splot} weighed $\langle \frac{1}{\alpha \times \epsilon}\rangle_{w}$ to the nominal efficiency correction factor $\langle \frac{1}{\alpha \times \epsilon}\rangle$ as the systematic uncertainties. 
+
+\begin{equation}
+\% Dev = \frac{\langle \frac{1}{\alpha \times \epsilon} \rangle_{w} - \langle \frac{1}{\alpha \times \epsilon} \rangle}{\langle \frac{1}{\alpha \times \epsilon} \rangle}
+\end{equation}
+
+This method works for $B^+$ since it has sufficient statistics.  However, for $B^0_s$, due to its limited statistics, we decide to apply the \textit{Splot} weights obtained from kinematic variables of the kaon track in $B^+$ to the efficiency correction factor and quote the largest one as the systematic uncertainties. The list of kinematic variables are shown below: 
+
+
+\begin{itemize}
+\item The transverse distance of closest approach the kaon track to the primary vertex
+\item The error on the transverse distance of closest approach the kaon track to the primary vertex
+\item The longitudinal distance of closest approach the kaon track to the primary vertex
+\item The error on the longitudinal distance of closest approach the kaon track to the primary vertex
+\item The kaon track pseudorapidity 
+\item The kaon track rapidity 
+\item The kaon track transverse momentum 
+\end{itemize}
+
+
+Table \ref{BsMCDataSyst} and Table \ref{BPMCDataSyst} summarize the systematic uncertainties due to MC-Data discrepancy on $B^0_s$ and $B^+$ respectfully
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The $B^0_s$ systematic uncertainty due to Data-MC discrepancy for each $p_T$ and centrality bin is summarized below.}
+\vspace{1em}
+\label{BsMCDataSyst}
+  \begin{tabular}{| c | c |c |}
+    \hline
+     Centrality & $B^0_s$ $p_T$ (GeV/c) & \% Dev \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &   \textbf{34.65\% }     \\ 
+0 - 90\% & 10 - 15 & \textbf{5.64\% }    \\ 
+0 - 90\% & 15 - 20 &  \textbf{4.66\% }     \\ 
+0 - 90\% & 20 - 50 &  \textbf{10.24\% }    \\ 
+0 - 30\% & 10 - 50 &   \textbf{3.09\% }  \\ 
+30 - 90\% & 10 - 50 & \textbf{3.66\% }    \\ 
+0 - 90\% & 10 - 50 &  \textbf{3.19\% }   \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The $B^+$ systematic uncertainty due to Data-MC discrepancy for each $p_T$ and centrality bin is summarized below.}
+\vspace{1em}
+\label{BPMCDataSyst}
+  \begin{tabular}{| c | c |c |}
+    \hline
+     Centrality & $B^+$ $p_T$ (GeV/c) & \% Dev \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &   \textbf{4.17\% }     \\ 
+0 - 90\% & 10 - 15 & \textbf{15.25\% }    \\ 
+0 - 90\% & 15 - 20 &  \textbf{3.01\% }     \\ 
+0 - 90\% & 20 - 50 &  \textbf{1.65\% }    \\ 
+0 - 30\% & 10 - 50 &   \textbf{13.28\% }  \\ 
+30 - 90\% & 10 - 50 & \textbf{8.49\% }    \\ 
+0 - 90\% & 10 - 50 &  \textbf{11.51\% }   \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\subsubsection{Finite MC Statistics}
+
+Another source of uncertainties on the selection efficiency is the statistics of the MC samples. Ideally, this uncertainties should be 0 because we can in principle simulate as many MC events as we want. However, in reality, we only generated about 2.5 million MC events, which is finite. Particularly, when we bin the 2D efficiency vs B-meson $p_T$ and $|y|$ map, due to the limited acceptance and fine binning, very low $p_T$ B meson will have very few candidates.
+
+\subsubsection{Residue $p_T$ Shape Effect}
 
 \subsection{Signal Extraction}
 
