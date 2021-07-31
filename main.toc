@@ -124,23 +124,23 @@
 \contentsline {section}{\numberline {4.9}B Mesons Candidates MC-Data Comparison}{188}
 \contentsline {subsection}{\numberline {4.9.1}overview}{188}
 \contentsline {subsection}{\numberline {4.9.2}\textbf {Splot} Techniques}{190}
-\contentsline {subsection}{\numberline {4.9.3}\textbf {Splot} Variable Correlation Studies}{191}
-\contentsline {subsection}{\numberline {4.9.4}\textbf {Splot} Results for Data-MC Comparison}{192}
-\contentsline {section}{\numberline {4.10}Acceptance and Efficiency Correction}{193}
-\contentsline {subsection}{\numberline {4.10.1}Overview}{193}
-\contentsline {subsection}{\numberline {4.10.2}Tag \& Probe Techniques}{195}
+\contentsline {subsection}{\numberline {4.9.3}\textbf {Splot} Variable Correlation Studies}{192}
+\contentsline {subsection}{\numberline {4.9.4}\textbf {Splot} Results for Data-MC Comparison}{193}
+\contentsline {section}{\numberline {4.10}Acceptance and Efficiency Correction}{194}
+\contentsline {subsection}{\numberline {4.10.1}Overview}{194}
+\contentsline {subsection}{\numberline {4.10.2}Tag \& Probe Techniques}{196}
 \contentsline {subsection}{\numberline {4.10.3}Traditional Efficiency Correction Results}{197}
-\contentsline {subsection}{\numberline {4.10.4}Analysis Challenges}{197}
-\contentsline {subsection}{\numberline {4.10.5}Fiducial Measurement}{198}
-\contentsline {subsection}{\numberline {4.10.6}Finely Binned 2D Efficiency Map}{198}
-\contentsline {subsection}{\numberline {4.10.7}Data-Drive Efficiency Correction}{199}
+\contentsline {subsection}{\numberline {4.10.4}Analysis Challenges}{198}
+\contentsline {subsection}{\numberline {4.10.5}Fiducial Measurement}{199}
+\contentsline {subsection}{\numberline {4.10.6}Finely Binned 2D Efficiency Map}{199}
+\contentsline {subsection}{\numberline {4.10.7}Data-Drive Efficiency Correction}{200}
 \contentsline {subsection}{\numberline {4.10.8}Results}{200}
 \contentsline {section}{\numberline {4.11}Cross Section Measurement}{201}
-\contentsline {section}{\numberline {4.12}Validation Tests}{202}
-\contentsline {subsection}{\numberline {4.12.1}Mass Scraping Test}{202}
-\contentsline {subsection}{\numberline {4.12.2}Raw Yield Closure}{203}
-\contentsline {subsection}{\numberline {4.12.3}Efficiency Closure}{204}
-\contentsline {subsubsection}{Low Statistics Limit}{205}
+\contentsline {section}{\numberline {4.12}Validation Tests}{203}
+\contentsline {subsection}{\numberline {4.12.1}Mass Scraping Test}{203}
+\contentsline {subsection}{\numberline {4.12.2}Raw Yield Closure}{204}
+\contentsline {subsection}{\numberline {4.12.3}Efficiency Closure}{205}
+\contentsline {subsubsection}{Low Statistics Limit}{206}
 \contentsline {subsection}{\numberline {4.12.4}\textit {Splot} Closure on Efficiency}{219}
 \contentsline {section}{\numberline {4.13}Statistical Uncertainties Determination}{221}
 \contentsline {subsection}{\numberline {4.13.1}Data Bootstrapping}{221}
@@ -163,17 +163,17 @@
 \contentsline {section}{\numberline {4.15}Final Results}{248}
 \contentsline {subsection}{\numberline {4.15.1}Overview}{248}
 \contentsline {subsection}{\numberline {4.15.2}$B^0_s$ and $B^{+}$ Cross Section}{248}
-\contentsline {subsection}{\numberline {4.15.3}$B^0_s/B^{+}$ Ratio}{251}
-\contentsline {chapter}{\numberline {5}Conclusions}{253}
-\contentsline {section}{\numberline {5.1}Comparison with Other Experiments and Theoretical Models}{253}
-\contentsline {section}{\numberline {5.2}Physics Messages Discussion}{253}
-\contentsline {section}{\numberline {5.3}Conclusions}{253}
-\contentsline {section}{\numberline {5.4}Future Outlooks}{253}
-\contentsline {chapter}{\numberline {6}Other Studies}{255}
-\contentsline {section}{\numberline {6.1}sPHENIX Heavy Flavor Physics Simulations}{255}
-\contentsline {section}{\numberline {6.2}sPHENIX Electromagnetic Calorimeter Studies}{255}
-\contentsline {section}{\numberline {6.3}EIC Electromagnetic Calorimeter R\&D}{255}
-\contentsline {chapter}{\numberline {A}Tables}{257}
-\contentsline {chapter}{\numberline {B}Figures}{259}
-\contentsline {chapter}{List of Symbols}{263}
-\contentsline {chapter}{Abbreviations}{265}
+\contentsline {subsection}{\numberline {4.15.3}$B^0_s/B^{+}$ Ratio}{252}
+\contentsline {chapter}{\numberline {5}Conclusions}{255}
+\contentsline {section}{\numberline {5.1}Comparison with Other Experiments and Theoretical Models}{255}
+\contentsline {section}{\numberline {5.2}Physics Messages Discussion}{255}
+\contentsline {section}{\numberline {5.3}Conclusions}{255}
+\contentsline {section}{\numberline {5.4}Future Outlooks}{255}
+\contentsline {chapter}{\numberline {6}Other Studies}{257}
+\contentsline {section}{\numberline {6.1}sPHENIX Heavy Flavor Physics Simulations}{257}
+\contentsline {section}{\numberline {6.2}sPHENIX Electromagnetic Calorimeter Studies}{257}
+\contentsline {section}{\numberline {6.3}EIC Electromagnetic Calorimeter R\&D}{257}
+\contentsline {chapter}{\numberline {A}Tables}{259}
+\contentsline {chapter}{\numberline {B}Figures}{261}
+\contentsline {chapter}{List of Symbols}{265}
+\contentsline {chapter}{Abbreviations}{267}

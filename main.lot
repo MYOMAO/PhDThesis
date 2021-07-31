@@ -12,11 +12,11 @@
 \contentsline {table}{\numberline {4.8}{\ignorespaces The summary table of $B^0_s$ fits results of Gaussian mean, signal raw yield, and background raw yield as well as their uncertainties.}}{190}
 \contentsline {table}{\numberline {4.9}{\ignorespaces The summary table of $B^+$ fits results of Gaussian mean, signal raw yield, and background raw yield as well as their uncertainties.}}{190}
 \contentsline {table}{\numberline {4.10}{\ignorespaces The summary table of $B^0_s$ likelihood significance for each $p_T$ and centrality bin.}}{193}
-\contentsline {table}{\numberline {4.11}{\ignorespaces The summary table of $B^0_s$ efficiency correction factor $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $ for each $p_T$ and centrality bin.}}{200}
-\contentsline {table}{\numberline {4.12}{\ignorespaces The summary table of $B^+$ efficiency correction factor $\frac {1}{\delimiter "426830A \alpha \times \epsilon \delimiter "526930B }$ for each $p_T$ and centrality bin.}}{200}
-\contentsline {table}{\numberline {4.13}{\ignorespaces The summary table of BDT vs mass dependence systematics on the background yield from the fits in different $p_T$ and centrality bins are shown below.}}{203}
-\contentsline {table}{\numberline {4.14}{\ignorespaces The results of $B^0_s$ efficiency factors $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $ and $\frac {1}{\delimiter "426830A \alpha \times \epsilon \delimiter "526930B }$ and their percent deviation are shown above.}}{205}
-\contentsline {table}{\numberline {4.15}{\ignorespaces The results of $B^+$ efficiency factors $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $ and $\frac {1}{\delimiter "426830A \alpha \times \epsilon \delimiter "526930B }$ and their percent deviation are shown above.}}{205}
+\contentsline {table}{\numberline {4.11}{\ignorespaces The summary table of $B^0_s$ efficiency correction factor $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $ for each $p_T$ and centrality bin.}}{201}
+\contentsline {table}{\numberline {4.12}{\ignorespaces The summary table of $B^+$ efficiency correction factor $\frac {1}{\delimiter "426830A \alpha \times \epsilon \delimiter "526930B }$ for each $p_T$ and centrality bin.}}{201}
+\contentsline {table}{\numberline {4.13}{\ignorespaces The summary table of BDT vs mass dependence systematics on the background yield from the fits in different $p_T$ and centrality bins are shown below.}}{204}
+\contentsline {table}{\numberline {4.14}{\ignorespaces The results of $B^0_s$ efficiency factors $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $ and $\frac {1}{\delimiter "426830A \alpha \times \epsilon \delimiter "526930B }$ and their percent deviation are shown above.}}{206}
+\contentsline {table}{\numberline {4.15}{\ignorespaces The results of $B^+$ efficiency factors $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $ and $\frac {1}{\delimiter "426830A \alpha \times \epsilon \delimiter "526930B }$ and their percent deviation are shown above.}}{206}
 \contentsline {table}{\numberline {4.16}{\ignorespaces The percent deviation of the efficiency factors from the expected value in the statistics similar to the data analysis are shown above.}}{219}
 \contentsline {table}{\numberline {4.17}{\ignorespaces The percent deviation of the efficiency factors from the expected value in the statistics similar to the data analysis are shown above.}}{219}
 \contentsline {table}{\numberline {4.18}{\ignorespaces The $B^0_s$ \textit {Splot} weighed efficiency correct factor $\delimiter "426830A \frac {1}{\alpha \times \epsilon }\delimiter "526930B '$, nominal unweighed $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $, and their percent deviation for each $p_T$ and centrality bin are summarized below.}}{220}
@@ -44,11 +44,13 @@
 \contentsline {table}{\numberline {4.40}{\ignorespaces Summary of systematic uncertainties from each $B^0_s$ $p_T$ bin. All the values are shown in percentage.}}{246}
 \contentsline {table}{\numberline {4.41}{\ignorespaces Summary of systematic uncertainties from each $B^+$ centrality bin. All the values are shown in percentage.}}{246}
 \contentsline {table}{\numberline {4.42}{\ignorespaces The numerical values and uncertainties of $B^0_s$ cross section as a function of $p_T$ are summarized below.}}{248}
-\contentsline {table}{\numberline {4.43}{\ignorespaces The numerical values and uncertainties of $B^+$ cross section as a function of $p_T$ are summarized below.}}{251}
-\contentsline {table}{\numberline {4.44}{\ignorespaces The numerical values and uncertainties of $B^0_s$ cross section as a function of centrality bin are summarized below.}}{251}
-\contentsline {table}{\numberline {4.45}{\ignorespaces The numerical values and uncertainties of $B^+$ cross section as a function of centrality bin are summarized below.}}{251}
+\contentsline {table}{\numberline {4.43}{\ignorespaces The numerical values and uncertainties of $B^+$ cross section as a function of $p_T$ are summarized below.}}{250}
+\contentsline {table}{\numberline {4.44}{\ignorespaces The numerical values and uncertainties of $B^0_s$ cross section as a function of centrality bin are summarized below.}}{250}
+\contentsline {table}{\numberline {4.45}{\ignorespaces The numerical values and uncertainties of $B^+$ cross section as a function of centrality bin are summarized below.}}{250}
+\contentsline {table}{\numberline {4.46}{\ignorespaces The numerical values and uncertainties of $B^0_s/B^+$ cross section ratio as a function of $p_T$ are summarized below.}}{252}
+\contentsline {table}{\numberline {4.47}{\ignorespaces The numerical values and uncertainties of $B^0_s/B^+$ cross section ratio as a function of centrality are summarized below.}}{254}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Armadillos}}{257}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Armadillos}}{259}
 \addvspace {10\p@ }

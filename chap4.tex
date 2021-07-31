@@ -1182,13 +1182,25 @@ Ideally, if the simulation is impeccable, the RECO distribution in the MC should
 
 \subsection{\textbf{Splot} Techniques}
 
-To carry out MC-Data comparison studies, the dedicated \textit{Splot} method is used. This is a likelihood-based method by which we reweigh the data using the unbinned fit result. The weights are added to the dataset based on model and yield extraction variables. Each event has two weights: probability of belonging to the signal given its mass, probability of belonging to the background given its mass. The \textit{Splot} class gives us the distributions of our variables for a given species (signal or background). The advantage of using this method is that we use the full dataset for the comparison in contrast to the sideband subtraction method where one should select the investigation range of signal and background. Furthermore, we use likelihood to describe events' behavior in contrast to the potential misidentification of signal events in background region which might occur in sideband subtraction method. 
+To carry out MC-Data comparison studies, the dedicated \textit{Splot} method is used. It is a likelihood-based method by which we reweigh the data using the unbinned fit result. The weights are added to the dataset based on model and yield extraction variables. Each event has two weights: probability of belonging to the signal given its mass, probability of belonging to the background given its mass. The \textit{Splot} class gives us the distributions of our variables for a given species (signal or background). The advantage of using this method is that we use the full dataset for the comparison in contrast to the sideband subtraction method where one should select the investigation range of signal and background. Furthermore, we use likelihood to describe events' behavior in contrast to the potential misidentification of signal events in background region which might occur in sideband subtraction method. 
 
-ADD DESCRIPTIONS OF SPLOT TECHNIQUE HERE BRO
+%ADD DESCRIPTIONS OF SPLOT TECHNIQUE HERE BRO
+
+In order to obtain the \textit{Splot} weight, we first need to fit the data using a discriminating variable, namely the B meson candidates invariant mass. This method, like the one described in the previous section, assumes the discriminating variable chosen to be independent of the variables we wish to study. We then use the fit to attribute to each event two weights: $w_{S}$, which corresponds to the probability of it belonging to the signal, and $w_B$, which corresponds to the probability of fit belonging to the background. The weights are qualitatively demonstrated in Figure \ref{SplotPic}.
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.75\textwidth]{Figures/Chapter4/SplotWeighPic.png}
+\caption{The illustration of \textit{Splot} techniques via an unbinned fit to $B^+$ invariant mass distribution using our fitting model to extract the \textit{Splot} weights $w_S$ and $w_B$ is shown above.}
+\label{SplotPic}
+\end{center}
+\end{figure}
+
 
 \subsection{\textbf{Splot} Variable Correlation Studies}
 
-First, in order to apply Splot, we need to confirm our variables are indeed not correlated to the invariant mass. Therefore, the correlation matrices for BDT variables vs $B^+$ invariant mass (Bmass) for data and MC are shown in Figure~\ref{BPBDTCorr}:
+First, in order to apply Splot to perform Data-MC comparison, we need to confirm our variables are indeed not correlated to the invariant mass. Therefore, the correlation matrices for BDT variables vs $B^+$ invariant mass (Bmass) for data and MC are shown in Figure~\ref{BPBDTCorr}:
 
 
 \begin{figure}[h]
@@ -2789,12 +2801,12 @@ At this point, we have fully validated the analysis with detail evaluation of bo
 
 \subsection{$B^0_s$ and $B^{+}$ Cross Section}
 
-Figure \ref{BmesonDataPt} shows $B^0_s$ and $B^+$ $p_T$ differential cross section $\frac{1}{T_{AA}} \frac{dN}{d_pT}$ as a function $p_T$ in PbPb collisions at $\sqrt{s_{NN}} = $5.02 TeV with the CMS detector using the 2018 dimuon PbPb dataset.
+When B-meson measurement as a function of $p_T$ plots are created, the abscissa of each data point is set to the mean value of the $p_T$ distribution, after background subtraction via \textit{Splot}. Figure \ref{BmesonDataPt} shows $B^0_s$ and $B^+$ $p_T$ differential cross section $\frac{1}{T_{AA}} \frac{dN}{d_pT}$ as a function $p_T$ in PbPb collisions at $\sqrt{s_{NN}} = $5.02 TeV with the CMS detector using the 2018 dimuon PbPb dataset.
 
 \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=0.70\textwidth]{Figures/Chapter4/xsec_vsPt.pdf}
-\caption{The measurement of $B^0_s$ and $B^+$ $p_T$ differential cross section $\frac{1}{T_{AA}} \frac{dN}{d p_T}$ as a function of B-meson $p_T$ within 0 - 90\% centrality is shown above. It should be pointed out that the plot is plot in the unit of pb c/GeV since $T_{AA}$ is in the unit of pb$^{-1}$ while the $p_T$ is in the unit of GeV/c}
+\caption{The measurement of $B^0_s$ and $B^+$ $p_T$ differential cross section $\frac{1}{T_{AA}} \frac{dN}{d p_T}$ as a function of B-meson $p_T$ within 0 - 90\% centrality is shown above. It should be pointed out that the plot is plot in the unit of pb c/GeV since $T_{AA}$ is in the unit of pb$^{-1}$ while the $p_T$ is in the unit of GeV/c. The open markers from 7 - 10 GeV/c stands for the fiducial measurement at the B-meson rapidity of $1.5 < |y| < 2.4$.}
 \label{BmesonDataPt}
 \end{center}
 \end{figure}
@@ -2808,7 +2820,7 @@ Table \ref{BsXsectPt} and Table \ref{BPXsectPt} summarize the $B^0_s$ and $B^+$ 
 \label{BsXsectPt}
   \begin{tabular}{| c | c |c | c| c| c| c|}
     \hline
-$B^0_s$ $p_T$ (GeV/c) &  $\frac{1}{T_{AA}} \frac{dN}{d_pT}$ (pb c/GeV) & Stat. Up (+)   & Stat. Down (-)  &  Syst. Up (+)  &  Syst. Down (-) \\
+$p_T$ (GeV/c) &  $\frac{1}{T_{AA}} \frac{dN}{d_pT}$ (pb c/GeV) & Stat. Up (+)   & Stat. Down (-)  &  Syst. Up (+)  &  Syst. Down (-) \\
     \hline
     \hline
  7 - 10 &   160432  &  51.3\% & 48.3\% & 45.6\% & 45.4\% \\ 
@@ -2826,10 +2838,10 @@ $B^0_s$ $p_T$ (GeV/c) &  $\frac{1}{T_{AA}} \frac{dN}{d_pT}$ (pb c/GeV) & Stat. U
 \begin{center}
 \caption{The numerical values and uncertainties of $B^+$ cross section as a function of $p_T$ are summarized below.}
 \vspace{1em}
-\label{BsXsectPt}
+\label{BPXsectPt}
   \begin{tabular}{| c | c |c | c| c| c| c|}
     \hline
-$B^+$ $p_T$ (GeV/c) &  $\frac{1}{T_{AA}} \frac{dN}{d_pT}$ (pb c/GeV) & Stat. Up (+)   & Stat. Down (-)  &  Syst. Up (+)  &  Syst. Down (-) \\
+$p_T$ (GeV/c) &  $\frac{1}{T_{AA}} \frac{dN}{d_pT}$ (pb c/GeV) & Stat. Up (+)   & Stat. Down (-)  &  Syst. Up (+)  &  Syst. Down (-) \\
     \hline
     \hline
  7 - 10 &   311668  &  15.9\% & 14.3\% & 14.0\% & 13.6\% \\ 
@@ -2869,7 +2881,7 @@ Table \ref{BsXsectCent} and Table \ref{BPXsectCent} summarize the $B^0_s$ and $B
 \label{BsXsectCent}
   \begin{tabular}{| c | c |c | c| c| c| c|}
     \hline
-Centrality &  $\frac{1}{T_{AA}} N$ (pb) & Stat. Up (+)   & Stat. Down (-)  &  Syst Up (+)  &  Syst. Down (-) \\
+Centrality &  $\frac{1}{T_{AA}} N$ (pb) & Stat. Up (+)   & Stat. Down (-)  &  Syst. Up (+)  &  Syst. Down (-) \\
     \hline
     \hline
 0 - 30\% &   650790  &  21.2\% & 22.0\% & 14.0\% & 13.7\% \\ 
@@ -2889,7 +2901,7 @@ Centrality &  $\frac{1}{T_{AA}} N$ (pb) & Stat. Up (+)   & Stat. Down (-)  &  Sy
 \label{BPXsectCent}
   \begin{tabular}{| c | c |c | c| c| c| c|}
     \hline
-Centrality &  $\frac{1}{T_{AA}} N$ (pb) & Stat. Up (+)   & Stat. Down (-)  &  Syst Up (+)  &  Syst. Down (-) \\
+Centrality &  $\frac{1}{T_{AA}} N$ (pb) & Stat. Up (+)   & Stat. Down (-)  &  Syst. Up (+)  &  Syst. Down (-) \\
     \hline
     \hline
 0 - 30\% &   1780710  &  5.52\% & 6.72\% & 15.5\% & 15.4\% \\ 
@@ -2912,17 +2924,82 @@ It also should note that this is the first centrality differential fully measure
 
 \subsection{$B^0_s/B^{+}$ Ratio}
 
+Since we have measured the $B^0_s$ and $B^+$ cross section, the next step is to obtain their ratio, which is an observable to study beauty hadronization mechanism as mention in Section 1.8.4. We should note that when we take the ratio between $B^0_s$ and $B^+$, the systematic uncertainties of $T_{AA}$ and $N_{MB}$ cancel. Also, the systematic uncertainties of tracking efficiency is reduced to 5\% instead of adding into quadrature. Finally, the systematic uncertainties of muon efficiency are treated as perfectly correlated. This means we both vary the $B^0_s$ and $B^+$ cross section with the muon efficiency systematics up and down and compute the ratio. Then, we calculate the percent deviation of up and down variated $B^0_s/B^+$ to the nominal $B^0_s/B^+$ and quote those numbers as the systematic uncertainties. Everything other sources of systematic uncertainties of $B^0_s$ and $B^+$ cross section are added into quadrature for $B^0_s/B^+$ ratio. 
+
+Figure \ref{BsBPPtDataONLY} shows the $B^0_s/B^+$ ratio as a function of B-meson $p_T$
 
 
 
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.70\textwidth]{Figures/Chapter4/ratio_vsPt_ref0_0.pdf}
+\caption{The measurement of $B^0_s/B^+$ as a function of $p_T$ is shown above. The open markers from 7 - 10 GeV/c stands for the fiducial measurement at the B-meson rapidity of $1.5 < |y| < 2.4$.}
+\label{BsBPPtDataONLY}
+\end{center}
+\end{figure}
+
+Table \ref{BsBPPtCMS} summarizes $B^0_s/B^+$ ratio as a function of B-meson $p_T$
 
 
+\begin{table}[h]
+\begin{center}
+\caption{The numerical values and uncertainties of $B^0_s/B^+$ cross section ratio as a function of $p_T$ are summarized below.}
+\vspace{1em}
+\label{BsBPPtCMS}
+  \begin{tabular}{| c | c |c | c| c| c| c| c|}
+    \hline
+  $p_T$ (GeV/c) & Abc. (GeV/c) & $B^0_s/B^+$ & stat. up (+) & stat. down (-)  & syst. up (+) & syst. down (-) \\
+    \hline
+    \hline
+    (7,10) &  8.75&  0.5148 & 53.7\% & 50.4\%  &  46.0\% &  46.1\% \\
+    (10,15) &12.6  &  0.2795 & 22.3\% & 26.8\%  & 19.3\% & 19.3\%  \\
+    (15,20) &17.4  & 0.3938 & 22.6\% & 21.7\% & 9.10\% & 9.11\% \\
+    (20,50) &27.3 & 0.2949 & 22.7\% & 17.1\% & 13.9\% & 13.9\%  \\
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
 
 
+\clearpage
+
+Figure \ref{BsBPCentDataONLY} shows the $B^0_s/B^+$ ratio as a function of PbPb collision centrality 
 
 
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.70\textwidth]{Figures/Chapter4/ratio_vsCent_ref0.pdf}
+\caption{The measurement of $B^0_s/B^+$ as a function of $p_T$ is shown above.}
+\label{BsBPCentDataONLY}
+\end{center}
+\end{figure}
 
 
+Table \ref{BsBPPtCMS} summarizes $B^0_s/B^+$ ratio as a function of PbPb collision centrality
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The numerical values and uncertainties of $B^0_s/B^+$ cross section ratio as a function of centrality are summarized below.}
+\vspace{1em}
+\label{BsBPPtCMS}
+  \begin{tabular}{| c | c |c | c| c| c| c| c|}
+    \hline
+Centrality & $B^0_s/B^+$ & stat. up (+) & stat. down (-)  & syst. up (+) & syst. down (-)  \\
+    \hline
+    \hline
+    0 - 30\%  & 0.3655  & 21.9\%  & 23.0\% &  17.2\% & 17.2\% \\
+    30 - 90\%  &  0.2175 & 20.6\% & 20.9\% &  12.0\%  & 12.0\%   \\
+      0 - 90\%  & 0.3073   & 18.4\%  & 17.0\% &  14.5\% & 14.6\% \\
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+We have reported the measurement of $B^0_s$ and $B^+$ mesons cross section and the $B^0_s/B^+$ ratio in PbPb collisions at $\sqrt{s_{NN}} =$ 5.02 TeV with the CMS experiment. In the next chapter, we will answer the questions raised in Section 2.4 through the comparison our data with other experimental references and theoretical predictions. 
 
 
 
