@@ -1943,6 +1943,7 @@ Figure \ref{BsCorrYieldBoot} and \ref{BPCorrYieldBoot} show the corrected yield 
 \label{BsCorrYieldBoot} 
 \end{center}
 \end{figure}
+\clearpage
 
 \begin{figure}[h]
 \begin{center}
@@ -1958,6 +1959,7 @@ Figure \ref{BsCorrYieldBoot} and \ref{BPCorrYieldBoot} show the corrected yield 
 \end{center}
 \end{figure}
 
+\clearpage
 
 \subsection{Statistical Uncertainties Interpretation}
 
@@ -2121,6 +2123,7 @@ Table \ref{BsTnPSyst} and Table \ref{BPTnPSyst} summarize the systematic uncerta
 \end{tabular}
 \end{center}
 \end{table}
+\clearpage
 
 
 \subsection{Selection Efficiency}
@@ -2352,6 +2355,59 @@ We apply the B $p_T$ weights to the 2D $\frac{1}{\alpha \times \epsilon}$ map. T
 
 We can see that the remaining $p_T$ systematic uncertainties are essentially negligible, which demonstrates the success of $\langle\frac{1}{\alpha \times \epsilon}\rangle$ efficiency correction approach. 
 
+\subsubsection{Total Uncertainties on Selection Efficiency}
+
+Hence, in summary, the total uncertainties due to selection efficiency are simply the sum in of uncertainties due to data-MC discrepancy, finite MC events, and the remaining B-meson $p_T$ shape in quadrature: efficiency = data-MC discrepancy $\oplus$ finite MC events $\oplus$ remaining B-meson $p_T$ shape. Table \ref{BsSelEff} and Table \ref{BPSelEff} summarize the selection efficiency of $B^0_s$ and $B^+$ respectfully 
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The $B^0_s$ selection efficiency uncertainty in $p_T$ and centrality bin is summarized below.}
+\vspace{1em}
+\label{BsPTShape}
+  \begin{tabular}{| c | c |c | c| c| c| c| }
+    \hline
+     Centrality & $B^0_s$ $p_T$ (GeV/c) & MC-Data  & MC Stat. & $p_T$ Shape & Total Uncertainties \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &   34.65\%  &  26.5\% & 0.015\% &  \textbf{43.62\%} \\ 
+0 - 90\% & 10 - 15 & 5.64\%  & 6.28\%  & 0.050\% &   \textbf{8.44\%}  \\ 
+0 - 90\% & 15 - 20 &  4.66\%   & 3.08\%   &  0.010\% &  \textbf{5.85\%} \\ 
+0 - 90\% & 20 - 50 &  10.24\%   & 3.21\%  &  0.022\%  &   \textbf{10.73\%}\\ 
+0 - 30\% & 10 - 50  & 3.09\%  & 6.59\%  & 0.067\% &  \textbf{7.28\%} \\ 
+30 - 90\% & 10 - 50 &  3.66\% &   2.27\%  & 0.015\% &  \textbf{4.31\%} \\ 
+0 - 90\% & 10 - 50 & 3.19\%   & 4.37\%  & 0.037\% &   \textbf{5.41\%} \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The $B^+$ selection efficiency uncertainty in $p_T$ and centrality bin is summarized below.}
+\vspace{1em}
+\label{BsPTShape}
+  \begin{tabular}{| c | c |c | c| c| c| c| }
+    \hline
+     Centrality & $B^+$ $p_T$ (GeV/c) & MC-Data  & MC Stat. & $p_T$ Shape & Total Uncertainties \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &   4.17\%  &  9.22\% & 0.166\% &  \textbf{10.12\%} \\ 
+0 - 90\% & 10 - 15 & 15.25\%  & 3.36\%  & 0.198\% &   \textbf{15.62\%}  \\ 
+0 - 90\% & 15 - 20 &  3.01\%   & 1.92\%   & 0.009\% &  \textbf{3.57\%} \\ 
+0 - 90\% & 20 - 50 &  1.65\%   & 1.35\%  &  0.005\%  &   \textbf{2.13\%}\\ 
+0 - 30\% & 10 - 50  & 13.28\%  & 3.37\%  &0.158\% &  \textbf{13.70\%} \\ 
+30 - 90\% & 10 - 50 &  8.49\% &   2.26\%  & 0.093\% &  \textbf{8.79\%} \\ 
+0 - 90\% & 10 - 50 & 11.51\%   & 2.49\%  & 0.140\% &   \textbf{11.78\%} \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
 
 
 \subsection{Signal Extraction}
@@ -2373,11 +2429,11 @@ Figure \ref{BsSigVar} and Figure \ref{BPSigVar} show examples of signal PDF vari
 
 \begin{figure}[hbtp]
 \begin{center}
-\includegraphics[width=0.45\textwidth]{Figures/Chapter4/data_PbPb_1_BptNew_1050_doubly0_0_90_signal_3gaussEffInfoTreeFit.pdf}
-\includegraphics[width=0.45\textwidth]{Figures/Chapter4/data_PbPb_1_BptNew_1050_doubly0_0_90_signal_fixedEffInfoTreeFit.pdf}
-\includegraphics[width=0.45\textwidth]{Figures/Chapter4/data_PbPb_1_BptNew_1050_doubly0_0_90_signal_scal+EffInfoTreeFit.pdf}
-\includegraphics[width=0.45\textwidth]{Figures/Chapter4/data_PbPb_1_BptNew_1050_doubly0_0_90_signal_scal-EffInfoTreeFit.pdf}
-\caption{Invariant mass fit of $B^0_s$ candidates for $B^0_s$ from 20 - 50 GeV/c and centrality from 0 to 90\% in 5.02 TeV PbPb. The signal pdf from left to right is triple gaussian (with widths and relative proportions fixed from MC), double gaussian with all the parameters fixed (including the mean), increased width (\textit{a}=1.1), and decreased width (\textit{a}=0.9).}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/data_PbPb_1_BptNew_2050_doubly0_0_90_signal_3gaussEffInfoTreeFit.pdf}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/data_PbPb_1_BptNew_2050_doubly0_0_90_signal_fixedEffInfoTreeFit.pdf}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/data_PbPb_1_BptNew_2050_doubly0_0_90_signal_scal+EffInfoTreeFit.pdf}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/data_PbPb_1_BptNew_2050_doubly0_0_90_signal_scal-EffInfoTreeFit.pdf}
+\caption{Invariant mass fit of $B^0_s$ candidates for $B^0_s$ $p_T$ from 20 - 50 GeV/c and centrality from 0 to 90\% in 5.02 TeV PbPb. The signal pdf from left to right is triple gaussian (with widths and relative proportions fixed from MC), double gaussian with all the parameters fixed (including the mean), increased width (\textit{a}=1.1), and decreased width (\textit{a}=0.9).}
 \label{BsSigVar}
 \end{center}
 \end{figure}
@@ -2385,16 +2441,16 @@ Figure \ref{BsSigVar} and Figure \ref{BPSigVar} show examples of signal PDF vari
 
 \begin{figure}[hbtp]
 \begin{center}
-\includegraphics[width=0.32\textwidth]{Plots/Sys/SysPDF/data_PbPb_1_Bpt_950_3gauss_doubly2_ntKp.pdf}
-\includegraphics[width=0.32\textwidth]{Plots/Sys/SysPDF/data_PbPb_1_Bpt_950_fixed_doubly2_ntKp.pdf}
-\includegraphics[width=0.32\textwidth]{Plots/Sys/SysPDF/data_PbPb_1_Bpt_950_scal+_doubly2_ntKp.pdf}
-\includegraphics[width=0.32\textwidth]{Plots/Sys/SysPDF/data_PbPb_1_Bpt_950_scal-_doubly2_ntKp.pdf}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/data_PbPb_1_Bpt_2050_3gauss_doubly0_ntKp.pdf}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/data_PbPb_1_Bpt_2050_fixed_doubly0_ntKp.pdf}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/data_PbPb_1_Bpt_2050_scal+_doubly0_ntKp.pdf}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter4/data_PbPb_1_Bpt_2050_scal-_doubly0_ntKp.pdf}
 \caption{Invariant mass fit of $B^+$ candidates for $B^+$ $p_T$ from 20 - 50 GeV/c and centrality from 0 to 90\% in 5.02 TeV PbPb. The signal pdf from left to right is triple gaussian (with widths and relative proportions fixed from MC), double gaussian with all the parameters fixed (including the mean), increased width (\textit{a}=1.1), and decreased width (\textit{a}=0.9).}
 \label{BPSigVar}
 \end{center}
 \end{figure}
 
-Them, we simply take the largest percent variations of the variated signal raw yields compared to the nominal ones and quote them as the systematic uncertainties. Table \ref{BsSigVarTable} and Table \ref{BsSigVarTable} summarize the signal PDF systematic uncertainties 
+Next, we simply take the largest percent variations of the variated signal raw yields compared to the nominal ones and quote them as the systematic uncertainties. Table \ref{BsSigVarTable} and Table \ref{BsSigVarTable} summarize the signal PDF systematic uncertainties 
 
 \begin{table}[h]
 \begin{center}
@@ -2403,7 +2459,7 @@ Them, we simply take the largest percent variations of the variated signal raw y
 \label{BsPTShape}
   \begin{tabular}{| c | c |c | c| c| c| c| }
     \hline
-     Centrality & $B^0_s$ $p_T$ (GeV/c) & Triple Gaussian &  Fixed Mean & +10\% $\sigma$ & -10\% $\sigma$  \\
+     Centrality & $B^0_s$ $p_T$ (GeV/c) & Triple Gaussian &  Fixed Mean & +10\% Width & -10\% Width  \\
     \hline
     \hline
 0 - 90\% & 7 - 10 &   \textbf{0.862\% }  &  0.762\% & 0.066\% &  0.056\% \\ 
@@ -2428,16 +2484,16 @@ Them, we simply take the largest percent variations of the variated signal raw y
 \label{BsPTShape}
   \begin{tabular}{| c | c |c | c| c| c| c| }
     \hline
-     Centrality & $B^+$ $p_T$ (GeV/c) & Triple Gaussian &  Fixed Mean & +10\% $\sigma$ & -10\% $\sigma$  \\
+     Centrality & $B^+$ $p_T$ (GeV/c) & Triple Gaussian &  Fixed Mean & +10\% Width & -10\% Width  \\
     \hline
     \hline
-0 - 90\% & 7 - 10 &   \textbf{0.004\% }  &  0.235\% & 0.500\% &  0.750\% \\ 
-0 - 90\% & 10 - 15 & 0.144\%  & 0.137\%  & 1.83\% &   \textbf{2.34\%}  \\ 
-0 - 90\% & 15 - 20 &  \textbf{0.110\% }  & 0.066\%   &  \textbf{1.02\%} &  1.00\% \\ 
-0 - 90\% & 20 - 50 &  \textbf{0.629\% }   & 0.056\%  &  1.40\%  &   \textbf{1.88\%}\\ 
-0 - 30\% & 10 - 50  & 0.241\%  & 0.192\%  &1.47\% &  \textbf{1.74\%} \\ 
-30 - 90\% & 10 - 50 &  \textbf{2.96\%} &   0.208\%  & 0.840\% &  0.767\%\\ 
-0 - 90\% & 10 - 50 &  1.56\%   & 0.20\%  & 1.33\% &   \textbf{1.65\%} \\ 
+0 - 90\% & 7 - 10 &   0.004\%  &  1.13\% & 3.84\% & \textbf{4.46\%} \\ 
+0 - 90\% & 10 - 15 & 0.235\%  & 0.046\%  & 2.27\% &   \textbf{2.67\%}  \\ 
+0 - 90\% & 15 - 20 &  0.050\%  & 0.025\%   &  2.32\% & \textbf{2.74\%} \\ 
+0 - 90\% & 20 - 50 &  0.750\%  & 0.010\%  &  1.79\%  &   \textbf{2.36\%}\\ 
+0 - 30\% & 10 - 50  & 0.415\%  & 0.155\%  &2.12\% &  \textbf{2.50\%} \\ 
+30 - 90\% & 10 - 50 &  0.370\% &   0.064\%  & 2.10\% &  \textbf{2.57}\%\\ 
+0 - 90\% & 10 - 50 &  0.494\%   & 0.060\%  & 2.19\% &   \textbf{2.60\%} \\ 
     \hline
     \hline
 \end{tabular}
@@ -2447,27 +2503,428 @@ Them, we simply take the largest percent variations of the variated signal raw y
 
 \subsubsection{Background PDF Variation}
 
+The variation of background is simpler. We replace the nominal exponential decay function by first, second, and third order polynomials. Again, same as the signal PDF variation, we quote the background PDF systematic uncertainties as the percent deviation from the variated signal raw yield to the nominal signal raw yield. 
+
+
+Figure \ref{BsBkgdVar} and Figure \ref{BPBkgdVar} show examples of signal PDF variation done in $B^0_s$ and $B^+$ invariant mass fits to estimate the systematic uncertainties due to signal extraction
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.32\textwidth]{Figures/Chapter4/data_PbPb_1_BptNew_2050_doubly0_0_90_background_1stEffInfoTreeFit.pdf}
+\includegraphics[width=0.32\textwidth]{Figures/Chapter4/data_PbPb_1_BptNew_2050_doubly0_0_90_background_2ndEffInfoTreeFit.pdf}
+\includegraphics[width=0.32\textwidth]{Figures/Chapter4/data_PbPb_1_BptNew_2050_doubly0_0_90_background_3rdEffInfoTreeFit.pdf}
+\caption{Invariant mass fit of $B^0_s$ candidates for $B^0_s$ $p_T$ from 20 - 50 GeV/c and centrality from 0 to 90\% in 5.02 TeV PbPb. The background PDFs from left to right are first, second, and third order polynomials.}
+\label{BsBkgdVar}
+\end{center}
+\end{figure}
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.32\textwidth]{Figures/Chapter4/data_PbPb_1_Bpt_2050_1st_doubly0_ntKp.pdf}
+\includegraphics[width=0.32\textwidth]{Figures/Chapter4/data_PbPb_1_Bpt_2050_2nd_doubly0_ntKp.pdf}
+\includegraphics[width=0.32\textwidth]{Figures/Chapter4/data_PbPb_1_Bpt_2050_3rd_doubly0_ntKp.pdf}
+\caption{Invariant mass fit of $B^+$ candidates for $B^+$ $p_T$ from 20 - 50 GeV/c and centrality from 0 to 90\% in 5.02 TeV PbPb. The background PDFs from left to right are first, second, and third order polynomials.}
+\label{BPBkgdVar}
+\end{center}
+\end{figure}
+
+Again, we simply take the largest percent variations of the variated signal raw yields compared to the nominal ones and quote them as the systematic uncertainties. Table \ref{BsBkgdVarTable} and Table \ref{BPBkgdVarTable} summarize the background PDF systematic uncertainties 
+
+\begin{table}[h]
+\begin{center}
+\caption{The $B^0_s$ systematic uncertainty due to background PDF variation in $p_T$ and centrality bin is summarized below.}
+\vspace{1em}
+\label{BsPTShape}
+  \begin{tabular}{| c | c |c | c| c| c| }
+    \hline
+     Centrality & $B^0_s$ $p_T$ (GeV/c) & First Order & Second Order  &  Third Order \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &   0.02\%  &  0.92\% & \textbf{0.96\%}  \\ 
+0 - 90\% & 10 - 15 & 1.45\%  & \textbf{2.69\%}  & 2.64\% \\ 
+0 - 90\% & 15 - 20 &  \textbf{1.45\% }  & 1.36\%   &  0.28\%\\ 
+0 - 90\% & 20 - 50 &  3.30\%   & 3.54\%  &  \textbf{6.11\%}  \\ 
+0 - 30\% & 10 - 50  & \textbf{1.83\%}  & 0.495\%  &0.029\%  \\ 
+30 - 90\% & 10 - 50 &  1.14\% &   \textbf{1.33\%}  & 0.912\% \\ 
+0 - 90\% & 10 - 50 &  \textbf{1.58\%}   & 0.773\%  & 0.592\% \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The $B^+$ systematic uncertainty due to background PDF variation in $p_T$ and centrality bin is summarized below.}
+\vspace{1em}
+\label{BsPTShape}
+  \begin{tabular}{| c | c |c | c| c| c| }
+    \hline
+     Centrality & $B^+$ $p_T$ (GeV/c) & First Order & Second Order  &  Third Order \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &   0.021\%  &  0.117\% & \textbf{0.093\%} \\ 
+0 - 90\% & 10 - 15 & 0.312\%  & 0.380\%  & \textbf{0.546\%} \\ 
+0 - 90\% & 15 - 20 &  0.386\% & 0.432\%   &  \textbf{0.576\%} \\ 
+0 - 90\% & 20 - 50 &  \textbf{0.196\% }   & 0.238\%  &  \textbf{1.03\%} \\ 
+0 - 30\% & 10 - 50  & 0.157\%  & 0.245\%  & \textbf{0.412\%}  \\ 
+30 - 90\% & 10 - 50 &  \textbf{1.13\%} &   0.065\%  & 0.102\% \\ 
+0 - 90\% & 10 - 50 &  0.384\%   & \textbf{0.427\%}  & 0.422\% \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
 
 
 \subsubsection{Total PDF Variation}
 
-To calculate the total PDF variation, we simply add the PDF variation of the signal and background into quadrature: signal extraction uncertainties = PDF variation of signal $\oplus$ background. 
+To calculate the total PDF variation, we simply add the PDF variation of the signal and background into quadrature: signal extraction uncertainties = PDF variation of signal $\oplus$ background. Table \ref{BsPDFVar} and Table \ref{BPPDFVar} show the total PDF systematic uncertainties contributing to $B^0_s$ and $B^+$ signal extraction respectfully. 
+
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The $B^0_s$ signal extraction systematic uncertainty due to PDF variation in $p_T$ and centrality bin is summarized below.}
+\vspace{1em}
+\label{BsPDFVar}
+  \begin{tabular}{| c | c |c | c| c| c| }
+    \hline
+     Centrality & $B^0_s$ $p_T$ (GeV/c) & Signal PDF & Background PDF  &  Total Uncertainties \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &   0.762\%  &  0.96\% & \textbf{1.23\%} \\ 
+0 - 90\% & 10 - 15 & 2.34\%  & 2.69\%  & \textbf{3.57\%} \\ 
+0 - 90\% & 15 - 20 &  1.02\% & 1.45\%   &  \textbf{1.77\%} \\ 
+0 - 90\% & 20 - 50 &  1.88\%    & 6.11\%  &  \textbf{6.39\%} \\ 
+0 - 30\% & 10 - 50  & 1.74\%  & 1.83\%  & \textbf{2.53\%}  \\ 
+30 - 90\% & 10 - 50 &  2.96\% &   1.33\%  & \textbf{3.25\%} \\ 
+0 - 90\% & 10 - 50 &  1.65\%   & 1.58\%  & \textbf{2.28\%} \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The $B^+$ signal extraction systematic uncertainty due to PDF variation in $p_T$ and centrality bin is summarized below.}
+\vspace{1em}
+\label{BPPDFVar}
+  \begin{tabular}{| c | c |c | c| c| c| }
+    \hline
+     Centrality & $B^+$ $p_T$ (GeV/c) & Signal PDF & Background PDF  &  Total Uncertainties \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &   4.46\%  &  0.117\% & \textbf{4.46\%} \\ 
+0 - 90\% & 10 - 15 & 2.67\%  & 0.546\%  & \textbf{2.73\%} \\ 
+0 - 90\% & 15 - 20 &  2.74\% & 0.576\%   &  \textbf{2.80\%} \\ 
+0 - 90\% & 20 - 50 &  2.36\%    & 1.03\%  &  \textbf{2.57\%} \\ 
+0 - 30\% & 10 - 50  & 2.50\%  & 0.412\%  & \textbf{2.53\%}  \\ 
+30 - 90\% & 10 - 50 &  2.57\% &   1.13\%  & \textbf{2.81\%} \\ 
+0 - 90\% & 10 - 50 &  2.60\%   & 0.427\%  & \textbf{2.64\%} \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
 
 \subsection{Summary}
 
 
+Finally, we collect all studies above and all all sources of systematic uncertainties into quadrature to obtain the total systematic uncertainties. We compile the summary for the systematic uncertainties in measurements shown in Table \ref{BsPtSystSum} and Table \ref{BsCentSystSum} for $B^0_s$ $p_T$ and centrality cross section measurements
+
+\begin{table}[h]
+\begin{center}
+\caption{Summary of systematic uncertainties from each $B^0_s$ $p_T$ bin. All the values are shown in percentage.}
+\vspace{1em}
+\label{BsPtSystSum}
+\begin{tabular}{ |c | c | c | c | c|}
+\hline
+$B^0_s$ $p_T$ (GeV/c) &  7 - 10 & 10 - 15 & 15 - 20 & 20 - 50  \\
+\hline
+Tracking Efficiency & 10\% & 10\% & 10\% & 10\% \\
+Muon Efficiency     & +8.88\% & +5.97\% & +3.73\% & +3.91\% \\
+                                & $-$7.49\% & $-$5.24\% & $-$3.46\% & $-$3.60\% \\
+Selection Efficiency & 43.62\%  & 8.44\%  & 5.85\% & 10.73\%  \\
+Signal Extraction & 1.23\%  & 3.57\% & 1.77\%  & 6.39\% \\
+Total  & +45.64\% &  +14.82\% &  +12.18\% & +16.47\%  \\
+      	 & $-$45.39\% &  $-$14.54\% &  $-$12.10\% &  $-$16.40\%  \\
+\hline
+ \hline
+$\rm{N_{MB}} $ & 1.26\% & 1.26\% & 1.26\% & 1.26\% \\
+$T_{AA}$ & 2.2\% & 2.2\% & 2.2\% & 2.2\% \\
+Branching Ratio & 7.5\% & 7.5\% & 7.5\%& 7.5\%\\
+Global Systematics & 7.92\% & 7.92\% & 7.92\%& 7.92\%\\
+ \hline
+\end{tabular}
+\end{center}
+\end{table}
 
 
-Hence, in summary, the total uncertainties due to selection efficiency are simply the sum in of uncertainties due to data-MC discrepancy, finite MC events, and the remaining B-meson $p_T$ shape in quadrature: efficiency = data-MC discrepancy $\oplus$ finite MC events $\oplus$ remaining B-meson $p_T$ shape $\oplus$ tracking efficiency. Table \ref{BsSelEff} and Table \ref{BPSelEff} summarize the selection efficiency of $B^0_s$ and $B^+$ respectfully 
+\begin{table}[h]
+\begin{center}
+\caption{Summary of systematic uncertainties from each $B^0_s$ centrality bin. All the values are shown in percentage.}
+\vspace{1em}
+\label{BsCentSystSum}
+\begin{tabular}{ |c | c | c | c | c|}
+\hline
+PbPb Collision Centrality &  0 - 30\% & 30 - 90\% & 0 - 90\%   \\
+\hline
+Tracking Efficiency & 10\% & 10\% & 10\% \\
+Muon Efficiency     & +5.52\% & +4.63\% & +5.29\%  \\
+                                & $-$4.85\% & $-$4.19\% & $-$4.70\%  \\
+Selection Efficiency &  7.28\% & 4.31 \% & 5.41\%  \\
+Signal Extraction & 2.53\%  & 3.25\% & 2.28\%  \\
+$T_{AA}$ & 2\% & 3.6\% & 2.2\%\\	
+$\rm{N_{MB}}$ & 1.26\% & 1.26\% & 1.26\% \\                                
+ Total     &  +13.68\%  & +12.71\% & +13.00\% \\
+ 	      &  -13.52\%  & -12.60\% & -12.77\% \\
+\hline
+\hline
+    Branching fractions &  7.5\%  &  7.5\%   &  7.5\% \\
+      Global Systematics & 7.5\% & 7.5\% &  7.5\%\\ 
+ \hline
+\end{tabular}
+\end{center}
+\end{table}
 
+Table \ref{BPPtSystSum} and Table \ref{BPCentSystSum} show $B^+$ $p_T$ and centrality cross section measurements respectfully
+
+
+\begin{table}[h]
+\begin{center}
+\caption{Summary of systematic uncertainties from each $B^0_s$ $p_T$ bin. All the values are shown in percentage.}
+\vspace{1em}
+\label{BsPtSystSum}
+\begin{tabular}{ |c | c | c | c | c|}
+\hline
+$B^0_s$ $p_T$ (GeV/c) &  7 - 10 & 10 - 15 & 15 - 20 & 20 - 50  \\
+\hline
+Tracking Efficiency & 5\% & 5\% & 5\% & 5\% \\
+Muon Efficiency     & +7.21\% & +4.29\% & +3.83\% & +3.87\% \\
+                                & $-$6.28\% & $-$3.92\% & $-$3.53\% & $-$3.56\% \\
+Selection Efficiency & 10.12\%  & 15.62\%  & 3.57\% & 2.13\%  \\
+Signal Extraction & 4.46\%  & 2.73\% & 2.80\%  & 2.57\% \\
+Total  & +14.04\% &  +17.14\% &  +7.75\% & +7.15\%  \\
+      	 & $-$13.59\% &  $-$17.05\% &  $-$7.61\% &  $-$6.99\%  \\
+\hline
+ \hline
+$\rm{N_{MB}} $ & 1.26\% & 1.26\% & 1.26\% & 1.26\% \\
+$T_{AA}$ & 2.2\% & 2.2\% & 2.2\% & 2.2\% \\
+Branching Ratio & 2.9\% & 2.9\% & 2.9\%& 2.9\%\\
+Global Systematics & 3.85\% & 3.85\% & 3.85\%& 3.85\%\\
+ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{table}[h]
+\begin{center}
+\caption{Summary of systematic uncertainties from each $B^+$ centrality bin. All the values are shown in percentage.}
+\vspace{1em}
+\label{BsCentSystSum}
+\begin{tabular}{ |c | c | c | c | c|}
+\hline
+PbPb Collision Centrality &  0 - 30\% & 30 - 90\% & 0 - 90\%   \\
+\hline
+Tracking Efficiency & 10\% & 10\% & 10\% \\
+Muon Efficiency     & +4.18\% & +4.14\% & +4.16\%  \\
+                                & $-$3.83\% & $-$3.80\% & $-$3.81\%  \\
+Selection Efficiency &  13.70\% & 8.79\% & 11.78\%  \\
+Signal Extraction & 2.53\%  & 2.81\% & 2.64\%  \\
+$T_{AA}$ & 2\% & 3.6\% & 2.2\%\\	
+$\rm{N_{MB}}$ & 1.26\% & 1.26\% & 1.26\% \\                                
+ Total     &  +15.53\%  & +11.89\% & +13.92\% \\
+ 	      &  -15.43\%  & -11.77\% & -13.82\% \\
+\hline
+\hline
+    Branching fractions &  2.92\%  &  2.92\%   &  2.92\% \\
+      Global Systematics & 2.92\% & 2.92\% &  2.92\%\\ 
+ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+Finally, Figure \ref{BsSystSumPlot} and Figure \ref{BPSystSumPlot} below illustrate the plot of all sources of $B^0_s$ and $B^+$ systematic uncertainties respectfully for each $p_T$ and centrality bin. 
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.32\textwidth]{Figures/Chapter4/BsPtSyst.pdf}
+\includegraphics[width=0.32\textwidth]{Figures/Chapter4/BsCentSyst.pdf}
+\includegraphics[width=0.32\textwidth]{Figures/Chapter4/BsIncSyst.pdf}
+\caption{The summary of $B^0_s$ systematic uncertainties plotted as a function of $p_T$ (left), centrality in 0 - 30\%, and 30 - 90\% (middle), and the inclusive centrality bin 0 - 90\% (right) are shown above.}
+\label{BsSystSumPlot}
+\end{center}
+\end{figure}
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.32\textwidth]{Figures/Chapter4/BpPtSyst.pdf}
+\includegraphics[width=0.32\textwidth]{Figures/Chapter4/BpCentSyst.pdf}
+\includegraphics[width=0.32\textwidth]{Figures/Chapter4/BpIncSyst.pdf}
+\caption{The summary of $B^+$ systematic uncertainties plotted as a function of $p_T$ (left), centrality in 0 - 30\%, and 30 - 90\% (middle), and the inclusive centrality bin 0 - 90\% (right) are shown above.}
+\label{BPSystSumPlot}
+\end{center}
+\end{figure}
+
+\clearpage
 
 \section{Final Results} 
 
 \subsection{Overview}
 
+At this point, we have fully validated the analysis with detail evaluation of both statistical and systematic uncertainties. We are ready to report the experimental measurements of $B^0_s$ and $B^+$ cross section and the $B^0_s/B+$ ratio as function of $p_T$ and PbPb collision centrality.
+
 \subsection{$B^0_s$ and $B^{+}$ Cross Section}
 
+Figure \ref{BmesonDataPt} shows $B^0_s$ and $B^+$ $p_T$ differential cross section $\frac{1}{T_{AA}} \frac{dN}{d_pT}$ as a function $p_T$ in PbPb collisions at $\sqrt{s_{NN}} = $5.02 TeV with the CMS detector using the 2018 dimuon PbPb dataset.
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.70\textwidth]{Figures/Chapter4/xsec_vsPt.pdf}
+\caption{The measurement of $B^0_s$ and $B^+$ $p_T$ differential cross section $\frac{1}{T_{AA}} \frac{dN}{d p_T}$ as a function of B-meson $p_T$ within 0 - 90\% centrality is shown above. It should be pointed out that the plot is plot in the unit of pb c/GeV since $T_{AA}$ is in the unit of pb$^{-1}$ while the $p_T$ is in the unit of GeV/c}
+\label{BmesonDataPt}
+\end{center}
+\end{figure}
+
+Table \ref{BsXsectPt} and Table \ref{BPXsectPt} summarize the $B^0_s$ and $B^+$ cross section as functions of $p_T$:
+
+\begin{table}[h]
+\begin{center}
+\caption{The numerical values and uncertainties of $B^0_s$ cross section as a function of $p_T$ are summarized below.}
+\vspace{1em}
+\label{BsXsectPt}
+  \begin{tabular}{| c | c |c | c| c| c| c|}
+    \hline
+$B^0_s$ $p_T$ (GeV/c) &  $\frac{1}{T_{AA}} \frac{dN}{d_pT}$ (pb c/GeV) & Stat. Up (+)   & Stat. Down (-)  &  Syst. Up (+)  &  Syst. Down (-) \\
+    \hline
+    \hline
+ 7 - 10 &   160432  &  51.3\% & 48.3\% & 45.6\% & 45.4\% \\ 
+ 10 - 15 & 75523.7  & 22.4\%  & 25.6\%  & 14.8\% & 14.5\% \\ 
+ 15 - 20 &  25355 & 21.6\%   &  20.7\% & 12.2\% & 12.1\% \\ 
+ 20 - 50 &  2272.18    & 21.6\%  &  16.3\% & 16.5\% &16.4\% \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The numerical values and uncertainties of $B^+$ cross section as a function of $p_T$ are summarized below.}
+\vspace{1em}
+\label{BsXsectPt}
+  \begin{tabular}{| c | c |c | c| c| c| c|}
+    \hline
+$B^+$ $p_T$ (GeV/c) &  $\frac{1}{T_{AA}} \frac{dN}{d_pT}$ (pb c/GeV) & Stat. Up (+)   & Stat. Down (-)  &  Syst. Up (+)  &  Syst. Down (-) \\
+    \hline
+    \hline
+ 7 - 10 &   311668  &  15.9\% & 14.3\% & 14.0\% & 13.6\% \\ 
+ 10 - 15 & 270167  & 6.63\%  & 7.95\%  & 17.1\% & 17.1\% \\ 
+ 15 - 20 &  64384.4 & 6.54\%   &  6.50\% & 7.75\% & 7.61\% \\ 
+ 20 - 50 &  7704.11    & 6.90\%  &  5.26\% & 7.15\% &6.99\% \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+It should note that for the $p_T$ bin 7 - 10 GeV/c, the measurement is a fiducial measurement correcting to B mesons rapidity only up to $1.5 < |y| < 2.4$. The measurement has a $p_T$ range of 7 - 50 GeV/c. The uncertainties are large for $B^0_s$ $p_T$ from 7 to 10 GeV/c due to the limited statistics. 
+
+
+
+Figure \ref{BmesonDataCent} shows $B^0_s$ and $B^+$ $p_T$ integrated cross section as function of average number of participant nucleons $\langle N_{part}\rangle$, with the correspondence to PbPb collision centrality labelled in the plot
+ 
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.70\textwidth]{Figures/Chapter4/xsec_vsCent.pdf}
+\caption{The measurement of $B^0_s$ and $B^+$ $p_T$ differential cross section $\frac{1}{T_{AA}} \frac{dN}{d_pT}$ measurement as function of $\langle N_{part}\rangle$ at different PbPb collision centrality within B-meson $p_T$ from 10 - 50 GeV/c is shown above. }
+\label{BmesonDataCent}
+\end{center}
+\end{figure}
+
+Table \ref{BsXsectCent} and Table \ref{BPXsectCent} summarize the $B^0_s$ and $B^+$ cross section as functions of centrality and their statistical and systematic uncertainties.
+
+
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The numerical values and uncertainties of $B^0_s$ cross section as a function of centrality bin are summarized below.}
+\vspace{1em}
+\label{BsXsectCent}
+  \begin{tabular}{| c | c |c | c| c| c| c|}
+    \hline
+Centrality &  $\frac{1}{T_{AA}} N$ (pb) & Stat. Up (+)   & Stat. Down (-)  &  Syst Up (+)  &  Syst. Down (-) \\
+    \hline
+    \hline
+0 - 30\% &   650790  &  21.2\% & 22.0\% & 14.0\% & 13.7\% \\ 
+30 - 90\%  & 497359  & 19.5\%  & 19.7\%  & 12.8\% & 12.7\% \\ 
+0 - 90\% &  595064 & 17.9\%   &  16.3\% & 13.0\% & 12.8\% \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The numerical values and uncertainties of $B^+$ cross section as a function of centrality bin are summarized below.}
+\vspace{1em}
+\label{BPXsectCent}
+  \begin{tabular}{| c | c |c | c| c| c| c|}
+    \hline
+Centrality &  $\frac{1}{T_{AA}} N$ (pb) & Stat. Up (+)   & Stat. Down (-)  &  Syst Up (+)  &  Syst. Down (-) \\
+    \hline
+    \hline
+0 - 30\% &   1780710  &  5.52\% & 6.72\% & 15.5\% & 15.4\% \\ 
+30 - 90\%  & 2286890  & 6.71\%  & 7.06\%  & 11.9\% & 11.8\% \\ 
+0 - 90\% &  1936560 & 4.47\%   &  4.76\% & 13.9\% & 13.8\% \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+It also should note that this is the first centrality differential fully measurement of reconstructed $B^0_s$ with the CMS experiment. 
+
+
+
+
+
+
 \subsection{$B^0_s/B^{+}$ Ratio}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 %\subsection{$B^0_s$ and $B^{+}$ Nuclear Modification Factor}
 
