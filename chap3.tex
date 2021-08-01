@@ -4,198 +4,154 @@
 %% You can process specific files by typing their names in at the 
 %% \files=
 %% prompt when you run the file main.tex through LaTeX.
-\chapter{Reconstructed Objects}
+\chapter{The CMS Detector}
 
-The state-of-the-art CMS detector take a snapshot of each event and saves the detailed information of the collisions into datasets. In the datasets, we can access to event information with fully reconstructed objects including hits, tracks, muons, and vertex, which will be crucial for our data analysis to study B meson physics in heavy-ion collisions. Below, we will describe, in principle, how these objects with physical meaning are reconstructed from electronic signal in the CMS detector.
+\section{Overview}
 
-\section{Event}
-
-As mentioned previously, an event is defined as a snapshot of one collision at the LHC. Many particles are produced in the collisions and then decay before they are detected in an event. Theoretically, to obtain the complete information of an event, we only need to know the position and momentum of each particle. Experimentally, we detect final state particles and record their kinematics. In high energy physics experiments, the particles reaching the detectors are $e^{\pm}$, $\mu^{\pm}$, $\pi^{\pm}$, $K^{\pm}$, $p$, $n$, $K^0_L$, $\gamma$. All other particles already decayed into these particles before they can be detected. In order to study them, they need to be reconstructed. Historically, this is used to be done by fast camera with high resolution. The Figure \ref{OmegaNick} shows a famous $\Omega^-$ baryon (Strangeness -3: $sss$) event reconstructed from one of picture taken in the bubble chamber \cite{OmegaNick}.
+The Compact Muon Solenoid (CMS) Detector is a general purpose high-energy physics detector located 100 meters underground on the French side of the LHC \cite{CMSDetector}. Overall, the complete detector is 21 m long, 15 m wide and 15 m high with a weight of 14 kiloton, heavier than the Eiffel Tower in Paris. It functions as a giant, high-speed camera, taking 3D ``photograph'' of particle collisions from all directions up to 40 million times each second. Figure \ref{CMSRealPic} shows the photo taken for the CMS detector at the underground collision hall.
 
 \begin{figure}[hbtp]
 \begin{center}
-\includegraphics[width=0.70\textwidth]{Figures/Chapter3/Omega.jpg}
-\caption{The bubble chamber picture of the an $\Omega^-$ baryon reconstructed from an event: $K^- p \rightarrow K^0 K^+ \Omega^- \rightarrow \Xi^0 \pi^- \rightarrow \Lambda^0 \gamma \gamma \rightarrow \pi^- p$ taken from the group led by Nicholas Samios at BNL is shown above.}
-\label{OmegaNick}
+\includegraphics[width=0.80\textwidth]{Figures/Chapter3/CMSRealPic.jpg}
+\caption{The front view of the CMS detector at the underground collision hall is shown above.}
+\label{CMSRealPic}
 \end{center}
 \end{figure} 
 
-
-Nowadays, the high speed electronics and semiconductor technologies have advanced. With the development of computing, detector hardware and readout electronics, high energy physics experiments are able to collect many events with higher precision of measurements. For instance, the CMS experiment has an event trigger rate of 100kHz, which corresponds to a rate of 100000 events per second with 100 GB/s information \cite{CMSDAQ}. Experimental data have become more digital and abstract instead of pictorial and intuitive. All events information is stored at a file format instead of a photograph. Physicists use computer to read the experimental data and develop software to perform analysis of each event, extract the physics information from the analysis, and interpret the physics results. 
-
-In the following subsections, for simplicity, I will explain the reconstructed objects of events with only one charged particle. 
-
-\section{Hit}
-
-All reconstructed objects start from hits as the energy deposition of particle passing through the detectors. Here I will explain the concept of hits based on CMS silicon pixel tracker. Figure \ref{CMSPixChip}, the schematic view of a chip with silicon pixels in the CMS tracker
-
+The CMS detector is made of sub-detectors including silicon strip and pixel trackers, the preshower made of silicon strips, the crystal electromagnetic calorimeter (ECAL), the superconducting solenoid with 3.8 T of magnetic field strength, the inner hadronic calorimeter (HCAL), the steel returning yoke to enhance the magnetic field strength, the outer hadronic calorimeter, the muon chambers, and the forward hadronic calorimeter \cite{CMSDetector}. Figure \ref{CMSDecPic} shows schematic view of the CMS detector
 
 \begin{figure}[hbtp]
 \begin{center}
-\includegraphics[width=0.50\textwidth]{Figures/Chapter3/CMSPixChip.png}
-\caption{The schematic plot of a CMS silicon chip with pixel sensor is shown above.}
-\label{CMSPixChip}
+\includegraphics[width=0.80\textwidth]{Figures/Chapter3/CMSDecPic.jpg}
+\caption{The schematic view of the CMS detector with brief descriptions of all its components is shown above. Image from \cite{HiggsCMS}}
+\label{CMSDecPic}
 \end{center}
 \end{figure} 
 
-When a charged particle pass through a layer of the CMS silicon pixel detector, we can look at the charges collected by each pixel on that layer due to the ionization of electron-hole pairs by the high energy charged particle. Ideally, if a particle enter the tracker at a normal angle, only one pixel is fired. However, in reality, its neighboring pixels may also have some response. When the particle enter the tracker with a small angle  particularly when the part. Figure \ref{HitDemo} schematically demonstrates the firing pixel when a particle passing the layer
+The CMS detector is built, operated, and maintained by the CMS Collaboration. The CMS Collaboration consists of over 4000 members including scientists, engineers, technicians, students, and administrative assistants from 200 institutes and universities in 40 countries around the world. Physicists take data from the CMS detector and share data with each other with online system. The data are store in tapes and kept at different institutions. Members of the CMS experiment collaborate with each other on detector studies and data analysis to produce important scientific results and have published in more than 1000 papers in internationally recognized journals.
 
-\begin{figure}[hbtp]
-\begin{center}
-\includegraphics[width=0.48\textwidth]{Figures/Chapter3/Hit1.png}
-\includegraphics[width=0.48\textwidth]{Figures/Chapter3/Hit2.png}
-\caption{The schematic views of a charged particle (blue line) entering the silicon pixel layer (black) at a normal angle (left) and a small tilting angle (right) with the pixels fired (red) are shown above. The left cluster has 1 hit and the right cluster has 4 hits.}
-\label{HitDemo}
-\end{center}
-\end{figure} 
+In the following sections, I will describe in more details the CMS experiment including the trigger system for data acquisition, the tracking system to track charged particles, the muon system for muon detection, identification, and reconstruction, and the calorimeter system to measure the energy of the particles.
 
-Here we call each firing pixel as a hit, which is demonstrated above in Figure \ref{HitDemo} in red. In CMS pixel tracker, the probability of a pixel firing when a charged particle passing through is greater than 99\% \cite{CMSTrackComp}, which means that it is very unlikely a hit is missing when a particle pass through the pixel. 
+\section{Triggers}
 
+The CMS experiment develops triggers to acquire experimental data \cite{CMSTrigger}. Its main purpose is to select events of potential physics interests from approximately one billion events per second the particles collisions at the LHC. The CMS trigger system consists of two levels of triggers: hardware level 1 (L1) trigger and the software high level trigger (HLT). Different triggers encoded in the L1 and HLT are designed and fire to collect datasets for specific physics studies.
 
+\subsection{L1 Trigger}
 
-\section{Cluster}
-
-
-Therefore, there should be at least one hit for each layer when a single particle pass through. We call the collection of the adjacent pixel hits in a layer due to one particle as a cluster \cite{CMSTrackComp}. Local hits reconstruction algorithm is implemented to obtain clusters. The number of electric charges $Q$ is associated to each hit. We can design an algorithm determine the center of a cluster according to the charges of each hit. A simple algorithm is to calculate the center of gravity of the cluster taking the weighted averaging of the charge and the position of each hit. In this case, for a cluster with a single hit, its position is simply the center of the pixel. For clusters with many hits, we develop a dedicated algorithm to estimate its position \cite{CMSTrackComp}. The position of a cluster is a measurement of the particle trajectory. 
-
-However, in an event with many particles, the occupancy of each layer will be busy and the clusters will become complicated. The CMS collaboration develop  In CMS terminology, the conversion of electronic signal of pixels to clusters is called DIGI.
-
-
-\section{Track}
-
-\subsection{Overview of Basic Principles}
-
-In a uniform external magnetic field, the trajectory of a charged particle will be a helix in 3 dimensions. Geometrically, five parameters are needed to parametrize a helix. A parametric curve of a helix moving in the Cartesian coordinates moving in the z direction is written as follows
-
-\begin{equation}
-x(t) = R \cos(\omega t) + a
-\end{equation}
-
-\begin{equation}
-y(t) = R \sin(\omega t) + b
-\end{equation}
-
-\begin{equation}
-z(t) = v t + c
-\end{equation}
-
-Therefore, we need at least 3 clusters to determine the all 5 parameters. 3 clusters can determine the radius $R$ and the center of the circle (a,b) and also can determine the straight line in the z-direction. Figure \ref{HelixAndFit} shows the helix path of a charged particle in a uniform magnetic field and the fit to determine the center and the radius of the helix.
+In the CMS experiment, an event is defined as a snapshot of one collision at the LHC. In the L1 trigger, physicists develop algorithms according to detector electronics response to decide if an event is accepted or rejected within the L1 trigger latency time. Figure \ref{L1Overview} shows the schematic overview of L1 trigger making its decision online to select events based on the information from the calorimeter and muon systems.
 
 
 \begin{figure}[hbtp]
 \begin{center}
-\includegraphics[width=0.35\textwidth]{Figures/Chapter3/Helix.png}
-\includegraphics[width=0.55\textwidth]{Figures/Chapter3/FitToCircle.png}
-\caption{The helix motion of a charged particle under a constant and uniform magnetic field $\vec{B}$ pointing in the +z direction (left) and the fit to 3 points to determine the center and the radius of a circle (right) are shown above.}
-\label{HelixAndFit}
+\includegraphics[width=0.50\textwidth]{Figures/Chapter3/L1Overview.png}
+\caption{The figure above demonstrates how the CMS L1 hardware trigger function schematically.}
+\label{L1Overview}
 \end{center}
 \end{figure} 
 
-Moreover, we can determine transverse momentum of the charged particle according to the $R$ fitted from fit to the center of 3 clusters.
+In the interest of heavy-ion studies, physicists develop a set of dedicated triggers algorithms in the L1 trigger to build datasets. The minimum biased (MB) trigger is designed to collect minimum bias data for elliptic flow, $D^0$ meson, and charged particle multiplicity analyses while the single muon trigger is designed to select events muons for heavy flavor and electroweak physics analyses. We will describe the MB trigger since we will need to use it to determine the number of MB events in our analysis.
 
-\begin{equation}
-p_T  = qRB
-\end{equation}
+\subsection{MB Trigger}
 
-In general, the charges of the particles produced in the collision and pass through the tracker are $q = e$. Hence, $p_T = eRB$. For $p_T$ in the unit of GeV, $R$ in the unit of meter (m), and $B$ in the unit of tesla (T), we have 
-
-\begin{equation}
-p_T  \simeq 0.3 RB
-\end{equation}
-
-Therefore, as seen above from Figure \ref{HelixAndFit}, the transverse momentum resolution is driven by the determination of $R$ assuming we have a perfect measurement on the magnetic field $B$.
+By definition, an MB event corresponds to a non-single diffractive inelastic interaction \cite{MBTrigger}. A totally inclusive trigger, or called zero bias (ZB) trigger, corresponds to a randomly reading out from the detector whenever a collision is possible. MB trigger is algorithm to determine interesting MB events based on the response from forward HCAL located at $3 < |\eta| < 5$. It is put a fixed analog to digital converter (ADC) threshold in the HCAL response to reject background noise and collect MB events from ZB trigger. There is also an essentially linear relation between the maximum ADC with the actual energy response of the forward HCAL. Figure \ref{HFADC} shows the ADC distribution and HF energy as a function of ADC in 2018 PbPb run.
 
 \begin{figure}[hbtp]
 \begin{center}
-\includegraphics[width=0.45\textwidth]{Figures/Chapter3/PixLayTrk.png}
-\includegraphics[width=0.45\textwidth]{Figures/Chapter3/FitOnHits.png}
-\caption{A track (blue) initiated from the beam spot (orange) passing through 3 layers of pixel detectors (black) with 3 clusters (red) is shown on the left and the circular fit to the 3 clusters with the definition of $R$, $L$, and $\theta$ is shown on the right.}
-\label{HelixAndFit}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter3/AllADC.png}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter3/HFvsADC.png}
+\caption{In the CMS 2018 PbPb Run 326791, the ZB data (red), Empty Bunches (blue), and MB data (green) ADC distributions (left), and the HF energy according to the charge collected as a function of ADC (right) are shown above. We can see that the HF energy  is about (0.5 - 1) conversion factor to the ADC.}
+\label{HFADC}
+\end{center}
+\end{figure} 
+
+The MB trigger consist ``MB OR'', which requires the ADC threshold on either one of the forward HCAL (HF) out of both forward ECAL in both positive and negative sides, and ``MB AND'',  which requires the ADC threshold on both of HFs out of both forward ECAL in both positive and negative sides. Figure \ref{2018PbPbMB} shows the L1 MB trigger analysis of Run 326791 in the 2018 CMS PbPb data taking 
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter3/MaxADC.png}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter3/MBTrgEffADC.png}
+\caption{In the CMS 2018 PbPb Run 326791, the ZB data (red), Empty Bunches (blue), and MB data (green) maximum ADC distributions (left) and the efficiencies of MB OR (blue) and MB AND (red) as a function ADC threshold (right) are shown above.}
+\label{2018PbPbMB}
+\end{center}
+\end{figure} 
+
+In the 2018 CMS PbPb data taking, to reject the noisy background, the max ADC of each event is required to be greater than 15 with MB AND along with the HLT trigger of at least one pixel track are applied to select MB events, as seen above from Figure \ref{2018PbPbMB} in the max ADC distribution of MB evens in green. A total number of about 2.4 billion MB events corresponding to a luminosity about 1.7 $nb^{-1}$ have been collected by CMS during the 2018 LHC PbPb run from November to December 2018. Figure \ref{MBStat} shows the MB events and corresponding luminosity as a function day throughout the 2018 CMS PbPb data taking period
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.55\textwidth]{Figures/Chapter3/MBStat.pdf}
+\caption{The figure above shows the total number of 20 PbPb MB events from and corresponding luminosity how the as a function Run ID from November 15 to December 2 2018.}
+\label{MBStat}
 \end{center}
 \end{figure} 
 
 
+\subsection{Centrality Efficiency with MB Trigger}
 
-According to Figure \ref{HelixAndFit} on the right, at high $p_T$, essentially in parallel, for a 3 cluster fit. In addition, we know that the layers in the pixel track has equal spacing $\Delta r$ between layers. For CMS pixel tracker, its inner most 3 layers has equal distance $\Delta r_{12} = \Delta_{23} =$ 2.9 cm \cite{CMSPIXInfo}. 
+In addition to overall efficiency vs the ADC with the MB trigger, we also study the centrality efficiency with different ADC thresholds. Figure \ref{EffCent} shows the centrality as a function of efficiency using MB OR and MB AND with different thresholds
 
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.55\textwidth]{Figures/Chapter3/EffCent.png}
+\caption{The efficiency vs centrality with ADC > 16 for MB OR (blue) and MB AND (green) are shown above.}
+\label{EffCent}
+\end{center}
+\end{figure} 
 
-Hence, we can see that $L/2 = \Delta r$, which assume fixed with no uncertainties. Hence, we have
+Because other physics trigger are mainly based on the MB datasets, in the physics analyses using 2018 CMS PbPb datasets, it is recommended to remove the very peripheral centrality range from 90 - 100\%, which is not fully efficient (efficiency $<$ 100\%). Therefore, the most of the CMS heavy-ion physics results using the 2018 PbPb dataset will be presented in the centrality range of 0 - 90\%.
 
-\begin{equation}
-\frac{L}{2} = R \sin \frac{\theta}{2}
-\end{equation}
+\subsection{HLT Trigger}
 
-Again, at high $p_T$, the angle $\theta$ will be very small since the radius of the circle $R >> \Delta r$, $\sin\theta \simeq \theta$ and $\cos\theta \simeq 1 - \frac{\theta^2}{2}$. Hence, we can use small angle approximation
+The HLT software trigger is an array of commercially available computers running high-level physics algorithms \cite{CMSTrigger}. Unlike the online L1 hardware trigger which runs on-the-go during the data taking process, HLT is an offline software trigger that runs after the data are acquired. In the HLT trigger, more sophisticated analyses are performed to determine if the event is accepted or rejected for a specific dataset. The event data are stored locally on disk and eventually transferred to downstream systems, the CMS Tier-0 computing center, for offline HLT processing and permanent storage \cite{CMSTrigger}. There are many trigger paths in the HLT such as the high multiplicity trigger to specifically collect events with many tracks, the D meson trigger to select high $p_T$ D mesons, and the dimoun trigger to enrich Drell-Yen events, are designed and encoded in the HLT trigger. In the following, we will describe the dimuon trigger in details because the dimuon dataset will be used to fully reconstruct B mesons in this thesis. 
 
-\begin{equation}
-L = 2 R \sin \frac{\theta}{2} \simeq R \theta
-\end{equation}
+\subsection{DiMuon Trigger}
 
-Therefore,
+The dimuon trigger, as it is named, is a trigger based on the information of two muons tracks. HLT is able to quickly reconstruct the invariant mass of two oppositely charged muons $m_{\mu\mu}$. Figure \ref{DimuonInvMass} shows the $m_{\mu\mu}$ reconstructed by the CMS HLT with 2018 pp dataset.
 
-\begin{equation}
-p_T  \simeq 0.3 RB = 0.3 \frac{BL}{\theta}
-\end{equation}
-
-
-Hence, geometrically, we have
-
-
-\begin{equation}
-s = R - R \cos \frac{\theta}{2} = R (1 -  \cos \frac{\theta}{2}) =  R (1 -  \cos \frac{\theta}{2})  \simeq  \frac{L}{\theta} \{1 - [1 - \frac{1}{2} (\frac{\theta}{2})^2] \} =  \frac{L\theta}{8} = \frac{0.3BL^2}{8p_T}
-\end{equation}
-
-Thus, the uncertainties on both sides go as 
-
-\begin{equation}
-\sigma_s =  \frac{0.3BL^2}{8p_T^2} \sigma_{p_T}
-\end{equation}
-
-Hence, the transverse momentum resolution $\frac{\sigma_{p_T}}{p_T}$ is given by 
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.55\textwidth]{Figures/Chapter3/DimuonInvMass.png}
+\caption{The dimuon invariant spectrum $m_{\mu\mu}$ reconstructed by CMS HLT trigger in the 2018 pp dataset is shown above. We can identify the neutral vector boson resonances shown above.}
+\label{DimuonInvMass}
+\end{center}
+\end{figure} 
 
 
-\begin{equation}
-\frac{\sigma_{p_T}}{p_T} = \frac{8\sigma_s}{0.3BL^2} p_T
-\end{equation}
+In the 2018 PbPb run, the dimuon trigger requires the presence of two muon candidates, with no explicit momentum threshold and with the HLT reconstructed dimuon invariant mass of 1.0 GeV/c$^2$ $< m_{\mu\mu} <$ 5.0 GeV/c$^2$, near the $J/\psi$ PDG mass $m_{J/\psi} =$ 3.0969 GeV/c$^2$ \cite{AlphaTheoEx}, in coincidence with lead bunches crossing at the interaction point. Moreover, One of the trigger-level muons is reconstructed using information both from the muon detectors and the inner tracker with requirement of more than or equal to 10 hits (named as L3 muon), while for the other only information from the muon detectors is required (named as L2 muon) \cite{BAnaDimuonTrigger}.
 
-Here, $\sigma_s$ is effective the position resolution of the silicon pixel detector. We can see that the transverse momentum resolution gets worse as $p_T$ increases in the high $p_T$ region. Figure \ref{CMSpTReso} shows the $\frac{\sigma_{p_T}}{p_T}$ as a function $p_T$
+\section{Tracking System}
+
+\subsection{Silicon Detectors}
+
+The CMS tracking system applies solid state semiconductor technologies. It consists of the 3 layers of silicon pixel tracker and 10 layers of silicon strip detector including 4 inner barrel layers and 6 outer barrel layers \cite{CMSSilicon}. It have a $\phi = 2\pi$ and $|\eta| < 2.4$ acceptance coverage. Figure \ref{CMSTracker} shows the CMS tracking system schematically
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.80\textwidth]{Figures/Chapter3/CMSTrackingSchemtic.png}
+\caption{The schematic view of the CMS tracking system is shown above.}
+\label{CMSTracker}
+\end{center}
+\end{figure} 
+
+
+In nuclear and particle physics, a tracker is a detector that measures the trajectories of charged particles via ionization. In general, it does not destroy or significantly change the energy of the particle. With the external magnetic field, the tracker can measure the momentum, the charge, and the mass of the particle by the studying the electric charges collected from electron avalanche or electron-hole pair. The CMS tracking systems provides physicists with excellent tracking capabilities. The CMS silicon tracker is solid state detector employing semiconductor technologies. The silicon tracker is operated at a reserve bias mode with a depletion voltage of about 600V. High energy charged particles passing through the silicon tracker has an energy loss of $dE/dx \simeq 0.5 keV/\mu m$ \cite{AlphaTheoEx}. Therefore, for a 320 $\mu m$ thick silicon sensor, the charged particle will lose about 160 keV. The electron-hole pair in silicon is about 3 eV per pair. Therefore, the charged particle will produce roughly on the order of $10^4$ electrons. The hit resolution in $r\phi$ direction of the silicon strip is about 10 -- 40 $\mu m$ \cite{CMSTrackComp}. Figure \ref{SiliconDetector} shows schematically how a high energy charged particle ionized a electron-hole pair in the depletion region of a silicon P-N junction diode operated at a reverse biased mode
 
 
 \begin{figure}[hbtp]
 \begin{center}
-\includegraphics[width=0.60\textwidth]{Figures/Chapter3/CMSpTReso.png}
-\caption{The transverse momentum resolution $\frac{\sigma_{p_T}}{p_T}$ of a track as a function of transverse momentum $p_T$ is shown above.}
-\label{CMSpTReso}
+\includegraphics[width=0.75\textwidth]{Figures/Chapter3/SiliconDetector.png}
+\caption{The schematic plot explaining how a silicon tracker detector charged particles is shown above.}
+\label{SiliconDetector}
 \end{center}
 \end{figure} 
 
-We can see that a good agreement with linear growth of $\frac{\sigma_{p_T}}{p_T}$ for $p_T > 20$ GeV/c in the high $p_T$ region.
+However, in the CMS silicon tracker, due to the small number of electrons produced in the silicon sensor, the energy loss $dE/dx$ vs momentum $p$ of charged particle is does not good enough resolution to separate and identify electron, pion, kaons and protons. Therefore, we generally do not perform particle identification (PID) for hadrons with CMS detector in physics analyses.  
 
-Longitudinally, $p_z$ can be determined by the $p_T$ and the angle $\Delta \theta$ in the transverse direction 
+\iffalse
 
-\begin{equation}
-p_z = \frac{\Delta z}{\frac{R\Delta \theta}{p_T}} = 0.3B \frac{\Delta z}{\Delta \theta}
-\end{equation}
+\subsection{Tracking Algorithm}
 
-At this point, we have obtain the trajectory with the complete kinematic information about a particle except its mass which will require particle identification in order to determine.
-
-\subsection{CMS Tracking Algorithm}
-
-
-Because the CMS silicon tracker has 3 pixel and 10 strip layers, a charge particle passing through all 13 layers should leave 13 clusters, which is much more than required to determine the helix. Moreover, in reality, collision events at the LHC, many tracks are produced at multiple vertices. In collider physics, we call use the concept of pileup events (PU), which is defined as events with more than one vertices. Figure \ref{CMSEvtInfo} shows the number of vertices and the number of tracks in $pp$ collisions at $\sqrt{s_{NN}} = $ 5.02 TeV
-
-\begin{figure}[hbtp]
-\begin{center}
-\includegraphics[width=0.48\textwidth]{Figures/Chapter3/Vertex.png}
-\includegraphics[width=0.48\textwidth]{Figures/Chapter3/Multiplicity.png}
-\caption{The Data (blue) and MC (red) of the number of primary vertex distribution (left) and event multiplicity (right) are shown above. We can see that an event could be more than 1 vertices with more than 100 tracks, which make it very challenging to perform tracking.}
-\label{CMSEvtInfo}
-\end{center}
-\end{figure} 
-
-Hence, the CMS collaboration has developed the state-of-the-art tracking algorithm to reconstruct the paths and primary vertices of the collisions from the electronic readout signals. CMS tracking algorithm employs the Combinatorial Track Finder (CTF), an adaptation of the combinatorial Kalman filter \cite{CMSTrack1,CMSTrack2,CMSTrack3}, which in turn is an extension of the Kalman filter \cite{Kalman} to allow pattern recognition and track fitting to occur in the same framework. The collection of reconstructed tracks is produced by multiple passes (iterations) of the CTF track reconstruction sequence, in a process called iterative tracking \cite{CMSTrackComp}. The CMS tracking workflow and its performance are shown in Figure \ref{TrackWorkFlow} and Figure \ref{CMSTrackPer}
-
-
+With the hardware silicon tracker, the CMS collaboration also developed the state-of-the-art tracking algorithm to reconstruct the paths and primary vertices of the collisions from the electronic readout signals. CMS tracking algorithm employs the Combinatorial Track Finder (CTF), an adaptation of the combinatorial Kalman filter \cite{CMSTrack1,CMSTrack2,CMSTrack3}, which in turn is an extension of the Kalman filter \cite{Kalman} to allow pattern recognition and track fitting to occur in the same framework. The collection of reconstructed tracks is produced by multiple passes (iterations) of the CTF track reconstruction sequence, in a process called iterative tracking \cite{CMSTrackComp}. The CMS tracking workflow and its performance are shown in Figure \ref{TrackWorkFlow} and Figure \ref{CMSTrackPer}
 
 \begin{figure}[hbtp]
 \begin{center}
@@ -206,179 +162,110 @@ Hence, the CMS collaboration has developed the state-of-the-art tracking algorit
 \end{figure} 
 
 
-
-\textbf{Track Seeding:} After obtain the clusters and reconstruct the hits, the tracking is in the track seeding stage. A dedicated seeding algorithm is designed to select the clusters, either a triplet or a pair, from the pixel layers and other combinations of pixel and strip layers before fitting \cite{CMSTrackComp}. After these steps, preliminary fits to the seeds named trajectory seeds are created.
-
-
-\textbf{Track Finding:} Then, it moves on to the track finding stage. A six-step iteration process, which includes navigation, hit search, hit grouping, and trajectory update, is implemented with the application of CFT algorithms based on Kalman Filter to build track candidates. A schematic overview of the track finding process is shown below Figure \ref{CMSTrackFDWF}
+%Figure \ref{CMSTrackPer} shows the general performance of CMS tracking algorithm
 
 \begin{figure}[hbtp]
 \begin{center}
-\includegraphics[width=0.900\textwidth]{Figures/Chapter3/TrackFDWF.pdf}
-\caption{The four steps of CMS track finding workflow (left) and the schematic demonstration of each step (right) are shown above.}
-\label{CMSTrackFDWF}
-\end{center}
-\end{figure} 
-
-
-\begin{figure}[hbtp]
-\begin{center}
-\includegraphics[width=0.48\textwidth]{Figures/Chapter3/Step1.png}
-\includegraphics[width=0.48\textwidth]{Figures/Chapter3/Step2.png}
-\includegraphics[width=0.48\textwidth]{Figures/Chapter3/Step3.png}
-\includegraphics[width=0.48\textwidth]{Figures/Chapter3/Step4.png}
-\caption{The four schematic plots demonstrating each of the four steps for track finding are shown respectfully above.}
-\label{CMSTrackFDWF}
-\end{center}
-\end{figure} 
-
-\textbf{Track Fitting:} Next, the tracking is in the stage of track fitting. Kalman filter \cite{Kalman} is applied to improve fitting performance. It starts from the innermost location with typically four hits \cite{CMSTrack1,CMSTrack2,CMSTrack3}. When extrapolating the trajectory from one hit to the next, the filtering and smoothing procedure is carried out with a Rugga-Katta propagator to obtain the best precision. $\chi^2 < $ 20 is required of each fit in order to improve its precision and reject fake tracks. Figure \ref{KalmanFitting} schematically shows how the Kalman filter fit along with Rugga-Katta propagator is applied in the iterative fitting algorithm for CMS tracking
-
-
-\begin{figure}[hbtp]
-\begin{center}
-\includegraphics[width=0.80\textwidth]{Figures/Chapter3/KalmanFitting.png}
-\caption{The schematic demonstration Kalman filter along with Rugga-Katta propagator to improve the tracks fitting is shown above.}
-\label{KalmanFitting}
-\end{center}
-\end{figure} 
-
-
-\textbf{Track Selection:} Subsequently, the tracking is in the stage of track selection. At this point, we have already obtained a preliminary track collection of one event. To improve the track quality and reject fake tracks, further selection based on the track properties will be applied. The following selection criteria are applied to select high quality tracks \cite{CMSTrackComp}
-
-\begin{itemize}
-\item Minimum number of layers in which the track has at least one associated hit
-\item Minimum number of layers in which the track has an associated 3-D hit
-\item Maximum number of layers that has no associate hits
-\item $\chi^2/dof < \alpha_0 N_{layers}$ 
-\item $|d_0^{BS}|/ \sigma_{d_0(p_T)} < (\alpha_1 N_{layers})^\beta$ 
-\item $|z_0^{PV}|/ \sigma_{z_0(p_T,\eta)}  < (\alpha_2 N_{layers})^\beta$ 
-\item $|d_0^{BS}|/\delta d_0 < (\alpha_3 N_{layers})^\beta$ 
-\item $|z_0^{PV}|/\delta z_0 < (\alpha_4 N_{layers})^\beta$ 
-\end{itemize}
-
-Here, $\alpha_n$ and $\beta$ are configurable constant depend on the selection efficiency and purity requirements. $d_0^{BS}$ is the closest transverse distance of the track to the beam spot and $\delta d_0$ is its associated error. $z_0^{PV}$ is the distance along the beam-line from the closest pixel vertex and $\delta z_0^{PV}$ is its associated error. Hence, $|d_0^{BS}|/ \sigma_{d_0(p_T)}$ and $|z_0^{PV}|/ \sigma_{z_0(p_T,\eta)}$ are expressed in terms of significance. $\sigma_{d_0(p_T)}$ and $\sigma_{z_0(p_T,\eta)}$ are essentially the associated errors of $d_0^{BS}$ and $z_0^{PV}$ parametrized by track $p_T$ and $\eta$.
-
-
-\textbf{Final Track Collection:}  Finally, after we apply the selections, we have obtained a final track collection for one event. Figure \ref{CMSTrackPer} shows the general performance of CMS tracking algorithm
-
-\begin{figure}[hbtp]
-\begin{center}
-\includegraphics[width=0.48\textwidth]{Figures/Chapter2/TrackPTEff.pdf}
-\includegraphics[width=0.48\textwidth]{Figures/Chapter2/TrackPTFake.pdf}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter3/TrackPTEff.pdf}
+\includegraphics[width=0.48\textwidth]{Figures/Chapter3/TrackPTFake.pdf}
 \caption{The CMS tracking efficiency (left) and fake rate (right) as a function of $p_T$ from simulations of $t \bar t$ events at 13 TeV with different pileup conditions are shown above.}
 \label{CMSTrackPer}
 \end{center}
 \end{figure} 
 
-We should note that a modified version of Kalman filter named Gaussian Sum Filter \cite{GSF} is applied to improve the tracking performance of electrons \cite{CMSTrackComp}.
-
-
-\section{Muon}
-
-The muon in the tracker uses an essentially the same tracking algorithms as other charged particles \cite{CMSTrackComp}. Tracking performance of muon is excellent. For isolated muons with 1 < $p_T$ < 100 GeV/c, the tracking efficiency is $>$ 99\% over the full $\eta$-range of tracker acceptance and does not significantly depend on $p_T$ while the fake rate is negligible \cite{CMSTrackComp}. We can require hits on the outer most muon chambers to identify muons because other charge particles will be stopped by the calorimeter and should not be able to enter the muon system as shown on Figure \ref{ParticleFlow}. The muon reconstruction workflow with the muon chambers are shown below in Figure \ref{MuonReco}
-
-
-\begin{figure}[hbtp]
-\begin{center}
-\includegraphics[width=0.65\textwidth]{Figures/Chapter3/MuonReco.png}
-\caption{The schematic block diagram of muon reconstruction in the CMS muon system is shown above.}
-\label{MuonReco}
-\end{center}
-\end{figure} 
-
-In addition, since mouns also deposit some energy to the ECAL and HCAL, we can also access calorimeter information for the muons. Therefore, the CMS muon system has excellent capabilities of detecting, identifying, and reconstructing muons, which is crucial for heavy flavor physics studies. 
-
-In CMS terminology, there are many types of muons based on their selection requirement in reconstruction. They are classified as follows:
-
-
-\begin{itemize}
-\item \textbf{Standalone Muons:} the muon segments reconstructed from muon chambers only.
-\item \textbf{Tracker Muons:} the muon segments reconstructed from tracker only but also valid with the information from calorimeter and muon systems
-\item \textbf{Global Muons:} the muons reconstructed from the fits on the hits of both trackering and muon systems
-\item \textbf{RPC Muons:} the muons reconstructed with both inner tracker and the resistive plate detector only 
-\item \textbf{Calorimeter-based Muons (Calo Muons):} the muons reconstructed with both inner tracker and calorimeters  
-\end{itemize}
-
-The relationship between stand alone muons, tracker muons, global muons, and calo muons are shown below in Figure \ref{MuonRel}
-
-\begin{figure}[hbtp]
-\begin{center}
-\includegraphics[width=0.75\textwidth]{Figures/Chapter3/MuonRel}
-\caption{The relationship between different reconstructed muon in CMS is shown above}
-\label{MuonRel}
-\end{center}
-\end{figure} 
-
-For physics analysis, addition selections on muons including trigger, identification, and acceptance will be applied. We will further discussed them in the analysis chapter.
-
-\section{Vertex}
-
-In particle physics, the term vertex is similar to a vertex in Feynman diagram where old incoming particles are destroyed and new outgoing particles are created via an interaction at a space-time point. This has already shown in Figure \ref{OmegaNick} of the $\Omega^-$ baryon event where we can clearly see the vertices of $\Omega^-$ baryon creation and decay in the reconstructed plot on the right. 
-
-\subsection{Primary Vertex}
-
-By definition, in collider experiments, the primary vertex is assume where the hadron interact. Therefore, all particles produced in the collisions in that event originate from the primary vertices. With the final track collection for each event, assuming all the tracks are promptly produced at a given interaction point, we can determine the primary vertices by selecting the tracks, performing track clustering, and fitting for the position of each vertex using its associated tracks \cite{CMSTrackComp}. The selection criteria for the track to perform primary vertex are as follows:
-
-\begin{itemize}
-\item $|d_0^{BS}|/ \Delta d_0 < 5$
-\item $N_{pixel} > 2$
-\item $N_{strip} > 5$
-\item $\chi^2/dof < 20$
-\end{itemize}
-
-
-
-The selection above make sure the tracks used have high quality and are indeed come from primary vertices. The deterministic annealing algorithm \cite{DAAlgo} is track clustering algorithm that CMS is currently using. An iterative process of minimize the annealing function of longitudinal distance between the tracks and the vertices gradual temperature reduction until dropping to the critical temperature is carried out to determine the number of vertices and their z coordinates \cite{CMSTrackComp}. A track can be used for more than one vertices during tracking clustering. Figure \ref{CMSEvtDisplay} is a $pp$ collision event display of the CMS detector with reconstructed tracks and primary vertices 
-
-\begin{figure}[hbtp]
-\begin{center}
-\includegraphics[width=0.85\textwidth]{Figures/Chapter3/CMSEvtDisplay.png}
-\caption{A $pp$ collision event display of the CMS detector with reconstructed tracks (green curves) and primary vertices (yellow dots) is shown above.}
-\label{CMSEvtDisplay}
-\end{center}
-\end{figure} 
-
-\iffalse
-Figure \ref{DAAlgoPlot} shows schematically the deterministic annealing algorithm
-
-
-\begin{figure}[hbtp]
-\begin{center}
-\includegraphics[width=0.75\textwidth]{Figures/Chapter3/MuonRel}
-\caption{The relationship between different reconstructed muon in CMS is shown above}
-\label{DAAlgoPlot}
-\end{center}
-\end{figure} 
-\fi
-
-After that, we have determined the vertex candidates with z coordinates. Then,  for the vertices candidates with at least two tracks, adaptive vertex fitter \cite{AVT} is applied to compute the best estimate of vertex parameters, including its x, y and z position, covariance matrix, and parameters characterizing the fitting performance such as the $\chi^2$, $n_{dof}$, vertex fitting probability, and the weights of the tracks used in the vertex. At this point we have obtain the complete information of an event with a final collection of tracks with best reconstructed vertices. The track and primary vertex information of each event will be saved in datasets for further physics analyses.
-
-\subsection{Secondary Vertex}
-
-Another object we should mention, particularly in the context of this thesis, is secondary vertex. Again, as seen from Figure \ref{OmegaNick}, there are many vertices in the $\Omega^-$ baryon event in its decay chain. We can the displaced vertex from the primary vertex due to the decay of a short-life particle produced at high energy as the secondary vertex. Figure \ref{D0Vtx} below is schematic plot of the decay topology of a prompt $D^0$ decay via the channel: $D^0 \rightarrow K^- \pi^+$ showing the primary vertex and secondary vertex  
-
-\begin{figure}[hbtp]
-\begin{center}
-\includegraphics[width=0.45\textwidth]{Figures/Chapter3/D0Seconary.png}
-\caption{The decay of $D^0 \rightarrow K^- \pi^+$ with the definition of secondary vertex is shown above}
-\label{D0Vtx}
-\end{center}
-\end{figure} 
-
-The decay length is defined as the distance between primary and secondary vertex. In LHC collisions, since the energy is very high, the particle produced from the primary vertex generally has a large momentum, which correspond to a large Lorentz gamma factor $\gamma \beta \simeq$ 5. For B mesons produced at the LHC, we estimate their length a $\gamma \beta c \tau \simeq 3$ mm due to its long lifetime $c \tau = 500$ $\mu$m \cite{AlphaTheoEx}. Therefore, the B meson secondary vertex is well seperated from the primary vertex and could even even viewed by eye. The relatively long B meson decay lengths make them ideal candidates to be fully reconstructed and study thanks to the excellent vertexing and tracking capabilities of the CMS detector.
-
-Finally, we can also call the secondary vertex for a particle as the reconstructed mother particle's vertex. For instance, $B^0_s \rightarrow J/\psi \phi \rightarrow \mu^+\mu^- K^+K^-$. We can identify 3 secondary vertices. We call them $B^0_s$, $J/\psi$, and $\phi$ vertices. 
-
-\iffalse
-
-\section{Experimental Results}
-
-
-Nevertheless, here I just take a simple case that only one charged particle is present in an event. In reality, LHC collision events in general have high pile with high multiplicity \cite{}. Figure \ref{} shows the number of reconstructed vertices in $pp$ collisions from MC and data. 
-
-
-Therefore, when there are so many particles coming from many vertices in each event, the CMS Collaboration have designed more complicated algorithms to reconstruct events with physics objects mentioned above \cite{}.
+Finally, with the collection of tracks, assuming all the tracks are promptly produced at a given interaction point, we can determine the primary vertex by selecting the tracks, performing track clustering, and fitting for the position of each vertex using its associated tracks \cite{CMSTrackComp}. The deterministic annealing algorithm \cite{DAAlgo} is track clustering algorithm that CMS is currently using. The track and vertex information of each event will be stored in datasets for physics analyses.
 
 \fi
+
+\section{Muon System}
+
+Named as ``Compact \textbf{Muon} Solenoid'', the study on muon is one of the most important physics tasks of the CMS experiment. The CMS muon system has 1400 muon chambers including 250 drift tubes and 540 cathode strip chambers to track the positions of the muons and provide a trigger and 610 resistive plate chambers form a redundant trigger system with an acceptance coverage of $|\eta| < 2.4$ . Due to the small energy loss of muon in ECAL and HCAL \cite{AlphaTheoEx}, the muon produced from the collisions usually penetrates through the trackers and calorimeters. Therefore, the muon system is located at the outer of the CMS detector. Figure \ref{ParticleFlow} shows the particles produced at the interaction points and pass through the CMS detector
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.90\textwidth]{Figures/Chapter3/CMSParticleFlow.png}
+\caption{The particle flow of long life particles, such as electrons, muons, photons, charged hadrons: $\pi,K,p$, and neutral hadrons: neutrons, in the CMS detector are shown above.}
+\label{ParticleFlow}
+\end{center}
+\end{figure} 
+
+%\textbf{How MUON CHAMBER WORKS}
+
+The muon system employs gaseous detector technology. Physical modules of drift tubes, cathode strip proportional planes, and resistive plates are called ``chambers''. When a muon pass through the chambers, it will ionize electrons of the gas atom. Under a strong electric field, the avalanche electrons will be drifted to the anode and the gas ion will be drifted to the cathode. Electronic signal will be generated as this occurs. Figure \ref{Muonsystem} shows schematically how electron avalanches works in a gaseous detector to detect charged particles as well as the design of CMS drift tube to detect muons.
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.85\textwidth]{Figures/Chapter3/EAva.png}
+\includegraphics[width=0.85\textwidth]{Figures/Chapter3/CMSDT.png}
+\caption{A visualization of Townsend Avalanche (top) and schematic plot of the CMS drift tube detecting a muon (bottom) are shown above.}
+\label{Muonsystem}
+\end{center}
+\end{figure} 
+
+
+%The muon in the tracker uses a similar tracking algorithms as other charged particles \cite{CMSTrackComp}. Muon tracking performance is excellent. For isolated muons with 1 < $p_T$ < 100 GeV/c, the tracking efficiency is $>$ 99\% over the full $\eta$-range of tracker acceptance and does not significantly depend on $p_T$ while the fake rate is negligible \cite{CMSTrackComp}. We can require hits on the outer most muon chambers to identify muons because other charge particles will be stopped by the calorimeter and should not be able to enter the muon system as shown on Figure \ref{ParticleFlow}. Therefore, the CMS muon system has excellent capabilities of detecting, identifying, and reconstructing muons, which is crucial for heavy flavor physics studies. 
+
+Therefore, with both the tracking system and the muon chambers, the CMS detectors has excellent capabilities of detecting, identifying, and reconstructing muons, which is crucial for heavy flavor physics studies.
+
+\section{Calorimeter System}
+
+In nuclear and particle physics, a calorimeter is a detector that completely stops particles and measure the total energy deposited. According to the particles, calorimeter can be divided into electromagnetic calorimeter (ECAL or EMCAL) to measure the energy of electron and photons and hadronic calorimeter to measure the energy of charge and neutron hadrons. The CMS calorimeters system includes both ECAL and HCAL. It is located in between the tracker and the muon chambers as shown in Figure \ref{CMSDecPic}. 
+
+According to measurement of charged particle shower energy, calorimeter can typically be classified as sampling calorimeter and homogenous calorimeter. The sampling calorimeter has two components: absorber and scintillator. Absorber is generally made of metals and produces the shower. The scintillator collects a fraction of the total energy from the shower (visible energy) and then corrects the visible energy back to the total energy based on the light collection efficiency. On the other hand, the homogenous calorimeter collects all the energy deposited. Its material producing the particle shower also measures the energy deposition. 
+
+\subsection{ECAL}
+
+The CMS ECAL is made of lead tungstate (PbWO$_4$) crystal and is a homogeneous type calorimeter. High energy electrons and photons interact with the CMS ECAL and undergo bremsstrahlung to produce electron, positron and photons and deposit energy to the ECAL. It has an acceptance coverage of $|\eta| < 1.48$ with a high granularity of $\Delta \eta \times \Delta \phi = 0.0175 \times 0.0175$ in the barrel region and 1.5 $< |\eta| <$ 3.0 in the endcap region. In addition, the ECAL has an excellent energy resolution of $\frac{\Delta E}{E} = \frac{2.83\%}{\sqrt {E}} \oplus \frac{12.0\%}{E}  \oplus 0.26\%$ where $E$ is in the unit of GeV \cite{ECALReso} to precisely measure the energy of electrons and photons. It is capable of identifying electrons and detecting photons, which is crucial for heavy flavor physics studies and photon-jet analysis. 
+
+\subsection{HCAL}
+
+The CMS HCAL is a sampling type calorimeter made of 926 tons of steel or brass. Over a million World War II brass shell casements are from the Russian Navy. Hadrons interact with the HCAL brass and steel nuclei and produce hadronic showers. A fraction of the shower energy is sampled by the tiles of plastic wavelength shifting scintillators and transferred readout boxes. Generally, all particles except muons and neutrinos will not be able to penetrate the HCAL. The CMS HCAL system consists of the inner HCAL with barrel (HB) and Endcap (HE), the outter HECAL (HO), and the forward HCAL (HF). The acceptance coverages of HB are $|\eta| < $1.39, $|\eta| < $1.26, 1.31 $< |\eta| < $3.0, and 2.85 $< |\eta| < $5.19 respectfully. The HO and HB have a granularity of $\Delta \eta \times \Delta \phi = 0.087 \times 0.087$. The overall energy resolution of HCAL is $\frac{\Delta E}{E} \approx \frac{100\%}{\sqrt {E}}$ \cite{HCALReport}, which is excellent for jet physics studies.
+
+\subsection{HF}
+
+The forward HCAL is a special component of the CMS HCAL system. It is segmented into 36 $\times$ 13 towers in the $\eta - \phi$ plane. Figure \ref{HFPic} s schematic plot of HF shows schematic and physical views of the CMS HF detector \cite{HFInfo}
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.58\textwidth]{Figures/Chapter3/CMSForwardRegion.png}
+\includegraphics[width=0.38\textwidth]{Figures/Chapter3/HFReal.jpg}
+\caption{The schematic view of the CMS forward region including HF, CASTOR, and ZDC (left) and the physical view of the HF (right) are shown above.}
+\label{HFPic}
+\end{center}
+\end{figure} 
+
+As mentioned above, we have developed the L1 MB trigger based on HF response to select MB events. In addition, in CMS, centrality is defined based on the activities in the HF \cite{HFCentRef}. The more activity in the HF, the more remnants of colliding nuclei, the more central the collision event. Figure \ref{HFCent} shows the determination of centrality range from the HF response 
+
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.70\textwidth]{Figures/Chapter3/HFCent.png}
+\caption{The distribution of sum of HF energy using Minimum Biased Trigger and Jet Trigger with the classification of centrality binning is shown above. As we can see, the energy of the HF increase as the collision events become more central, which  is within our expectation.}
+\label{HFCent}
+\end{center}
+\end{figure} 
+
+
+
+In addition to HF, CASTOR ($-$6.6 $< \eta <$ $-$5.2) and ZDC ($|\eta|$ > 8.1) are also calorimeters which are located at the very forward region \cite{CASZDCRef} as shown above on Figure \ref{HFPic}. They can help select MB events and trigger ultra-peripheral collision (UPC) events. Figure \ref{CASTORZDC} shows the pictures of CASTOR and the ZDC in the very forward direction of the CMS detector
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.44\textwidth]{Figures/Chapter3/CASTOR.png}
+\includegraphics[width=0.50\textwidth]{Figures/Chapter3/CMSZDC.png}
+\caption{The picture of the CASTOR (left) at the CMS underground collision hall and ZDC (right) at 140 m away from the CMS beam interacting point are shown above.}
+\label{CASTORZDC}
+\end{center}
+\end{figure} 
+
+
+\section{Relevant Detector Components}
+
+In the data analysis of this thesis, the most relevant CMS sub-detectors are the silicon pixel and strip trackers and the muon chamber. We also use HF information to select high quality events. The datasets we used in the analysis are dimuon triggered datasets. We also use the MB trigger samples to estimate the total number of MB events in order to determine the cross section in our analysis. In the next chapter, we will describe in details the physics objects obtained from the detectors and used in our analysis to fully reconstruct B mesons and measure theirs cross sections.
+
+
+
+
 
