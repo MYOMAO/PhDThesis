@@ -96,7 +96,7 @@ The QCD factorization theorem states that in events involving both hard and soft
 \end{center}
 \end{figure} 
 
-The hard processes are encoded in the factor of partonic cross sections while the soft processes are measured in experiments. Physicists developed parton distribution function to describe initial kinematic of partons inside hadrons and fragmentation function to describe the parton hadronization process. Both parton distribution function and fragmentation function are extracted in experiments.
+The hard processes are encoded in the factor of partonic cross sections while the soft processes are measured in experiments. Physicists employ parton distribution function (PDF) to describe initial kinematic of partons inside hadrons and fragmentation function to describe the parton hadronization process. Both parton distribution function and fragmentation function are extracted in experiments.
 
 
 Physicists apply QCD factorization theorem to perform pQCD calculation of hard scattering processes and use the measurement from the  to understand the hadron spectra in electron-positron, electron-proton, and proton-proton collisions.
@@ -118,19 +118,65 @@ The formation process hadrons from partons is called haronization. Because in ex
 \end{center}
 \end{figure} 
 
-\section{QCD In Extreme Conditions}
+\section{Hot QCD}
 
-\subsection{Initial State Effect}
+\iffalse 
 
-The development described in the previous section applies in small systems, for example, $e^+ e^-$, $ep$, and $pp$ collisions. In the smallest collision system $e^+e^-$, there is no initial state effect since the electron and positrons are point-like. In $ep$ and $pp$ collision, the initial stage effects are encoded in the proton PDF. 
+\subsection{Initial State and Final Effect}
 
-In proton-nucleus collisions, we can study the cold nuclear matter effect and probe the npdf.  
 
-In high energy heavy-ion $AA$ collision, initial state have dense color field compared to small systems. More partons are inside a small volume shrink due to Lorentz contraction.  has many . The color density . The system   Thermalization. Under these initial conditions, the system may reach thermal equilibrium via the strong interaction \cite{QCDThemDyn}. We could introduce temperature and use statistical and thermaldynomics to describe the AA system.
+The development described in the previous section applies in small systems, for example, $e^+ e^-$, $ep$, and $pp$ collisions. In the smallest collision system $e^+e^-$, there is no initial state effect since the electron and positrons are point-like. In $ep$ and $pp$ collision, the initial state effects are encoded in the proton PDF. 
 
-\subsection{Hot QCD} 
+In high energy proton-nucleus collisions, proton scatter off nucleons inside nucleon. Assuming QCD factorization still applies, we can define nPDF to describe the kinematics of quarks inside nucleons of nucleus. We can see that there will be modification to the PDF for a nucleon vacuum due to the nucleon dynamics in the nuclei we can study the cold nuclear matter effect and probe the nPDF. In pA collisions, there many initial state effect depdendng on the collision $x$ and $Q^2$. For instance, we have nuclear shadowing, gluon saturation, and EMC effect. Both nPDF and the struck parton interact with the nuclear fragment will affect the final state hadron spectra. We call these effects in pA collision as cold nuclear matter effect.
+%Hence, in addition to the initial state effect, there are also final state hot QCD matter effects in high energy nucleus-nucleus collisions.  
 
-Hot applies in AA collision where a thermalized system is created. 
+Initial state CGC 
+
+\fi
+
+\subsection{QCD in Finite Temperature} 
+
+%In high energy, quarks and gluons inside nucleons of the nuclei become relevant to describe the event. As the energy increase, the quark and gluon density of the collision system increases. During the collisions, many quarks and gluons interact with each with in a small volume. 
+
+In a system of dense and energetic quarks and gluons confined in a given size of volume, they scatter with each other and exchange momenta via the strong interaction. Many-body dynamics between quarks and gluons become relevant. In the limit of large number of quarks and gluons, after a sufficiently long period of time, the system eventually converge to thermal equilibrium state via the strong interaction \cite{MLBThermal,ADSCFTThermal,QCDThermal} regardless of its initial states. Therefore, a description based on thermodynamics can be formulated to study such systems \cite{QCDThemDyn}. We call this thermalized many-body system of quarks and gluons to be QCD matter. Therefore, a thermodynamic variable temperature ($\mathbf{T}$) can be introduced to characterize these many-body QCD systems. This study of many-body QCD in finite temperature is called hot QCD. 
+
+
+
+\subsection{Temperature Dependence of QCD Static Potential}. 
+
+If we consider two color charged quarks in the limit of infinite mass and are essentially at rest in the lab frame, we can define a QCD static potential between these two quarks due to the strong interaction. In vacuum, such a potential is called ``Cornell Potential'' \cite{Cornell}. The potential as a function of the distance between two quarks is shown as follows:
+
+\begin{equation}
+V(r) = -\frac{\alpha_{eff}}{r} + \sigma r
+\end{equation}
+
+Here, $\alpha_{eff}$ is the effective strong coupling coupling between the two quarks and $\sigma \simeq 0.184$ GeV/c is the string coupling constant \cite{CornellEquation}. 
+
+Now if we consider at finite temperature $T$ with a thermalized system between the two quarks, the QCD static potential becomes: 
+
+\begin{equation}
+V(r) = -\frac{\alpha_{eff}}{r} e^{-m_D r} + \frac{\sigma}{m_D} (1 - e^{-m_D r})
+\end{equation}
+
+Here, $m_D \sim g_s T$ is the Debye mass due to Debye color screening effect \cite{CSEff}, which essentially modifies the gluon propagator by inserting a finite mass term: $-i \frac{g^{\mu\nu}}{q^2} \rightarrow -i \frac{g^{\mu\nu}}{q^2 - m_D^2}$. In fact, Equation (2) reduces to the Cornell potential when T = 0. The QCD static potential is shown below in Figure~\ref{QCDPotential} \cite{TDepCornell}
+
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter1/QCDPotential.png}
+\caption{The QCD potential $V(r)$ from at zero and at finite temperatures as a function of distance $r$ is shown above. Here, the critical temperature $T_c $ = 192 MeV. We can see that the QCD saturates at a finite value at finite temperature. }
+\label{QCDPotential}
+\end{center}
+\end{figure} 
+
+
+\subsection{Color Deconfinement}
+
+As mentioned in the sections above, we see that, at finite temperature, the QCD static potential is screened and color degree of freedom become relevant in the system. As the temperature of the system increase, the quarks and gluon inside color-neutral hadrons will have more available space to move around and start to deconfine \cite{DeconfineTemp}. At some critical temperature $T_c$, quarks and gluons will form a new type color deconfined QCD matter, which is called Quark-Gluon Plasma (QGP). The typical temperature of QGP is in the order of a few hundred MeV or about $10^{12}$ K, which is about hundreds of thousands times hotter than the core of the Sun.
+
+%There are some interesting QCD phenomenologies involving temperature as listed in the following subsections.
+
+%Hot applies in AA collision where a thermalized system is created. 
 
 \subsection{QCD Phase Diagram}
 
@@ -144,8 +190,8 @@ Similar to form everyday matters such as metal, water, wood, glass, and plastic,
 \end{center}
 \end{figure} 
 
-
-Similarly, QCD matter is the matter formed by numerous quarks and gluons via the strong interaction and can also be describe by equations of states. Like our everyday matter which has gas, liquid, and solid phases at different pressure and temperature, QCD matter also has different phases at different temperature and baryon chemical potential. and can be describe by QCD phase diagrams. Figure~\ref{QCDPhaseDiagram} shows the QCD phase diagram at different temperature and baryon chemical potential:
+Similarly, thermodynamical variables, for instance temperature ($\mathbf{T}$) and baryon chemical potential ($\mu_{B}$) can be introduced to characterize the equation of state of QCD matter formed via the strong interaction between many quarks and gluons. %Similarly, QCD matter is the matter formed by numerous quarks and gluons via the strong interaction and can also be describe by equations of states. L
+Like our everyday matter which has gas, liquid, and solid phases at different pressure and temperature, QCD matter also has different phases at different temperature and baryon chemical potential. and can be describe by QCD phase diagrams. Figure~\ref{QCDPhaseDiagram} shows the QCD phase diagram at different temperature and baryon chemical potential:
 
 \begin{figure}[hbtp]
 \begin{center}
