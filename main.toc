@@ -28,15 +28,15 @@
 \contentsline {subsection}{\numberline {1.5.4}Elliptic Flow}{67}
 \contentsline {subsection}{\numberline {1.5.5}Strangeness Enhancement}{72}
 \contentsline {subsection}{\numberline {1.5.6}Macroscopic Properties}{73}
-\contentsline {subsection}{\numberline {1.5.7}Open Questions}{74}
-\contentsline {section}{\numberline {1.6}Heavy Flavor Physics}{75}
-\contentsline {subsection}{\numberline {1.6.1}Heavy Quarks}{75}
-\contentsline {subsection}{\numberline {1.6.2}Open Heavy Flavor Physics}{76}
-\contentsline {subsection}{\numberline {1.6.3}Heavy Flavor Physics in Vacuum}{77}
-\contentsline {subsection}{\numberline {1.6.4}Heavy Quark Diffusion}{81}
-\contentsline {subsection}{\numberline {1.6.5}Heavy Quark Energy Loss}{84}
+\contentsline {subsection}{\numberline {1.5.7}Open Questions}{75}
+\contentsline {section}{\numberline {1.6}Heavy Flavor Physics}{76}
+\contentsline {subsection}{\numberline {1.6.1}Heavy Quarks}{76}
+\contentsline {subsection}{\numberline {1.6.2}Open Heavy Flavor Physics}{77}
+\contentsline {subsection}{\numberline {1.6.3}Heavy Flavor Physics in Vacuum}{78}
+\contentsline {subsection}{\numberline {1.6.4}Heavy Quark Diffusion}{83}
+\contentsline {subsection}{\numberline {1.6.5}Heavy Quark Energy Loss}{85}
 \contentsline {subsection}{\numberline {1.6.6}Heavy Quark Hadronization}{87}
-\contentsline {subsubsection}{TAMU Model}{87}
+\contentsline {subsubsection}{TAMU Model}{88}
 \contentsline {subsubsection}{Cao, Sun, Ko Model}{88}
 \contentsline {subsubsection}{Equal Velocity Recombination Model}{89}
 \contentsline {chapter}{\numberline {2}Review of Heavy Flavor Results}{91}
@@ -160,6 +160,6 @@
 \contentsline {subsection}{\numberline {5.15.3}$B^0_s/B^{+}$ Ratio}{252}
 \contentsline {chapter}{\numberline {6}Conclusions}{257}
 \contentsline {section}{\numberline {6.1}pp Reference and Theoretical Models}{257}
-\contentsline {section}{\numberline {6.2}Physics Messages Discussion}{258}
+\contentsline {section}{\numberline {6.2}Physics Messages Discussion}{259}
 \contentsline {section}{\numberline {6.3}Conclusions}{260}
-\contentsline {section}{\numberline {6.4}Future Outlooks}{260}
+\contentsline {section}{\numberline {6.4}Future Outlooks}{262}
