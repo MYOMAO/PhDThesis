@@ -31,15 +31,15 @@
 \contentsline {subsection}{\numberline {1.5.6}Macroscopic Properties}{76}
 \contentsline {subsection}{\numberline {1.5.7}Open Questions}{77}
 \contentsline {section}{\numberline {1.6}Heavy Flavor Physics}{77}
-\contentsline {subsection}{\numberline {1.6.1}Heavy Quarks}{77}
-\contentsline {subsection}{\numberline {1.6.2}Open Heavy Flavor Physics}{78}
+\contentsline {subsection}{\numberline {1.6.1}Open Heavy Flavor Physics}{77}
+\contentsline {subsection}{\numberline {1.6.2}Heavy Quarks}{78}
 \contentsline {subsection}{\numberline {1.6.3}Heavy Flavor Physics in Vacuum}{79}
 \contentsline {subsection}{\numberline {1.6.4}Heavy Quark Diffusion}{83}
 \contentsline {subsection}{\numberline {1.6.5}Heavy Quark Energy Loss}{86}
 \contentsline {subsection}{\numberline {1.6.6}Heavy Quark Hadronization}{89}
 \contentsline {subsubsection}{TAMU Model}{89}
 \contentsline {subsubsection}{Cao, Sun, Ko Model}{90}
-\contentsline {subsubsection}{Equal Velocity Recombination Model}{91}
+\contentsline {subsubsection}{EVR Model}{91}
 \contentsline {chapter}{\numberline {2}Review of Heavy Flavor Results}{93}
 \contentsline {section}{\numberline {2.1}Elliptic Flow}{93}
 \contentsline {section}{\numberline {2.2}Nuclear Modification Factor}{96}

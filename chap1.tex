@@ -688,12 +688,12 @@ The jet $R_{AA}$ are all below 1 at RHIC and LHC \cite{ALICEJetRef,CMSJetSub}, w
 
 \subsection{Elliptic Flow} 
 
-The reaction region in heavy-ion collisions, where the two nuclei overlap with each other, has an almond shape, which is azimuthally asymmetric. If a color deconfined matter QGP is created, particles emitted from the almond shape fire ball are expected to be anisotropic due to differences of the pressure gradient of the QGP in the and their path length through QGP in the x and y direction. Experimentally, physicists Dr. Arthur Poskanzer who sadly just passed away in June 30 2021, and Dr. Sergey Voloshin developed the event plane method to analyze the azimuthal anisotropy of particle emission in heavy-ion collisions \cite{EllipticFlow}. The reaction plane is defined as the plane of the impact parameter and the x-axis. Figure \ref{EventPlane} schematically shows the definition of reaction plane in heavy-ion collisions.
+The reaction region in heavy-ion collisions, where the two nuclei overlap with each other, has an almond shape, which is azimuthally asymmetric. If the color deconfined matter QGP is created, particles emitted from the almond shape fire ball are expected to be azimuthally anisotropic due to differences of the pressure gradient of the QGP in the and their path length through QGP in the $x$ and $y$ directions. Experimentally, physicists Dr. Arthur Poskanzer (who sadly just passed away on June 30 2021) and Dr. Sergey Voloshin developed the event plane method to analyze the azimuthal anisotropy of particle emission in heavy-ion collisions \cite{EllipticFlow}. The reaction plane is defined as the plane of the impact parameter and the $x$-axis. Figure \ref{EventPlane} schematically shows the definition of reaction plane in heavy-ion collisions.
 
 \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=0.40\textwidth]{Figures/Chapter1/ReactionPlane.jpg}
-\caption{The figure above shows the ellipsoid of the overlapping nuclear reaction region of two nuclei in heavy-ion collisions. The reaction plane, which is the x-z plane shown as above, is constructed by the beam direction and the impact parameter vector. The emissions of particles are azimuthally anisotropic in the x-y plane.}
+\caption{The figure above shows the ellipsoid of the overlapping nuclear reaction region of two nuclei in heavy-ion collisions. The reaction plane, which is the $x$-$z$ plane shown above, is constructed by the beam direction and the impact parameter vector. The emissions of particles are azimuthally anisotropic in the $x$-$y$ plane due to the geometry.}
 \label{EventPlane}
 \end{center}
 \end{figure} 
@@ -732,10 +732,10 @@ y_n =2\int_{0}^{2\pi} \frac{dN_2(\phi)}{d\phi}\sin(n\phi)d\phi
 
 Experimentally, because our data take on discrete values, we can convert the integral into a sum 
 \begin{equation}
-x_n =\frac{2}{N}\sum_{n=1}^{N} \cos(n\phi)d\phi = 2\langle \cos n\phi \rangle
+x_n =\frac{2}{N}\sum_{i=1}^{N} \cos(n\phi^i) = 2\langle \cos n\phi \rangle
 \end{equation}
 \begin{equation}
-y_n =\frac{2}{N}\sum_{n=1}^{N} \sin(n\phi)d\phi = 2\langle \sin n\phi \rangle
+y_n =\frac{2}{N}\sum_{i=1}^{N} \sin(n\phi^i) = 2\langle \sin n\phi \rangle
 \end{equation}
 
 Here, we sum up all tracks in the experiment to get the $x_n$ and $y_n$. Then, we will be able to find 
@@ -860,13 +860,13 @@ Hence, we have
 v_2 \simeq \epsilon_s
 \end{equation}
 
-Therefore, we can see that $v_2$ is essentially proportional to the eccentricity simply based on ellipse geometry of reaction region. Historically, $v_2$ has extensively studied experimentally and theoretically. It turns out light hadrons demonstrate collectivity. Their elliptic flow $v_2$ could be calculated using relativistic viscous hydrodynamics, which we will describe in the next section. If QGP is created, we expect $v_2$ of the light flavor hadrons created direction from the QGP to be positive as we derive above. Figure \ref{V2} show the $v_2$ as a function of $p_T$ of charged light flavor hadrons in heavy-ion collisions at mid-rapidity measured by RHIC and LHC experiment \cite{V2STAR,V2ALICE}
+Therefore, we can see that $v_2$ is essentially proportional to the eccentricity simply based on ellipse geometry of reaction region. Historically, $v_2$ has extensively studied experimentally and theoretically. It turns out light hadrons demonstrate collectivity. Their elliptic flow $v_2$ could be calculated using relativistic viscous hydrodynamics \cite{4DHydro}. If QGP is created, we expect $v_2$ of the light flavor hadrons to be positive as we derive above. Figure \ref{V2} show the $v_2$ as a function of $p_T$ of charged light flavor hadrons in heavy-ion collisions at mid-rapidity measured by RHIC and LHC experiment \cite{V2STAR,V2ALICE}
 
 \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=0.45\textwidth]{Figures/Chapter1/STARV2Plot.eps}
 \includegraphics[width=0.45\textwidth]{Figures/Chapter1/ALICEV2Plot.png}
-\caption{The elliptic flow of charged particles $v_2$ as a function of $p_T$ in AuAu collision measured by the STAR experiments at RHIC (left) and in PbPb collisions by the ALICE experiments at LHC (right) are shown above. Clearly, $v_2 > 0$ is observed in both experiments.}
+\caption{The elliptic flow $v_2$ of charged particles as a function of $p_T$ in Au + Au collision measured by the STAR experiments at RHIC (left) and in PbPb collisions by the ALICE experiments at LHC (right) are shown above. Clearly, $v_2 > 0$ is observed in both experiments.}
 \label{V2}
 \end{center}
 \end{figure}   
@@ -875,11 +875,11 @@ We can clearly see positive $v_2$ of charged particles at both RHIC and LHC, whi
  
 \subsection{Strangeness Enhancement} 
 
-As described in Section 1.4.6, the temperature of QGP is well above 100 MeV, which is much larger than the strange quark mass (about 95 MeV). Therefore, since $T_{QGP} > m_s$, in thermally and chemically equilibrated QGP, strange quarks could be produced thermally via the pair production process $u \bar u, d \bar d \rightarrow s\bar s$, and $gg \rightarrow s \bar s$, creating the chemical abundance equilibrium \cite{SSEnhance}. Therefore, the strangeness content in the QGP is enhanced, which could be experimentally observed from enhancement of strange particle yields in AA collisions compared to pp collisions. A direct experimental observable is the ratio of strange hadron yield to pions in AA and pp collisions. Figure \ref{PhiRAA1} and \ref{PhiRAA2} shows measurements on strange meson and baryons to pion ratios in AA and pp at RHIC and LHC 
+As described in Section 1.4.6, the temperature of QGP is well above 100 MeV, which is much larger than the strange quark mass (about 95 MeV). Therefore, since $T_{QGP} > m_s$, in the thermally and chemically equilibrated QGP, strange quarks could be produced thermally via the pair production processes: $u \bar u \rightarrow s\bar s$$, d \bar d \rightarrow s\bar s$, and $gg \rightarrow s \bar s$, establishing the chemical abundance equilibrium \cite{SSEnhance}. Therefore, the strangeness content in the QGP is enhanced, which could be experimentally observed from enhancement of strange particle yields in $AA$ collisions compared to $pp$ collisions. A direct experimental observable is the ratio of strange hadron yield to pions in $AA$ and $pp$ collisions scaled by $N_{part}$. Figure \ref{PhiRAA1} and \ref{PhiRAA2} show the measurements on strange mesons and baryons to pion ratios in $AA$ and $pp$ collisions at RHIC and LHC 
 
 \begin{figure}[hbtp]
 \begin{center}
-\includegraphics[width=0.45\textwidth]{Figures/Chapter1/STARPhiOverPi.png}
+\includegraphics[width=0.50\textwidth]{Figures/Chapter1/STARPhiOverPi.png}
 \caption{The yield ratio of $\phi/\pi$ as a function $N_{part}$ in p + p, p + Au, and Au + Au from the STAR experiment at RHIC are shown above.}
 \label{PhiRAA1}
 \end{center}
@@ -893,21 +893,21 @@ As described in Section 1.4.6, the temperature of QGP is well above 100 MeV, whi
 \end{center}
 \end{figure}   
 
-We can see that $\phi/\pi$ ratio increases as $N_{part}$ and $\sqrt {s_{NN}}$ increases, which indicates strangeness enhancement in AA collisions compare to pp collisions. This again can be served as an evidence for the formation of QGP in heavy-ion collisions at RHIC and LHC. 
+We can see that $\phi/\pi$ ratio increases as $N_{part}$ and $\sqrt {s_{NN}}$ increases, which indicates strangeness enhancement in $AA$ collisions compared to $pp$ collisions. This again could be served as an evidence for the formation of QGP in heavy-ion collisions at RHIC and LHC. 
 
 %J/psi suppression, jet quenching, elliptic flow, strangeness enhancement 
 
 \subsection{Macroscopic Properties}
 
-Physicists have conducted extensive studies to pin down macroscopic properties of QGP. 
+Physicists have conducted extensive studies to understand macroscopic properties of QGP. Below are some of the interesting properties of QGP observed in experiments:
 
-\textbf{Transient Lifetime:} According to experimental results at RHIC and LHC, QGP has a very short lifetime. It is on the order of 10 fm/c \cite{QGPLifeTime}. It is generally assumed that QGP reaches thermal \cite{QGPThermal} and near chemical equilibrium \cite{QGPChemical} via the strong interaction. So far, there is not sufficient experimental evidence to directly support this assumption.
+\textbf{Transient Lifetime:} According to the experimental results at RHIC and LHC, QGP has a very short lifetime. It is on the order of 10 fm/c \cite{QGPLifeTime}. It is generally assumed that QGP reaches thermal \cite{QGPThermal} and near chemical equilibrium \cite{QGPChemical} via the strong interaction. So far, there is not sufficient experimental evidences to directly support this assumption.
 
-\textbf{Strong Interacting System:} Moreover, QGP, as a deconfined phase of matter, demonstrates a strongly interacting behavior, which contradicts to the prediction weak coupling according to the asymptotic freedom of quarks and gluons in QCD \cite{QCDAsym}. At $T \sim 1 - 3$ $T_c$, the coupling strength of QGP is still strong: $g_s \sim O(1)$ \cite{sQGP}. Therefore, strong interaction between the QGP constituents is in general non-perturbative. The equation of state of strong interacting QGP, as an input for hydrodynamic calculations, could be reasonably non-pertubative models such as MIT Bag Model or Lattice QCD \cite{LatticeEOS}. 
+\textbf{Strong Interacting System:} Moreover, QGP, as a deconfined state of matter, demonstrates a strongly interacting behavior, which contradicts to the prediction weak coupling according to the asymptotic freedom of quarks and gluons in QCD \cite{QCDAsym}. At $T \sim 1 - 3$ $T_c$, the coupling strength of QGP is still strong: $g_s \sim O(1)$ \cite{sQGP}. Therefore, strong interaction between the QGP constituents is in general non-perturbative. The equation of state of strong interacting QGP, as an input for hydrodynamic calculations, can be calculated by models such as MIT Bag Model \cite{MITBag} or Lattice QCD \cite{LatticeEOS}. 
 
-\textbf{Perfect Liquid Behavior:} Finally, QGP demonstrates a near-perfect liquid properties. The expansion of QGP in the fireball stage is approximately isentropic and could be well described by hydrodynamics \cite{Bjorken}. More specially, due to the relativistic nature of the strongly coupled near-perfect liquid system, assuming QGP reaches thermal \cite{QGPThermal} and near chemical equilibrium \cite{QGPChemical}, relativistic viscous hydrodynamics \cite{4DHydro} is the correct theoretical formalism for the dynamics of QGP. QGP is almost a perfect liquid. Its shear viscosity to entropy density ratio is very small: $\frac{\eta}{s}\sim (1 - 2.5) \frac{1}{4\pi}$ \cite{QGPEtaOverS}, approaching the quantum limit $\frac{\eta}{s} = \frac{1}{4\pi}$ predicted by the strongly coupled N=4 supersymmetric Yang-Mills plasma in Anti-de-Sitter Space/Conform Field Theory (AdS/CFT) correspondence \cite{ADSCFT}.
+\textbf{Perfect Liquid Behavior:} Finally, QGP demonstrates nearly perfect liquid properties. The expansion of QGP in the fireball stage is approximately isentropic and could be well described by hydrodynamics \cite{Bjorken}. More specially, due to the relativistic nature of the strongly coupled near-perfect liquid system, assuming QGP reaches thermal \cite{QGPThermal} and near chemical equilibrium \cite{QGPChemical}, relativistic viscous hydrodynamics \cite{4DHydro} is the correct theoretical formalism to describe the dynamics of QGP. As an nearly perfect liquid, the shear viscosity to entropy density ratio of the QGP is very small: $\frac{\eta}{s}\sim (1 - 2.5) \frac{1}{4\pi}$ \cite{QGPEtaOverS}, approaching the quantum limit $\frac{\eta}{s} = \frac{1}{4\pi}$ predicted by the strongly coupled $N=$4 supersymmetric Yang-Mills plasma in Anti-de-Sitter Space/Conform Field Theory (AdS/CFT) correspondence \cite{ADSCFT}.
 
-\textbf{Color Opaque Plasma:} It is also interesting that QGP is a color opaque plasma \cite{QGPGen}. This means that gluons propagating through the QGP will be absorbed by the plasma medium. Experimentally, the suppression of hadrons is a measure of the color opacity of the QGP \cite{QGPGen}. Physicists found that QGP is indeed highly color opaque \cite{QGPOpaque}.
+\textbf{Color Opaque Plasma:} It is also interesting that QGP is a color opaque plasma \cite{QGPGen}. This means that gluons propagating through the QGP will be absorbed by the plasma medium. Experimentally, the suppression of hadrons is a measure of the color opacity of the QGP \cite{QGPGen}. Physicists have found that QGP is indeed highly color opaque \cite{QGPOpaque}.
 
 
 %Nuclear Physics is a study of the interaction of nucleons and structure of atomic nuclei. 
@@ -921,19 +921,24 @@ Physicists have conducted extensive studies to pin down macroscopic properties o
 
 \subsection{Open Questions}
 
-Today, it has been more than 20 yeas since the discovery of QGP. However, there are still many outstanding conundrums, most of which are derived from the mysterious macroscopic behavior of QGP. Below is the list of selected open questions and are currently under active investigation by the heavy-ion physics community \cite{BigQuestions}:
+However, although extensive studies have been carried out for many years, there are still many open questions, most of which are derived from the mysterious macroscopic behavior of QGP. Below is the list of selected open questions that are currently under active investigation by the heavy-ion physics community \cite{BigQuestions}:
 
 1) \textbf{Thermalization of QGP:} How can QGP reach thermal equilibrium within such a short time, which is on the order 1 $fm/c$, from the non-equilibrium stage?
 
-2) \textbf{Inner Workings of QGP:} What is the correct degree of freedom to describe QGP? The inner workings of QGP, as a deconfined phase of matter, must lay between asymptotically free quarks and gluons and color neutral hadrons. That is also why the sPHENIX experiment at RHIC, as the next generation DOE flagship Heavy Ion Physics program in the U.S., is going to built at BNL and collect date to probe the inner workings of QGP by resolving its properties at shorter and shorter length scales. 
+2) \textbf{Inner Workings of QGP:} What is the correct degree of freedom to describe the QGP? The inner workings of QGP, as a deconfined phase of matter, must lay between asymptotically free quarks and gluons and color neutral hadrons. That is also why the sPHENIX experiment at RHIC, as the next generation DOE flagship Heavy Ion Physics program in the U.S., is going to built at BNL and collect date to probe the inner workings of QGP by resolving its properties at shorter and shorter length scales. 
 
-3) \textbf{Smallest Droplet of QGP:} What is the smallest droplet of QGP that can be created? Can QGP be created in pPb, pp, or even $e^+e^-$ collision systems? What are the limits of the applicability of hydrodynamics?
+3) \textbf{Smallest Droplet of QGP:} What is the smallest droplet of QGP that can be created? Can QGP be created in pPb, $pp$, or even $e^+e^-$ collision systems? What are the limits of the applicability of hydrodynamics?
 
 \section{Heavy Flavor Physics}
 
+
+\subsection{Open Heavy Flavor Physics}
+
+My graduate research focuses on answering the second question through the data analysis of fully reconstructed heavy flavor hadrons with the CMS experiment to understand transport properties and probe the microscopic structure of QGP. In this section, we will focus on discussing open heavy flavor physics where the only one heavy quark $Q$ is in hadron. Open heavy flavor hadrons have $\pm 1$ heavy flavor number. Quarkonia states $Q\bar Q$ are considered as hidden heavy flavor with a zero net heavy flavor quantum number. Their properties are very different from open heavy flavor hadrons. We will not discuss them in this thesis and focus only on open heavy flavor physics. 
+
 \subsection{Heavy Quarks}
 
-Heavy quarks, such as charm and beauty quarks, have large mass compared to the $\Lambda_{QCD}$ and $T_{QGP}$. Therefore, they are predominantly produced in early stage of heavy-ion collisions where hard scattering processes occur. Their production could be calculated by perturbation QCD. Figure \ref{HQProduce} show the lowest order Feynman diagrams of heavy quark pair production in QCD. 
+Heavy quarks, such as charm and beauty quarks, whose masses are on the order of GeV, lie in a scale above the $\Lambda_{QCD}$ and $T_{QGP}$. Therefore, they are predominantly produced in early stage of heavy-ion collisions where hard scattering processes occur. Their production could be calculated by perturbation QCD. Figure \ref{HQProduce} shows the lowest order Feynman diagrams of heavy quark pair production in QCD. 
 
  \begin{figure}[hbtp]
 \begin{center}
@@ -943,33 +948,30 @@ Heavy quarks, such as charm and beauty quarks, have large mass compared to the $
 \end{center}
 \end{figure}   
 
-In general, due to their relatively momentum transfer to the medium constituents compared to mass \cite{}, they do not reach complete thermalization via multiple scattering as they traverse through the QGP. In addition, since their lifetime is much longer than the QGP lifetime, they retain their identities and record the evolution of the QGP, which makes them excellent probes. Then, they travel through the medium, hadronize into heavy flavor hadrons, and decay weakly. Their decay product are detected and identified by particles detectors.
+In general, due to their relatively small momentum transfer to the QGP medium constituents compared to their large masses \cite{HQReview}, they should not reach complete thermalization via multiple scattering as they traverse through the QGP. In addition, since their lifetime is much longer than the QGP lifetime, they retain their identities and record the evolution of the QGP, which makes them excellent probes. Then, they travel through the medium, hadronize into heavy flavor hadrons, and decay weakly. Their decay product are detected and identified by particles detectors.
 
-Experimentally, from the final stage decay products, we can fully reconstruct open heavy flavor hadrons where heavy quark dynamics is encoded with different transverse momenta to study their diffusion coefficients, hadronizaton mechanism, and energy loss to probe the microscopic structure of QGP via their scattering patterns with the QGP constituents at different wavelengths. Figure \ref{HQ} below shows respectfully an event of beauty heavy quark production and hadronization in vacuum and QGP.
+Experimentally, from the final stage decay products, we can fully reconstruct heavy flavor hadrons where the dynamics of heavy quarks is encoded with different transverse momenta to study their diffusion coefficients, hadronizaton mechanism, and energy loss to probe the microscopic structure of QGP via their scattering patterns with the QGP constituents at different wavelengths. Figure \ref{HQ} below shows respectfully an event of beauty quark production and hadronization in vacuum and QGP.
 
  \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=0.46\textwidth]{Figures/Chapter1/HQVacuum.png}
 \includegraphics[width=0.48\textwidth]{Figures/Chapter1/HQQGP.png}
-\caption{The schematic plots of heavy quark production and hadronization in vacuum (left) and QGP (right) are shown above.}
+\caption{The schematic demonstrations of heavy quark production and hadronization in vacuum (left) and QGP (right) are shown above.}
 \label{HQ}
 \end{center}
 \end{figure}   
 
 
-\subsection{Open Heavy Flavor Physics}
-
-My graduate research focuses on answering the second question through the data analysis of fully reconstructed heavy flavor hadrons with the CMS experiment to understand transport properties and probe the microscopic structure of QGP. In this section, we will focus on discussing open heavy flavor physics where the only one heavy quark $Q$ is in hadron. Open heavy flavor hadrons have $\pm 1$ heavy flavor number. Quarkonia states $Q\bar Q$ are considered as hidden heavy flavor with a zero net heavy flavor quantum number. Their properties are different from open heavy flavor hadrons. We will not be discussed them in the follow subsections. 
 
 \subsection{Heavy Flavor Physics in Vacuum}
 
-To use heavy quark to probe the QGP created in heavy-ion collisions, we first need to understand heavy quark physics in vacuum from pp collisions. In the process $pp \rightarrow Q \bar Q$, QCD factorization theorem could be applied to study the using perturbative QCD (pQCD). Highn precision QCD calculations, including next-to-leading order (NLO), next-to-next-to-leading-order (NNLO), and Fixed-to-Next-to-the-Leading (FONLL), have been developed to describe heavy flavor production. Here, we will show FONLL calculation of the spectra of charm and beauty quarks, schematically denoted as: $\frac{d^2\sigma^Q}{p_T dp_T dy}$, in $pp \rightarrow Q  \bar Q$ at different energies \cite{FONLLRef}. Figure \ref{FONLL} shows the FONLL calculations of charm and beauty quarks spectra produced at the LHC energy for pp collisions at $\sqrt s = 5.02$ TeV.
+To use heavy quark to probe the QGP created in heavy-ion collisions, we first need to understand heavy quark physics in vacuum from pp collisions. In the process $pp \rightarrow Q \bar Q$, QCD factorization theorem could be applied. High precision pQCD calculations, including next-to-leading order (NLO), next-to-next-to-leading-order (NNLO), and Fixed-to-Next-to-the-Leading (FONLL), have been developed to describe heavy quark production. in $pp$ collisions Here, we will show FONLL calculations of charm and beauty quarks spectra, schematically denoted as: $\frac{d^2\sigma^Q}{p_T dp_T dy}$, in $pp \rightarrow Q  \bar Q$ at different energies \cite{FONLLRef}. Figure \ref{FONLL} shows the FONLL calculations of charm and beauty quarks spectra produced for $pp$ collisions at the LHC energy $\sqrt s = 5.02$ TeV.
 
  \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=0.45\textwidth]{Figures/Chapter1/Charm.png}
 \includegraphics[width=0.45\textwidth]{Figures/Chapter1/Beauty.png}
-\caption{The charm quark (left) and beauty quark (right) transverse momentum $p_T$ distribution at $\frac{d\sigma}{dp_T}$ at $|y| < 1$ from FONLL calculations are shown above.}
+\caption{The charm quark (left) and beauty quark (right) differential cross section $\frac{d\sigma}{dp_T}$ as a function transverse momentum $p_T$ at $|y| < 1$ from FONLL calculations, are shown above.}
 \label{FONLL}
 \end{center}
 \end{figure}   
@@ -996,7 +998,7 @@ Ignoring the mass, we have
 E \simeq p_T \cosh y
 \end{equation}
 
-So energy of hadron $E^h$ that the quark with $E^Q$ fragmented to will be
+So energy of the hadron $E^h$ where the quark with $E^Q$ fragments into will be
 
 
 \begin{equation}
@@ -1069,7 +1071,7 @@ Hence, we will get
 
 \fi
 
-Now if we consider a factorization scaling near the heavy quark mass $\mu^2 \rightarrow m_Q^2$, according to PDG reference \cite{AlphaTheoEx}, solving the leading evolution equation, heavy quark fragmentation function $D_Q^{H_Q}(z)$ is in a form of delta function and light quark $q$ and gluons $g$ ($i = g, q$) will not contribute to produce heavy flavor hadrons. Hence, we could right
+Now if we consider a factorization scale near the heavy quark mass $\mu^2 \rightarrow m_Q^2$, according to PDG reference \cite{AlphaTheoEx}, solving the leading evolution equation, the heavy quark fragmentation function $D_Q^{H_Q}(z)$ is in a form of delta function and light quark $q$ and gluons $g$ ($i = g, q$) will not contribute to produce heavy flavor hadrons. Hence, we could write
 
 \begin{equation}
 D^{H_Q}_{q,g}(z,\mu^2)|_{\mu^2=m_Q^2} = 0
@@ -1079,7 +1081,7 @@ D^{H_Q}_{q,g}(z,\mu^2)|_{\mu^2=m_Q^2} = 0
 D^{H_Q}_{Q}(z,\mu^2)|_{\mu^2=m_Q^2} = f(Q \rightarrow H_Q) \delta(1 - z)
 \end{equation}
 
-Here $f({Q \rightarrow H_Q})$ is the heavy quark fragmentation fraction and stands for the probability of a heavy quark $Q$ hadronize into an open heavy flavor hadron $H_Q$. Indeed, according to the momentum sum rule constraint of the parton fragmentation function \cite{QCDFFunc}
+Here $f({Q \rightarrow H_Q})$ is the heavy quark fragmentation fraction and stands for the probability of a heavy quark $Q$ hadronize into an open heavy flavor hadron $H_Q$. Indeed, according to the momentum sum rule that constrains the parton fragmentation function \cite{QCDFFunc}
 
 \begin{equation}
 \sum_{H_Q} \int_0^1 z D^{H_Q}_{Q}(z,\mu^2) dz = 1
@@ -1093,7 +1095,7 @@ Here $f({Q \rightarrow H_Q})$ is the heavy quark fragmentation fraction and stan
 \sum_{H_Q} f(Q \rightarrow H_Q) = 1 
 \end{equation}
 
-This verifies that the sum of heavy quark fragmentation fraction over all heavy flavor hadrons is equal to 1. Next, we have 
+This verifies that the sum of heavy quark fragmentation fraction over all heavy flavor hadrons is equal to unity. Next, we have 
 
 
 \begin{equation}
@@ -1137,33 +1139,26 @@ In terms of universality, according to Strangeness Quark Matter Conference (SQM)
 \end{center}
 \end{figure}   
 
-Further investigations of these results are currently ongoing. However, we will not expand the discussions here. Now, equipped with the understanding of heavy flavor physics in vacuum from $pp$ collisions as a reference, we are ready to use heavy quarks to probe the inner workings of QGP created in heavy-ion collisions. 
+Further investigations of these results are currently ongoing. However, we will not expand the discussions here. Now, equipped with the understanding of heavy flavor physics in vacuum from $pp$ collisions as a reference, we are ready to use heavy quarks to study QGP created in heavy-ion collisions. 
 
 \subsection{Heavy Quark Diffusion}
 
-In the limit of low $p_T$ or equivalently long wavelength, for heavy quarks inside the QGP medium, their elastic collision cross section dominates. In elastic $Q q \rightarrow Q q$ process in the thermally equilibrated QGP medium, heavy quarks has the relatively small momentum transfers of the order of the temperature compared to the heavy quark mass: $m_Q > |k| \simeq T$. Considering the mean free time of HQ in the QGP medium is about $\tau \sim 0.44 fm/c$ \cite{HQTau}. Therefore, the number of scattering of heavy quarks in the QGP medium is about $n \sim \frac{\tau_{QGP}}{\tau_{HQ}} \simeq 23 \sim O(10)$.
+In the limit of low $p_T$ or equivalently long wavelength, for heavy quarks inside the QGP medium, the elastic collision cross section dominates. In elastic $Q q \rightarrow Q q$ process in the thermally equilibrated QGP medium, heavy quarks has the relatively small momentum transfers on the order of the temperature compared to the heavy quark mass: $m_Q > |k| \simeq T$. Considering the mean free time of HQ in the QGP medium is about $\tau \sim 0.44 fm/c$ \cite{HQTau}. Therefore, the number of scattering of heavy quarks in the QGP medium is about $n \sim \frac{\tau_{QGP}}{\tau_{HQ}} \simeq 23 \sim O(10)$.
 
-Now, we can consider a simple binomial process to model the diffusion of heavy quark in the QGP medium. Therefore, assuming the momentum of the heavy quark at $t = 0$ is $p$, after the time $\tau_{HQ}$, one scattering happens. The momentum of the heavy quark at $t = \tau_{HQ}$ either $p + k$ or $p - k$. Each has $1/2$ probability. Next, after another $\tau_{HQ}$, another scattering happens. The momentum of the heavy quark at $t = \tau_{HQ}$ either $p + 2k$, $p$ or $p - 2k$ with $1/4$, $1/2$, and $1/2$ probability respectfully. Therefore, the standard deviation of binomial process $\sigma_p = \frac{\sqrt{n}}{2} k$. If we take $n = 25$, $\sigma_p = 2.5k \simeq 2.5 T_{QGP} =$ 0.4 GeV. Experimentally, we consider a heavy quark with momentum about $p  > $ 1.5 GeV/c $>> \sigma_p$. 
-
-
-
-
-
-
-We could see that the heavy quark transverse momentum is well above 1 GeV/c. Hence, such heavy quarks still retain a lot of memory about its initial conditions after multiple small scattering with QGP medium. Hence, in these conditions, heavy quark undergoes Brownian-like motion in the QGP medium \cite{HQReview}. Their motion in the QGP medium could be characterized by the Planck-Fokker Equation, which could be schematically written as follows \cite{HQRaff}:
+Now, we can consider a simple binomial process to model the diffusion of heavy quark in the QGP medium. Assuming the momentum of the heavy quark at $t = 0$ is $p$, after the time $\tau_{HQ}$, one scattering happens. The momentum of the heavy quark at $t = \tau_{HQ}$ either $p + k$ or $p - k$. Each has $1/2$ probability. Next, after another $\tau_{HQ}$, another scattering happens. The momentum of the heavy quark at $t = 2\tau_{HQ}$ either $p + 2k$, $p$ or $p - 2k$ with $1/4$, $1/2$, and $1/2$ probability respectfully. Therefore, the standard deviation of binomial process $\sigma_p = \frac{\sqrt{n}}{2} k$. If we take $n = 25$, $\sigma_p = 2.5k \simeq 2.5 T_{QGP} =$ 0.4 GeV. Experimentally, we consider a heavy quark with momentum about $p  > $ 1.5 GeV/c $>> \sigma_p$. According to Figure \ref{FONLL}, we could see that the heavy quark transverse momentum is well above 1 GeV/c. Hence, such heavy quarks still retain a lot of memory about its initial conditions even after multiple small scattering with QGP medium. Hence, in these conditions, heavy quark undergoes Brownian-like motion in the QGP medium \cite{HQReview}. Their motion in the QGP medium could be characterized by the Planck-Fokker Equation, which could be schematically written as follows \cite{HQRaff}:
 
 \begin{equation}
 \frac{\partial}{\partial t} f_q(t, \vec{p}) = \frac{\partial}{\partial p_{i}} \{ A_i(\vec p) f_q(t,\vec{p}) + \frac{\partial}{\partial p_j}[B_{ij}(\vec{p})f_q(t,\vec{p}) ] \}
 \end{equation}
 
-Here, $f_q(t,\vec{p})$ is the heavy quark phase space distribution function. If we ignore modification of the cold nuclear matter effect on the heavy quark initial production spectra, then in heavy-ion collision:
+Here, $f_q(t,\vec{p})$ is the heavy quark phase space distribution function. If we ignore the modification of the cold nuclear matter effect on the heavy quark initial production spectra, then in heavy-ion collision:
 
 \begin{equation}
 F^Q( t = 0,p_T) \propto \frac{d\sigma_{FONLL}}{p_Tdp_T}
 \end{equation}
 
 
-The transport parameters $A_i(\vec{p})$ is related to the thermal relaxation rate and $B_{ij}(\vec{p})$ is related to the momentum diffusion of heavy quark \cite{HQReview}. The heavy quark special diffusion coefficient $D_s$ is related to the transport parameter as follows:
+The transport parameters $A_i(\vec{p})$ is related to the thermal relaxation rate and $B_{ij}(\vec{p})$ is related to the momentum diffusion of heavy quarks \cite{HQReview}. The heavy quark special diffusion coefficient $D_s$ is related to the transport parameter as follows:
 
 \begin{equation}
 D_s = \frac{T} {m_Q A(p=0)}
@@ -1175,12 +1170,12 @@ $D_s$ characters the fundamental property of the QGP $\frac{\eta}{s}$ via the re
 2 \pi T D_s \simeq \frac{\eta}{s}
 \end{equation}
 
-More detailed studies has been carried out to examine heavy quark coupling strength and quantify the information heavy quarks carry as they traverse through the QGP medium \cite{HQJamie}.
+More detailed studies have been carried out to examine heavy quark coupling strength and quantify the information heavy quarks carry as they traverse through the QGP medium \cite{HQJamie}.
 
 
 \subsection{Heavy Quark Energy Loss}
 
-In the limit of high $p_T$ or equivalently short wavelength, inelastic cross section starts to dominate \cite{}. Heavy quarks lose a substantial amount of energy as they travel fast through the QGP medium \cite{HQELossFirst}. In a simplified schematization, there are two different pictures that describe the energy loss mechanism of heavy quark in the QGP medium. In the pQCD picture, the coupling of the constituents of the QGP is assumed to be weak. Therefore, the QGP is made of weakly coupled quasiparticles. Heavy quarks scatter off the constituents incoherently when propagating through the QGP medium. There are two energy loss mechanisms: collisional energy loss and radiative energy loss \cite{HQRaff}. The collisional energy loss is given by $-\frac{dE}{dx} = \kappa_{coll}T^2$ and the radiative energy loss is given by  $-\frac{dE}{dx} = \kappa_{rad}T^3x$ \cite{HQCollELoss,HQRadELoss}. Figure \ref{HQELosspQCD} shows schematically heavy quark energy loss mechanism in the QGP medium
+In the limit of high $p_T$ or equivalently short wavelength, inelastic cross section starts to dominate \cite{HQReview}. Heavy quarks lose a substantial amount of energy as they travel fast through the QGP medium \cite{HQELossFirst}. In a simplified schematization, there are two different pictures that describe the energy loss mechanism of heavy quark in the QGP medium. In the pQCD picture, the coupling of the constituents of the QGP is assumed to be weak. Therefore, the QGP is made of weakly coupled quasiparticles. Heavy quarks scatter off the constituents incoherently when propagating through the QGP medium. There are two energy loss mechanisms: collisional energy loss and radiative energy loss \cite{HQRaff}. The collisional energy loss is given by $-\frac{dE}{dx} = \kappa_{coll}T^2$ and the radiative energy loss is given by  $-\frac{dE}{dx} = \kappa_{rad}T^3x$ \cite{HQCollELoss,HQRadELoss}. Figure \ref{HQELosspQCD} shows schematically heavy quark energy loss mechanism in the QGP medium
 
 
 
@@ -1198,12 +1193,14 @@ The other picture, AdS/CFT, takes the strong coupling limit. In this picture, QG
  \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=0.45\textwidth]{Figures/Chapter1/ADSCFT.png}
-\caption{The schematic demonstration of ADS/CFT picture: the energy loss of a quark in the QGP medium holographically due ADS/CFT drag force.}
+\caption{The schematic demonstration of ADS/CFT picture: a quark lose energy in the QGP medium holographically due ADS/CFT drag force.}
 \label{ADCCFT}
 \end{center}
 \end{figure}  
 
-In pQCD picture, in the limit of $p_T \rightarrow \infty$, similar to electron Bremsstrahlung via QED radiation in the matter \cite{Brems}, for a heavy quark traveling through the QGP medium, its radiative energy loss via soft gluon radiation will dominate. The soft gluon radiation spectrum by a parton in the QGP medium is given by \cite{DEADCONE}
+%The energy of a heavy quark in the QGP medium according to AdS/CFT calculations is given by:
+
+In the pQCD picture, as $p_T \rightarrow \infty$, similar to electron Bremsstrahlung via QED radiation in the matter \cite{Brems}, for a heavy quark traveling through the QGP medium, its radiative energy loss via soft gluon radiation will dominate. The soft gluon radiation spectrum by a parton in the QGP medium is given by \cite{DEADCONE}
 
 \begin{equation}
 dP = \frac{\alpha_S C_{F}}{\pi} \frac{d\omega}{\omega}\frac{k_{\perp}^2 dk_{\perp}^2}{(k_{\perp}^2  + \omega^2\theta_0^2)^2}
@@ -1215,12 +1212,12 @@ Where
 \theta_0 \equiv \frac{m}{E}
 \end{equation}
 
-Here, $\omega$ is the energy of the gluon and $k_{\perp}$ is the transverse momentum of the gluon, $C_F$ is color factor (Casimir) which is $3$ for gluons with one color and one anti-color charges and $4/3$ for quarks with one color charge. From Eq 1.84 above, a suppression of radiation at a small angle $0 - \theta_0$ is observed. This is effect is known as the dead cone phenomenon \cite{DEADCONE}. We also know that from from Eq 1.85, that as $m$ increases, the dead cone angle $\theta_0 = \frac{m}{E}$ will decrease. Figure \ref{DeadConePic} schematically shows a charm quark radiate gluon in the medium with a dead cone in the small angle:
+Here, $\omega$ is the energy of the gluon and $k_{\perp}$ is the transverse momentum of the gluon, $C_F$ is color factor (Casimir) which is $3$ for gluons with one color and one anti-color charges and $4/3$ for quarks with one color charge. From Equation 1.78 above, a suppression of radiation at a small angle $0 < \theta < \theta_0$ is expected. This is effect is known as the dead cone phenomenon \cite{DEADCONE}. In Equation 1.79, that as $m$ increases, the dead cone angle $\theta_0 = \frac{m}{E}$ will decrease as the parton mass increases. Figure \ref{DeadConePic} schematically shows a charm quark radiate gluon in the medium with a dead cone in the small angle:
 
  \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=0.85\textwidth]{Figures/Chapter1/CharmDeadCone.png}
-\caption{The schematic demonstration of a charm quark radiate and suppression in small angle due to the dead cone effect in the QGP medium is shown above.}
+\caption{The schematic demonstration of a charm quark radiation is shown above. A suppression in small angle due to the dead cone effect in the QGP medium is highlighted.}
 \label{DeadConePic}
 \end{center}
 \end{figure}  
@@ -1241,7 +1238,7 @@ We call the inequality above to be the flavor dependence of energy loss, which i
 
 \subsection{Heavy Quark Hadronization}
 
-After heavy quarks traverse through the medium, it will hadronize into heavy flavor hadrons, which could be fully reconstructed from their final state decay products in experiments. As described in section 1.2.7, in general, hadronization is non-perturbative. Considering heavy quark dynamics and apply hadronization models, physicists develop theoretical models to describe heavy quark hadrochemistry. Below, I will present two model candidates, the Texas A\&M University (TAMU) Model \cite{TAMUModel} and the Model developed from Cao et. al. \cite{CaoSunKo}, to describe beauty quark production and hadronization in vacuum:
+After heavy quarks traverse through the medium, it will hadronize into heavy flavor hadrons, which could be fully reconstructed from their final state decay products in experiments. As described in Section 1.2.7, in general, hadronization is non-perturbative. Considering heavy quark dynamics and apply hadronization models, physicists develop theoretical models to describe heavy quark hadrochemistry. Below, I will present three model candidates, the Texas A\&M University (TAMU) Model \cite{TAMUModel}, the model developed from Cao et. al. \cite{CaoSunKo}, and the Equal Velocity Recombination (EVR) model \cite{EVR} to describe beauty quark production and hadronization in vacuum:
 
 
 \subsubsection{TAMU Model}
@@ -1256,11 +1253,11 @@ The TAMU Model uses a thermodynamic T-matrix formulism in terms of ``ladder diag
 \end{center}
 \end{figure}  
 
-The input of T-matrix uses a lattice QCD potential \cite{LQCDTAMU} corrected with relativistic effects to model the non-perturbative interaction between heavy quarka and partons in the medium and make it consistent with HF spectroscopy in vacuum to determine the thermal relaxation rate coefficient $A_i(p,T)$. Only elastic collisional energy loss is included in the calculation. Resonance recombination model of heavy quark with a light quark nearby is applied to describe heavy quark hadronization \cite{RRM1}. Finally, effective hadronic scattering amplitudes is used to heavy flavor hadronic rescattering with other hadrons before kinetic freezout stage. The background parton composition and kinematics are modeled by the standard hydrodynamic simulations of the bulk medium in nuclear collisions
+The input of T-matrix uses a lattice QCD potential \cite{LQCDTAMU} corrected with relativistic effects to model the non-perturbative interaction between heavy quarks and partons in the medium and make it consistent with heavy flavor spectroscopy in vacuum to determine the thermal relaxation rate coefficient $A_i(p,T)$. Only elastic collisional energy loss is included in the calculation. Resonance recombination model of heavy quark with a light quark nearby is applied to describe heavy quark hadronization \cite{RRM1}. Finally, effective hadronic scattering amplitudes are used to model heavy flavor hadronic rescattering with other hadrons before kinetic freezout stage. The background parton composition and kinematics are modeled by the standard hydrodynamic simulations of the bulk medium in nuclear collisions
 
 \subsubsection{Cao, Sun, Ko Model}
 
-The Cao, Sun, Ko Model use an advanced Langevin-hydrodynamics approach \cite{CaoLH1,CaoLH2} incorporating both elastic and inelastic energy loss of heavy quarks inside the dynamical QGP medium. The equation below schematically shows relativistic Langevin equation to simulate heavy quark dynamics in the QGP medium
+The Cao, Sun, Ko Model employs an advanced Langevin-hydrodynamics approach \cite{CaoLH1,CaoLH2} incorporating both elastic and inelastic energy loss of heavy quarks inside the dynamical QGP medium. The equation below schematically shows relativistic Langevin equation to simulate the dynamics of heavy quarks in the QGP medium
 
 
 \begin{equation}
@@ -1286,15 +1283,18 @@ The dimensionless $\gamma$ factor is defined as
 \end{equation}
 
 
-A comprehensive coalescence model with strict energy-momentum conservation and PYTHIA fragmentation simulation \cite{PYTHIAFrag} with the default Peter fragmentation function, where the coalescence probability is determined from resonant scattering rate of heavy quarks in the QGP according to the resonant recombination model \cite{RRM1,RRM2}, are applied to model heavy quark hadronization.
+The Cao, Sun, Ko Model uses a comprehensive coalescence model with strict energy-momentum conservation and PYTHIA fragmentation simulation \cite{PYTHIAFrag} with the default Peter fragmentation function. The coalescence probability is determined from resonant scattering rate of heavy quarks in the QGP according to the resonant recombination model \cite{RRM1,RRM2}. In this model, if heavy quarks do not coalesce, they will hadronize via fragmentation mechanism.
 
-In addition to TAMU Model and Cao, Sun, Ko Models, there are many other theoretical models that describe heavy quark hadrochemistry in heavy-ion collisions. Nevertheless, due to the large discrepancies between hadronization models, which significant limits the heavy-ion community to interpret the heavy flavor data. Therefore, experimentalists precisely measure heavy flavor observables and provide constrains for theoretical models.
 
 
  
-\subsubsection{Equal Velocity Recombination Model}
+\subsubsection{EVR Model}
 
 In this model, the transverse momentum distribution of initially produced heavy quark is calculated by FONLL \cite{QCMModel}. The jet quenching effect in heavy-ion collisions is considered according to $R_{AA}$ measurement of $B^+$. The transverse momentum distributions of light-flavor quarks are obtained from data of light hadrons in the model. This model is particular designed to study low $p_T$ and mid-rapidity charm quarks produced at the LHC energy. It considers the equal-velocity combination of bottom quark with light-flavor anti-quarks  to form B mesons, a framework based on of co-moving quark recombination model (QCM).
+
+
+In addition to TAMU, Cao, Sun, Ko, and EVR Models, there are many other theoretical models attempting to describe heavy quark hadrochemistry in heavy-ion collisions. Nevertheless, due to the large discrepancies among different hadronization models, our ability to interpret the heavy flavor data is significant limited. Therefore, heavy-ion experimentalists precisely measure heavy flavor physics observables with different species and over broad kinematic ranges and provide constrains for models to reduce the theoretical uncertainties in hadronization.
+
 
 \iffalse
 

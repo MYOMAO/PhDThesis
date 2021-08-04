@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 AUG 2021 15:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 AUG 2021 18:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -351,6 +351,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
+Overfull \hbox (7.94162pt too wide) in paragraph at lines 31--31
+ [][] []\T1/cmr/m/n/12 The schematic demon-stra-tions of heavy quark pro-duc-ti
+on and hadroniza- 
+ []
+
+
 Overfull \hbox (4.4827pt too wide) in paragraph at lines 33--33
  \T1/cmr/m/n/12 tion are in-volved, in (a) electron-positron an-ni-hi-la-tion, 
 (b) deep-inelastic 
@@ -446,11 +452,7 @@ File: Figures/Chapter1/QCDFactorizationTheorem.png Graphic file (type png)
 Package pdftex.def Info: Figures/Chapter1/QCDFactorizationTheorem.png used on i
 nput line 99.
 (pdftex.def)             Requested size: 325.215pt x 207.45361pt.
-
-
-LaTeX Warning: Citation `PDFRef' on page 41 undefined on input line 105.
-
-[41]
+ [41]
 
 LaTeX Warning: Citation `nPDF' on page 42 undefined on input line 107.
 
@@ -731,7 +733,9 @@ Underfull \vbox (badness 2486) has occurred while \output is active []
 
  [69 <./Figures/Chapter1/HadronAngularSTAR.png> <./Figures/Chapter1/JetRAAALICE
 .png>]
-[70 <./Figures/Chapter1/ReactionPlane.jpg>] [71] [72]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [70 <./Figures/Chapter1/ReactionPlane.jpg>] [71] [72]
 Package epstopdf Info: Source file: <Figures/Chapter1/STARV2Plot.eps>
 (epstopdf)                    date: 2021-07-08 17:00:44
 (epstopdf)                    size: 197874 bytes
@@ -769,7 +773,7 @@ File: Figures/Chapter1/STARPhiOverPi.png Graphic file (type png)
 <use Figures/Chapter1/STARPhiOverPi.png>
 Package pdftex.def Info: Figures/Chapter1/STARPhiOverPi.png used on input line 
 882.
-(pdftex.def)             Requested size: 195.12767pt x 128.31003pt.
+(pdftex.def)             Requested size: 216.81pt x 142.56277pt.
 
 <Figures/Chapter1/ALICEStrange.png, id=314, 597.23125pt x 845.1575pt>
 File: Figures/Chapter1/ALICEStrange.png Graphic file (type png)
@@ -787,64 +791,66 @@ LICEV2Plot.png>] [75 <./Figures/Chapter1/STARPhiOverPi.png> <./Figures/Chapter1
 Underfull \vbox (badness 4634) has occurred while \output is active []
 
  [76]
-<Figures/Chapter1/HQDiagram.jpg, id=333, 411.5375pt x 282.05376pt>
+[77] <Figures/Chapter1/HQDiagram.jpg, id=336, 411.5375pt x 282.05376pt>
 File: Figures/Chapter1/HQDiagram.jpg Graphic file (type jpg)
 
 <use Figures/Chapter1/HQDiagram.jpg>
-Package pdftex.def Info: Figures/Chapter1/HQDiagram.jpg used on input line 940.
+Package pdftex.def Info: Figures/Chapter1/HQDiagram.jpg used on input line 945.
 
 (pdftex.def)             Requested size: 195.12767pt x 133.7316pt.
- [77]
-<Figures/Chapter1/HQVacuum.png, id=337, 845.1575pt x 558.085pt>
+ [78 <./Figures/Chapter1/HQDiagram.jpg>]
+<Figures/Chapter1/HQVacuum.png, id=340, 845.1575pt x 558.085pt>
 File: Figures/Chapter1/HQVacuum.png Graphic file (type png)
 
 <use Figures/Chapter1/HQVacuum.png>
-Package pdftex.def Info: Figures/Chapter1/HQVacuum.png used on input line 952.
+Package pdftex.def Info: Figures/Chapter1/HQVacuum.png used on input line 957.
 (pdftex.def)             Requested size: 199.4681pt x 131.71202pt.
 
-<Figures/Chapter1/HQQGP.png, id=338, 601.4972pt x 451.6875pt>
+<Figures/Chapter1/HQQGP.png, id=341, 601.4972pt x 451.6875pt>
 File: Figures/Chapter1/HQQGP.png Graphic file (type png)
 
 <use Figures/Chapter1/HQQGP.png>
-Package pdftex.def Info: Figures/Chapter1/HQQGP.png used on input line 953.
+Package pdftex.def Info: Figures/Chapter1/HQQGP.png used on input line 958.
 (pdftex.def)             Requested size: 208.13574pt x 156.29413pt.
- [78 <./Figures/Chapter1/HQDiagram.jpg>]
+
 <Figures/Chapter1/Charm.png, id=342, 598.235pt x 574.145pt>
 File: Figures/Chapter1/Charm.png Graphic file (type png)
 
 <use Figures/Chapter1/Charm.png>
-Package pdftex.def Info: Figures/Chapter1/Charm.png used on input line 970.
+Package pdftex.def Info: Figures/Chapter1/Charm.png used on input line 972.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
 <Figures/Chapter1/Beauty.png, id=343, 598.235pt x 574.145pt>
 File: Figures/Chapter1/Beauty.png Graphic file (type png)
 
 <use Figures/Chapter1/Beauty.png>
-Package pdftex.def Info: Figures/Chapter1/Beauty.png used on input line 971.
+Package pdftex.def Info: Figures/Chapter1/Beauty.png used on input line 973.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
-
-<Figures/Chapter1/FFProcess.png, id=344, 1220.56pt x 273.02pt>
+ [79 <./Figures/Chapter1/HQVacuum.png> <./Figures/Chapter1/HQQGP.png>]
+<Figures/Chapter1/FFProcess.png, id=350, 1220.56pt x 273.02pt>
 File: Figures/Chapter1/FFProcess.png Graphic file (type png)
 
 <use Figures/Chapter1/FFProcess.png>
-Package pdftex.def Info: Figures/Chapter1/FFProcess.png used on input line 981.
+Package pdftex.def Info: Figures/Chapter1/FFProcess.png used on input line 983.
 
 (pdftex.def)             Requested size: 433.62pt x 96.99568pt.
- [79 <./Figures/Chapter1/HQVacuum.png> <./Figures/Chapter1/HQQGP.png>] [80 <./F
-igures/Chapter1/Charm.png> <./Figures/Chapter1/Beauty.png> <./Figures/Chapter1/
-FFProcess.png>] [81] [82]
+
+Underfull \vbox (badness 1546) has occurred while \output is active []
+
+ [80 <./Figures/Chapter1/Charm.png> <./Figures/Chapter1/Beauty.png> <./Figures/
+Chapter1/FFProcess.png>] [81] [82]
 <Figures/Chapter1/LHCbFFs.png, id=360, 912.40875pt x 608.2725pt>
 File: Figures/Chapter1/LHCbFFs.png Graphic file (type png)
 
 <use Figures/Chapter1/LHCbFFs.png>
-Package pdftex.def Info: Figures/Chapter1/LHCbFFs.png used on input line 1121.
+Package pdftex.def Info: Figures/Chapter1/LHCbFFs.png used on input line 1123.
 (pdftex.def)             Requested size: 260.17464pt x 173.443pt.
 
 <Figures/Chapter1/LHCbFFpT.png, id=361, 988.69376pt x 700.6175pt>
 File: Figures/Chapter1/LHCbFFpT.png Graphic file (type png)
 
 <use Figures/Chapter1/LHCbFFpT.png>
-Package pdftex.def Info: Figures/Chapter1/LHCbFFpT.png used on input line 1122.
+Package pdftex.def Info: Figures/Chapter1/LHCbFFpT.png used on input line 1124.
 
 (pdftex.def)             Requested size: 260.17464pt x 184.3585pt.
 
@@ -852,10 +858,10 @@ Package pdftex.def Info: Figures/Chapter1/LHCbFFpT.png used on input line 1122.
 File: Figures/Chapter1/LHCbFFy.png Graphic file (type png)
 
 <use Figures/Chapter1/LHCbFFy.png>
-Package pdftex.def Info: Figures/Chapter1/LHCbFFy.png used on input line 1123.
+Package pdftex.def Info: Figures/Chapter1/LHCbFFy.png used on input line 1125.
 (pdftex.def)             Requested size: 260.17464pt x 181.20712pt.
 
-Overfull \hbox (0.55865pt too wide) in paragraph at lines 1130--1131
+Overfull \hbox (0.55865pt too wide) in paragraph at lines 1132--1133
 []\T1/cmr/m/n/12 In terms of uni-ver-sal-ity, ac-cord-ing to Strangeness Quark 
 Mat-ter Con-fer-ence (SQM)
  []
@@ -865,53 +871,56 @@ File: Figures/Chapter1/ALICECharmFF.png Graphic file (type png)
 
 <use Figures/Chapter1/ALICECharmFF.png>
 Package pdftex.def Info: Figures/Chapter1/ALICECharmFF.png used on input line 1
-134.
+136.
 (pdftex.def)             Requested size: 225.48424pt x 218.17204pt.
  [83] [84 <./Figures/Chapter1/LHCbFFs.png> <./Figures/Chapter1/LHCbFFpT.png> <.
-/Figures/Chapter1/LHCbFFy.png>] [85 <./Figures/Chapter1/ALICECharmFF.png>]
+/Figures/Chapter1/LHCbFFy.png>]
+Underfull \vbox (badness 1490) has occurred while \output is active []
+
+ [85 <./Figures/Chapter1/ALICECharmFF.png>]
 <Figures/Chapter1/Collisional.png, id=378, 450.9347pt x 362.10281pt>
 File: Figures/Chapter1/Collisional.png Graphic file (type png)
 
 <use Figures/Chapter1/Collisional.png>
 Package pdftex.def Info: Figures/Chapter1/Collisional.png used on input line 11
-89.
+84.
 (pdftex.def)             Requested size: 151.76964pt x 121.87013pt.
 
 <Figures/Chapter1/Radiative.png, id=379, 426.09187pt x 451.6875pt>
 File: Figures/Chapter1/Radiative.png Graphic file (type png)
 
 <use Figures/Chapter1/Radiative.png>
-Package pdftex.def Info: Figures/Chapter1/Radiative.png used on input line 1190
+Package pdftex.def Info: Figures/Chapter1/Radiative.png used on input line 1185
 .
 (pdftex.def)             Requested size: 151.76964pt x 160.8912pt.
-
-<Figures/Chapter1/ADSCFT.png, id=380, 319.9152pt x 217.2918pt>
+ [86]
+<Figures/Chapter1/ADSCFT.png, id=383, 319.9152pt x 217.2918pt>
 File: Figures/Chapter1/ADSCFT.png Graphic file (type png)
 
 <use Figures/Chapter1/ADSCFT.png>
-Package pdftex.def Info: Figures/Chapter1/ADSCFT.png used on input line 1200.
+Package pdftex.def Info: Figures/Chapter1/ADSCFT.png used on input line 1195.
 (pdftex.def)             Requested size: 195.12767pt x 132.53452pt.
- [86] [87 <./Figures/Chapter1/Collisional.png> <./Figures/Chapter1/Radiative.pn
-g> <./Figures/Chapter1/ADSCFT.png>]
+ [87 <./Figures/Chapter1/Collisional.png> <./Figures/Chapter1/Radiative.png> <.
+/Figures/Chapter1/ADSCFT.png>]
 <Figures/Chapter1/CharmDeadCone.png, id=390, 367.6134pt x 101.6598pt>
 File: Figures/Chapter1/CharmDeadCone.png Graphic file (type png)
 
 <use Figures/Chapter1/CharmDeadCone.png>
 Package pdftex.def Info: Figures/Chapter1/CharmDeadCone.png used on input line 
-1222.
+1219.
 (pdftex.def)             Requested size: 368.57964pt x 101.931pt.
-
-Underfull \vbox (badness 1354) has occurred while \output is active []
-
  [88 <./Figures/Chapter1/CharmDeadCone.png>]
+
+LaTeX Warning: Citation `EVR' on page 89 undefined on input line 1241.
+
 <Figures/Chapter1/LadderDiagram.png, id=395, 390.258pt x 58.2978pt>
 File: Figures/Chapter1/LadderDiagram.png Graphic file (type png)
 
 <use Figures/Chapter1/LadderDiagram.png>
 Package pdftex.def Info: Figures/Chapter1/LadderDiagram.png used on input line 
-1253.
+1250.
 (pdftex.def)             Requested size: 433.62pt x 64.77625pt.
- [89] [90 <./Figures/Chapter1/LadderDiagram.png>]) [91]
+ [89 <./Figures/Chapter1/LadderDiagram.png>] [90]) [91]
 \openout2 = `chap2.aux'.
 
  (./chap2.tex [92
@@ -4193,7 +4202,7 @@ eavy-ion col-li-sions'',
  []
 
 [275] [276] [277] [278] [279] [280] [281] [282] [283] [284]
-Underfull \hbox (badness 6188) in paragraph at lines 290--291
+Underfull \hbox (badness 6188) in paragraph at lines 291--292
 []\T1/cmr/m/n/12 A. Penzo and Y. Onel, ``The CMS-HF quartz fiber calorime-ters'
 ',
  []
@@ -4212,7 +4221,7 @@ LaTeX Warning: There were multiply-defined labels.
 (\end occurred when \ifx on line 56 was incomplete) 
 Here is how much of TeX's memory you used:
  5103 strings out of 493089
- 107532 string characters out of 6134842
+ 107529 string characters out of 6134842
  156795 words of memory out of 5000000
  8046 multiletter control sequences out of 15000+600000
  23519 words of font info for 57 fonts, out of 8000000 for 9000
@@ -4251,7 +4260,7 @@ b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
 usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
-Output written on main.pdf (287 pages, 22904614 bytes).
+Output written on main.pdf (287 pages, 22905775 bytes).
 PDF statistics:
  6247 PDF objects out of 7423 (max. 8388607)
  2986 compressed objects within 30 object streams
