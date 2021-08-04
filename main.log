@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 AUG 2021 00:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 AUG 2021 15:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -408,9 +408,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \openout4 = `main.lof'.
 
 
-[31] [32
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] (./main.lot [33] [34] [35])
+ [31]
+[32] (./main.lot [33
+
+] [34] [35])
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
@@ -4107,19 +4110,28 @@ File: Figures/Chapter5/ratio_vsCent_ref0.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/Chapter5/ratio_vsCent_ref0.pdf used on input l
 ine 2973.
 (pdftex.def)             Requested size: 303.53267pt x 291.23283pt.
-) [256
 
- <./Figures/Chapter5/ratio_vsCent_ref0.pdf, page is rotated 90 degrees>]
+<Figures/Chapter5/2018Comp2015.pdf, id=5779, 569.12625pt x 546.04pt>
+File: Figures/Chapter5/2018Comp2015.pdf Graphic file (type pdf)
+
+<use Figures/Chapter5/2018Comp2015.pdf>
+Package pdftex.def Info: Figures/Chapter5/2018Comp2015.pdf used on input line 3
+007.
+(pdftex.def)             Requested size: 303.53267pt x 291.23283pt.
+ [256
+
+ <./Figures/Chapter5/ratio_vsCent_ref0.pdf, page is rotated 90 degrees>] [257 <
+./Figures/Chapter5/2018Comp2015.pdf, page is rotated 90 degrees>]) [258]
 \openout2 = `chap6.aux'.
 
  (./chap6.tex
 Chapter 6.
-[257
+[259
 
 
 
 ]
-<Figures/Chapter6/ratio_vsPt_ref1_1.pdf, id=5828, 569.12625pt x 546.04pt>
+<Figures/Chapter6/ratio_vsPt_ref1_1.pdf, id=5880, 569.12625pt x 546.04pt>
 File: Figures/Chapter6/ratio_vsPt_ref1_1.pdf Graphic file (type pdf)
 
 <use Figures/Chapter6/ratio_vsPt_ref1_1.pdf>
@@ -4127,7 +4139,7 @@ Package pdftex.def Info: Figures/Chapter6/ratio_vsPt_ref1_1.pdf used on input l
 ine 26.
 (pdftex.def)             Requested size: 208.13574pt x 199.69037pt.
 
-<Figures/Chapter6/ratio_vsCent_ref1.pdf, id=5829, 569.12625pt x 546.04pt>
+<Figures/Chapter6/ratio_vsCent_ref1.pdf, id=5881, 569.12625pt x 546.04pt>
 File: Figures/Chapter6/ratio_vsCent_ref1.pdf Graphic file (type pdf)
 
 <use Figures/Chapter6/ratio_vsCent_ref1.pdf>
@@ -4137,60 +4149,60 @@ ine 27.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [258 <./Figures/Chapter6/ratio_vsPt_ref1_1.pdf, page is rotated 90 degrees> <.
+ [260 <./Figures/Chapter6/ratio_vsPt_ref1_1.pdf, page is rotated 90 degrees> <.
 /Figures/Chapter6/ratio_vsCent_ref1.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 1552) has occurred while \output is active []
 
- [259]
-[260]
+ [261]
+[262]
 Underfull \vbox (badness 6078) has occurred while \output is active []
 
- [261]
-<Figures/Chapter6/BPLow.pdf, id=5930, 569.12625pt x 546.04pt>
+ [263]
+<Figures/Chapter6/BPLow.pdf, id=5980, 569.12625pt x 546.04pt>
 File: Figures/Chapter6/BPLow.pdf Graphic file (type pdf)
 
 <use Figures/Chapter6/BPLow.pdf>
 Package pdftex.def Info: Figures/Chapter6/BPLow.pdf used on input line 106.
 (pdftex.def)             Requested size: 260.17464pt x 249.63171pt.
 
-<Figures/Chapter6/BZLow.pdf, id=5931, 569.12625pt x 546.04pt>
+<Figures/Chapter6/BZLow.pdf, id=5981, 569.12625pt x 546.04pt>
 File: Figures/Chapter6/BZLow.pdf Graphic file (type pdf)
 
 <use Figures/Chapter6/BZLow.pdf>
 Package pdftex.def Info: Figures/Chapter6/BZLow.pdf used on input line 114.
 (pdftex.def)             Requested size: 260.17464pt x 249.63171pt.
 
-<Figures/Chapter6/BsLow.pdf, id=5932, 569.12625pt x 546.04pt>
+<Figures/Chapter6/BsLow.pdf, id=5982, 569.12625pt x 546.04pt>
 File: Figures/Chapter6/BsLow.pdf Graphic file (type pdf)
 
 <use Figures/Chapter6/BsLow.pdf>
 Package pdftex.def Info: Figures/Chapter6/BsLow.pdf used on input line 122.
 (pdftex.def)             Requested size: 260.17464pt x 249.63171pt.
- [262 <./Figures/Chapter6/BPLow.pdf, page is rotated 90 degrees>] [263 <./Figur
-es/Chapter6/BZLow.pdf, page is rotated 90 degrees>] [264 <./Figures/Chapter6/Bs
-Low.pdf, page is rotated 90 degrees>]) [265]
+ [264 <./Figures/Chapter6/BPLow.pdf, page is rotated 90 degrees>] [265 <./Figur
+es/Chapter6/BZLow.pdf, page is rotated 90 degrees>] [266 <./Figures/Chapter6/Bs
+Low.pdf, page is rotated 90 degrees>]) [267]
 \openout2 = `biblio.aux'.
 
 
-(./biblio.tex [266
+(./biblio.tex [268
 
 
 
-] [267] [268] [269] [270] [271] [272]
+] [269] [270] [271] [272] [273] [274]
 Underfull \hbox (badness 1728) in paragraph at lines 129--130
 []\T1/cmr/m/n/12 B. B. Back, ``Stud-ies of mul-ti-plic-ity in rel-a-tivis-tic h
 eavy-ion col-li-sions'',
  []
 
-[273] [274] [275] [276] [277] [278] [279] [280] [281] [282]
+[275] [276] [277] [278] [279] [280] [281] [282] [283] [284]
 Underfull \hbox (badness 6188) in paragraph at lines 298--299
 []\T1/cmr/m/n/12 A. Penzo and Y. Onel, ``The CMS-HF quartz fiber calorime-ters'
 ',
  []
 
-[283] [284] [285]
+[285] [286] [287]
 No file main.bbl.
-) [286] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+) [288] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
 (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./biblio.aux))
 
 LaTeX Warning: There were undefined references.
@@ -4201,10 +4213,10 @@ LaTeX Warning: There were multiply-defined labels.
  )
 (\end occurred when \ifx on line 56 was incomplete) 
 Here is how much of TeX's memory you used:
- 5115 strings out of 493089
- 107783 string characters out of 6134842
- 156830 words of memory out of 5000000
- 8052 multiletter control sequences out of 15000+600000
+ 5121 strings out of 493089
+ 107964 string characters out of 6134842
+ 156843 words of memory out of 5000000
+ 8057 multiletter control sequences out of 15000+600000
  24964 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,14n,23p,1696b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4241,10 +4253,10 @@ b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
 usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
-Output written on main.pdf (286 pages, 22865558 bytes).
+Output written on main.pdf (288 pages, 22881255 bytes).
 PDF statistics:
- 6248 PDF objects out of 7423 (max. 8388607)
- 2988 compressed objects within 30 object streams
+ 6299 PDF objects out of 7423 (max. 8388607)
+ 3010 compressed objects within 31 object streams
  0 named destinations out of 1000 (max. 500000)
- 1651 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1656 words of extra memory for PDF output out of 10000 (max. 10000000)
 
