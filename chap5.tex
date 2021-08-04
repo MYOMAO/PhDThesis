@@ -8,13 +8,13 @@
 
 \section{Analysis Tools}
 
-In this thesis, the analysis tools we use is based on Macbook computers, and CMS high computing, linux shell script, C++ programing language, and ROOT analysis package for high energy physics experiments. The machine performing the analysis includes CERN lxplus, MIT Tier-2 submit, Data file are saved as ROOT files format. Data samples are processed with crab CERN lxplus and MIT submit condor job submission with parallel computing framework. The core software for the data process and analysis is the CMS software (CMSSW\_10\_3\_4). The codes for the analysis software is documented on github and gitlab. Throughout the analysis, we use Poison statistics to interpret the statistical uncertainties of the data. In the limit of high statistics, it is approximately equivalent to Gaussian Statistics. In the limit of low statistics, it is different from Gaussian Statistics. These tools are crucial for me to finish the analysis and present the results.
+In this thesis, the analysis tools include Macbook computers, MIT and CERN high performance computing facilities, linux shell script, C++ programing language, and ROOT analysis package for high energy physics experiments. The machines performing the analysis includes CERN lxplus, MIT Tier-2 submit, and MITHIG grendel. Data file are saved as ROOT files format. Data samples are processed using crab job submission framework at CERN lxplus. Analysis jobs are submitted MIT Tier-2 HTCondor parallel computing system. The core software for the data processing is the CMS software (CMSSW\_10\_3\_4). The software for the analysis has been documented on github and gitlab. Throughout the analysis, I use Poison Statistics to describe the statistical uncertainties of the data. In the limit of high statistics, it is approximately equivalent to Gaussian Statistics. These tools are crucial for me to finish the analysis and report the results.
 
 \section{Analysis Strategies}
 
 \subsection{Physics Goals}
 
-The exclusive productions of b hadrons in different collision systems are necessary to study beauty energy loss and hadronization mechanisms. In this thesis, we propose to fully reconstruct $B^0_s$ ($b\bar s$) and $B^+$ ($\bar b u$) mesons in pp and PbPb collisions at $\sqrt{s_{NN}} = $ 5.02 TeV with the CMS experiment. We aim at measuring precisely their cross section, yield ratios, and nuclear modification factor of fully reconstructed $B^0_s$ and $B^+$ mesons via the decay channels of  to investigate beauty quark production and hadronization in vacuum and QGP. We hope to have a conclusive measurement of $B^0_s/B^+$ ratio to pinpoint the effect of strangeness enhancement in QGP on beauty hadronization and test theoretical model calculations \cite{StrangetoLight} with both fragmentation \cite{} and quark coalescence \cite{} mechanisms. Therefore, we would like to present our experimental measure over a width range of $p_T$ and centrality. We are particularly interested in the very low $p_T$ region where the slow moving beauty quark will pick up the nearby light quarks in the QGP while such mechanism is not expected to occur in the vacuum \cite{}. The $R_{AA}$ down to low $p_T$ will constrain understand beauty quark energy mechanism in the QGP medium. These will studies will be crucial for us to understand beauty quark diffusion coefficient and probe the inner workings of QGP in order to provide insights with the one of the open question in high energy nuclear physics. 
+The exclusive production of b hadrons in different collision systems are necessary to study beauty energy loss and hadronization mechanisms. In this thesis, we propose to fully reconstruct $B^0_s$ ($b\bar s$) and $B^+$ ($\bar b u$) mesons in pp and PbPb collisions at $\sqrt{s_{NN}} = $ 5.02 TeV with the CMS experiment. We aim at measuring precisely their cross section, yield ratios, and nuclear modification factor of fully reconstructed $B^0_s$ and $B^+$ mesons via the decay channels of  to investigate beauty quark production and hadronization in vacuum and QGP. We hope to have a conclusive measurement of $B^0_s/B^+$ ratio to pinpoint the effect of strangeness enhancement in QGP on beauty hadronization and test theoretical model calculations \cite{StrangetoLight} with both fragmentation \cite{} and quark coalescence \cite{} mechanisms. Therefore, we would like to present our experimental measure over a width range of $p_T$ and centrality. We are particularly interested in the very low $p_T$ region where the slow moving beauty quark will pick up the nearby light quarks in the QGP while such mechanism is not expected to occur in the vacuum \cite{}. The $R_{AA}$ down to low $p_T$ will constrain understand beauty quark energy mechanism in the QGP medium. These will studies will be crucial for us to understand beauty quark diffusion coefficient and probe the inner workings of QGP in order to provide insights with the one of the open question in high energy nuclear physics. 
 
 \subsection{General Workflow}
 
@@ -2999,6 +2999,8 @@ Centrality & $B^0_s/B^+$ & stat. up (+) & stat. down (-)  & syst. up (+) & syst.
 \end{center}
 \end{table}
 
+\iffalse
+
 Finally, we can also cross check our measurement with the 2015 published $B^0_s/B^+$ ratio. Figure \ref{} show the direct comparison of our data .
 
 
@@ -3006,7 +3008,7 @@ Within uncertainties, we see that our results are consistent to the 2015 publish
 
 Hence, We have reported the measurement of $B^0_s$ and $B^+$ mesons cross section and the $B^0_s/B^+$ ratio in PbPb collisions at $\sqrt{s_{NN}} =$ 5.02 TeV with the CMS experiment. In the next chapter, we will answer the questions raised in Section 2.4 through the comparison our data with other experimental references and theoretical predictions. 
 
-
+\fi
 
 %\subsection{$B^0_s$ and $B^{+}$ Nuclear Modification Factor}
 
