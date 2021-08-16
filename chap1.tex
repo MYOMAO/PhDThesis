@@ -965,7 +965,7 @@ Experimentally, from the final stage decay products, we can fully reconstruct he
 
 \subsection{Heavy Flavor Physics in Vacuum}
 
-To use heavy quark to probe the QGP created in heavy-ion collisions, we first need to understand heavy quark physics in vacuum from pp collisions. In the process $pp \rightarrow Q \bar Q$, QCD factorization theorem could be applied. High precision pQCD calculations, including next-to-leading order (NLO), next-to-next-to-leading-order (NNLO), and Fixed-to-Next-to-the-Leading (FONLL), have been developed to describe heavy quark production. in $pp$ collisions Here, we will show FONLL calculations of charm and beauty quarks spectra, schematically denoted as: $\frac{d^2\sigma^Q}{p_T dp_T dy}$, in $pp \rightarrow Q  \bar Q$ at different energies \cite{FONLLRef}. Figure \ref{FONLL} shows the FONLL calculations of charm and beauty quarks spectra produced for $pp$ collisions at the LHC energy $\sqrt s = 5.02$ TeV.
+To use heavy quark to probe the QGP created in heavy-ion collisions, we first need to understand heavy quark physics in vacuum from pp collisions. In the process $pp \rightarrow Q \bar Q$, QCD factorization theorem could be applied. High precision pQCD calculations, including next-to-leading order (NLO), next-to-next-to-leading-order (NNLO), and Fixed-to-Next-to-the-Leading (FONLL), have been developed to describe heavy quark production. in $pp$ collisions Here, we will show FONLL calculations of charm and beauty quarks spectra, schematically denoted as: $\frac{d^2\sigma^Q}{p_T dp_T dy}$, in $pp \rightarrow Q  \bar Q$ at different energies \cite{FONLLRef1,FONLLRef2}. Figure \ref{FONLL} shows the FONLL calculations of charm and beauty quarks spectra produced for $pp$ collisions at the LHC energy $\sqrt s = 5.02$ TeV.
 
  \begin{figure}[hbtp]
 \begin{center}
@@ -1077,6 +1077,25 @@ Now if we consider a factorization scale near the heavy quark mass $\mu^2 \right
 D^{H_Q}_{q,g}(z,\mu^2)|_{\mu^2=m_Q^2} = 0
 \end{equation}
 
+In fact, the Peterson fragmentation function of heavy quarks $D^{H_Q}_Q(z,\epsilon_Q)$ is given by \cite{Peterson}
+
+\begin{equation}
+D^{H_Q}_Q(z,\epsilon_Q) = \frac{N}{z[1-1/z-\epsilon_Q/(1-z)]^2}
+\end{equation}
+
+Here, $N$ is the normalization constant. $\epsilon_c = $ 0.03 and $\epsilon_b = $0.005. The comparison between the Peterson fragmentation function of beauty quarks and the delta function is shown below
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.65\textwidth]{Figures/Chapter1/FFPeterson.png}
+\caption{The comparison between the Peterson fragmentation function (green) and the delta function (blue) is shown above.}
+\label{FONLL}
+\end{center}
+\end{figure}   
+
+
+Graphically, we find that the Peterson fragmentation function can be roughly approximated by delta function. In fact, when $\epsilon_Q = $0, the Peterson fragmentation function is essentially a delta function $D^{H_Q}_{Q}(z,\epsilon_Q = 0) \simeq \delta(1 - z)$. Hence, we can define
+
 \begin{equation}
 D^{H_Q}_{Q}(z,\mu^2)|_{\mu^2=m_Q^2} = f(Q \rightarrow H_Q) \delta(1 - z)
 \end{equation}
@@ -1155,6 +1174,12 @@ Here, $f_q(t,\vec{p})$ is the heavy quark phase space distribution function. If 
 
 \begin{equation}
 F^Q( t = 0,p_T) \propto \frac{d\sigma_{FONLL}}{p_Tdp_T}
+\end{equation}
+
+$A_i(\vec p)$ and $B_{ij}(\vec p)$ are transport parameters. 
+
+\begin{equation}
+A_i(\vec p) = A(\vec p) p_i
 \end{equation}
 
 
