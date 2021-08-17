@@ -290,7 +290,7 @@ Located at BNL in Upton, Long Island, New York, United States of America, RHIC i
 \end{center}
 \end{figure} 
 
-Here is how RHIC accelerates charged particles to the energy scale of GeV per nucleon. For instance, if we consider the acceleration of a typical ion source gold (${}^{197}_{79}Au$) ion, we first use a cesium sputter ion source operated in the pulsed beam mode and point it to the gold metal to produce the $Au^-$ ion \cite{FirstAuSource}. Then, the $Au^{-}$ will undergo a series of electron stripping processes to reach the $Au^{79+}$ ion \cite{RHICStrpDetail}. First, 13 electrons are stripped by the carbon foil in the Terminal Stripping (S1) after the acceleration of tandem Van der Graaf generator to turn $Au^{-}$ into $Au^{12+}$. Then, the $Au^{12+}$ ion will go through the Object Foil (S2) at the second stripping stage and becomes $Au^{31+}$. Next, the $Au^{31+}$ will go through the third stripping station BTA foil (S3) made of aluminum and vitreous carbon between the Booster Synchrotron and AGS and becomes $Au^{77+}$. Finally, two more electrons of the gold ion $Au^{77+}$ are removed at the fourth stripping station ATF foil (S4) made of thin tungsten, located in between the AGS and RHIC. The fully stripped gold ions $Au^{79+}$ will then be injected to the blue and yellow rings at RHIC. For polarized protons, $H^-$ pass a single stripping stage called located in the Booster Synchrotron. The stripping station is called Linac-to-Booster (LTB) stripper made of carbon foils with special geometry and converts polarized $H^-$ to $H^+$. Figure \ref{AccAu} schematically shows the accelerating process of gold ions at RHIC \cite{AuStripRef}
+Here is how RHIC accelerates charged particle beams to the energy scale of GeV per nucleon through multiple electron stripping and acceleration stages. For instance, if we consider the acceleration of a typical ion source gold (${}^{197}_{79}Au$) ion \cite{AuStripping}., we first use a cesium sputter ion source operated in the pulsed beam mode and point it to the gold metal to produce the $Au^-$ ion \cite{FirstAuSource}. Then, the $Au^{-}$ will undergo a series of electron stripping processes to reach the $Au^{79+}$ ion \cite{RHICStrpDetail}. First, 13 electrons are stripped by the carbon foil in the Terminal Stripping (S1) after the acceleration of tandem Van der Graaf generator to turn $Au^{-}$ into $Au^{12+}$. Then, the $Au^{12+}$ ion will go through the Object Foil (S2) at the second stripping stage and becomes $Au^{31+}$. Next, the $Au^{31+}$ will go through the third stripping station BTA foil (S3) made of aluminum and vitreous carbon between the Booster Synchrotron and AGS and becomes $Au^{77+}$. Finally, two more electrons of the gold ion $Au^{77+}$ are removed at the fourth stripping station ATF foil (S4) made of thin tungsten, located in between the AGS and RHIC. The fully stripped gold ions $Au^{79+}$ will then be injected to the blue and yellow rings at RHIC. For polarized protons, $H^-$ pass a single stripping stage called located in the Booster Synchrotron. The stripping station is called Linac-to-Booster (LTB) stripper made of carbon foils with special geometry and converts polarized $H^-$ to $H^+$. Figure \ref{AccAu} schematically shows the accelerating process of gold ions at RHIC \cite{AuStripRef}
 
 \begin{figure}[hbtp]
 \begin{center}
@@ -556,7 +556,10 @@ T_{AB}(\vec{b}) = \int T_A(\vec{s}) T_B(\vec{b} - \vec{s}) d^2s
 Now replacing T($\vec{b}$) in N-A by $T_{AB}(\vec{b})$ in A-B, we can obtain
 
 \begin{equation}
-\langle N(\mu) \rangle = \frac{A}{1-\mu} \int_0^b T_A(\vec{s}) \{1 - [1 - (1 - \mu) T_{B}(\vec{b}-\vec{s}) \sigma_{in}^{NN}]\}^A d^2s  +  \frac{B}{1-\mu} \int_0^b T_B(\vec{s}) \{1 - [1 - (1 - \mu) T_{A}(\vec{b}-\vec{s}) \sigma_{in}^{NN}]\}^B d^2s
+\begin{multlined}
+\langle N(\mu) \rangle = \frac{A}{1-\mu} \int_0^b T_A(\vec{s}) \{1 - [1 - (1 - \mu) T_{B}(\vec{b}-\vec{s}) \sigma_{in}^{NN}]\}^A d^2s  \\
+  +  \frac{B}{1-\mu} \int_0^b T_B(\vec{s}) \{1 - [1 - (1 - \mu) T_{A}(\vec{b}-\vec{s}) \sigma_{in}^{NN}]\}^B d^2s
+\end{multlined}
 \end{equation}
 
 
@@ -618,7 +621,7 @@ $J/\psi$ meson, as a type of heavy quarkonia, is bound state of $c\bar c$, made 
 \hat H \ket{\psi} = i \frac{\partial}{\partial t}  \ket{\psi} 
 \end{equation}
 
-and solve Schrodinger equation the to describe $J/\psi$ mesons in vacuum. As we have seen in Section 1.3.2, with the QGP medium, at a finite temperature $T$, the potential is modified due to color screening effect. The distance between two charm quarks $V(r) \rightarrow \frac{\sigma}{m_D}$, which does not diverge, as $r \rightarrow \infty$. Therefore, the $c \bar c$ system could be unbounded if they have sufficiently high energy. In the field theory picture, this could be understood as the color string breaking between charm and anti-charm quark \cite{CSBQQ}, also known as quarkonia melting \cite{QQMelt}. Hence, with the influence of QGP at $T > 0$, the production cross section of $J/\psi$ will decrease compared to the vacuum at $T=0$. Experimentally, we define an observable to quantify the modification of particle production cross section in $AA$ collision compared to the reference $pp$ collisions normalized by the number of binary nucleon-nucleon collisions $N_{coll}$, which is defined in the previous subsection. We called this observable as nuclear modification factor denoted $R_{AA}$. Mathematically, $R_{AA}$ is defined as follows:
+and solve Schrodinger equation the to describe $J/\psi$ mesons in vacuum. As we have seen in Section 1.3.2, with the QGP medium, at a finite temperature $T$, the potential is modified due to color screening effect \cite{QCDString}. The distance between two charm quarks $V(r) \rightarrow \frac{\sigma}{m_D}$, which does not diverge, as $r \rightarrow \infty$. Therefore, the $c \bar c$ system could be unbounded if they have sufficiently high energy. In the field theory picture, this could be understood as the color string breaking between charm and anti-charm quark \cite{CSBQQ}, also known as quarkonia melting \cite{QQMelt}. Hence, with the influence of QGP at $T > 0$, the production cross section of $J/\psi$ will decrease compared to the vacuum at $T=0$. Experimentally, we define an observable to quantify the modification of particle production cross section in $AA$ collision compared to the reference $pp$ collisions normalized by the number of binary nucleon-nucleon collisions $N_{coll}$, which is defined in the previous subsection. We called this observable as nuclear modification factor denoted $R_{AA}$. Mathematically, $R_{AA}$ is defined as follows:
 
 \begin{equation}
 R_{AA} =\frac{1}{N_{coll}} \frac{\frac{d^2N_{AA}}{dp_T dy}}{\frac{d^2N_{pp}}{dp_T dy}} = \frac{1}{T_{AA}} \frac{\frac{d^2N_{AA}}{dp_T dy}}{\frac{d^2\sigma_{pp}}{dp_T dy}}
@@ -686,7 +689,7 @@ Experimentally, compared to pp collision where the QGP is not expected to be cre
 \end{center}
 \end{figure} 
 
-The jet $R_{AA}$ are all below 1 at RHIC and LHC \cite{ALICEJetRef,CMSJetSub}, which suggest jet quenching in AA collisions, supporting existence of QGP.
+The jet $R_{AA}$ are all below 1 at RHIC and LHC \cite{ALICEJetRef,CMSJetSub}, which suggests jet quenching in AA collisions, supporting existence of QGP.
 
 \subsection{Elliptic Flow} 
 
@@ -877,12 +880,12 @@ We can clearly see positive $v_2$ of charged particles at both RHIC and LHC, whi
  
 \subsection{Strangeness Enhancement} 
 
-As described in Section 1.4.6, the temperature of QGP is well above 100 MeV, which is much larger than the strange quark mass (about 95 MeV). Therefore, since $T_{QGP} > m_s$, in the thermally and chemically equilibrated QGP, strange quarks could be produced thermally via the pair production processes: $u \bar u \rightarrow s\bar s$$, d \bar d \rightarrow s\bar s$, and $gg \rightarrow s \bar s$, establishing the chemical abundance equilibrium \cite{SSEnhance}. Therefore, the strangeness content in the QGP is enhanced, which could be experimentally observed from enhancement of strange particle yields in $AA$ collisions compared to $pp$ collisions. A direct experimental observable is the ratio of strange hadron yield to pions in $AA$ and $pp$ collisions scaled by $N_{part}$. Figure \ref{PhiRAA1} and \ref{PhiRAA2} show the measurements on strange mesons and baryons to pion ratios in $AA$ and $pp$ collisions at RHIC and LHC 
+As described in Section 1.4.6, the temperature of QGP is well above 100 MeV, which is much larger than the strange quark mass (about 95 MeV). Therefore, since $T_{QGP} > m_s$, in the thermally and chemically equilibrated QGP, strange quarks could be produced thermally via the pair production processes: $u \bar u \rightarrow s\bar s$$, d \bar d \rightarrow s\bar s$, and $gg \rightarrow s \bar s$, establishing the chemical abundance equilibrium \cite{SSEnhance}. Therefore, the strangeness content in the QGP is enhanced, which could be experimentally observed from enhancement of strange particle yields in $AA$ collisions compared to $pp$ collisions. A direct experimental observable is the ratio of strange hadron yield to pions in $AA$ and $pp$ collisions scaled by $N_{part}$. Figure \ref{PhiRAA1} and \ref{PhiRAA2} show the measurements on strange mesons and baryons to pion ratios in $AA$ and $pp$ collisions at RHIC \cite{StrangeSTAR} and LHC \cite{StrangeALICE} 
 
 \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=0.50\textwidth]{Figures/Chapter1/STARPhiOverPi.png}
-\caption{The yield ratio of $\phi/\pi$ as a function $N_{part}$ in p + p, p + Au, and Au + Au from the STAR experiment at RHIC are shown above.}
+\caption{The yield ratio of $\phi/\pi$ as a function $N_{part}$ in $p + p$, p + Au, and Au + Au from the STAR experiment at RHIC are shown above.}
 \label{PhiRAA1}
 \end{center}
 \end{figure}   

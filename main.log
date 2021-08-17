@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 AUG 2021 16:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  17 AUG 2021 15:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -165,8 +165,41 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
-) (./main.aux
-(./cover.aux) (./contents.aux) (./chap1.aux
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/05/11 v1.16 mathematical typesetting tools
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count106
+\calc@Bcount=\count107
+\calc@Adimen=\dimen118
+\calc@Bdimen=\dimen119
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count108
+\calc@Cskip=\skip51
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count109
+\l_MT_multwidth_dim=\dimen120
+\origjot=\skip52
+\l_MT_shortvdotswithinadjustabove_dim=\dimen121
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen122
+\l_MT_above_intertext_sep=\dimen123
+\l_MT_below_intertext_sep=\dimen124
+\l_MT_above_shortintertext_sep=\dimen125
+\l_MT_below_shortintertext_sep=\dimen126
+)
+(./main.aux (./cover.aux) (./contents.aux) (./chap1.aux
 
 LaTeX Warning: Label `QCDPhaseDiagram' multiply defined.
 
@@ -227,31 +260,31 @@ LaTeX Warning: Label `BsBPPtCMS' multiply defined.
 ) (./chap6.aux) (./biblio.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count106
-\scratchdimen=\dimen118
+\scratchcounter=\count110
+\scratchdimen=\dimen127
 \scratchbox=\box33
-\nofMPsegments=\count107
-\nofMParguments=\count108
+\nofMPsegments=\count111
+\nofMParguments=\count112
 \everyMPshowfont=\toks20
-\MPscratchCnt=\count109
-\MPscratchDim=\dimen119
-\MPnumerator=\count110
-\makeMPintoPDFobject=\count111
+\MPscratchCnt=\count113
+\MPscratchDim=\dimen128
+\MPnumerator=\count114
+\makeMPintoPDFobject=\count115
 \everyMPtoPDFconversion=\toks21
 ) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -614,24 +647,8 @@ File: Figures/Chapter1/GlauDefColl.png Graphic file (type png)
 Package pdftex.def Info: Figures/Chapter1/GlauDefColl.png used on input line 54
 1.
 (pdftex.def)             Requested size: 281.85034pt x 140.92665pt.
-
-Overfull \hbox (124.35332pt too wide) detected at line 560
-\OMS/cmsy/m/n/12 h\OML/cmm/m/it/12 N\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^V\OT1/c
-mr/m/n/12 )\OMS/cmsy/m/n/12 i \OT1/cmr/m/n/12 = [] [][] \OML/cmm/m/it/12 T[]\OT
-1/cmr/m/n/12 ([])\OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1 \OMS/cmsy/m/n/12 ^^@ \OT1/
-cmr/m/n/12 [1 \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 (1 \OMS/cmsy/m/n/12 ^^@ \OML
-/cmm/m/it/12 ^^V\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 ([] \OMS/c
-msy/m/n/12 ^^@ []\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ^^[[]\OT1/cmr/m/n/12 ]\OMS/c
-msy/m/n/12 g[]\OML/cmm/m/it/12 d[]s \OT1/cmr/m/n/12 + [] [][] \OML/cmm/m/it/12 
-T[]\OT1/cmr/m/n/12 ([])\OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1 \OMS/cmsy/m/n/12 ^^@
- \OT1/cmr/m/n/12 [1 \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 (1 \OMS/cmsy/m/n/12 ^^
-@ \OML/cmm/m/it/12 ^^V\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 ([] 
-\OMS/cmsy/m/n/12 ^^@ []\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ^^[[]\OT1/cmr/m/n/12 ]
-\OMS/cmsy/m/n/12 g[]\OML/cmm/m/it/12 d[]s
- []
-
-
-Overfull \hbox (9.47856pt too wide) detected at line 567
+ [66 <./Figures/Chapter1/GlauDefColl.png>]
+Overfull \hbox (9.47856pt too wide) detected at line 570
 \OML/cmm/m/it/12 N[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 A [][] T[]\OT1/cmr/m/n/
 12 ([])\OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1 \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12
  [1 \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 ([] \OMS/cmsy/m/n/
@@ -643,46 +660,45 @@ sy/m/n/12 ^^@ []\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ^^[[]\OT1/cmr/m/n/12 ][]\OMS/
 cmsy/m/n/12 g\OML/cmm/m/it/12 d[]s
  []
 
-[66 <./Figures/Chapter1/GlauDefColl.png>]
 <Figures/Chapter1/NPartandNColl.png, id=270, 417.05812pt x 374.90062pt>
 File: Figures/Chapter1/NPartandNColl.png Graphic file (type png)
 
 <use Figures/Chapter1/NPartandNColl.png>
 Package pdftex.def Info: Figures/Chapter1/NPartandNColl.png used on input line 
-592.
+595.
 (pdftex.def)             Requested size: 216.81pt x 194.89795pt.
- [67]
-Underfull \vbox (badness 1755) has occurred while \output is active []
-
- [68 <./Figures/Chapter1/NPartandNColl.png>]
-<Figures/Chapter1/STARPt.png, id=279, 733.74126pt x 551.05875pt>
+ [67] [68 <./Figures/Chapter1/NPartandNColl.png>] <Figures/Chapter1/STARPt.png,
+ id=279, 733.74126pt x 551.05875pt>
 File: Figures/Chapter1/STARPt.png Graphic file (type png)
 
 <use Figures/Chapter1/STARPt.png>
-Package pdftex.def Info: Figures/Chapter1/STARPt.png used on input line 632.
+Package pdftex.def Info: Figures/Chapter1/STARPt.png used on input line 635.
 (pdftex.def)             Requested size: 203.80193pt x 153.05934pt.
 
 <Figures/Chapter1/STARNPart.png, id=280, 602.25pt x 432.61626pt>
 File: Figures/Chapter1/STARNPart.png Graphic file (type png)
 
 <use Figures/Chapter1/STARNPart.png>
-Package pdftex.def Info: Figures/Chapter1/STARNPart.png used on input line 633.
+Package pdftex.def Info: Figures/Chapter1/STARNPart.png used on input line 636.
 
 (pdftex.def)             Requested size: 211.17271pt x 151.6952pt.
+
+Underfull \vbox (badness 2126) has occurred while \output is active []
+
  [69]
 <Figures/Chapter1/STARUpsilon.png, id=284, 602.25pt x 432.61626pt>
 File: Figures/Chapter1/STARUpsilon.png Graphic file (type png)
 
 <use Figures/Chapter1/STARUpsilon.png>
 Package pdftex.def Info: Figures/Chapter1/STARUpsilon.png used on input line 64
-5.
+8.
 (pdftex.def)             Requested size: 225.48424pt x 161.97325pt.
 
 <Figures/Chapter1/CMSUpsilon.png, id=285, 410.2828pt x 379.4175pt>
 File: Figures/Chapter1/CMSUpsilon.png Graphic file (type png)
 
 <use Figures/Chapter1/CMSUpsilon.png>
-Package pdftex.def Info: Figures/Chapter1/CMSUpsilon.png used on input line 646
+Package pdftex.def Info: Figures/Chapter1/CMSUpsilon.png used on input line 649
 .
 (pdftex.def)             Requested size: 173.44534pt x 160.39635pt.
 
@@ -690,24 +706,24 @@ Package pdftex.def Info: Figures/Chapter1/CMSUpsilon.png used on input line 646
 File: Figures/Chapter1/DijetEvt.png Graphic file (type png)
 
 <use Figures/Chapter1/DijetEvt.png>
-Package pdftex.def Info: Figures/Chapter1/DijetEvt.png used on input line 660.
+Package pdftex.def Info: Figures/Chapter1/DijetEvt.png used on input line 663.
 (pdftex.def)             Requested size: 216.81pt x 188.31386pt.
-
-<Figures/Chapter1/JetELoss.png, id=287, 204.01219pt x 134.00063pt>
-File: Figures/Chapter1/JetELoss.png Graphic file (type png)
-
-<use Figures/Chapter1/JetELoss.png>
-Package pdftex.def Info: Figures/Chapter1/JetELoss.png used on input line 671.
-(pdftex.def)             Requested size: 195.12767pt x 128.17088pt.
  [70 <./Figures/Chapter1/STARPt.png> <./Figures/Chapter1/STARNPart.png>] [71 <.
 /Figures/Chapter1/STARUpsilon.png> <./Figures/Chapter1/CMSUpsilon.png> <./Figur
 es/Chapter1/DijetEvt.png>]
+<Figures/Chapter1/JetELoss.png, id=298, 204.01219pt x 134.00063pt>
+File: Figures/Chapter1/JetELoss.png Graphic file (type png)
+
+<use Figures/Chapter1/JetELoss.png>
+Package pdftex.def Info: Figures/Chapter1/JetELoss.png used on input line 674.
+(pdftex.def)             Requested size: 195.12767pt x 128.17088pt.
+
 <Figures/Chapter1/HadronAngularSTAR.png, id=299, 395.22656pt x 276.28218pt>
 File: Figures/Chapter1/HadronAngularSTAR.png Graphic file (type png)
 
 <use Figures/Chapter1/HadronAngularSTAR.png>
 Package pdftex.def Info: Figures/Chapter1/HadronAngularSTAR.png used on input l
-ine 682.
+ine 685.
 (pdftex.def)             Requested size: 238.49231pt x 166.71912pt.
 
 <Figures/Chapter1/JetRAAALICE.png, id=300, 569.12625pt x 587.19376pt>
@@ -715,31 +731,29 @@ File: Figures/Chapter1/JetRAAALICE.png Graphic file (type png)
 
 <use Figures/Chapter1/JetRAAALICE.png>
 Package pdftex.def Info: Figures/Chapter1/JetRAAALICE.png used on input line 68
-3.
+6.
 (pdftex.def)             Requested size: 173.44534pt x 178.95496pt.
-
-<Figures/Chapter1/ReactionPlane.jpg, id=301, 385.44pt x 278.4804pt>
+ [72 <./Figures/Chapter1/JetELoss.png (PNG copy)>] <Figures/Chapter1/ReactionPl
+ane.jpg, id=304, 385.44pt x 278.4804pt>
 File: Figures/Chapter1/ReactionPlane.jpg Graphic file (type jpg)
 
 <use Figures/Chapter1/ReactionPlane.jpg>
 Package pdftex.def Info: Figures/Chapter1/ReactionPlane.jpg used on input line 
-697.
+700.
 (pdftex.def)             Requested size: 173.44534pt x 125.31076pt.
- [72 <./Figures/Chapter1/JetELoss.png (PNG copy)>]
-Overfull \hbox (16.35733pt too wide) in paragraph at lines 709--710
+
+Overfull \hbox (16.35733pt too wide) in paragraph at lines 712--713
 []\T1/cmr/m/n/12 Since the par-ti-cle emis-sion is az-imuthally anisotropic, we
  can ex-pand the $\OML/cmm/m/it/12 F\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 p[]; ^^^;
  y\OT1/cmr/m/n/12 ) =
  []
 
 
-Underfull \vbox (badness 2486) has occurred while \output is active []
+Underfull \vbox (badness 5022) has occurred while \output is active []
 
  [73 <./Figures/Chapter1/HadronAngularSTAR.png> <./Figures/Chapter1/JetRAAALICE
 .png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [74 <./Figures/Chapter1/ReactionPlane.jpg>] [75] [76]
+[74 <./Figures/Chapter1/ReactionPlane.jpg>] [75] [76]
 Package epstopdf Info: Source file: <Figures/Chapter1/STARV2Plot.eps>
 (epstopdf)                    date: 2021-07-08 20:00:44
 (epstopdf)                    size: 197874 bytes
@@ -749,7 +763,7 @@ to.pdf>
 (epstopdf)                    size: 7870 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Chapter1/STARV2Plo
 t-eps-converted-to.pdf Figures/Chapter1/STARV2Plot.eps>
-(epstopdf)             \includegraphics on input line 869.
+(epstopdf)             \includegraphics on input line 872.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/Chapter1/STARV2Plot-eps-converted-to.pdf, id=320, 233.87375pt x 164.61
@@ -757,7 +771,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: Figures/Chapter1/STARV2Plot-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/Chapter1/STARV2Plot-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/Chapter1/STARV2Plot-eps-converted-to.pdf used 
-on input line 869.
+on input line 872.
 (pdftex.def)             Requested size: 195.12767pt x 137.34879pt.
 
 <Figures/Chapter1/ALICEV2Plot.png, id=321, 392.21532pt x 285.31593pt>
@@ -765,18 +779,15 @@ File: Figures/Chapter1/ALICEV2Plot.png Graphic file (type png)
 
 <use Figures/Chapter1/ALICEV2Plot.png>
 Package pdftex.def Info: Figures/Chapter1/ALICEV2Plot.png used on input line 87
-0.
+3.
 (pdftex.def)             Requested size: 195.12767pt x 141.94798pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [77]
 <Figures/Chapter1/STARPhiOverPi.png, id=325, 882.29625pt x 580.1675pt>
 File: Figures/Chapter1/STARPhiOverPi.png Graphic file (type png)
 
 <use Figures/Chapter1/STARPhiOverPi.png>
 Package pdftex.def Info: Figures/Chapter1/STARPhiOverPi.png used on input line 
-884.
+887.
 (pdftex.def)             Requested size: 216.81pt x 142.56277pt.
 
 <Figures/Chapter1/ALICEStrange.png, id=326, 597.23125pt x 845.1575pt>
@@ -784,11 +795,8 @@ File: Figures/Chapter1/ALICEStrange.png Graphic file (type png)
 
 <use Figures/Chapter1/ALICEStrange.png>
 Package pdftex.def Info: Figures/Chapter1/ALICEStrange.png used on input line 8
-92.
+95.
 (pdftex.def)             Requested size: 260.17464pt x 368.18217pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [78 <./Figures/Chapter1/STARV2Plot-eps-converted-to.pdf> <./Figures/Chapter1/A
 LICEV2Plot.png>] [79 <./Figures/Chapter1/STARPhiOverPi.png> <./Figures/Chapter1
 /ALICEStrange.png>]
@@ -799,7 +807,7 @@ Underfull \vbox (badness 4634) has occurred while \output is active []
 File: Figures/Chapter1/HQDiagram.jpg Graphic file (type jpg)
 
 <use Figures/Chapter1/HQDiagram.jpg>
-Package pdftex.def Info: Figures/Chapter1/HQDiagram.jpg used on input line 947.
+Package pdftex.def Info: Figures/Chapter1/HQDiagram.jpg used on input line 950.
 
 (pdftex.def)             Requested size: 195.12767pt x 133.7316pt.
  [82 <./Figures/Chapter1/HQDiagram.jpg>]
@@ -807,35 +815,35 @@ Package pdftex.def Info: Figures/Chapter1/HQDiagram.jpg used on input line 947.
 File: Figures/Chapter1/HQVacuum.png Graphic file (type png)
 
 <use Figures/Chapter1/HQVacuum.png>
-Package pdftex.def Info: Figures/Chapter1/HQVacuum.png used on input line 959.
+Package pdftex.def Info: Figures/Chapter1/HQVacuum.png used on input line 962.
 (pdftex.def)             Requested size: 199.4681pt x 131.71202pt.
 
 <Figures/Chapter1/HQQGP.png, id=354, 601.4972pt x 451.6875pt>
 File: Figures/Chapter1/HQQGP.png Graphic file (type png)
 
 <use Figures/Chapter1/HQQGP.png>
-Package pdftex.def Info: Figures/Chapter1/HQQGP.png used on input line 960.
+Package pdftex.def Info: Figures/Chapter1/HQQGP.png used on input line 963.
 (pdftex.def)             Requested size: 208.13574pt x 156.29413pt.
 
 <Figures/Chapter1/Charm.png, id=355, 598.235pt x 574.145pt>
 File: Figures/Chapter1/Charm.png Graphic file (type png)
 
 <use Figures/Chapter1/Charm.png>
-Package pdftex.def Info: Figures/Chapter1/Charm.png used on input line 974.
+Package pdftex.def Info: Figures/Chapter1/Charm.png used on input line 977.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
 <Figures/Chapter1/Beauty.png, id=356, 598.235pt x 574.145pt>
 File: Figures/Chapter1/Beauty.png Graphic file (type png)
 
 <use Figures/Chapter1/Beauty.png>
-Package pdftex.def Info: Figures/Chapter1/Beauty.png used on input line 975.
+Package pdftex.def Info: Figures/Chapter1/Beauty.png used on input line 978.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
  [83 <./Figures/Chapter1/HQVacuum.png> <./Figures/Chapter1/HQQGP.png>]
 <Figures/Chapter1/FFProcess.png, id=362, 1220.56pt x 273.02pt>
 File: Figures/Chapter1/FFProcess.png Graphic file (type png)
 
 <use Figures/Chapter1/FFProcess.png>
-Package pdftex.def Info: Figures/Chapter1/FFProcess.png used on input line 985.
+Package pdftex.def Info: Figures/Chapter1/FFProcess.png used on input line 988.
 
 (pdftex.def)             Requested size: 433.62pt x 96.99568pt.
 
@@ -848,21 +856,21 @@ File: Figures/Chapter1/FFPeterson.png Graphic file (type png)
 
 <use Figures/Chapter1/FFPeterson.png>
 Package pdftex.def Info: Figures/Chapter1/FFPeterson.png used on input line 109
-2.
+5.
 (pdftex.def)             Requested size: 281.85034pt x 270.50523pt.
  [86 <./Figures/Chapter1/FFPeterson.png>]
 [87] <Figures/Chapter1/LHCbFFs.png, id=377, 912.40875pt x 608.2725pt>
 File: Figures/Chapter1/LHCbFFs.png Graphic file (type png)
 
 <use Figures/Chapter1/LHCbFFs.png>
-Package pdftex.def Info: Figures/Chapter1/LHCbFFs.png used on input line 1144.
+Package pdftex.def Info: Figures/Chapter1/LHCbFFs.png used on input line 1147.
 (pdftex.def)             Requested size: 260.17464pt x 173.443pt.
 
 <Figures/Chapter1/LHCbFFpT.png, id=378, 988.69376pt x 700.6175pt>
 File: Figures/Chapter1/LHCbFFpT.png Graphic file (type png)
 
 <use Figures/Chapter1/LHCbFFpT.png>
-Package pdftex.def Info: Figures/Chapter1/LHCbFFpT.png used on input line 1145.
+Package pdftex.def Info: Figures/Chapter1/LHCbFFpT.png used on input line 1148.
 
 (pdftex.def)             Requested size: 260.17464pt x 184.3585pt.
 
@@ -870,10 +878,10 @@ Package pdftex.def Info: Figures/Chapter1/LHCbFFpT.png used on input line 1145.
 File: Figures/Chapter1/LHCbFFy.png Graphic file (type png)
 
 <use Figures/Chapter1/LHCbFFy.png>
-Package pdftex.def Info: Figures/Chapter1/LHCbFFy.png used on input line 1146.
+Package pdftex.def Info: Figures/Chapter1/LHCbFFy.png used on input line 1149.
 (pdftex.def)             Requested size: 260.17464pt x 181.20712pt.
 
-Overfull \hbox (0.55865pt too wide) in paragraph at lines 1153--1154
+Overfull \hbox (0.55865pt too wide) in paragraph at lines 1156--1157
 []\T1/cmr/m/n/12 In terms of uni-ver-sal-ity, ac-cord-ing to Strangeness Quark 
 Mat-ter Con-fer-ence (SQM)
  []
@@ -883,7 +891,7 @@ File: Figures/Chapter1/ALICECharmFF.png Graphic file (type png)
 
 <use Figures/Chapter1/ALICECharmFF.png>
 Package pdftex.def Info: Figures/Chapter1/ALICECharmFF.png used on input line 1
-157.
+160.
 (pdftex.def)             Requested size: 225.48424pt x 218.17204pt.
  [88] [89 <./Figures/Chapter1/LHCbFFs.png> <./Figures/Chapter1/LHCbFFpT.png> <.
 /Figures/Chapter1/LHCbFFy.png>] [90 <./Figures/Chapter1/ALICECharmFF.png>]
@@ -892,14 +900,14 @@ File: Figures/Chapter1/Collisional.png Graphic file (type png)
 
 <use Figures/Chapter1/Collisional.png>
 Package pdftex.def Info: Figures/Chapter1/Collisional.png used on input line 12
-11.
+14.
 (pdftex.def)             Requested size: 151.76964pt x 121.87013pt.
 
 <Figures/Chapter1/Radiative.png, id=395, 426.09187pt x 451.6875pt>
 File: Figures/Chapter1/Radiative.png Graphic file (type png)
 
 <use Figures/Chapter1/Radiative.png>
-Package pdftex.def Info: Figures/Chapter1/Radiative.png used on input line 1212
+Package pdftex.def Info: Figures/Chapter1/Radiative.png used on input line 1215
 .
 (pdftex.def)             Requested size: 151.76964pt x 160.8912pt.
  [91]
@@ -907,7 +915,7 @@ Package pdftex.def Info: Figures/Chapter1/Radiative.png used on input line 1212
 File: Figures/Chapter1/ADSCFT.png Graphic file (type png)
 
 <use Figures/Chapter1/ADSCFT.png>
-Package pdftex.def Info: Figures/Chapter1/ADSCFT.png used on input line 1222.
+Package pdftex.def Info: Figures/Chapter1/ADSCFT.png used on input line 1225.
 (pdftex.def)             Requested size: 195.12767pt x 132.53452pt.
  [92 <./Figures/Chapter1/Collisional.png> <./Figures/Chapter1/Radiative.png> <.
 /Figures/Chapter1/ADSCFT.png>]
@@ -916,18 +924,18 @@ File: Figures/Chapter1/CharmDeadCone.png Graphic file (type png)
 
 <use Figures/Chapter1/CharmDeadCone.png>
 Package pdftex.def Info: Figures/Chapter1/CharmDeadCone.png used on input line 
-1246.
+1249.
 (pdftex.def)             Requested size: 368.57964pt x 101.931pt.
  [93 <./Figures/Chapter1/CharmDeadCone.png>]
 
-LaTeX Warning: Citation `EVR' on page 94 undefined on input line 1268.
+LaTeX Warning: Citation `EVR' on page 94 undefined on input line 1271.
 
 <Figures/Chapter1/LadderDiagram.png, id=412, 390.258pt x 58.2978pt>
 File: Figures/Chapter1/LadderDiagram.png Graphic file (type png)
 
 <use Figures/Chapter1/LadderDiagram.png>
 Package pdftex.def Info: Figures/Chapter1/LadderDiagram.png used on input line 
-1277.
+1280.
 (pdftex.def)             Requested size: 433.62pt x 64.77625pt.
  [94 <./Figures/Chapter1/LadderDiagram.png>] [95]) [96]
 \openout2 = `chap2.aux'.
@@ -4209,20 +4217,20 @@ Low.pdf, page is rotated 90 degrees>]) [271]
 
 
 ] [273] [274] [275] [276] [277]
-Underfull \hbox (badness 1728) in paragraph at lines 138--139
+Underfull \hbox (badness 1728) in paragraph at lines 139--140
 []\T1/cmr/m/n/12 B. B. Back, ``Stud-ies of mul-ti-plic-ity in rel-a-tivis-tic h
 eavy-ion col-li-sions'',
  []
 
-[278] [279] [280] [281] [282] [283] [284] [285] [286] [287]
-Underfull \hbox (badness 6188) in paragraph at lines 309--310
+[278] [279] [280] [281] [282] [283] [284] [285] [286]
+Underfull \hbox (badness 6188) in paragraph at lines 322--323
 []\T1/cmr/m/n/12 A. Penzo and Y. Onel, ``The CMS-HF quartz fiber calorime-ters'
 ',
  []
 
-[288] [289] [290]
+[287] [288]
 No file main.bbl.
-) [291] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+) [289] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
 (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./biblio.aux))
 
 LaTeX Warning: There were undefined references.
@@ -4231,15 +4239,15 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
  )
-(\end occurred when \ifx on line 56 was incomplete) 
+(\end occurred when \ifx on line 59 was incomplete) 
 Here is how much of TeX's memory you used:
- 5115 strings out of 493089
- 107884 string characters out of 6134842
- 156848 words of memory out of 5000000
- 8050 multiletter control sequences out of 15000+600000
+ 5637 strings out of 493089
+ 117207 string characters out of 6134842
+ 168262 words of memory out of 5000000
+ 8561 multiletter control sequences out of 15000+600000
  24964 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,14n,23p,2355b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,14n,26p,2355b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/tex
 mf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-
@@ -4273,10 +4281,10 @@ b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
 usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
-Output written on main.pdf (291 pages, 23008169 bytes).
+Output written on main.pdf (289 pages, 23004011 bytes).
 PDF statistics:
- 6311 PDF objects out of 7423 (max. 8388607)
- 3018 compressed objects within 31 object streams
+ 6305 PDF objects out of 7423 (max. 8388607)
+ 3014 compressed objects within 31 object streams
  0 named destinations out of 1000 (max. 500000)
  1661 words of extra memory for PDF output out of 10000 (max. 10000000)
 
