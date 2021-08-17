@@ -72,7 +72,9 @@ An excellent agreement between theoretical predictions and experimental results 
 
 \subsection{Perturbative QCD}
 
-It is mathematically proven that there is in general no closed form expression for the partition function $Z[J(x)]$ Standard Model Lagrangian under the Quantum Field Theory framework.
+%It is mathematically proven that there is in general no closed form expression for the partition function $Z[J(x)]$ Standard Model Lagrangian under the Quantum Field Theory framework.
+
+So far, there is not any closed form expression yet for the partition function $Z[J(x)]$ Standard Model Lagrangian under the Quantum Field Theory framework.
 
 \begin{equation}
 Z[J(x)] = \int \mathcal{D}[\phi(x)] e^{iS + \int d^4 x J(x) \phi(x)}
@@ -96,15 +98,15 @@ The QCD factorization theorem states that in events with hadrons as incoming par
 
 \begin{figure}[hbtp]
 \begin{center}
-\includegraphics[width=0.75\textwidth]{Figures/Chapter1/QCDFactorizationTheorem.png}
-\caption{The QCD factorization theorem applied to a pp collision event involving in soft and hard processes are shown above.}
+\includegraphics[width=0.75\textwidth]{Figures/Chapter1/QCDFacNew.png}
+\caption{The QCD factorization theorem applied to study charm hadron production in a $pp$ collision event involving in soft and hard processes are shown above.}
 \label{QCDFacTheo}
 \end{center}
 \end{figure} 
 
 The hard processes are encoded in the factor of partonic cross sections while the soft processes are measured in experiments. Physicists employ parton distribution function (PDF), defined as the probability of finding a particle with a certain longitudinal momentum fraction $x$ at resolution scale of $\mu^2$, to describe the initial kinematic of partons inside hadrons \cite{PDFRef} and fragmentation function (FF), defined as the probability of a parton turn into a hadron $D_i^h(z)$ for a given energy fraction of the parton $z$ at resolution scale of $\mu^2$, to describe the hadronization process of partons \cite{QCDFFunc}. 
 
-In addition to PDF, we could also define nuclear PDF (nPDF) for \cite{nPDF} to describe the parton kinematics inside nucleus. nPDF could be understood as the PDF of nucleons modified by the nuclear environment. Both parton distribution function and fragmentation function are extracted in experiments.
+In addition to PDF, we could also define nuclear PDF (nPDF) for \cite{nPDFDef} to describe the parton kinematics inside nucleus. nPDF could be understood as the PDF of nucleons modified by the nuclear environment. Both parton distribution function and fragmentation function are extracted in experiments.
 
 Physicists apply QCD factorization theorem to perform pQCD calculations and compare them with hadron spectra in electron-positron ($e^+e^-$), electron-proton ($ep$), and proton-proton ($pp$) collisions.
 
@@ -128,7 +130,7 @@ The formation process hadrons from partons is called haronization. Because in ex
 
 \subsection{Initial State and Final Effect}
 
-In high energy proton-nucleus ($pA$) collisions, protons scatter off nucleons inside nuclei. Assuming QCD factorization still holds, nPDF could be applied to calculate the cross section of particle production. The initial state effects of nuclei including event-by-event geometry fluctuations due to nuclear dynamics \cite{GuntherV3}, nuclear shadowing effect \cite{IntroShadow}, EMC effect \cite{EMC} will modify the PDFs of nucleons in nuclei compare to PDFs of nucleons in vacuum. 
+In high energy proton-nucleus ($pA$) collisions, protons scatter off nucleons inside nuclei. Assuming QCD factorization still holds, nPDF could be applied to calculate the cross section of particle production. The initial state effects of nuclei including event-by-event geometry fluctuations due to nuclear dynamics \cite{GuntherV3}, nuclear shadowing effect \cite{NuclearShadowing}, EMC effect \cite{EMC} will modify the PDFs of nucleons in nuclei compare to PDFs of nucleons in vacuum. 
 
 In the final state, the struck parton will lose energy from the interaction with the nuclear fragment and modify the final state hadron spectra. Because the parton-hadron interaction is generally non-perturbative, to retain the formula of QCD factorization theorem, the parton FF is modified \cite{CNEEFF}. These initial stage and final stage effects in $pA$ collision are call cold nuclear matter effects. 
 
@@ -237,7 +239,7 @@ In a system of interacting quarks and gluons at $\mu_B=0$, based on lattice QCD 
 
 \begin{figure}[hbtp]
 \begin{center}
-\includegraphics[width=0.60\textwidth]{Figures/Chapter1/LatticeData.png}
+\includegraphics[width=0.60\textwidth]{Figures/Chapter1/LQCDNew.png}
 \caption{The reduced energy density $\epsilon/T^4$ as a function of temperature $T$ for different number of flavor scenarios from the lattice QCD calculations (data points) and the interpolation curves are shown above.}
 \label{QCDPhaseDiagram}
 \end{center}
