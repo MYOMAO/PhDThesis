@@ -14,7 +14,7 @@ In this thesis, the analysis tools include Macbook computers, MIT and CERN high 
 
 \subsection{Physics Goals}
 
-The exclusive production of b hadrons in different collision systems are necessary to study beauty energy loss and hadronization mechanisms. In this thesis, we propose to fully reconstruct $B^0_s$ ($b\bar s$) and $B^+$ ($\bar b u$) mesons in pp and PbPb collisions at $\sqrt{s_{NN}} = $ 5.02 TeV with the CMS experiment. We aim at measuring precisely their cross section, yield ratios, and nuclear modification factor of fully reconstructed $B^0_s$ and $B^+$ mesons via the decay channels of  to investigate beauty quark production and hadronization in vacuum and QGP. We hope to have a conclusive measurement of $B^0_s/B^+$ ratio to pinpoint the effect of strangeness enhancement in QGP on beauty hadronization and test theoretical model calculations \cite{StrangetoLight} with both fragmentation \cite{} and quark coalescence \cite{} mechanisms. Therefore, we would like to present our experimental measure over a width range of $p_T$ and centrality. We are particularly interested in the very low $p_T$ region where the slow moving beauty quark will pick up the nearby light quarks in the QGP while such mechanism is not expected to occur in the vacuum \cite{}. The $R_{AA}$ down to low $p_T$ will constrain understand beauty quark energy mechanism in the QGP medium. These will studies will be crucial for us to understand beauty quark diffusion coefficient and probe the inner workings of QGP in order to provide insights with the one of the open question in high energy nuclear physics. 
+The exclusive production of b hadrons in different collision systems are necessary to study beauty energy loss and hadronization mechanisms. In this thesis, we propose to fully reconstruct $B^0_s$ ($b\bar s$) and $B^+$ ($\bar b u$) mesons in $pp$ and PbPb collisions at $\sqrt{s_{NN}} = $ 5.02 TeV with the CMS experiment. We aim at measuring precisely their cross section, yield ratios, and nuclear modification factor of fully reconstructed $B^0_s$ and $B^+$ mesons via the decay channels to investigate beauty quark production and hadronization in vacuum and QGP. We hope to have a conclusive measurement of $B^0_s/B^+$ ratio to pinpoint the effect of strangeness enhancement in QGP on beauty hadronization and test theoretical model calculations \cite{StrangetoLight} with both jet fragmentation \cite{JetFrag} and quark coalescence \cite{QuarkCoal} mechanisms. Therefore, we would like to present our experimental measure over a width range of $p_T$ and centrality. We are particularly interested in the low and intermediate $p_T$ regions where the slow moving beauty quarks will pick up nearby light quarks in the color dense QGP environment while such mechanism is not expected to occur in the vacuum \cite{HQRaff}. The $R_{AA}$ down to low $p_T$ will constrain understand beauty quark energy mechanism in the QGP medium. These will studies will be crucial for us to understand beauty quark diffusion coefficient and probe the inner workings of QGP in order to provide insights with the one of the open question in high energy nuclear physics. 
 
 \subsection{General Workflow}
 
@@ -24,7 +24,7 @@ Figure \ref{BsBPWorkFlow} shows workflow we designed to fully reconstructed $B^0
 
 \begin{figure}[hbtp]
 \begin{center}
-\includegraphics[width=0.65\textwidth]{Figures/Chapter5/BsBPWorkFlow.pdf}
+\includegraphics[width=0.75\textwidth]{Figures/Chapter5/BsBPWorkFlow.pdf}
 \caption{The block diagram of the workflow with major steps for both B-meson cross section measurement is shown above.}
 \label{BsBPWorkFlow}
 \end{center}
@@ -34,7 +34,7 @@ Figure \ref{BsBPRECO} shows pictorially the decay topology of fully reconstructe
 
 \begin{figure}[hbtp]
 \begin{center}
-\includegraphics[width=0.86\textwidth]{Figures/Chapter5/BsBPRECO.pdf}
+\includegraphics[width=1.05\textwidth]{Figures/Chapter5/BsBPRECO.pdf}
 \caption{The strategies to fully reconstruct $B^0_s$ and $B^+$ in the selected exclusive decay modes are shown above.}
 \label{BsBPRECO}
 \end{center}
@@ -80,7 +80,7 @@ PbPb & \verb#/HIDoubleMuonPsiPeri/HIRun2018A-04Apr2019-v1/AOD# & \verb# HLT_HIL3
 \end{center}
 \end{table}
 
-The details of the dimuon trigger selection to collect the data sample is explained in 2.2.5. In addition, an Muon JSON to select good luminosity sections in the PbPb dataset is applied. Both $B^0_s$ and $B^+$ data come from this sample. However, in the later stage, the B meson candidates are saved in different channels based on the reconstruction.
+The details of the dimuon trigger selection to collect the data sample is explained in 2.2.5. In addition, an Muon JSON to select good luminosity sections in the PbPb dataset is applied. Both $B^0_s$ and $B^+$ data come from this sample. However, in the later stage, the B-meson candidates are saved in different channels based on the reconstruction.
 
 \subsection{Monte Carlo Simulations Samples}
 
@@ -88,7 +88,7 @@ Dedicated PbPb $B^0_s$ and $B^+$ samples are generated in order to estimate the 
 
 For $B^0_s$, only signal events were kept with at least one $B^0_s$ (forced to decay through the channel $B^0_s \rightarrow J/\psi \phi \rightarrow \mu^+\mu^-K^+K^-$ by means of the {\sc evtgen} package~\cite{EvtGen}), with $p_{T}>$ 5.0 GeV/c, and $|\eta|<$ 2.4. In addition, the $J/\psi$ and $\phi$ meson, are forced to decay in the two muons and two kaons respectively. Final state radiations are generated using {\sc photos}~\cite{PHOTOS}. The selected signal B mesons {\sc PYTHIA8} events were embedded into a PbPb background simulated with the {\sc HYDJET}  (version 1.8, tune ``Drum'' for the prompt and non-prompt $J/\psi$ MC and tune "Cymbal5Ev8" for the $B^0_s$ signal MC)~\cite{HYDJET} event generator.
 
-For $B^+$, similar requirements for MC generation are applied except a different decay channel $B^0_s \rightarrow J/\psi K^+ \rightarrow \mu^+\mu^-K^+$ is used.
+For $B^+$, similar requirements for MC generation are applied except a different decay channel $B^+ \rightarrow J/\psi K^+ \rightarrow \mu^+\mu^-K^+$ is used.
 
 For $B^0_s$ and $B^+$, around fifty thousand events were generated in 5 $\hat{p}_{T}$ bins, with boundaries of $\hat{p}_{T} >$ 0, 5, 15, 30, 50, in both signal only, and embedded samples. The high $\hat{p}_{T}$ selections are used to enrich the high $p_T$ B meson statistics in order to perform efficiency correction. 
 
@@ -375,7 +375,7 @@ Nevertheless, the event multiplicity is not used in PbPb analysis. It will be us
 
 \section{B meson Reconstruction} 
 
-Now we look into each events of the PbPb dimuon dataset. It turns out that there is no PU in any event. Therefore, only one primary vertex for each event. We can then reconstruct the B meson candidates according to the final state muons and kaons tracks. In CMS, a dedicated software named ``\textit{Bfinder}'' is developed to perform B-meson reconstruction. Figure \ref{BsRECOWF} and \ref{BPRECOWF} show the workflow to fully reconstruct \textit{Bfinder} for $B^0_s$ and $B^+$ respectfully.
+Now we look into each events of the PbPb dimuon dataset. It turns out that there is no PU in any event. Therefore, only one primary vertex for each event. We can then reconstruct the B-meson candidates according to the final state muons and kaons tracks. In CMS, a dedicated software named ``\textit{Bfinder}'' is developed to perform B-meson reconstruction. Figure \ref{BsRECOWF} and \ref{BPRECOWF} show the workflow to fully reconstruct \textit{Bfinder} for $B^0_s$ and $B^+$ respectfully.
 
 
 \begin{figure}[h]
@@ -478,7 +478,7 @@ Table \ref{MuonAccCut} comes from the muon analysis in the 2018 PbPb dataset. Fi
 \begin{center}
 \includegraphics[width= 0.48\textwidth]{Figures/Chapter5/MuonAccPbPb.pdf}
 \includegraphics[width= 0.48\textwidth]{Figures/Chapter5/MuonAccPP.pdf}
-\caption{The total efficiency, including reconstruction, identification, and trigger, of a single muon in 2018 PbPb (left) and 2017 pp (right) are shown above. The black curve is the 2015 PbPb and pp 90\% muon efficiency boundary while the green curve is the 2017 pp and 2018 PbPb 90\% muon efficiency boundary. The green boundary is translated to numerical values in Table \ref{MuonAccCut}}
+\caption{The total efficiency, including reconstruction, identification, and trigger, of a single muon in 2018 PbPb (left) and 2017 $pp$ (right) are shown above. The black curve is the 2015 PbPb and $pp$ 90\% muon efficiency boundary while the green curve is the 2017 $pp$ and 2018 PbPb 90\% muon efficiency boundary. The green boundary is translated to numerical values in Table \ref{MuonAccCut}}
 \label{MuonAccPlot}
 \end{center}
 \end{figure}
@@ -501,14 +501,14 @@ In addition, a B-meson invariant mass window of $4 < m_B < 6$ GeV/c$^2$ is appli
 \section{Cut Optimization} 
 
 
-Given the high combinatorial background, particularly in PbPb collision where we have thousands of tracks per event \cite{PbPbMulti}, it is not possible to observe B-meson resonance by simply applying the preselection presented in the previous section. Figure \ref{} shows the invariant mass distribution of fully reconstructed $B^0_s$ and $B^+$ at $7 < p_T < 50$ GeV/c after the event, track, and muon selections.
+Given the high combinatorial background, particularly in PbPb collision where we have thousands of tracks per event \cite{PbPbMulti}, it is not possible to observe B-meson resonance by simply applying the preselection presented in the previous section. Figure \ref{BMassPreCut} shows the invariant mass distribution of fully reconstructed $B^0_s$ and $B^+$ at $7 < p_T < 50$ GeV/c after the event, track, and muon selections.
 
 \begin{figure}[h]
 \begin{center}
 \includegraphics[width= 0.48\textwidth]{Figures/Chapter5/BsMassPreCut.eps}
 \includegraphics[width= 0.48\textwidth]{Figures/Chapter5/BPMassPreCut.eps}
 \caption{The invariant mass distributions of fully reconstructed $B^0_s$ (left) and $B^+$ (right) after preselection are shown above.}
-\label{MuonAccPlot}
+\label{BMassPreCut}
 \end{center}
 \end{figure}
 
@@ -578,7 +578,7 @@ In statistics, many data analysis techniques only focus on one or two variables 
 \begin{center}
 \includegraphics[width= 0.48\textwidth]{Figures/Chapter5/Rectangular.pdf}
 \includegraphics[width= 0.48\textwidth]{Figures/Chapter5/MVA.pdf}
-\caption{The performance of traditional rectangular selection with a range of x and y (left) compared to the MVA method of a curve as a function of X and Y (right) are shown above. Here, we have the total signal S = 215 and the background B =  1000.}
+\caption{The performance of traditional rectangular selection with a range of $x$ and $y$ (left) compared to the MVA method of a curve as a function of X and Y (right) are shown above. Here, we have the total signal S = 215 and the background B =  1000.}
 \label{MVADemo}
 \end{center}
 \end{figure}
@@ -758,7 +758,34 @@ To determine the signal $S$, we do not directly look at the data. Instead, we us
 S = 2 R_{AA}^{2015Ref} L \sigma_{FONLL}^{pp\rightarrow b\bar b} \epsilon_{pre} \epsilon_{S} f(b\rightarrow B) BR
 \end{equation}
 
-According to our calculations, for $B^0_s$ at $10 < p_T < 15$ GeV/c, before the BDT selections, S = 47 and B = 20672. Now, we scan through a series of BDT values from -1 to 1 and compute their corresponding statistical significance. Figure \ref{WorkingPoint} shows the statistical significance as a function of BDT for $B^0_s$ and $B^+$ at $10 < p_T <  15$ GeV/c
+We know that since $B^+$ is more abundantly produced with large reconstructed efficiency since it has only one kaon track compared to $B^0_s$. Therefore, the $B^0_s$ signal statistics is more limited. Table \ref{BsSBCal} summarizes our calculations of $B^0_s$ $S$, $B$, and $S/B$ after event, track, and muon pre-selections.  
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The summary table signal and background estimation of $B^0_s$ in each $p_T$ and centrality bin in the analysis.}
+\vspace{1em}
+\label{BsSBCal}
+  \begin{tabular}{ |c|c|c|c|c|}
+    \hline 
+Centrality (\%) & $B^0_s$ $p_T$ (GeV/c) & Signal ($S$) & Background ($B$) & $S/B$ Ratio \\
+     \hline
+0 -- 90 & 7 -- 10 & 12 & 24234 & 0.000495  \\
+0 -- 90 & 10 -- 15 & 47 &14230  & 0.00330 \\
+0 -- 90 & 15 -- 20 &24 & 2457 & 0.00977 \\
+0 -- 90 & 20 -- 50 & 25 & 698 & 0.0358 \\
+0 -- 30 & 10 -- 50 & 64 &  16697 & 0.00383 \\
+30 -- 90 & 10 -- 50 &32 & 688 & 0.0465 \\
+0 -- 90 & 10 -- 50 & 96 &17385  &  0.00552\\
+     \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+Now, we scan through a series of BDT values from -1 to 1 and compute their corresponding statistical significance. Figure \ref{WorkingPoint} shows the statistical significance as a function of BDT for $B^0_s$ and $B^+$ at $10 < p_T <  15$ GeV/c
 
 \begin{figure}[h]
 \begin{center}
@@ -904,7 +931,7 @@ From the non-prompt background studies above, we can see that there are many sma
 \item {Case 4: Other contributions}
 \end{itemize}
 
-In Figure \ref{BMesonNPCon} the signal region is dominated by the $B^{0}$, $B^{+}$, and $B_{s}^{0} $ decays while the other channels are contributed on the left side of the mass spectrum. For both pp and PbPb data, the $B^{0}_{s} $ to $J/\psi$ + X  (orange region) makes a big contribution.
+In Figure \ref{BMesonNPCon} the signal region is dominated by the $B^{0}$, $B^{+}$, and $B_{s}^{0} $ decays while the other channels are contributed on the left side of the mass spectrum. For both $pp$ and PbPb data, the $B^{0}_{s} $ to $J/\psi$ + X  (orange region) makes a big contribution.
 
 \begin{figure}[ht!]
 \centering
@@ -925,7 +952,7 @@ The conclusion is that the NP peaking background contribution to the $B^0_s$ is 
 
 We veto the candidates from the inclusive NP $J/\psi$ MC sample that are matched to a genuine $B^+$ signal. The resulting B candidate mass spectrum in the inclusive $p_T$ range (5-100 GeV/c) is shown in Figure \ref{NPBP} for PbPb MC samples. 
 
-It is clear that these sources create a peaking structure in the region of $\rm M_{inv}<$5.20 GeV/c$^2$ as seen in Figure \ref{Bpeaks} after applying the optimal selection. This structure can be nicely fit with an error function as done previously in B proton-proton analyses \cite{CMSBPH}. In addition, there is a minor peak on the right shoulder ($\approx$5.34 GeV/c$^2$) of the nominal signal ($\approx$5.28 GeV/c$^2$), and this can be fit with an Gaussian function. There is additional combinatorial background which is fitted with a linear function. This contribution is absorbed in the total combinatorial background of our nominal channel of the main analysis. This will be described in details in Section 4.6. The shape of the NP background model function is used as template in the fit extraction procedure. 
+It is clear that these sources create a peaking structure in the region of $\rm M_{inv}<$5.20 GeV/c$^2$ as seen in Figure \ref{Bpeaks} after applying the optimal selection. This structure can be nicely fit with an error function as done previously in B-meson $pp$ analyses \cite{CMSBPH}. In addition, there is a minor peak on the right shoulder ($\approx$5.34 GeV/c$^2$) of the nominal signal ($\approx$5.28 GeV/c$^2$), and this can be fit with an Gaussian function. There is additional combinatorial background which is fitted with a linear function. This contribution is absorbed in the total combinatorial background of our nominal channel of the main analysis. This will be described in details in Section 4.6. The shape of the NP background model function is used as template in the fit extraction procedure. 
 
 Further MC studies have been done in order to identify the different channels that give rise to the non-prompt peaking structure in the $B^+$ invariant mass spectrum. Several main processes have been identified as follows:
 
@@ -1109,7 +1136,7 @@ Centrality (\%) & $B^+$ $p_T$ (GeV/c) & Gaus Mean (GeV/c$^2$) & Sig Yield ($N_S$
 \end{center}
 \end{table}
 
-At a glance, we can see that our fits looks good. In addition to the fits, the pull, defined as the ratio of the difference between the data and the fit to the statistical uncertainties of the data, are also shown above in Figure \ref{BsMassPt,BsMassCent,BPMassPt,BPMassCent}. We can see that the pull is basically consistent with 0 with a 2 $\sigma$ fluctuation, which suggests that our fit also looks good. A dedicated closure test on the fits will be conduct later to further validate our fits.
+At a glance, we can see that our fits looks good. In addition to the fits, the pull, defined as the ratio of the difference between the data and the fit to the statistical uncertainties of the data, are also shown above in Figure \ref{BsMassPt}, Figure \ref{BsMassCent}, Figure \ref{BPMassPt}, and Figure \ref{BPMassCent}. We can see that the pull is basically consistent with 0 with a 2$\sigma$ fluctuation, which suggests that our fit also looks good. A dedicated closure test on the fits will be conduct later to further validate our fits.
 
 \subsection{Signal Significance Estimation}
 
@@ -1187,7 +1214,7 @@ To carry out MC-Data comparison studies, the dedicated \textit{Splot} method is 
 
 %ADD DESCRIPTIONS OF SPLOT TECHNIQUE HERE BRO
 
-In order to obtain the \textit{Splot} weight, we first need to fit the data using a discriminating variable, namely the B meson candidates invariant mass. This method, like the one described in the previous section, assumes the discriminating variable chosen to be independent of the variables we wish to study. We then use the fit to attribute to each event two weights: $w_{S}$, which corresponds to the probability of it belonging to the signal, and $w_B$, which corresponds to the probability of fit belonging to the background. The weights are qualitatively demonstrated in Figure \ref{SplotPic}.
+In order to obtain the \textit{Splot} weight, we first need to fit the data using a discriminating variable, namely the B-meson candidates invariant mass. This method, like the one described in the previous section, assumes the discriminating variable chosen to be independent of the variables we wish to study. We then use the fit to attribute to each event two weights: $w_{S}$, which corresponds to the probability of it belonging to the signal, and $w_B$, which corresponds to the probability of fit belonging to the background. The weights are qualitatively demonstrated in Figure \ref{SplotPic}.
 
 
 \begin{figure}[h]
@@ -1263,9 +1290,9 @@ From Figure \ref{BPMCData}, the $B^+$ BDT variables in for all $p_T$ bins have o
 
 Now, we have clearly seen B-meson signals and extract their signal raw yields $N_S$ from their invariant distributions. In the next step, we need to correct the acceptance and selection efficiency of the B mesons in order to obtain the cross section. The following procedures define the method we use to determine B mesons acceptance and selection efficiency with B-meson MC samples:
 
-First, We count the total number of GEN-level B meson candidates reweighed by the centrality, PVz, and $\hat p_T$ as \textbf{NBGen} within the given B-meson rapidity region $|y| < 2.4$.
+First, We count the total number of GEN-level B-meson candidates reweighed by the centrality, PVz, and $\hat p_T$ as \textbf{NBGen} within the given B-meson rapidity region $|y| < 2.4$.
 
-Next, we count the number of generated B meson candidates passing the follow selection 
+Next, we count the number of generated B-meson candidates passing the follow selections
 
 \textbf{Muon track selections:}
 
@@ -1293,10 +1320,10 @@ p_T^{K}>0.9 GeV/c \\
 \label{eq:KaonTrackCut}
 \end{equation}
 
-to the generated B meson candidates denoted as \textbf{NPassAcc}.
+We denote those generated B-meson candidates passing selections as \textbf{NPassAcc}.
 
 
-Finally, we apply all the selections on the GEN-matched RECO B mesons. We count the reconstructed B meson candidates passing the selections mentioned in Section 4.5 ``Muon and $J/\psi$ candidates selections" and the optimal BDT selections in Table 3 in Section 4.1 and denote the number as \textbf{NSelPass}.
+Finally, we apply all the selections on the GEN-matched RECO B mesons. We count the reconstructed B-meson candidates passing the selections mentioned in Section 4.5 ``Muon and $J/\psi$ candidates selections" and the optimal BDT selections in Table 3 in Section 4.1 and denote the number as \textbf{NSelPass}.
 
 The acceptance is defined by: \textbf{acceptance = NPassAcc/NBGen}.
 
@@ -1323,7 +1350,7 @@ The total scale factor (SF) of two muons ($SF^{\mu\mu}$) is given by the followi
 SF^{\mu\mu} = id^{\mu_1} \times trk^{\mu_1}  \times trg^{\mu_1}  \times id^{\mu_2}  \times trk^{\mu_2}  \times trg^{\mu_2} 
 \end{equation}
 
-It should note that, as mentioned in Section 2.2.5, the dimuon PbPb triggered datasets consistent of one L2 muon and one L3 muon. In our analysis, the two muons used to reconstruct B-meson are made of either one L2 muon and one L3 muon (L2,L3) or two L3 muons (L3,L3). The muon type L2 and L3 only affects the trg SF. In the (L2,L3) case, we simply correct the scale factor according to their individual scale factor values. However, in the (L3,L3) case, we take treat them as the combination of (L2,L3) and (L3,L2) by considering one of the muon as L2 muon. Then we compute the SF for both cases and take the average of the two SF as the SF for  (L3,L3).  
+It should note that, as mentioned in Section 2.2.5, the dimuon PbPb triggered datasets consistent of one L2 muon and one L3 muon. In our analysis, the two muons used to reconstruct B-meson are made of either one L2 muon and one L3 muon (L2, L3) or two L3 muons (L3, L3). The muon type L2 and L3 only affects the trg SF. In the (L2, L3) case, we simply correct the scale factor according to their individual scale factor values. However, in the (L3, L3) case, we take treat them as the combination of (L2, L3) and (L3, L2) by considering one of the muon as L2 muon. Then we compute the SF for both cases and take the average of the two SF as the SF for (L3, L3).  
 
 \subsection{Traditional Efficiency Correction Results}
 
@@ -1338,7 +1365,7 @@ Traditionally, we simply compute the efficiency as a function of binned $p_T$ an
 \includegraphics[width=0.48\textwidth]{Figures/Chapter5/BsEff1DPtHis.png}
 \includegraphics[width=0.48\textwidth]{Figures/Chapter5/BsEff1DCentHis.png}
 \caption{The $B^0_s$ acceptance (top), selection efficiency (middle), and efficiency (bottom) as a function of $p_T$ (left) and event centrality (right) are shown respectfully above. We should note that there is no significant centrality dependence on the $B^0_s$ acceptance, which makes sense.}
-\label{BPMCData}
+\label{BsEffAll}
 \end{center}
 \end{figure}
 
@@ -1352,14 +1379,14 @@ Traditionally, we simply compute the efficiency as a function of binned $p_T$ an
 \includegraphics[width=0.48\textwidth]{Figures/Chapter5/BPEff1DPtHis.png}
 \includegraphics[width=0.48\textwidth]{Figures/Chapter5/BPEff1DCentHis.png}
 \caption{The $B^+$ acceptance (top), selection efficiency (middle), and efficiency (bottom) as a function of $p_T$ (left) and event centrality (right) are shown respectfully above. We should note that there is no significant centrality dependence on the $B^+$ acceptance, which makes sense.}
-\label{BPMCData}
+\label{BPEffAll}
 \end{center}
 \end{figure}
 
 
 \subsection{Analysis Challenges}
 
-Although B-meson $p_T$ and $y$ distributions are reasonably modeled by FONLL in pp collisions, the precise B-meson $p_T$ and $y$ distribution shapes are still unknown in PbPb, which could significantly affect the efficiency determination. In the following, we demonstrate of the generated B-meson kinematics how the unknown shape can affect the efficiency. 
+Although B-meson $p_T$ and $y$ distributions are reasonably modeled by FONLL in $pp$ collisions, the precise B-meson $p_T$ and $y$ distribution shapes are still unknown in PbPb, which could significantly affect the efficiency determination. In the following, we demonstrate of the generated B-meson kinematics how the unknown shape can affect the efficiency. 
 
 Since we know the efficiency is given by \textbf{$\alpha \times \epsilon$ = NSelPass/NBGen}. NBGen in the simulation could not represent the truth. A weight function $w(x)$ is defined as the ratio between the generated B-meson cross section to the cross section of actual B-meson in PbPb for some kinematic variable $x$ as follows
 
@@ -1443,7 +1470,7 @@ The $p_T$ bin width is 0.5 GeV/c from 5 - 10 GeV/c and 1 GeV/c from 10 - 50 GeV/
 
 \subsection{Data-Drive Efficiency Correction}
 
-Finally, we propose to correct the efficiency with a data-driven method. We correct the signal B-meson candidate efficiency. This can be done by looping B-meson data signal region candidates on the 2D $\frac{1}{\alpha \times \epsilon}$ map according their kinematics. Then, referring to techniques of the published $J/\psi$ analysis \cite{DataAve}, we compute the average of all signal B-meson candidate efficiency: $\langle\frac{1}{\alpha \times \epsilon} \rangle$ within the $p_T$ and centrality bins. Here, we call $\langle\frac{1}{\alpha \times \epsilon} \rangle$ as the efficiency correction factor. Mathematically, it is written as
+Finally, we propose to correct the efficiency with a data-driven method. We correct the signal B-meson candidate efficiency. This can be done by looping B-meson data signal region candidates on the 2D $\frac{1}{\alpha \times \epsilon}$ map according their kinematics. Then, referring to techniques of the published $J/\psi$ analysis \cite{TnPMethod}, we compute the average of all signal B-meson candidate efficiency: $\langle\frac{1}{\alpha \times \epsilon} \rangle$ within the $p_T$ and centrality bins. Here, we call $\langle\frac{1}{\alpha \times \epsilon} \rangle$ as the efficiency correction factor. Mathematically, it is written as
 
 \begin{equation}
 \langle\frac{1}{\alpha \times \epsilon} \rangle = \frac{1}{N} \sum_{i = 1}^{N} \frac{1}{\alpha_i \times \epsilon_i}
@@ -1745,7 +1772,7 @@ In conclusion, we can see that the biases of the $\langle \frac{1}{\alpha \times
 
 \subsubsection{Low Statistics Limit}
 
-We compute the efficiency correction factor $\langle \frac{1}{\alpha \times \epsilon}\rangle$ on each of the 2000 data-like MC samples. Then, we plot their percent deviation for all $p_T$ and centrality bins and compute their mean values. Our results are shown on Figure \ref{fig:LowStatClosure}
+We compute the efficiency correction factor $\langle \frac{1}{\alpha \times \epsilon}\rangle$ on each of the 2000 data-like MC samples. Then, we plot their percent deviation for all $p_T$ and centrality bins and compute their mean values. Our results are shown on Figure \ref{BsLowStatFig} and Figure \ref{BPLowStatFig}
 
 \begin{figure}[h]
 \begin{center}
@@ -1757,12 +1784,13 @@ We compute the efficiency correction factor $\langle \frac{1}{\alpha \times \eps
 \includegraphics[width= 0.32\textwidth]{Figures/Chapter5/BsEffONLY_30_90_-1.png}
 \includegraphics[width= 0.32\textwidth]{Figures/Chapter5/BsEffONLY_0_90_-1.png} 
  
-\caption{The percent deviation distributions of $B^0_s$  $\langle \frac{1}{\alpha \times \epsilon}\rangle$ to RECO/GEN for the data-like randomly sampled MC samples for 0 - 90\% at 7 - 10, 10 - 15, 15 - 20, and 20 - 50 GeV/c as well as 0 - 90\%, 0 - 30\%, and 30 - 90\% event centrality are shown respectfully above.} 
+\caption{The percent deviation distributions of $B^0_s$ $\langle \frac{1}{\alpha \times \epsilon}\rangle$ to RECO/GEN for the data-like randomly sampled MC samples for 0 - 90\% at 7 - 10, 10 - 15, 15 - 20, and 20 - 50 GeV/c as well as 0 - 90\%, 0 - 30\%, and 30 - 90\% event centrality are shown respectfully above.} 
 \label{BsLowStatFig} 
 \end{center}
 \end{figure}
 \clearpage
 
+\clearpage
 
 \begin{figure}[h]
 \begin{center}
@@ -1816,13 +1844,13 @@ The percent deviation of $B^0_s$ and $B^+$ efficiency correct factor $\langle \f
      Centrality &   $B^+$  $p_T$ (GeV/c) &   \% Dev \\
     \hline
     \hline
-0 - 90\% & 7 - 10 &  \textbf{-2.49\% }   \\ 
-0 - 90\% & 10 - 15 &  \textbf{-0.10\% }   \\ 
-0 - 90\% & 15 - 20 &   \textbf{-0.16\% }   \\ 
-0 - 90\% & 20 - 50 &  \textbf{+0.03\% }   \\ 
-0 - 90\% & 10 - 50 &  \textbf{-1.09\% }   \\ 
-0 - 30\% & 10 - 50 &   \textbf{-1.21\% }   \\ 
-30 - 90\% & 10 - 50 & \textbf{-3.03\% }   \\ 
+0 - 90\% & 7 - 10 &  \textbf{-2.58\% }   \\ 
+0 - 90\% & 10 - 15 &  \textbf{-0.43\% }   \\ 
+0 - 90\% & 15 - 20 &   \textbf{-1.53\% }   \\ 
+0 - 90\% & 20 - 50 &  \textbf{-0.50\% }   \\ 
+0 - 90\% & 10 - 50 &  \textbf{-0.28\% }   \\ 
+0 - 30\% & 10 - 50 &   \textbf{-0.57\% }   \\ 
+30 - 90\% & 10 - 50 & \textbf{-0.20\% }   \\ 
     \hline
     \hline
 \end{tabular}
@@ -2311,7 +2339,7 @@ The systematic uncertainties due to finite MC simulation events is particularly 
 
 \subsubsection{Residue $p_T$ Shape Effect}
 
-According to the B-meson measurement in pp collisions from LHCb in Figure \ref{BeautyFFLHCb}, we do not see significantly rapidity dependence of the B-meson. Assuming similar insignificant rapidity depend also holds in PbPb collisions, the rapidity does not contribute to the weigh function $w(x)$. Hence, only $p_T$ shape plays an important role in creating systematic uncertainties to selection efficiency. 
+According to the B-meson measurement in $pp$ collisions from LHCb in Figure \ref{BeautyFFLHCb}, we do not see significantly rapidity dependence of the B-meson. Assuming similar insignificant rapidity depend also holds in PbPb collisions, the rapidity does not contribute to the weigh function $w(x)$. Hence, only $p_T$ shape plays an important role in creating systematic uncertainties to selection efficiency. 
 
 As demonstrated in Section 4.10.4, in the limit of zero bin width, the uncertainties due to the unknown kinematic of B-mesons will be completely eliminated. However, since we have a very fine but still finite $p_T$ binning, there will still be residue effects on systematic uncertainties $p_T$ shape. To quantify the uncertainties, we simply apply the B $p_T$ weights obtained in Section 4.3.4 according to the fits functions obtained in Figure \ref{BsBptWeight} and Figure \ref{BPBptWeight}. 
 
@@ -2370,14 +2398,14 @@ We can see that the remaining $p_T$ systematic uncertainties are essentially neg
 
 \subsubsection{Total Uncertainties on Selection Efficiency}
 
-Hence, in summary, the total uncertainties due to selection efficiency are simply the sum in of uncertainties due to data-MC discrepancy, finite MC events, and the remaining B-meson $p_T$ shape in quadrature: efficiency = data-MC discrepancy $\oplus$ finite MC events $\oplus$ remaining B-meson $p_T$ shape. Table \ref{BsSelEff} and Table \ref{BPSelEff} summarize the selection efficiency of $B^0_s$ and $B^+$ respectfully 
+Hence, in summary, the total uncertainties due to selection efficiency are simply the sum in of uncertainties due to data-MC discrepancy, finite MC events, and the remaining B-meson $p_T$ shape in quadrature: efficiency = data-MC discrepancy $\oplus$ finite MC events $\oplus$ remaining B-meson $p_T$ shape. Table \ref{BsSelSum} and Table \ref{BPSelSum} summarize the selection efficiency of $B^0_s$ and $B^+$ respectfully 
 
 
 \begin{table}[h]
 \begin{center}
-\caption{The $B^0_s$ selection efficiency uncertainty in $p_T$ and centrality bin is summarized below.}
+\caption{The $B^0_s$ selection efficiency uncertainty is summarized below.}
 \vspace{1em}
-\label{BsPTShape}
+\label{BsSelSum}
   \begin{tabular}{| c | c |c | c| c| c| c| }
     \hline
      Centrality & $B^0_s$ $p_T$ (GeV/c) & MC-Data  & MC Stat. & $p_T$ Shape & Total Uncertainties \\
@@ -2400,9 +2428,9 @@ Hence, in summary, the total uncertainties due to selection efficiency are simpl
 
 \begin{table}[h]
 \begin{center}
-\caption{The $B^+$ selection efficiency uncertainty in $p_T$ and centrality bin is summarized below.}
+\caption{The $B^+$ selection efficiency uncertainty is summarized below.}
 \vspace{1em}
-\label{BsPTShape}
+\label{BPSelSum}
   \begin{tabular}{| c | c |c | c| c| c| c| }
     \hline
      Centrality & $B^+$ $p_T$ (GeV/c) & MC-Data  & MC Stat. & $p_T$ Shape & Total Uncertainties \\
@@ -2463,13 +2491,13 @@ Figure \ref{BsSigVar} and Figure \ref{BPSigVar} show examples of signal PDF vari
 \end{center}
 \end{figure}
 
-Next, we simply take the largest percent variations of the variated signal raw yields compared to the nominal ones and quote them as the systematic uncertainties. Table \ref{BsSigVarTable} and Table \ref{BsSigVarTable} summarize the signal PDF systematic uncertainties 
+Next, we simply take the largest percent variations of the variated signal raw yields compared to the nominal ones and quote them as the systematic uncertainties. Table \ref{BsSigVarTable} and Table \ref{BPSigVarTable} summarize the signal PDF systematic uncertainties 
 
 \begin{table}[h]
 \begin{center}
 \caption{The $B^0_s$ systematic uncertainty due to signal PDF variation in $p_T$ and centrality bin is summarized below.}
 \vspace{1em}
-\label{BsPTShape}
+\label{BsSigVarTable}
   \begin{tabular}{| c | c |c | c| c| c| c| }
     \hline
      Centrality & $B^0_s$ $p_T$ (GeV/c) & Triple Gaussian &  Fixed Mean & +10\% Width & -10\% Width  \\
@@ -2494,7 +2522,7 @@ Next, we simply take the largest percent variations of the variated signal raw y
 \begin{center}
 \caption{The $B^+$ systematic uncertainty due to signal PDF variation in $p_T$ and centrality bin is summarized below.}
 \vspace{1em}
-\label{BsPTShape}
+\label{BPSigVarTable}
   \begin{tabular}{| c | c |c | c| c| c| c| }
     \hline
      Centrality & $B^+$ $p_T$ (GeV/c) & Triple Gaussian &  Fixed Mean & +10\% Width & -10\% Width  \\
@@ -2549,7 +2577,7 @@ Again, we simply take the largest percent variations of the variated signal raw 
 \begin{center}
 \caption{The $B^0_s$ systematic uncertainty due to background PDF variation in $p_T$ and centrality bin is summarized below.}
 \vspace{1em}
-\label{BsPTShape}
+\label{BsBkgdVarTable}
   \begin{tabular}{| c | c |c | c| c| c| }
     \hline
      Centrality & $B^0_s$ $p_T$ (GeV/c) & First Order & Second Order  &  Third Order \\
@@ -2574,7 +2602,7 @@ Again, we simply take the largest percent variations of the variated signal raw 
 \begin{center}
 \caption{The $B^+$ systematic uncertainty due to background PDF variation in $p_T$ and centrality bin is summarized below.}
 \vspace{1em}
-\label{BsPTShape}
+\label{BPBkgdVarTable}
   \begin{tabular}{| c | c |c | c| c| c| }
     \hline
      Centrality & $B^+$ $p_T$ (GeV/c) & First Order & Second Order  &  Third Order \\
@@ -2583,7 +2611,7 @@ Again, we simply take the largest percent variations of the variated signal raw 
 0 - 90\% & 7 - 10 &   0.021\%  &  0.117\% & \textbf{0.093\%} \\ 
 0 - 90\% & 10 - 15 & 0.312\%  & 0.380\%  & \textbf{0.546\%} \\ 
 0 - 90\% & 15 - 20 &  0.386\% & 0.432\%   &  \textbf{0.576\%} \\ 
-0 - 90\% & 20 - 50 &  \textbf{0.196\% }   & 0.238\%  &  \textbf{1.03\%} \\ 
+0 - 90\% & 20 - 50 &  0.196\%  & 0.238\%  &  \textbf{1.03\%} \\ 
 0 - 30\% & 10 - 50  & 0.157\%  & 0.245\%  & \textbf{0.412\%}  \\ 
 30 - 90\% & 10 - 50 &  \textbf{1.13\%} &   0.065\%  & 0.102\% \\ 
 0 - 90\% & 10 - 50 &  0.384\%   & \textbf{0.427\%}  & 0.422\% \\ 
@@ -2718,7 +2746,7 @@ Table \ref{BPPtSystSum} and Table \ref{BPCentSystSum} show $B^+$ $p_T$ and centr
 \begin{center}
 \caption{Summary of systematic uncertainties from each $B^+$ $p_T$ bin. All the values are shown in percentage.}
 \vspace{1em}
-\label{BsPtSystSum}
+\label{BPPtSystSum}
 \begin{tabular}{ |c | c | c | c | c|}
 \hline
 $B^+$ $p_T$ (GeV/c) &  7 - 10 & 10 - 15 & 15 - 20 & 20 - 50  \\
@@ -2746,7 +2774,7 @@ Global Systematics & 3.85\% & 3.85\% & 3.85\%& 3.85\%\\
 \begin{center}
 \caption{Summary of systematic uncertainties from each $B^+$ centrality bin. All the values are shown in percentage.}
 \vspace{1em}
-\label{BsCentSystSum}
+\label{BPCentSystSum}
 \begin{tabular}{ |c | c | c | c | c|}
 \hline
 PbPb Collision Centrality &  0 - 30\% & 30 - 90\% & 0 - 90\%   \\
@@ -2798,7 +2826,7 @@ Finally, Figure \ref{BsSystSumPlot} and Figure \ref{BPSystSumPlot} below illustr
 
 \subsection{Overview}
 
-At this point, we have fully validated the analysis with detail evaluation of both statistical and systematic uncertainties. We are ready to report the experimental measurements of $B^0_s$ and $B^+$ cross section and the $B^0_s/B+$ ratio as function of $p_T$ and PbPb collision centrality.
+At this point, we have fully validated the analysis with detailed evaluation of both statistical and systematic uncertainties. We are ready to report the experimental measurements of $B^0_s$ and $B^+$ cross section and the $B^0_s/B+$ ratio as function of $p_T$ and PbPb collision centrality.
 
 \subsection{$B^0_s$ and $B^{+}$ Cross Section}
 
@@ -3012,7 +3040,7 @@ Finally, we can also cross check our measurement with the 2015 published $B^0_s/
 
 Within uncertainties, we see that our new results are fully consistent to the 2015 published results but provide much more information since our measurement is more precise and differential.  
 
-Hence, we have reported the measurement of $B^0_s$ and $B^+$ mesons cross section and the $B^0_s/B^+$ ratio in PbPb collisions at $\sqrt{s_{NN}} =$ 5.02 TeV with the CMS experiment. Moreover, we successfully reproduced our data with the 2015 published results with enhanced performance. In the next chapter, we will answer the questions raised in Section 2.4 through the comparison our data with other experimental references and theoretical predictions. 
+Hence, we have reported the measurement of $B^0_s$ and $B^+$ mesons cross section and the $B^0_s/B^+$ ratio in PbPb collisions at $\sqrt{s_{NN}} =$ 5.02 TeV with the CMS experiment. Moreover, we have successfully reproduced our data with the 2015 published results with enhanced performance. In the next chapter, we will answer the questions raised in Section 2.4 through the comparison our data with other experimental references and theoretical predictions. 
 
 
 %\subsection{$B^0_s$ and $B^{+}$ Nuclear Modification Factor}

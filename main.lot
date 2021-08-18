@@ -3,51 +3,52 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces List of PbPb HLT datasets and triggers with the corresponding integrated luminosities used in the analysis.}}{153}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Summary table of the total number of MB events and their uncertainties vs centrality}}{161}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Summary table of the total number of MB events vs centrality is shown below. The uncertainties are represented in terms of percentage in the parenthesis.}}{162}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Summary table of the muon acceptance selection for muon: $|\eta ^\mu |$ as a function $p_T^\mu $.}}{166}
-\contentsline {table}{\numberline {5.5}{\ignorespaces The comparison of the traditional rectangular selections to MVA for Figure 5-16\hbox {}.}}{172}
-\contentsline {table}{\numberline {5.6}{\ignorespaces The summary of optimal BDT selection maximizing the $B^0_s$ statistical significance.}}{180}
-\contentsline {table}{\numberline {5.7}{\ignorespaces The comparison of the traditional rectangular selections to MVA for Figure 5-16\hbox {}.}}{181}
-\contentsline {table}{\numberline {5.8}{\ignorespaces The summary table of $B^0_s$ fits results of Gaussian mean, signal raw yield, and background raw yield as well as their uncertainties.}}{196}
-\contentsline {table}{\numberline {5.9}{\ignorespaces The summary table of $B^+$ fits results of Gaussian mean, signal raw yield, and background raw yield as well as their uncertainties.}}{196}
-\contentsline {table}{\numberline {5.10}{\ignorespaces The summary table of $B^0_s$ likelihood significance for each $p_T$ and centrality bin.}}{199}
-\contentsline {table}{\numberline {5.11}{\ignorespaces The summary table of $B^0_s$ efficiency correction factor $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $ for each $p_T$ and centrality bin.}}{207}
-\contentsline {table}{\numberline {5.12}{\ignorespaces The summary table of $B^+$ efficiency correction factor $\frac {1}{\delimiter "426830A \alpha \times \epsilon \delimiter "526930B }$ for each $p_T$ and centrality bin.}}{207}
-\contentsline {table}{\numberline {5.13}{\ignorespaces The summary table of BDT vs mass dependence systematics on the background yield from the fits in different $p_T$ and centrality bins are shown below.}}{210}
-\contentsline {table}{\numberline {5.14}{\ignorespaces The results of $B^0_s$ efficiency factors $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $ and $\frac {1}{\delimiter "426830A \alpha \times \epsilon \delimiter "526930B }$ and their percent deviation are shown above.}}{212}
-\contentsline {table}{\numberline {5.15}{\ignorespaces The results of $B^+$ efficiency factors $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $ and $\frac {1}{\delimiter "426830A \alpha \times \epsilon \delimiter "526930B }$ and their percent deviation are shown above.}}{212}
-\contentsline {table}{\numberline {5.16}{\ignorespaces The percent deviation of the efficiency factors from the expected value in the statistics similar to the data analysis are shown above.}}{225}
-\contentsline {table}{\numberline {5.17}{\ignorespaces The percent deviation of the efficiency factors from the expected value in the statistics similar to the data analysis are shown above.}}{225}
-\contentsline {table}{\numberline {5.18}{\ignorespaces The $B^0_s$ \textit {Splot} weighed efficiency correct factor $\delimiter "426830A \frac {1}{\alpha \times \epsilon }\delimiter "526930B '$, nominal unweighed $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $, and their percent deviation for each $p_T$ and centrality bin are summarized below.}}{226}
-\contentsline {table}{\numberline {5.19}{\ignorespaces The $B^+$ \textit {Splot} weighed efficiency correct factor $\delimiter "426830A \frac {1}{\alpha \times \epsilon }\delimiter "526930B '$, nominal unweighed $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $, and their percent deviation for each $p_T$ and centrality bin are summarized below.}}{227}
-\contentsline {table}{\numberline {5.20}{\ignorespaces $B^0_s$ RMS/Mean and their asymmetric up and down statistical uncertainties of the corrected yield distribution are summarized below.}}{232}
-\contentsline {table}{\numberline {5.21}{\ignorespaces $B^+$ RMS/Mean and their asymmetric up and down statistical uncertainties of the corrected yield distribution are summarized below.}}{232}
-\contentsline {table}{\numberline {5.22}{\ignorespaces The $B^0_s$ systematic uncertainty due to muon efficiency for each $p_T$ and centrality bin is summarized below.}}{235}
-\contentsline {table}{\numberline {5.23}{\ignorespaces The $B^+$ systematic uncertainty due to muon efficiency for each $p_T$ and centrality bin is summarized below.}}{235}
-\contentsline {table}{\numberline {5.24}{\ignorespaces The $B^0_s$ systematic uncertainty due to Data-MC discrepancy for each $p_T$ and centrality bin is summarized below.}}{237}
-\contentsline {table}{\numberline {5.25}{\ignorespaces The $B^+$ systematic uncertainty due to Data-MC discrepancy for each $p_T$ and centrality bin is summarized below.}}{237}
-\contentsline {table}{\numberline {5.26}{\ignorespaces The $B^0_s$ systematic uncertainty due to limited MC sample statistics for each $p_T$ and centrality bin is summarized below.}}{239}
-\contentsline {table}{\numberline {5.27}{\ignorespaces The $B^+$ systematic uncertainty due to MC sample statistics for each $p_T$ and centrality bin is summarized below.}}{239}
-\contentsline {table}{\numberline {5.28}{\ignorespaces The $B^0_s$ systematic uncertainty due to unknown B-meson $p_T$ shape in PbPb collisions for each $p_T$ and centrality bin is summarized below.}}{240}
-\contentsline {table}{\numberline {5.29}{\ignorespaces The $B^+$ systematic uncertainty due to unknown B-meson $p_T$ shape in PbPb collisions for each $p_T$ and centrality bin is summarized below.}}{240}
-\contentsline {table}{\numberline {5.30}{\ignorespaces The $B^0_s$ selection efficiency uncertainty in $p_T$ and centrality bin is summarized below.}}{241}
-\contentsline {table}{\numberline {5.31}{\ignorespaces The $B^+$ selection efficiency uncertainty in $p_T$ and centrality bin is summarized below.}}{241}
-\contentsline {table}{\numberline {5.32}{\ignorespaces The $B^0_s$ systematic uncertainty due to signal PDF variation in $p_T$ and centrality bin is summarized below.}}{243}
-\contentsline {table}{\numberline {5.33}{\ignorespaces The $B^+$ systematic uncertainty due to signal PDF variation in $p_T$ and centrality bin is summarized below.}}{243}
-\contentsline {table}{\numberline {5.34}{\ignorespaces The $B^0_s$ systematic uncertainty due to background PDF variation in $p_T$ and centrality bin is summarized below.}}{244}
-\contentsline {table}{\numberline {5.35}{\ignorespaces The $B^+$ systematic uncertainty due to background PDF variation in $p_T$ and centrality bin is summarized below.}}{244}
-\contentsline {table}{\numberline {5.36}{\ignorespaces The $B^0_s$ signal extraction systematic uncertainty due to PDF variation in $p_T$ and centrality bin is summarized below.}}{245}
-\contentsline {table}{\numberline {5.37}{\ignorespaces The $B^+$ signal extraction systematic uncertainty due to PDF variation in $p_T$ and centrality bin is summarized below.}}{245}
-\contentsline {table}{\numberline {5.38}{\ignorespaces Summary of systematic uncertainties from each $B^0_s$ $p_T$ bin. All the values are shown in percentage.}}{246}
-\contentsline {table}{\numberline {5.39}{\ignorespaces Summary of systematic uncertainties from each $B^0_s$ centrality bin. All the values are shown in percentage.}}{246}
-\contentsline {table}{\numberline {5.40}{\ignorespaces Summary of systematic uncertainties from each $B^+$ $p_T$ bin. All the values are shown in percentage.}}{252}
-\contentsline {table}{\numberline {5.41}{\ignorespaces Summary of systematic uncertainties from each $B^+$ centrality bin. All the values are shown in percentage.}}{252}
-\contentsline {table}{\numberline {5.42}{\ignorespaces The numerical values and uncertainties of $B^0_s$ cross section as a function of $p_T$ are summarized below.}}{254}
-\contentsline {table}{\numberline {5.43}{\ignorespaces The numerical values and uncertainties of $B^+$ cross section as a function of $p_T$ are summarized below.}}{256}
-\contentsline {table}{\numberline {5.44}{\ignorespaces The numerical values and uncertainties of $B^0_s$ cross section as a function of centrality bin are summarized below.}}{256}
-\contentsline {table}{\numberline {5.45}{\ignorespaces The numerical values and uncertainties of $B^+$ cross section as a function of centrality bin are summarized below.}}{256}
-\contentsline {table}{\numberline {5.46}{\ignorespaces The numerical values and uncertainties of $B^0_s/B^+$ cross section ratio as a function of $p_T$ are summarized below.}}{258}
-\contentsline {table}{\numberline {5.47}{\ignorespaces The numerical values and uncertainties of $B^0_s/B^+$ cross section ratio as a function of centrality are summarized below.}}{260}
+\contentsline {table}{\numberline {5.1}{\ignorespaces List of PbPb HLT datasets and triggers with the corresponding integrated luminosities used in the analysis.}}{157}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Summary table of the total number of MB events and their uncertainties vs centrality}}{165}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Summary table of the total number of MB events vs centrality is shown below. The uncertainties are represented in terms of percentage in the parenthesis.}}{166}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Summary table of the muon acceptance selection for muon: $|\eta ^\mu |$ as a function $p_T^\mu $.}}{170}
+\contentsline {table}{\numberline {5.5}{\ignorespaces The comparison of the traditional rectangular selections to MVA for Figure 5-16\hbox {}.}}{176}
+\contentsline {table}{\numberline {5.6}{\ignorespaces The summary table signal and background estimation of $B^0_s$ in each $p_T$ and centrality bin in the analysis.}}{184}
+\contentsline {table}{\numberline {5.7}{\ignorespaces The summary of optimal BDT selection maximizing the $B^0_s$ statistical significance.}}{185}
+\contentsline {table}{\numberline {5.8}{\ignorespaces The comparison of the traditional rectangular selections to MVA for Figure 5-16\hbox {}.}}{185}
+\contentsline {table}{\numberline {5.9}{\ignorespaces The summary table of $B^0_s$ fits results of Gaussian mean, signal raw yield, and background raw yield as well as their uncertainties.}}{200}
+\contentsline {table}{\numberline {5.10}{\ignorespaces The summary table of $B^+$ fits results of Gaussian mean, signal raw yield, and background raw yield as well as their uncertainties.}}{200}
+\contentsline {table}{\numberline {5.11}{\ignorespaces The summary table of $B^0_s$ likelihood significance for each $p_T$ and centrality bin.}}{203}
+\contentsline {table}{\numberline {5.12}{\ignorespaces The summary table of $B^0_s$ efficiency correction factor $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $ for each $p_T$ and centrality bin.}}{211}
+\contentsline {table}{\numberline {5.13}{\ignorespaces The summary table of $B^+$ efficiency correction factor $\frac {1}{\delimiter "426830A \alpha \times \epsilon \delimiter "526930B }$ for each $p_T$ and centrality bin.}}{212}
+\contentsline {table}{\numberline {5.14}{\ignorespaces The summary table of BDT vs mass dependence systematics on the background yield from the fits in different $p_T$ and centrality bins are shown below.}}{214}
+\contentsline {table}{\numberline {5.15}{\ignorespaces The results of $B^0_s$ efficiency factors $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $ and $\frac {1}{\delimiter "426830A \alpha \times \epsilon \delimiter "526930B }$ and their percent deviation are shown above.}}{216}
+\contentsline {table}{\numberline {5.16}{\ignorespaces The results of $B^+$ efficiency factors $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $ and $\frac {1}{\delimiter "426830A \alpha \times \epsilon \delimiter "526930B }$ and their percent deviation are shown above.}}{216}
+\contentsline {table}{\numberline {5.17}{\ignorespaces The percent deviation of the efficiency factors from the expected value in the statistics similar to the data analysis are shown above.}}{230}
+\contentsline {table}{\numberline {5.18}{\ignorespaces The percent deviation of the efficiency factors from the expected value in the statistics similar to the data analysis are shown above.}}{230}
+\contentsline {table}{\numberline {5.19}{\ignorespaces The $B^0_s$ \textit {Splot} weighed efficiency correct factor $\delimiter "426830A \frac {1}{\alpha \times \epsilon }\delimiter "526930B '$, nominal unweighed $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $, and their percent deviation for each $p_T$ and centrality bin are summarized below.}}{231}
+\contentsline {table}{\numberline {5.20}{\ignorespaces The $B^+$ \textit {Splot} weighed efficiency correct factor $\delimiter "426830A \frac {1}{\alpha \times \epsilon }\delimiter "526930B '$, nominal unweighed $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $, and their percent deviation for each $p_T$ and centrality bin are summarized below.}}{232}
+\contentsline {table}{\numberline {5.21}{\ignorespaces $B^0_s$ RMS/Mean and their asymmetric up and down statistical uncertainties of the corrected yield distribution are summarized below.}}{237}
+\contentsline {table}{\numberline {5.22}{\ignorespaces $B^+$ RMS/Mean and their asymmetric up and down statistical uncertainties of the corrected yield distribution are summarized below.}}{237}
+\contentsline {table}{\numberline {5.23}{\ignorespaces The $B^0_s$ systematic uncertainty due to muon efficiency for each $p_T$ and centrality bin is summarized below.}}{240}
+\contentsline {table}{\numberline {5.24}{\ignorespaces The $B^+$ systematic uncertainty due to muon efficiency for each $p_T$ and centrality bin is summarized below.}}{240}
+\contentsline {table}{\numberline {5.25}{\ignorespaces The $B^0_s$ systematic uncertainty due to Data-MC discrepancy for each $p_T$ and centrality bin is summarized below.}}{242}
+\contentsline {table}{\numberline {5.26}{\ignorespaces The $B^+$ systematic uncertainty due to Data-MC discrepancy for each $p_T$ and centrality bin is summarized below.}}{242}
+\contentsline {table}{\numberline {5.27}{\ignorespaces The $B^0_s$ systematic uncertainty due to limited MC sample statistics for each $p_T$ and centrality bin is summarized below.}}{244}
+\contentsline {table}{\numberline {5.28}{\ignorespaces The $B^+$ systematic uncertainty due to MC sample statistics for each $p_T$ and centrality bin is summarized below.}}{244}
+\contentsline {table}{\numberline {5.29}{\ignorespaces The $B^0_s$ systematic uncertainty due to unknown B-meson $p_T$ shape in PbPb collisions for each $p_T$ and centrality bin is summarized below.}}{245}
+\contentsline {table}{\numberline {5.30}{\ignorespaces The $B^+$ systematic uncertainty due to unknown B-meson $p_T$ shape in PbPb collisions for each $p_T$ and centrality bin is summarized below.}}{245}
+\contentsline {table}{\numberline {5.31}{\ignorespaces The $B^0_s$ selection efficiency uncertainty is summarized below.}}{246}
+\contentsline {table}{\numberline {5.32}{\ignorespaces The $B^+$ selection efficiency uncertainty is summarized below.}}{246}
+\contentsline {table}{\numberline {5.33}{\ignorespaces The $B^0_s$ systematic uncertainty due to signal PDF variation in $p_T$ and centrality bin is summarized below.}}{247}
+\contentsline {table}{\numberline {5.34}{\ignorespaces The $B^+$ systematic uncertainty due to signal PDF variation in $p_T$ and centrality bin is summarized below.}}{248}
+\contentsline {table}{\numberline {5.35}{\ignorespaces The $B^0_s$ systematic uncertainty due to background PDF variation in $p_T$ and centrality bin is summarized below.}}{249}
+\contentsline {table}{\numberline {5.36}{\ignorespaces The $B^+$ systematic uncertainty due to background PDF variation in $p_T$ and centrality bin is summarized below.}}{249}
+\contentsline {table}{\numberline {5.37}{\ignorespaces The $B^0_s$ signal extraction systematic uncertainty due to PDF variation in $p_T$ and centrality bin is summarized below.}}{250}
+\contentsline {table}{\numberline {5.38}{\ignorespaces The $B^+$ signal extraction systematic uncertainty due to PDF variation in $p_T$ and centrality bin is summarized below.}}{250}
+\contentsline {table}{\numberline {5.39}{\ignorespaces Summary of systematic uncertainties from each $B^0_s$ $p_T$ bin. All the values are shown in percentage.}}{250}
+\contentsline {table}{\numberline {5.40}{\ignorespaces Summary of systematic uncertainties from each $B^0_s$ centrality bin. All the values are shown in percentage.}}{256}
+\contentsline {table}{\numberline {5.41}{\ignorespaces Summary of systematic uncertainties from each $B^+$ $p_T$ bin. All the values are shown in percentage.}}{256}
+\contentsline {table}{\numberline {5.42}{\ignorespaces Summary of systematic uncertainties from each $B^+$ centrality bin. All the values are shown in percentage.}}{257}
+\contentsline {table}{\numberline {5.43}{\ignorespaces The numerical values and uncertainties of $B^0_s$ cross section as a function of $p_T$ are summarized below.}}{258}
+\contentsline {table}{\numberline {5.44}{\ignorespaces The numerical values and uncertainties of $B^+$ cross section as a function of $p_T$ are summarized below.}}{260}
+\contentsline {table}{\numberline {5.45}{\ignorespaces The numerical values and uncertainties of $B^0_s$ cross section as a function of centrality bin are summarized below.}}{260}
+\contentsline {table}{\numberline {5.46}{\ignorespaces The numerical values and uncertainties of $B^+$ cross section as a function of centrality bin are summarized below.}}{260}
+\contentsline {table}{\numberline {5.47}{\ignorespaces The numerical values and uncertainties of $B^0_s/B^+$ cross section ratio as a function of $p_T$ are summarized below.}}{262}
+\contentsline {table}{\numberline {5.48}{\ignorespaces The numerical values and uncertainties of $B^0_s/B^+$ cross section ratio as a function of centrality are summarized below.}}{264}
 \addvspace {10\p@ }
