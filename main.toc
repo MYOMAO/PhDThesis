@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {1.3.3}Color Deconfinement}{49}
 \contentsline {subsection}{\numberline {1.3.4}QCD Phase Diagram}{50}
 \contentsline {section}{\numberline {1.4}High Energy Nuclear Physics}{52}
-\contentsline {subsection}{\numberline {1.4.1}Laboratories}{53}
+\contentsline {subsection}{\numberline {1.4.1}Laboratories}{52}
 \contentsline {subsection}{\numberline {1.4.2}Relativistic Heavy Ion Collider (RHIC)}{53}
 \contentsline {subsection}{\numberline {1.4.3}Large Hadron Collider (LHC)}{55}
 \contentsline {subsection}{\numberline {1.4.4}High Energy Physics Coordinates}{57}
