@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 AUG 2021 22:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 AUG 2021 23:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -331,7 +331,9 @@ Underfull \vbox (badness 1675) has occurred while \output is active []
 Underfull \vbox (badness 5652) has occurred while \output is active []
 
  [7]
-[8]
+Underfull \vbox (badness 1675) has occurred while \output is active []
+
+ [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9])
@@ -4160,7 +4162,7 @@ b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
 usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
-Output written on main.pdf (294 pages, 23064684 bytes).
+Output written on main.pdf (294 pages, 23064801 bytes).
 PDF statistics:
  6366 PDF objects out of 7423 (max. 8388607)
  3042 compressed objects within 31 object streams
