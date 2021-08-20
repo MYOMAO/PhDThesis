@@ -26,10 +26,10 @@
 \contentsline {subsection}{\numberline {1.5.1}Signatures}{69}
 \contentsline {subsection}{\numberline {1.5.2}$J/\psi $ and $\Upsilon $ suppression}{69}
 \contentsline {subsection}{\numberline {1.5.3}Jet Quenching}{71}
-\contentsline {subsection}{\numberline {1.5.4}Elliptic Flow}{74}
+\contentsline {subsection}{\numberline {1.5.4}Elliptic Flow}{73}
 \contentsline {subsection}{\numberline {1.5.5}Strangeness Enhancement}{78}
-\contentsline {subsection}{\numberline {1.5.6}Macroscopic Properties}{81}
-\contentsline {subsection}{\numberline {1.5.7}Open Questions}{82}
+\contentsline {subsection}{\numberline {1.5.6}Macroscopic Properties}{80}
+\contentsline {subsection}{\numberline {1.5.7}Open Questions}{81}
 \contentsline {section}{\numberline {1.6}Heavy Flavor Physics}{82}
 \contentsline {subsection}{\numberline {1.6.1}Open Heavy Flavor Physics}{82}
 \contentsline {subsection}{\numberline {1.6.2}Heavy Quarks}{83}
@@ -54,16 +54,16 @@
 \contentsline {subsection}{\numberline {3.2.1}L1 Trigger}{119}
 \contentsline {subsection}{\numberline {3.2.2}MB Trigger}{120}
 \contentsline {subsection}{\numberline {3.2.3}Centrality Efficiency with MB Trigger}{122}
-\contentsline {subsection}{\numberline {3.2.4}HLT Trigger}{122}
-\contentsline {subsection}{\numberline {3.2.5}DiMuon Trigger}{123}
-\contentsline {section}{\numberline {3.3}Tracking System}{124}
-\contentsline {subsection}{\numberline {3.3.1}Silicon Detectors}{124}
+\contentsline {subsection}{\numberline {3.2.4}HLT Trigger}{123}
+\contentsline {subsection}{\numberline {3.2.5}DiMuon Trigger}{124}
+\contentsline {section}{\numberline {3.3}Tracking System}{125}
+\contentsline {subsection}{\numberline {3.3.1}Silicon Detectors}{125}
 \contentsline {section}{\numberline {3.4}Muon System}{126}
-\contentsline {section}{\numberline {3.5}Calorimeter System}{127}
+\contentsline {section}{\numberline {3.5}Calorimeter System}{129}
 \contentsline {subsection}{\numberline {3.5.1}ECAL}{129}
-\contentsline {subsection}{\numberline {3.5.2}HCAL}{129}
+\contentsline {subsection}{\numberline {3.5.2}HCAL}{130}
 \contentsline {subsection}{\numberline {3.5.3}HF}{130}
-\contentsline {section}{\numberline {3.6}Relevant Detector Components}{130}
+\contentsline {section}{\numberline {3.6}Relevant Detector Components}{131}
 \contentsline {chapter}{\numberline {4}Reconstructed Objects}{133}
 \contentsline {section}{\numberline {4.1}Event}{133}
 \contentsline {section}{\numberline {4.2}Hit}{135}
@@ -93,7 +93,7 @@
 \contentsline {subsection}{\numberline {5.4.2}Centrality Definition}{165}
 \contentsline {subsection}{\numberline {5.4.3}$\delimiter "426830A N_{part} \delimiter "526930B $, $\delimiter "426830A N_{coll} \delimiter "526930B $, $\delimiter "426830A T_{AA} \delimiter "526930B $ vs Centrality}{165}
 \contentsline {subsection}{\numberline {5.4.4}Event Multiplicity}{166}
-\contentsline {section}{\numberline {5.5}B meson Reconstruction}{167}
+\contentsline {section}{\numberline {5.5}B-meson Reconstruction}{167}
 \contentsline {subsection}{\numberline {5.5.1}Event Selections}{168}
 \contentsline {subsection}{\numberline {5.5.2}Track Selections}{169}
 \contentsline {subsection}{\numberline {5.5.3}Muon Selections}{170}
@@ -110,8 +110,8 @@
 \contentsline {section}{\numberline {5.7}Background Studies}{186}
 \contentsline {subsection}{\numberline {5.7.1}Overview}{186}
 \contentsline {subsection}{\numberline {5.7.2}Individual Channel NP Background Studies}{187}
-\contentsline {subsection}{\numberline {5.7.3}B meson contribution of NP Background to $B^0_s$}{188}
-\contentsline {subsection}{\numberline {5.7.4}B meson contribution of NP Background to $B^+$}{191}
+\contentsline {subsection}{\numberline {5.7.3}B-meson contribution of NP Background to $B^0_s$}{188}
+\contentsline {subsection}{\numberline {5.7.4}B-meson contribution of NP Background to $B^+$}{191}
 \contentsline {section}{\numberline {5.8}Signal Extraction}{192}
 \contentsline {subsection}{\numberline {5.8.1}Fitting Models}{193}
 \contentsline {subsection}{\numberline {5.8.2}Raw Yield Extraction}{194}
