@@ -8,7 +8,7 @@
 
 \section{Overview}
 
-The Compact Muon Solenoid (CMS) Detector is a general-purpose high-energy physics detector located 100 meters underground on the French side of the LHC \cite{CMSDetector}. Overall, the complete detector is 21 m long, 15 m wide and 15 m high with a weight of 14 kilotons, heavier than the Eiffel Tower in Paris. It functions as a giant, high-speed camera, taking 3D ``photographs'' of particle collisions from all directions up to 40 million times each second. Figure \ref{CMSRealPic} shows the photo taken for the CMS detector at the underground collision hall.
+The Compact Muon Solenoid (CMS) Detector is a general-purpose high-energy physics detector located 100 meters underground on the French side of the LHC \cite{CMSDetector}. Overall, the complete detector is 21 m long, 15 m wide, and 15 m high with a weight of 14 kilotons, heavier than the Eiffel Tower in Paris. It functions as a giant, high-speed camera, taking 3D ``photographs'' of particle collisions from all directions up to 40 million times each second. Figure \ref{CMSRealPic} shows the photo taken for the CMS detector at the underground collision hall.
 
 \begin{figure}[hbtp]
 \begin{center}
@@ -30,7 +30,7 @@ The CMS detector is made of sub-detectors including silicon strip and pixel trac
 
 The CMS detector is built, operated, and maintained by the CMS Collaboration. The CMS Collaboration consists of over 4000 members including scientists, engineers, technicians, students, and administrative assistants from 200 institutes and universities in 40 countries around the world. Physicists take data from the CMS detector and share data with each other with the online system, which led to the discovery of World Wide Web. The data are store in tapes and kept at different institutions. Members of the CMS experiment collaborate with each other on detector studies and data analysis to produce important scientific results and have published in more than 1000 papers in internationally recognized journals.
 
-In the following sections, I will describe in more details of the CMS experiment including the trigger system for data acquisition, the tracking system to track charged particles, the muon system for muon detection, identification, and reconstruction, and the calorimeter system to measure the energy of the particles.
+In the following sections, I will describe the CMS experiment including the trigger system for data acquisition, the tracking system to track charged particles, the muon system for muon detection, identification, and reconstruction, and the calorimeter system to measure the energy of the particles in more detail.
 
 \section{Triggers}
 
@@ -49,7 +49,7 @@ In the CMS experiment, an event is defined as a snapshot of one collision at the
 \end{center}
 \end{figure} 
 
-In the interest of heavy-ion studies, physicists develop a set of dedicated triggers algorithms in the L1 trigger to build datasets. The minimum biased (MB) trigger is designed to collect minimum bias data for elliptic flow, $D^0$ meson, and charged particle multiplicity analyses while the single muon trigger is designed to select events muons for heavy flavor and electroweak physics analyses. We will describe the MB trigger since we will need to use it to determine the number of MB events in our analysis.
+In the interest of heavy-ion studies, physicists develop a set of dedicated triggers algorithms in the L1 trigger to build datasets. The minimum biased (MB) trigger is designed to collect minimum bias data for elliptic flow, $D^0$ meson, and charged-particle multiplicity analyses while the single muon trigger is designed to select events muons for heavy flavor and electroweak physics analyses. We will describe the MB trigger since we will need to use it to determine the number of MB events in our analysis.
 
 \subsection{MB Trigger}
 
@@ -64,7 +64,7 @@ By definition, an MB event corresponds to a non-single diffractive inelastic int
 \end{center}
 \end{figure} 
 
-The MB trigger consist of ``MB OR'', which requires the ADC threshold on either one of the forward HCAL (HF) out of both forward ECAL in both positive and negative sides, and ``MB AND'',  which requires the ADC threshold on both of HFs out of both forward ECAL in both positive and negative sides. Figure \ref{2018PbPbMB} shows the L1 MB trigger analysis of Run 326791 in the 2018 CMS PbPb data taking 
+The MB trigger consists of ``MB OR'', which requires the ADC threshold on either one of the forward HCAL (HF) out of both forward ECAL in both positive and negative sides, and ``MB AND'',  which requires the ADC threshold on both of HFs out of both forward ECAL in both positive and negative sides. Figure \ref{2018PbPbMB} shows the L1 MB trigger analysis of Run 326791 in the 2018 CMS PbPb data taking 
 
 \begin{figure}[hbtp]
 \begin{center}
@@ -80,7 +80,7 @@ In the 2018 CMS PbPb data taking, to reject the noisy background, the max ADC of
 \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=0.55\textwidth]{Figures/Chapter3/MBStat.pdf}
-\caption{The figure above shows the total number of 20 PbPb MB events from and corresponding luminosity how the as a function Run ID from November 15 to December 2 2018.}
+\caption{The figure above shows the total number of 20 PbPb MB events from and corresponding luminosity how the as a function Run ID from November 15 to December 2, 2018.}
 \label{MBStat}
 \end{center}
 \end{figure} 
@@ -98,15 +98,15 @@ In addition to overall efficiency vs the ADC with the MB trigger, we also study 
 \end{center}
 \end{figure} 
 
-Because other physics triggers are mainly based on the MB datasets, in the physics analyses using 2018 CMS PbPb datasets, it is recommended to remove the very peripheral centrality range from 90 - 100\%, which is not fully efficient (efficiency $<$ 100\%). Therefore, the most of the CMS heavy-ion physics results using the 2018 PbPb dataset will be presented in the centrality range of 0 - 90\%.
+Because other physics triggers are mainly based on the MB datasets, in the physics analyses using 2018 CMS PbPb datasets, it is recommended to remove the very peripheral centrality range from 90 - 100\%, which is not fully efficient (efficiency $<$ 100\%). Therefore, most of the CMS heavy-ion physics results using the 2018 PbPb dataset will be presented in the centrality range of 0 - 90\%.
 
 \subsection{HLT Trigger}
 
-The HLT software trigger is an array of commercially available computers running high-level physics algorithms \cite{CMSTrigger}. Unlike the online L1 hardware trigger which runs on-the-go during the data-taking process, HLT is an offline software trigger that runs after the data are acquired. In the HLT trigger, more sophisticated analyses are performed to determine if the event is accepted or rejected for a specific dataset. The event data are stored locally on disk and eventually transferred to downstream systems, the CMS Tier-0 computing center, for offline HLT processing and permanent storage \cite{CMSTrigger}. There are many trigger paths in the HLT such as the high multiplicity trigger to specifically collect events with many tracks, the D meson trigger to select high $p_T$ D mesons, and the dimoun trigger to enrich Drell-Yen events, are designed and encoded in the HLT trigger. In the following, we will describe the dimuon trigger in detail because the dimuon dataset will be used to fully reconstruct B mesons in this thesis. 
+The HLT software trigger is an array of commercially available computers running high-level physics algorithms \cite{CMSTrigger}. Unlike the online L1 hardware trigger which runs on-the-go during the data-taking process, HLT is an offline software trigger that runs after the data are acquired. In the HLT trigger, more sophisticated analyses are performed to determine if the event is accepted or rejected for a specific dataset. The event data are stored locally on disk and eventually transferred to downstream systems, the CMS Tier-0 computing center, for offline HLT processing and permanent storage \cite{CMSTrigger}. There are many trigger paths in the HLT such as the high multiplicity trigger to specifically collect events with many tracks, the D meson trigger to select high $p_T$ D mesons, and the dimuon trigger to enrich Drell-Yen events, are designed and encoded in the HLT trigger. In the following, we will describe the dimuon trigger in detail because the dimuon dataset will be used to fully reconstruct B mesons in this thesis. 
 
 \subsection{DiMuon Trigger}
 
-The dimuon trigger, as it is named, is a trigger based on the information of two muons tracks. HLT is able to quickly reconstruct the invariant mass of two oppositely charged muons $m_{\mu\mu}$. Figure \ref{DimuonInvMass} shows the $m_{\mu\mu}$ reconstructed by the CMS HLT with 2018 pp dataset.
+The dimuon trigger, as it is named, is a trigger based on the information of two muons tracks. HLT is able to quickly reconstruct the invariant mass of two oppositely charged muons $m_{\mu\mu}$. Figure \ref{DimuonInvMass} shows the $m_{\mu\mu}$ reconstructed by the CMS HLT with the 2018 $pp$ dataset.
 
 \begin{figure}[hbtp]
 \begin{center}
@@ -145,7 +145,7 @@ In nuclear and particle physics, a tracker is a detector that measures the traje
 \end{center}
 \end{figure} 
 
-However, in the CMS silicon tracker, due to the small number of electrons produced in the silicon sensor, the energy loss $dE/dx$ vs momentum $p$ of charged particles do not have good enough resolution to separate and identify electron, pion, kaons, and protons. Therefore, we generally do not perform particle identification (PID) for hadrons with the CMS detector in physics analyses.  
+However, in the CMS silicon tracker, due to the small number of electrons produced in the silicon sensor, the energy loss $dE/dx$ as a function of momentum $p$ of charged particles does not have good enough resolution to separate and identify electron, pion, kaons, and protons. Therefore, we generally do not perform particle identification (PID) for hadrons with the CMS detector in physics analyses.  
 
 \iffalse
 
@@ -210,9 +210,9 @@ Therefore, with both the tracking system and the muon chambers, the CMS detector
 
 \section{Calorimeter System}
 
-In nuclear and particle physics, a calorimeter is a detector that completely stops particles and measures the total energy deposited. According to the particles, the calorimeter can be divided into electromagnetic calorimeter (ECAL or EMCAL) to measure the energy of electrons and photons and hadronic calorimeter to measure the energy of charged and neutral hadrons. The CMS calorimeters system includes both ECAL and HCAL. It is located in between the tracker and the muon chambers as shown in Figure \ref{CMSDecPic}. 
+In nuclear and particle physics, a calorimeter is a detector that completely stops particles and measures the total energy deposited. According to the particles, the calorimeters can be divided into electromagnetic calorimeters (ECAL or EMCAL) to measure the energy of electrons and photons and hadronic calorimeters to measure the energy of charged and neutral hadrons. The CMS calorimeters system includes both ECAL and HCAL. It is located in between the tracker and the muon chambers as shown in Figure \ref{CMSDecPic}. 
 
-According to the measurement of charged particle shower energy, calorimeter can typically be classified as sampling calorimeter and homogenous calorimeter. The sampling calorimeter has two components: absorber and scintillator. The absorber is generally made of metals and produces the shower. The scintillator collects a fraction of the total energy from the shower (visible energy) and then corrects the visible energy back to the total energy based on the light collection efficiency. On the other hand, the homogenous calorimeter collects all the energy deposited. Its material producing the particle shower also measures energy deposition. 
+According to the measurement of charged particle shower energy, calorimeters can typically be classified as sampling calorimeters and homogenous calorimeters. The sampling calorimeter has two components: absorber and scintillator. The absorber is generally made of metals and produces the shower. The scintillator collects a fraction of the total energy from the shower (visible energy) and then corrects the visible energy back to the total energy based on the light collection efficiency. On the other hand, the homogenous calorimeter collects all the energy deposited. Its material producing the particle shower also measures energy deposition. 
 
 \subsection{ECAL}
 
@@ -249,7 +249,7 @@ As mentioned above, we have developed the L1 MB trigger based on HF response to 
 
 
 
-In addition to HF, CASTOR ($-$6.6 $< \eta <$ $-$5.2) and ZDC ($|\eta|$ > 8.1) are also calorimeters which are located at the very forward region \cite{CASZDCRef} as shown above on Figure \ref{HFPic}. They can help select MB events and trigger ultra-peripheral collision (UPC) events. Figure \ref{CASTORZDC} shows the pictures of CASTOR and the ZDC in the very forward direction of the CMS detector
+In addition to HF, CASTOR ($-$6.6 $< \eta <$ $-$5.2) and ZDC ($|\eta|$ > 8.1) are also calorimeters which are located at the very forward region \cite{CASZDCRef} as shown above in Figure \ref{HFPic}. They can help select MB events and trigger ultra-peripheral collision (UPC) events. Figure \ref{CASTORZDC} shows the pictures of CASTOR and the ZDC in the very forward direction of the CMS detector
 
 \begin{figure}[hbtp]
 \begin{center}

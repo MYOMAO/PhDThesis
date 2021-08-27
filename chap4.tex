@@ -10,7 +10,7 @@ The state-of-the-art CMS detector takes a snapshot of each event and saves the d
 
 \section{Event}
 
-As mentioned previously, an event is defined as a snapshot of one collision at the LHC. Many particles are produced in the collisions and then decay before they are detected in an event. Theoretically, to obtain the complete information of an event, we only need to know the position and momentum of each particle. Experimentally, we detect final state particles and record their kinematics. In high energy physics experiments, the particles reaching the detectors are $e^{\pm}$, $\mu^{\pm}$, $\pi^{\pm}$, $K^{\pm}$, $p$, $n$, $K^0_L$, $\gamma$. All other particles already decayed into these particles before they can be detected. In order to study them, they need to be reconstructed. Historically, this is used to be done by fast cameras with high resolution. Figure \ref{OmegaNick} shows a famous $\Omega^-$ baryon (Strangeness -3: $\Omega = sss$) event reconstructed from one of picture taken in the bubble chamber \cite{OmegaRef}.
+As mentioned previously, an event is defined as a snapshot of one collision at the LHC. Many particles are produced in the collisions and then decay before they are detected in an event. Theoretically, to obtain the complete information of an event, we only need to know the position and momentum of each particle. Experimentally, we detect final state particles and record their kinematics. In high energy physics experiments, the particles reaching the detectors are $e^{\pm}$, $\mu^{\pm}$, $\pi^{\pm}$, $K^{\pm}$, $p$, $n$, $K^0_L$, $\gamma$. All other particles already decayed into these particles before they can be detected. In order to study them, they need to be reconstructed. Historically, this is used to be done by fast cameras with high resolution. Figure \ref{OmegaNick} shows a famous $\Omega^-$ baryon (Strangeness -3: $\Omega = sss$) event reconstructed from one of the pictures taken in the bubble chamber \cite{OmegaRef}.
 
 \begin{figure}[hbtp]
 \begin{center}
@@ -38,7 +38,7 @@ All reconstructed objects start from hits as the energy deposition of particles 
 \end{center}
 \end{figure} 
 
-When a charged particle passes through a layer of the CMS silicon pixel detector, we can look at the charges collected by each pixel on that layer due to the ionization of electron-hole pairs by the high-energy charged particle. Ideally, if a particle enters the tracker at a normal angle, only one pixel is fired. However, in reality, its neighboring pixels may also have some response. When the particle goes through the tracker a small angle, which frequently happens at forward region. Figure \ref{HitDemo} schematically demonstrates the firing pixel when a particle passing the layer
+When a charged particle passes through a layer of the CMS silicon pixel detector, we can look at the charges collected by each pixel on that layer due to the ionization of electron-hole pairs by the high-energy charged particle. Ideally, if a particle enters the tracker at a normal angle, only one pixel is fired. However, in reality, its neighboring pixels may also have some response. When the particle goes through the tracker at a small angle, which frequently happens at the forward region. Figure \ref{HitDemo} schematically demonstrates the firing pixel when a particle passing the layer
 
 \begin{figure}[hbtp]
 \begin{center}
@@ -116,16 +116,16 @@ Therefore, as seen above from Figure \ref{HelixAndFit}, the transverse momentum 
 
 
 
-According to Figure \ref{HelixAndFit} on the right, at high $p_T$, essentially in parallel, for a 3 cluster fit. In addition, we know that the layers in the pixel track has equal spacing $\Delta r$ between layers. For CMS pixel tracker, its innermost 3 layers has equal distance $\Delta r_{12} = \Delta_{23} =$ 2.9 cm \cite{CMSPIXInfo}. 
+According to Figure \ref{HelixAndFit} on the right, at high $p_T$, essentially in parallel, for a 3 cluster fit. In addition, we know that the layers in the pixel track have equal spacing $\Delta r$ between layers. For CMS pixel tracker, its innermost 3 layers has equal distance $\Delta r_{12} = \Delta_{23} =$ 2.9 cm \cite{CMSPIXInfo}. 
 
 
-Hence, we can see that $L/2 = \Delta r$, which assume fixed with no uncertainties. Hence, we have
+Hence, we can see that $L/2 = \Delta r$, which assumes fixed with no uncertainties. Hence, we have
 
 \begin{equation}
 \frac{L}{2} = R \sin \frac{\theta}{2}
 \end{equation}
 
-Again, at high $p_T$, the angle $\theta$ will be very small since the radius of the circle $R >> \Delta r$, $\sin\theta \simeq \theta$ and $\cos\theta \simeq 1 - \frac{\theta^2}{2}$. Hence, we can use small-angle approximation
+Again, at high $p_T$, the angle $\theta$ will be very small since the radius of the circle $R >> \Delta r$, $\sin\theta \simeq \theta$ and $\cos\theta \simeq 1 - \frac{\theta^2}{2}$. Hence, we can use the small-angle approximation
 
 \begin{equation}
 L = 2 R \sin \frac{\theta}{2} \simeq R \theta
@@ -314,7 +314,7 @@ For physics analysis, additional selections on muons including trigger, identifi
 
 \section{Vertex}
 
-In particle physics, the term vertex is similar to a vertex in the Feynman diagram where old incoming particles are destroyed and new outgoing particles are created via an intersection at the space-time diagram. This has already shown in Figure \ref{OmegaNick} of the $\Omega^-$ baryon event where we can clearly see the vertices of $\Omega^-$ baryon creation and decay in the reconstructed plot on the right. 
+In particle physics, the term vertex is similar to a vertex in the Feynman diagram where old incoming particles are destroyed and new outgoing particles are created via an intersection at the space-time diagram. This has already been shown in Figure \ref{OmegaNick} of the $\Omega^-$ baryon event where we can clearly see the vertices of $\Omega^-$ baryon creation and decay in the reconstructed plot on the right. 
 
 \subsection{Primary Vertex}
 
@@ -329,7 +329,7 @@ By definition, in collider experiments, the primary vertex is assumed where the 
 
 
 
-The selections above make sure the tracks used have high quality and are indeed come from primary vertices. The deterministic annealing algorithm \cite{DAAlgo} is the track clustering algorithm that CMS is currently using. An iterative process of minimizing the annealing function of longitudinal distance between the tracks and the vertices gradual temperature reduction until dropping to the critical temperature is carried out to determine the number of vertices and their z coordinates \cite{CMSTrackComp}. A track can be used for more than one vertex during tracking clustering. Figure \ref{CMSEvtDisplay} is a $pp$ collision event display of the CMS detector with reconstructed tracks and primary vertices 
+The selections above make sure the tracks used have high quality and are indeed come from primary vertices. The deterministic annealing algorithm \cite{DAAlgo} is the track clustering algorithm that CMS is currently using. An iterative process of minimizing the annealing function of the longitudinal distance between the tracks and the vertices gradual temperature reduction until dropping to the critical temperature is carried out to determine the number of vertices and their z coordinates \cite{CMSTrackComp}. A track can be used for more than one vertex during tracking clustering. Figure \ref{CMSEvtDisplay} is a $pp$ collision event display of the CMS detector with reconstructed tracks and primary vertices 
 
 \begin{figure}[hbtp]
 \begin{center}
@@ -366,7 +366,7 @@ Another object we should mention, particularly in the context of this thesis, is
 \end{center}
 \end{figure} 
 
-The decay length is defined as the distance between primary and secondary vertex. In LHC collisions, since the energy is very high, the particle produced from the primary vertex generally has a large momentum, which corresponds to a large Lorentz gamma factor $\gamma \beta \simeq$ 5. For B mesons produced at the LHC, we estimate their length a $\gamma \beta c \tau \simeq 3$ mm due to its long lifetime $c \tau = 500$ $\mu$m \cite{AlphaTheoEx}. Therefore, the B-meson secondary vertex is well separated from the primary vertex and could even viewed by eye. The relatively long B-meson decay lengths make them ideal candidates to be fully reconstructed and study thanks to the excellent vertexing and tracking capabilities of the CMS detector.
+The decay length is defined as the distance between primary and secondary vertex. In LHC collisions, since the energy is very high, the particle produced from the primary vertex generally has a large momentum, which corresponds to a large Lorentz gamma factor $\gamma \beta \simeq$ 5. For B mesons produced at the LHC, we estimate their length a $\gamma \beta c \tau \simeq 3$ mm due to its long lifetime $c \tau = 500$ $\mu$m \cite{AlphaTheoEx}. Therefore, the B-meson secondary vertex is well separated from the primary vertex and could even be viewed by the eye. The relatively long B-meson decay lengths make them ideal candidates to be fully reconstructed and study thanks to the excellent vertexing and tracking capabilities of the CMS detector.
 
 Finally, we can also call the secondary vertex for a particle as the reconstructed mother particle's vertex. For instance, $B^0_s \rightarrow J/\psi \phi \rightarrow \mu^+\mu^- K^+K^-$. We can identify 3 secondary vertices. We call them $B^0_s$, $J/\psi$, and $\phi$ vertices. 
 
