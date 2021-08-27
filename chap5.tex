@@ -1261,7 +1261,7 @@ No significant correlation between the BDT variables and the invariant mass is o
 \includegraphics[width=0.45\textwidth]{Figures/Chapter5/Bs_BDT_10_15.png}
 \includegraphics[width=0.45\textwidth]{Figures/Chapter5/Bs_BDT_15_20.png}
 \includegraphics[width=0.45\textwidth]{Figures/Chapter5/Bs_BDT_20_50.png}
-\caption{Comparison of $B^0_s$ BDT distribution in data (red) and MC (green) using Splot method.}
+\caption{Comparison of $B^0_s$ BDT distribution in data (red) and MC (green) using the \textit{Splot} method.}
 \label{BsMCData}
 \end{center}
 \end{figure}
@@ -1276,7 +1276,7 @@ No significant correlation between the BDT variables and the invariant mass is o
 \includegraphics[width=0.45\textwidth]{Figures/Chapter5/BDT_pt_30_40_mc_validation_Bu.pdf}
 \includegraphics[width=0.45\textwidth]{Figures/Chapter5/BDT_pt_40_50_mc_validation_Bu.pdf}
 \includegraphics[width=0.45\textwidth]{Figures/Chapter5/BDT_pt_50_60_mc_validation_Bu.pdf}
-\caption{Comparison of $B^+$ BDT distribution in data (red) and MC (green) using Splot method.}
+\caption{Comparison of $B^+$ BDT distribution in data (red) and MC (green) using the \textit{Splot} method.}
 \label{BPMCData}
 \end{center}
 \end{figure}
@@ -1290,7 +1290,7 @@ From Figure \ref{BPMCData}, the $B^+$ BDT variables in for all $p_T$ bins have o
 
 Now, we have clearly seen B-meson signals and extract their signal raw yields $N_S$ from their invariant distributions. In the next step, we need to correct the acceptance and selection efficiency of the B mesons in order to obtain the cross section. The following procedures define the method we use to determine B mesons acceptance and selection efficiency with B-meson MC samples:
 
-First, We count the total number of GEN-level B-meson candidates reweighed by the centrality, PVz, and $\hat p_T$ as \textbf{NBGen} within the given B-meson rapidity region $|y| < 2.4$.
+First, We count the total number of GEN-level B-meson candidates reweighed by the centrality, PV$_{z}$, and $\hat p_T$ as \textbf{NBGen} within the given B-meson rapidity region $|y| < 2.4$.
 
 Next, we count the number of generated B-meson candidates passing the following selections
 
@@ -1414,7 +1414,7 @@ When $x_1 \rightarrow x_2$, we have
 \epsilon_{corr}(x_1 < x < x_2) =  \frac{\int^{x_2}_{x_1} R(x) w(x)dx}{\int^{x_2}_{x_1} G(x) w(x)dx} \sim  \frac{R(x) w(x)  (x_2 - x_1)}{G(x) w(x) (x_2 - x_1)}  = \frac{R(x)}{G(x)} = \epsilon(x)
 \end{equation}
 
-We can see that, for any non-trivial $w(x)$, with very fine bin, the effect of $w(x)$ is gone. When we measure B-meson over a large $p_T$ range, this effect could be significant, particularly for the $B^0_s$ mesons where the change of efficiency between 7 -- 10 GeV/c and 10 -- 15 GeV/c and the slope of uncertainties on $w(x)$ both are huge. Hence, in order to eliminate the uncertainties due to the B-meson kinematics $w(x)$ on efficiency correction, we can bin the efficiency finely.
+We can see that, for any non-trivial $w(x)$, with very fine bins, the effect of $w(x)$ is gone. When we measure B-meson over a large $p_T$ range, this effect could be significant, particularly for the $B^0_s$ mesons where the change of efficiency between 7 -- 10 GeV/c and 10 -- 15 GeV/c and the slope of uncertainties on $w(x)$ both are huge. Hence, in order to eliminate the uncertainties due to the B-meson kinematics $w(x)$ on efficiency correction, we can bin the efficiency finely.
 
 \subsection{Fiducial Measurement}
 
@@ -1429,7 +1429,7 @@ In fact, to better estimate B-meson efficiency, we should use 2D efficiency maps
 \end{center}
 \end{figure}
 
-For B-meson $p_T$ below 10 GeV/c, very little B mesons are reconstructed at the rapidity region of $|y| < 1.5$. This is due to the limited acceptance of muons because the muon tracks at low $p_T$ cannot reach the muon systems. Hence, a fiducial measurement is carried out. We only correct B-meson for $p_T < 10$ GeV/c to the $1.5 < |y| < 2.4$ instead of $|y| < 2.4$. For $p_T > 10$ GeV/c, we still correct them to $|y| < 2.4$. The fiducial B-meson measurements will be carried out throughout this thesis.
+For B-meson $p_T$ below 10 GeV/c, very few B mesons are reconstructed at the rapidity region of $|y| < 1.5$. This is due to the limited acceptance of muons because the muon tracks at low $p_T$ cannot reach the muon systems. Hence, a fiducial measurement is carried out. We only correct B-meson for $p_T < 10$ GeV/c to the $1.5 < |y| < 2.4$ instead of $|y| < 2.4$. For $p_T > 10$ GeV/c, we still correct them to $|y| < 2.4$. The fiducial B-meson measurements will be carried out throughout this thesis.
 
 \subsection{Finely Binned 2D Efficiency Map}
 
@@ -1478,13 +1478,13 @@ Finally, we propose to correct the efficiency with a data-driven method. We corr
 
 It should note that we will measure  $\langle\frac{1}{\alpha \times \epsilon} \rangle$ instead of $\frac{1}{\langle\alpha \times \epsilon \rangle}$ is because $\langle\frac{1}{\alpha \times \epsilon} \rangle$ has better closure. A dedicated closure test on this approach will be carried out and the results discussed the Section 4.11. 
 
-Also, there are background contaminations even within the signal region. This could be improved by \textit{Splot} method. However, it turns out that the difference in the efficiency between applying Splot and not applying Splot is very small. We do not consider using the \textit{Splot} method in this measurement. 
+Also, there are background contaminations even within the signal region. This could be improved by the \textit{Splot} method. However, it turns out that the difference in the efficiency between applying Splot and not applying Splot is very small. We do not consider using the \textit{Splot} method in this measurement. 
 
 Finally, this method only gives nominal results. The statistical uncertainties turn out to be correlated with both the data and MC statistics. A dedicated data bootstrapping approach to estimate the statistical uncertainties of the efficiency correction factor $\frac{1}{\langle\alpha \times \epsilon \rangle}$ will be carried out in Section 4.12.
 
 \subsection{Results}
 
-After applying a data-drive method to compute the efficiency correction factor, we obtain Figure \ref{BsEffFig} and Figure \ref{BPEffFig} showing $\langle\frac{1}{\alpha \times \epsilon} \rangle$ as a function $p_T$ and centrality for both $B_s^0$ and $B^+$.
+After applying a data-driven method to compute the efficiency correction factor, we obtain Figure \ref{BsEffFig} and Figure \ref{BPEffFig} showing $\langle\frac{1}{\alpha \times \epsilon} \rangle$ as a function $p_T$ and centrality for both $B_s^0$ and $B^+$.
 
 
 \begin{figure}[h]
@@ -1619,7 +1619,7 @@ Table \ref{MassScrapCheck} shows the nominal and linearly weighted rescaled sign
 
 \begin{table}[h]
 \begin{center}
-\caption{The summary table of BDT vs mass dependence systematics on the background yield from the fits in different $p_T$ and centrality bins are shown below.}
+\caption{The summary table of BDT vs mass dependence systematics on the background yields from the fits in different $p_T$ and centrality bins are shown below.}
 \vspace{1em}
 \label{MassScrapCheck}
   \begin{tabular}{ |c | c | c| c| c|}
@@ -1704,7 +1704,7 @@ According to the results of the fits, all pulls appear to be unit pulls. This va
 
 \subsection{Efficiency Closure}
 
-Next, after validating the fit closure for B-meson signal raw yield extraction, we also need to validate the efficiency correction approach to explicitly show that the efficiency correction factor $\langle\frac{1}{\alpha \times \epsilon} \rangle$ are indeed consistent with the truth efficiency to avoid potential bias. To make the analysis simple, we use $\hat p_T = 5$ the MC sample. Here, we consider both cases. The high statistics case: one whole $\hat p_T = 5$ MC sample. The low statistics case: 2000 spilt data-like $\hat p_T = 5$ MC samples same as the raw yield fit studies. In both cases, we use the same 2D $\frac{1}{\alpha \times \epsilon}$ efficiency correction map without tag-\&-probe weights from the input MC sample. We compare the $\langle \frac{1}{\alpha \times \epsilon}\rangle$ to the expected value, which is the total number of generated $B_s$/total number of reconstructed B mesons and compute the 
+Next, after validating the fit closure for B-meson signal raw yield extraction, we also need to validate the efficiency correction approach to explicitly show that the efficiency correction factor $\langle\frac{1}{\alpha \times \epsilon} \rangle$ are indeed consistent with the truth efficiency to avoid potential bias. To make the analysis simple, we use $\hat p_T = 5$ the MC sample. Here, we consider both cases. The high statistics case: one whole $\hat p_T = 5$ MC sample. The low statistics case: 2000 split data-like $\hat p_T = 5$ MC samples same as the raw yield fit studies. In both cases, we use the same 2D $\frac{1}{\alpha \times \epsilon}$ efficiency correction map without tag-\&-probe weights from the input MC sample. We compare the $\langle \frac{1}{\alpha \times \epsilon}\rangle$ to the expected value, which is the total number of generated $B_s$/total number of reconstructed B mesons. Then we compute the 
 
 
 \begin{equation}
@@ -1720,7 +1720,7 @@ The efficiency closure test results in high statistics limit of $B^0_s$ and $B^+
 
 \begin{table}[h]
 \begin{center}
-\caption{The results of $B^0_s$ efficiency factors $\langle \frac{1}{\alpha \times \epsilon} \rangle$ and $\frac{1}{\langle \alpha \times \epsilon \rangle}$ and their percent deviation are shown above.}
+\caption{The results of $B^0_s$ efficiency factors $\langle \frac{1}{\alpha \times \epsilon} \rangle$ and $\frac{1}{\langle \alpha \times \epsilon \rangle}$ and their percent deviations are shown above.}
 \vspace{1em}
 \label{BsHighStat}
   \begin{tabular}{| c | c |c |c |c | c |  c| c|}
@@ -1744,7 +1744,7 @@ The efficiency closure test results in high statistics limit of $B^0_s$ and $B^+
 
 \begin{table}[h]
 \begin{center}
-\caption{The results of $B^+$ efficiency factors $\langle \frac{1}{\alpha \times \epsilon} \rangle$ and $\frac{1}{\langle \alpha \times \epsilon \rangle}$ and their percent deviation are shown above.}
+\caption{The results of $B^+$ efficiency factors $\langle \frac{1}{\alpha \times \epsilon} \rangle$ and $\frac{1}{\langle \alpha \times \epsilon \rangle}$ and their percent deviations are shown above.}
 \vspace{1em}
 \label{BPHighStat}
   \begin{tabular}{| c | c |c |c |c | c |  c| c|}
@@ -1808,7 +1808,7 @@ We compute the efficiency correction factor $\langle \frac{1}{\alpha \times \eps
 
 
 
-The percent deviations of $B^0_s$ and $B^+$ efficiency correct factor $\langle \frac{1}{\alpha \times \epsilon}\rangle$ are summarize in thed Table \ref{BsEffClosure} and Table \ref{BPEffClosure} respectfully
+The percent deviations of $B^0_s$ and $B^+$ efficiency correct factor $\langle \frac{1}{\alpha \times \epsilon}\rangle$ are summarize in the Table \ref{BsEffClosure} and Table \ref{BPEffClosure} respectfully
 
 
 \begin{table}[h]
@@ -1863,7 +1863,7 @@ In conclusion, we can see that, even in the limit of low statistics, which is si
 
 \subsection{\textit{Splot} Closure on Efficiency}
 
-Finally, we will validate the efficiency correction factor $\langle \frac{1}{\alpha \times \epsilon} \rangle$ using all signal region data candidates. We compare our nominal $\langle \frac{1}{\alpha \times \epsilon} \rangle$ with the results with \textit{Splot} weights $w^S$, which are obtain from the \textit{Splot} analysis techniques shown in Section 4.9. Figure \ref{BsBPSPlot} shows the \textit{Splot} weight distribution for $B^0_s$ and $B^+$ candidates  
+Finally, we will validate the efficiency correction factor $\langle \frac{1}{\alpha \times \epsilon} \rangle$ using all signal region data candidates. We compare our nominal $\langle \frac{1}{\alpha \times \epsilon} \rangle$ with the results with \textit{Splot} weights $w^S$, which are obtained from the \textit{Splot} analysis techniques shown in Section 4.9. Figure \ref{BsBPSPlot} shows the \textit{Splot} weight distribution for $B^0_s$ and $B^+$ candidates  
 
 \begin{figure}[h]
 \begin{center}
@@ -2004,7 +2004,7 @@ Figure \ref{BsCorrYieldBoot} and \ref{BPCorrYieldBoot} show the corrected yield 
 
 \subsection{Statistical Uncertainties Interpretation}
 
-A refinement is needed as we see from Figure \ref{BsCorrYieldBoot} and Figure \ref{BPCorrYieldBoot} that the corrected yield distributions are indeed asymmetric. Hence, asymmetric statistical uncertainties will be introduced in our B-meson cross section measurements. To quantify the asymmetric statistical uncertainties, we do the following
+More refinement is needed as we see from Figure \ref{BsCorrYieldBoot} and Figure \ref{BPCorrYieldBoot} that the corrected yield distributions are indeed asymmetric. Hence, asymmetric statistical uncertainties will be introduced in our B-meson cross section measurements. To quantify the asymmetric statistical uncertainties, we do the following
 
 
 \begin{itemize}
@@ -2077,7 +2077,7 @@ The final step is to estimate the systematic uncertainties of the B-meson measur
 
 \subsection{Global Observables}
 
-The uncertainties of global observables $T_{AA}$ and $N_{MB}$ are summarized at Table \ref{GOvsCent} and Table \ref{NMBUsedCent}. We simply quote the uncertainties from them in our cross section measurements. 
+The uncertainties of global observables $T_{AA}$ and $N_{MB}$ are summarized in Table \ref{GOvsCent} and Table \ref{NMBUsedCent}. We simply quote the uncertainties from them in our cross section measurements. 
 
 \subsection{Branching Ratios}
 
@@ -2101,7 +2101,7 @@ Hence, we can compute the percent uncertainties of the $B^0_s$ and $B^+$ branchi
 
 \subsection{Tracking Efficiency}
 
-The difference in the track reconstruction efficiency in data and simulation is estimated by comparing 3-prong $D^{*}$ decay $D^{*} \rightarrow K \pi\pi$ and 5-prong $D^{*}$ decay $D^{*} \rightarrow K \pi\pi\pi\pi$ \cite{TrackEff}. According to CMS tracking group studies, this results in \textbf{5\%} for each track. Hence, the systematic uncertainties due to tracking efficiency is \textbf{5\%} for $B^+$ since it has only one kaon track and \textbf{10\%} for $B^0_s$ since it has two kaon tracks. These apply to all $p_T$ and centrality bins.
+The difference in the track reconstruction efficiency in data and simulation is estimated by comparing 3-prong $D^{*}$ decay $D^{*} \rightarrow K \pi\pi$ and 5-prong $D^{*}$ decay $D^{*} \rightarrow K \pi\pi\pi\pi$ \cite{TrackEff}. According to CMS tracking group studies, this results in \textbf{5\%} for each track. Hence, the systematic uncertainties due to tracking efficiency are \textbf{5\%} for $B^+$ since it has only one kaon track and \textbf{10\%} for $B^0_s$ since it has two kaon tracks. These apply to all $p_T$ and centrality bins.
 
 \subsection{Muon Efficiency}
 
@@ -2247,12 +2247,12 @@ Table \ref{BsMCDataSyst} and Table \ref{BPMCDataSyst} summarize the systematic u
 
 \subsubsection{Finite MC Statistics}
 
-Another source of uncertainties on the selection efficiency is the statistics of the MC samples. Ideally, this kind of uncertainties should be 0 because we can in principle simulate as many MC events as we want. However, in reality, we only generated about 2.5 million MC events, which is finite. Particularly, when we create the finely binned 2D maps of efficiency vs B-meson $p_T$ and $|y|$, due to the limited acceptance and fine binning, very low $p_T$ B mesons will have very few candidates.
+Another source of uncertainties on the selection efficiency is the statistics of the MC samples. Ideally, this kind of uncertainty should be 0 because we can in principle simulate as many MC events as we want. However, in reality, we only generated about 2.5 million MC events, which is finite. Particularly, when we create the finely binned 2D maps of efficiency vs B-meson $p_T$ and $|y|$, due to the limited acceptance and fine binning, very low $p_T$ B mesons will have very few candidates.
 
 To quantify the systematic uncertainties due to limited B-meson MC events, the following procedures are carried out
 
 \begin{itemize}
-\item Generate 10000 2D map of efficiency vs B-meson $p_T$ and $|y|$ according to the smear with Gaussian distribution according to the mean and error of the nominal 2D map
+\item Generate 10000 2D maps of efficiency vs B-meson $p_T$ and $|y|$ according to the smear with Gaussian distribution according to the mean and error of the nominal 2D map
 \item Carry out the analysis workflow to obtain the efficiency correct factors for $\langle\frac{1}{\alpha \times \epsilon}\rangle$ all 10000 2D maps using the same B-meson experimental data 
 \item Plot the distribution of the efficiency correct factors for $\langle\frac{1}{\alpha \times \epsilon}\rangle$
 \item Compute the RMS/Mean and quote it as the systematic uncertainties due to finite MC statistics
@@ -2334,7 +2334,7 @@ As expected, the distributions have symmetric Gaussian shapes. Their means of th
 \end{center}
 \end{table}
 
-The systematic uncertainties due to finite MC simulation events is particularly large at low $p_T$ due to the limited statistics. 
+The systematic uncertainties due to finite MC simulation events are particularly large at low $p_T$ due to the limited statistics. 
  
 
 \subsubsection{Residue $p_T$ Shape Effect}
@@ -2348,7 +2348,7 @@ We apply the B $p_T$ weights to the 2D $\frac{1}{\alpha \times \epsilon}$ map. T
 
 \begin{table}[h]
 \begin{center}
-\caption{The $B^0_s$ systematic uncertainty due to unknown B-meson $p_T$ shape in PbPb collisions for each $p_T$ and centrality bin is summarized below.}
+\caption{The $B^0_s$ systematic uncertainties due to unknown B-meson $p_T$ shape in PbPb collisions for each $p_T$ and centrality bin are summarized below.}
 \vspace{1em}
 \label{BsPTShape}
   \begin{tabular}{| c | c |c |}
@@ -2373,7 +2373,7 @@ We apply the B $p_T$ weights to the 2D $\frac{1}{\alpha \times \epsilon}$ map. T
 
 \begin{table}[h]
 \begin{center}
-\caption{The $B^+$ systematic uncertainty due to unknown B-meson $p_T$ shape in PbPb collisions for each $p_T$ and centrality bin is summarized below.}
+\caption{The $B^+$ systematic uncertainties due to unknown B-meson $p_T$ shape in PbPb collisions for each $p_T$ and centrality bin are summarized below.}
 \vspace{1em}
 \label{BPPTShape}
   \begin{tabular}{| c | c |c |}
@@ -2453,7 +2453,7 @@ Hence, in summary, the total uncertainties due to selection efficiency are simpl
 
 \subsection{Signal Extraction}
 
-Finally, there is also systematic uncertainties due to signal extraction. To evaluate the uncertainties, we try different models for the signal and background components in the unbinned fit to the B-meson invariant mass distributions. Then, we quote the percent deviation (\% Dev) of variated signal raw yield $N_S^{'}$ from the nominal signal raw yield $N_S$ as the systematic uncertainties.  
+Finally, there are also systematic uncertainties due to signal extraction. To evaluate the uncertainties, we try different models for the signal and background components in the unbinned fit to the B-meson invariant mass distributions. Then, we quote the percent deviation (\% Dev) of variated signal raw yield $N_S^{'}$ from the nominal signal raw yield $N_S$ as the systematic uncertainties.  
 
 \subsubsection{Signal PDF Variation}
 
@@ -2826,7 +2826,7 @@ Finally, Figure \ref{BsSystSumPlot} and Figure \ref{BPSystSumPlot} below illustr
 
 \subsection{Overview}
 
-At this point, we have fully validated the analysis with detailed evaluation of both statistical and systematic uncertainties. We are ready to report the experimental measurements of $B^0_s$ and $B^+$ cross section and the $B^0_s/B+$ ratio as functions of $p_T$ and PbPb collision centrality.
+At this point, we have fully validated the analysis with detailed evaluations of both statistical and systematic uncertainties. We are ready to report the experimental measurements of $B^0_s$ and $B^+$ cross section and the $B^0_s/B+$ ratio as functions of $p_T$ and PbPb collision centrality.
 
 \subsection{$B^0_s$ and $B^{+}$ Cross Section}
 
@@ -2835,7 +2835,7 @@ When B-meson measurement as a function of $p_T$ plots are created, the abscissa 
 \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=0.70\textwidth]{Figures/Chapter5/xsec_vsPt.pdf}
-\caption{The measurement of $B^0_s$ and $B^+$ $p_T$ differential cross section $\frac{1}{T_{AA}} \frac{dN}{d p_T}$ as a function of B-meson $p_T$ within 0 - 90\% centrality is shown above. It should be pointed out that the plot is plot in the unit of pb c/GeV since $T_{AA}$ is in the unit of pb$^{-1}$ while the $p_T$ is in the unit of GeV/c. The open markers from 7 - 10 GeV/c stand for the fiducial measurement at the B-meson rapidity of $1.5 < |y| < 2.4$.}
+\caption{The measurement of $B^0_s$ and $B^+$ $p_T$ differential cross section $\frac{1}{T_{AA}} \frac{dN}{d p_T}$ as a function of B-meson $p_T$ within 0 - 90\% centrality is shown above. It should be pointed out that the cross section results are plotted in the unit of pb c/GeV since $T_{AA}$ is in the unit of pb$^{-1}$ while the $p_T$ is in the unit of GeV/c. The open markers from 7 - 10 GeV/c stand for the fiducial measurement at the B-meson rapidity of $1.5 < |y| < 2.4$.}
 \label{BmesonDataPt}
 \end{center}
 \end{figure}
@@ -2844,7 +2844,7 @@ Table \ref{BsXsectPt} and Table \ref{BPXsectPt} summarize the $B^0_s$ and $B^+$ 
 
 \begin{table}[h]
 \begin{center}
-\caption{The numerical values and uncertainties of $B^0_s$ cross section as a function of $p_T$ are summarized below.}
+\caption{The numerical values and uncertainties of the $B^0_s$ cross section as a function of $p_T$ are summarized below.}
 \vspace{1em}
 \label{BsXsectPt}
   \begin{tabular}{| c | c |c | c| c| c| c|}
@@ -2865,7 +2865,7 @@ $p_T$ (GeV/c) &  $\frac{1}{T_{AA}} \frac{dN}{d_pT}$ (pb c/GeV) & Stat. Up (+)   
 
 \begin{table}[h]
 \begin{center}
-\caption{The numerical values and uncertainties of $B^+$ cross section as a function of $p_T$ are summarized below.}
+\caption{The numerical values and uncertainties of the $B^+$ cross section as a function of $p_T$ are summarized below.}
 \vspace{1em}
 \label{BPXsectPt}
   \begin{tabular}{| c | c |c | c| c| c| c|}
@@ -2944,7 +2944,7 @@ Centrality &  $\frac{1}{T_{AA}} N$ (pb) & Stat. Up (+)   & Stat. Down (-)  &  Sy
 
 
 
-It also should note that this is the first centrality differential fully measurement of reconstructed $B^0_s$ with the CMS experiment. From the cross section above, we can see that the nominal value of the cross section is lower for both $B^0_s$ and $B^+$ in more central collision (0 - 30\%) compare to the peripheral collision (30 - 90\%). However, given the large uncertainties, we could not draw a conclusion that this suppression due to the QGP medium effect.
+It also should note that this is the first centrality differential fully measurement of reconstructed $B^0_s$ with the CMS experiment. From the cross section above, we can see that the nominal value of the cross section is lower for both $B^0_s$ and $B^+$ in more central collision (0 - 30\%) compare to the peripheral collision (30 - 90\%). However, given the large uncertainties, we could not draw a conclusion that such suppression is due to the QGP medium effect.
 
 
 
@@ -2953,7 +2953,7 @@ It also should note that this is the first centrality differential fully measure
 
 \subsection{$B^0_s/B^{+}$ Ratio}
 
-Since we have measured the $B^0_s$ and $B^+$ cross section, the next step is to obtain their ratio, which is an observable to study beauty hadronization mechanism as mention in Section 1.8.4. We should note that when we take the ratio between $B^0_s$ and $B^+$, the systematic uncertainties of $T_{AA}$ and $N_{MB}$ cancel. Also, the systematic uncertainties of tracking efficiency is reduced to 5\% instead of adding into quadrature. Finally, the systematic uncertainties of muon efficiency are treated as perfectly correlated. This means we both vary the $B^0_s$ and $B^+$ cross section with the muon efficiency systematics up and down and compute the ratio. Then, we calculate the percent deviation of up and down variated $B^0_s/B^+$ to the nominal $B^0_s/B^+$ and quote those numbers as the systematic uncertainties. Other sources of systematic uncertainties from $B^0_s$ and $B^+$ cross section are added into quadrature for $B^0_s/B^+$ ratio. 
+Since we have measured the $B^0_s$ and $B^+$ cross section, the next step is to obtain their ratio, which is an experimental observable to study beauty hadronization mechanism as mention in Section 1.8.4. We should note that when we take the ratio between $B^0_s$ and $B^+$, the systematic uncertainties of $T_{AA}$ and $N_{MB}$ cancel. Also, the systematic uncertainties of tracking efficiency are reduced to 5\% instead of adding into quadrature. Finally, the systematic uncertainties of muon efficiency are treated as perfectly correlated. This means we both vary the $B^0_s$ and $B^+$ cross section with the muon efficiency systematics up and down and compute the ratio. Then, we calculate the percent deviation of up and down variated $B^0_s/B^+$ to the nominal $B^0_s/B^+$ and quote those numbers as the systematic uncertainties. Other sources of systematic uncertainties from $B^0_s$ and $B^+$ cross section are added into quadrature for $B^0_s/B^+$ ratio. 
 
 Figure \ref{BsBPPtDataONLY} shows the $B^0_s/B^+$ ratio as a function of B-meson $p_T$
 
