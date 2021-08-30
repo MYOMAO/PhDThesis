@@ -15,21 +15,21 @@
 \contentsline {subsection}{\numberline {1.3.3}Color Deconfinement}{49}
 \contentsline {subsection}{\numberline {1.3.4}QCD Phase Diagram}{50}
 \contentsline {section}{\numberline {1.4}High Energy Nuclear Physics}{52}
-\contentsline {subsection}{\numberline {1.4.1}Laboratories}{52}
+\contentsline {subsection}{\numberline {1.4.1}Laboratories}{53}
 \contentsline {subsection}{\numberline {1.4.2}Relativistic Heavy Ion Collider (RHIC)}{53}
 \contentsline {subsection}{\numberline {1.4.3}Large Hadron Collider (LHC)}{55}
 \contentsline {subsection}{\numberline {1.4.4}High Energy Physics Coordinates}{57}
 \contentsline {subsection}{\numberline {1.4.5}Stages of Heavy-Ion Collisions}{60}
 \contentsline {subsection}{\numberline {1.4.6}Global Event Observables}{62}
-\contentsline {subsection}{\numberline {1.4.7}Glauber Model}{65}
-\contentsline {section}{\numberline {1.5}Characterization of Quark-Gluon Plasma}{69}
+\contentsline {subsection}{\numberline {1.4.7}Glauber Model}{64}
+\contentsline {section}{\numberline {1.5}Characterization of Quark-Gluon Plasma}{68}
 \contentsline {subsection}{\numberline {1.5.1}Signatures}{69}
 \contentsline {subsection}{\numberline {1.5.2}$J/\psi $ and $\Upsilon $ suppression}{69}
 \contentsline {subsection}{\numberline {1.5.3}Jet Quenching}{71}
 \contentsline {subsection}{\numberline {1.5.4}Elliptic Flow}{73}
-\contentsline {subsection}{\numberline {1.5.5}Strangeness Enhancement}{78}
-\contentsline {subsection}{\numberline {1.5.6}Macroscopic Properties}{80}
-\contentsline {subsection}{\numberline {1.5.7}Open Questions}{81}
+\contentsline {subsection}{\numberline {1.5.5}Strangeness Enhancement}{79}
+\contentsline {subsection}{\numberline {1.5.6}Macroscopic Properties}{81}
+\contentsline {subsection}{\numberline {1.5.7}Open Questions}{82}
 \contentsline {section}{\numberline {1.6}Heavy Flavor Physics}{82}
 \contentsline {subsection}{\numberline {1.6.1}Open Heavy Flavor Physics}{82}
 \contentsline {subsection}{\numberline {1.6.2}Heavy Quarks}{83}
@@ -40,127 +40,127 @@
 \contentsline {subsubsection}{TAMU Model}{96}
 \contentsline {subsubsection}{Cao, Sun, Ko Model}{97}
 \contentsline {subsubsection}{EVR Model}{98}
-\contentsline {chapter}{\numberline {2}Review of Heavy Flavor Results}{101}
-\contentsline {section}{\numberline {2.1}Elliptic Flow}{101}
-\contentsline {section}{\numberline {2.2}Nuclear Modification Factor}{102}
-\contentsline {section}{\numberline {2.3}Production Yield Ratio}{106}
-\contentsline {section}{\numberline {2.4}Heavy Flavor Hadron-Jet Angular Correlations}{110}
-\contentsline {section}{\numberline {2.5}Heavy Flavor Hadron-Hadron Correlations}{112}
-\contentsline {section}{\numberline {2.6}Some Questions in Heavy Flavor Physics}{113}
-\contentsline {section}{\numberline {2.7}Motivation of This Thesis}{115}
-\contentsline {chapter}{\numberline {3}The CMS Detector}{117}
-\contentsline {section}{\numberline {3.1}Overview}{117}
-\contentsline {section}{\numberline {3.2}Triggers}{119}
-\contentsline {subsection}{\numberline {3.2.1}L1 Trigger}{119}
-\contentsline {subsection}{\numberline {3.2.2}MB Trigger}{120}
-\contentsline {subsection}{\numberline {3.2.3}Centrality Efficiency with MB Trigger}{122}
-\contentsline {subsection}{\numberline {3.2.4}HLT Trigger}{123}
-\contentsline {subsection}{\numberline {3.2.5}DiMuon Trigger}{124}
-\contentsline {section}{\numberline {3.3}Tracking System}{125}
-\contentsline {subsection}{\numberline {3.3.1}Silicon Detectors}{125}
-\contentsline {section}{\numberline {3.4}Muon System}{126}
-\contentsline {section}{\numberline {3.5}Calorimeter System}{129}
-\contentsline {subsection}{\numberline {3.5.1}ECAL}{129}
-\contentsline {subsection}{\numberline {3.5.2}HCAL}{130}
-\contentsline {subsection}{\numberline {3.5.3}HF}{130}
-\contentsline {section}{\numberline {3.6}Relevant Detector Components}{131}
-\contentsline {chapter}{\numberline {4}Reconstructed Objects}{133}
-\contentsline {section}{\numberline {4.1}Event}{133}
-\contentsline {section}{\numberline {4.2}Hit}{135}
-\contentsline {section}{\numberline {4.3}Cluster}{136}
-\contentsline {section}{\numberline {4.4}Track}{137}
-\contentsline {subsection}{\numberline {4.4.1}Overview of Basic Principles}{137}
-\contentsline {subsection}{\numberline {4.4.2}CMS Tracking Algorithm}{140}
-\contentsline {section}{\numberline {4.5}Muon}{146}
-\contentsline {section}{\numberline {4.6}Vertex}{148}
-\contentsline {subsection}{\numberline {4.6.1}Primary Vertex}{149}
-\contentsline {subsection}{\numberline {4.6.2}Secondary Vertex}{150}
-\contentsline {chapter}{\numberline {5}Data Analysis}{153}
-\contentsline {section}{\numberline {5.1}Analysis Tools}{153}
-\contentsline {section}{\numberline {5.2}Analysis Strategies}{154}
-\contentsline {subsection}{\numberline {5.2.1}Physics Goals}{154}
-\contentsline {subsection}{\numberline {5.2.2}General Workflow}{154}
-\contentsline {subsection}{\numberline {5.2.3}Technical Challenges}{155}
-\contentsline {section}{\numberline {5.3}Analysis Samples}{157}
-\contentsline {subsection}{\numberline {5.3.1}Dimuon Triggered Datasets}{157}
-\contentsline {subsection}{\numberline {5.3.2}Monte Carlo Simulations Samples}{158}
-\contentsline {subsection}{\numberline {5.3.3}$\mathaccentV {hat}05E{p}_{T}$ Reweighing}{159}
-\contentsline {subsection}{\numberline {5.3.4}RECO B-meson ${p}_{T}$ Reweighing}{159}
-\contentsline {subsection}{\numberline {5.3.5}Centrality Reweighing}{159}
-\contentsline {subsection}{\numberline {5.3.6}PV$_{z}$ Reweighing}{160}
-\contentsline {section}{\numberline {5.4}Global Event Observables}{164}
-\contentsline {subsection}{\numberline {5.4.1}Total Number of Events}{164}
-\contentsline {subsection}{\numberline {5.4.2}Centrality Definition}{165}
-\contentsline {subsection}{\numberline {5.4.3}$\delimiter "426830A N_{part} \delimiter "526930B $, $\delimiter "426830A N_{coll} \delimiter "526930B $, $\delimiter "426830A T_{AA} \delimiter "526930B $ vs Centrality}{165}
-\contentsline {subsection}{\numberline {5.4.4}Event Multiplicity}{166}
-\contentsline {section}{\numberline {5.5}B-meson Reconstruction}{167}
-\contentsline {subsection}{\numberline {5.5.1}Event Selections}{168}
-\contentsline {subsection}{\numberline {5.5.2}Track Selections}{169}
-\contentsline {subsection}{\numberline {5.5.3}Muon Selections}{170}
-\contentsline {section}{\numberline {5.6}Cut Optimization}{172}
-\contentsline {subsection}{\numberline {5.6.1}Topological Variables}{173}
-\contentsline {subsection}{\numberline {5.6.2}Multivariate Analysis}{175}
-\contentsline {subsection}{\numberline {5.6.3}Machine Learning Techniques}{176}
-\contentsline {subsection}{\numberline {5.6.4}Terminologies}{177}
-\contentsline {subsection}{\numberline {5.6.5}Boosted Decision Tree Algorithm}{178}
-\contentsline {subsection}{\numberline {5.6.6}TMVA Training}{180}
-\contentsline {subsection}{\numberline {5.6.7}Training Performance}{181}
-\contentsline {subsection}{\numberline {5.6.8}Working Point Determination}{183}
-\contentsline {subsection}{\numberline {5.6.9}Optimal Selection Performance}{185}
-\contentsline {section}{\numberline {5.7}Background Studies}{186}
-\contentsline {subsection}{\numberline {5.7.1}Overview}{186}
-\contentsline {subsection}{\numberline {5.7.2}Individual Channel NP Background Studies}{187}
-\contentsline {subsection}{\numberline {5.7.3}B-meson contribution of NP Background to $B^0_s$}{188}
-\contentsline {subsection}{\numberline {5.7.4}B-meson contribution of NP Background to $B^+$}{191}
-\contentsline {section}{\numberline {5.8}Signal Extraction}{192}
-\contentsline {subsection}{\numberline {5.8.1}Fitting Models}{193}
-\contentsline {subsection}{\numberline {5.8.2}Raw Yield Extraction}{194}
-\contentsline {subsection}{\numberline {5.8.3}Signal Significance Estimation}{198}
-\contentsline {section}{\numberline {5.9}B Mesons Candidates MC-Data Comparison}{200}
-\contentsline {subsection}{\numberline {5.9.1}overview}{200}
-\contentsline {subsection}{\numberline {5.9.2}\textbf {Splot} Techniques}{201}
-\contentsline {subsection}{\numberline {5.9.3}\textbf {Splot} Variable Correlation Studies}{204}
-\contentsline {subsection}{\numberline {5.9.4}\textbf {Splot} Results for Data-MC Comparison}{204}
-\contentsline {section}{\numberline {5.10}Acceptance and Efficiency Correction}{206}
-\contentsline {subsection}{\numberline {5.10.1}Overview}{206}
-\contentsline {subsection}{\numberline {5.10.2}Tag \& Probe Techniques}{207}
-\contentsline {subsection}{\numberline {5.10.3}Traditional Efficiency Correction Results}{208}
-\contentsline {subsection}{\numberline {5.10.4}Analysis Challenges}{208}
-\contentsline {subsection}{\numberline {5.10.5}Fiducial Measurement}{209}
-\contentsline {subsection}{\numberline {5.10.6}Finely Binned 2D Efficiency Map}{210}
-\contentsline {subsection}{\numberline {5.10.7}Data-Drive Efficiency Correction}{210}
-\contentsline {subsection}{\numberline {5.10.8}Results}{211}
-\contentsline {section}{\numberline {5.11}Cross Section Measurement}{212}
-\contentsline {section}{\numberline {5.12}Validation Tests}{213}
-\contentsline {subsection}{\numberline {5.12.1}Mass Scraping Test}{213}
-\contentsline {subsection}{\numberline {5.12.2}Raw Yield Closure}{215}
-\contentsline {subsection}{\numberline {5.12.3}Efficiency Closure}{215}
-\contentsline {subsubsection}{Low Statistics Limit}{217}
-\contentsline {subsection}{\numberline {5.12.4}\textit {Splot} Closure on Efficiency}{230}
-\contentsline {section}{\numberline {5.13}Statistical Uncertainties Determination}{232}
-\contentsline {subsection}{\numberline {5.13.1}Data Bootstrapping}{232}
-\contentsline {subsection}{\numberline {5.13.2}Statistical Uncertainties Interpretation}{236}
-\contentsline {section}{\numberline {5.14}Systematic Uncertainties Estimation}{237}
-\contentsline {subsection}{\numberline {5.14.1}Global Observables}{238}
-\contentsline {subsection}{\numberline {5.14.2}Branching Ratios}{238}
-\contentsline {subsection}{\numberline {5.14.3}Tracking Efficiency}{238}
-\contentsline {subsection}{\numberline {5.14.4}Muon Efficiency}{239}
-\contentsline {subsection}{\numberline {5.14.5}Selection Efficiency}{241}
-\contentsline {subsubsection}{Data-MC Discrepancy}{241}
-\contentsline {subsubsection}{Finite MC Statistics}{243}
-\contentsline {subsubsection}{Residue $p_T$ Shape Effect}{244}
-\contentsline {subsubsection}{Total Uncertainties on Selection Efficiency}{246}
-\contentsline {subsection}{\numberline {5.14.6}Signal Extraction}{246}
-\contentsline {subsubsection}{Signal PDF Variation}{247}
-\contentsline {subsubsection}{Background PDF Variation}{248}
-\contentsline {subsubsection}{Total PDF Variation}{248}
-\contentsline {subsection}{\numberline {5.14.7}Summary}{249}
-\contentsline {section}{\numberline {5.15}Final Results}{258}
-\contentsline {subsection}{\numberline {5.15.1}Overview}{258}
-\contentsline {subsection}{\numberline {5.15.2}$B^0_s$ and $B^{+}$ Cross Section}{258}
-\contentsline {subsection}{\numberline {5.15.3}$B^0_s/B^{+}$ Ratio}{262}
-\contentsline {chapter}{\numberline {6}Conclusions}{267}
-\contentsline {section}{\numberline {6.1}$pp$ Reference and Theoretical Models}{267}
-\contentsline {section}{\numberline {6.2}Implications from the Experimental Data}{269}
-\contentsline {section}{\numberline {6.3}Conclusions}{270}
-\contentsline {section}{\numberline {6.4}Future Outlooks}{272}
+\contentsline {chapter}{\numberline {2}Review of Heavy Flavor Results}{99}
+\contentsline {section}{\numberline {2.1}Elliptic Flow}{99}
+\contentsline {section}{\numberline {2.2}Nuclear Modification Factor}{101}
+\contentsline {section}{\numberline {2.3}Production Yield Ratio}{104}
+\contentsline {section}{\numberline {2.4}Heavy Flavor Hadron-Jet Angular Correlations}{108}
+\contentsline {section}{\numberline {2.5}Heavy Flavor Hadron-Hadron Correlations}{110}
+\contentsline {section}{\numberline {2.6}Some Questions in Heavy Flavor Physics}{111}
+\contentsline {section}{\numberline {2.7}Motivation of This Thesis}{113}
+\contentsline {chapter}{\numberline {3}The CMS Detector}{115}
+\contentsline {section}{\numberline {3.1}Overview}{115}
+\contentsline {section}{\numberline {3.2}Triggers}{117}
+\contentsline {subsection}{\numberline {3.2.1}L1 Trigger}{117}
+\contentsline {subsection}{\numberline {3.2.2}MB Trigger}{118}
+\contentsline {subsection}{\numberline {3.2.3}Centrality Efficiency with MB Trigger}{120}
+\contentsline {subsection}{\numberline {3.2.4}HLT Trigger}{121}
+\contentsline {subsection}{\numberline {3.2.5}DiMuon Trigger}{122}
+\contentsline {section}{\numberline {3.3}Tracking System}{123}
+\contentsline {subsection}{\numberline {3.3.1}Silicon Detectors}{123}
+\contentsline {section}{\numberline {3.4}Muon System}{124}
+\contentsline {section}{\numberline {3.5}Calorimeter System}{127}
+\contentsline {subsection}{\numberline {3.5.1}ECAL}{127}
+\contentsline {subsection}{\numberline {3.5.2}HCAL}{128}
+\contentsline {subsection}{\numberline {3.5.3}HF}{128}
+\contentsline {section}{\numberline {3.6}Relevant Detector Components}{129}
+\contentsline {chapter}{\numberline {4}Reconstructed Objects}{131}
+\contentsline {section}{\numberline {4.1}Event}{131}
+\contentsline {section}{\numberline {4.2}Hit}{133}
+\contentsline {section}{\numberline {4.3}Cluster}{134}
+\contentsline {section}{\numberline {4.4}Track}{135}
+\contentsline {subsection}{\numberline {4.4.1}Overview of Basic Principles}{135}
+\contentsline {subsection}{\numberline {4.4.2}CMS Tracking Algorithm}{138}
+\contentsline {section}{\numberline {4.5}Muon}{144}
+\contentsline {section}{\numberline {4.6}Vertex}{146}
+\contentsline {subsection}{\numberline {4.6.1}Primary Vertex}{147}
+\contentsline {subsection}{\numberline {4.6.2}Secondary Vertex}{148}
+\contentsline {chapter}{\numberline {5}Data Analysis}{151}
+\contentsline {section}{\numberline {5.1}Analysis Tools}{151}
+\contentsline {section}{\numberline {5.2}Analysis Strategies}{152}
+\contentsline {subsection}{\numberline {5.2.1}Physics Goals}{152}
+\contentsline {subsection}{\numberline {5.2.2}General Workflow}{152}
+\contentsline {subsection}{\numberline {5.2.3}Technical Challenges}{153}
+\contentsline {section}{\numberline {5.3}Analysis Samples}{155}
+\contentsline {subsection}{\numberline {5.3.1}Dimuon Triggered Datasets}{155}
+\contentsline {subsection}{\numberline {5.3.2}Monte Carlo Simulations Samples}{156}
+\contentsline {subsection}{\numberline {5.3.3}$\mathaccentV {hat}05E{p}_{T}$ Reweighing}{157}
+\contentsline {subsection}{\numberline {5.3.4}RECO B-meson ${p}_{T}$ Reweighing}{157}
+\contentsline {subsection}{\numberline {5.3.5}Centrality Reweighing}{157}
+\contentsline {subsection}{\numberline {5.3.6}PV$_{z}$ Reweighing}{158}
+\contentsline {section}{\numberline {5.4}Global Event Observables}{162}
+\contentsline {subsection}{\numberline {5.4.1}Total Number of Events}{162}
+\contentsline {subsection}{\numberline {5.4.2}Centrality Definition}{163}
+\contentsline {subsection}{\numberline {5.4.3}$\delimiter "426830A N_{part} \delimiter "526930B $, $\delimiter "426830A N_{coll} \delimiter "526930B $, $\delimiter "426830A T_{AA} \delimiter "526930B $ vs Centrality}{163}
+\contentsline {subsection}{\numberline {5.4.4}Event Multiplicity}{164}
+\contentsline {section}{\numberline {5.5}B-meson Reconstruction}{165}
+\contentsline {subsection}{\numberline {5.5.1}Event Selections}{166}
+\contentsline {subsection}{\numberline {5.5.2}Track Selections}{167}
+\contentsline {subsection}{\numberline {5.5.3}Muon Selections}{168}
+\contentsline {section}{\numberline {5.6}Cut Optimization}{170}
+\contentsline {subsection}{\numberline {5.6.1}Topological Variables}{171}
+\contentsline {subsection}{\numberline {5.6.2}Multivariate Analysis}{173}
+\contentsline {subsection}{\numberline {5.6.3}Machine Learning Techniques}{174}
+\contentsline {subsection}{\numberline {5.6.4}Terminologies}{175}
+\contentsline {subsection}{\numberline {5.6.5}Boosted Decision Tree Algorithm}{176}
+\contentsline {subsection}{\numberline {5.6.6}TMVA Training}{178}
+\contentsline {subsection}{\numberline {5.6.7}Training Performance}{179}
+\contentsline {subsection}{\numberline {5.6.8}Working Point Determination}{181}
+\contentsline {subsection}{\numberline {5.6.9}Optimal Selection Performance}{183}
+\contentsline {section}{\numberline {5.7}Background Studies}{184}
+\contentsline {subsection}{\numberline {5.7.1}Overview}{184}
+\contentsline {subsection}{\numberline {5.7.2}Individual Channel NP Background Studies}{185}
+\contentsline {subsection}{\numberline {5.7.3}B-meson contribution of NP Background to $B^0_s$}{186}
+\contentsline {subsection}{\numberline {5.7.4}B-meson contribution of NP Background to $B^+$}{189}
+\contentsline {section}{\numberline {5.8}Signal Extraction}{190}
+\contentsline {subsection}{\numberline {5.8.1}Fitting Models}{191}
+\contentsline {subsection}{\numberline {5.8.2}Raw Yield Extraction}{192}
+\contentsline {subsection}{\numberline {5.8.3}Signal Significance Estimation}{196}
+\contentsline {section}{\numberline {5.9}B Mesons Candidates MC-Data Comparison}{198}
+\contentsline {subsection}{\numberline {5.9.1}overview}{198}
+\contentsline {subsection}{\numberline {5.9.2}\textbf {Splot} Techniques}{199}
+\contentsline {subsection}{\numberline {5.9.3}\textbf {Splot} Variable Correlation Studies}{202}
+\contentsline {subsection}{\numberline {5.9.4}\textbf {Splot} Results for Data-MC Comparison}{202}
+\contentsline {section}{\numberline {5.10}Acceptance and Efficiency Correction}{204}
+\contentsline {subsection}{\numberline {5.10.1}Overview}{204}
+\contentsline {subsection}{\numberline {5.10.2}Tag \& Probe Techniques}{205}
+\contentsline {subsection}{\numberline {5.10.3}Traditional Efficiency Correction Results}{206}
+\contentsline {subsection}{\numberline {5.10.4}Analysis Challenges}{206}
+\contentsline {subsection}{\numberline {5.10.5}Fiducial Measurement}{207}
+\contentsline {subsection}{\numberline {5.10.6}Finely Binned 2D Efficiency Map}{208}
+\contentsline {subsection}{\numberline {5.10.7}Data-Drive Efficiency Correction}{208}
+\contentsline {subsection}{\numberline {5.10.8}Results}{209}
+\contentsline {section}{\numberline {5.11}Cross Section Measurement}{210}
+\contentsline {section}{\numberline {5.12}Validation Tests}{211}
+\contentsline {subsection}{\numberline {5.12.1}Mass Scraping Test}{211}
+\contentsline {subsection}{\numberline {5.12.2}Raw Yield Closure}{213}
+\contentsline {subsection}{\numberline {5.12.3}Efficiency Closure}{213}
+\contentsline {subsubsection}{Low Statistics Limit}{215}
+\contentsline {subsection}{\numberline {5.12.4}\textit {Splot} Closure on Efficiency}{228}
+\contentsline {section}{\numberline {5.13}Statistical Uncertainties Determination}{230}
+\contentsline {subsection}{\numberline {5.13.1}Data Bootstrapping}{230}
+\contentsline {subsection}{\numberline {5.13.2}Statistical Uncertainties Interpretation}{234}
+\contentsline {section}{\numberline {5.14}Systematic Uncertainties Estimation}{235}
+\contentsline {subsection}{\numberline {5.14.1}Global Observables}{236}
+\contentsline {subsection}{\numberline {5.14.2}Branching Ratios}{236}
+\contentsline {subsection}{\numberline {5.14.3}Tracking Efficiency}{236}
+\contentsline {subsection}{\numberline {5.14.4}Muon Efficiency}{237}
+\contentsline {subsection}{\numberline {5.14.5}Selection Efficiency}{239}
+\contentsline {subsubsection}{Data-MC Discrepancy}{239}
+\contentsline {subsubsection}{Finite MC Statistics}{241}
+\contentsline {subsubsection}{Residue $p_T$ Shape Effect}{242}
+\contentsline {subsubsection}{Total Uncertainties on Selection Efficiency}{244}
+\contentsline {subsection}{\numberline {5.14.6}Signal Extraction}{244}
+\contentsline {subsubsection}{Signal PDF Variation}{245}
+\contentsline {subsubsection}{Background PDF Variation}{246}
+\contentsline {subsubsection}{Total PDF Variation}{246}
+\contentsline {subsection}{\numberline {5.14.7}Summary}{247}
+\contentsline {section}{\numberline {5.15}Final Results}{256}
+\contentsline {subsection}{\numberline {5.15.1}Overview}{256}
+\contentsline {subsection}{\numberline {5.15.2}$B^0_s$ and $B^{+}$ Cross Section}{256}
+\contentsline {subsection}{\numberline {5.15.3}$B^0_s/B^{+}$ Ratio}{260}
+\contentsline {chapter}{\numberline {6}Conclusions}{265}
+\contentsline {section}{\numberline {6.1}$pp$ Reference and Theoretical Models}{265}
+\contentsline {section}{\numberline {6.2}Implications from the Experimental Data}{267}
+\contentsline {section}{\numberline {6.3}Conclusions}{268}
+\contentsline {section}{\numberline {6.4}Future Outlooks}{270}
