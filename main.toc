@@ -65,16 +65,16 @@
 \contentsline {subsection}{\numberline {3.5.3}HF}{128}
 \contentsline {section}{\numberline {3.6}Relevant Detector Components}{129}
 \contentsline {chapter}{\numberline {4}Reconstructed Objects}{131}
-\contentsline {section}{\numberline {4.1}Event}{131}
-\contentsline {section}{\numberline {4.2}Hit}{133}
-\contentsline {section}{\numberline {4.3}Cluster}{134}
-\contentsline {section}{\numberline {4.4}Track}{135}
+\contentsline {section}{\numberline {4.1}Events}{131}
+\contentsline {section}{\numberline {4.2}Hits}{133}
+\contentsline {section}{\numberline {4.3}Clusters}{134}
+\contentsline {section}{\numberline {4.4}Tracks}{135}
 \contentsline {subsection}{\numberline {4.4.1}Overview of Basic Principles}{135}
 \contentsline {subsection}{\numberline {4.4.2}CMS Tracking Algorithm}{138}
-\contentsline {section}{\numberline {4.5}Muon}{144}
+\contentsline {section}{\numberline {4.5}Muons}{144}
 \contentsline {section}{\numberline {4.6}Vertex}{146}
-\contentsline {subsection}{\numberline {4.6.1}Primary Vertex}{147}
-\contentsline {subsection}{\numberline {4.6.2}Secondary Vertex}{148}
+\contentsline {subsection}{\numberline {4.6.1}Primary Vertices}{147}
+\contentsline {subsection}{\numberline {4.6.2}Secondary Vertices}{148}
 \contentsline {chapter}{\numberline {5}Data Analysis}{151}
 \contentsline {section}{\numberline {5.1}Analysis Tools}{151}
 \contentsline {section}{\numberline {5.2}Analysis Strategies}{152}
