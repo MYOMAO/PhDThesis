@@ -72,7 +72,7 @@
 \contentsline {subsection}{\numberline {4.4.1}Overview of Basic Principles}{135}
 \contentsline {subsection}{\numberline {4.4.2}CMS Tracking Algorithm}{138}
 \contentsline {section}{\numberline {4.5}Muons}{144}
-\contentsline {section}{\numberline {4.6}Vertex}{146}
+\contentsline {section}{\numberline {4.6}Vertices}{146}
 \contentsline {subsection}{\numberline {4.6.1}Primary Vertices}{147}
 \contentsline {subsection}{\numberline {4.6.2}Secondary Vertices}{148}
 \contentsline {chapter}{\numberline {5}Data Analysis}{151}
@@ -85,10 +85,10 @@
 \contentsline {subsection}{\numberline {5.3.1}Dimuon Triggered Datasets}{155}
 \contentsline {subsection}{\numberline {5.3.2}Monte Carlo Simulations Samples}{156}
 \contentsline {subsection}{\numberline {5.3.3}$\mathaccentV {hat}05E{p}_{T}$ Reweighing}{157}
-\contentsline {subsection}{\numberline {5.3.4}RECO B-meson ${p}_{T}$ Reweighing}{157}
-\contentsline {subsection}{\numberline {5.3.5}Centrality Reweighing}{157}
-\contentsline {subsection}{\numberline {5.3.6}PV$_{z}$ Reweighing}{158}
-\contentsline {section}{\numberline {5.4}Global Event Observables}{162}
+\contentsline {subsection}{\numberline {5.3.4}RECO B-meson ${p}_{T}$ Reweighing}{159}
+\contentsline {subsection}{\numberline {5.3.5}Centrality Reweighing}{159}
+\contentsline {subsection}{\numberline {5.3.6}PV$_{z}$ Reweighing}{160}
+\contentsline {section}{\numberline {5.4}Global Event Observables}{161}
 \contentsline {subsection}{\numberline {5.4.1}Total Number of Events}{162}
 \contentsline {subsection}{\numberline {5.4.2}Centrality Definition}{163}
 \contentsline {subsection}{\numberline {5.4.3}$\delimiter "426830A N_{part} \delimiter "526930B $, $\delimiter "426830A N_{coll} \delimiter "526930B $, $\delimiter "426830A T_{AA} \delimiter "526930B $ vs Centrality}{163}
@@ -99,17 +99,17 @@
 \contentsline {subsection}{\numberline {5.5.3}Muon Selections}{168}
 \contentsline {section}{\numberline {5.6}Cut Optimization}{170}
 \contentsline {subsection}{\numberline {5.6.1}Topological Variables}{171}
-\contentsline {subsection}{\numberline {5.6.2}Multivariate Analysis}{173}
+\contentsline {subsection}{\numberline {5.6.2}Multivariate Analysis}{172}
 \contentsline {subsection}{\numberline {5.6.3}Machine Learning Techniques}{174}
-\contentsline {subsection}{\numberline {5.6.4}Terminologies}{175}
-\contentsline {subsection}{\numberline {5.6.5}Boosted Decision Tree Algorithm}{176}
+\contentsline {subsection}{\numberline {5.6.4}Terminologies}{174}
+\contentsline {subsection}{\numberline {5.6.5}Boosted Decision Tree Algorithm}{177}
 \contentsline {subsection}{\numberline {5.6.6}TMVA Training}{178}
 \contentsline {subsection}{\numberline {5.6.7}Training Performance}{179}
 \contentsline {subsection}{\numberline {5.6.8}Working Point Determination}{181}
 \contentsline {subsection}{\numberline {5.6.9}Optimal Selection Performance}{183}
 \contentsline {section}{\numberline {5.7}Background Studies}{184}
 \contentsline {subsection}{\numberline {5.7.1}Overview}{184}
-\contentsline {subsection}{\numberline {5.7.2}Individual Channel NP Background Studies}{185}
+\contentsline {subsection}{\numberline {5.7.2}Individual Channel NP Background Studies}{184}
 \contentsline {subsection}{\numberline {5.7.3}B-meson contribution of NP Background to $B^0_s$}{186}
 \contentsline {subsection}{\numberline {5.7.4}B-meson contribution of NP Background to $B^+$}{189}
 \contentsline {section}{\numberline {5.8}Signal Extraction}{190}

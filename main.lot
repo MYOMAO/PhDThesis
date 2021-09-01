@@ -4,13 +4,13 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5.1}{\ignorespaces List of PbPb HLT datasets and triggers with the corresponding integrated luminosities used in the analysis.}}{155}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Summary table of the total number of MB events and their uncertainties vs centrality}}{163}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Summary table of the total number of MB events and their uncertainties in different centralities}}{163}
 \contentsline {table}{\numberline {5.3}{\ignorespaces A summary table of the total number of MB events vs centrality is shown below. The uncertainties are represented in terms of percentage in the parenthesis.}}{164}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Summary table of the muon acceptance selection for muon: $|\eta ^\mu |$ as a function $p_T^\mu $.}}{168}
-\contentsline {table}{\numberline {5.5}{\ignorespaces The numerical values of comparison between the traditional rectangular selections and MVA.}}{174}
-\contentsline {table}{\numberline {5.6}{\ignorespaces The summary table signal and background estimation of $B^0_s$ in each $p_T$ and centrality bin in the analysis.}}{182}
-\contentsline {table}{\numberline {5.7}{\ignorespaces The summary of optimal BDT selection maximizing the $B^0_s$ statistical significance.}}{182}
-\contentsline {table}{\numberline {5.8}{\ignorespaces The comparison of the traditional rectangular selections to MVA for Figure 5-16\hbox {}.}}{183}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Summary table of the muon acceptance selection for muon: $|\eta ^\mu |$ as a function $p_T^\mu $.}}{169}
+\contentsline {table}{\numberline {5.5}{\ignorespaces The numerical values of the comparison between the traditional rectangular selections and MVA.}}{173}
+\contentsline {table}{\numberline {5.6}{\ignorespaces The summary table of signal and background estimation of $B^0_s$ in each $p_T$ and centrality bin in the analysis.}}{182}
+\contentsline {table}{\numberline {5.7}{\ignorespaces The summary of optimal BDT selection maximizing the $B^0_s$ statistical significance.}}{183}
+\contentsline {table}{\numberline {5.8}{\ignorespaces The summary of optimal BDT selection maximizing the $B^+$ statistical significance.}}{184}
 \contentsline {table}{\numberline {5.9}{\ignorespaces The summary table of $B^0_s$ fits results of Gaussian mean, signal raw yield, and background raw yield as well as their uncertainties.}}{198}
 \contentsline {table}{\numberline {5.10}{\ignorespaces The summary table of $B^+$ fits results of Gaussian mean, signal raw yield, and background raw yield as well as their uncertainties.}}{198}
 \contentsline {table}{\numberline {5.11}{\ignorespaces The summary table of $B^0_s$ likelihood significance for each $p_T$ and centrality bin.}}{201}
@@ -21,8 +21,8 @@
 \contentsline {table}{\numberline {5.16}{\ignorespaces The results of $B^+$ efficiency factors $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $ and $\frac {1}{\delimiter "426830A \alpha \times \epsilon \delimiter "526930B }$ and their percent deviations are shown above.}}{214}
 \contentsline {table}{\numberline {5.17}{\ignorespaces The percent deviation of the efficiency factors from the expected value in the statistics similar to the data analysis are shown above.}}{228}
 \contentsline {table}{\numberline {5.18}{\ignorespaces The percent deviation of the efficiency factors from the expected value in the statistics similar to the data analysis are shown above.}}{228}
-\contentsline {table}{\numberline {5.19}{\ignorespaces The $B^0_s$ \textit {Splot} weighed efficiency correct factor $\delimiter "426830A \frac {1}{\alpha \times \epsilon }\delimiter "526930B '$, nominal unweighed $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $, and their percent deviation for each $p_T$ and centrality bin are summarized below.}}{229}
-\contentsline {table}{\numberline {5.20}{\ignorespaces The $B^+$ \textit {Splot} weighed efficiency correct factor $\delimiter "426830A \frac {1}{\alpha \times \epsilon }\delimiter "526930B '$, nominal unweighed $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $, and their percent deviation for each $p_T$ and centrality bin are summarized below.}}{230}
+\contentsline {table}{\numberline {5.19}{\ignorespaces The $B^0_s$ \textit {Splot} weighted efficiency correct factor $\delimiter "426830A \frac {1}{\alpha \times \epsilon }\delimiter "526930B '$, nominal unweighed $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $, and their percent deviation for each $p_T$ and centrality bin are summarized below.}}{229}
+\contentsline {table}{\numberline {5.20}{\ignorespaces The $B^+$ \textit {Splot} weighted efficiency correct factor $\delimiter "426830A \frac {1}{\alpha \times \epsilon }\delimiter "526930B '$, nominal unweighed $\delimiter "426830A \frac {1}{\alpha \times \epsilon } \delimiter "526930B $, and their percent deviation for each $p_T$ and centrality bin are summarized below.}}{230}
 \contentsline {table}{\numberline {5.21}{\ignorespaces $B^0_s$ RMS/Mean and their asymmetric up and down statistical uncertainties of the corrected yield distribution are summarized below.}}{235}
 \contentsline {table}{\numberline {5.22}{\ignorespaces $B^+$ RMS/Mean and their asymmetric up and down statistical uncertainties of the corrected yield distribution are summarized below.}}{235}
 \contentsline {table}{\numberline {5.23}{\ignorespaces The $B^0_s$ systematic uncertainty due to muon efficiency for each $p_T$ and centrality bin is summarized below.}}{238}
