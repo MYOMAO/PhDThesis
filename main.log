@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  31 AUG 2021 23:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  2 SEP 2021 17:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -218,9 +218,6 @@ LaTeX Warning: Label `HelixAndFit' multiply defined.
 
 LaTeX Warning: Label `BsSig' multiply defined.
 
-
-LaTeX Warning: Label `BsBPPtCMS' multiply defined.
-
 ) (./chap6.aux) (./biblio.aux))
 \openout1 = `main.aux'.
 
@@ -412,13 +409,13 @@ Underfull \vbox (badness 7740) has occurred while \output is active []
 
  [29]
 [30]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4479) has occurred while \output is active []
 
  [31]
-[32]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1472) has occurred while \output is active []
 
- [33]
+ [32]
+[33]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34]
@@ -2182,17 +2179,20 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [183 <./Figures/Chapter5/BsSig_10_15.pdf, page is rotated 90 degrees> <./Figur
-es/Chapter5/BPSig_10_15.pdf>] [184] [185 <./Figures/Chapter5/mc_PbPb_1_Bmumumas
-s.pdf, page is rotated 90 degrees> <./Figures/Chapter5/mc_PbPb_1_Btktkmass.pdf,
- page is rotated 90 degrees> <./Figures/Chapter5/data_PbPb_1_Bmumumass.pdf, pag
-e is rotated 90 degrees> <./Figures/Chapter5/data_PbPb_1_Btktkmass.pdf, page is
- rotated 90 degrees>]
+es/Chapter5/BPSig_10_15.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [184]
+[185 <./Figures/Chapter5/mc_PbPb_1_Bmumumass.pdf, page is rotated 90 degrees> <
+./Figures/Chapter5/mc_PbPb_1_Btktkmass.pdf, page is rotated 90 degrees> <./Figu
+res/Chapter5/data_PbPb_1_Bmumumass.pdf, page is rotated 90 degrees> <./Figures/
+Chapter5/data_PbPb_1_Btktkmass.pdf, page is rotated 90 degrees>]
 <Figures/Chapter5/NPBackgroundONLY_0.png, id=2473, 598.235pt x 574.145pt>
 File: Figures/Chapter5/NPBackgroundONLY_0.png Graphic file (type png)
 
 <use Figures/Chapter5/NPBackgroundONLY_0.png>
 Package pdftex.def Info: Figures/Chapter5/NPBackgroundONLY_0.png used on input 
-line 909.
+line 908.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
 <Figures/Chapter5/NPBackgroundONLY_1.png, id=2474, 598.235pt x 574.145pt>
@@ -2200,7 +2200,7 @@ File: Figures/Chapter5/NPBackgroundONLY_1.png Graphic file (type png)
 
 <use Figures/Chapter5/NPBackgroundONLY_1.png>
 Package pdftex.def Info: Figures/Chapter5/NPBackgroundONLY_1.png used on input 
-line 910.
+line 909.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
 <Figures/Chapter5/NPBackgroundONLY_2.png, id=2475, 598.235pt x 574.145pt>
@@ -2208,7 +2208,7 @@ File: Figures/Chapter5/NPBackgroundONLY_2.png Graphic file (type png)
 
 <use Figures/Chapter5/NPBackgroundONLY_2.png>
 Package pdftex.def Info: Figures/Chapter5/NPBackgroundONLY_2.png used on input 
-line 911.
+line 910.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
 <Figures/Chapter5/NPBackgroundONLY_3.png, id=2476, 598.235pt x 574.145pt>
@@ -2216,7 +2216,7 @@ File: Figures/Chapter5/NPBackgroundONLY_3.png Graphic file (type png)
 
 <use Figures/Chapter5/NPBackgroundONLY_3.png>
 Package pdftex.def Info: Figures/Chapter5/NPBackgroundONLY_3.png used on input 
-line 912.
+line 911.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
 <Figures/Chapter5/NPBackground_0.png, id=2477, 598.235pt x 574.145pt>
@@ -2224,7 +2224,7 @@ File: Figures/Chapter5/NPBackground_0.png Graphic file (type png)
 
 <use Figures/Chapter5/NPBackground_0.png>
 Package pdftex.def Info: Figures/Chapter5/NPBackground_0.png used on input line
- 924.
+ 923.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
 <Figures/Chapter5/NPBackground_1.png, id=2478, 598.235pt x 574.145pt>
@@ -2232,7 +2232,7 @@ File: Figures/Chapter5/NPBackground_1.png Graphic file (type png)
 
 <use Figures/Chapter5/NPBackground_1.png>
 Package pdftex.def Info: Figures/Chapter5/NPBackground_1.png used on input line
- 925.
+ 924.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
 <Figures/Chapter5/NPBackground_2.png, id=2479, 598.235pt x 574.145pt>
@@ -2240,7 +2240,7 @@ File: Figures/Chapter5/NPBackground_2.png Graphic file (type png)
 
 <use Figures/Chapter5/NPBackground_2.png>
 Package pdftex.def Info: Figures/Chapter5/NPBackground_2.png used on input line
- 926.
+ 925.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
 <Figures/Chapter5/NPBackground_3.png, id=2480, 598.235pt x 574.145pt>
@@ -2248,62 +2248,54 @@ File: Figures/Chapter5/NPBackground_3.png Graphic file (type png)
 
 <use Figures/Chapter5/NPBackground_3.png>
 Package pdftex.def Info: Figures/Chapter5/NPBackground_3.png used on input line
- 927.
+ 926.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
  [186 <./Figures/Chapter5/BsMassBDTCut-eps-converted-to.pdf> <./Figures/Chapter
 5/BPMassBDTCut-eps-converted-to.pdf>]
-<Figures/Chapter5/BmesonBackground_0.png, id=2510, 598.235pt x 574.145pt>
+[187 <./Figures/Chapter5/NPBackgroundONLY_0.png> <./Figures/Chapter5/NPBackgrou
+ndONLY_1.png> <./Figures/Chapter5/NPBackgroundONLY_2.png> <./Figures/Chapter5/N
+PBackgroundONLY_3.png>]
+<Figures/Chapter5/BmesonBackground_0.png, id=2514, 598.235pt x 574.145pt>
 File: Figures/Chapter5/BmesonBackground_0.png Graphic file (type png)
 
 <use Figures/Chapter5/BmesonBackground_0.png>
 Package pdftex.def Info: Figures/Chapter5/BmesonBackground_0.png used on input 
-line 949.
+line 948.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
-<Figures/Chapter5/BmesonBackground_1.png, id=2511, 598.235pt x 574.145pt>
+<Figures/Chapter5/BmesonBackground_1.png, id=2515, 598.235pt x 574.145pt>
 File: Figures/Chapter5/BmesonBackground_1.png Graphic file (type png)
 
 <use Figures/Chapter5/BmesonBackground_1.png>
 Package pdftex.def Info: Figures/Chapter5/BmesonBackground_1.png used on input 
-line 950.
+line 949.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
-<Figures/Chapter5/BmesonBackground_2.png, id=2512, 598.235pt x 574.145pt>
+<Figures/Chapter5/BmesonBackground_2.png, id=2516, 598.235pt x 574.145pt>
 File: Figures/Chapter5/BmesonBackground_2.png Graphic file (type png)
 
 <use Figures/Chapter5/BmesonBackground_2.png>
 Package pdftex.def Info: Figures/Chapter5/BmesonBackground_2.png used on input 
-line 951.
+line 950.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
-<Figures/Chapter5/BmesonBackground_3.png, id=2513, 598.235pt x 574.145pt>
+<Figures/Chapter5/BmesonBackground_3.png, id=2517, 598.235pt x 574.145pt>
 File: Figures/Chapter5/BmesonBackground_3.png Graphic file (type png)
 
 <use Figures/Chapter5/BmesonBackground_3.png>
 Package pdftex.def Info: Figures/Chapter5/BmesonBackground_3.png used on input 
-line 952.
+line 951.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
- [187 <./Figures/Chapter5/NPBackgroundONLY_0.png> <./Figures/Chapter5/NPBackgro
-undONLY_1.png> <./Figures/Chapter5/NPBackgroundONLY_2.png> <./Figures/Chapter5/
-NPBackgroundONLY_3.png>] [188 <./Figures/Chapter5/NPBackground_0.png> <./Figure
-s/Chapter5/NPBackground_1.png> <./Figures/Chapter5/NPBackground_2.png> <./Figur
-es/Chapter5/NPBackground_3.png>]
-Underfull \vbox (badness 5490) has occurred while \output is active []
-
- [189 <./Figures/Chapter5/BmesonBackground_0.png> <./Figures/Chapter5/BmesonBac
-kground_1.png> <./Figures/Chapter5/BmesonBackground_2.png> <./Figures/Chapter5/
-BmesonBackground_3.png>]
-Overfull \hbox (5.24654pt too wide) in paragraph at lines 971--972
-\OML/cmm/m/it/12 J= K[]\OT1/cmr/m/n/12 (892)$\T1/cmr/m/n/12 . In these cases, w
-e dis-tin-guish the kaons com-ing from the $\OML/cmm/m/it/12 K[]\OT1/cmr/m/n/12
- (892)$
- []
-
+ [188 <./Figures/Chapter5/NPBackground_0.png> <./Figures/Chapter5/NPBackground_
+1.png> <./Figures/Chapter5/NPBackground_2.png> <./Figures/Chapter5/NPBackground
+_3.png>] [189 <./Figures/Chapter5/BmesonBackground_0.png> <./Figures/Chapter5/B
+mesonBackground_1.png> <./Figures/Chapter5/BmesonBackground_2.png> <./Figures/C
+hapter5/BmesonBackground_3.png>]
 <Figures/Chapter5/fitNP_PbPb.pdf, id=2524, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/fitNP_PbPb.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/fitNP_PbPb.pdf>
-Package pdftex.def Info: Figures/Chapter5/fitNP_PbPb.pdf used on input line 981
+Package pdftex.def Info: Figures/Chapter5/fitNP_PbPb.pdf used on input line 980
 .
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
 
@@ -2314,7 +2306,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: Figures/Chapter5/BmassBpPi.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/BmassBpPi.pdf>
-Package pdftex.def Info: Figures/Chapter5/BmassBpPi.pdf used on input line 989.
+Package pdftex.def Info: Figures/Chapter5/BmassBpPi.pdf used on input line 988.
 
 (pdftex.def)             Requested size: 138.76157pt x 133.13524pt.
 
@@ -2323,7 +2315,7 @@ File: Figures/Chapter5/BmassBpK_tkmatch.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/BmassBpK_tkmatch.pdf>
 Package pdftex.def Info: Figures/Chapter5/BmassBpK_tkmatch.pdf used on input li
-ne 990.
+ne 989.
 (pdftex.def)             Requested size: 138.76157pt x 133.13524pt.
 
 <Figures/Chapter5/BmassB0K_tkmatch.pdf, id=2527, 569.12625pt x 546.04pt>
@@ -2331,16 +2323,13 @@ File: Figures/Chapter5/BmassB0K_tkmatch.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/BmassB0K_tkmatch.pdf>
 Package pdftex.def Info: Figures/Chapter5/BmassB0K_tkmatch.pdf used on input li
-ne 991.
+ne 990.
 (pdftex.def)             Requested size: 138.76157pt x 133.13524pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[190] [191 <./Figures/Chapter5/fitNP_PbPb.pdf, page is rotated 90 degrees> <./F
-igures/Chapter5/BmassBpPi.pdf, page is rotated 90 degrees> <./Figures/Chapter5/
-BmassBpK_tkmatch.pdf, page is rotated 90 degrees> <./Figures/Chapter5/BmassB0K_
-tkmatch.pdf, page is rotated 90 degrees>]
+[190] [191 <./Figures/Chapter5/fitNP_PbPb.pdf, page is rotated 90 degrees>]
 Package epstopdf Info: Source file: <Figures/Chapter5/BsHisPtWidth.eps>
 (epstopdf)                    date: 2021-08-02 11:37:56
 (epstopdf)                    size: 10874 bytes
@@ -2350,16 +2339,16 @@ d-to.pdf>
 (epstopdf)                    size: 9784 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Chapter5/BsHisPtWi
 dth-eps-converted-to.pdf Figures/Chapter5/BsHisPtWidth.eps>
-(epstopdf)             \includegraphics on input line 1028.
+(epstopdf)             \includegraphics on input line 1027.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Chapter5/BsHisPtWidth-eps-converted-to.pdf, id=2706, 569.12625pt x 546
+<Figures/Chapter5/BsHisPtWidth-eps-converted-to.pdf, id=2577, 569.12625pt x 546
 .04pt>
 File: Figures/Chapter5/BsHisPtWidth-eps-converted-to.pdf Graphic file (type pdf
 )
  <use Figures/Chapter5/BsHisPtWidth-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/Chapter5/BsHisPtWidth-eps-converted-to.pdf use
-d on input line 1028.
+d on input line 1027.
 (pdftex.def)             Requested size: 208.13574pt x 199.69037pt.
 Package epstopdf Info: Source file: <Figures/Chapter5/BPHisPtWidth.eps>
 (epstopdf)                    date: 2021-08-02 11:37:56
@@ -2370,60 +2359,62 @@ d-to.pdf>
 (epstopdf)                    size: 9592 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Chapter5/BPHisPtWi
 dth-eps-converted-to.pdf Figures/Chapter5/BPHisPtWidth.eps>
-(epstopdf)             \includegraphics on input line 1029.
+(epstopdf)             \includegraphics on input line 1028.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Chapter5/BPHisPtWidth-eps-converted-to.pdf, id=2707, 569.12625pt x 546
+<Figures/Chapter5/BPHisPtWidth-eps-converted-to.pdf, id=2578, 569.12625pt x 546
 .04pt>
 File: Figures/Chapter5/BPHisPtWidth-eps-converted-to.pdf Graphic file (type pdf
 )
  <use Figures/Chapter5/BPHisPtWidth-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/Chapter5/BPHisPtWidth-eps-converted-to.pdf use
-d on input line 1029.
+d on input line 1028.
 (pdftex.def)             Requested size: 208.13574pt x 199.69037pt.
- [192]
-<Figures/Chapter5/data_PbPb_1_BptNew_710_doubly0_0_90EffInfoTreeFit.pdf, id=271
-1, 569.12625pt x 546.04pt>
+ [192 <./Figures/Chapter5/BmassBpPi.pdf, page is rotated 90 degrees> <./Figures
+/Chapter5/BmassBpK_tkmatch.pdf, page is rotated 90 degrees> <./Figures/Chapter5
+/BmassB0K_tkmatch.pdf, page is rotated 90 degrees>] [193 <./Figures/Chapter5/Bs
+HisPtWidth-eps-converted-to.pdf> <./Figures/Chapter5/BPHisPtWidth-eps-converted
+-to.pdf>]
+<Figures/Chapter5/data_PbPb_1_BptNew_710_doubly0_0_90EffInfoTreeFit.pdf, id=272
+6, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/data_PbPb_1_BptNew_710_doubly0_0_90EffInfoTreeFit.pdf Gr
 aphic file (type pdf)
 
 <use Figures/Chapter5/data_PbPb_1_BptNew_710_doubly0_0_90EffInfoTreeFit.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_BptNew_710_doubly0_0_90Ef
-fInfoTreeFit.pdf used on input line 1055.
+fInfoTreeFit.pdf used on input line 1054.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
 
 <Figures/Chapter5/data_PbPb_2_BptNew_1015_doubly0_0_90EffInfoTreeFit.pdf, id=27
-12, 569.12625pt x 546.04pt>
+27, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/data_PbPb_2_BptNew_1015_doubly0_0_90EffInfoTreeFit.pdf G
 raphic file (type pdf)
 
 <use Figures/Chapter5/data_PbPb_2_BptNew_1015_doubly0_0_90EffInfoTreeFit.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_2_BptNew_1015_doubly0_0_90E
-ffInfoTreeFit.pdf used on input line 1056.
+ffInfoTreeFit.pdf used on input line 1055.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
 
 <Figures/Chapter5/data_PbPb_3_BptNew_1520_doubly0_0_90EffInfoTreeFit.pdf, id=27
-13, 569.12625pt x 546.04pt>
+28, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/data_PbPb_3_BptNew_1520_doubly0_0_90EffInfoTreeFit.pdf G
 raphic file (type pdf)
 
 <use Figures/Chapter5/data_PbPb_3_BptNew_1520_doubly0_0_90EffInfoTreeFit.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_3_BptNew_1520_doubly0_0_90E
-ffInfoTreeFit.pdf used on input line 1057.
+ffInfoTreeFit.pdf used on input line 1056.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
 
 <Figures/Chapter5/data_PbPb_4_BptNew_2050_doubly0_0_90EffInfoTreeFit.pdf, id=27
-14, 569.12625pt x 546.04pt>
+29, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/data_PbPb_4_BptNew_2050_doubly0_0_90EffInfoTreeFit.pdf G
 raphic file (type pdf)
 
 <use Figures/Chapter5/data_PbPb_4_BptNew_2050_doubly0_0_90EffInfoTreeFit.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_4_BptNew_2050_doubly0_0_90E
-ffInfoTreeFit.pdf used on input line 1058.
+ffInfoTreeFit.pdf used on input line 1057.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
 
-[193 <./Figures/Chapter5/BsHisPtWidth-eps-converted-to.pdf> <./Figures/Chapter5
-/BPHisPtWidth-eps-converted-to.pdf>]
 <Figures/Chapter5/data_PbPb_1_BptNew_1050_doubly0_0_30EffInfoTreeFit.pdf, id=27
 30, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/data_PbPb_1_BptNew_1050_doubly0_0_30EffInfoTreeFit.pdf G
@@ -2431,7 +2422,7 @@ raphic file (type pdf)
 
 <use Figures/Chapter5/data_PbPb_1_BptNew_1050_doubly0_0_30EffInfoTreeFit.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_BptNew_1050_doubly0_0_30E
-ffInfoTreeFit.pdf used on input line 1068.
+ffInfoTreeFit.pdf used on input line 1067.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
 
 <Figures/Chapter5/data_PbPb_1_BptNew_1050_doubly0_30_90EffInfoTreeFit.pdf, id=2
@@ -2441,7 +2432,7 @@ Graphic file (type pdf)
 
 <use Figures/Chapter5/data_PbPb_1_BptNew_1050_doubly0_30_90EffInfoTreeFit.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_BptNew_1050_doubly0_30_90
-EffInfoTreeFit.pdf used on input line 1069.
+EffInfoTreeFit.pdf used on input line 1068.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
 
 <Figures/Chapter5/data_PbPb_1_BptNew_1050_doubly0_0_90EffInfoTreeFit.pdf, id=27
@@ -2451,7 +2442,7 @@ raphic file (type pdf)
 
 <use Figures/Chapter5/data_PbPb_1_BptNew_1050_doubly0_0_90EffInfoTreeFit.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_BptNew_1050_doubly0_0_90E
-ffInfoTreeFit.pdf used on input line 1070.
+ffInfoTreeFit.pdf used on input line 1069.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
 
 
@@ -2465,7 +2456,7 @@ type pdf)
 
 <use Figures/Chapter5/data_PbPb_1_Bpt_710_doubly0_0_90_ntKp.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_Bpt_710_doubly0_0_90_ntKp
-.pdf used on input line 1081.
+.pdf used on input line 1080.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
 
 <Figures/Chapter5/data_PbPb_2_Bpt_1015_doubly0_0_90_ntKp.pdf, id=2734, 569.1262
@@ -2475,7 +2466,7 @@ File: Figures/Chapter5/data_PbPb_2_Bpt_1015_doubly0_0_90_ntKp.pdf Graphic file
 
 <use Figures/Chapter5/data_PbPb_2_Bpt_1015_doubly0_0_90_ntKp.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_2_Bpt_1015_doubly0_0_90_ntK
-p.pdf used on input line 1082.
+p.pdf used on input line 1081.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
 
 <Figures/Chapter5/data_PbPb_3_Bpt_1520_doubly0_0_90_ntKp.pdf, id=2735, 569.1262
@@ -2485,7 +2476,7 @@ File: Figures/Chapter5/data_PbPb_3_Bpt_1520_doubly0_0_90_ntKp.pdf Graphic file
 
 <use Figures/Chapter5/data_PbPb_3_Bpt_1520_doubly0_0_90_ntKp.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_3_Bpt_1520_doubly0_0_90_ntK
-p.pdf used on input line 1083.
+p.pdf used on input line 1082.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
 
 <Figures/Chapter5/data_PbPb_4_Bpt_2050_doubly0_0_90_ntKp.pdf, id=2736, 569.1262
@@ -2495,50 +2486,11 @@ File: Figures/Chapter5/data_PbPb_4_Bpt_2050_doubly0_0_90_ntKp.pdf Graphic file
 
 <use Figures/Chapter5/data_PbPb_4_Bpt_2050_doubly0_0_90_ntKp.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_4_Bpt_2050_doubly0_0_90_ntK
-p.pdf used on input line 1084.
+p.pdf used on input line 1083.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-<Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_0_30_ntKp.pdf, id=2737, 569.1262
-5pt x 546.04pt>
-File: Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_0_30_ntKp.pdf Graphic file 
-(type pdf)
-
-<use Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_0_30_ntKp.pdf>
-Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_0_30_ntK
-p.pdf used on input line 1094.
-(pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
-
-<Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_30_90_ntKp.pdf, id=2738, 569.126
-25pt x 546.04pt>
-File: Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_30_90_ntKp.pdf Graphic file
- (type pdf)
-
-<use Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_30_90_ntKp.pdf>
-Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_30_90_nt
-Kp.pdf used on input line 1095.
-(pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
-
-<Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_0_90_ntKp.pdf, id=2739, 569.1262
-5pt x 546.04pt>
-File: Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_0_90_ntKp.pdf Graphic file 
-(type pdf)
-
-<use Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_0_90_ntKp.pdf>
-Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_0_90_ntK
-p.pdf used on input line 1096.
-(pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (50.8711pt too wide) in paragraph at lines 1111--1125
- [] 
- []
 
 [194 <./Figures/Chapter5/data_PbPb_1_BptNew_710_doubly0_0_90EffInfoTreeFit.pdf,
  page is rotated 90 degrees> <./Figures/Chapter5/data_PbPb_2_BptNew_1015_doubly
@@ -2546,260 +2498,518 @@ Overfull \hbox (50.8711pt too wide) in paragraph at lines 1111--1125
 PbPb_3_BptNew_1520_doubly0_0_90EffInfoTreeFit.pdf, page is rotated 90 degrees> 
 <./Figures/Chapter5/data_PbPb_4_BptNew_2050_doubly0_0_90EffInfoTreeFit.pdf, pag
 e is rotated 90 degrees>]
+<Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_0_30_ntKp.pdf, id=2912, 569.1262
+5pt x 546.04pt>
+File: Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_0_30_ntKp.pdf Graphic file 
+(type pdf)
+
+<use Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_0_30_ntKp.pdf>
+Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_0_30_ntK
+p.pdf used on input line 1093.
+(pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
+
+<Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_30_90_ntKp.pdf, id=2913, 569.126
+25pt x 546.04pt>
+File: Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_30_90_ntKp.pdf Graphic file
+ (type pdf)
+
+<use Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_30_90_ntKp.pdf>
+Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_30_90_nt
+Kp.pdf used on input line 1094.
+(pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
+
+<Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_0_90_ntKp.pdf, id=2914, 569.1262
+5pt x 546.04pt>
+File: Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_0_90_ntKp.pdf Graphic file 
+(type pdf)
+
+<use Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_0_90_ntKp.pdf>
+Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_0_90_ntK
+p.pdf used on input line 1095.
+(pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Overfull \hbox (53.23224pt too wide) in paragraph at lines 1134--1147
+[195 <./Figures/Chapter5/data_PbPb_1_BptNew_1050_doubly0_0_30EffInfoTreeFit.pdf
+, page is rotated 90 degrees> <./Figures/Chapter5/data_PbPb_1_BptNew_1050_doubl
+y0_30_90EffInfoTreeFit.pdf, page is rotated 90 degrees> <./Figures/Chapter5/dat
+a_PbPb_1_BptNew_1050_doubly0_0_90EffInfoTreeFit.pdf, page is rotated 90 degrees
+>] [196 <./Figures/Chapter5/data_PbPb_1_Bpt_710_doubly0_0_90_ntKp.pdf, page is 
+rotated 90 degrees> <./Figures/Chapter5/data_PbPb_2_Bpt_1015_doubly0_0_90_ntKp.
+pdf, page is rotated 90 degrees> <./Figures/Chapter5/data_PbPb_3_Bpt_1520_doubl
+y0_0_90_ntKp.pdf, page is rotated 90 degrees> <./Figures/Chapter5/data_PbPb_4_B
+pt_2050_doubly0_0_90_ntKp.pdf, page is rotated 90 degrees>] [197 <./Figures/Cha
+pter5/data_PbPb_1_Bpt_1050_doubly0_0_30_ntKp.pdf, page is rotated 90 degrees> <
+./Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_30_90_ntKp.pdf, page is rotated
+ 90 degrees> <./Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_0_90_ntKp.pdf, pa
+ge is rotated 90 degrees>]
+Overfull \hbox (50.8711pt too wide) in paragraph at lines 1112--1126
  [] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (53.23224pt too wide) in paragraph at lines 1135--1148
+ [] 
+ []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2799) has occurred while \output is active []
 
- [195 <./Figures/Chapter5/data_PbPb_1_BptNew_1050_doubly0_0_30EffInfoTreeFit.pd
-f, page is rotated 90 degrees> <./Figures/Chapter5/data_PbPb_1_BptNew_1050_doub
-ly0_30_90EffInfoTreeFit.pdf, page is rotated 90 degrees> <./Figures/Chapter5/da
-ta_PbPb_1_BptNew_1050_doubly0_0_90EffInfoTreeFit.pdf, page is rotated 90 degree
-s>]
-<Figures/Chapter5/sigscan_0_90_7_10.png, id=3048, 598.235pt x 574.145pt>
+ [198
+
+]
+<Figures/Chapter5/sigscan_0_90_7_10.png, id=3359, 598.235pt x 574.145pt>
 File: Figures/Chapter5/sigscan_0_90_7_10.png Graphic file (type png)
 
 <use Figures/Chapter5/sigscan_0_90_7_10.png>
 Package pdftex.def Info: Figures/Chapter5/sigscan_0_90_7_10.png used on input l
-ine 1164.
+ine 1165.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
-<Figures/Chapter5/sigscan_0_90_10_15.png, id=3049, 598.235pt x 574.145pt>
+<Figures/Chapter5/sigscan_0_90_10_15.png, id=3360, 598.235pt x 574.145pt>
 File: Figures/Chapter5/sigscan_0_90_10_15.png Graphic file (type png)
 
 <use Figures/Chapter5/sigscan_0_90_10_15.png>
 Package pdftex.def Info: Figures/Chapter5/sigscan_0_90_10_15.png used on input 
-line 1165.
+line 1166.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
-<Figures/Chapter5/sigscan_0_90_15_20.png, id=3050, 598.235pt x 574.145pt>
+<Figures/Chapter5/sigscan_0_90_15_20.png, id=3361, 598.235pt x 574.145pt>
 File: Figures/Chapter5/sigscan_0_90_15_20.png Graphic file (type png)
 
 <use Figures/Chapter5/sigscan_0_90_15_20.png>
 Package pdftex.def Info: Figures/Chapter5/sigscan_0_90_15_20.png used on input 
-line 1166.
+line 1167.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
-<Figures/Chapter5/sigscan_0_90_20_50.png, id=3051, 598.235pt x 574.145pt>
+<Figures/Chapter5/sigscan_0_90_20_50.png, id=3362, 598.235pt x 574.145pt>
 File: Figures/Chapter5/sigscan_0_90_20_50.png Graphic file (type png)
 
 <use Figures/Chapter5/sigscan_0_90_20_50.png>
 Package pdftex.def Info: Figures/Chapter5/sigscan_0_90_20_50.png used on input 
-line 1167.
+line 1168.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/Chapter5/sigscan_0_30_10_50.png, id=3052, 598.235pt x 574.145pt>
+<Figures/Chapter5/sigscan_0_30_10_50.png, id=3363, 598.235pt x 574.145pt>
 File: Figures/Chapter5/sigscan_0_30_10_50.png Graphic file (type png)
 
 <use Figures/Chapter5/sigscan_0_30_10_50.png>
 Package pdftex.def Info: Figures/Chapter5/sigscan_0_30_10_50.png used on input 
-line 1176.
+line 1177.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
-<Figures/Chapter5/sigscan_30_90_10_50.png, id=3053, 598.235pt x 574.145pt>
+<Figures/Chapter5/sigscan_30_90_10_50.png, id=3364, 598.235pt x 574.145pt>
 File: Figures/Chapter5/sigscan_30_90_10_50.png Graphic file (type png)
 
 <use Figures/Chapter5/sigscan_30_90_10_50.png>
 Package pdftex.def Info: Figures/Chapter5/sigscan_30_90_10_50.png used on input
- line 1177.
+ line 1178.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
-<Figures/Chapter5/sigscan_0_90_10_50.png, id=3054, 598.235pt x 574.145pt>
+<Figures/Chapter5/sigscan_0_90_10_50.png, id=3365, 598.235pt x 574.145pt>
 File: Figures/Chapter5/sigscan_0_90_10_50.png Graphic file (type png)
 
 <use Figures/Chapter5/sigscan_0_90_10_50.png>
 Package pdftex.def Info: Figures/Chapter5/sigscan_0_90_10_50.png used on input 
-line 1178.
+line 1179.
 (pdftex.def)             Requested size: 195.12767pt x 187.26949pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 3078) has occurred while \output is active []
-
- [196 <./Figures/Chapter5/data_PbPb_1_Bpt_710_doubly0_0_90_ntKp.pdf, page is ro
-tated 90 degrees> <./Figures/Chapter5/data_PbPb_2_Bpt_1015_doubly0_0_90_ntKp.pd
-f, page is rotated 90 degrees> <./Figures/Chapter5/data_PbPb_3_Bpt_1520_doubly0
-_0_90_ntKp.pdf, page is rotated 90 degrees> <./Figures/Chapter5/data_PbPb_4_Bpt
-_2050_doubly0_0_90_ntKp.pdf, page is rotated 90 degrees>]
+[199 <./Figures/Chapter5/sigscan_0_90_7_10.png> <./Figures/Chapter5/sigscan_0_9
+0_10_15.png> <./Figures/Chapter5/sigscan_0_90_15_20.png> <./Figures/Chapter5/si
+gscan_0_90_20_50.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [197 <./Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_0_30_ntKp.pdf, page is r
-otated 90 degrees> <./Figures/Chapter5/data_PbPb_1_Bpt_1050_doubly0_30_90_ntKp.
-pdf, page is rotated 90 degrees> <./Figures/Chapter5/data_PbPb_1_Bpt_1050_doubl
-y0_0_90_ntKp.pdf, page is rotated 90 degrees>] [198] [199 <./Figures/Chapter5/s
-igscan_0_90_7_10.png> <./Figures/Chapter5/sigscan_0_90_10_15.png> <./Figures/Ch
-apter5/sigscan_0_90_15_20.png> <./Figures/Chapter5/sigscan_0_90_20_50.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [200 <./Figures/Chapter5/sigscan_0_30_10_50.png> <./Figures/Chapter5/sigscan_3
-0_90_10_50.png> <./Figures/Chapter5/sigscan_0_90_10_50.png>]
-<Figures/Chapter5/SplotWeighPic.png, id=3373, 1002.74625pt x 637.38126pt>
+0_90_10_50.png> <./Figures/Chapter5/sigscan_0_90_10_50.png>] [201]
+<Figures/Chapter5/SplotWeighPic.png, id=3376, 1002.74625pt x 637.38126pt>
 File: Figures/Chapter5/SplotWeighPic.png Graphic file (type png)
 
 <use Figures/Chapter5/SplotWeighPic.png>
 Package pdftex.def Info: Figures/Chapter5/SplotWeighPic.png used on input line 
-1233.
+1234.
 (pdftex.def)             Requested size: 325.215pt x 206.71852pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [201 <./Figures/Chapter5/SplotWeighPic.png>]
-<Figures/Chapter5/BsBDTCorrB.pdf, id=3378, 614.295pt x 794.97pt>
+ [202 <./Figures/Chapter5/SplotWeighPic.png>]
+<Figures/Chapter5/BsBDTCorrB.pdf, id=3381, 614.295pt x 794.97pt>
 File: Figures/Chapter5/BsBDTCorrB.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/BsBDTCorrB.pdf>
 Package pdftex.def Info: Figures/Chapter5/BsBDTCorrB.pdf used on input line 124
-7.
+8.
 (pdftex.def)             Requested size: 195.12767pt x 252.51541pt.
 File: Figures/Chapter5/BsBDTCorrB.pdf Graphic file (type pdf)
  <use Figures/Chapter5/BsBDTCorrB.pdf>
 Package pdftex.def Info: Figures/Chapter5/BsBDTCorrB.pdf used on input line 124
-8.
+9.
 (pdftex.def)             Requested size: 195.12767pt x 252.51541pt.
 
-<Figures/Chapter5/BPBDTCorrB.pdf, id=3379, 614.295pt x 794.97pt>
+<Figures/Chapter5/BPBDTCorrB.pdf, id=3382, 614.295pt x 794.97pt>
 File: Figures/Chapter5/BPBDTCorrB.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/BPBDTCorrB.pdf>
 Package pdftex.def Info: Figures/Chapter5/BPBDTCorrB.pdf used on input line 125
-6.
+7.
 (pdftex.def)             Requested size: 195.12767pt x 252.51541pt.
 
-<Figures/Chapter5/BPBDTCorrS.pdf, id=3380, 614.295pt x 794.97pt>
+<Figures/Chapter5/BPBDTCorrS.pdf, id=3383, 614.295pt x 794.97pt>
 File: Figures/Chapter5/BPBDTCorrS.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/BPBDTCorrS.pdf>
 Package pdftex.def Info: Figures/Chapter5/BPBDTCorrS.pdf used on input line 125
-7.
+8.
 (pdftex.def)             Requested size: 195.12767pt x 252.51541pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/Chapter5/Bs_BDT_5_10.png, id=3381, 754.82pt x 533.995pt>
+<Figures/Chapter5/Bs_BDT_5_10.png, id=3384, 754.82pt x 533.995pt>
 File: Figures/Chapter5/Bs_BDT_5_10.png Graphic file (type png)
 
 <use Figures/Chapter5/Bs_BDT_5_10.png>
 Package pdftex.def Info: Figures/Chapter5/Bs_BDT_5_10.png used on input line 12
-71.
+72.
 (pdftex.def)             Requested size: 195.12767pt x 138.03691pt.
 
-<Figures/Chapter5/Bs_BDT_10_15.png, id=3382, 741.77126pt x 516.93124pt>
+<Figures/Chapter5/Bs_BDT_10_15.png, id=3385, 741.77126pt x 516.93124pt>
 File: Figures/Chapter5/Bs_BDT_10_15.png Graphic file (type png)
 
 <use Figures/Chapter5/Bs_BDT_10_15.png>
 Package pdftex.def Info: Figures/Chapter5/Bs_BDT_10_15.png used on input line 1
-272.
+273.
 (pdftex.def)             Requested size: 195.12767pt x 135.97649pt.
 
-<Figures/Chapter5/Bs_BDT_15_20.png, id=3383, 741.77126pt x 516.93124pt>
+<Figures/Chapter5/Bs_BDT_15_20.png, id=3386, 741.77126pt x 516.93124pt>
 File: Figures/Chapter5/Bs_BDT_15_20.png Graphic file (type png)
 
 <use Figures/Chapter5/Bs_BDT_15_20.png>
 Package pdftex.def Info: Figures/Chapter5/Bs_BDT_15_20.png used on input line 1
-273.
+274.
 (pdftex.def)             Requested size: 195.12767pt x 135.97649pt.
 
-<Figures/Chapter5/Bs_BDT_20_50.png, id=3384, 741.77126pt x 516.93124pt>
+<Figures/Chapter5/Bs_BDT_20_50.png, id=3387, 741.77126pt x 516.93124pt>
 File: Figures/Chapter5/Bs_BDT_20_50.png Graphic file (type png)
 
 <use Figures/Chapter5/Bs_BDT_20_50.png>
 Package pdftex.def Info: Figures/Chapter5/Bs_BDT_20_50.png used on input line 1
-274.
+275.
 (pdftex.def)             Requested size: 195.12767pt x 135.97649pt.
- [202 <./Figures/Chapter5/BsBDTCorrB.pdf>]
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<Figures/Chapter5/BDT_pt_5_7_mc_validation_Bu.pdf, id=3420, 569.12625pt x 385.4
+<Figures/Chapter5/BDT_pt_5_7_mc_validation_Bu.pdf, id=3388, 569.12625pt x 385.4
 4pt>
 File: Figures/Chapter5/BDT_pt_5_7_mc_validation_Bu.pdf Graphic file (type pdf)
  <use Figures/Chapter5/BDT_pt_5_7_mc_validation_Bu.pdf>
 Package pdftex.def Info: Figures/Chapter5/BDT_pt_5_7_mc_validation_Bu.pdf used 
-on input line 1282.
+on input line 1283.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<Figures/Chapter5/BDT_pt_7_10_mc_validation_Bu.pdf, id=3421, 569.12625pt x 385.
+<Figures/Chapter5/BDT_pt_7_10_mc_validation_Bu.pdf, id=3389, 569.12625pt x 385.
 44pt>
 File: Figures/Chapter5/BDT_pt_7_10_mc_validation_Bu.pdf Graphic file (type pdf)
 
  <use Figures/Chapter5/BDT_pt_7_10_mc_validation_Bu.pdf>
 Package pdftex.def Info: Figures/Chapter5/BDT_pt_7_10_mc_validation_Bu.pdf used
- on input line 1283.
+ on input line 1284.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<Figures/Chapter5/BDT_pt_10_15_mc_validation_Bu.pdf, id=3422, 569.12625pt x 385
+<Figures/Chapter5/BDT_pt_10_15_mc_validation_Bu.pdf, id=3390, 569.12625pt x 385
 .44pt>
 File: Figures/Chapter5/BDT_pt_10_15_mc_validation_Bu.pdf Graphic file (type pdf
 )
  <use Figures/Chapter5/BDT_pt_10_15_mc_validation_Bu.pdf>
 Package pdftex.def Info: Figures/Chapter5/BDT_pt_10_15_mc_validation_Bu.pdf use
-d on input line 1284.
+d on input line 1285.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<Figures/Chapter5/BDT_pt_15_20_mc_validation_Bu.pdf, id=3423, 569.12625pt x 385
+<Figures/Chapter5/BDT_pt_15_20_mc_validation_Bu.pdf, id=3391, 569.12625pt x 385
 .44pt>
 File: Figures/Chapter5/BDT_pt_15_20_mc_validation_Bu.pdf Graphic file (type pdf
 )
  <use Figures/Chapter5/BDT_pt_15_20_mc_validation_Bu.pdf>
 Package pdftex.def Info: Figures/Chapter5/BDT_pt_15_20_mc_validation_Bu.pdf use
-d on input line 1285.
+d on input line 1286.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<Figures/Chapter5/BDT_pt_20_30_mc_validation_Bu.pdf, id=3424, 569.12625pt x 385
+<Figures/Chapter5/BDT_pt_20_30_mc_validation_Bu.pdf, id=3392, 569.12625pt x 385
 .44pt>
 File: Figures/Chapter5/BDT_pt_20_30_mc_validation_Bu.pdf Graphic file (type pdf
 )
  <use Figures/Chapter5/BDT_pt_20_30_mc_validation_Bu.pdf>
 Package pdftex.def Info: Figures/Chapter5/BDT_pt_20_30_mc_validation_Bu.pdf use
-d on input line 1286.
+d on input line 1287.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<Figures/Chapter5/BDT_pt_30_40_mc_validation_Bu.pdf, id=3425, 569.12625pt x 385
+<Figures/Chapter5/BDT_pt_30_40_mc_validation_Bu.pdf, id=3393, 569.12625pt x 385
 .44pt>
 File: Figures/Chapter5/BDT_pt_30_40_mc_validation_Bu.pdf Graphic file (type pdf
 )
  <use Figures/Chapter5/BDT_pt_30_40_mc_validation_Bu.pdf>
 Package pdftex.def Info: Figures/Chapter5/BDT_pt_30_40_mc_validation_Bu.pdf use
-d on input line 1287.
+d on input line 1288.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<Figures/Chapter5/BDT_pt_40_50_mc_validation_Bu.pdf, id=3426, 569.12625pt x 385
+<Figures/Chapter5/BDT_pt_40_50_mc_validation_Bu.pdf, id=3394, 569.12625pt x 385
 .44pt>
 File: Figures/Chapter5/BDT_pt_40_50_mc_validation_Bu.pdf Graphic file (type pdf
 )
  <use Figures/Chapter5/BDT_pt_40_50_mc_validation_Bu.pdf>
 Package pdftex.def Info: Figures/Chapter5/BDT_pt_40_50_mc_validation_Bu.pdf use
-d on input line 1288.
+d on input line 1289.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 
-<Figures/Chapter5/BDT_pt_50_60_mc_validation_Bu.pdf, id=3427, 569.12625pt x 385
+<Figures/Chapter5/BDT_pt_50_60_mc_validation_Bu.pdf, id=3395, 569.12625pt x 385
 .44pt>
 File: Figures/Chapter5/BDT_pt_50_60_mc_validation_Bu.pdf Graphic file (type pdf
 )
  <use Figures/Chapter5/BDT_pt_50_60_mc_validation_Bu.pdf>
 Package pdftex.def Info: Figures/Chapter5/BDT_pt_50_60_mc_validation_Bu.pdf use
-d on input line 1289.
+d on input line 1290.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[203 <./Figures/Chapter5/BsBDTCorrB.pdf>] [204 <./Figures/Chapter5/BPBDTCorrB.p
+df> <./Figures/Chapter5/BPBDTCorrS.pdf> <./Figures/Chapter5/Bs_BDT_5_10.png> <.
+/Figures/Chapter5/Bs_BDT_10_15.png> <./Figures/Chapter5/Bs_BDT_15_20.png> <./Fi
+gures/Chapter5/Bs_BDT_20_50.png>] [205 <./Figures/Chapter5/BDT_pt_5_7_mc_valida
+tion_Bu.pdf, page is rotated 90 degrees> <./Figures/Chapter5/BDT_pt_7_10_mc_val
+idation_Bu.pdf, page is rotated 90 degrees> <./Figures/Chapter5/BDT_pt_10_15_mc
+_validation_Bu.pdf, page is rotated 90 degrees> <./Figures/Chapter5/BDT_pt_15_2
+0_mc_validation_Bu.pdf, page is rotated 90 degrees> <./Figures/Chapter5/BDT_pt_
+20_30_mc_validation_Bu.pdf, page is rotated 90 degrees> <./Figures/Chapter5/BDT
+_pt_30_40_mc_validation_Bu.pdf, page is rotated 90 degrees> <./Figures/Chapter5
+/BDT_pt_40_50_mc_validation_Bu.pdf, page is rotated 90 degrees> <./Figures/Chap
+ter5/BDT_pt_50_60_mc_validation_Bu.pdf, page is rotated 90 degrees>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [206
+
+]
+Overfull \hbox (18.91791pt too wide) in paragraph at lines 1344--1345
+[]\T1/cmr/m/n/12 The se-lec-tion ef-fi-ciency is de-fined by: \T1/cmr/bx/n/12 s
+e-lec-tion ef-fi-ciency = NSel-Pass/NPassAcc\T1/cmr/m/n/12 . 
+ []
+
+<Figures/Chapter5/L2L3MuonWF.pdf, id=3853, 722.7pt x 542.025pt>
+File: Figures/Chapter5/L2L3MuonWF.pdf Graphic file (type pdf)
+
+<use Figures/Chapter5/L2L3MuonWF.pdf>
+Package pdftex.def Info: Figures/Chapter5/L2L3MuonWF.pdf used on input line 135
+5.
+(pdftex.def)             Requested size: 368.57964pt x 276.43736pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[207]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [208 <./Figures/Chapter5/L2L3MuonWF.pdf>]
+<Figures/Chapter5/BsAcc1DPtHis.png, id=4063, 598.235pt x 574.145pt>
+File: Figures/Chapter5/BsAcc1DPtHis.png Graphic file (type png)
+
+<use Figures/Chapter5/BsAcc1DPtHis.png>
+Package pdftex.def Info: Figures/Chapter5/BsAcc1DPtHis.png used on input line 1
+375.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+<Figures/Chapter5/BsAcc1DCentHis.png, id=4064, 598.235pt x 574.145pt>
+File: Figures/Chapter5/BsAcc1DCentHis.png Graphic file (type png)
+
+<use Figures/Chapter5/BsAcc1DCentHis.png>
+Package pdftex.def Info: Figures/Chapter5/BsAcc1DCentHis.png used on input line
+ 1376.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+<Figures/Chapter5/BsSel1DPtHis.png, id=4065, 598.235pt x 574.145pt>
+File: Figures/Chapter5/BsSel1DPtHis.png Graphic file (type png)
+
+<use Figures/Chapter5/BsSel1DPtHis.png>
+Package pdftex.def Info: Figures/Chapter5/BsSel1DPtHis.png used on input line 1
+377.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+<Figures/Chapter5/BsSel1DCentHis.png, id=4066, 598.235pt x 574.145pt>
+File: Figures/Chapter5/BsSel1DCentHis.png Graphic file (type png)
+
+<use Figures/Chapter5/BsSel1DCentHis.png>
+Package pdftex.def Info: Figures/Chapter5/BsSel1DCentHis.png used on input line
+ 1378.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+<Figures/Chapter5/BsEff1DPtHis.png, id=4067, 598.235pt x 574.145pt>
+File: Figures/Chapter5/BsEff1DPtHis.png Graphic file (type png)
+
+<use Figures/Chapter5/BsEff1DPtHis.png>
+Package pdftex.def Info: Figures/Chapter5/BsEff1DPtHis.png used on input line 1
+379.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+<Figures/Chapter5/BsEff1DCentHis.png, id=4068, 598.235pt x 574.145pt>
+File: Figures/Chapter5/BsEff1DCentHis.png Graphic file (type png)
+
+<use Figures/Chapter5/BsEff1DCentHis.png>
+Package pdftex.def Info: Figures/Chapter5/BsEff1DCentHis.png used on input line
+ 1380.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+
+LaTeX Warning: Float too large for page by 34.16339pt on input line 1384.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[209] [210 <./Figures/Chapter5/BsAcc1DPtHis.png> <./Figures/Chapter5/BsAcc1DCen
+tHis.png> <./Figures/Chapter5/BsSel1DPtHis.png> <./Figures/Chapter5/BsSel1DCent
+His.png> <./Figures/Chapter5/BsEff1DPtHis.png> <./Figures/Chapter5/BsEff1DCentH
+is.png>] <Figures/Chapter5/BPAcc1DPtHis.png, id=4075, 598.235pt x 574.145pt>
+File: Figures/Chapter5/BPAcc1DPtHis.png Graphic file (type png)
+
+<use Figures/Chapter5/BPAcc1DPtHis.png>
+Package pdftex.def Info: Figures/Chapter5/BPAcc1DPtHis.png used on input line 1
+390.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+<Figures/Chapter5/BPAcc1DCentHis.png, id=4076, 598.235pt x 574.145pt>
+File: Figures/Chapter5/BPAcc1DCentHis.png Graphic file (type png)
+
+<use Figures/Chapter5/BPAcc1DCentHis.png>
+Package pdftex.def Info: Figures/Chapter5/BPAcc1DCentHis.png used on input line
+ 1391.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+<Figures/Chapter5/BPSel1DPtHis.png, id=4077, 598.235pt x 574.145pt>
+File: Figures/Chapter5/BPSel1DPtHis.png Graphic file (type png)
+
+<use Figures/Chapter5/BPSel1DPtHis.png>
+Package pdftex.def Info: Figures/Chapter5/BPSel1DPtHis.png used on input line 1
+392.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+<Figures/Chapter5/BPSel1DCentHis.png, id=4078, 598.235pt x 574.145pt>
+File: Figures/Chapter5/BPSel1DCentHis.png Graphic file (type png)
+
+<use Figures/Chapter5/BPSel1DCentHis.png>
+Package pdftex.def Info: Figures/Chapter5/BPSel1DCentHis.png used on input line
+ 1393.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+<Figures/Chapter5/BPEff1DPtHis.png, id=4079, 598.235pt x 574.145pt>
+File: Figures/Chapter5/BPEff1DPtHis.png Graphic file (type png)
+
+<use Figures/Chapter5/BPEff1DPtHis.png>
+Package pdftex.def Info: Figures/Chapter5/BPEff1DPtHis.png used on input line 1
+394.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+<Figures/Chapter5/BPEff1DCentHis.png, id=4080, 598.235pt x 574.145pt>
+File: Figures/Chapter5/BPEff1DCentHis.png Graphic file (type png)
+
+<use Figures/Chapter5/BPEff1DCentHis.png>
+Package pdftex.def Info: Figures/Chapter5/BPEff1DCentHis.png used on input line
+ 1395.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+
+LaTeX Warning: Float too large for page by 34.16339pt on input line 1399.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[211 <./Figures/Chapter5/BPAcc1DPtHis.png> <./Figures/Chapter5/BPAcc1DCentHis.p
+ng> <./Figures/Chapter5/BPSel1DPtHis.png> <./Figures/Chapter5/BPSel1DCentHis.pn
+g> <./Figures/Chapter5/BPEff1DPtHis.png> <./Figures/Chapter5/BPEff1DCentHis.png
+>] [212
+
+
+] <Figures/Chapter5/hBptByData.png, id=4088, 598.235pt x 574.145pt>
+File: Figures/Chapter5/hBptByData.png Graphic file (type png)
+
+<use Figures/Chapter5/hBptByData.png>
+Package pdftex.def Info: Figures/Chapter5/hBptByData.png used on input line 144
+1.
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+
+<Figures/Chapter5/hBptByMC.png, id=4089, 598.235pt x 574.145pt>
+File: Figures/Chapter5/hBptByMC.png Graphic file (type png)
+
+<use Figures/Chapter5/hBptByMC.png>
+Package pdftex.def Info: Figures/Chapter5/hBptByMC.png used on input line 1442.
+
+(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
+ [213 <./Figures/Chapter5/hBptByData.png> <./Figures/Chapter5/hBptByMC.png>]
+<Figures/Chapter5/EffCorrMethod.pdf, id=4093, 722.7pt x 542.025pt>
+File: Figures/Chapter5/EffCorrMethod.pdf Graphic file (type pdf)
+
+<use Figures/Chapter5/EffCorrMethod.pdf>
+Package pdftex.def Info: Figures/Chapter5/EffCorrMethod.pdf used on input line 
+1457.
+(pdftex.def)             Requested size: 368.57964pt x 276.43736pt.
+
+<Figures/Chapter5/BsEff2D_0_90.png, id=4094, 598.235pt x 574.145pt>
+File: Figures/Chapter5/BsEff2D_0_90.png Graphic file (type png)
+
+<use Figures/Chapter5/BsEff2D_0_90.png>
+Package pdftex.def Info: Figures/Chapter5/BsEff2D_0_90.png used on input line 1
+467.
+(pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
+
+<Figures/Chapter5/BsEff2D_0_30.png, id=4095, 598.235pt x 574.145pt>
+File: Figures/Chapter5/BsEff2D_0_30.png Graphic file (type png)
+
+<use Figures/Chapter5/BsEff2D_0_30.png>
+Package pdftex.def Info: Figures/Chapter5/BsEff2D_0_30.png used on input line 1
+468.
+(pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
+
+<Figures/Chapter5/BsEff2D_30_90.png, id=4096, 598.235pt x 574.145pt>
+File: Figures/Chapter5/BsEff2D_30_90.png Graphic file (type png)
+
+<use Figures/Chapter5/BsEff2D_30_90.png>
+Package pdftex.def Info: Figures/Chapter5/BsEff2D_30_90.png used on input line 
+1469.
+(pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/Chapter5/BPEff2D_0_90.png, id=4097, 598.235pt x 574.145pt>
+File: Figures/Chapter5/BPEff2D_0_90.png Graphic file (type png)
+
+<use Figures/Chapter5/BPEff2D_0_90.png>
+Package pdftex.def Info: Figures/Chapter5/BPEff2D_0_90.png used on input line 1
+477.
+(pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
+
+<Figures/Chapter5/BPEff2D_0_30.png, id=4098, 598.235pt x 574.145pt>
+File: Figures/Chapter5/BPEff2D_0_30.png Graphic file (type png)
+
+<use Figures/Chapter5/BPEff2D_0_30.png>
+Package pdftex.def Info: Figures/Chapter5/BPEff2D_0_30.png used on input line 1
+478.
+(pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
+
+<Figures/Chapter5/BPEff2D_30_90.png, id=4099, 598.235pt x 574.145pt>
+File: Figures/Chapter5/BPEff2D_30_90.png Graphic file (type png)
+
+<use Figures/Chapter5/BPEff2D_30_90.png>
+Package pdftex.def Info: Figures/Chapter5/BPEff2D_30_90.png used on input line 
+1479.
+(pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2807,538 +3017,313 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [203 <./Figures/Chapter5/BPBDTCorrB.pdf> <./Figures/Chapter5/BPBDTCorrS.pdf>] 
-[204 <./Figures/Chapter5/Bs_BDT_5_10.png> <./Figures/Chapter5/Bs_BDT_10_15.png>
- <./Figures/Chapter5/Bs_BDT_15_20.png> <./Figures/Chapter5/Bs_BDT_20_50.png>]
-Overfull \hbox (18.91791pt too wide) in paragraph at lines 1341--1342
-[]\T1/cmr/m/n/12 The se-lec-tion ef-fi-ciency is de-fined by: \T1/cmr/bx/n/12 s
-e-lec-tion ef-fi-ciency = NSel-Pass/NPassAcc\T1/cmr/m/n/12 . 
- []
-
-<Figures/Chapter5/L2L3MuonWF.pdf, id=3500, 722.7pt x 542.025pt>
-File: Figures/Chapter5/L2L3MuonWF.pdf Graphic file (type pdf)
-
-<use Figures/Chapter5/L2L3MuonWF.pdf>
-Package pdftex.def Info: Figures/Chapter5/L2L3MuonWF.pdf used on input line 135
-2.
-(pdftex.def)             Requested size: 368.57964pt x 276.43736pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 1248) has occurred while \output is active []
-
- [205]
-<Figures/Chapter5/BsAcc1DPtHis.png, id=3505, 598.235pt x 574.145pt>
-File: Figures/Chapter5/BsAcc1DPtHis.png Graphic file (type png)
-
-<use Figures/Chapter5/BsAcc1DPtHis.png>
-Package pdftex.def Info: Figures/Chapter5/BsAcc1DPtHis.png used on input line 1
-372.
-(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
-
-<Figures/Chapter5/BsAcc1DCentHis.png, id=3506, 598.235pt x 574.145pt>
-File: Figures/Chapter5/BsAcc1DCentHis.png Graphic file (type png)
-
-<use Figures/Chapter5/BsAcc1DCentHis.png>
-Package pdftex.def Info: Figures/Chapter5/BsAcc1DCentHis.png used on input line
- 1373.
-(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
-
-<Figures/Chapter5/BsSel1DPtHis.png, id=3507, 598.235pt x 574.145pt>
-File: Figures/Chapter5/BsSel1DPtHis.png Graphic file (type png)
-
-<use Figures/Chapter5/BsSel1DPtHis.png>
-Package pdftex.def Info: Figures/Chapter5/BsSel1DPtHis.png used on input line 1
-374.
-(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
-
-<Figures/Chapter5/BsSel1DCentHis.png, id=3508, 598.235pt x 574.145pt>
-File: Figures/Chapter5/BsSel1DCentHis.png Graphic file (type png)
-
-<use Figures/Chapter5/BsSel1DCentHis.png>
-Package pdftex.def Info: Figures/Chapter5/BsSel1DCentHis.png used on input line
- 1375.
-(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
-
-<Figures/Chapter5/BsEff1DPtHis.png, id=3509, 598.235pt x 574.145pt>
-File: Figures/Chapter5/BsEff1DPtHis.png Graphic file (type png)
-
-<use Figures/Chapter5/BsEff1DPtHis.png>
-Package pdftex.def Info: Figures/Chapter5/BsEff1DPtHis.png used on input line 1
-376.
-(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
-
-<Figures/Chapter5/BsEff1DCentHis.png, id=3510, 598.235pt x 574.145pt>
-File: Figures/Chapter5/BsEff1DCentHis.png Graphic file (type png)
-
-<use Figures/Chapter5/BsEff1DCentHis.png>
-Package pdftex.def Info: Figures/Chapter5/BsEff1DCentHis.png used on input line
- 1377.
-(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
-
-
-LaTeX Warning: Float too large for page by 34.16339pt on input line 1381.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/Chapter5/BPAcc1DPtHis.png, id=3511, 598.235pt x 574.145pt>
-File: Figures/Chapter5/BPAcc1DPtHis.png Graphic file (type png)
-
-<use Figures/Chapter5/BPAcc1DPtHis.png>
-Package pdftex.def Info: Figures/Chapter5/BPAcc1DPtHis.png used on input line 1
-386.
-(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
-
-<Figures/Chapter5/BPAcc1DCentHis.png, id=3512, 598.235pt x 574.145pt>
-File: Figures/Chapter5/BPAcc1DCentHis.png Graphic file (type png)
-
-<use Figures/Chapter5/BPAcc1DCentHis.png>
-Package pdftex.def Info: Figures/Chapter5/BPAcc1DCentHis.png used on input line
- 1387.
-(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
-
-<Figures/Chapter5/BPSel1DPtHis.png, id=3513, 598.235pt x 574.145pt>
-File: Figures/Chapter5/BPSel1DPtHis.png Graphic file (type png)
-
-<use Figures/Chapter5/BPSel1DPtHis.png>
-Package pdftex.def Info: Figures/Chapter5/BPSel1DPtHis.png used on input line 1
-388.
-(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
-
-<Figures/Chapter5/BPSel1DCentHis.png, id=3514, 598.235pt x 574.145pt>
-File: Figures/Chapter5/BPSel1DCentHis.png Graphic file (type png)
-
-<use Figures/Chapter5/BPSel1DCentHis.png>
-Package pdftex.def Info: Figures/Chapter5/BPSel1DCentHis.png used on input line
- 1389.
-(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
-
-<Figures/Chapter5/BPEff1DPtHis.png, id=3515, 598.235pt x 574.145pt>
-File: Figures/Chapter5/BPEff1DPtHis.png Graphic file (type png)
-
-<use Figures/Chapter5/BPEff1DPtHis.png>
-Package pdftex.def Info: Figures/Chapter5/BPEff1DPtHis.png used on input line 1
-390.
-(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
-
-<Figures/Chapter5/BPEff1DCentHis.png, id=3516, 598.235pt x 574.145pt>
-File: Figures/Chapter5/BPEff1DCentHis.png Graphic file (type png)
-
-<use Figures/Chapter5/BPEff1DCentHis.png>
-Package pdftex.def Info: Figures/Chapter5/BPEff1DCentHis.png used on input line
- 1391.
-(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
-
-
-LaTeX Warning: Float too large for page by 34.16339pt on input line 1395.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[206] <Figures/Chapter5/hBptByData.png, id=3520, 598.235pt x 574.145pt>
-File: Figures/Chapter5/hBptByData.png Graphic file (type png)
-
-<use Figures/Chapter5/hBptByData.png>
-Package pdftex.def Info: Figures/Chapter5/hBptByData.png used on input line 143
-6.
-(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
-
-<Figures/Chapter5/hBptByMC.png, id=3521, 598.235pt x 574.145pt>
-File: Figures/Chapter5/hBptByMC.png Graphic file (type png)
-
-<use Figures/Chapter5/hBptByMC.png>
-Package pdftex.def Info: Figures/Chapter5/hBptByMC.png used on input line 1437.
-
-(pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[207] <Figures/Chapter5/EffCorrMethod.pdf, id=3525, 722.7pt x 542.025pt>
-File: Figures/Chapter5/EffCorrMethod.pdf Graphic file (type pdf)
-
-<use Figures/Chapter5/EffCorrMethod.pdf>
-Package pdftex.def Info: Figures/Chapter5/EffCorrMethod.pdf used on input line 
-1452.
-(pdftex.def)             Requested size: 368.57964pt x 276.43736pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/Chapter5/BsEff2D_0_90.png, id=3526, 598.235pt x 574.145pt>
-File: Figures/Chapter5/BsEff2D_0_90.png Graphic file (type png)
-
-<use Figures/Chapter5/BsEff2D_0_90.png>
-Package pdftex.def Info: Figures/Chapter5/BsEff2D_0_90.png used on input line 1
-462.
-(pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
-
-<Figures/Chapter5/BsEff2D_0_30.png, id=3527, 598.235pt x 574.145pt>
-File: Figures/Chapter5/BsEff2D_0_30.png Graphic file (type png)
-
-<use Figures/Chapter5/BsEff2D_0_30.png>
-Package pdftex.def Info: Figures/Chapter5/BsEff2D_0_30.png used on input line 1
-463.
-(pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
-
-<Figures/Chapter5/BsEff2D_30_90.png, id=3528, 598.235pt x 574.145pt>
-File: Figures/Chapter5/BsEff2D_30_90.png Graphic file (type png)
-
-<use Figures/Chapter5/BsEff2D_30_90.png>
-Package pdftex.def Info: Figures/Chapter5/BsEff2D_30_90.png used on input line 
-1464.
-(pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/Chapter5/BPEff2D_0_90.png, id=3529, 598.235pt x 574.145pt>
-File: Figures/Chapter5/BPEff2D_0_90.png Graphic file (type png)
-
-<use Figures/Chapter5/BPEff2D_0_90.png>
-Package pdftex.def Info: Figures/Chapter5/BPEff2D_0_90.png used on input line 1
-472.
-(pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
-
-<Figures/Chapter5/BPEff2D_0_30.png, id=3530, 598.235pt x 574.145pt>
-File: Figures/Chapter5/BPEff2D_0_30.png Graphic file (type png)
-
-<use Figures/Chapter5/BPEff2D_0_30.png>
-Package pdftex.def Info: Figures/Chapter5/BPEff2D_0_30.png used on input line 1
-473.
-(pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
-
-<Figures/Chapter5/BPEff2D_30_90.png, id=3531, 598.235pt x 574.145pt>
-File: Figures/Chapter5/BPEff2D_30_90.png Graphic file (type png)
-
-<use Figures/Chapter5/BPEff2D_30_90.png>
-Package pdftex.def Info: Figures/Chapter5/BPEff2D_30_90.png used on input line 
-1474.
-(pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[208] <Figures/Chapter5/EffPlotPt.pdf, id=3535, 569.12625pt x 546.04pt>
+ [214 <./Figures/Chapter5/EffCorrMethod.pdf>]
+Underfull \vbox (badness 1540) has occurred while \output is active []
+
+ [215 <./Figures/Chapter5/BsEff2D_0_90.png> <./Figures/Chapter5/BsEff2D_0_30.pn
+g> <./Figures/Chapter5/BsEff2D_30_90.png> <./Figures/Chapter5/BPEff2D_0_90.png>
+ <./Figures/Chapter5/BPEff2D_0_30.png> <./Figures/Chapter5/BPEff2D_30_90.png>]
+<Figures/Chapter5/EffPlotPt.pdf, id=4359, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/EffPlotPt.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/EffPlotPt.pdf>
-Package pdftex.def Info: Figures/Chapter5/EffPlotPt.pdf used on input line 1503
+Package pdftex.def Info: Figures/Chapter5/EffPlotPt.pdf used on input line 1508
 .
 (pdftex.def)             Requested size: 138.76157pt x 133.13524pt.
 
-<Figures/Chapter5/EffPlotCent.pdf, id=3536, 569.12625pt x 546.04pt>
+<Figures/Chapter5/EffPlotCent.pdf, id=4360, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/EffPlotCent.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/EffPlotCent.pdf>
 Package pdftex.def Info: Figures/Chapter5/EffPlotCent.pdf used on input line 15
-04.
+09.
 (pdftex.def)             Requested size: 138.76157pt x 133.13524pt.
 
-<Figures/Chapter5/EffPlotCentInc.pdf, id=3537, 569.12625pt x 546.04pt>
+<Figures/Chapter5/EffPlotCentInc.pdf, id=4361, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/EffPlotCentInc.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/EffPlotCentInc.pdf>
 Package pdftex.def Info: Figures/Chapter5/EffPlotCentInc.pdf used on input line
- 1505.
+ 1510.
 (pdftex.def)             Requested size: 138.76157pt x 133.13524pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/Chapter5/BPEffPlotPt.pdf, id=3538, 569.12625pt x 546.04pt>
+<Figures/Chapter5/BPEffPlotPt.pdf, id=4362, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/BPEffPlotPt.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/BPEffPlotPt.pdf>
 Package pdftex.def Info: Figures/Chapter5/BPEffPlotPt.pdf used on input line 15
-13.
+18.
 (pdftex.def)             Requested size: 138.76157pt x 133.13524pt.
 
-<Figures/Chapter5/BPEffPlotCent.pdf, id=3539, 569.12625pt x 546.04pt>
+<Figures/Chapter5/BPEffPlotCent.pdf, id=4363, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/BPEffPlotCent.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/BPEffPlotCent.pdf>
 Package pdftex.def Info: Figures/Chapter5/BPEffPlotCent.pdf used on input line 
-1514.
+1519.
 (pdftex.def)             Requested size: 138.76157pt x 133.13524pt.
 
-<Figures/Chapter5/BPEffPlotCentInc.pdf, id=3540, 569.12625pt x 546.04pt>
+<Figures/Chapter5/BPEffPlotCentInc.pdf, id=4364, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/BPEffPlotCentInc.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/BPEffPlotCentInc.pdf>
 Package pdftex.def Info: Figures/Chapter5/BPEffPlotCentInc.pdf used on input li
-ne 1515.
+ne 1520.
 (pdftex.def)             Requested size: 138.76157pt x 133.13524pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (5.64786pt too wide) in paragraph at lines 1533--1547
- [] 
- []
-
-
-Overfull \hbox (8.009pt too wide) in paragraph at lines 1556--1570
+Overfull \hbox (14.78452pt too wide) in paragraph at lines 1538--1552
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[209] [210] [211] [212]
-<Figures/Chapter5/pull_signal_BptNew_0_90_7_10_0_Bs.png, id=3554, 899.36pt x 77
+
+Overfull \hbox (17.14566pt too wide) in paragraph at lines 1561--1575
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[216 <./Figures/Chapter5/EffPlotPt.pdf, page is rotated 90 degrees> <./Figures/
+Chapter5/EffPlotCent.pdf, page is rotated 90 degrees> <./Figures/Chapter5/EffPl
+otCentInc.pdf, page is rotated 90 degrees>]
+Underfull \vbox (badness 2913) has occurred while \output is active []
+
+ [217 <./Figures/Chapter5/BPEffPlotPt.pdf, page is rotated 90 degrees> <./Figur
+es/Chapter5/BPEffPlotCent.pdf, page is rotated 90 degrees> <./Figures/Chapter5/
+BPEffPlotCentInc.pdf, page is rotated 90 degrees>] [218] [219] [220]
+<Figures/Chapter5/pull_signal_BptNew_0_90_7_10_0_Bs.png, id=4640, 899.36pt x 77
 4.895pt>
 File: Figures/Chapter5/pull_signal_BptNew_0_90_7_10_0_Bs.png Graphic file (type
  png)
  <use Figures/Chapter5/pull_signal_BptNew_0_90_7_10_0_Bs.png>
 Package pdftex.def Info: Figures/Chapter5/pull_signal_BptNew_0_90_7_10_0_Bs.png
- used on input line 1670.
+ used on input line 1675.
 (pdftex.def)             Requested size: 195.12767pt x 168.12447pt.
 
-<Figures/Chapter5/pull_signal_BptNew_0_90_10_15_0_Bs.png, id=3555, 899.36pt x 7
+<Figures/Chapter5/pull_signal_BptNew_0_90_10_15_0_Bs.png, id=4641, 899.36pt x 7
 74.895pt>
 File: Figures/Chapter5/pull_signal_BptNew_0_90_10_15_0_Bs.png Graphic file (typ
 e png)
  <use Figures/Chapter5/pull_signal_BptNew_0_90_10_15_0_Bs.png>
 Package pdftex.def Info: Figures/Chapter5/pull_signal_BptNew_0_90_10_15_0_Bs.pn
-g used on input line 1671.
+g used on input line 1676.
 (pdftex.def)             Requested size: 195.12767pt x 168.12447pt.
 
-<Figures/Chapter5/pull_signal_BptNew_0_90_15_20_0_Bs.png, id=3556, 899.36pt x 7
+<Figures/Chapter5/pull_signal_BptNew_0_90_15_20_0_Bs.png, id=4642, 899.36pt x 7
 74.895pt>
 File: Figures/Chapter5/pull_signal_BptNew_0_90_15_20_0_Bs.png Graphic file (typ
 e png)
  <use Figures/Chapter5/pull_signal_BptNew_0_90_15_20_0_Bs.png>
 Package pdftex.def Info: Figures/Chapter5/pull_signal_BptNew_0_90_15_20_0_Bs.pn
-g used on input line 1672.
+g used on input line 1677.
 (pdftex.def)             Requested size: 195.12767pt x 168.12447pt.
 
-<Figures/Chapter5/pull_signal_BptNew_0_90_20_50_0_Bs.png, id=3557, 899.36pt x 7
+<Figures/Chapter5/pull_signal_BptNew_0_90_20_50_0_Bs.png, id=4643, 899.36pt x 7
 74.895pt>
 File: Figures/Chapter5/pull_signal_BptNew_0_90_20_50_0_Bs.png Graphic file (typ
 e png)
  <use Figures/Chapter5/pull_signal_BptNew_0_90_20_50_0_Bs.png>
 Package pdftex.def Info: Figures/Chapter5/pull_signal_BptNew_0_90_20_50_0_Bs.pn
-g used on input line 1673.
+g used on input line 1678.
 (pdftex.def)             Requested size: 195.12767pt x 168.12447pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-<Figures/Chapter5/pull_signal_BptNew_0_30_10_50_0_Bs.png, id=3558, 899.36pt x 7
+<Figures/Chapter5/pull_signal_BptNew_0_30_10_50_0_Bs.png, id=4644, 899.36pt x 7
 74.895pt>
 File: Figures/Chapter5/pull_signal_BptNew_0_30_10_50_0_Bs.png Graphic file (typ
 e png)
  <use Figures/Chapter5/pull_signal_BptNew_0_30_10_50_0_Bs.png>
 Package pdftex.def Info: Figures/Chapter5/pull_signal_BptNew_0_30_10_50_0_Bs.pn
-g used on input line 1681.
+g used on input line 1686.
 (pdftex.def)             Requested size: 195.12767pt x 168.12447pt.
 
-<Figures/Chapter5/pull_signal_BptNew_30_90_10_50_0_Bs.png, id=3559, 899.36pt x 
+<Figures/Chapter5/pull_signal_BptNew_30_90_10_50_0_Bs.png, id=4645, 899.36pt x 
 774.895pt>
 File: Figures/Chapter5/pull_signal_BptNew_30_90_10_50_0_Bs.png Graphic file (ty
 pe png)
  <use Figures/Chapter5/pull_signal_BptNew_30_90_10_50_0_Bs.png>
 Package pdftex.def Info: Figures/Chapter5/pull_signal_BptNew_30_90_10_50_0_Bs.p
-ng used on input line 1682.
+ng used on input line 1687.
 (pdftex.def)             Requested size: 195.12767pt x 168.12447pt.
 
-<Figures/Chapter5/pull_signal_BptNew_0_90_10_50_0_Bs.png, id=3560, 899.36pt x 7
+<Figures/Chapter5/pull_signal_BptNew_0_90_10_50_0_Bs.png, id=4646, 899.36pt x 7
 74.895pt>
 File: Figures/Chapter5/pull_signal_BptNew_0_90_10_50_0_Bs.png Graphic file (typ
 e png)
  <use Figures/Chapter5/pull_signal_BptNew_0_90_10_50_0_Bs.png>
 Package pdftex.def Info: Figures/Chapter5/pull_signal_BptNew_0_90_10_50_0_Bs.pn
-g used on input line 1683.
+g used on input line 1688.
 (pdftex.def)             Requested size: 195.12767pt x 168.12447pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-<Figures/Chapter5/BP_pull_signal_full_0_0_90.png, id=3561, 899.36pt x 774.895pt
+[221 <./Figures/Chapter5/pull_signal_BptNew_0_90_7_10_0_Bs.png> <./Figures/Chap
+ter5/pull_signal_BptNew_0_90_10_15_0_Bs.png> <./Figures/Chapter5/pull_signal_Bp
+tNew_0_90_15_20_0_Bs.png> <./Figures/Chapter5/pull_signal_BptNew_0_90_20_50_0_B
+s.png>]
+<Figures/Chapter5/BP_pull_signal_full_0_0_90.png, id=4650, 899.36pt x 774.895pt
 >
 File: Figures/Chapter5/BP_pull_signal_full_0_0_90.png Graphic file (type png)
  <use Figures/Chapter5/BP_pull_signal_full_0_0_90.png>
 Package pdftex.def Info: Figures/Chapter5/BP_pull_signal_full_0_0_90.png used o
-n input line 1692.
+n input line 1697.
 (pdftex.def)             Requested size: 195.12767pt x 168.12447pt.
 
-<Figures/Chapter5/BP_pull_signal_full_1_0_90.png, id=3562, 899.36pt x 774.895pt
+<Figures/Chapter5/BP_pull_signal_full_1_0_90.png, id=4651, 899.36pt x 774.895pt
 >
 File: Figures/Chapter5/BP_pull_signal_full_1_0_90.png Graphic file (type png)
  <use Figures/Chapter5/BP_pull_signal_full_1_0_90.png>
 Package pdftex.def Info: Figures/Chapter5/BP_pull_signal_full_1_0_90.png used o
-n input line 1693.
+n input line 1698.
 (pdftex.def)             Requested size: 195.12767pt x 168.12447pt.
 
-<Figures/Chapter5/BP_pull_signal_full_2_0_90.png, id=3563, 899.36pt x 774.895pt
+<Figures/Chapter5/BP_pull_signal_full_2_0_90.png, id=4652, 899.36pt x 774.895pt
 >
 File: Figures/Chapter5/BP_pull_signal_full_2_0_90.png Graphic file (type png)
  <use Figures/Chapter5/BP_pull_signal_full_2_0_90.png>
 Package pdftex.def Info: Figures/Chapter5/BP_pull_signal_full_2_0_90.png used o
-n input line 1694.
+n input line 1699.
 (pdftex.def)             Requested size: 195.12767pt x 168.12447pt.
 
-<Figures/Chapter5/BP_pull_signal_full_3_0_90.png, id=3564, 899.36pt x 774.895pt
+<Figures/Chapter5/BP_pull_signal_full_3_0_90.png, id=4653, 899.36pt x 774.895pt
 >
 File: Figures/Chapter5/BP_pull_signal_full_3_0_90.png Graphic file (type png)
  <use Figures/Chapter5/BP_pull_signal_full_3_0_90.png>
 Package pdftex.def Info: Figures/Chapter5/BP_pull_signal_full_3_0_90.png used o
-n input line 1695.
+n input line 1700.
 (pdftex.def)             Requested size: 195.12767pt x 168.12447pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<Figures/Chapter5/BP_pull_signal_full_-1_0_90.png, id=3565, 899.36pt x 774.895p
+<Figures/Chapter5/BP_pull_signal_full_-1_0_90.png, id=4654, 899.36pt x 774.895p
 t>
 File: Figures/Chapter5/BP_pull_signal_full_-1_0_90.png Graphic file (type png)
  <use Figures/Chapter5/BP_pull_signal_full_-1_0_90.png>
 Package pdftex.def Info: Figures/Chapter5/BP_pull_signal_full_-1_0_90.png used 
-on input line 1703.
+on input line 1708.
 (pdftex.def)             Requested size: 195.12767pt x 168.12447pt.
 
-<Figures/Chapter5/BP_pull_signal_full_-1_0_30.png, id=3566, 899.36pt x 774.895p
+<Figures/Chapter5/BP_pull_signal_full_-1_0_30.png, id=4655, 899.36pt x 774.895p
 t>
 File: Figures/Chapter5/BP_pull_signal_full_-1_0_30.png Graphic file (type png)
  <use Figures/Chapter5/BP_pull_signal_full_-1_0_30.png>
 Package pdftex.def Info: Figures/Chapter5/BP_pull_signal_full_-1_0_30.png used 
-on input line 1704.
+on input line 1709.
 (pdftex.def)             Requested size: 195.12767pt x 168.12447pt.
 
-<Figures/Chapter5/BP_pull_signal_full_-1_30_90.png, id=3567, 899.36pt x 774.895
+<Figures/Chapter5/BP_pull_signal_full_-1_30_90.png, id=4656, 899.36pt x 774.895
 pt>
 File: Figures/Chapter5/BP_pull_signal_full_-1_30_90.png Graphic file (type png)
 
  <use Figures/Chapter5/BP_pull_signal_full_-1_30_90.png>
 Package pdftex.def Info: Figures/Chapter5/BP_pull_signal_full_-1_30_90.png used
- on input line 1705.
+ on input line 1710.
 (pdftex.def)             Requested size: 195.12767pt x 168.12447pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[213]
-Overfull \hbox (75.09677pt too wide) in paragraph at lines 1737--1752
+[222 <./Figures/Chapter5/pull_signal_BptNew_0_30_10_50_0_Bs.png> <./Figures/Cha
+pter5/pull_signal_BptNew_30_90_10_50_0_Bs.png> <./Figures/Chapter5/pull_signal_
+BptNew_0_90_10_50_0_Bs.png>]
+Overfull \hbox (75.09677pt too wide) in paragraph at lines 1742--1757
  [] 
  []
 
 
-Overfull \hbox (77.45792pt too wide) in paragraph at lines 1761--1776
+Underfull \vbox (badness 4084) has occurred while \output is active []
+
+ [223 <./Figures/Chapter5/BP_pull_signal_full_0_0_90.png> <./Figures/Chapter5/B
+P_pull_signal_full_1_0_90.png> <./Figures/Chapter5/BP_pull_signal_full_2_0_90.p
+ng> <./Figures/Chapter5/BP_pull_signal_full_3_0_90.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (77.45792pt too wide) in paragraph at lines 1766--1781
  [] 
  []
 
-[214] <Figures/Chapter5/BsEffONLY_0_90_0.png, id=3574, 598.235pt x 574.145pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/Chapter5/BsEffONLY_0_90_0.png, id=4665, 598.235pt x 574.145pt>
 File: Figures/Chapter5/BsEffONLY_0_90_0.png Graphic file (type png)
 
 <use Figures/Chapter5/BsEffONLY_0_90_0.png>
 Package pdftex.def Info: Figures/Chapter5/BsEffONLY_0_90_0.png used on input li
-ne 1790.
+ne 1795.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
-<Figures/Chapter5/BsEffONLY_0_90_1.png, id=3575, 598.235pt x 574.145pt>
+<Figures/Chapter5/BsEffONLY_0_90_1.png, id=4666, 598.235pt x 574.145pt>
 File: Figures/Chapter5/BsEffONLY_0_90_1.png Graphic file (type png)
 
 <use Figures/Chapter5/BsEffONLY_0_90_1.png>
 Package pdftex.def Info: Figures/Chapter5/BsEffONLY_0_90_1.png used on input li
-ne 1791.
+ne 1796.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
-<Figures/Chapter5/BsEffONLY_0_90_2.png, id=3576, 598.235pt x 574.145pt>
+<Figures/Chapter5/BsEffONLY_0_90_2.png, id=4667, 598.235pt x 574.145pt>
 File: Figures/Chapter5/BsEffONLY_0_90_2.png Graphic file (type png)
 
 <use Figures/Chapter5/BsEffONLY_0_90_2.png>
 Package pdftex.def Info: Figures/Chapter5/BsEffONLY_0_90_2.png used on input li
-ne 1792.
+ne 1797.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
-<Figures/Chapter5/BsEffONLY_0_90_3.png, id=3577, 598.235pt x 574.145pt>
+<Figures/Chapter5/BsEffONLY_0_90_3.png, id=4668, 598.235pt x 574.145pt>
 File: Figures/Chapter5/BsEffONLY_0_90_3.png Graphic file (type png)
 
 <use Figures/Chapter5/BsEffONLY_0_90_3.png>
 Package pdftex.def Info: Figures/Chapter5/BsEffONLY_0_90_3.png used on input li
-ne 1793.
+ne 1798.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
-<Figures/Chapter5/BsEffONLY_0_30_-1.png, id=3578, 598.235pt x 574.145pt>
+<Figures/Chapter5/BsEffONLY_0_30_-1.png, id=4669, 598.235pt x 574.145pt>
 File: Figures/Chapter5/BsEffONLY_0_30_-1.png Graphic file (type png)
 
 <use Figures/Chapter5/BsEffONLY_0_30_-1.png>
 Package pdftex.def Info: Figures/Chapter5/BsEffONLY_0_30_-1.png used on input l
-ine 1794.
+ine 1799.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
-<Figures/Chapter5/BsEffONLY_30_90_-1.png, id=3579, 598.235pt x 574.145pt>
+<Figures/Chapter5/BsEffONLY_30_90_-1.png, id=4670, 598.235pt x 574.145pt>
 File: Figures/Chapter5/BsEffONLY_30_90_-1.png Graphic file (type png)
 
 <use Figures/Chapter5/BsEffONLY_30_90_-1.png>
 Package pdftex.def Info: Figures/Chapter5/BsEffONLY_30_90_-1.png used on input 
-line 1795.
+line 1800.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
-<Figures/Chapter5/BsEffONLY_0_90_-1.png, id=3580, 598.235pt x 574.145pt>
+<Figures/Chapter5/BsEffONLY_0_90_-1.png, id=4671, 598.235pt x 574.145pt>
 File: Figures/Chapter5/BsEffONLY_0_90_-1.png Graphic file (type png)
 
 <use Figures/Chapter5/BsEffONLY_0_90_-1.png>
 Package pdftex.def Info: Figures/Chapter5/BsEffONLY_0_90_-1.png used on input l
-ine 1796.
+ine 1801.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[215] [216 <./Figures/Chapter5/BDT_pt_5_7_mc_validation_Bu.pdf, page is rotated
- 90 degrees> <./Figures/Chapter5/BDT_pt_7_10_mc_validation_Bu.pdf, page is rota
-ted 90 degrees> <./Figures/Chapter5/BDT_pt_10_15_mc_validation_Bu.pdf, page is 
-rotated 90 degrees> <./Figures/Chapter5/BDT_pt_15_20_mc_validation_Bu.pdf, page
- is rotated 90 degrees> <./Figures/Chapter5/BDT_pt_20_30_mc_validation_Bu.pdf, 
-page is rotated 90 degrees> <./Figures/Chapter5/BDT_pt_30_40_mc_validation_Bu.p
-df, page is rotated 90 degrees> <./Figures/Chapter5/BDT_pt_40_50_mc_validation_
-Bu.pdf, page is rotated 90 degrees> <./Figures/Chapter5/BDT_pt_50_60_mc_validat
-ion_Bu.pdf, page is rotated 90 degrees>] [217 <./Figures/Chapter5/L2L3MuonWF.pd
-f>] [218 <./Figures/Chapter5/BsAcc1DPtHis.png> <./Figures/Chapter5/BsAcc1DCentH
-is.png> <./Figures/Chapter5/BsSel1DPtHis.png> <./Figures/Chapter5/BsSel1DCentHi
-s.png> <./Figures/Chapter5/BsEff1DPtHis.png> <./Figures/Chapter5/BsEff1DCentHis
-.png>] [219 <./Figures/Chapter5/BPAcc1DPtHis.png> <./Figures/Chapter5/BPAcc1DCe
-ntHis.png> <./Figures/Chapter5/BPSel1DPtHis.png> <./Figures/Chapter5/BPSel1DCen
-tHis.png> <./Figures/Chapter5/BPEff1DPtHis.png> <./Figures/Chapter5/BPEff1DCent
-His.png>] [220 <./Figures/Chapter5/hBptByData.png> <./Figures/Chapter5/hBptByMC
-.png> <./Figures/Chapter5/EffCorrMethod.pdf>] [221 <./Figures/Chapter5/BsEff2D_
-0_90.png> <./Figures/Chapter5/BsEff2D_0_30.png> <./Figures/Chapter5/BsEff2D_30_
-90.png> <./Figures/Chapter5/BPEff2D_0_90.png> <./Figures/Chapter5/BPEff2D_0_30.
-png> <./Figures/Chapter5/BPEff2D_30_90.png> <./Figures/Chapter5/EffPlotPt.pdf, 
-page is rotated 90 degrees> <./Figures/Chapter5/EffPlotCent.pdf, page is rotate
-d 90 degrees> <./Figures/Chapter5/EffPlotCentInc.pdf, page is rotated 90 degree
-s>] [222 <./Figures/Chapter5/BPEffPlotPt.pdf, page is rotated 90 degrees> <./Fi
-gures/Chapter5/BPEffPlotCent.pdf, page is rotated 90 degrees> <./Figures/Chapte
-r5/BPEffPlotCentInc.pdf, page is rotated 90 degrees> <./Figures/Chapter5/pull_s
-ignal_BptNew_0_90_7_10_0_Bs.png> <./Figures/Chapter5/pull_signal_BptNew_0_90_10
-_15_0_Bs.png> <./Figures/Chapter5/pull_signal_BptNew_0_90_15_20_0_Bs.png> <./Fi
-gures/Chapter5/pull_signal_BptNew_0_90_20_50_0_Bs.png>] [223 <./Figures/Chapter
-5/pull_signal_BptNew_0_30_10_50_0_Bs.png> <./Figures/Chapter5/pull_signal_BptNe
-w_30_90_10_50_0_Bs.png> <./Figures/Chapter5/pull_signal_BptNew_0_90_10_50_0_Bs.
-png>] [224 <./Figures/Chapter5/BP_pull_signal_full_0_0_90.png> <./Figures/Chapt
-er5/BP_pull_signal_full_1_0_90.png> <./Figures/Chapter5/BP_pull_signal_full_2_0
-_90.png> <./Figures/Chapter5/BP_pull_signal_full_3_0_90.png>] [225 <./Figures/C
-hapter5/BP_pull_signal_full_-1_0_90.png> <./Figures/Chapter5/BP_pull_signal_ful
-l_-1_0_30.png> <./Figures/Chapter5/BP_pull_signal_full_-1_30_90.png>] [226 <./F
-igures/Chapter5/BsEffONLY_0_90_0.png> <./Figures/Chapter5/BsEffONLY_0_90_1.png>
- <./Figures/Chapter5/BsEffONLY_0_90_2.png> <./Figures/Chapter5/BsEffONLY_0_90_3
-.png> <./Figures/Chapter5/BsEffONLY_0_30_-1.png> <./Figures/Chapter5/BsEffONLY_
-30_90_-1.png> <./Figures/Chapter5/BsEffONLY_0_90_-1.png>]
-<Figures/Chapter5/BPEffONLY_0_90_0.png, id=4681, 598.235pt x 574.145pt>
+[224 <./Figures/Chapter5/BP_pull_signal_full_-1_0_90.png> <./Figures/Chapter5/B
+P_pull_signal_full_-1_0_30.png> <./Figures/Chapter5/BP_pull_signal_full_-1_30_9
+0.png>] [225] [226 <./Figures/Chapter5/BsEffONLY_0_90_0.png> <./Figures/Chapter
+5/BsEffONLY_0_90_1.png> <./Figures/Chapter5/BsEffONLY_0_90_2.png> <./Figures/Ch
+apter5/BsEffONLY_0_90_3.png> <./Figures/Chapter5/BsEffONLY_0_30_-1.png> <./Figu
+res/Chapter5/BsEffONLY_30_90_-1.png> <./Figures/Chapter5/BsEffONLY_0_90_-1.png>
+] <Figures/Chapter5/BPEffONLY_0_90_0.png, id=4681, 598.235pt x 574.145pt>
 File: Figures/Chapter5/BPEffONLY_0_90_0.png Graphic file (type png)
 
 <use Figures/Chapter5/BPEffONLY_0_90_0.png>
 Package pdftex.def Info: Figures/Chapter5/BPEffONLY_0_90_0.png used on input li
-ne 1808.
+ne 1813.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BPEffONLY_0_90_1.png, id=4682, 598.235pt x 574.145pt>
@@ -3346,7 +3331,7 @@ File: Figures/Chapter5/BPEffONLY_0_90_1.png Graphic file (type png)
 
 <use Figures/Chapter5/BPEffONLY_0_90_1.png>
 Package pdftex.def Info: Figures/Chapter5/BPEffONLY_0_90_1.png used on input li
-ne 1809.
+ne 1814.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BPEffONLY_0_90_2.png, id=4683, 598.235pt x 574.145pt>
@@ -3354,7 +3339,7 @@ File: Figures/Chapter5/BPEffONLY_0_90_2.png Graphic file (type png)
 
 <use Figures/Chapter5/BPEffONLY_0_90_2.png>
 Package pdftex.def Info: Figures/Chapter5/BPEffONLY_0_90_2.png used on input li
-ne 1810.
+ne 1815.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BPEffONLY_0_90_3.png, id=4684, 598.235pt x 574.145pt>
@@ -3362,7 +3347,7 @@ File: Figures/Chapter5/BPEffONLY_0_90_3.png Graphic file (type png)
 
 <use Figures/Chapter5/BPEffONLY_0_90_3.png>
 Package pdftex.def Info: Figures/Chapter5/BPEffONLY_0_90_3.png used on input li
-ne 1811.
+ne 1816.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BPEffONLY_0_30_-1.png, id=4685, 598.235pt x 574.145pt>
@@ -3370,7 +3355,7 @@ File: Figures/Chapter5/BPEffONLY_0_30_-1.png Graphic file (type png)
 
 <use Figures/Chapter5/BPEffONLY_0_30_-1.png>
 Package pdftex.def Info: Figures/Chapter5/BPEffONLY_0_30_-1.png used on input l
-ine 1812.
+ine 1817.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BPEffONLY_30_90_-1.png, id=4686, 598.235pt x 574.145pt>
@@ -3378,7 +3363,7 @@ File: Figures/Chapter5/BPEffONLY_30_90_-1.png Graphic file (type png)
 
 <use Figures/Chapter5/BPEffONLY_30_90_-1.png>
 Package pdftex.def Info: Figures/Chapter5/BPEffONLY_30_90_-1.png used on input 
-line 1813.
+line 1818.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BPEffONLY_0_90_-1.png, id=4687, 598.235pt x 574.145pt>
@@ -3386,7 +3371,7 @@ File: Figures/Chapter5/BPEffONLY_0_90_-1.png Graphic file (type png)
 
 <use Figures/Chapter5/BPEffONLY_0_90_-1.png>
 Package pdftex.def Info: Figures/Chapter5/BPEffONLY_0_90_-1.png used on input l
-ine 1814.
+ine 1819.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 
@@ -3396,7 +3381,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \vbox (badness 7486) has occurred while \output is active []
+Underfull \vbox (badness 6792) has occurred while \output is active []
 
  [227
 
@@ -3410,7 +3395,7 @@ File: Figures/Chapter5/Bs_sPLOTEffDistribution.png Graphic file (type png)
 
 <use Figures/Chapter5/Bs_sPLOTEffDistribution.png>
 Package pdftex.def Info: Figures/Chapter5/Bs_sPLOTEffDistribution.png used on i
-nput line 1881.
+nput line 1886.
 (pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
 
 <Figures/Chapter5/BP_sPLOTEffDistribution.png, id=4692, 598.235pt x 574.145pt>
@@ -3418,19 +3403,19 @@ File: Figures/Chapter5/BP_sPLOTEffDistribution.png Graphic file (type png)
 
 <use Figures/Chapter5/BP_sPLOTEffDistribution.png>
 Package pdftex.def Info: Figures/Chapter5/BP_sPLOTEffDistribution.png used on i
-nput line 1882.
+nput line 1887.
 (pdftex.def)             Requested size: 208.13574pt x 199.75354pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [228]
-Overfull \hbox (69.31267pt too wide) in paragraph at lines 1911--1926
+Overfull \hbox (69.31267pt too wide) in paragraph at lines 1916--1931
  [] 
  []
 
 
-Overfull \hbox (71.67381pt too wide) in paragraph at lines 1934--1949
+Overfull \hbox (71.67381pt too wide) in paragraph at lines 1939--1954
  [] 
  []
 
@@ -3444,7 +3429,7 @@ pt>
 File: Figures/Chapter5/BsCorrYield_0_90_7-10_Assym.png Graphic file (type png)
  <use Figures/Chapter5/BsCorrYield_0_90_7-10_Assym.png>
 Package pdftex.def Info: Figures/Chapter5/BsCorrYield_0_90_7-10_Assym.png used 
-on input line 1987.
+on input line 1992.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BsCorrYield_0_90_10-15_Assym.png, id=4705, 598.235pt x 574.14
@@ -3453,7 +3438,7 @@ File: Figures/Chapter5/BsCorrYield_0_90_10-15_Assym.png Graphic file (type png)
 
  <use Figures/Chapter5/BsCorrYield_0_90_10-15_Assym.png>
 Package pdftex.def Info: Figures/Chapter5/BsCorrYield_0_90_10-15_Assym.png used
- on input line 1988.
+ on input line 1993.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BsCorrYield_0_90_15-20_Assym.png, id=4706, 598.235pt x 574.14
@@ -3462,7 +3447,7 @@ File: Figures/Chapter5/BsCorrYield_0_90_15-20_Assym.png Graphic file (type png)
 
  <use Figures/Chapter5/BsCorrYield_0_90_15-20_Assym.png>
 Package pdftex.def Info: Figures/Chapter5/BsCorrYield_0_90_15-20_Assym.png used
- on input line 1989.
+ on input line 1994.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BsCorrYield_0_90_20-50_Assym.png, id=4707, 598.235pt x 574.14
@@ -3471,7 +3456,7 @@ File: Figures/Chapter5/BsCorrYield_0_90_20-50_Assym.png Graphic file (type png)
 
  <use Figures/Chapter5/BsCorrYield_0_90_20-50_Assym.png>
 Package pdftex.def Info: Figures/Chapter5/BsCorrYield_0_90_20-50_Assym.png used
- on input line 1990.
+ on input line 1995.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BsCorrYield_0_90_10-50_Assym.png, id=4708, 598.235pt x 574.14
@@ -3480,7 +3465,7 @@ File: Figures/Chapter5/BsCorrYield_0_90_10-50_Assym.png Graphic file (type png)
 
  <use Figures/Chapter5/BsCorrYield_0_90_10-50_Assym.png>
 Package pdftex.def Info: Figures/Chapter5/BsCorrYield_0_90_10-50_Assym.png used
- on input line 1991.
+ on input line 1996.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BsCorrYield_0_30_10-50_Assym.png, id=4709, 598.235pt x 574.14
@@ -3489,7 +3474,7 @@ File: Figures/Chapter5/BsCorrYield_0_30_10-50_Assym.png Graphic file (type png)
 
  <use Figures/Chapter5/BsCorrYield_0_30_10-50_Assym.png>
 Package pdftex.def Info: Figures/Chapter5/BsCorrYield_0_30_10-50_Assym.png used
- on input line 1992.
+ on input line 1997.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BsCorrYield_30_90_10-50_Assym.png, id=4710, 598.235pt x 574.1
@@ -3498,7 +3483,7 @@ File: Figures/Chapter5/BsCorrYield_30_90_10-50_Assym.png Graphic file (type png
 )
  <use Figures/Chapter5/BsCorrYield_30_90_10-50_Assym.png>
 Package pdftex.def Info: Figures/Chapter5/BsCorrYield_30_90_10-50_Assym.png use
-d on input line 1993.
+d on input line 1998.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 
@@ -3514,7 +3499,7 @@ pt>
 File: Figures/Chapter5/BPCorrYield_0_90_7-10_Assym.png Graphic file (type png)
  <use Figures/Chapter5/BPCorrYield_0_90_7-10_Assym.png>
 Package pdftex.def Info: Figures/Chapter5/BPCorrYield_0_90_7-10_Assym.png used 
-on input line 2002.
+on input line 2007.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BPCorrYield_0_90_10-15_Assym.png, id=4718, 598.235pt x 574.14
@@ -3523,7 +3508,7 @@ File: Figures/Chapter5/BPCorrYield_0_90_10-15_Assym.png Graphic file (type png)
 
  <use Figures/Chapter5/BPCorrYield_0_90_10-15_Assym.png>
 Package pdftex.def Info: Figures/Chapter5/BPCorrYield_0_90_10-15_Assym.png used
- on input line 2003.
+ on input line 2008.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BPCorrYield_0_90_15-20_Assym.png, id=4719, 598.235pt x 574.14
@@ -3532,7 +3517,7 @@ File: Figures/Chapter5/BPCorrYield_0_90_15-20_Assym.png Graphic file (type png)
 
  <use Figures/Chapter5/BPCorrYield_0_90_15-20_Assym.png>
 Package pdftex.def Info: Figures/Chapter5/BPCorrYield_0_90_15-20_Assym.png used
- on input line 2004.
+ on input line 2009.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BPCorrYield_0_90_20-50_Assym.png, id=4720, 598.235pt x 574.14
@@ -3541,7 +3526,7 @@ File: Figures/Chapter5/BPCorrYield_0_90_20-50_Assym.png Graphic file (type png)
 
  <use Figures/Chapter5/BPCorrYield_0_90_20-50_Assym.png>
 Package pdftex.def Info: Figures/Chapter5/BPCorrYield_0_90_20-50_Assym.png used
- on input line 2005.
+ on input line 2010.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BPCorrYield_0_90_10-50_Assym.png, id=4721, 598.235pt x 574.14
@@ -3550,7 +3535,7 @@ File: Figures/Chapter5/BPCorrYield_0_90_10-50_Assym.png Graphic file (type png)
 
  <use Figures/Chapter5/BPCorrYield_0_90_10-50_Assym.png>
 Package pdftex.def Info: Figures/Chapter5/BPCorrYield_0_90_10-50_Assym.png used
- on input line 2006.
+ on input line 2011.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BPCorrYield_0_30_10-50_Assym.png, id=4722, 598.235pt x 574.14
@@ -3559,7 +3544,7 @@ File: Figures/Chapter5/BPCorrYield_0_30_10-50_Assym.png Graphic file (type png)
 
  <use Figures/Chapter5/BPCorrYield_0_30_10-50_Assym.png>
 Package pdftex.def Info: Figures/Chapter5/BPCorrYield_0_30_10-50_Assym.png used
- on input line 2007.
+ on input line 2012.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BPCorrYield_30_90_10-50_Assym.png, id=4723, 598.235pt x 574.1
@@ -3568,7 +3553,7 @@ File: Figures/Chapter5/BPCorrYield_30_90_10-50_Assym.png Graphic file (type png
 )
  <use Figures/Chapter5/BPCorrYield_30_90_10-50_Assym.png>
 Package pdftex.def Info: Figures/Chapter5/BPCorrYield_30_90_10-50_Assym.png use
-d on input line 2008.
+d on input line 2013.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
  [233
 
@@ -3577,7 +3562,7 @@ rYield_0_90_10-15_Assym.png> <./Figures/Chapter5/BPCorrYield_0_90_15-20_Assym.p
 ng> <./Figures/Chapter5/BPCorrYield_0_90_20-50_Assym.png> <./Figures/Chapter5/B
 PCorrYield_0_90_10-50_Assym.png> <./Figures/Chapter5/BPCorrYield_0_30_10-50_Ass
 ym.png> <./Figures/Chapter5/BPCorrYield_30_90_10-50_Assym.png>]
-Overfull \hbox (1.97508pt too wide) in paragraph at lines 2029--2030
+Overfull \hbox (1.97508pt too wide) in paragraph at lines 2034--2035
 []\T1/cmr/m/n/12 Compute the per-cent de-vi-a-tions (% Dev) from the mean val-u
 es for both up/down
  []
@@ -3602,7 +3587,7 @@ File: Figures/Chapter5/TnPSystScheme.png Graphic file (type png)
 
 <use Figures/Chapter5/TnPSystScheme.png>
 Package pdftex.def Info: Figures/Chapter5/TnPSystScheme.png used on input line 
-2123.
+2128.
 (pdftex.def)             Requested size: 208.13574pt x 152.06471pt.
 
 <Figures/Chapter5/TnPSystCal.png, id=4738, 469.755pt x 346.29375pt>
@@ -3610,7 +3595,7 @@ File: Figures/Chapter5/TnPSystCal.png Graphic file (type png)
 
 <use Figures/Chapter5/TnPSystCal.png>
 Package pdftex.def Info: Figures/Chapter5/TnPSystCal.png used on input line 212
-4.
+9.
 (pdftex.def)             Requested size: 208.13574pt x 153.4318pt.
 
 
@@ -3628,7 +3613,7 @@ File: Figures/Chapter5/BsStatSyst_0_90_4BinsPT.png Graphic file (type png)
 
 <use Figures/Chapter5/BsStatSyst_0_90_4BinsPT.png>
 Package pdftex.def Info: Figures/Chapter5/BsStatSyst_0_90_4BinsPT.png used on i
-nput line 2276.
+nput line 2281.
 (pdftex.def)             Requested size: 390.25534pt x 374.54774pt.
 
 <Figures/Chapter5/BsStatSyst_0_30_1BinsPT.png, id=4754, 598.235pt x 574.145pt>
@@ -3636,14 +3621,14 @@ File: Figures/Chapter5/BsStatSyst_0_30_1BinsPT.png Graphic file (type png)
 
 <use Figures/Chapter5/BsStatSyst_0_30_1BinsPT.png>
 Package pdftex.def Info: Figures/Chapter5/BsStatSyst_0_30_1BinsPT.png used on i
-nput line 2277.
+nput line 2282.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BsStatSyst_30_90_1BinsPT.png, id=4755, 598.235pt x 574.145pt>
 File: Figures/Chapter5/BsStatSyst_30_90_1BinsPT.png Graphic file (type png)
 <use Figures/Chapter5/BsStatSyst_30_90_1BinsPT.png>
 Package pdftex.def Info: Figures/Chapter5/BsStatSyst_30_90_1BinsPT.png used on 
-input line 2278.
+input line 2283.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BsStatSyst_0_90_1BinsPT.png, id=4756, 598.235pt x 574.145pt>
@@ -3651,7 +3636,7 @@ File: Figures/Chapter5/BsStatSyst_0_90_1BinsPT.png Graphic file (type png)
 
 <use Figures/Chapter5/BsStatSyst_0_90_1BinsPT.png>
 Package pdftex.def Info: Figures/Chapter5/BsStatSyst_0_90_1BinsPT.png used on i
-nput line 2279.
+nput line 2284.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 
@@ -3663,7 +3648,7 @@ File: Figures/Chapter5/BPStatSyst_0_90_4BinsPT.png Graphic file (type png)
 
 <use Figures/Chapter5/BPStatSyst_0_90_4BinsPT.png>
 Package pdftex.def Info: Figures/Chapter5/BPStatSyst_0_90_4BinsPT.png used on i
-nput line 2288.
+nput line 2293.
 (pdftex.def)             Requested size: 390.25534pt x 374.54774pt.
 
 <Figures/Chapter5/BPStatSyst_0_30_1BinsPT.png, id=4758, 598.235pt x 574.145pt>
@@ -3671,14 +3656,14 @@ File: Figures/Chapter5/BPStatSyst_0_30_1BinsPT.png Graphic file (type png)
 
 <use Figures/Chapter5/BPStatSyst_0_30_1BinsPT.png>
 Package pdftex.def Info: Figures/Chapter5/BPStatSyst_0_30_1BinsPT.png used on i
-nput line 2289.
+nput line 2294.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BPStatSyst_30_90_1BinsPT.png, id=4759, 598.235pt x 574.145pt>
 File: Figures/Chapter5/BPStatSyst_30_90_1BinsPT.png Graphic file (type png)
 <use Figures/Chapter5/BPStatSyst_30_90_1BinsPT.png>
 Package pdftex.def Info: Figures/Chapter5/BPStatSyst_30_90_1BinsPT.png used on 
-input line 2290.
+input line 2295.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 <Figures/Chapter5/BPStatSyst_0_90_1BinsPT.png, id=4760, 598.235pt x 574.145pt>
@@ -3686,190 +3671,211 @@ File: Figures/Chapter5/BPStatSyst_0_90_1BinsPT.png Graphic file (type png)
 
 <use Figures/Chapter5/BPStatSyst_0_90_1BinsPT.png>
 Package pdftex.def Info: Figures/Chapter5/BPStatSyst_0_90_1BinsPT.png used on i
-nput line 2291.
+nput line 2296.
 (pdftex.def)             Requested size: 138.76157pt x 133.17194pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[241] [242 <./Figures/Chapter5/BsStatSyst_0_90_4BinsPT.png> <./Figures/Chapter5
+/BsStatSyst_0_30_1BinsPT.png> <./Figures/Chapter5/BsStatSyst_30_90_1BinsPT.png>
+ <./Figures/Chapter5/BsStatSyst_0_90_1BinsPT.png>] [243 <./Figures/Chapter5/BPS
+tatSyst_0_90_4BinsPT.png> <./Figures/Chapter5/BPStatSyst_0_30_1BinsPT.png> <./F
+igures/Chapter5/BPStatSyst_30_90_1BinsPT.png> <./Figures/Chapter5/BPStatSyst_0_
+90_1BinsPT.png>] [244
+
+]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[241] [242]
-Underfull \vbox (badness 6364) has occurred while \output is active []
-
- [243]
-Overfull \hbox (10.18767pt too wide) in paragraph at lines 2420--2435
+[245]
+Overfull \hbox (10.18767pt too wide) in paragraph at lines 2426--2441
  [] 
  []
 
 
-Overfull \hbox (12.54881pt too wide) in paragraph at lines 2445--2460
+Overfull \hbox (12.54881pt too wide) in paragraph at lines 2451--2466
  [] 
  []
 
-[244]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 1721) has occurred while \output is active []
+
+ [246]
 <Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_signal_3gaussEffInfoTree
-Fit.pdf, id=4774, 569.12625pt x 546.04pt>
+Fit.pdf, id=4780, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_signal_3gaussEffInf
 oTreeFit.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_signal_3gaussEffInfo
 TreeFit.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_
-signal_3gaussEffInfoTreeFit.pdf used on input line 2484.
+signal_3gaussEffInfoTreeFit.pdf used on input line 2490.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
 
 <Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_signal_fixedEffInfoTreeF
-it.pdf, id=4775, 569.12625pt x 546.04pt>
+it.pdf, id=4781, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_signal_fixedEffInfo
 TreeFit.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_signal_fixedEffInfoT
 reeFit.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_
-signal_fixedEffInfoTreeFit.pdf used on input line 2485.
+signal_fixedEffInfoTreeFit.pdf used on input line 2491.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
 
 <Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_signal_scal+EffInfoTreeF
-it.pdf, id=4776, 569.12625pt x 546.04pt>
+it.pdf, id=4782, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_signal_scal+EffInfo
 TreeFit.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_signal_scal+EffInfoT
 reeFit.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_
-signal_scal+EffInfoTreeFit.pdf used on input line 2486.
+signal_scal+EffInfoTreeFit.pdf used on input line 2492.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
 
 <Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_signal_scal-EffInfoTreeF
-it.pdf, id=4777, 569.12625pt x 546.04pt>
+it.pdf, id=4783, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_signal_scal-EffInfo
 TreeFit.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_signal_scal-EffInfoT
 reeFit.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_
-signal_scal-EffInfoTreeFit.pdf used on input line 2487.
+signal_scal-EffInfoTreeFit.pdf used on input line 2493.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
 
-<Figures/Chapter5/data_PbPb_1_Bpt_2050_3gauss_doubly0_ntKp.pdf, id=4778, 569.12
+<Figures/Chapter5/data_PbPb_1_Bpt_2050_3gauss_doubly0_ntKp.pdf, id=4784, 569.12
 625pt x 546.04pt>
 File: Figures/Chapter5/data_PbPb_1_Bpt_2050_3gauss_doubly0_ntKp.pdf Graphic fil
 e (type pdf)
 
 <use Figures/Chapter5/data_PbPb_1_Bpt_2050_3gauss_doubly0_ntKp.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_Bpt_2050_3gauss_doubly0_n
-tKp.pdf used on input line 2496.
+tKp.pdf used on input line 2502.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
 
-<Figures/Chapter5/data_PbPb_1_Bpt_2050_fixed_doubly0_ntKp.pdf, id=4779, 569.126
+<Figures/Chapter5/data_PbPb_1_Bpt_2050_fixed_doubly0_ntKp.pdf, id=4785, 569.126
 25pt x 546.04pt>
 File: Figures/Chapter5/data_PbPb_1_Bpt_2050_fixed_doubly0_ntKp.pdf Graphic file
  (type pdf)
 
 <use Figures/Chapter5/data_PbPb_1_Bpt_2050_fixed_doubly0_ntKp.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_Bpt_2050_fixed_doubly0_nt
-Kp.pdf used on input line 2497.
+Kp.pdf used on input line 2503.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
 
-<Figures/Chapter5/data_PbPb_1_Bpt_2050_scal+_doubly0_ntKp.pdf, id=4780, 569.126
+<Figures/Chapter5/data_PbPb_1_Bpt_2050_scal+_doubly0_ntKp.pdf, id=4786, 569.126
 25pt x 546.04pt>
 File: Figures/Chapter5/data_PbPb_1_Bpt_2050_scal+_doubly0_ntKp.pdf Graphic file
  (type pdf)
 
 <use Figures/Chapter5/data_PbPb_1_Bpt_2050_scal+_doubly0_ntKp.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_Bpt_2050_scal+_doubly0_nt
-Kp.pdf used on input line 2498.
+Kp.pdf used on input line 2504.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
 
-<Figures/Chapter5/data_PbPb_1_Bpt_2050_scal-_doubly0_ntKp.pdf, id=4781, 569.126
+<Figures/Chapter5/data_PbPb_1_Bpt_2050_scal-_doubly0_ntKp.pdf, id=4787, 569.126
 25pt x 546.04pt>
 File: Figures/Chapter5/data_PbPb_1_Bpt_2050_scal-_doubly0_ntKp.pdf Graphic file
  (type pdf)
 
 <use Figures/Chapter5/data_PbPb_1_Bpt_2050_scal-_doubly0_ntKp.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_Bpt_2050_scal-_doubly0_nt
-Kp.pdf used on input line 2499.
+Kp.pdf used on input line 2505.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
 
-Overfull \hbox (39.24821pt too wide) in paragraph at lines 2512--2527
- [] 
- []
-
-
-Overfull \hbox (41.60936pt too wide) in paragraph at lines 2537--2552
+Overfull \hbox (39.24821pt too wide) in paragraph at lines 2518--2533
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[245]
+
+Overfull \hbox (41.60936pt too wide) in paragraph at lines 2543--2558
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[247] [248 <./Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_signal_3gau
+ssEffInfoTreeFit.pdf, page is rotated 90 degrees> <./Figures/Chapter5/data_PbPb
+_1_BptNew_2050_doubly0_0_90_signal_fixedEffInfoTreeFit.pdf, page is rotated 90 
+degrees> <./Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_signal_scal+E
+ffInfoTreeFit.pdf, page is rotated 90 degrees> <./Figures/Chapter5/data_PbPb_1_
+BptNew_2050_doubly0_0_90_signal_scal-EffInfoTreeFit.pdf, page is rotated 90 deg
+rees>] [249 <./Figures/Chapter5/data_PbPb_1_Bpt_2050_3gauss_doubly0_ntKp.pdf, p
+age is rotated 90 degrees> <./Figures/Chapter5/data_PbPb_1_Bpt_2050_fixed_doubl
+y0_ntKp.pdf, page is rotated 90 degrees> <./Figures/Chapter5/data_PbPb_1_Bpt_20
+50_scal+_doubly0_ntKp.pdf, page is rotated 90 degrees> <./Figures/Chapter5/data
+_PbPb_1_Bpt_2050_scal-_doubly0_ntKp.pdf, page is rotated 90 degrees>]
 <Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_background_1stEffInfoTre
-eFit.pdf, id=4785, 569.12625pt x 546.04pt>
+eFit.pdf, id=5143, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_background_1stEffIn
 foTreeFit.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_background_1stEffInf
 oTreeFit.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_
-background_1stEffInfoTreeFit.pdf used on input line 2566.
+background_1stEffInfoTreeFit.pdf used on input line 2572.
 (pdftex.def)             Requested size: 138.76157pt x 133.13524pt.
 
 <Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_background_2ndEffInfoTre
-eFit.pdf, id=4786, 569.12625pt x 546.04pt>
+eFit.pdf, id=5144, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_background_2ndEffIn
 foTreeFit.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_background_2ndEffInf
 oTreeFit.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_
-background_2ndEffInfoTreeFit.pdf used on input line 2567.
+background_2ndEffInfoTreeFit.pdf used on input line 2573.
 (pdftex.def)             Requested size: 138.76157pt x 133.13524pt.
 
 <Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_background_3rdEffInfoTre
-eFit.pdf, id=4787, 569.12625pt x 546.04pt>
+eFit.pdf, id=5145, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_background_3rdEffIn
 foTreeFit.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_background_3rdEffInf
 oTreeFit.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_
-background_3rdEffInfoTreeFit.pdf used on input line 2568.
+background_3rdEffInfoTreeFit.pdf used on input line 2574.
 (pdftex.def)             Requested size: 138.76157pt x 133.13524pt.
 
-<Figures/Chapter5/data_PbPb_1_Bpt_2050_1st_doubly0_ntKp.pdf, id=4788, 569.12625
+<Figures/Chapter5/data_PbPb_1_Bpt_2050_1st_doubly0_ntKp.pdf, id=5146, 569.12625
 pt x 546.04pt>
 File: Figures/Chapter5/data_PbPb_1_Bpt_2050_1st_doubly0_ntKp.pdf Graphic file (
 type pdf)
 
 <use Figures/Chapter5/data_PbPb_1_Bpt_2050_1st_doubly0_ntKp.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_Bpt_2050_1st_doubly0_ntKp
-.pdf used on input line 2577.
+.pdf used on input line 2583.
 (pdftex.def)             Requested size: 138.76157pt x 133.13524pt.
 
-<Figures/Chapter5/data_PbPb_1_Bpt_2050_2nd_doubly0_ntKp.pdf, id=4789, 569.12625
+<Figures/Chapter5/data_PbPb_1_Bpt_2050_2nd_doubly0_ntKp.pdf, id=5147, 569.12625
 pt x 546.04pt>
 File: Figures/Chapter5/data_PbPb_1_Bpt_2050_2nd_doubly0_ntKp.pdf Graphic file (
 type pdf)
 
 <use Figures/Chapter5/data_PbPb_1_Bpt_2050_2nd_doubly0_ntKp.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_Bpt_2050_2nd_doubly0_ntKp
-.pdf used on input line 2578.
+.pdf used on input line 2584.
 (pdftex.def)             Requested size: 138.76157pt x 133.13524pt.
 
-<Figures/Chapter5/data_PbPb_1_Bpt_2050_3rd_doubly0_ntKp.pdf, id=4790, 569.12625
+<Figures/Chapter5/data_PbPb_1_Bpt_2050_3rd_doubly0_ntKp.pdf, id=5148, 569.12625
 pt x 546.04pt>
 File: Figures/Chapter5/data_PbPb_1_Bpt_2050_3rd_doubly0_ntKp.pdf Graphic file (
 type pdf)
 
 <use Figures/Chapter5/data_PbPb_1_Bpt_2050_3rd_doubly0_ntKp.pdf>
 Package pdftex.def Info: Figures/Chapter5/data_PbPb_1_Bpt_2050_3rd_doubly0_ntKp
-.pdf used on input line 2579.
+.pdf used on input line 2585.
 (pdftex.def)             Requested size: 138.76157pt x 133.13524pt.
 
 
@@ -3878,8 +3884,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Overfull \hbox (3.93031pt too wide) in paragraph at lines 2648--2663
+[250] [251 <./Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_background_
+1stEffInfoTreeFit.pdf, page is rotated 90 degrees> <./Figures/Chapter5/data_PbP
+b_1_BptNew_2050_doubly0_0_90_background_2ndEffInfoTreeFit.pdf, page is rotated 
+90 degrees> <./Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_background
+_3rdEffInfoTreeFit.pdf, page is rotated 90 degrees> <./Figures/Chapter5/data_Pb
+Pb_1_Bpt_2050_1st_doubly0_ntKp.pdf, page is rotated 90 degrees> <./Figures/Chap
+ter5/data_PbPb_1_Bpt_2050_2nd_doubly0_ntKp.pdf, page is rotated 90 degrees> <./
+Figures/Chapter5/data_PbPb_1_Bpt_2050_3rd_doubly0_ntKp.pdf, page is rotated 90 
+degrees>]
+Overfull \hbox (3.93031pt too wide) in paragraph at lines 2654--2669
  [] 
  []
 
@@ -3887,7 +3901,7 @@ Overfull \hbox (3.93031pt too wide) in paragraph at lines 2648--2663
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (6.29146pt too wide) in paragraph at lines 2673--2688
+Overfull \hbox (6.29146pt too wide) in paragraph at lines 2679--2694
  [] 
  []
 
@@ -3895,10 +3909,6 @@ Overfull \hbox (6.29146pt too wide) in paragraph at lines 2673--2688
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [246]
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
@@ -3910,166 +3920,144 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/Chapter5/BsPtSyst.pdf, id=4794, 569.12625pt x 546.04pt>
+[252] [253] [254] [255]
+<Figures/Chapter5/BsPtSyst.pdf, id=5428, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/BsPtSyst.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/BsPtSyst.pdf>
-Package pdftex.def Info: Figures/Chapter5/BsPtSyst.pdf used on input line 2816.
+Package pdftex.def Info: Figures/Chapter5/BsPtSyst.pdf used on input line 2824.
 
 (pdftex.def)             Requested size: 138.76157pt x 133.13524pt.
 
-<Figures/Chapter5/BsCentSyst.pdf, id=4795, 569.12625pt x 546.04pt>
+<Figures/Chapter5/BsCentSyst.pdf, id=5429, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/BsCentSyst.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/BsCentSyst.pdf>
-Package pdftex.def Info: Figures/Chapter5/BsCentSyst.pdf used on input line 281
-7.
+Package pdftex.def Info: Figures/Chapter5/BsCentSyst.pdf used on input line 282
+5.
 (pdftex.def)             Requested size: 138.76157pt x 133.13524pt.
 
-<Figures/Chapter5/BsIncSyst.pdf, id=4796, 569.12625pt x 546.04pt>
+<Figures/Chapter5/BsIncSyst.pdf, id=5430, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/BsIncSyst.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/BsIncSyst.pdf>
-Package pdftex.def Info: Figures/Chapter5/BsIncSyst.pdf used on input line 2818
+Package pdftex.def Info: Figures/Chapter5/BsIncSyst.pdf used on input line 2826
 .
 (pdftex.def)             Requested size: 138.76157pt x 133.13524pt.
 
-<Figures/Chapter5/BpPtSyst.pdf, id=4797, 569.12625pt x 546.04pt>
+<Figures/Chapter5/BpPtSyst.pdf, id=5431, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/BpPtSyst.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/BpPtSyst.pdf>
-Package pdftex.def Info: Figures/Chapter5/BpPtSyst.pdf used on input line 2826.
+Package pdftex.def Info: Figures/Chapter5/BpPtSyst.pdf used on input line 2834.
 
 (pdftex.def)             Requested size: 138.76157pt x 133.13524pt.
 
-<Figures/Chapter5/BpCentSyst.pdf, id=4798, 569.12625pt x 546.04pt>
+<Figures/Chapter5/BpCentSyst.pdf, id=5432, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/BpCentSyst.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/BpCentSyst.pdf>
-Package pdftex.def Info: Figures/Chapter5/BpCentSyst.pdf used on input line 282
-7.
+Package pdftex.def Info: Figures/Chapter5/BpCentSyst.pdf used on input line 283
+5.
 (pdftex.def)             Requested size: 138.76157pt x 133.13524pt.
 
-<Figures/Chapter5/BpIncSyst.pdf, id=4799, 569.12625pt x 546.04pt>
+<Figures/Chapter5/BpIncSyst.pdf, id=5433, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/BpIncSyst.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/BpIncSyst.pdf>
-Package pdftex.def Info: Figures/Chapter5/BpIncSyst.pdf used on input line 2828
+Package pdftex.def Info: Figures/Chapter5/BpIncSyst.pdf used on input line 2836
 .
 (pdftex.def)             Requested size: 138.76157pt x 133.13524pt.
- [247] [248] [249 <./Figures/Chapter5/BsStatSyst_0_90_4BinsPT.png> <./Figures/C
-hapter5/BsStatSyst_0_30_1BinsPT.png> <./Figures/Chapter5/BsStatSyst_30_90_1Bins
-PT.png> <./Figures/Chapter5/BsStatSyst_0_90_1BinsPT.png>] [250 <./Figures/Chapt
-er5/BPStatSyst_0_90_4BinsPT.png> <./Figures/Chapter5/BPStatSyst_0_30_1BinsPT.pn
-g> <./Figures/Chapter5/BPStatSyst_30_90_1BinsPT.png> <./Figures/Chapter5/BPStat
-Syst_0_90_1BinsPT.png>] [251 <./Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly
-0_0_90_signal_3gaussEffInfoTreeFit.pdf, page is rotated 90 degrees> <./Figures/
-Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_signal_fixedEffInfoTreeFit.pdf, p
-age is rotated 90 degrees> <./Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_
-0_90_signal_scal+EffInfoTreeFit.pdf, page is rotated 90 degrees> <./Figures/Cha
-pter5/data_PbPb_1_BptNew_2050_doubly0_0_90_signal_scal-EffInfoTreeFit.pdf, page
- is rotated 90 degrees>] [252 <./Figures/Chapter5/data_PbPb_1_Bpt_2050_3gauss_d
-oubly0_ntKp.pdf, page is rotated 90 degrees> <./Figures/Chapter5/data_PbPb_1_Bp
-t_2050_fixed_doubly0_ntKp.pdf, page is rotated 90 degrees> <./Figures/Chapter5/
-data_PbPb_1_Bpt_2050_scal+_doubly0_ntKp.pdf, page is rotated 90 degrees> <./Fig
-ures/Chapter5/data_PbPb_1_Bpt_2050_scal-_doubly0_ntKp.pdf, page is rotated 90 d
-egrees>] [253 <./Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_backgrou
-nd_1stEffInfoTreeFit.pdf, page is rotated 90 degrees> <./Figures/Chapter5/data_
-PbPb_1_BptNew_2050_doubly0_0_90_background_2ndEffInfoTreeFit.pdf, page is rotat
-ed 90 degrees> <./Figures/Chapter5/data_PbPb_1_BptNew_2050_doubly0_0_90_backgro
-und_3rdEffInfoTreeFit.pdf, page is rotated 90 degrees> <./Figures/Chapter5/data
-_PbPb_1_Bpt_2050_1st_doubly0_ntKp.pdf, page is rotated 90 degrees> <./Figures/C
-hapter5/data_PbPb_1_Bpt_2050_2nd_doubly0_ntKp.pdf, page is rotated 90 degrees> 
-<./Figures/Chapter5/data_PbPb_1_Bpt_2050_3rd_doubly0_ntKp.pdf, page is rotated 
-90 degrees> <./Figures/Chapter5/BsPtSyst.pdf, page is rotated 90 degrees> <./Fi
-gures/Chapter5/BsCentSyst.pdf, page is rotated 90 degrees> <./Figures/Chapter5/
-BsIncSyst.pdf, page is rotated 90 degrees>] [254] [255 <./Figures/Chapter5/BpPt
-Syst.pdf, page is rotated 90 degrees> <./Figures/Chapter5/BpCentSyst.pdf, page 
-is rotated 90 degrees> <./Figures/Chapter5/BpIncSyst.pdf, page is rotated 90 de
-grees>]
-<Figures/Chapter5/xsec_vsPt.pdf, id=5693, 569.12625pt x 546.04pt>
+ [256
+
+ <./Figures/Chapter5/BsPtSyst.pdf, page is rotated 90 degrees> <./Figures/Chapt
+er5/BsCentSyst.pdf, page is rotated 90 degrees> <./Figures/Chapter5/BsIncSyst.p
+df, page is rotated 90 degrees> <./Figures/Chapter5/BpPtSyst.pdf, page is rotat
+ed 90 degrees> <./Figures/Chapter5/BpCentSyst.pdf, page is rotated 90 degrees> 
+<./Figures/Chapter5/BpIncSyst.pdf, page is rotated 90 degrees>]
+<Figures/Chapter5/xsec_vsPt.pdf, id=5696, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/xsec_vsPt.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/xsec_vsPt.pdf>
-Package pdftex.def Info: Figures/Chapter5/xsec_vsPt.pdf used on input line 2848
+Package pdftex.def Info: Figures/Chapter5/xsec_vsPt.pdf used on input line 2856
 .
 (pdftex.def)             Requested size: 303.53267pt x 291.23283pt.
 
-Overfull \hbox (85.79576pt too wide) in paragraph at lines 2861--2873
+Overfull \hbox (85.79576pt too wide) in paragraph at lines 2869--2881
  [] 
  []
 
 
-Overfull \hbox (85.79576pt too wide) in paragraph at lines 2882--2894
+Overfull \hbox (85.79576pt too wide) in paragraph at lines 2890--2902
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[256
+[257
 
-] [257 <./Figures/Chapter5/xsec_vsPt.pdf, page is rotated 90 degrees>]
-<Figures/Chapter5/xsec_vsCent.pdf, id=5743, 569.12625pt x 546.04pt>
+] [258 <./Figures/Chapter5/xsec_vsPt.pdf, page is rotated 90 degrees>]
+<Figures/Chapter5/xsec_vsCent.pdf, id=5746, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/xsec_vsCent.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/xsec_vsCent.pdf>
 Package pdftex.def Info: Figures/Chapter5/xsec_vsCent.pdf used on input line 29
-06.
+14.
 (pdftex.def)             Requested size: 303.53267pt x 291.23283pt.
 
-Overfull \hbox (34.86926pt too wide) in paragraph at lines 2922--2933
+Overfull \hbox (34.86926pt too wide) in paragraph at lines 2930--2941
  [] 
  []
 
 
-Overfull \hbox (34.86926pt too wide) in paragraph at lines 2942--2953
+Overfull \hbox (34.86926pt too wide) in paragraph at lines 2950--2961
  [] 
  []
 
-[258] [259 <./Figures/Chapter5/xsec_vsCent.pdf, page is rotated 90 degrees>]
-<Figures/Chapter5/ratio_vsPt_ref0_0.pdf, id=5794, 569.12625pt x 546.04pt>
+[259] [260 <./Figures/Chapter5/xsec_vsCent.pdf, page is rotated 90 degrees>]
+<Figures/Chapter5/ratio_vsPt_ref0_0.pdf, id=5797, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/ratio_vsPt_ref0_0.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/ratio_vsPt_ref0_0.pdf>
 Package pdftex.def Info: Figures/Chapter5/ratio_vsPt_ref0_0.pdf used on input l
-ine 2975.
+ine 2983.
 (pdftex.def)             Requested size: 303.53267pt x 291.23283pt.
 
-Overfull \hbox (89.85936pt too wide) in paragraph at lines 2989--3001
+Overfull \hbox (89.85936pt too wide) in paragraph at lines 2997--3009
  [] 
  []
 
-[260] [261 <./Figures/Chapter5/ratio_vsPt_ref0_0.pdf, page is rotated 90 degree
-s>] <Figures/Chapter5/ratio_vsCent_ref0.pdf, id=5844, 569.12625pt x 546.04pt>
+[261] [262 <./Figures/Chapter5/ratio_vsPt_ref0_0.pdf, page is rotated 90 degree
+s>] <Figures/Chapter5/ratio_vsCent_ref0.pdf, id=5847, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/ratio_vsCent_ref0.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/ratio_vsCent_ref0.pdf>
 Package pdftex.def Info: Figures/Chapter5/ratio_vsCent_ref0.pdf used on input l
-ine 3012.
+ine 3020.
 (pdftex.def)             Requested size: 303.53267pt x 291.23283pt.
 
-<Figures/Chapter5/2018Comp2015.pdf, id=5845, 569.12625pt x 546.04pt>
+<Figures/Chapter5/2018Comp2015.pdf, id=5848, 569.12625pt x 546.04pt>
 File: Figures/Chapter5/2018Comp2015.pdf Graphic file (type pdf)
 
 <use Figures/Chapter5/2018Comp2015.pdf>
 Package pdftex.def Info: Figures/Chapter5/2018Comp2015.pdf used on input line 3
-046.
+054.
 (pdftex.def)             Requested size: 303.53267pt x 291.23283pt.
- [262
+ [263
 
- <./Figures/Chapter5/ratio_vsCent_ref0.pdf, page is rotated 90 degrees>] [263 <
-./Figures/Chapter5/2018Comp2015.pdf, page is rotated 90 degrees>]) [264]
+ <./Figures/Chapter5/ratio_vsCent_ref0.pdf, page is rotated 90 degrees>] [264 <
+./Figures/Chapter5/2018Comp2015.pdf, page is rotated 90 degrees>]) [265]
 \openout2 = `chap6.aux'.
 
- (./chap6.tex
-Chapter 6.
-[265
+ (./chap6.tex [266
 
 
 
 ]
-<Figures/Chapter6/ratio_vsPt_ref1_1.pdf, id=5946, 569.12625pt x 546.04pt>
+Chapter 6.
+[267]
+<Figures/Chapter6/ratio_vsPt_ref1_1.pdf, id=5952, 569.12625pt x 546.04pt>
 File: Figures/Chapter6/ratio_vsPt_ref1_1.pdf Graphic file (type pdf)
 
 <use Figures/Chapter6/ratio_vsPt_ref1_1.pdf>
@@ -4077,7 +4065,7 @@ Package pdftex.def Info: Figures/Chapter6/ratio_vsPt_ref1_1.pdf used on input l
 ine 26.
 (pdftex.def)             Requested size: 208.13574pt x 199.69037pt.
 
-<Figures/Chapter6/ratio_vsCent_ref1.pdf, id=5947, 569.12625pt x 546.04pt>
+<Figures/Chapter6/ratio_vsCent_ref1.pdf, id=5953, 569.12625pt x 546.04pt>
 File: Figures/Chapter6/ratio_vsCent_ref1.pdf Graphic file (type pdf)
 
 <use Figures/Chapter6/ratio_vsCent_ref1.pdf>
@@ -4087,60 +4075,60 @@ ine 27.
 
 Underfull \vbox (badness 6927) has occurred while \output is active []
 
- [266 <./Figures/Chapter6/ratio_vsPt_ref1_1.pdf, page is rotated 90 degrees> <.
+ [268 <./Figures/Chapter6/ratio_vsPt_ref1_1.pdf, page is rotated 90 degrees> <.
 /Figures/Chapter6/ratio_vsCent_ref1.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 1552) has occurred while \output is active []
 
- [267]
-[268]
+ [269]
+[270]
 Underfull \vbox (badness 6078) has occurred while \output is active []
 
- [269]
-<Figures/Chapter6/BPLow.pdf, id=6046, 569.12625pt x 546.04pt>
+ [271]
+<Figures/Chapter6/BPLow.pdf, id=6053, 569.12625pt x 546.04pt>
 File: Figures/Chapter6/BPLow.pdf Graphic file (type pdf)
 
 <use Figures/Chapter6/BPLow.pdf>
 Package pdftex.def Info: Figures/Chapter6/BPLow.pdf used on input line 106.
 (pdftex.def)             Requested size: 260.17464pt x 249.63171pt.
 
-<Figures/Chapter6/BZLow.pdf, id=6047, 569.12625pt x 546.04pt>
+<Figures/Chapter6/BZLow.pdf, id=6054, 569.12625pt x 546.04pt>
 File: Figures/Chapter6/BZLow.pdf Graphic file (type pdf)
 
 <use Figures/Chapter6/BZLow.pdf>
 Package pdftex.def Info: Figures/Chapter6/BZLow.pdf used on input line 114.
 (pdftex.def)             Requested size: 260.17464pt x 249.63171pt.
 
-<Figures/Chapter6/BsLow.pdf, id=6048, 569.12625pt x 546.04pt>
+<Figures/Chapter6/BsLow.pdf, id=6055, 569.12625pt x 546.04pt>
 File: Figures/Chapter6/BsLow.pdf Graphic file (type pdf)
 
 <use Figures/Chapter6/BsLow.pdf>
 Package pdftex.def Info: Figures/Chapter6/BsLow.pdf used on input line 122.
 (pdftex.def)             Requested size: 260.17464pt x 249.63171pt.
- [270 <./Figures/Chapter6/BPLow.pdf, page is rotated 90 degrees>] [271 <./Figur
-es/Chapter6/BZLow.pdf, page is rotated 90 degrees>] [272 <./Figures/Chapter6/Bs
-Low.pdf, page is rotated 90 degrees>]) [273]
+ [272 <./Figures/Chapter6/BPLow.pdf, page is rotated 90 degrees>] [273 <./Figur
+es/Chapter6/BZLow.pdf, page is rotated 90 degrees>] [274 <./Figures/Chapter6/Bs
+Low.pdf, page is rotated 90 degrees>]) [275]
 \openout2 = `biblio.aux'.
 
 
-(./biblio.tex [274
+(./biblio.tex [276
 
 
 
-] [275] [276] [277] [278] [279]
+] [277] [278] [279] [280] [281]
 Underfull \hbox (badness 1728) in paragraph at lines 141--142
 []\T1/cmr/m/n/12 B. B. Back, ``Stud-ies of mul-ti-plic-ity in rel-a-tivis-tic h
 eavy-ion col-li-sions'',
  []
 
-[280] [281] [282] [283] [284] [285] [286] [287] [288]
+[282] [283] [284] [285] [286] [287] [288] [289] [290]
 Underfull \hbox (badness 6188) in paragraph at lines 337--338
 []\T1/cmr/m/n/12 A. Penzo and Y. Onel, ``The CMS-HF quartz fiber calorime-ters'
 ',
  []
 
-[289] [290] [291]
+[291] [292] [293]
 No file main.bbl.
-) [292] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+) [294] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
 (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./biblio.aux))
 
 LaTeX Warning: There were multiply-defined labels.
@@ -4149,8 +4137,8 @@ LaTeX Warning: There were multiply-defined labels.
 (\end occurred when \ifx on line 59 was incomplete) 
 Here is how much of TeX's memory you used:
  5646 strings out of 493089
- 117467 string characters out of 6134842
- 170119 words of memory out of 5000000
+ 117455 string characters out of 6134842
+ 157475 words of memory out of 5000000
  8568 multiletter control sequences out of 15000+600000
  24964 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -4188,10 +4176,10 @@ b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
 usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
-Output written on main.pdf (292 pages, 23068382 bytes).
+Output written on main.pdf (294 pages, 23070824 bytes).
 PDF statistics:
- 6360 PDF objects out of 7423 (max. 8388607)
- 3038 compressed objects within 31 object streams
+ 6366 PDF objects out of 7423 (max. 8388607)
+ 3042 compressed objects within 31 object streams
  0 named destinations out of 1000 (max. 500000)
  1671 words of extra memory for PDF output out of 10000 (max. 10000000)
 
