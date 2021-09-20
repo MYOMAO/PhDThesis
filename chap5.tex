@@ -8,7 +8,7 @@
 
 \section{Analysis Tools}
 
-In this thesis, the analysis tools include Macbook computers, MIT and CERN high-performance computing facilities, Linux shell script, C++ programing language, and ROOT analysis package for high-energy physics experiments. The machines performing the analysis includes CERN lxplus, MIT Tier-2 submit, and MITHIG Grendel machine. Data files are saved in ROOT files format. Data samples are processed using the crab job submission framework at CERN lxplus system. Analysis jobs are submitted to MIT Tier-2 HTCondor parallel computing system. The core software for data processing is the CMS software (CMSSW\_10\_3\_4). The software for the analysis has been documented on Github and Gitlab. Throughout the analysis, I use the Poisson Statistics model to describe the statistical uncertainties of the data. In the limit of high statistics, it is approximately equivalent to the Gaussian Statistics. These tools are crucial for me to finish the analysis and report the results.
+In this thesis, the analysis tools include MacBook computers, MIT and CERN high-performance computing facilities, Linux shell script, C++ programing language, and ROOT analysis package for high-energy physics experiments. The machines performing the analysis includes CERN lxplus, MIT Tier-2 submit, and MITHIG Grendel machine. Data files are saved in ROOT files format. Data samples are processed using the crab job submission framework at CERN lxplus system. Analysis jobs are submitted to MIT Tier-2 HTCondor parallel computing system. The core software for data processing is the CMS software (CMSSW\_10\_3\_4). The software for the analysis has been documented on Github and Gitlab. Throughout the analysis, I use the Poisson Statistics model to describe the statistical uncertainties of the data. In the limit of high statistics, it is approximately equivalent to the Gaussian Statistics. These tools are crucial for me to finish the analysis and report the results.
 
 \section{Analysis Strategies}
 
@@ -126,7 +126,7 @@ Then, we also check if these smooth B-meson generated $p_T$ shapes in fact corre
 \includegraphics[width= 0.97\textwidth]{Figures/Chapter5/BsBptDataMC.png}
 %\includegraphics[width= 0.55\textwidth]{Figures/Chapter5/BsBptDataMCAfter.png}
 %\caption{ $B^0_s$ $p_T$ normalized raw yields obtained in PbPb MC and Data are shown above on the top left panel. The data/MC ratio and different fitting functions: Linear (Red), Quadratic(Green), Linear + Inverse (Blue), Linear + Square Root (Purple), and Linear + Log (Cyan) and their $\chi^2$ are shown above on the top right panel. The bottom plots are the data/MC reweighed yields with different functions from the fit on the top right panel. We can see that they all get closer to unity compared unweighted MC. The Linear + Log (Cyan) line, which has the smallest $\chi^2$ and is closest to unity after applying the weight to the MC. Hence, Linear + Log function is use as nominal for our $B^0_s$ $p_{T}$ reweighing. All other fitting function are used as reference to calculate the $p_T$ shape systematic uncertainties.}
-\caption{ $B^0_s$ $p_T$ normalized raw yields obtained in PbPb MC and Data are shown above on the top left panel. The data/MC ratio and different fitting functions: Linear (Red), Quadratic(Green), Linear + Inverse (Blue), Linear + Square Root (Purple), and Linear + Log (Cyan) and their $\chi^2$ are shown above on the top right panel. The bottom plots are the data/MC reweighed yields with different functions from the fit on the top right panel.}
+\caption{ $B^0_s$ $p_T$ normalized raw yields obtained in PbPb MC and Data are shown above on the top left panel. The data/MC ratio and different fitting functions: Linear (Red), Quadratic (Green), Linear + Inverse (Blue), Linear + Square Root (Purple), and Linear + Log (Cyan) and their $\chi^2$ are shown above on the top right panel. The bottom plots are the data/MC reweighed yields with different functions from the fit on the top right panel.}
 \label{BsBptWeight}
 \end{center}
 \end{figure}
@@ -387,7 +387,7 @@ Nevertheless, the event multiplicity is not used in B-meson analysis of the PbPb
 
 \section{B-meson Reconstruction} 
 
-Now we look into each event of the PbPb dimuon dataset. It turns out that there is no PU in any event, which means that there is only one primary vertex for each PbPb event. We can then reconstruct the B-meson candidates according to the final state muons and kaons tracks. In CMS, a dedicated software named ``\textit{Bfinder}'' is developed to perform B-meson reconstruction. Figure \ref{BsRECOWF} and Figure \ref{BPRECOWF} show the workflow to fully reconstruct \textit{Bfinder} for $B^0_s$ and $B^+$ respectfully.
+Now we look into each event of the PbPb dimuon dataset. It turns out that there is no PU in any event, which means that there is only one primary vertex for each PbPb event. We can then reconstruct the B-meson candidates according to the final state muons and kaons tracks. In CMS, dedicated software named ``\textit{Bfinder}'' is developed to perform B-meson reconstruction. Figure \ref{BsRECOWF} and Figure \ref{BPRECOWF} show the workflow to fully reconstruct \textit{Bfinder} for $B^0_s$ and $B^+$ respectfully.
 
 
 \begin{figure}[h]
@@ -769,7 +769,7 @@ To determine the signal $S$, we do not directly look at the data. Instead, we us
 S = 2 R_{AA}^{2015Ref} L \sigma_{FONLL}^{pp\rightarrow b\bar b} \epsilon_{pre} \epsilon_{S} f(b\rightarrow B) BR
 \end{equation}
 
-We know that since $B^+$ is more abundantly produced with large reconstructed efficiency since it has only one kaon track compared to $B^0_s$. Therefore, the $B^0_s$ signal statistics is more limited. Table \ref{BsSBCal} summarizes our calculations of $B^0_s$ $S$, $B$, and $S/B$ after the event, track, and muon pre-selections.  
+We know that since $B^+$ is more abundantly produced with large reconstructed efficiency since it has only one kaon track compared to $B^0_s$. Therefore, the $B^0_s$ signal statistics is more limited. Table \ref{BsSBCal} summarizes our calculations of $B^0_s$ $S$, $B$, and $S/B$ after the event, track, and muon preselections.  
 
 
 \begin{table}[h]
@@ -1040,7 +1040,7 @@ To obtain the signal raw yields and their statistical uncertainties from $B^0_s$
 \item First, a fit is performed, with a double Gaussian function to the MC invariant mass distribution of the genuine B-meson signals.
 \item For $B^+$, the shape of the NP background component is obtained using the dedicated NP $J/\psi$ MC samples.
 \item The fit is performed to the data with the fixed shapes (widths and relative proportion of the two Gaussians) same with the Gaussians obtained from the MC fit.
-\item For systematic uncertainty check, add a free parameter ($a$), which is commonly multiplied by the widths of the signal Gaussians, serving as a scale factor of the resolution that parametrizes data and MC signal shape difference. However, in the nominal fit, this is set to be unity ($a = 1$), which means the widths of the data signal are set to be identical to the ones of the MC signal.
+\item For systematic uncertainty check, add a free parameter ($a$), which is commonly multiplied by the widths of the signal Gaussians, serving as a scale factor of the resolution that parametrizes the difference between data and MC signal shapes. However, in the nominal fit, this is set to be unity ($a = 1$), which means the widths of the data signal are set to be identical to the ones of the MC signal.
 \item The parameters of the background PDF and the mean of the signal Gaussians are the free parameters of the fit.
 \end{itemize}
 
@@ -1222,7 +1222,7 @@ Ideally, if the simulation is impeccable, the RECO distribution in the MC should
 
 \subsection{\textbf{Splot} Techniques}
 
-To carry out MC-Data comparison studies, a dedicated \textit{Splot} method is used. It is a likelihood-based method by which we reweigh the data using the unbinned fit results. The weights are added to the dataset based on models and yield extraction variables. Each event has two weights: the probability of belonging to the signal given its mass and probability of belonging to the background given its mass. The \textit{Splot} class gives us the distributions of our variables for given species (signal or background). The advantage of using this method is that we use the full dataset for the comparison in contrast to the sideband subtraction method where one should select the investigation range of signal and background. Furthermore, we use likelihood to describe the behavior of the events in contrast to the potential misidentification of signal events in the background region which might occur in the sideband subtraction method. 
+To carry out MC-Data comparison studies, a dedicated \textit{Splot} method is used. It is a likelihood-based method by which we reweigh the data using the unbinned fit results. The weights are added to the dataset based on models and yield extraction variables. Each event has two weights: the probability of belonging to the signal given its mass and probability of belonging to the background given its mass. The \textit{Splot} class gives us the distributions of our variables for given species (signal or background). The advantage of using this method is that we use the full dataset for the comparison in contrast to the sideband subtraction method where one should select the investigation range of signal and background. Furthermore, we use likelihood to describe the behavior of the events in contrast to the potential misidentification of signal events in the background region that might occur in the sideband subtraction method. 
 
 %ADD DESCRIPTIONS OF SPLOT TECHNIQUE HERE BRO
 
@@ -1890,7 +1890,7 @@ Finally, we will validate the efficiency correction factor $\langle \frac{1}{\al
 \end{center}
 \end{figure}
 
-We can see that most of the candidates are either background-like (near 0) and signal-like (near 1). But some candidates are in between. Hence, the \textit{Splot} weighted efficiency correction factor $\langle\frac{1}{\alpha \times \epsilon} \rangle'$ is given by
+We can see that most of the candidates are either background-like (near 0) or signal-like (near 1). But some candidates are in between. Hence, the \textit{Splot} weighted efficiency correction factor $\langle\frac{1}{\alpha \times \epsilon} \rangle'$ is given by
 
 \begin{equation}
 \langle\frac{1}{\alpha \times \epsilon} \rangle' = \frac{\sum_{i = 1}^{N} \frac{w^S_i}{\alpha_i \times \epsilon_i}}{\sum_{i = 1}^{N}  w^S_i}
@@ -2906,7 +2906,7 @@ We should again point out that for the $p_T$ bin from 7 - 10 GeV/c, the measurem
 
 
 
-Figure \ref{BmesonDataCent} shows $B^0_s$ and $B^+$ $p_T$ integrated cross section as a function of average number of participants $\langle N_{part}\rangle$, with the correspondending PbPb collision centralities labeled in the plot
+Figure \ref{BmesonDataCent} shows $B^0_s$ and $B^+$ $p_T$ integrated cross section as a function of average number of participants $\langle N_{part}\rangle$, with the corresponding PbPb collision centralities labeled in the plot
  
 
 \begin{figure}[hbtp]
@@ -2972,7 +2972,7 @@ It also should note that this is the first centrality differential measurement o
 
 \subsection{$B^0_s/B^{+}$ Ratios}
 
-Since we have measured the $B^0_s$ and $B^+$ cross section, the next step is to obtain their ratio, which is an experimental observable to study beauty hadronization mechanism as mentioned in Section 1.8.4. We should note that when we take the ratio between $B^0_s$ to $B^+$, the systematic uncertainties of $T_{AA}$ and $N_{MB}$ will be canceled. Also, the systematic uncertainties of tracking efficiency are reduced to 5\% instead of adding into quadrature. Finally, the systematic uncertainties of muon efficiency are treated as perfectly correlated. This means we both vary the $B^0_s$ and $B^+$ cross sections with the muon efficiency systematics up and down and compute the ratios. Then, we calculate the percent deviations of up and down variated $B^0_s/B^+$ to the nominal $B^0_s/B^+$ and quote those numbers as the systematic uncertainties. Other sources of systematic uncertainties in $B^0_s$ and $B^+$ cross sections are added into quadrature for $B^0_s/B^+$ ratio. 
+Since we have measured the $B^0_s$ and $B^+$ cross section, the next step is to obtain their ratio, which is an experimental observable to study beauty hadronization mechanism as mentioned in Section 1.8.4. We should note that when we take the ratio between $B^0_s$ to $B^+$, the systematic uncertainties of $T_{AA}$ and $N_{MB}$ will be cancelled. Also, the systematic uncertainties of tracking efficiency are reduced to 5\% instead of adding into quadrature. Finally, the systematic uncertainties of muon efficiency are treated as perfectly correlated. This means we both vary the $B^0_s$ and $B^+$ cross sections with the muon efficiency systematics up and down and compute the ratios. Then, we calculate the percent deviations of up and down variated $B^0_s/B^+$ to the nominal $B^0_s/B^+$ and quote those numbers as the systematic uncertainties. Other sources of systematic uncertainties in $B^0_s$ and $B^+$ cross sections are added into quadrature for $B^0_s/B^+$ ratio. 
 
 Figure \ref{BsBPPtDataONLY} shows the $B^0_s/B^+$ ratio as a function of B-meson $p_T$
 
